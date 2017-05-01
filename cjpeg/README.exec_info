@@ -1,0 +1,4 @@
+
+Command line for baseline execution:
+	cjpeg -dct int -quality 13 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm
+

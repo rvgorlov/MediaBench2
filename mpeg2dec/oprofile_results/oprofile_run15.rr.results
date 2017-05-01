@@ -1,0 +1,13 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+20       17.2414  mpeg2decode              store_ppm_tga
+19       16.3793  mpeg2decode              conv422to444
+18       15.5172  mpeg2decode              conv420to422
+16       13.7931  mpeg2decode              Fast_IDCT
+12       10.3448  mpeg2decode              Decode_Picture
+12       10.3448  mpeg2decode              putbyte
+11        9.4828  mpeg2decode              Clear_Block
+4         3.4483  mpeg2decode              form_component_prediction
+3         2.5862  no-vmlinux               (no symbols)
+1         0.8621  mpeg2decode              Get_Bits

@@ -1,0 +1,6 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+3        60.0000  no-vmlinux               (no symbols)
+1        20.0000  djpeg                    keymatch
+1        20.0000  djpeg                    ycc_rgb_convert

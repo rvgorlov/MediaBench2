@@ -1,0 +1,34 @@
+
+Statistics per run (over 30 runs) of the number of times each procedure was sampled OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  cjpeg                 compress_data                                     0.03           0.000    [     0.033,      0.033]
+  cjpeg                 encode_mcu_huff                                   1.00           0.000    [     1.000,      1.000]
+  cjpeg                 forward_DCT                                       1.60           0.000    [     1.600,      1.600]
+  cjpeg                 h2v2_downsample                                   0.17           0.000    [     0.167,      0.167]
+  cjpeg                 jpeg_fdct_islow                                   2.00           1.000    [     1.642,      2.358]
+  cjpeg                 rgb_ycc_convert                                   1.67           1.000    [     1.309,      2.025]
+  libc-2.3.5.so         _IO_sgetn                                         0.03           0.000    [     0.033,      0.033]
+  libc-2.3.5.so         memcpy                                            0.13           0.000    [     0.133,      0.133]
+  libc-2.3.5.so         mempcpy                                           0.03           0.000    [     0.033,      0.033]
+  no-vmlinux            (no symbols)                                      0.57           0.000    [     0.567,      0.567]
+
+Statistics per run (over 30 runs) of the percentage of execution time spent in each procedure, as measured by OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  cjpeg                 compress_data                                    0.46%          0.000%    [    0.461%,     0.461%]
+  cjpeg                 encode_mcu_huff                                 13.82%          0.000%    [   13.825%,    13.825%]
+  cjpeg                 forward_DCT                                     22.12%          0.000%    [   22.120%,    22.120%]
+  cjpeg                 h2v2_downsample                                  2.30%          0.000%    [    2.304%,     2.304%]
+  cjpeg                 jpeg_fdct_islow                                 27.65%         13.825%    [   22.703%,    32.597%]
+  cjpeg                 rgb_ycc_convert                                 23.04%         13.825%    [   18.094%,    27.989%]
+  libc-2.3.5.so         _IO_sgetn                                        0.46%          0.000%    [    0.461%,     0.461%]
+  libc-2.3.5.so         memcpy                                           1.84%          0.000%    [    1.843%,     1.843%]
+  libc-2.3.5.so         mempcpy                                          0.46%          0.000%    [    0.461%,     0.461%]
+  no-vmlinux            (no symbols)                                     7.83%          0.000%    [    7.834%,     7.834%]
+
+Total Samples per run (over 30 runs):
+                                                                       Average         Std Dev    95% Confidence Interval
+                                                                       -------         -------    -----------------------
+  total_samples                                                           7.23           1.414    [     6.727,      7.739]
+

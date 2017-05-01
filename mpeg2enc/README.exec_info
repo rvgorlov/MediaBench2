@@ -1,0 +1,4 @@
+
+Command line for baseline execution:
+	mpeg2enc input_base_4CIF_96bps_15.par output_base_4CIF_96bps_15.mpg
+

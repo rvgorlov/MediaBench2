@@ -1,0 +1,37 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+33       22.2973  ffmpeg.with_mmx          rgb24_to_yuv420p
+16       10.8108  libc-2.3.5.so            memset
+14        9.4595  ffmpeg.with_mmx          sad16_mmx2
+13        8.7838  ffmpeg.with_mmx          ff_epzs_motion_search
+11        7.4324  no-vmlinux               (no symbols)
+8         5.4054  ffmpeg.with_mmx          sad16_xy2_mmx2
+6         4.0541  libc-2.3.5.so            memcpy
+5         3.3784  ffmpeg.with_mmx          avg_pixels16_mmx2
+5         3.3784  ffmpeg.with_mmx          ff_fdct_sse2
+3         2.0270  ffmpeg.with_mmx          avg_pixels16_xy2_mmx2
+3         2.0270  ffmpeg.with_mmx          dct_quantize_SSE2
+3         2.0270  ffmpeg.with_mmx          mpeg4_encode_blocks
+2         1.3514  ffmpeg.with_mmx          diff_pixels_mmx
+2         1.3514  ffmpeg.with_mmx          encode_mb
+2         1.3514  ffmpeg.with_mmx          ff_estimate_motion_b
+2         1.3514  ffmpeg.with_mmx          hpel_motion_search
+2         1.3514  ffmpeg.with_mmx          put_no_rnd_pixels16_y2_mmx2
+2         1.3514  ffmpeg.with_mmx          put_pixels16_mmx
+1         0.6757  ffmpeg.with_mmx          MPV_decode_mb
+1         0.6757  ffmpeg.with_mmx          MPV_motion
+1         0.6757  ffmpeg.with_mmx          add_dequant_dct
+1         0.6757  ffmpeg.with_mmx          dct_unquantize_h263_inter_mmx
+1         0.6757  ffmpeg.with_mmx          direct_search
+1         0.6757  ffmpeg.with_mmx          encode_thread
+1         0.6757  ffmpeg.with_mmx          estimate_motion_thread
+1         0.6757  ffmpeg.with_mmx          ff_emulated_edge_mc
+1         0.6757  ffmpeg.with_mmx          ff_estimate_b_frame_motion
+1         0.6757  ffmpeg.with_mmx          get_penalty_factor
+1         0.6757  ffmpeg.with_mmx          init_uni_mpeg4_rl_tab
+1         0.6757  ffmpeg.with_mmx          mid_pred
+1         0.6757  ffmpeg.with_mmx          put_no_rnd_pixels16_xy2_mmx
+1         0.6757  ffmpeg.with_mmx          put_pixels8_xy2_mmx
+1         0.6757  ffmpeg.with_mmx          sad16_x2_mmx2
+1         0.6757  ffmpeg.with_mmx          sad16_y2_mmx2

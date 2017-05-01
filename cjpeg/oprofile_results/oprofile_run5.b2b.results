@@ -1,0 +1,8 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        symbol name
+4        25.0000  encode_mcu_huff
+4        25.0000  forward_DCT
+4        25.0000  rgb_ycc_convert
+3        18.7500  jpeg_fdct_islow
+1         6.2500  h2v2_downsample

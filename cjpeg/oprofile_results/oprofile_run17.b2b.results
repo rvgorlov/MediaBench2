@@ -1,0 +1,8 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+3        37.5000  cjpeg                    forward_DCT
+2        25.0000  cjpeg                    jpeg_fdct_islow
+1        12.5000  cjpeg                    rgb_ycc_convert
+1        12.5000  libc-2.3.5.so            memcpy
+1        12.5000  no-vmlinux               (no symbols)

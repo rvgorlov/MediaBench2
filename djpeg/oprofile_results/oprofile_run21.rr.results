@@ -1,0 +1,5 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+3        75.0000  libc-2.3.5.so            memset
+1        25.0000  djpeg                    jpeg_idct_islow

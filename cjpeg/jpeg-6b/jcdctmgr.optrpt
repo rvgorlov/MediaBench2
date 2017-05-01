@@ -1,0 +1,150 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o jcdctmgr.o
+
+Begin optimization report for: start_pass_fdctmgr(j_compress_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcdctmgr.c(62,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jcdctmgr.c(84,7)
+   <Peeled loop for vectorization>
+      remark #25015: Estimate of max trip count of loop=3
+   LOOP END
+
+   LOOP BEGIN at jcdctmgr.c(84,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 5 
+      remark #15477: vector cost: 1.750 
+      remark #15478: estimated potential speedup: 2.310 
+      remark #15487: type converts: 1 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=16
+   LOOP END
+
+   LOOP BEGIN at jcdctmgr.c(84,7)
+   <Remainder loop for vectorization>
+   LOOP END
+
+   LOOP BEGIN at jcdctmgr.c(118,2)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 8 
+      remark #15477: vector cost: 14.500 
+      remark #15478: estimated potential speedup: 0.540 
+      remark #15487: type converts: 2 
+      remark #15488: --- end vector cost summary ---
+      remark #25438: unrolled without remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at jcdctmgr.c(152,2)
+      remark #25101: Loop Interchange not done due to: Original Order seems proper
+      remark #25452: Original Order found to be proper, but by a close margin
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at jcdctmgr.c(153,4)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15450: unmasked unaligned unit stride loads: 1 
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 42 
+         remark #15477: vector cost: 11.500 
+         remark #15478: estimated potential speedup: 3.230 
+         remark #15486: divides: 1 
+         remark #15487: type converts: 2 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=1
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: forward_DCT(j_compress_ptr, jpeg_component_info *, JSAMPARRAY, JBLOCKROW, JDIMENSION, JDIMENSION, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcdctmgr.c(195,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jcdctmgr.c(231,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 64 
+      remark #15477: vector cost: 58.750 
+      remark #15478: estimated potential speedup: 1.080 
+      remark #15482: vectorized math library calls: 2 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=16
+   LOOP END
+
+   LOOP BEGIN at jcdctmgr.c(202,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *workspaceptr (205:3) and at (212:3)
+      remark #25436: completely unrolled by 8  
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: forward_DCT_float(j_compress_ptr, jpeg_component_info *, JSAMPARRAY, JBLOCKROW, JDIMENSION, JDIMENSION, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcdctmgr.c(285,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jcdctmgr.c(292,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *workspaceptr (295:3) and at (302:3)
+      remark #25436: completely unrolled by 8  
+   LOOP END
+
+   LOOP BEGIN at jcdctmgr.c(322,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 12 
+      remark #15477: vector cost: 2.750 
+      remark #15478: estimated potential speedup: 4.210 
+      remark #15487: type converts: 1 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: jinit_forward_dct(j_compress_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcdctmgr.c(381,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 4 
+   remark #15477: vector cost: 6.000 
+   remark #15478: estimated potential speedup: 0.530 
+   remark #15488: --- end vector cost summary ---
+   remark #25436: completely unrolled by 4  
+LOOP END
+===========================================================================

@@ -1,0 +1,33 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+1361     71.7449  mpeg2encode              dist1
+162       8.5398  mpeg2encode              fdct
+108       5.6932  mpeg2encode              readframe
+65        3.4265  mpeg2encode              fullsearch
+43        2.2667  libc-2.3.5.so            getc
+21        1.1070  mpeg2encode              quant_non_intra
+19        1.0016  mpeg2encode              idct
+18        0.9489  mpeg2encode              conv422to420
+15        0.7907  mpeg2encode              conv444to422
+11        0.5799  mpeg2encode              iquant_non_intra
+10        0.5271  mpeg2encode              pred
+9         0.4744  mpeg2encode              calcSNR1
+9         0.4744  no-vmlinux               (no symbols)
+7         0.3690  mpeg2encode              quant_intra
+6         0.3163  mpeg2encode              transform
+5         0.2636  mpeg2encode              variance
+4         0.2109  mpeg2encode              bdist2
+4         0.2109  mpeg2encode              dist2
+4         0.2109  mpeg2encode              itransform
+3         0.1581  mpeg2encode              var_sblk
+2         0.1054  mpeg2encode              .plt
+2         0.1054  mpeg2encode              iquant_intra
+2         0.1054  mpeg2encode              putbits
+1         0.0527  libc-2.3.5.so            _IO_file_xsputn@@GLIBC_2.1
+1         0.0527  libc-2.3.5.so            putc
+1         0.0527  mpeg2encode              putAC
+1         0.0527  mpeg2encode              putintrablk
+1         0.0527  mpeg2encode              putmv
+1         0.0527  mpeg2encode              putnonintrablk
+1         0.0527  mpeg2encode              stats

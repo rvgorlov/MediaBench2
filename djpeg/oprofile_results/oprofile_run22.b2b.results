@@ -1,0 +1,5 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+4        80.0000  djpeg                    jpeg_idct_islow
+1        20.0000  no-vmlinux               (no symbols)

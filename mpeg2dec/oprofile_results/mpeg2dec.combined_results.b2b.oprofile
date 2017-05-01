@@ -1,0 +1,68 @@
+
+Statistics per run (over 30 runs) of the number of times each procedure was sampled OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  ld-2.3.5.so           _dl_fini                                          0.03           0.000    [     0.033,      0.033]
+  ld-2.3.5.so           strcmp                                            0.03           0.000    [     0.033,      0.033]
+  libc-2.3.5.so         _IO_do_write@@GLIBC_2.1                           0.03           0.000    [     0.033,      0.033]
+  mpeg2decode           Clear_Block                                       5.97           1.732    [     5.347,      6.586]
+  mpeg2decode           Decode_MPEG2_Intra_Block                          0.63           1.000    [     0.275,      0.991]
+  mpeg2decode           Decode_MPEG2_Non_Intra_Block                      0.40           0.000    [     0.400,      0.400]
+  mpeg2decode           Decode_Picture                                    9.20           2.449    [     8.323,     10.077]
+  mpeg2decode           Fast_IDCT                                        15.17           2.000    [    14.451,     15.882]
+  mpeg2decode           Flush_Buffer                                      1.13           1.000    [     0.775,      1.491]
+  mpeg2decode           Get_Bits                                          0.33           0.000    [     0.333,      0.333]
+  mpeg2decode           Get_Chroma_DC_dct_diff                            0.03           0.000    [     0.033,      0.033]
+  mpeg2decode           Get_Luma_DC_dct_diff                              0.03           0.000    [     0.033,      0.033]
+  mpeg2decode           Get_macroblock_type                               0.07           0.000    [     0.067,      0.067]
+  mpeg2decode           Get_motion_code                                   0.20           0.000    [     0.200,      0.200]
+  mpeg2decode           Show_Bits                                         0.40           0.000    [     0.400,      0.400]
+  mpeg2decode           conv420to422                                     18.53           0.000    [    18.533,     18.533]
+  mpeg2decode           conv422to444                                     20.97           1.732    [    20.347,     21.586]
+  mpeg2decode           decode_motion_vector                              0.13           0.000    [     0.133,      0.133]
+  mpeg2decode           form_component_prediction                         9.37           2.646    [     8.420,     10.313]
+  mpeg2decode           form_prediction                                   0.30           0.000    [     0.300,      0.300]
+  mpeg2decode           form_predictions                                  0.17           0.000    [     0.167,      0.167]
+  mpeg2decode           macroblock_modes                                  0.17           0.000    [     0.167,      0.167]
+  mpeg2decode           motion_vector                                     0.03           0.000    [     0.033,      0.033]
+  mpeg2decode           motion_vectors                                    0.10           0.000    [     0.100,      0.100]
+  mpeg2decode           putbyte                                           9.30           2.236    [     8.500,     10.100]
+  mpeg2decode           store_ppm_tga                                    18.60           3.464    [    17.360,     19.840]
+  no-vmlinux            (no symbols)                                      6.43           2.000    [     5.718,      7.149]
+
+Statistics per run (over 30 runs) of the percentage of execution time spent in each procedure, as measured by OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  ld-2.3.5.so           _dl_fini                                         0.03%          0.000%    [    0.028%,     0.028%]
+  ld-2.3.5.so           strcmp                                           0.03%          0.000%    [    0.028%,     0.028%]
+  libc-2.3.5.so         _IO_do_write@@GLIBC_2.1                          0.03%          0.000%    [    0.028%,     0.028%]
+  mpeg2decode           Clear_Block                                      5.07%          1.471%    [    4.540%,     5.593%]
+  mpeg2decode           Decode_MPEG2_Intra_Block                         0.54%          0.849%    [    0.234%,     0.842%]
+  mpeg2decode           Decode_MPEG2_Non_Intra_Block                     0.34%          0.000%    [    0.340%,     0.340%]
+  mpeg2decode           Decode_Picture                                   7.81%          2.080%    [    7.068%,     8.556%]
+  mpeg2decode           Fast_IDCT                                       12.88%          1.698%    [   12.271%,    13.486%]
+  mpeg2decode           Flush_Buffer                                     0.96%          0.849%    [    0.658%,     1.266%]
+  mpeg2decode           Get_Bits                                         0.28%          0.000%    [    0.283%,     0.283%]
+  mpeg2decode           Get_Chroma_DC_dct_diff                           0.03%          0.000%    [    0.028%,     0.028%]
+  mpeg2decode           Get_Luma_DC_dct_diff                             0.03%          0.000%    [    0.028%,     0.028%]
+  mpeg2decode           Get_macroblock_type                              0.06%          0.000%    [    0.057%,     0.057%]
+  mpeg2decode           Get_motion_code                                  0.17%          0.000%    [    0.170%,     0.170%]
+  mpeg2decode           Show_Bits                                        0.34%          0.000%    [    0.340%,     0.340%]
+  mpeg2decode           conv420to422                                    15.74%          0.000%    [   15.737%,    15.737%]
+  mpeg2decode           conv422to444                                    17.80%          1.471%    [   17.277%,    18.330%]
+  mpeg2decode           decode_motion_vector                             0.11%          0.000%    [    0.113%,     0.113%]
+  mpeg2decode           form_component_prediction                        7.95%          2.247%    [    7.150%,     8.758%]
+  mpeg2decode           form_prediction                                  0.25%          0.000%    [    0.255%,     0.255%]
+  mpeg2decode           form_predictions                                 0.14%          0.000%    [    0.142%,     0.142%]
+  mpeg2decode           macroblock_modes                                 0.14%          0.000%    [    0.142%,     0.142%]
+  mpeg2decode           motion_vector                                    0.03%          0.000%    [    0.028%,     0.028%]
+  mpeg2decode           motion_vectors                                   0.08%          0.000%    [    0.085%,     0.085%]
+  mpeg2decode           putbyte                                          7.90%          1.899%    [    7.218%,     8.576%]
+  mpeg2decode           store_ppm_tga                                   15.79%          2.941%    [   14.741%,    16.847%]
+  no-vmlinux            (no symbols)                                     5.46%          1.698%    [    4.855%,     6.070%]
+
+Total Samples per run (over 30 runs):
+                                                                       Average         Std Dev    95% Confidence Interval
+                                                                       -------         -------    -----------------------
+  total_samples                                                         117.77           4.690    [   116.088,    119.445]
+

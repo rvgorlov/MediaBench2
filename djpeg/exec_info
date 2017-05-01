@@ -1,0 +1,4 @@
+
+Command line for baseline execution:
+	djpeg -dct int -ppm -outfile output_base_4CIF_96bps_dec.ppm input_base_4CIF_96bps.jpg
+

@@ -1,0 +1,8 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+2        28.5714  cjpeg                    encode_mcu_huff
+2        28.5714  cjpeg                    jpeg_fdct_islow
+1        14.2857  cjpeg                    forward_DCT
+1        14.2857  cjpeg                    jpeg_write_scanlines
+1        14.2857  no-vmlinux               (no symbols)

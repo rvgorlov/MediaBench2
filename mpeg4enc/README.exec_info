@@ -1,0 +1,4 @@
+
+Assuming the executable 'ffmpeg' is linked to 'mpeg4enc', the command line for baseline execution:
+	mpeg4enc -s 4cif -r 30 -i input_base_4CIF_%03d.ppm -r 30 -s 4cif -b 39 -bf 3 -vcodec mpeg4 -an -vstats -y output_base_4CIF_96bps_15.avi
+

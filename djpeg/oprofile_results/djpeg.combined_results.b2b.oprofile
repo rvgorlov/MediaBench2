@@ -1,0 +1,32 @@
+
+Statistics per run (over 30 runs) of the number of times each procedure was sampled OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  djpeg                 jpeg_idct_islow                                   1.30           1.414    [     0.794,      1.806]
+  djpeg                 process_data_context_main                         0.03           0.000    [     0.033,      0.033]
+  libc-2.3.5.so         mempcpy                                           0.17           0.000    [     0.167,      0.167]
+  libc-2.3.5.so         memset                                            0.07           0.000    [     0.067,      0.067]
+  main app              decode_mcu                                        0.13           0.000    [     0.133,      0.133]
+  main app              decompress_onepass                                0.07           0.000    [     0.067,      0.067]
+  main app              h2v2_fancy_upsample                               0.40           0.000    [     0.400,      0.400]
+  main app              ycc_rgb_convert                                   1.27           1.000    [     0.909,      1.625]
+  no-vmlinux            (no symbols)                                      0.70           0.000    [     0.700,      0.700]
+
+Statistics per run (over 30 runs) of the percentage of execution time spent in each procedure, as measured by OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  djpeg                 jpeg_idct_islow                                 31.45%         34.215%    [   19.208%,    43.695%]
+  djpeg                 process_data_context_main                        0.81%          0.000%    [    0.806%,     0.806%]
+  libc-2.3.5.so         mempcpy                                          4.03%          0.000%    [    4.032%,     4.032%]
+  libc-2.3.5.so         memset                                           1.61%          0.000%    [    1.613%,     1.613%]
+  main app              decode_mcu                                       3.23%          0.000%    [    3.226%,     3.226%]
+  main app              decompress_onepass                               1.61%          0.000%    [    1.613%,     1.613%]
+  main app              h2v2_fancy_upsample                              9.68%          0.000%    [    9.677%,     9.677%]
+  main app              ycc_rgb_convert                                 30.65%         24.194%    [   21.988%,    39.303%]
+  no-vmlinux            (no symbols)                                    16.94%          0.000%    [   16.935%,    16.935%]
+
+Total Samples per run (over 30 runs):
+                                                                       Average         Std Dev    95% Confidence Interval
+                                                                       -------         -------    -----------------------
+  total_samples                                                           4.13           0.000    [     4.133,      4.133]
+

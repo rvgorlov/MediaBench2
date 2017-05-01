@@ -1,0 +1,7 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+3        30.0000  djpeg                    h2v2_fancy_upsample
+3        30.0000  djpeg                    ycc_rgb_convert
+3        30.0000  no-vmlinux               (no symbols)
+1        10.0000  libc-2.3.5.so            memset

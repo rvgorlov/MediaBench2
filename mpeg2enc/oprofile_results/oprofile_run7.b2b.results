@@ -1,0 +1,28 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+1348     71.2474  mpeg2encode              dist1
+169       8.9323  mpeg2encode              fdct
+93        4.9154  mpeg2encode              readframe
+71        3.7526  mpeg2encode              fullsearch
+54        2.8541  libc-2.3.5.so            getc
+23        1.2156  mpeg2encode              quant_non_intra
+20        1.0571  mpeg2encode              idct
+19        1.0042  mpeg2encode              conv422to420
+16        0.8457  mpeg2encode              conv444to422
+11        0.5814  mpeg2encode              calcSNR1
+9         0.4757  mpeg2encode              bdist2
+9         0.4757  mpeg2encode              dist2
+9         0.4757  mpeg2encode              iquant_non_intra
+8         0.4228  mpeg2encode              quant_intra
+7         0.3700  mpeg2encode              pred
+5         0.2643  mpeg2encode              putbits
+5         0.2643  no-vmlinux               (no symbols)
+4         0.2114  mpeg2encode              .plt
+3         0.1586  mpeg2encode              itransform
+2         0.1057  mpeg2encode              iquant_intra
+2         0.1057  mpeg2encode              transform
+2         0.1057  mpeg2encode              variance
+1         0.0529  mpeg2encode              motion_estimation
+1         0.0529  mpeg2encode              putintrablk
+1         0.0529  mpeg2encode              putmotioncode

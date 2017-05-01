@@ -1,0 +1,6 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        symbol name
+4        50.0000  jpeg_fdct_islow
+3        37.5000  rgb_ycc_convert
+1        12.5000  forward_DCT

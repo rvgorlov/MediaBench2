@@ -1,0 +1,89 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o jcprepct.o
+
+Begin optimization report for: pre_process_data(j_compress_ptr, JSAMPARRAY, JDIMENSION *, JDIMENSION, JSAMPIMAGE, JDIMENSION *, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcprepct.c(155,7)
+   remark #15523: loop was not vectorized: loop control variable ci was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at jcprepct.c(111,3) inlined into jcprepct.c(156,2)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jcprepct.c(174,7)
+   remark #15523: loop was not vectorized: loop control variable ci was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at jcprepct.c(111,3) inlined into jcprepct.c(176,2)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at jcprepct.c(139,3)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+LOOP END
+===========================================================================
+
+Begin optimization report for: pre_process_context(j_compress_ptr, JSAMPARRAY, JDIMENSION *, JDIMENSION, JSAMPIMAGE, JDIMENSION *, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcprepct.c(206,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at jcprepct.c(218,2)
+      remark #15523: loop was not vectorized: loop control variable ci was found, but loop iteration count cannot be computed before executing the loop
+
+      LOOP BEGIN at jcprepct.c(220,4)
+         remark #15523: loop was not vectorized: loop control variable row was found, but loop iteration count cannot be computed before executing the loop
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at jcprepct.c(236,2)
+      remark #15523: loop was not vectorized: loop control variable ci was found, but loop iteration count cannot be computed before executing the loop
+
+      LOOP BEGIN at jcprepct.c(111,3) inlined into jcprepct.c(237,4)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: jinit_c_prep_controller(j_compress_ptr, boolean)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jcprepct.c(283,3) inlined into jcprepct.c(338,5)
+   remark #15523: loop was not vectorized: loop control variable ci was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at jcprepct.c(298,5) inlined into jcprepct.c(338,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between fake_buffer[i] (299:7) and true_buffer[i] (300:7)
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at jcprepct.c(298,5) inlined into jcprepct.c(338,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jcprepct.c(345,5)
+   remark #15523: loop was not vectorized: loop control variable ci was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+===========================================================================

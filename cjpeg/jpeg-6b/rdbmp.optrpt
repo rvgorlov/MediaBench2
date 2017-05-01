@@ -1,0 +1,71 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o rdbmp.o
+
+Begin optimization report for: get_8bit_row(j_compress_ptr, cjpeg_source_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at rdbmp.c(138,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between *inptr (139:5) and *outptr (142:6)
+LOOP END
+===========================================================================
+
+Begin optimization report for: get_24bit_row(j_compress_ptr, cjpeg_source_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at rdbmp.c(169,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *(outptr+2) (170:5) and *(inptr+2) (172:5)
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at rdbmp.c(169,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: preload_image(j_compress_ptr, cjpeg_source_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at rdbmp.c(198,3)
+   remark #15523: loop was not vectorized: loop control variable row was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at rdbmp.c(208,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: start_input_bmp(j_compress_ptr, cjpeg_source_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at rdbmp.c(89,5) inlined into rdbmp.c(363,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at rdbmp.c(97,5) inlined into rdbmp.c(363,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at rdbmp.c(371,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at rdbmp.c(380,3)
+   remark #15523: loop was not vectorized: loop control variable row_width was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+===========================================================================

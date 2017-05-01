@@ -1,0 +1,36 @@
+
+Statistics per run (over 30 runs) of the number of times each procedure was sampled OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  djpeg                 decode_mcu                                        0.10           0.000    [     0.100,      0.100]
+  djpeg                 h2v2_fancy_upsample                               0.70           0.000    [     0.700,      0.700]
+  djpeg                 keymatch                                          0.03           0.000    [     0.033,      0.033]
+  djpeg                 ycc_rgb_convert                                   1.40           0.000    [     1.400,      1.400]
+  libc-2.3.5.so         _IO_file_xsputn@@GLIBC_2.1                        0.03           0.000    [     0.033,      0.033]
+  libc-2.3.5.so         _int_free                                         0.03           0.000    [     0.033,      0.033]
+  libc-2.3.5.so         mempcpy                                           0.07           0.000    [     0.067,      0.067]
+  libc-2.3.5.so         memset                                            0.23           0.000    [     0.233,      0.233]
+  main app              jpeg_fill_bit_buffer                              0.07           0.000    [     0.067,      0.067]
+  main app              jpeg_idct_islow                                   1.10           1.000    [     0.742,      1.458]
+  no-vmlinux            (no symbols)                                      0.70           0.000    [     0.700,      0.700]
+
+Statistics per run (over 30 runs) of the percentage of execution time spent in each procedure, as measured by OProfile:
+  App/Library           Procedure                                      Average         Std Dev    95% Confidence Interval
+  -----------           ---------                                      -------         -------    -----------------------
+  djpeg                 decode_mcu                                       2.24%          0.000%    [    2.239%,     2.239%]
+  djpeg                 h2v2_fancy_upsample                             15.67%          0.000%    [   15.672%,    15.672%]
+  djpeg                 keymatch                                         0.75%          0.000%    [    0.746%,     0.746%]
+  djpeg                 ycc_rgb_convert                                 31.34%          0.000%    [   31.343%,    31.343%]
+  libc-2.3.5.so         _IO_file_xsputn@@GLIBC_2.1                       0.75%          0.000%    [    0.746%,     0.746%]
+  libc-2.3.5.so         _int_free                                        0.75%          0.000%    [    0.746%,     0.746%]
+  libc-2.3.5.so         mempcpy                                          1.49%          0.000%    [    1.493%,     1.493%]
+  libc-2.3.5.so         memset                                           5.22%          0.000%    [    5.224%,     5.224%]
+  main app              jpeg_fill_bit_buffer                             1.49%          0.000%    [    1.493%,     1.493%]
+  main app              jpeg_idct_islow                                 24.63%         22.388%    [   16.615%,    32.638%]
+  no-vmlinux            (no symbols)                                    15.67%          0.000%    [   15.672%,    15.672%]
+
+Total Samples per run (over 30 runs):
+                                                                       Average         Std Dev    95% Confidence Interval
+                                                                       -------         -------    -----------------------
+  total_samples                                                           4.47           1.000    [     4.109,      4.825]
+

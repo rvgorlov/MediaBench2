@@ -1,0 +1,726 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o jquant2.o
+
+Begin optimization report for: prescan_quantize(j_decompress_ptr, JSAMPARRAY, JSAMPARRAY, int)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(235,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between *ptr (239:7) and *histp (244:4)
+
+   LOOP BEGIN at jquant2.c(237,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between *ptr (239:7) and *histp (244:4)
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at jquant2.c(237,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: update_box(j_decompress_ptr, boxptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(333,2)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ jquant2.c(334,4) ]
+LOOP END
+
+LOOP BEGIN at jquant2.c(344,2)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ jquant2.c(345,4) ]
+LOOP END
+
+LOOP BEGIN at jquant2.c(355,2)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ jquant2.c(356,4) ]
+LOOP END
+
+LOOP BEGIN at jquant2.c(366,2)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ jquant2.c(367,4) ]
+LOOP END
+
+LOOP BEGIN at jquant2.c(377,2)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ jquant2.c(377,38) ]
+LOOP END
+
+LOOP BEGIN at jquant2.c(388,2)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ jquant2.c(388,38) ]
+LOOP END
+
+LOOP BEGIN at jquant2.c(411,3)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25451: Advice: Loop Interchange, if possible, might help loopnest. Suggested Permutation : ( 1 2 3 ) --> ( 2 1 3 ) 
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jquant2.c(412,5)
+      remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+      remark #25452: Original Order found to be proper, but by a close margin
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at jquant2.c(414,7)
+      <Peeled loop for vectorization>
+         remark #25015: Estimate of max trip count of loop=7
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(414,7)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15442: entire loop may be executed in remainder
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 20 
+         remark #15477: vector cost: 4.870 
+         remark #15478: estimated potential speedup: 3.560 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(414,7)
+      <Remainder loop for vectorization>
+      LOOP END
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at jquant2.c(330,5)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at jquant2.c(331,7)
+      remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(341,5)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at jquant2.c(342,7)
+      remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(352,5)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at jquant2.c(353,7)
+      remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(363,5)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at jquant2.c(364,7)
+      remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(374,5)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at jquant2.c(375,7)
+      remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(385,5)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at jquant2.c(386,7)
+      remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: pass2_no_dither(j_decompress_ptr, JSAMPARRAY, JSAMPARRAY, int)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(928,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jquant2.c(931,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at jquant2.c(687,3) inlined into jquant2.c(940,2)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15450: unmasked unaligned unit stride loads: 3 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 112 
+         remark #15477: vector cost: 418.500 
+         remark #15478: estimated potential speedup: 0.260 
+         remark #15487: type converts: 18 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=256
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(766,3) inlined into jquant2.c(940,2)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between ncolors (768:17) and ncolors (768:7)
+         remark #25439: unrolled with remainder by 2  
+         remark #25015: Estimate of max trip count of loop=256
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(766,3) inlined into jquant2.c(940,2)
+      <Remainder>
+         remark #25015: Estimate of max trip count of loop=256
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(798,3) inlined into jquant2.c(940,2)
+      <Peeled loop for vectorization>
+         remark #25015: Estimate of max trip count of loop=7
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(798,3) inlined into jquant2.c(940,2)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 3 
+         remark #15477: vector cost: 2.000 
+         remark #15478: estimated potential speedup: 1.380 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=16
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(798,3) inlined into jquant2.c(940,2)
+      <Remainder loop for vectorization>
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(811,3) inlined into jquant2.c(940,2)
+         remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(822,5) ]
+         remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(823,5) ]
+         remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+         remark #25451: Advice: Loop Interchange, if possible, might help loopnest. Suggested Permutation : ( 1 2 3 4 ) --> ( 2 3 4 1 ) 
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between *bptr (835:4) and *bptr (836:7)
+         remark #25015: Estimate of max trip count of loop=256
+
+         LOOP BEGIN at jquant2.c(828,5) inlined into jquant2.c(940,2)
+            remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+            remark #25452: Original Order found to be proper, but by a close margin
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between *bptr (835:4) and *bptr (836:7)
+
+            LOOP BEGIN at jquant2.c(831,7) inlined into jquant2.c(940,2)
+               remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+               remark #25452: Original Order found to be proper, but by a close margin
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed ANTI dependence between *bptr (835:4) and *bptr (836:7)
+               remark #25436: completely unrolled by 8  
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                  remark #15346: vector dependence: assumed FLOW dependence between dist2 (839:4) and dist2 (835:4)
+                  remark #25436: completely unrolled by 4  
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(940,2)
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(899,3) inlined into jquant2.c(940,2)
+         remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+         remark #25452: Original Order found to be proper, but by a close margin
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between *cachep (903:3) and *cachep (903:3)
+
+         LOOP BEGIN at jquant2.c(900,5) inlined into jquant2.c(940,2)
+            remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+            remark #25452: Original Order found to be proper, but by a close margin
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between *cachep (903:3) and *cachep (903:3)
+            remark #25436: completely unrolled by 8  
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+               remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+               remark #15450: unmasked unaligned unit stride loads: 1 
+               remark #15451: unmasked unaligned unit stride stores: 1 
+               remark #15475: --- begin vector cost summary ---
+               remark #15476: scalar cost: 6 
+               remark #15477: vector cost: 9.500 
+               remark #15478: estimated potential speedup: 0.500 
+               remark #15488: --- end vector cost summary ---
+               remark #25436: completely unrolled by 4  
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(940,2)
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: pass2_fs_dither(j_decompress_ptr, JSAMPARRAY, JSAMPARRAY, int)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(974,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jquant2.c(998,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at jquant2.c(687,3) inlined into jquant2.c(1031,2)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15450: unmasked unaligned unit stride loads: 3 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 112 
+         remark #15477: vector cost: 418.500 
+         remark #15478: estimated potential speedup: 0.260 
+         remark #15487: type converts: 18 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=256
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(766,3) inlined into jquant2.c(1031,2)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between ncolors (768:17) and ncolors (768:7)
+         remark #25439: unrolled with remainder by 2  
+         remark #25015: Estimate of max trip count of loop=256
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(766,3) inlined into jquant2.c(1031,2)
+      <Remainder>
+         remark #25015: Estimate of max trip count of loop=256
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(798,3) inlined into jquant2.c(1031,2)
+      <Peeled loop for vectorization>
+         remark #25015: Estimate of max trip count of loop=7
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(798,3) inlined into jquant2.c(1031,2)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 3 
+         remark #15477: vector cost: 2.000 
+         remark #15478: estimated potential speedup: 1.380 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=16
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(798,3) inlined into jquant2.c(1031,2)
+      <Remainder loop for vectorization>
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(811,3) inlined into jquant2.c(1031,2)
+         remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(822,5) ]
+         remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(823,5) ]
+         remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+         remark #25451: Advice: Loop Interchange, if possible, might help loopnest. Suggested Permutation : ( 1 2 3 4 ) --> ( 2 3 4 1 ) 
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between *bptr (835:4) and *bptr (836:7)
+         remark #25015: Estimate of max trip count of loop=256
+
+         LOOP BEGIN at jquant2.c(828,5) inlined into jquant2.c(1031,2)
+            remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+            remark #25452: Original Order found to be proper, but by a close margin
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between *bptr (835:4) and *bptr (836:7)
+
+            LOOP BEGIN at jquant2.c(831,7) inlined into jquant2.c(1031,2)
+               remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+               remark #25452: Original Order found to be proper, but by a close margin
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed ANTI dependence between *bptr (835:4) and *bptr (836:7)
+               remark #25436: completely unrolled by 8  
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                  remark #15346: vector dependence: assumed FLOW dependence between dist2 (839:4) and dist2 (835:4)
+                  remark #25436: completely unrolled by 4  
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+
+               LOOP BEGIN at jquant2.c(834,2) inlined into jquant2.c(1031,2)
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at jquant2.c(899,3) inlined into jquant2.c(1031,2)
+         remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+         remark #25452: Original Order found to be proper, but by a close margin
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between *cachep (903:3) and *cachep (903:3)
+
+         LOOP BEGIN at jquant2.c(900,5) inlined into jquant2.c(1031,2)
+            remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+            remark #25452: Original Order found to be proper, but by a close margin
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between *cachep (903:3) and *cachep (903:3)
+            remark #25436: completely unrolled by 8  
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+               remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+               remark #15450: unmasked unaligned unit stride loads: 1 
+               remark #15451: unmasked unaligned unit stride stores: 1 
+               remark #15475: --- begin vector cost summary ---
+               remark #15476: scalar cost: 6 
+               remark #15477: vector cost: 9.500 
+               remark #15478: estimated potential speedup: 0.500 
+               remark #15488: --- end vector cost summary ---
+               remark #25436: completely unrolled by 4  
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+
+            LOOP BEGIN at jquant2.c(902,7) inlined into jquant2.c(1031,2)
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: finish_pass1(j_decompress_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(432,3) inlined into jquant2.c(1149,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at jquant2.c(282,3) inlined into jquant2.c(1149,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between maxc (283:5) and maxc (285:7)
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at jquant2.c(282,3) inlined into jquant2.c(1149,3)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at jquant2.c(302,3) inlined into jquant2.c(1149,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details   [ jquant2.c(304,7) ]
+      remark #15346: vector dependence: assumed ANTI dependence between boxp->volume (303:5) and boxp->volume (303:5)   [ jquant2.c(304,7) ]
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at jquant2.c(302,3) inlined into jquant2.c(1149,3)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(562,3) inlined into jquant2.c(1149,3)
+   remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(515,3) ]
+   remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(516,3) ]
+   remark #25084: Preprocess Loopnests: Moving Out Store    [ jquant2.c(517,3) ]
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25451: Advice: Loop Interchange, if possible, might help loopnest. Suggested Permutation : ( 1 2 3 4 ) --> ( 2 3 4 1 ) 
+   remark #25229: Loop multiversioned for Trip-count
+   remark #25239: Loop multiversioned on trip count = 1
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between cinfo->cquantize (505:22) and (*(cinfo->colormap+16))[i] (534:3)
+
+   LOOP BEGIN at jquant2.c(519,3) inlined into jquant2.c(1149,3)
+      remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+      remark #25452: Original Order found to be proper, but by a close margin
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between c0 (519:33) and c0 (521:7)
+
+      LOOP BEGIN at jquant2.c(520,5) inlined into jquant2.c(1149,3)
+         remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+         remark #25452: Original Order found to be proper, but by a close margin
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between c1 (520:35) and c1 (521:7)
+
+         LOOP BEGIN at jquant2.c(522,7) inlined into jquant2.c(1149,3)
+            remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+            remark #15450: unmasked unaligned unit stride loads: 1 
+            remark #15475: --- begin vector cost summary ---
+            remark #15476: scalar cost: 26 
+            remark #15477: vector cost: 46.000 
+            remark #15478: estimated potential speedup: 0.560 
+            remark #15487: type converts: 2 
+            remark #15488: --- end vector cost summary ---
+            remark #25439: unrolled with remainder by 2  
+         LOOP END
+
+         LOOP BEGIN at jquant2.c(522,7) inlined into jquant2.c(1149,3)
+         <Remainder>
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jquant2.c(562,3) inlined into jquant2.c(1149,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at jquant2.c(519,3) inlined into jquant2.c(1149,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between c0 (519:33) and c0 (521:7)
+
+      LOOP BEGIN at jquant2.c(520,5) inlined into jquant2.c(1149,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between c1 (520:35) and c1 (521:7)
+
+         LOOP BEGIN at jquant2.c(522,7) inlined into jquant2.c(1149,3)
+            remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+            remark #15450: unmasked unaligned unit stride loads: 1 
+            remark #15475: --- begin vector cost summary ---
+            remark #15476: scalar cost: 26 
+            remark #15477: vector cost: 46.000 
+            remark #15478: estimated potential speedup: 0.560 
+            remark #15487: type converts: 2 
+            remark #15488: --- end vector cost summary ---
+            remark #25439: unrolled with remainder by 2  
+         LOOP END
+
+         LOOP BEGIN at jquant2.c(522,7) inlined into jquant2.c(1149,3)
+         <Remainder>
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: start_pass_2_quant(j_decompress_ptr, boolean)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(1123,3) inlined into jquant2.c(1209,2)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15453: unmasked strided stores: 1 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 8 
+   remark #15477: vector cost: 4.750 
+   remark #15478: estimated potential speedup: 1.340 
+   remark #15488: --- end vector cost summary ---
+   remark #25015: Estimate of max trip count of loop=1
+LOOP END
+
+LOOP BEGIN at jquant2.c(1127,3) inlined into jquant2.c(1209,2)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between table[in+255] (1128:5) and table[in+255] (1128:22)
+   remark #25439: unrolled with remainder by 2  
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at jquant2.c(1127,3) inlined into jquant2.c(1209,2)
+<Remainder>
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Peeled loop for vectorization, Multiversioned v1, Distributed chunk1>
+   remark #25015: Estimate of max trip count of loop=3
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Multiversioned v1, Distributed chunk1>
+   remark #25426: Loop Distributed (2 way) 
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 3 
+   remark #15477: vector cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15488: --- end vector cost summary ---
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Remainder loop for vectorization, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Multiversioned v1, Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15453: unmasked strided stores: 1 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 4 
+   remark #15477: vector cost: 2.810 
+   remark #15478: estimated potential speedup: 1.380 
+   remark #15488: --- end vector cost summary ---
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Remainder loop for vectorization, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Multiversioned v2>
+   remark #25230: Loop multiversioned for Same base arrays
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1209,2)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at jquant2.c(1216,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: jinit_2pass_quantizer(j_decompress_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jquant2.c(1265,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at jquant2.c(1123,3) inlined into jquant2.c(1306,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15453: unmasked strided stores: 1 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 8 
+   remark #15477: vector cost: 4.750 
+   remark #15478: estimated potential speedup: 1.340 
+   remark #15488: --- end vector cost summary ---
+   remark #25015: Estimate of max trip count of loop=1
+LOOP END
+
+LOOP BEGIN at jquant2.c(1127,3) inlined into jquant2.c(1306,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between table[in+255] (1128:5) and table[in+255] (1128:22)
+   remark #25439: unrolled with remainder by 2  
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at jquant2.c(1127,3) inlined into jquant2.c(1306,5)
+<Remainder>
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Peeled loop for vectorization, Multiversioned v1, Distributed chunk1>
+   remark #25015: Estimate of max trip count of loop=3
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Multiversioned v1, Distributed chunk1>
+   remark #25426: Loop Distributed (2 way) 
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 3 
+   remark #15477: vector cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15488: --- end vector cost summary ---
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Remainder loop for vectorization, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Multiversioned v1, Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15453: unmasked strided stores: 1 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 4 
+   remark #15477: vector cost: 2.810 
+   remark #15478: estimated potential speedup: 1.380 
+   remark #15488: --- end vector cost summary ---
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Remainder loop for vectorization, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Multiversioned v2>
+   remark #25230: Loop multiversioned for Same base arrays
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at jquant2.c(1131,3) inlined into jquant2.c(1306,5)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================

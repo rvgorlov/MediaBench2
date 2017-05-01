@@ -1,0 +1,4 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        symbol name
+4        100.000  jpeg_idct_islow

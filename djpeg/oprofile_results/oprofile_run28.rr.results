@@ -1,0 +1,7 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+1        25.0000  djpeg                    h2v2_fancy_upsample
+1        25.0000  djpeg                    jpeg_idct_islow
+1        25.0000  djpeg                    ycc_rgb_convert
+1        25.0000  libc-2.3.5.so            mempcpy

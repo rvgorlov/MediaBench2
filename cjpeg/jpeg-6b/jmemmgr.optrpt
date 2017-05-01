@@ -1,0 +1,323 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o jmemmgr.o
+
+Begin optimization report for: alloc_small(j_common_ptr, int, size_t)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(279,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(295,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+===========================================================================
+
+Begin optimization report for: alloc_sarray(j_common_ptr, int, JDIMENSION, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(279,3) inlined into jmemmgr.c(417,25)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(295,5) inlined into jmemmgr.c(417,25)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(422,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jmemmgr.c(427,5)
+   <Peeled loop for vectorization>
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 2
+      remark #25015: Estimate of max trip count of loop=7
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(427,5)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 5 
+      remark #15477: vector cost: 2.000 
+      remark #15478: estimated potential speedup: 2.160 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(427,5)
+   <Remainder loop for vectorization>
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 2
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: alloc_barray(j_common_ptr, int, JDIMENSION, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(279,3) inlined into jmemmgr.c(465,26)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(295,5) inlined into jmemmgr.c(465,26)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(470,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jmemmgr.c(475,5)
+   <Peeled loop for vectorization>
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      remark #25015: Estimate of max trip count of loop=7
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(475,5)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 4 
+      remark #15477: vector cost: 1.620 
+      remark #15478: estimated potential speedup: 2.080 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(475,5)
+   <Remainder loop for vectorization>
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: request_virt_sarray(j_common_ptr, int, boolean, JDIMENSION, JDIMENSION, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(279,3) inlined into jmemmgr.c(536,31)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(295,5) inlined into jmemmgr.c(536,31)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+===========================================================================
+
+Begin optimization report for: request_virt_barray(j_common_ptr, int, boolean, JDIMENSION, JDIMENSION, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(279,3) inlined into jmemmgr.c(566,31)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(295,5) inlined into jmemmgr.c(566,31)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+===========================================================================
+
+Begin optimization report for: realize_virt_arrays(j_common_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(598,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   remark #25478: While Loop Unrolled by 2  
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(606,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   remark #25478: While Loop Unrolled by 2  
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(639,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jmemmgr.c(279,3) inlined into jmemmgr.c(654,26)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(295,5) inlined into jmemmgr.c(654,26)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(422,3) inlined into jmemmgr.c(654,26)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at jmemmgr.c(427,5) inlined into jmemmgr.c(654,26)
+      <Peeled loop for vectorization>
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+         remark #25015: Estimate of max trip count of loop=7
+      LOOP END
+
+      LOOP BEGIN at jmemmgr.c(427,5) inlined into jmemmgr.c(654,26)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15442: entire loop may be executed in remainder
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 4 
+         remark #15477: vector cost: 1.620 
+         remark #15478: estimated potential speedup: 2.080 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+
+      LOOP BEGIN at jmemmgr.c(427,5) inlined into jmemmgr.c(654,26)
+      <Remainder loop for vectorization>
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(663,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at jmemmgr.c(279,3) inlined into jmemmgr.c(678,26)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(295,5) inlined into jmemmgr.c(678,26)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(470,3) inlined into jmemmgr.c(678,26)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at jmemmgr.c(475,5) inlined into jmemmgr.c(678,26)
+      <Peeled loop for vectorization>
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+         remark #25015: Estimate of max trip count of loop=7
+      LOOP END
+
+      LOOP BEGIN at jmemmgr.c(475,5) inlined into jmemmgr.c(678,26)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15442: entire loop may be executed in remainder
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 4 
+         remark #15477: vector cost: 1.620 
+         remark #15478: estimated potential speedup: 2.080 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+
+      LOOP BEGIN at jmemmgr.c(475,5) inlined into jmemmgr.c(678,26)
+      <Remainder loop for vectorization>
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: access_virt_sarray(j_common_ptr, jvirt_sarray_ptr, JDIMENSION, JDIMENSION, boolean)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(698,3) inlined into jmemmgr.c(778,7)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(698,3) inlined into jmemmgr.c(803,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(823,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: access_virt_barray(j_common_ptr, jvirt_barray_ptr, JDIMENSION, JDIMENSION, boolean)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(731,3) inlined into jmemmgr.c(863,7)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(731,3) inlined into jmemmgr.c(888,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(908,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: free_pool(j_common_ptr, int)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(950,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(957,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(970,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at jmemmgr.c(984,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+===========================================================================
+
+Begin optimization report for: self_destruct(j_common_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(1010,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at jmemmgr.c(950,5) inlined into jmemmgr.c(1011,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(957,5) inlined into jmemmgr.c(1011,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(970,3) inlined into jmemmgr.c(1011,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+
+   LOOP BEGIN at jmemmgr.c(984,3) inlined into jmemmgr.c(1011,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: jinit_memory_mgr(j_common_ptr)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jmemmgr.c(1085,3)
+   remark #25453: Loop Reversed
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 4 
+   remark #15477: vector cost: 6.000 
+   remark #15478: estimated potential speedup: 0.440 
+   remark #15488: --- end vector cost summary ---
+   remark #25436: completely unrolled by 2  
+LOOP END
+===========================================================================

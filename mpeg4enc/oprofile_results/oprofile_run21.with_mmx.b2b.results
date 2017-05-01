@@ -1,0 +1,25 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+13       18.5714  ffmpeg.with_mmx          rgb24_to_yuv420p
+9        12.8571  ffmpeg.with_mmx          sad16_mmx2
+7        10.0000  libc-2.3.5.so            memset
+7        10.0000  no-vmlinux               (no symbols)
+5         7.1429  libc-2.3.5.so            memcpy
+4         5.7143  ffmpeg.with_mmx          ff_epzs_motion_search
+3         4.2857  ffmpeg.with_mmx          dct_quantize_SSE2
+3         4.2857  ffmpeg.with_mmx          sad16_xy2_mmx2
+2         2.8571  ffmpeg.with_mmx          avg_pixels16_x2_mmx2
+2         2.8571  ffmpeg.with_mmx          diff_pixels_mmx
+2         2.8571  ffmpeg.with_mmx          ff_fdct_sse2
+2         2.8571  ffmpeg.with_mmx          mpeg4_encode_blocks
+2         2.8571  ffmpeg.with_mmx          put_pixels16_mmx
+1         1.4286  ffmpeg.with_mmx          MPV_decode_mb
+1         1.4286  ffmpeg.with_mmx          avg_pixels16_xy2_mmx2
+1         1.4286  ffmpeg.with_mmx          avg_pixels16_y2_mmx2
+1         1.4286  ffmpeg.with_mmx          avg_pixels8_xy2_mmx2
+1         1.4286  ffmpeg.with_mmx          clip
+1         1.4286  ffmpeg.with_mmx          ff_estimate_b_frame_motion
+1         1.4286  ffmpeg.with_mmx          hpel_motion_search
+1         1.4286  ffmpeg.with_mmx          put_pixels16_x2_mmx2
+1         1.4286  ld-2.3.5.so              do_lookup_x

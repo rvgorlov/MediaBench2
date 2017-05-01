@@ -1,0 +1,8 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+3        42.8571  cjpeg                    forward_DCT
+1        14.2857  cjpeg                    compress_data
+1        14.2857  cjpeg                    encode_mcu_huff
+1        14.2857  cjpeg                    rgb_ycc_convert
+1        14.2857  libc-2.3.5.so            _IO_sgetn

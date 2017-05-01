@@ -1,0 +1,35 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+83       38.4259  ffmpeg.without_mmx       pix_abs16_c
+21        9.7222  ffmpeg.without_mmx       pix_abs16_xy2_c
+14        6.4815  ffmpeg.without_mmx       rgb24_to_yuv420p
+11        5.0926  ffmpeg.without_mmx       ff_jpeg_fdct_islow
+10        4.6296  ffmpeg.without_mmx       pix_abs16_x2_c
+9         4.1667  no-vmlinux               (no symbols)
+7         3.2407  ffmpeg.without_mmx       dct_quantize_c
+7         3.2407  ffmpeg.without_mmx       pix_abs16_y2_c
+6         2.7778  libc-2.3.5.so            memset
+5         2.3148  ffmpeg.without_mmx       pix_abs8_c
+4         1.8519  ffmpeg.without_mmx       avg_pixels16_xy2_c
+4         1.8519  ffmpeg.without_mmx       ff_epzs_motion_search
+4         1.8519  ffmpeg.without_mmx       put_pixels16_xy2_c
+4         1.8519  ffmpeg.without_mmx       simple_idct_add
+3         1.3889  ffmpeg.without_mmx       avg_pixels16_y2_c
+3         1.3889  libc-2.3.5.so            memcpy
+2         0.9259  ffmpeg.without_mmx       avg_pixels16_c
+2         0.9259  ffmpeg.without_mmx       hpel_motion_search
+2         0.9259  ffmpeg.without_mmx       mpeg4_encode_blocks
+2         0.9259  ffmpeg.without_mmx       pix_sum_c
+2         0.9259  ffmpeg.without_mmx       put_no_rnd_pixels16_xy2_c
+1         0.4630  ffmpeg.without_mmx       avg_pixels16_x2_c
+1         0.4630  ffmpeg.without_mmx       dct_unquantize_h263_inter_c
+1         0.4630  ffmpeg.without_mmx       diff_pixels_c
+1         0.4630  ffmpeg.without_mmx       init_uni_mpeg4_rl_tab
+1         0.4630  ffmpeg.without_mmx       mpeg4_encode_mb
+1         0.4630  ffmpeg.without_mmx       put_no_rnd_pixels16_x2_c
+1         0.4630  ffmpeg.without_mmx       put_pixels16_c
+1         0.4630  ffmpeg.without_mmx       put_pixels16_y2_c
+1         0.4630  ffmpeg.without_mmx       sad_hpel_motion_search
+1         0.4630  ffmpeg.without_mmx       simple_idct_put
+1         0.4630  libc-2.3.5.so            _IO_default_xsputn

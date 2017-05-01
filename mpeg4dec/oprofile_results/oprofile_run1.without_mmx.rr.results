@@ -1,0 +1,14 @@
+CPU: CPU with timer interrupt, speed 0 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+12       25.5319  ffmpeg.without_mmx       yuv420p_to_rgb24
+10       21.2766  no-vmlinux               (no symbols)
+9        19.1489  libc-2.3.5.so            memcpy
+4         8.5106  ffmpeg.without_mmx       simple_idct_put
+3         6.3830  ffmpeg.without_mmx       put_pixels16_c
+3         6.3830  ffmpeg.without_mmx       simple_idct_add
+2         4.2553  ffmpeg.without_mmx       put_pixels8_xy2_c
+1         2.1277  ffmpeg.without_mmx       MPV_motion
+1         2.1277  ffmpeg.without_mmx       ff_mpeg4_decode_mb
+1         2.1277  ffmpeg.without_mmx       prefetch_motion
+1         2.1277  libc-2.3.5.so            _int_free

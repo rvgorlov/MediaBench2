@@ -1,0 +1,4 @@
+
+Assuming the executable 'ffmpeg' is linked to 'mpeg4dec', the command line for baseline execution:
+	mpeg4dec -y -s 4cif -r 30 -an -g 9 -bf 3 -i input_base_4CIF_96bps.avi -s 4cif -an -y output_base_4CIF_96bps_dec_%03d.ppm
+

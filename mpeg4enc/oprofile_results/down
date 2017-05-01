@@ -1,0 +1,28 @@
+Daemon started.
+Profiler running.
+FFmpeg version CVS, Copyright (c) 2000-2004 Fabrice Bellard
+  configuration:  --disable-strip 
+  libavutil version: 49.0.0
+  libavcodec version: 51.9.0
+  libavformat version: 50.4.0
+  built on Jul  7 2006 19:47:53, gcc: 4.0.2 20051125 (Red Hat 4.0.2-8)
+Input #0, image2, from 'input_base_4CIF_%03d.ppm':
+  Duration: 00:00:00.3, start: 0.000000, bitrate: N/A
+  Stream #0.0, 30.00 fps(r): Video: ppm, rgb24, 704x576
+Output #0, avi, to 'output_base_4CIF_96bps_15.with_mmx.avi':
+  Stream #0.0, 30.00 fps(c): Video: mpeg4, yuv420p, 704x576, q=2-31, 39 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press [q] to stop encoding
+frame=    9 q=5.1 Lsize=     107kB time=0.3 bitrate=3301.3kbits/s    
+video:103kB audio:0kB global headers:0kB muxing overhead 4.604650%
+
+real	0m0.592s
+user	0m0.548s
+sys	0m0.044s
+
+Stopping profiling.
+warning: /no-vmlinux could not be found.
+Signalling daemon... done
+Stopping profiling.
+Killing daemon.

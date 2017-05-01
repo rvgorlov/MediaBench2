@@ -1,0 +1,196 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o rdcolmap.o
+
+Begin optimization report for: read_pbm_integer(j_decompress_ptr, FILE *)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at rdcolmap.c(143,1)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(149,10)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(158,16)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(158,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(158,16)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: read_color_map(j_decompress_ptr, FILE *)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at rdcolmap.c(87,3) inlined into rdcolmap.c(242,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #25436: completely unrolled by 12  
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(103,3) inlined into rdcolmap.c(242,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at rdcolmap.c(55,3) inlined into rdcolmap.c(242,5)
+      remark #15524: loop was not vectorized: search loop cannot be vectorized unless all memory references can be aligned vector load
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15456: masked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15487: type converts: 3 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(181,7) inlined into rdcolmap.c(245,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(158,3) inlined into rdcolmap.c(245,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(160,5) inlined into rdcolmap.c(245,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(158,3) inlined into rdcolmap.c(245,5)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+   LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+      remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(194,5) inlined into rdcolmap.c(245,5)
+   remark #25095: Loop Interchange not done due to: User Function Inside Loop Nest
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at rdcolmap.c(195,7) inlined into rdcolmap.c(245,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at rdcolmap.c(152,18) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+         LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+            remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(158,3) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+         LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+            remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(196,2) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+         LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+            remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(158,3) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+         LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+            remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(197,2) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+         LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+            remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(158,3) inlined into rdcolmap.c(245,5)
+         remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+
+         LOOP BEGIN at rdcolmap.c(131,20) inlined into rdcolmap.c(245,5)
+            remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at rdcolmap.c(55,3) inlined into rdcolmap.c(245,5)
+         remark #15524: loop was not vectorized: search loop cannot be vectorized unless all memory references can be aligned vector load
+         remark #15450: unmasked unaligned unit stride loads: 1 
+         remark #15456: masked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector cost summary ---
+         remark #15487: type converts: 3 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at rdcolmap.c(205,5) inlined into rdcolmap.c(245,5)
+   remark #25095: Loop Interchange not done due to: User Function Inside Loop Nest
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:_IO_getc(_IO_FILE *) (207:6) and *(colormap2+ncolors) (69:3)
+
+   LOOP BEGIN at rdcolmap.c(206,7) inlined into rdcolmap.c(245,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+      LOOP BEGIN at rdcolmap.c(55,3) inlined into rdcolmap.c(245,5)
+         remark #15524: loop was not vectorized: search loop cannot be vectorized unless all memory references can be aligned vector load
+         remark #15450: unmasked unaligned unit stride loads: 1 
+         remark #15456: masked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector cost summary ---
+         remark #15487: type converts: 3 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

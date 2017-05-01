@@ -1,0 +1,1041 @@
+
+rate control: sequence initialization
+ initial global complexity measures (I,P,B): Xi=4231346, Xp=1586755, Xb=1110728
+ reaction parameter: r=202752
+ initial virtual buffer fullness (I,P,B): d0i=65404, d0p=65404, d0b=91565
+ initial average activity: avg_act=400.0
+
+rate control: new group of pictures (GOP)
+ target number of bits for GOP: R=506880
+ number of P pictures in GOP: Np=1
+ number of B pictures in GOP: Nb=3
+
+Frame 0 (#0 in display order):
+ picture_type=I
+ temporal_reference=0
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=1
+ alternate_scan=0
+
+rate control: start of picture
+ target number of bits: T=261615
+
+vbv_delay=47494 (bitcount=704, decoding_time=47515.15, bitcnt_EOP=0)
+
+rate control: end of picture
+ actual number of bits: S=236846
+ average quantization parameter Q=7.6
+ remaining number of bits in GOP: R=270034
+ global complexity measures (I,P,B): Xi=898863, Xp=1586755, Xb=1110728
+ virtual buffer fullness (I,P,B): d0i=40635, d0p=65404, d0b=91565
+ remaining number of P pictures in GOP: Np=1
+ remaining number of B pictures in GOP: Nb=3
+ average activity: avg_act=19.6
+Y: variance=1121, MSE=3.03 (43.3 dB), SNR=25.7 dB
+U: variance=50.43, MSE=1.08 (47.8 dB), SNR=16.7 dB
+V: variance=12.29, MSE=0.847 (48.9 dB), SNR=11.6 dB
+
+picture statistics:
+ # of intra coded macroblocks:  1584 (100.0%)
+ # of coded blocks:             9504 (100.0%)
+ # of not coded macroblocks:       0 (0.0%)
+ # of skipped macroblocks:         0 (0.0%)
+ # of forw. pred. macroblocks:     0 (0.0%)
+ # of backw. pred. macroblocks:    0 (0.0%)
+ # of interpolated macroblocks:    0 (0.0%)
+
+macroblock_type map:
+IQ I  I  I  IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ I  I  
+I  I  I  IQ I  I  I  I  I  IQ IQ I  IQ IQ I  I  I  IQ IQ I  IQ I  IQ I  IQ I  I  I  I  I  I  I  I  I  IQ I  I  IQ IQ IQ IQ IQ IQ IQ 
+IQ I  I  IQ I  I  I  I  IQ IQ IQ IQ I  IQ IQ I  I  IQ I  I  I  I  I  IQ IQ IQ IQ I  I  I  I  I  I  I  IQ IQ IQ I  IQ I  I  I  I  I  
+IQ I  I  I  IQ I  I  I  I  I  IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  I  I  I  I  I  
+I  I  I  I  IQ IQ I  IQ IQ I  I  IQ I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  IQ IQ I  I  IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ I  I  I  I  I  IQ I  IQ I  I  I  I  I  IQ 
+I  IQ I  I  I  IQ I  I  IQ I  IQ IQ I  I  IQ IQ I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  IQ 
+IQ I  I  I  I  IQ I  IQ I  I  I  I  I  IQ I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  IQ IQ 
+I  I  I  I  IQ IQ I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  
+I  I  I  I  IQ IQ I  I  I  IQ I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  
+IQ IQ I  I  IQ IQ IQ I  IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+IQ IQ I  I  I  I  I  I  I  IQ IQ IQ I  I  IQ IQ I  I  I  IQ IQ IQ I  IQ I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+IQ IQ I  IQ IQ I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ 
+IQ IQ IQ I  I  I  I  I  I  IQ I  I  IQ I  I  I  I  I  I  I  I  I  I  IQ I  IQ I  I  I  I  I  I  I  I  I  IQ IQ I  I  IQ I  I  I  I  
+IQ IQ IQ I  I  IQ I  I  I  I  I  I  I  IQ IQ I  IQ I  I  IQ IQ I  IQ IQ I  I  I  I  I  I  I  I  I  I  IQ IQ IQ IQ I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ I  IQ I  I  I  I  I  I  I  I  I  I  I  I  IQ I  I  I  IQ I  I  I  I  
+IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  IQ IQ I  IQ IQ I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  IQ I  IQ I  I  
+IQ IQ I  I  IQ I  IQ I  IQ I  I  I  I  I  I  I  I  I  IQ I  IQ IQ IQ I  IQ IQ I  IQ IQ IQ I  IQ IQ IQ I  I  IQ I  IQ I  IQ I  I  I  
+I  IQ IQ I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  IQ I  I  IQ IQ IQ IQ I  I  I  I  IQ IQ I  I  I  I  IQ IQ 
+I  I  IQ I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  IQ IQ IQ IQ I  I  I  IQ I  I  I  I  I  I  IQ IQ I  IQ IQ I  IQ I  I  
+I  IQ I  I  I  IQ IQ I  I  I  I  I  IQ IQ I  I  I  I  I  I  IQ I  IQ IQ I  IQ I  IQ I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  IQ I  I  I  IQ IQ I  IQ IQ I  I  I  I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ I  I  I  I  I  IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  I  I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  IQ 
+IQ I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  IQ IQ I  I  I  IQ I  I  I  I  I  I  I  I  I  IQ 
+IQ I  I  I  I  IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ 
+IQ I  I  IQ IQ I  I  I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  IQ IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  I  IQ 
+I  IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ I  IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  I  
+I  I  I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ IQ IQ IQ I  IQ I  I  I  I  IQ I  I  I  I  I  I  I  I  I  I  
+
+mquant map:
+ 10          12 14 16 14 12 10                                                                                                      
+ 10                                                                                                                          8      
+  8       10                12 10    12 10           8 10     8    10     8                            10       18 16 18 16 14 18 10
+  8       10             12 10 12 10     8 10        8                10  8 10  8                      12 10  8    10               
+  8          10                12 10  8                                                                14 12  8                     
+  8          10  8    12 10        8                12  8                                                                           
+  8       14  8       10  8 10  8                                                                                                   
+  8                                                                                                                                 
+  8                                     12  8                                                                                       
+  8             10  8                                                                    7                 8     7                 8
+  8  7           8        7     8  7        8  7              8  7                                            8  7                10
+  7              8     7                 8     7                                                              8  7             10  7
+  7          10  8     7                                                                                                    12  7   
+  7          10  8           7              8  7                                                                          8  7      
+  8  7       10  8  7    10 12  7                                                                                                   
+  8  7                      16  8  7        8  7           8  7  8     7           8  7                                             
+  8  7     8  7                   10  7                                      8  7                                                  6
+  7  8  7                    6        7                                8     7                             6  7        6            
+  7 10  7        6                       8  6     7        8  7     8  7                                8  7  8  7                  
+  7                                                           8     7                                      8           7            
+ 10  7                                              10  8  7                                                                        
+  7                                                                                8  7                               10  8  7      
+  7                                         6  7  6    12  7     8  7              6  7                                8     7      
+  8  7        8     7     6                             7     6  7  6     7  6     7  6  7     6  7  6        7     6     7         
+  7  6  7        8  6                                         7  6  7        6        7  6  7  6              7  6              7  6
+  6     7        8  6                               16  6        7  6 12  8           7                    6  7     6  7     6      
+  6  7           8  6                12  6                    7    10  8     7     8     7                                          
+  7              8  7                             6           7 10     7  8              7                                          
+  7                                                              8                 7  8  7                                          
+  7                      10  7                                      8 10  8              7                                         8
+  7                       8  7                                     10  8              7  8           7                             8
+  7              8  7 12  7                                         8 10  8           7                                           12
+  7        8  7                      12  7                             8 10  8        7  8  7  8  7                                8
+  8  7                                                              8    12  8  7                                                   
+  7                                                                    8 10  7  8  7                                                
+  7             10  6                                            8  6  7  8 10  8     7              6                              
+
+Frame 1 (#4 in display order):
+ picture_type=P
+ temporal_reference=4
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=108014
+
+vbv_delay=43485 (bitcount=237552, decoding_time=50515.15, bitcnt_EOP=237520)
+
+rate control: end of picture
+ actual number of bits: S=78892
+ average quantization parameter Q=11.5
+ remaining number of bits in GOP: R=191142
+ global complexity measures (I,P,B): Xi=898863, Xp=453181, Xb=1110728
+ virtual buffer fullness (I,P,B): d0i=40635, d0p=36282, d0b=91565
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=3
+ average activity: avg_act=15.3
+Y: variance=1123, MSE=5.29 (40.9 dB), SNR=23.3 dB
+U: variance=50.04, MSE=1.55 (46.2 dB), SNR=15.1 dB
+V: variance=12.74, MSE=1.16 (47.5 dB), SNR=10.4 dB
+
+picture statistics:
+ # of intra coded macroblocks:   187 (11.8%)
+ # of coded blocks:             3726 (39.2%)
+ # of not coded macroblocks:     277 (17.5%)
+ # of skipped macroblocks:        85 (5.4%)
+ # of forw. pred. macroblocks:   879 (55.5%)
+ # of backw. pred. macroblocks:    0 (0.0%)
+ # of interpolated macroblocks:    0 (0.0%)
+
+macroblock_type map:
+IQ I  IQ IQ IQ I  IQ IQ I  FN FQ FN FN FN FN FN FN FN F  FN FN 0  FN FN FN FN FN FN FN 0Q F  FQ FQ 0  F  I  I  FQ IQ IQ IQ IQ I  0Q 
+IQ IQ IQ IQ I  I  IQ FQ F  FQ FN FN FN FQ FQ FN FN FN FN FN FN 0Q FN FN FN FN FN FQ FN 0Q F  FQ FN 0Q FQ IQ I  IQ IQ IQ IQ IQ F  0  
+IQ IQ I  IQ IQ I  IQ FQ FQ FN FQ FQ FN FQ FQ FQ FN FN F  FN 0Q 0  FN F  FN FN FN F  FN 0  F  F  FN FN F  I  IQ IQ IQ FQ FQ F  FQ F  
+IQ IQ IQ IQ I  IQ I  FQ FN FN FN FN FN FN FN FN FN FQ FN SN SN 0  SN FN FN 0Q FN FN FQ 0Q F  F  F  FN I  I  FQ IQ IQ IQ FQ FQ FQ IQ 
+IQ I  I  IQ IQ IQ IQ 0Q FQ FQ FQ FN FN FN FN FN FN FQ 0Q 0Q SN 0  SN SN 0Q 0  0Q FQ 0  F  F  FN FQ FQ I  I  IQ IQ I  IQ IQ I  FQ IQ 
+IQ IQ I  I  IQ I  IQ FQ FN FN F  FQ FN FN FN FN FQ FQ FQ 0Q FN 0Q SN 0Q 0Q 0  FQ FN 0Q FN FN F  FQ FN FN FN IQ IQ IQ FQ IQ FQ FQ I  
+IQ IQ IQ IQ FQ FQ IQ F  FN FQ FN FQ FN F  FN FN F  FQ 0Q 0Q F  0  SN 0  SN SN 0  FN 0  F  FN F  F  0  SN 0  F  I  FQ FQ FQ FQ IQ I  
+IQ I  IQ FQ F  FQ IQ FN FN FN FN FN FN FQ F  FN FQ 0Q SN 0Q SN F  0  SN SN 0  0  FN 0  F  F  F  F  SN SN 0  FN FN FN F  I  I  FQ FQ 
+IQ IQ IQ IQ IQ F  0Q FQ FN FN FN FQ FN FN FN FN FQ FQ FN F  FN FQ FQ FN 0  SN 0  FN 0  F  F  F  F  0  SN FN FN FN F  F  I  IQ IQ I  
+IQ IQ IQ I  IQ FQ 0Q FN FQ F  FQ 0Q FN F  FN FN FQ 0Q 0  FN FN 0  FN FN FN 0  0  FN 0  FQ FQ FN F  0  FQ FN FQ FQ FN FQ IQ IQ IQ I  
+IQ IQ IQ IQ IQ IQ FQ FQ 0  0  FQ FQ 0  F  FQ FQ FQ FQ FN F  FN FN F  FN 0  0  SN F  0Q FN F  FN FN FQ FN 0Q FQ FN F  F  I  I  IQ I  
+IQ IQ IQ IQ IQ FQ FQ FN FQ 0  0  0Q FQ FQ FQ FQ F  F  FN FQ FN FQ FN F  SN 0Q 0  FQ 0Q F  F  FN FQ FN 0Q 0  FN FN F  I  I  FQ IQ IQ 
+IQ IQ IQ IQ IQ FQ F  FQ F  0Q 0  0  0  0  FQ FQ FN FN FN FN FN FN FQ FN FN SN 0Q FN 0  F  FQ FN FN 0Q 0  0  FN FN F  I  FQ IQ IQ IQ 
+0Q IQ IQ IQ I  I  IQ FQ FN FQ FN 0Q 0Q FN FN FQ FN FN FQ F  FN F  FN 0Q 0  SN 0  F  0  FQ FN FN F  0Q 0  0  FQ FQ IQ FQ FQ I  I  FQ 
+IQ IQ IQ IQ IQ FQ FN FN FN FN FQ 0Q 0Q FN FQ FQ FQ FN FN 0  0Q 0Q 0  0  0Q 0  FQ FN FN FQ F  FN FQ 0Q 0  0  FN FQ IQ FQ F  FQ F  FQ 
+IQ IQ IQ IQ IQ 0Q 0  0  F  FN FQ FQ FN FQ FN SN 0Q 0  FQ 0Q 0Q FN FN 0Q 0Q FN FQ FN FQ FQ F  F  F  F  0  0  F  I  FQ FQ FQ F  FQ I  
+IQ IQ IQ FQ FQ 0Q 0Q 0Q 0  F  FQ FQ FN FQ FQ 0  SN SN F  FQ 0  F  F  0  FQ FQ FQ F  0Q 0  0  F  F  F  0  0  FQ IQ FQ FQ FQ F  0  FN 
+I  IQ FQ 0Q 0Q 0  0  SN 0  SN SN F  FQ F  FQ F  F  F  F  FQ 0  FN F  FN FQ FQ FN FN FQ 0Q FQ FN FQ FQ 0  0  FN FQ IQ FQ FQ 0  SN FN 
+I  IQ FQ 0Q 0  0  0  SN SN SN SN SN F  FQ FQ F  FQ F  F  FN FQ FN FN FQ FQ 0  0  FN FN FN FQ FQ FQ FN 0Q FN FQ FQ IQ FQ 0Q 0  0  0  
+IQ FQ 0Q FQ FQ 0  0  0  0  SN 0  0  F  FQ FQ SN FQ FN F  FN FQ FN FQ 0  0  0  0  F  FN FN 0  0  0  FN FN FQ F  FQ FQ FQ FQ FN F  FN 
+IQ FQ FQ 0Q FQ 0Q 0  SN SN 0  0  0  0  FN FN F  F  FQ FQ FQ FQ FQ 0Q 0  0  0  0Q FN F  FN 0  0  FN F  F  I  F  FQ IQ FQ FQ 0  0  0  
+IQ 0Q 0Q 0Q FQ FQ 0  SN 0  SN 0  0  FQ 0Q 0  FQ FN FQ FQ FQ FQ F  F  F  FN FN FN FN FN FN 0  FQ 0  FN 0  FN F  FQ F  FQ FQ FQ F  0  
+0Q F  0Q 0Q F  FN SN 0Q SN SN 0  SN F  0  0  FQ 0Q 0  FQ FQ 0Q FQ FQ 0  0  0Q FQ 0  F  FN FN FN FN FN FN FN F  FQ FQ FQ FN FQ FN FN 
+FQ F  0Q 0  FN FN 0Q 0  0  0  0  0  0  0  0  0  0  SN FQ FQ 0  F  F  0  F  0  0  F  FN FQ FN FQ F  F  F  F  F  F  F  F  F  F  FQ FQ 
+FQ 0Q 0Q 0  FN FN 0Q SN 0Q SN 0Q SN 0Q 0  0  0  F  SN SN F  0Q 0  FQ FN F  FQ FQ FQ FN F  FQ FQ F  0  F  F  F  FQ FQ F  F  F  0Q 0Q 
+FQ FQ FN 0Q FN FN SN SN 0Q SN SN 0Q 0  0Q SN F  FQ FQ SN FQ FQ 0  FQ FQ FQ FQ FQ FQ FQ FQ FN FN FQ FQ F  FQ FQ FQ FQ 0  FQ 0Q 0Q 0  
+0Q 0Q 0Q 0Q FN FQ SN 0Q 0Q 0Q SN SN FQ FQ 0  F  0Q FN 0  FN FQ FQ FQ FQ FQ FQ FQ FQ F  FQ FQ FQ FQ F  FN F  FQ FQ FQ 0Q 0Q 0  0  0  
+0Q F  F  0Q FN F  SN SN 0Q 0  0  0  F  FQ FN 0Q 0  FN 0  FN FQ F  FQ FQ F  FQ FQ F  FQ FQ FQ FQ F  F  FQ F  F  F  0Q 0  0  SN 0  0  
+IQ FQ FN 0  0  FQ 0Q 0  0  0  SN 0  0  FN FN 0  SN 0  FN 0  F  FQ FQ FQ FQ FQ FQ FQ FQ FQ FQ F  F  FQ F  F  FQ SN 0  0  SN SN SN 0  
+0Q F  FQ 0  F  FQ 0Q 0  FQ FQ SN 0  0  FN 0Q 0Q 0Q 0Q FN 0  FQ F  FQ FQ FQ FQ FQ FQ FQ FQ F  F  F  F  F  0Q 0  0  0  0  SN 0  0  FN 
+FQ FQ FQ 0Q FN FQ FQ F  FQ FQ SN 0  0  0  0  FN 0  FN 0  FQ FQ FQ FQ FQ FQ F  FQ F  F  FQ FN FN FQ FQ 0Q 0  0  0  0  0  0  0  0Q FN 
+IQ FQ F  F  FQ FN FQ FN FQ 0Q 0  0  0  0  0  0  F  FN 0  0  FQ FQ FQ FQ FQ FQ FQ F  FQ FQ F  FQ FQ 0Q 0  0  0  0  0  SN 0  SN 0  FN 
+IQ FQ FQ FN FN FQ FQ F  0Q SN SN 0  FQ FQ SN 0Q 0  F  0  0  FQ F  FQ FQ FQ FQ F  F  FQ F  FQ FQ 0Q 0  0  0Q 0Q 0  0Q 0  SN 0Q 0  FN 
+IQ FQ F  0  0Q FQ FQ 0Q 0  SN SN SN 0Q 0Q 0  0  0  0  0Q 0  FQ FQ FQ F  FQ FQ FQ F  FQ I  F  FQ 0  0  0  0Q 0Q 0  0Q 0  0Q 0Q 0  0  
+IQ FQ F  F  FQ FQ FQ SN SN 0  0Q 0  0  0Q 0Q 0Q 0  0  0Q 0  0Q FQ F  F  FQ FQ F  FQ FQ FQ FQ 0Q 0  0Q 0Q 0Q 0  0  0  0  0  0  0  0  
+IQ FQ F  F  F  FN 0Q 0Q 0  0  0  0  0  0  0  0  0  0Q F  0Q F  FQ FQ FQ IQ FQ FQ F  FQ 0Q 0Q SN SN 0Q 0  0  0  0  0  0  0  0  0  FN 
+
+mquant map:
+ 32    24 14 10    12 24    18 12 16 18 12 16 14 12 14 12    16 12       14    12 14 12 10    12 10             22 28 12 10 12    10
+ 32 24 16 10       12 14    22 20 22    12 14       12       14 12 14 10 12 14 10 14 12 10    12 10    12 10    12 28 14 12 10      
+ 22 20    14 10    12 14 18 28 24 22 28 18 22 12 16 12       10    12 10 12 16 12 10 12 10                   16 12 18 28 14    12   
+ 22 16 12 10    12    14 28 24    22 32 18 12 14 18 12 14 12       14 18 16    12 10 12 10                   16 12 16 22 14 16 20 22
+ 14       12 10 12 10 22 16 18 24 20 12 14 20 12 14    10 12 10 12       10    12 10             12 10       22 16    20 12    20 10
+ 14 12       10    20 22 20    22 14    18 12    22 28 12 14 16 10    12 10    12 10             12 10       22 28 20 16 12 14 10   
+ 12 14 18 14 10 14 24    18 28 22 12 16 12    10 12 14 12 10                                                       20 16 20 12 10   
+ 12    28 18    16 24 12 16 22 14       18    16 24 12 10                                                          18 10       14 12
+ 22 18 24 16 18    22 14    20 18 12 14 24 16 22 16 10 14 10 16 12 10 12 10                                  18 16 10       14 10   
+ 14 16 12    14 16 20 12 10    16 10       18    20 10       14 10 12 14 10              8 10           8 16 14 10  8    10 18 10   
+ 12 28 14 18 16 22 20 10       12 10       16 10 12 10       16 10    12 10           8 10  8 10       14  8 10 20 10          12   
+ 14 20 16 22 12 16 14 10          12 10 18 24 10          12 16 10           8    10  8       10     8       10 18  8       14 10 12
+ 16 24 22 12 10 22    14    12             10 14 12 10 18 12 10 12 10 14 10     8 10  8    10 16     8       12 16  8    10 12 14 12
+ 22 24 14 24       18 22 20 16 10     8 14 22 20 10 12 10    16 10     8                10 22  8 10  8       10 14 20  8 12        8
+ 14 20 22 12 10 18    14 28 32 14 10  8 12 10  8 10 16 12 10  8 10       12    10  8 18  8       10  8       10 12 10 12    10     8
+ 12 10 14 20 22 10          32    12    14 28  8       18 16 14 16 18 16 10    12 20 10  8                         10 16 10     8   
+ 12 10 24 18 12  8 10  8       10 28 16 12  8             10              8 18 12     8                      10  8 20 10  8         
+  8 20 16 10  8                      12     8             10          18 20 10        8 10  8 10     8       12 18 10 16  8         
+  8 24 16  8                            24  8    12       22 14 16 20 12 10                12 14 12 20    18 14 18 16 14 10         
+  8 14 16 12  8                         28 12  8    28  8 16 24 20  8                10     8       14 12       18 12 16 12 14 12 16
+  8 10 12 10 18  8                      12 10  8    14 18 14 10  8 10           8       10  8                   14  8 18  8         
+ 18 10 12 14 12  8                   20  8    12  8    28 12 10          12    14 16 14    10  8    10  8 10  8 10    18 20  8      
+ 10    12 10    18  8                         10  8    28 10  8 14  8       10  8       12       10 14 16 14  8 10 18 24    12      
+  8    10    18     8                                  14  8                         10    12  8                               16 14
+ 10  8 10    14 16  7  8        7  8                    7  8 12    14        8 10  8 10  8 12  8                10  8          10  8
+ 16  8 12 14 12 20  7     8        7     8        7 22  7  8 10    12 24 20 16 18 16 10 14 16 14 10  8    10  8 12  8    12  8  7   
+  8 10 12 10 12 20  7     8  7       16  8        7          14 16 20 22 16 12 10 16    14 12  8 10    12 10  8 10 12  8  7         
+ 10       14 12 14  7                    8 10  7             18    20 16    18 20    16 12 10  8       10           7               
+ 10  8 12  8    12  7                    8     7                10 20 14 18 16 18 16 18 12  8       10        7                     
+ 10     8       12  7     8  7              8  7  8  7        8    18 20 16 14 18 16 18 10                 7                      18
+  8 12 10  8 12     7    24  7                 8  7  8  7 18  7 10 14 20 12    14       10 14 16 14  8  7                       8 16
+ 10  8       10 18  7 24  8  7                      10  7     8 10  8 16 12 14 16    12 10    12 10  7                            22
+ 18 10  8 14 10     8     7          16  8  7                 8    10 14 16 14       10     8 14  7        6  7     6     7       14
+ 20  8       10  8 18  7              6  7              6     7  8 16    18 16 12     8        7           6  7     6     7  6      
+ 16 10        8 12  7  6     7  6        7  6  7        6     7 10       16 14    12  7  8 10  7     6  7  6                        
+ 10  8          18  7  6                             7     6    14  8 12 16 18 14    10  8  7  6  7  6                              
+
+Frame 2 (#1 in display order):
+ picture_type=B
+ temporal_reference=1
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+ backward search window: -15...15 / -15...15
+ backward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=63714
+
+vbv_delay=44150 (bitcount=316440, decoding_time=53515.15, bitcnt_EOP=316408)
+
+rate control: end of picture
+ actual number of bits: S=35572
+ average quantization parameter Q=19.6
+ remaining number of bits in GOP: R=155570
+ global complexity measures (I,P,B): Xi=898863, Xp=453181, Xb=349477
+ virtual buffer fullness (I,P,B): d0i=40635, d0p=36282, d0b=63423
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=2
+ average activity: avg_act=19.2
+Y: variance=1127, MSE=5.97 (40.4 dB), SNR=22.8 dB
+U: variance=49.85, MSE=1.51 (46.3 dB), SNR=15.2 dB
+V: variance=12.62, MSE=1.14 (47.6 dB), SNR=10.4 dB
+
+picture statistics:
+ # of intra coded macroblocks:    18 (1.1%)
+ # of coded blocks:              464 (4.9%)
+ # of not coded macroblocks:    1296 (81.8%)
+ # of skipped macroblocks:        98 (6.2%)
+ # of forw. pred. macroblocks:   822 (51.9%)
+ # of backw. pred. macroblocks:  118 (7.4%)
+ # of interpolated macroblocks:  626 (39.5%)
+
+macroblock_type map:
+IQ FN FN DN FN FN FN SN SN DN DN DN DN BN BN FN BN FN DN DN DN DN DN FN DN BN FN DN FN DN DN FN FN BN DN FQ FQ FN FN FN FN FN FN FN 
+FQ FN FN FN FN FQ SN SN FN DN FN DN DN DN FN DN FN DN FN BN FN DN FN FN DN FN FN FN DN DN DN FN DN BN FQ FQ FN FN FN SN FN FN DN FN 
+FQ FN FN FQ FN FQ FN FN FN DN DN FN DN DN FN DN DN FN DN SN FN DN DN FN FN DN BN FN FN DN FN FN FN DN FQ FN FQ F  FN FN FN FN FQ FQ 
+IQ FN FN FQ FN DQ FN FN SN FN SN FN DN DN FN DN FN FN DN DN FN DN DN BN FN SN SN BN DN DQ DN FN FN BN FN SN SN FQ FN FN FN FN FN B  
+IQ FN FN D  D  FQ FN SN DN FN DN FN BN DN DN FN SN DN DN DN DN BN FN DN BN DN DN DN DN DN FN DN FN BN FN SN SN FQ FN SN FN FN FN F  
+FQ FN FN I  F  FN FN FN DN DN FN FN DN DN FN FN FN DN FN DN FN DN FN DN DN FN DN DN FN FN FN FN FN FN FN SN FN FQ FQ FN DN DQ FN FN 
+IQ FN FN FN DQ FQ FN DN DN DN DN FN BN DN BN DN FN FN DN DN DN FN DN DN FN DN DN DN DN DN DN FN DN FN DN FN FN FN DQ BN DQ DQ FN FN 
+FQ FQ FQ FQ FQ FQ FN FN FQ FN BN FN DN FN SN DN DN FN DN DN DN FN DN FN DN FN DN DN DN FN FN FN DN DN FN DN BN FN BN BN DQ FN FN FN 
+DQ FQ FN F  IQ FQ FN SN FN DN DN DN DN FN DN DN FN DN DN DN FN DN FN BN FN FN DN FN DN FN FN FN DN FN DN FN SN SN FN BN FN FN FN FN 
+FQ D  FQ FN FN FN FN DN DN FN DN FN FN DN BN FN DN FN FN DN DN DN DN DN DN DN DN FN FN DN DN FN FN FN DN FN SN SN BN BN FN FN FN FN 
+FQ I  FQ FQ FN FQ FN FN FN DN FN DN DN DN FN DN FN BN BN BN FN BN DN DN DN DN DN DN FN FN DN DN FN DN DN DN FN FN DN BN FN FN FN IQ 
+FQ IQ DQ FN FN IQ D  DN DN DN FN FN DN FN DN DN FN SN DN DN SN FN SN DN DN DN DN DN FN DN BN FN DN FN FN DN DN FN DN DQ FN FN DQ FQ 
+FQ I  DQ FN FN F  FQ SN DN DN DN DN DN FN FN FN DN DN DN DN BN FN DN FN DN DN FN DN DN FN DN DN FN FN FN FN DN FN DQ DN DN BN FQ FQ 
+IQ DQ FQ FN FN FQ FN DN DN DN BN FN DN FN DN FN DN FN DN DN FN DN DN DN DN DN FN FN DN DN DN FN DN FN DN DN FN BN FQ FN FN BQ DQ FQ 
+IQ DQ FQ FN F  FQ DN FN DN DN FN DN DN FN FQ FN FN DN DN SN DN DN DN FN DN DN FN BN DN DN DN FN FN FN FN FN SN DQ FQ FN DN DQ BQ BN 
+IQ DQ FN FQ SN DN DN DN FQ DN DN FN BN FN DN FN BN DN FN DN DN FN DN DN FN DN DN FN BN FN SN FN DN FN FN DN DN F  FN FN DN DN DN BN 
+IQ DQ D  DN BN FN BN DN FN DQ FQ SN SN SN SN FN SN BN FN SN DN DN DN DN DN DN FN SN DN FN FN FN FN FN FN FN FN DQ FN FN DN FN FN BN 
+DQ DQ BQ DN DN DN FN BN FN BN BN FQ SN SN FN F  F  D  F  FQ DN FN FN DN DN BN FN BN DN FN DN FN FN FN FN FN FN DQ DN DN FN DN FN FN 
+IQ DQ FN FN FN DN FN FN FN FN FN FN FN DN FN FN FN SN SN DN DN DN DN DN DN FN FN FN DN FN SN DN DN FN SN BQ FQ DQ FN FN DN DN DN FN 
+IQ FQ DN FN FN DN FN FN FN BN FN DN FN SN FN DN FQ FQ FQ FN FN DN DN FN DN DN DN DN BN FN DN BN FN DN DN FQ FQ FQ FQ FN FN DN DN FN 
+FQ FQ DN DN DN DN DN DN FN BN BN DN DN DN BN FQ DN FN DN DN FN DN DN DN FN FN FN DN FN FN FN FN DN DN BN FQ FN FN FN FN FN DN FN FN 
+FQ BN DN DN DN F  FN FN FN DN DN DN FQ FN DN FQ BN FN FN FN DN FN FN DN DN DN DN DN FN DN FN FN FN DN DN FN SN FN FQ DN FN DN DN FN 
+FQ FN DN FN DN BN FN FN FN FN FN FN DN BN DN FN DN FN FN FN DN DN FN DN DN FN DN FN FN BN BN FN FN SN DN SN FN DN DN DN DN DN DN FN 
+FQ DQ FN DN BN DN DN FN DN FN DN DN FN FN FN DN DN FN FQ F  DN DN FN FN BN DN DN DN BN DN FN SN DN DN DN FN FN FN DN FN DN FN DN FN 
+FQ DN DN DN DN BN DN DN FN FN FN DN FN FN DN DN FN DN FN FN DN FN FN FN DN FQ FQ FN DN FN FN DN DN DN BN FN DN FN DN DN DN FN DN DN 
+DQ DN DN FN BN DN DN FN SN DN FN BN DN FN FN BN DN FN DN FQ FN FN FQ DN DN DN FN FN FN FN DN BN DN BN FN DN FN SN SN FN FN DN DN FN 
+DQ FN FN DN FN FN BN BN FN BN FN DN FN FN DN DN DN DN DN FN FN SN SN SN SN SN FN SN FN FN DN DN DN FN SN SN FN FQ FN DN FN FN DN DN 
+DQ DN BN FN FN FN FN SN FN BN BN DN DN DN DN BN FN FN DN FQ FQ SN SN SN DN FN DN FN SN FQ DN DN DN DN FN SN FN FN FN FN FN BN DN BN 
+FQ DN BN DN FN FN DN DN BN DN FN FN FN DN FN DN FN DN DN FN DN FN SN SN SN SN SN DN FN FN DN FN SN FN FN SN SN BN FN FN FN FN BN FN 
+FQ DN DN FN DN FN FN SN DN DN FN DN FN FN FN FN DN DN DN FN DQ FN SN SN SN SN SN FN FN DN DN DN FN SN DN FN FN DN BN FN DN DN BN FN 
+FQ DN DN DN BN FN DN FQ DQ DN DN DN FN FN DN DN FN FN DN FQ FQ SN FN SN SN SN SN SN FN DN DN DN FN DN DN DN DN FN BN DN DN BN DN FN 
+FQ FQ FQ BN DQ FN D  DN DN FN BN DN DN FN FN DN DN DN BN DN FQ DN FQ SN SN FN FN FN DN DN DN FN DN DN DN DN DN BN DN FN FN DN DN FN 
+FQ SN DN BN FN FQ DN DN FN FN FN FN DN DN DN DN DN DN DN DN F  DN FN FN SN SN FN FN DN SN FN DN DN DN BN DN FN DN DN FN DN DN BN FN 
+FQ DN FN DN FN FN DQ DN FN DN FN FN DN FN DN DN DN DN FN DN DN DN DN FN FN SN FN FN FN DN FN DN FN DN FN BN DN DN FN DN DN FN DN FN 
+FQ FN DN FN DN DN BN FN DN DN BN BN DN FN FN FN BN FN DN DN DN DN FN FN SN FQ FN DN FN FN SN DN FN DN FN FN DN FN DN DN DN FN BN BN 
+IQ FQ FN FN DN FN BN DN DN FN FN FN FN DN DN BN FN FN DN DN FQ DQ FQ DQ FQ DQ DQ DQ DQ FN FN SN FN BQ DN FN BN BN FN FN BN FN DN FN 
+
+mquant map:
+ 36 16       36 48 44    40 24 16 28 24 20 18 22 36 18 24 28 16    24 20 18       20 16       18 16 14 16 28 16 18       14 16      
+ 20 16       40 44 36 32 40 32 24 36    28 20 18 28 16 24 28 18    32 20 18 24 20 18 16       18 16    18 28 48 18 20 18 16         
+ 18 16       32 40 36 40 32 44 40    44    36 22 24 18 28 22 16 18 32 18       20 18 16       22 16 14 18 24 44    52 48 52 40    20
+ 18 16       18 28 36 32 40    44 40 36 16 20 24 36 20 24    20       24 28 24 20 18 14    16 20 14    44 36 32 36 22 44    40 44 36
+ 16             28 36 40 44 36 40 36 16 24 32 22 20 16       18 16             18 16 14 16    14 16    48    36 16    22 16    24 16
+ 18 16    18    24 28 40 28 40 36 22 24 22    28 32 44 20 16             18 16       14          16 14    40 16 14 16 24 16 20 16   
+ 24 18 16    36 20 24 32    36 32 24 32 16 18 16 32 20 18 16 20 14             16       14 16 14                16    32 22 16    18
+ 20 16 14 16 24 20 24 28 24 28 20 24    40 20 16 32 20 14 16 14 16    14    16 14                               16          20 16   
+ 44 14       20 36 40 28 24 36 32 18    40 28 40 20 16 20 14 24 16 20 18 14    16       14                   32 16 14    20 16    14
+ 44    16    14 44 20 18                   28 16 22 14 16 18 20 16    24 14       16 14                   22 20 16 14    16       20
+ 24    44 16 18 40 22 20 16    20 18 16 18 32 18 16          24 16 14 16 14 16 14 16 14             28 14    32 24 14 16 20 18      
+ 40 22 44 14 16 32    18 14 18 14 20 18 22 40 18       16 20 22 24 16    14                   16 22 14       36 22 14    24 22 16 24
+ 16    44 14 16 44 36 28    22 16 18 16 24 18 32 20 22 24 18 22 16 18 16 14       18 14       32 14          28    14 22 20 24 20 44
+ 18 20 16 14    44 28 36    18 16 14    40    14 18    22 20 24 20    14                24 14                28 24 40 28    16 28 14
+ 40 22 14       28    20 44 48 20 16 14 16    14 16 28 20 16 14    16    18 20 16    24 14                   32 18 24    18 20 18 16
+ 36 40 14    32 16          48 40 22 18 22 16 14       32             36 32 28 32    14                      28 16 18 20 16 14 12   
+ 32 44    22 16 14 16 14       16 44 20    14    12 14    16          14 16 40 18 24 14                      32 36 20    14    12   
+ 18 20 32 14                         24 28 14             18 16    18 36 18 14 16 18 16    14 16 18 14       32 28 24 16 14 12      
+ 20 44 24 14                12    14 16 44 14    24 28 36    28 32 36 18 16       18 20       24 28 22 32 36 40 36 24    22    20 22
+ 16 18 24 16 14          12       14    32 14 12    14 12 20 32 18 14             16 14 16 14       20 36 40 36 24 20    18 16 14 24
+ 14 18 22 16 14    12             14 12 18 14    12 40 36 28 18 14 16    18 16 14             12 14 22 16 18 32 20 28 40 14 12 14   
+ 14 18       22 14 12             14 22 14 16 14 12    20 32 14 18 28 18    28 24 36 24 16 20    16 14    18 32 44 24 40 36 18 14   
+ 14 18 20 18 20 16 12                   14 12 18 12    44 24 14 40 14 16 14    16       18 24 14 16 24 32 36 28 36 28 32    16 14 22
+ 40 16 20    32 28 12 14    12                16 12    24    14 16 14             16 14 16 18 16    14 16    28 18 16 12 16 20 24 28
+ 28 14 18    28 24 12                   14    16 12       18 22 18 22 28 32 20 18 16 22 18    14    16 14 20 32 20 14       20 18 12
+ 36 16 18 22 18 24 12    14 12                16 14 44 12    20 22 14 40 36 40 36 32    18 22 24 16 32 16    20 18 16 14 16 12      
+ 24 18 20    18 24 12                44 18 14 12             24 36 40 36 32 28 24 36 40 24 22    20 24    18 32 14 24 14 12         
+ 32 16 28    16 36 12                   22 16 12             32 40    28 36    32    36 18       16 18 24 14 18 14 12               
+ 24 16 20 14    24 12                   24 12                28 36 40 36 32 36    28 36 18 16    14 18 22 18 12                     
+ 14 18 14    20 24 12    36 12          14       12          20 24 36    28    32 36    24    20 16 14 22 12                      32
+ 18 24 20 16 20 22 12    14 12       10 12    16 12 20 12 18 12 20 36    32 24 36 28 20 24    28 32 20 12          10 12          28
+ 16 18 16    12 28 12 36 12 10 12 10 12    14 12    14 10 12 14 20 22 36       32    18 16 20 18 12    10 12    10 12 10    12 10 36
+ 20 16 18 22 18 16    14 10       12 36 12       14 12 10 12 16    22 32 36 28 32 20 16 20 16 20 12       10    12 10       12    24
+ 14    18 14 18 16    10                   12          10    12 14 28 32 40 32 20 16    14 18 12    10 12 10                12 10   
+ 10 20 16       20 12 10    12    10    12 10 12       10    12 28 20 32 36 20 32 16 18 16 14 10 12 10       12 10                  
+ 14 16 18 16    36 12 10       12 10                12    10 12 32 18 24 32 36 28 32 20    10    12 10                              
+
+Frame 3 (#2 in display order):
+ picture_type=B
+ temporal_reference=2
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+ backward search window: -15...15 / -15...15
+ backward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=77785
+
+vbv_delay=46098 (bitcount=352016, decoding_time=56515.15, bitcnt_EOP=351984)
+
+rate control: end of picture
+ actual number of bits: S=54906
+ average quantization parameter Q=12.7
+ remaining number of bits in GOP: R=100664
+ global complexity measures (I,P,B): Xi=898863, Xp=453181, Xb=348067
+ virtual buffer fullness (I,P,B): d0i=40635, d0p=36282, d0b=40544
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=1
+ average activity: avg_act=18.8
+Y: variance=1163, MSE=5.14 ( 41 dB), SNR=23.5 dB
+U: variance=50.53, MSE=1.47 (46.4 dB), SNR=15.3 dB
+V: variance=12.86, MSE=1.12 (47.6 dB), SNR=10.6 dB
+
+picture statistics:
+ # of intra coded macroblocks:    54 (3.4%)
+ # of coded blocks:             1316 (13.8%)
+ # of not coded macroblocks:    1004 (63.4%)
+ # of skipped macroblocks:        57 (3.6%)
+ # of forw. pred. macroblocks:   615 (38.8%)
+ # of backw. pred. macroblocks:  217 (13.7%)
+ # of interpolated macroblocks:  698 (44.1%)
+
+macroblock_type map:
+BQ BQ BQ DN B  DQ FQ SN SN FN DN DN DN BN BN BN BN FN DN FN DN DN BN BN DN BN FN DN DN BN DN DN FN BQ BN B  DQ BQ I  DQ B  FQ BN FN 
+BQ FQ FQ BN B  BQ IQ FN F  DN FN BN FN DN DN DN BN FN DN DN DN DN FN FN DN DN FN FN DN DN BN DN FN BN BN FQ IQ DQ F  BQ DQ FN DN BQ 
+IQ D  FQ IQ BN IQ FQ FN FQ SN DN DN FN DN FN DN DN DN DN DN DN DN BN DN DN DN BN DN BN BN DQ DN FN DN B  BQ IQ BQ FQ D  FQ F  F  D  
+BQ DQ FQ IQ BN DQ DQ FN FN FN FN FN DN BN FN DN DN FN DN FN DN DN DN DN FN DN BN SN DN DN DN DN FN DN BQ IQ F  IQ FQ F  DQ F  DQ B  
+IQ DQ F  F  B  IQ FQ FN DN FQ DN BN DQ DN DN FN FN DQ FN BN DN FN SN DN DN DN D  DN DN FN DN DN DN BN BQ DQ IQ BQ FQ DQ FN D  DN FQ 
+BQ DQ D  FQ IQ BQ F  FN DQ FN FN SN BN FN DN DN DN DN FN FN FN FN DN DN FN FN DN FN FN DQ F  DN FN FN D  DQ BQ DQ F  D  DN DN I  FQ 
+B  I  D  I  IQ BQ FQ DN FN FQ SN FN DN SN BN DN DN FQ DN FN DN DN DN DN FN FN DN BN DN DQ F  FN DN DN DN F  D  D  B  DN BQ BQ DQ F  
+IQ DQ IQ I  I  FQ FQ DN FQ FN BN DN FQ FN SN DN DN FN BN DN DQ FN DN DN DN DN B  FN BN DN DN FN DN DN FN DN BN DN DN BQ BQ DQ F  FN 
+IQ IQ B  IQ FQ FQ FN DN DN DN DN BN DN FN DN DN DQ DN D  DN FN DN DN DN DN DN DN FN DQ DN DN FN DN DN DN DN DN FN FN BN D  FQ DQ F  
+IQ IQ IQ IQ FQ FQ FQ SN FN FN DN FN BN DN SN FN DN FN FN BN DN DN DN FN FN DN DN DN DN DN DQ FN FN DN DN DN FN F  B  BN DQ F  DQ FN 
+IQ BQ IQ I  FQ FQ FN FN FN DN DQ BN DN DN FN DN DN DQ FN BN DN BN F  DN FN DN FN FN BN D  DN DN FN DN FN DN FN SN B  BN B  BQ DQ FQ 
+IQ B  BQ BQ F  IQ FQ BN DN DN DN DN FN DQ DN BQ FN SN DN DN DN DN B  DQ FN BN DN DN FN FN D  FN DN DN DN DN FN D  B  B  B  BQ BQ I  
+IQ FQ IQ IQ IQ FQ DQ FN DN DN DN BN BN DN DQ FN BN FN FN DN FN DN DN FN BN FN FN DN DQ DN DN DN FN FN DN DN DN FQ BQ BN BN BN BN B  
+IQ IQ IQ IQ FQ IQ FQ FN DN DN BN FN DN DN FN FQ DN FN FN DN DN DN DN FN DN FN DN DN DN DN DN DN DN FN DN DN DN DQ BQ DN DN BN B  F  
+IQ BQ IQ DQ FQ FQ FN SN DN DN FN DN DN FQ FQ FQ FN SN FN DN DN BN DN DN FN DN DN F  BN DN DN FN D  DN DN DN DN BN DQ DN DN DN DQ FQ 
+IQ IQ I  DQ FN SN DN DN FQ DN DN DQ BN D  BQ FN DN DN DN DN DN DN FN DN FN BN FN FN DN DN FN DN DN SN FN FN DN BQ DQ DN FN DQ DN BQ 
+FQ IQ BQ BQ FN DN DN FN FN FQ FQ FN BN FN FQ F  FN DN FN F  SN DN FN DN D  DN FN DN FN DN DN FN DN DN DN DN FN B  BN DN BN DN DN BN 
+IQ I  DQ FQ D  BN FN BN DN FN FN F  FQ SN DN FQ DQ DQ F  F  DN FN DN DN DN DN BN FN DN DN FN DN BQ FN BN DN DN DQ BN DN DQ DN FN FN 
+DQ DQ FQ FN FN DN DQ DN FN DN FN BN FN DN F  FQ FN FQ FQ DN DN FN DN FN SN FQ FN SN DN DN FN DN DN DN DN BQ BQ DQ DQ FN DN DN DN FN 
+IQ DQ DN FQ FQ FN FN FN FN BN FQ FN FQ FQ DN BN FQ DQ FQ FN FN DN DN FN FQ FN D  FN DN FN DN DN FN DN BN FQ FQ FQ FQ F  FN FN BN FN 
+BQ DQ DN D  DQ DQ FN FN DN FN D  FN DN FN DN FQ DN FN DN FN FQ DN DN DN F  DN FN FN DQ DN FN SN SN DN BN DQ FQ FQ F  FQ FN DN DN DN 
+FQ B  DN DN FQ FQ F  FN BN FN B  FN FN SN DN FQ FN FQ FQ DN D  F  FN SN SN DN DN BN FN SN DN FN SN SN DN DN FN DQ DQ DN FN DN DN FQ 
+DQ DN DQ BN FN DQ BN FQ DN FN FN BN DN DN FN DN DN D  FN FQ DN DN FQ DN DN DN DN FN FN SN SN DN SN FN SN DN FN DN BN DQ DN DN FN FN 
+FQ DQ DN DN DN DN FN FN FN FN DQ F  DN D  FN DN D  FN FQ DQ DN FQ FQ FN F  FN DN FQ DN FN DN DN DN FN SN D  FQ FQ DN FQ DN DN DN FN 
+DQ D  DN D  DN FN DN DN BN BN BN FN FN FQ DN DN DN FN BN D  DN DN DN BN DQ DQ DQ D  FN FN SN DN FQ DN BN DN DN FN FN F  DN DN DN D  
+BQ DQ DN FN BN DN FN FN F  DN FN BN BN DN FN BN FN FN DN F  FQ SN D  DN FN DN FN FN DQ FN FN FN DQ DN SN FN F  F  DN DN FN DN DQ D  
+DQ DN FQ DN BN DN FN BN FQ BN FN FN FN SN DN DN DN DN DN FN FN SN FN DQ FN FN FQ DQ FN DQ DN DN DN FN FQ DN FN FN FN DN DN DN FN DN 
+BQ BQ DN FN FN DN FN FN DN FN BN DN DQ DN DN DN BN FN FN F  FN FN FN FQ DQ D  DQ FQ FQ FQ FN DN DN FN DN DN FN FN DN DN BN DN DN FN 
+DQ DN BN FN FQ DQ FN DN BQ FN BN FN BN DN DN FN FN DN BN BN DQ FN SN FQ SN SN F  SN F  DQ DN DN DN DN DN FN DQ BN FN B  FN BN BN F  
+BQ DQ FN DN FN DN DN DN DQ FN DN DN DN FN DN FN DN DN DN DN FQ FN SN FQ SN DQ DQ FQ SN FQ FN DQ DN DQ FN DN F  F  BQ FN FN BN DQ FN 
+DQ DQ DN DQ BN DN FN FQ DQ FN BN DN FN DN BN DN FQ FN FQ FN FQ FN FN SN SN SN SN SN DQ DN DN DQ FN DN DN FN BN DQ B  BQ FN FN D  FN 
+DQ F  F  BN BQ DN D  SN D  FN DQ B  D  FN FN BN DN DN FN DQ F  DN FQ SN FQ DN FN FN FN DN DN FN DN FN BQ FN DN FN DN FN FN F  D  FN 
+DQ DQ DQ BN DN D  DQ D  BN FQ FN B  DN F  DN DN FN BN DN FN DQ DN FQ FN FQ SN FN DN DQ DN D  FQ FN BN FN BN DN FN FN FN DN FN BQ FN 
+FQ DQ DQ DQ FQ DQ DQ FN FN DN BN BN DN DQ FQ DN DN DN FN BN D  DQ DN FN SN FQ FQ F  DQ D  DN FQ DN FN DN FN DN DN FN FN B  DN DN DN 
+FQ FQ F  F  DN DN DQ FN FN DN DN BN BN DN FN DN F  FN FN DN BN DN DN FN SN FQ FQ DQ DQ DQ DN BN DQ DN FN FN DN B  FN FN BN BN DN FN 
+IQ FQ F  DQ FQ SN DN DN DN FN DN FN BN DN FN BQ F  F  DN D  F  BQ FQ FQ FQ DQ DQ D  DQ FN DQ FN FN B  DN DN F  B  D  F  BN BN FN FN 
+
+mquant map:
+ 24 20 10       16 28 32 28 16 10 18 16 12    14 22 12 14 16 12 10 14 10 12       14 12 10    12 10          24 10    12    10      
+ 22 12 10       22 20 22 20 22 16 22    16 12    18 10 14 18 12 10 16 12    16 12    10       12 10       12 16 12    10 12 10      
+ 14    10 12 10    20 28 22 32 24    32 28 22 14 16 12 16    12    18 12       14    10       12 10       12 18 24 18    12         
+ 20 10 12 10    14 24 22 24    28    24 10 14 16 24 12 16    12       14    16 14    10       12 10       24    22 16    24    22   
+ 12 10          12 18 32 28 16 28 22 10 16 20 14    12 10    12 10    12    10 12 10                      28 32 22 12 10 12 10 14 12
+ 16 12    10 14 16    28 18 24    16    14    16 24 28 14 12    10       12 10                            18 28 10       12 16 10 12
+ 12          10 18 14 22    24    16 20 12    10 18 14 12 10 14 10                                                    18 16 12 10   
+ 12 14 10       24 14 16    18 12 18 14 24 14 10 28 12 10       12 10                                                 12 10 12    10
+ 32 28    12 10 16 24 18    24 22 10 12 24 18 28 12       10 16 12       10                                  18 12 10       12 10   
+ 24 18 24 22 10 28 14 12                   20 12 16 12 10    12 10    14 10                               16    10       12    10   
+ 18 24 12    10 28 16 12 10    12    10 12 22 12    10       16 10                                  14 12 10 14 12 10       16 10 12
+ 24    14 10    22 24 12 10       14 12 16 28 12    10 12 14 12 14 12 10                         14 10       16 10          16 10   
+ 28 12 10 14 10 14 24 18 16 14 12       16 12 20 14 12 16 14 16 12 14 12 10                   18 10          14 12 10    16 12 14 10
+ 20 22 14 24 10 12 20 24 22 12 10       24 28 10    14    12 16 12    10                14 10                16 12 10 18 14 12 10   
+ 24 28 22 12 10 20 18 14 32    12 10       12 10 12 18 14 10       12 10 12       10 18 10                   18 12 24 16    12 10 16
+ 28 24    28 20 12 10 12 10 36 24 14 12 14 12 10       20 22          20 18 16 20 22 10                      18 10 12 16 10        8
+ 24 28 32 16 12 10             12 32 16 14 10     8 10             12 10    24 14 16 10                    8 20 10 18 12 10  8      
+ 12    20 10           8 10  8    10 14 18 10     8 10             12 22 20 10    12 10          12 10       22 14        8         
+ 12 28 18 10                 8       10 24 10  8 16    22 24 18 20 24 12 10       12    14       12 18 20 22 24 22 14 18 14 12    14
+ 10 14 18 12 10  8 10     8          10 20 10  8    10  8 16 24 16 10             12  8 12 10  8 10 12    32 20 18 14    12    10 16
+  8 12       10  8    10  8             12 10     8 32 22 18 12 10    12    10        8 10     8 10 14 10    18 16    28 10  8 10   
+ 10    12    14  8                10 18 10        8    10 18 10    14 12    16 14 22 14 12 14 12 10       12 16 24 16 28    10  8   
+ 20 12    10 14 10  8                      10 12  8    32 16 10 24  8 10                12 14 10 12 16 20    16 22 18 22 24 12 10 16
+ 16 10 12    22 20  8                                  14 16 10     8 10  8    10          14 10             16 10     8 10 12 18   
+ 10          18 20  8                      10     8          14 12 18       10 12    16 10 12 10  8 10       16 12 10  8 10    14  8
+ 22  8 12 14 10 20  8                         10  8 28  8    12 14 12 24          20 18 14    16 10 18 12 10             12  8      
+ 14 10    12    18  8                28 10        8          20 24    22    18 12 22 24 16 14    12 14    12 16 10 14  8            
+ 20 10 16    12 20  8                   12     8             20 24    18 22    20 18 22 12    10       16 10        8               
+ 22 10 12 10  8 16  8                   16  8                16 22 24 22 20 22    18 22 12 10     8 10 12 10  8                     
+ 22 12 10  8 12 14  8    24  8          10  8    10  8          14 20 22 20 18 20 22    14    12 10  8 14  8        7  8     7  8 20
+ 20 14 12 10 12     8    18  8        7  8    10  8 10  7 22  8 12 22 24 22 20 22 20 10 14    16    10  8        7     8     7  8 18
+ 10           8 18  8 24  8  7           8          12  7  8    12    22 20 22 20 18 10    12     8  7        8  7                24
+ 16 12 10 12    10  8     7          24  7     8        7  8 10    12 20 22 18 20 16 10 12 10 16  7                               14
+ 12  8 12 10  8 10 14  7                 8  7  8     7           8 16 20 24 20 10     8    10  7        8  7                        
+  8 10          12  7                                8  7       16 10 18 22 12 18  8 10  8 10  7                                    
+  8 10     8 10 22  7                                   8  7    18 10 16 20 22 18    14 12  7                                       
+
+Frame 4 (#3 in display order):
+ picture_type=B
+ temporal_reference=3
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+ backward search window: -15...15 / -15...15
+ backward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=100664
+
+vbv_delay=47473 (bitcount=406920, decoding_time=59515.15, bitcnt_EOP=406888)
+
+rate control: end of picture
+ actual number of bits: S=90196
+ average quantization parameter Q=8.2
+ remaining number of bits in GOP: R=10468
+ global complexity measures (I,P,B): Xi=898863, Xp=453181, Xb=370550
+ virtual buffer fullness (I,P,B): d0i=40635, d0p=36282, d0b=30076
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=0
+ average activity: avg_act=14.9
+Y: variance=1113, MSE=3.74 (42.4 dB), SNR=24.7 dB
+U: variance=49.06, MSE=1.27 (47.1 dB), SNR=15.9 dB
+V: variance=12.53, MSE=1.02 ( 48 dB), SNR=10.9 dB
+
+picture statistics:
+ # of intra coded macroblocks:    31 (2.0%)
+ # of coded blocks:             3272 (34.4%)
+ # of not coded macroblocks:     304 (19.2%)
+ # of skipped macroblocks:        11 (0.7%)
+ # of forw. pred. macroblocks:   284 (17.9%)
+ # of backw. pred. macroblocks:  419 (26.5%)
+ # of interpolated macroblocks:  850 (53.7%)
+
+macroblock_type map:
+BQ BQ BQ DQ B  BQ BQ FQ FQ DQ F  FQ D  FQ FN B  DQ FQ DQ DQ F  D  F  B  D  B  FQ BN DN B  DN DQ DQ DN D  B  BQ IQ DQ B  B  B  D  F  
+BQ B  BN BN BQ BQ BQ FQ F  D  DQ BN DN DQ D  D  BN FN D  BN DN DQ DN B  DQ D  D  FN DQ B  D  B  B  D  B  D  BQ B  BQ B  B  DN D  F  
+BQ BQ BQ D  BN B  DQ DQ DQ DQ DQ DQ FN DN SN DN BQ FQ DQ BN DQ FN BN B  DQ B  DN FN FQ B  BQ DN DQ DN BQ B  BQ BQ DQ DQ DQ D  DQ B  
+BQ BQ DQ D  B  B  BQ FQ DQ FQ D  DQ B  BQ DN D  BN BQ BQ D  DN DN DN D  D  FN DN B  DQ B  DQ D  D  DN BQ BQ B  B  D  D  D  D  D  BQ 
+BQ BQ BQ B  B  B  DQ DQ DQ DN DN BN BQ BN DN DN DQ DQ B  F  B  D  F  F  D  D  DN D  DQ DQ DQ DQ D  B  BQ DQ IQ B  DQ D  B  DQ DQ DQ 
+B  BQ BQ B  D  B  DQ DN DQ DQ BQ DQ SN DN DN SN DQ DN DQ D  F  DQ D  D  D  D  D  DN FN BQ FQ FQ DQ DN FQ DQ BQ B  DQ FQ B  BQ BQ D  
+BQ I  BQ B  I  BQ DQ DN B  FQ F  DQ BN D  DN FN DQ DQ DQ FN DN D  DQ FN DN DN DQ D  B  D  D  F  DN DN B  FQ BQ BQ DQ DQ B  BQ BQ D  
+BQ I  B  BQ DQ DQ DQ DQ DQ F  BQ DQ D  FQ FQ D  DN FN DQ D  D  D  F  F  BN FN FQ DQ DQ BN D  F  DQ DN DN DQ DQ BQ BQ B  D  BQ FQ FQ 
+BQ IQ IQ BQ DQ DQ B  DQ BQ BN FN DQ DQ FQ BN DN DQ D  BN DQ BQ BQ D  F  FN DN FN DQ D  DN BQ D  DQ BQ FN D  BN DQ FQ B  BQ DQ DQ D  
+BQ BQ BQ B  IQ IQ D  BN DQ FN BQ DQ F  DN BQ FQ BN DQ DN D  DQ DQ DQ B  DN DQ B  DN DN B  D  D  DN D  D  DN DQ BQ BQ BN BQ D  B  D  
+BQ IQ IQ IQ IQ DQ FQ FQ FN DQ DQ BN DQ B  DQ D  DQ B  BN B  DQ DQ D  D  D  DQ D  DQ DQ D  F  DQ DN D  D  BN D  DQ BN BQ BQ DQ BQ DQ 
+IQ BQ I  B  IQ FQ FQ BQ DQ DN D  DQ D  BQ BQ BQ DN D  B  BQ SN D  BQ D  D  BQ D  DN D  D  DQ DQ DQ DQ D  F  DQ DQ BQ BQ BQ DQ B  B  
+IQ BQ IQ IQ I  DQ BQ DQ DQ DQ DN BN BQ DQ DQ DN BQ DQ BQ DQ BN D  DN F  BN BN FN BN DQ DN DQ DN D  FQ D  DN BN BQ BQ B  DQ BQ B  BQ 
+IQ D  BQ B  DQ IQ D  DN BN DQ DQ B  DN DN DQ DQ BQ BQ D  DQ BN D  DQ DQ DN FN D  D  F  DQ DQ FN DQ FN FN DQ BQ B  BQ DQ BQ BQ BQ F  
+IQ B  BQ IQ IQ FQ DQ BQ DN DN D  DN DQ DQ DQ FQ DQ FN DN D  DN DN DN DN DQ DN DN DQ BN DQ DN F  DN F  D  DN BN BQ DQ BQ FQ D  DQ I  
+IQ I  BQ BQ D  DN FQ DQ F  FQ FQ DQ F  DQ BQ BQ D  D  DQ DN SN DN BN DN DN DN DN BQ DQ DQ D  DN DQ D  DQ FN DN B  BQ DN FQ DQ BQ B  
+DQ DQ BQ BQ DN DN DQ DN FN FQ FQ DN BN D  DQ F  F  DN D  FQ D  B  D  D  DQ BQ BQ SN DQ DQ DN F  DN D  D  D  DN BQ DQ DQ F  DQ DN BN 
+BQ I  BQ DN FQ DN D  BQ D  FN BN DQ DQ DN DQ DQ F  D  D  DQ D  F  B  BQ DQ FQ D  DN DN FN DN D  D  DQ B  D  BQ DQ BN DQ DQ DN BN FN 
+I  BQ DQ DQ BN DN F  DN F  FQ B  F  FQ FQ BQ F  FQ DQ FQ DN DN DN DQ DQ DQ D  DN D  BQ D  B  B  D  DN DN DQ BQ BQ DQ DQ DN DN DN DN 
+IQ BQ DQ FQ FQ DN FQ FQ DN F  F  D  FQ DQ DQ FN FQ FQ DQ FN DN BQ DQ F  DQ FQ DQ BN DQ D  DQ B  F  DQ BQ DQ DQ DQ DQ B  FQ BQ BQ FQ 
+BQ BQ DN D  D  DQ B  FN B  FN B  D  D  FQ BQ DQ FN DN DQ DN DQ D  DQ DN DQ FQ D  B  DQ F  DQ DQ B  DQ BQ BQ DQ BN D  DQ FQ BN DN D  
+BQ DQ D  F  D  FQ FN SN BN FN F  FN DQ FQ DQ F  FN DQ DQ D  DQ D  BQ D  BN F  DQ DN FN SN DN B  D  DQ DQ FN BN DQ DQ DQ DQ DQ D  D  
+BQ DQ D  D  BN B  BQ D  D  F  B  DN D  B  FN DN D  FN DQ DN FQ DQ DQ D  DN DQ D  DQ D  FQ D  F  F  FQ DN D  BQ SN BQ BQ BQ DQ DQ F  
+D  DQ DN DQ BN SN FN FQ DN FN D  F  DN F  F  F  D  DN FQ DQ DQ FQ FQ D  F  D  D  DN BQ D  BQ BQ DQ D  DQ BQ BQ BQ DQ F  BQ D  BQ DQ 
+DQ D  DQ DQ BQ BN DN BQ B  BN D  BN B  DN D  F  DQ DQ B  D  BN DQ FN BQ D  DQ DQ DQ FQ DQ D  D  DQ D  BQ DQ BQ BN DQ BQ D  D  DQ DQ 
+BQ BQ FQ FN DN BN BQ FN FQ F  BQ D  B  FQ FN B  F  DQ DN DQ FQ DQ D  BQ DN DQ FQ FQ DQ D  DN BQ DQ FQ FQ D  BN DQ DQ D  FN D  B  D  
+BQ FQ FQ D  B  DN FQ B  DN DQ BN DQ DQ DQ DQ D  DN DQ DQ F  FQ DQ DQ DQ DQ BQ DQ DQ D  DQ FQ D  DQ BQ FQ D  BN BQ DQ DQ DQ BQ FQ DN 
+BQ FQ DQ DN FQ DQ FQ BN F  B  FN FN DQ DQ D  BQ DN B  D  D  DQ DQ D  DQ D  D  D  FQ DQ DQ DQ D  DQ D  DQ DQ DQ B  DQ D  F  DQ D  FN 
+BQ DQ BQ DQ FQ DQ FQ DN F  DQ DQ D  B  BN D  F  DN D  D  B  DQ DQ DQ DQ DQ D  FQ DQ DQ BQ DQ D  B  DQ DQ D  DQ D  DQ DQ FQ B  B  FQ 
+BQ DQ DQ DQ DQ D  DQ FN DQ DQ BQ F  F  FQ DQ FN FQ FQ D  D  DQ DQ DQ DQ DQ D  D  D  DQ DQ DQ D  B  BQ DQ DQ D  B  BQ FN BN B  D  FN 
+BQ B  DN BQ BQ DQ FQ DQ BQ DQ FN D  F  F  BN DQ F  BQ FQ DQ BQ DQ DQ D  DQ DQ DQ FQ DQ D  SN DQ DQ DQ BN DQ D  BQ B  B  D  F  DQ FN 
+BQ D  F  BQ BN BN DQ BQ BQ FQ B  B  D  BQ F  F  D  DN DQ DQ D  DQ DQ DQ D  DQ DQ DQ DQ DQ DQ DN BQ DQ BQ DN BQ F  D  F  F  D  D  FQ 
+BQ DQ BQ BQ BQ DQ DQ B  BN FQ FN B  DQ DQ F  D  DQ DQ FQ FQ DQ BQ D  DQ DQ DQ DQ DQ DQ F  DQ DN BQ DN DQ DQ F  D  B  F  D  D  B  FQ 
+DQ DQ FQ FQ FQ DQ DQ FN FN FN FQ F  B  FQ DQ DN DQ DQ F  D  B  BQ DQ D  DQ DQ DQ DQ DQ DQ B  B  BQ D  FN F  D  B  B  F  B  BN F  FN 
+DQ DQ BQ D  B  DQ DQ BN BN D  F  DN D  D  F  FQ DQ DQ DQ D  B  BN DQ DQ DQ DQ BQ DQ DQ D  BQ DN DQ DN FN F  D  F  DN B  DN D  FN F  
+DQ D  D  F  D  DN BQ D  D  F  B  D  D  D  F  F  F  F  DQ DN FQ BN DQ DQ BQ D  BQ D  DQ DN FQ BQ DQ BQ FN FQ DQ F  D  B  B  D  F  F  
+
+mquant map:
+ 16 12  8  7     8 12 18 16  8    10     8       10  7 10  8                    7 10  8  7     8  7          10 16  7               
+ 12     7       10  8 12       10 12 14  8       10  7  8 10  8  7  8  7  8       10  7                       8     7               
+ 10 12  7          10 16 14 16 12 14 18 16 14  8 10  7  8 10  7    10  7  8           6     7     6  7        8 12 10 12  8     7   
+ 12  8  7           8 12 14 16    14     8       14  7  8                   10  8     6     7           6 10                      14
+ 10  8  7           8 16 12 10 18 14  7 10 12  8 10  7                          8  7  6  7  6  7        6 12 16     8        7 12  7
+  7  8  7          12 16 10 14 16  8 10     8 10 16     8        7                    6     7  6  7     6  8 16     8  7    12  7   
+ 10     7       10 12 14 12 14     8 12  8     7 10  8  7     8  7  6  7     6  7                          6  7  6  7 10     8  7   
+ 10       14  7 10 16  8 12     8 10    16  8    18  8  7                       6  7  6           7  6        7  6  8       10  8  7
+ 10 14 12 14 12 14    10  8 14     7  8 16 12 16  8    10  7 10  8        7              6        7  6       10     6     7 10  7   
+ 14 10 12     8 10     8  7  8     7     8 12 10 12  7        8  7  8     7  6     7     6        7  6    12  8  7  6  7            
+  8 10  8 14  7 12 10  8  7     8     7     8     7          10  7           6     7  6        7           6  7  8  7     6 10  7  8
+ 12 14        7 10 12  8  7        8    12 16  7           8        7        6     7  6     7  6  8  6        7  8  7  6  7  8      
+ 16 18  8  7    14 10 12 10  8        7  8  7 14  8  7 10  8              7     6  7  6     7 10  7  6       10  8  6    16 10     7
+ 14     8    10 12    16 14  8  7       14 18  8  7  8     7 12  7  8  6                 8 12  6  7  6        8    10 18 10 12  8   
+ 14    18 10 12 14 10  8 18 20  8  7     8  7  6  7 10  8  7        8  7  8        7 12  6        8  6        8  7 14  8 10     8   
+ 14    10 14     8     7    22 18  8    10 14  6       10 14 12    14 12  8 10    14  7  6        7     6     8  6 18 10  8 10  6   
+ 16 12 16 12  8  7     6        8 20 12  8  6              7              6 16  8 10  7  6  7  6             10  7 12  8     6      
+  8    12  7     6  7  6           7 10     7  6           7          14 16  7     8  7              6        8 12 10     7  6      
+  7 10 14  7           6  7  6        7 16  6     8 10 14 16 10 12 16  8  7           8             14       12 14 12 10  8         
+  6 10 12  8  6  7     6              7 16  7  6    10  6 12 16     7     6  7  6  8  7     6        8  7 20  8 16 10     8 10  8 10
+  6  7 10  7     6                       8  7  6    20 16 12  7     6  8     7        6     7  6     7  6  7  8 16  8 16  6         
+ 10  8           6                   12  6  7     6    12     7     8           7 12 10     8  7     6  7  8    12 10 12 16  6      
+ 12  8              6                          8  6    20 10  7 12  6        7     6     8          10 12 10  8 14 10 16 14  7  8   
+  8  7  8    12 16  6                                  10  8  6  7  6              7       10  7  6     7  6  8 10  6     7    10 12
+  7     8  7 12 14  6                             7  6        8    14 10     6  8  7  8  7        6     7  6  8 12  7  6        8  6
+ 10  6  8 10  8 16  5     6     5        6          18  5  6  7  8    16    14 16 14  8    10     7 10  7       10  6     8  6      
+  8  7  8       16  5     6     5    18  6  7     5  6  5    10 12 14 12 14 10  8 14    10  8     7  8  7     8 12  8  6  5  6  5  6
+  8  7 10     8 12  5                 6  8     5             10 16    12          14 12  8  7     6     8  7  8     6        5     6
+  8  6  8  7  6 10  5        6  5       10  5                 8 12 16 14 12    14 12 14  8  6        7  8     6     5  6  5        6
+ 10  8  7  6  8     5    14  6  5        7  6     7  5        6  8 14 16 12          14 10  8        7  8  6        5  6  5       14
+ 10        7 10  8  5  6 18  5              6        7  5 16  6  8 16    14 10 12 14  8    10 12 10  7  6        5              6 12
+  8        7  8 14  6 16  6  5           6           8  5  6     8 10 14    12 14 12  8  7  8 10  7  5  6  5                      16
+ 10  8  7 10  8  7  6     5          16  5        6  7  5  6  7  8    10 16 10 12 10  7     6 12  5  6     5                      10
+ 14  7  8  7  8  7  8  5                 6  5  6     5           7 12    16 14 10  6  7  6        5     6  5                        
+  8  7  8       10  5                          6  5  6  5       10  7  8 14  8 10  6  7     8  6  5  6  5                           
+  7             16  5                                   6  5    14  7  8 14    12    10  8  6  5  6  5     6  5                     
+
+rate control: new group of pictures (GOP)
+ target number of bits for GOP: R=415972
+ number of P pictures in GOP: Np=0
+ number of B pictures in GOP: Nb=3
+
+Frame 5 (#8 in display order):
+ picture_type=I
+ temporal_reference=3
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=1
+ alternate_scan=0
+
+rate control: start of picture
+ target number of bits: T=220865
+
+vbv_delay=47802 (bitcount=497176, decoding_time=62515.15, bitcnt_EOP=497080)
+
+rate control: end of picture
+ actual number of bits: S=209980
+ average quantization parameter Q=8.3
+ remaining number of bits in GOP: R=205992
+ global complexity measures (I,P,B): Xi=876242, Xp=453181, Xb=370550
+ virtual buffer fullness (I,P,B): d0i=29750, d0p=36282, d0b=30076
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=3
+ average activity: avg_act=16.7
+Y: variance=1058, MSE=3.82 (42.3 dB), SNR=24.4 dB
+U: variance=52.26, MSE=1.28 ( 47 dB), SNR=16.1 dB
+V: variance=12.84, MSE=0.963 (48.3 dB), SNR=11.2 dB
+
+picture statistics:
+ # of intra coded macroblocks:  1584 (100.0%)
+ # of coded blocks:             9504 (100.0%)
+ # of not coded macroblocks:       0 (0.0%)
+ # of skipped macroblocks:         0 (0.0%)
+ # of forw. pred. macroblocks:     0 (0.0%)
+ # of backw. pred. macroblocks:    0 (0.0%)
+ # of interpolated macroblocks:    0 (0.0%)
+
+macroblock_type map:
+IQ IQ I  IQ IQ IQ IQ I  IQ IQ IQ IQ I  IQ IQ I  I  I  IQ I  IQ IQ I  I  IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  I  IQ IQ I  I  IQ IQ IQ 
+IQ I  IQ IQ IQ IQ IQ I  I  IQ IQ I  IQ IQ IQ IQ IQ IQ I  I  I  IQ IQ I  I  IQ IQ I  I  IQ I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ 
+I  I  IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ IQ I  IQ IQ I  IQ I  I  I  IQ I  IQ IQ I  I  I  I  IQ I  IQ I  IQ IQ IQ IQ IQ IQ 
+IQ IQ IQ IQ I  I  IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ I  I  IQ IQ I  I  I  IQ I  IQ I  IQ IQ IQ I  IQ IQ 
+IQ I  IQ IQ I  I  I  IQ IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ I  I  IQ IQ I  I  I  I  I  I  I  I  IQ IQ IQ I  I  IQ IQ I  I  IQ IQ IQ IQ 
+IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ I  I  I  I  IQ I  IQ IQ IQ IQ I  I  IQ I  IQ I  IQ I  IQ IQ 
+I  I  IQ IQ IQ IQ I  IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  I  IQ IQ I  I  I  I  IQ IQ IQ IQ IQ I  I  IQ 
+IQ I  I  IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  I  I  I  
+IQ IQ I  IQ I  IQ IQ IQ I  IQ IQ IQ IQ I  IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  I  I  IQ IQ 
+IQ IQ I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ I  IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ I  I  I  I  I  I  I  IQ IQ I  IQ IQ IQ IQ I  I  I  IQ I  
+IQ I  IQ I  IQ I  IQ IQ IQ I  IQ IQ IQ I  IQ IQ IQ I  IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ IQ IQ IQ I  I  I  IQ IQ 
+IQ I  IQ I  IQ IQ I  IQ IQ I  IQ I  I  IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ IQ I  I  I  I  I  I  I  IQ IQ I  I  IQ IQ IQ I  I  IQ IQ IQ 
+IQ I  IQ I  IQ IQ IQ IQ IQ IQ IQ IQ I  I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ I  I  I  I  I  IQ IQ I  IQ I  IQ IQ IQ I  I  IQ IQ IQ 
+IQ I  IQ IQ I  IQ I  IQ IQ IQ IQ IQ I  IQ IQ I  I  IQ IQ IQ IQ IQ IQ IQ I  I  I  I  I  IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ I  IQ I  IQ 
+I  IQ I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  I  I  IQ I  I  I  IQ IQ I  I  I  I  I  I  I  IQ IQ IQ IQ I  IQ IQ 
+IQ IQ IQ IQ IQ IQ I  I  I  IQ I  IQ IQ IQ IQ I  IQ IQ IQ I  IQ IQ IQ I  I  IQ I  I  IQ I  I  I  I  I  I  IQ IQ I  IQ IQ IQ IQ IQ IQ 
+IQ I  IQ IQ I  IQ I  I  I  I  I  IQ IQ IQ IQ I  IQ IQ I  IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  I  I  I  I  IQ I  IQ IQ IQ I  I  IQ IQ I  
+IQ IQ IQ IQ I  I  I  I  I  IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  I  IQ IQ IQ IQ I  I  IQ IQ IQ IQ IQ IQ I  IQ 
+IQ IQ IQ IQ I  IQ I  I  I  I  I  I  I  IQ IQ I  IQ IQ I  IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  I  IQ I  IQ I  IQ IQ IQ IQ IQ IQ IQ IQ I  
+IQ IQ IQ IQ IQ I  I  I  I  I  I  I  I  IQ IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ I  I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ 
+IQ I  I  I  IQ IQ I  I  I  I  I  I  I  IQ I  IQ IQ I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ I  I  IQ IQ I  IQ IQ I  IQ IQ IQ I  IQ IQ I  I  
+IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  IQ IQ I  IQ IQ I  IQ I  IQ IQ I  IQ IQ IQ I  IQ IQ IQ I  I  I  IQ I  I  IQ IQ I  IQ I  IQ IQ I  
+IQ IQ IQ I  I  I  IQ I  I  I  I  I  I  I  I  IQ IQ I  IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ I  IQ IQ I  IQ 
+IQ I  IQ IQ IQ I  IQ I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ I  IQ I  I  I  I  IQ IQ IQ I  IQ I  I  I  I  IQ IQ IQ IQ I  IQ IQ IQ 
+IQ I  IQ I  IQ I  IQ I  I  I  I  I  I  I  I  IQ IQ IQ IQ IQ IQ I  I  I  IQ IQ I  IQ IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ I  IQ IQ IQ I  
+IQ IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  I  I  I  IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ I  I  I  
+IQ IQ IQ I  IQ IQ IQ IQ IQ I  I  I  IQ IQ I  IQ IQ IQ I  I  IQ IQ IQ I  IQ I  IQ IQ IQ IQ IQ IQ IQ I  IQ IQ IQ IQ IQ IQ I  I  I  I  
+IQ IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  IQ I  IQ I  I  I  I  IQ IQ IQ IQ I  I  IQ IQ IQ IQ IQ I  I  I  IQ IQ I  IQ I  I  I  I  I  I  
+IQ IQ IQ IQ I  IQ IQ I  I  I  I  I  I  IQ IQ I  I  I  I  I  IQ IQ IQ IQ IQ I  I  I  IQ IQ IQ IQ I  I  I  IQ IQ I  I  I  I  I  I  I  
+IQ IQ I  I  IQ I  IQ I  IQ IQ I  I  I  I  I  IQ IQ IQ I  I  I  IQ IQ IQ IQ I  IQ I  I  IQ IQ IQ IQ I  I  IQ I  I  I  I  I  I  I  IQ 
+IQ IQ IQ IQ IQ IQ IQ I  IQ IQ I  I  I  I  I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  I  I  I  I  I  I  IQ IQ 
+IQ I  I  IQ IQ IQ IQ IQ IQ IQ I  I  I  I  IQ IQ IQ IQ IQ I  IQ IQ I  IQ IQ IQ IQ I  IQ I  I  IQ IQ I  I  I  I  I  I  I  I  I  I  IQ 
+IQ IQ I  IQ I  I  IQ IQ IQ I  I  I  IQ IQ IQ I  IQ I  IQ I  IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ I  I  I  I  I  I  I  I  I  I  IQ 
+IQ IQ IQ I  I  IQ IQ IQ I  I  I  I  I  I  I  I  I  I  I  I  I  IQ IQ IQ IQ IQ IQ IQ IQ IQ I  IQ I  I  I  I  I  I  I  I  I  I  I  I  
+IQ IQ IQ I  I  I  IQ I  I  I  I  I  I  I  I  I  I  I  IQ IQ I  IQ IQ IQ I  IQ I  IQ IQ I  IQ I  I  I  I  I  I  I  I  I  I  IQ IQ IQ 
+IQ IQ I  I  I  IQ IQ I  I  I  I  IQ I  I  I  I  IQ I  IQ IQ I  IQ IQ IQ IQ IQ I  I  IQ IQ IQ I  IQ I  I  I  I  IQ I  I  I  I  I  I  
+
+mquant map:
+ 20 22    20 18 12  8     7 10 14 12     8 10           8    10  8       10 12  8 10  8  7                       8  7       20 18  8
+ 20    16 12 20 10  7       18 12    14 18 10  8 10  8           7  8       10  8        7                                  12 14 10
+ 10     8 12 10  8 10  8 18 16    14 18 14 12 10 14  8    10  7     8           7     8  7              6     7     6  7 10  8 14 18
+ 12  7 18 10        8  7 12 14 16 14  8 10  8    10 12 16 10  8  7    12  8 10  8        6  7           6     7     6  7  8    14 10
+ 12     7 10          14 18 12 18 14  8    14 12    18  7        8  7                          6  7  6        7  6       10 16 18  8
+ 12 10     8 10 12  8 14 10 12 10  8     7  8  7 10 14  8    14  7  6  7              6     7  6  7  6        7     6    12     7  8
+  8     7  8 12 16    10 12 14 10  8    12  8  7 10  7  8  7  8  7  6                       7  6              7  6  7 14  6        7
+  8       10 12 16 12 10  8 14 10  8    12 10 12 14  7  6           7  6                                            7  6            
+ 10  8    12    10 12  7     8 10  7  8    10 12 10  7  6    10  7     8  6                                  10  7  6           8  6
+ 10  8    10 14 16 12 10  7    10  6  7    14  8 14  7  6     8  7     8  6                       7  6     8 10  7  6           7   
+  6     8    14    10  8  6     7  8  7     8 10  7     6  7 12  6                                  10  7  6  7 14  6           7  8
+  6     8    14 16     7  6     7        8  7  8  7  8     7  8    10  7  6                       7  6        7 12  6       10  7  8
+  6     7    10 14 12 10 16  8  6  7       10 12  8  7 14  8  6 10  8  7     6                12  6     5     8 10  6        7  8  7
+  6     8  7    14    12 10 14  7  6    14  6        8 10  7 10  7  8  6                10  6     5  6  5  6  7 10 12  6     8     7
+  7  8     6 10 12 10  8 18    12  7  6  8  7  5  6  7 10  7  6           7          10  6                       8  6  7  8    10  7
+  6  7  8 16 10  6          18    10  7 10  6     5  6 10     8 12 10       12        6                    5  6    12 16  8 10  6  5
+  6    14  7     6                16 12  8  6     5  6     7  6  7     6  7 16  7  8  6                 5     7 12 10        7  5   
+  7 10 12  6                 5     6  8 12  6  5 10  8 10  6  7     8 14  8  7  8  7        6  8  7  6        8 14 10  8 12  6     5
+  8 16 14  7     6                      16  6     8  6    12 10 14     8  7  8  6  7  8       12    10    14 10 14 10  8 12  8  7   
+ 10  8 10  8  6                         14 10  6    18  6  8 14  7  6  7  6  8  6     7  8  6       12  8  7  8 14  8    10  7  6  7
+  8          16  6                       7    16  6    14 12  7  6  7  8     7  6  7        6  7    10  7     6 12 10    16  6      
+ 12  7  8  7 10  6                   18  6     7  6    10     7  8    10  8 10    14 12  8           7        6 10    12     8  6   
+  8  7 10           6                          8  6    12  8  6  8  7     8  7     8  7  8 10  8  7 10 12     6  8 12    14 10     8
+  7     8 10 12     6                                   5 10  7     6              7  6  8     7              6  8  7  6     8 10 12
+  7     8    12     6                          8  7  6  5  6  8          14 18     6 12  8 10  7  8     7  6    10  7     8 12  6   
+ 10  7 10  6  7 12  6                             5  7  5  6 12  8    16 18 14 16 14    10  8 10  7 12 10  7  6 10  8     6         
+ 10  7  8    10 14  6  5  6          18  8     7  5  6        8 10 18    12    16 14 16 12 10  8 10    12 10  8 10  8  6            
+  8  7 12  8  7 16  6                    8     6             14 12 18 16       18 16 14 12  8          10  8     6                  
+  7  8 10  7    10  6                   10  6                 7  8 18 16 14          16 10  7  8          10  6                     
+  7  8       10     6    20  6                 8  7  6           8 16 18 12    16       12  8 10  8        6                      14
+  7  8 10  8 12 14  6     8  6                 8  6 10  6 10  7 10  8 18 16 14 16 12 10 12 10 12 16  7  6                       7 14
+  8       10  7 12  7 16  7  6              7  6  7  8  6     7 10    18 16 14 16    10       12  6                               18
+ 10  8    10       12  7  6          10  7  6     7     6     7  8 10 16 18 16 18 16  8 10  8     6                               12
+ 18 10  8       10  7  6                                         8 10 14 18 16 10 16  8  7     6                                    
+  8 12  8           6                                   5  6    10  8 14    16    14  8     6                                5  6  5
+  7  8          18  6              5              6     7  5    12 10 12 14 16       10  8  5     6              5                  
+
+Frame 6 (#5 in display order):
+ picture_type=B
+ temporal_reference=0
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+ backward search window: -15...15 / -15...15
+ backward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=68664
+
+vbv_delay=44588 (bitcount=707152, decoding_time=65515.15, bitcnt_EOP=707120)
+
+rate control: end of picture
+ actual number of bits: S=79049
+ average quantization parameter Q=9.8
+ remaining number of bits in GOP: R=126943
+ global complexity measures (I,P,B): Xi=876242, Xp=453181, Xb=387884
+ virtual buffer fullness (I,P,B): d0i=29750, d0p=36282, d0b=40461
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=2
+ average activity: avg_act=20.0
+Y: variance=1196, MSE=4.98 (41.2 dB), SNR=23.8 dB
+U: variance=51.69, MSE=1.55 (46.2 dB), SNR=15.2 dB
+V: variance=13.45, MSE=1.22 (47.3 dB), SNR=10.4 dB
+
+picture statistics:
+ # of intra coded macroblocks:    22 (1.4%)
+ # of coded blocks:             2321 (24.4%)
+ # of not coded macroblocks:     638 (40.3%)
+ # of skipped macroblocks:        15 (0.9%)
+ # of forw. pred. macroblocks:   391 (24.7%)
+ # of backw. pred. macroblocks:  258 (16.3%)
+ # of interpolated macroblocks:  913 (57.6%)
+
+macroblock_type map:
+FQ F  FQ FQ FQ FN F  F  FQ FQ FQ FQ F  FQ FQ FQ FQ FQ DQ DQ FQ FQ FQ DQ FQ DN FQ D  DN FQ D  B  D  B  B  B  BQ BQ FQ FQ F  F  F  F  
+DN BQ F  FQ FQ F  F  FQ FQ FQ F  D  D  DQ D  DQ SN DN DQ BQ FN BQ FQ D  DQ DQ DQ BQ B  DQ D  D  BQ DN DQ DN B  B  FQ FQ FQ FQ F  F  
+BQ DQ FQ FQ FQ F  F  FQ FQ DQ DQ F  DQ DQ SN DQ DQ D  BQ DQ BN DQ SN BQ D  DQ DQ B  BN B  D  F  BN DN B  DN B  D  FQ FQ FQ F  DQ FQ 
+BQ DQ FQ FQ FQ F  FQ FQ DQ D  DQ D  FQ DN BQ DQ DQ DQ F  DQ DN DQ DN DN DN BN D  DQ DQ DQ D  D  D  B  FN B  BN F  IQ FQ FQ FQ F  F  
+BQ DQ FQ F  F  FQ FQ FQ FQ DQ DQ DQ DQ D  DQ DQ DN DQ BQ D  D  D  DQ DQ DQ DN BQ D  BQ B  D  B  BN B  BN B  BQ FQ IQ FQ FQ FQ DQ FQ 
+IQ F  D  FQ I  F  FQ FQ DQ D  D  DQ DN D  DQ DN DQ DQ DQ DQ D  BQ D  B  B  DN DN B  FN BQ DN BQ DQ BN B  F  BQ FQ FQ F  FQ F  FQ F  
+BQ D  DQ IQ F  FQ FQ FQ DQ DQ DN DQ DN D  D  DN F  D  D  DQ DN D  D  DN DN DN DN BN DN D  B  D  D  DN BN BN D  FQ FQ D  FQ FQ FQ FQ 
+DQ DQ D  DQ IQ DQ F  DQ FQ DQ DN DN DN BN DQ DN DN DN DN DQ DN DN D  DN BN DN BN DN DN F  BN D  DN DN DN BN DQ BN SN FQ FQ F  FQ FQ 
+FQ B  FQ FQ IQ DQ DQ DQ D  DQ D  DN DN DN DN DQ DN DN DN DQ DQ DN DN B  DN DN BN DN DN DQ D  F  D  DQ BN B  FN DQ B  B  DN B  F  FQ 
+DQ FQ FQ FQ IQ F  D  DN DQ D  SN D  DQ DQ FN DN DQ DN BN DQ FN D  DQ DN DQ DN D  DN DN DN D  B  DN D  F  DN DQ BQ B  FN FN DQ F  F  
+IQ FQ FQ FQ FQ DQ D  DN DN DQ DN DQ BN D  DN DN D  B  BQ D  DN DN D  DN BN D  DN B  D  F  D  B  D  F  DQ DQ DQ BN DQ D  F  F  DQ FQ 
+IQ FQ IQ FQ F  IQ DQ DQ DQ D  DN DQ DQ BN BQ FQ DQ DN D  D  DQ DN DQ DN DQ D  D  DN B  B  DN DN DQ F  DN DQ DQ DN DQ DN FN F  FQ FQ 
+I  FQ IQ FQ IQ FQ FQ FQ F  DQ DN DN D  DN F  DQ DN DN DN DN DN DN D  DN SN DN BQ BN D  D  D  DN DN F  DN BN DQ DN FQ F  F  FQ FN DQ 
+IQ FQ IQ FQ FQ FQ FQ FQ FN FQ DN FN BN F  DQ DQ FQ DQ DQ D  DN D  D  BN FN DN BN DQ B  DQ DN DQ D  F  BN BN DQ DQ DN FQ FQ FN FQ FQ 
+IQ D  FQ FQ FQ FQ DQ DN FN DQ DQ DN DN DN DQ FN D  DN DQ DN DQ DN DN DQ DN DN D  D  DN DQ D  FN D  D  F  B  BN DQ DQ F  FQ FQ F  FN 
+IQ DQ IQ FQ FQ DN DN DN BQ DQ D  BQ DN DQ DQ FQ BN D  DQ DN DN DN DN DN DN DN D  DN DN DQ DN DQ D  DQ FN FN DN D  FQ FQ FQ F  FQ DN 
+IQ DQ DQ FQ DN DN BQ B  FN BQ BQ DN DQ DQ BQ D  B  DN D  BQ DQ D  D  DN DN BN DQ D  DQ D  DN BN DQ D  DN BN DN FQ FQ FQ F  FQ FN BN 
+F  DQ DQ DN BQ BQ DN D  DN BN FN DQ FQ FQ BQ B  D  D  BQ F  D  D  D  DN DN D  DN DN DN DN FN D  F  D  FN BQ DN DQ FQ FN FQ FN BN DN 
+F  FQ BQ DQ D  BQ DN DN DN BN D  F  DQ FN F  BN DQ DQ DQ DQ DQ DN DN DN DN DQ D  D  DN DN DN DN D  DN DN DN FQ FQ FQ FQ FQ DN FN FN 
+FQ FQ DN BQ BQ DQ DN DN DN DQ BN DN B  DQ DQ FN BQ FN D  DN DN DN DQ DN DN D  DN D  DN FN BN FQ DN FN DN DQ FQ FQ FQ FQ FQ DN DN DN 
+FQ FQ DN D  FN FQ DQ DN FN FN BN DQ BN DQ DN DQ BQ B  DQ DN BQ DN DQ DQ DQ D  DN D  BN DN BN DN D  DN DN DN B  FQ FQ FQ FQ FQ FN DQ 
+FQ FQ D  DN DN DQ BQ DN DN DN BN DN DQ BN DQ BQ FQ B  FQ BQ DN DQ D  DQ DN DN DN DN DN DN DN BN DQ DN D  BN B  DQ FQ FQ FQ FQ SN F  
+FQ D  BN DN DN FN DN BN BN DN BN BN DQ BN FQ DN BN DN DN B  DN D  D  DN D  DN DN D  D  DN DN SN DN DN DN DN B  DN FQ FQ F  FN DN DN 
+FQ DQ D  DQ DN DN DN FN DN BQ FN D  DN DN DN D  DN BN BQ D  DN D  D  DN DN D  DN DN FN DN DN D  DN D  DN DQ DQ DQ BQ D  DN DN DN DQ 
+F  DQ DN DN DN DN DN DN BN DN FN BN FN BN BN DN DN DQ DN D  BN DQ DQ DN DN DQ DQ D  D  DQ DQ DN DQ DN FN D  D  DN D  D  D  DQ DN DN 
+FQ DQ DN BN FN DN DN FQ BQ B  BN DN DN BN F  DN DN BQ FN DQ DQ D  FQ DN DQ DQ DN DN DQ FN DN DN DN DN DQ DQ BQ SN DQ DN DN FN DQ D  
+FQ DN D  DN DN DN FN FN DN DQ DN DN DQ DQ DN DN DN DN DN DQ DQ BQ BN DQ DN DQ DQ DQ D  D  DQ DN DN DN DN DN BQ DQ DN DN DN FN BN DQ 
+FQ DQ D  DN DN FQ BN BN BN DN FN FN FQ DQ DN DN DN BN DN BN FQ BN BQ FQ DQ DN DN DQ SN DQ DN DQ DN D  D  DN D  BQ DN DN BN FQ DN BN 
+FQ D  DN DN B  FQ BQ DN FN DN DN F  BN DN DN D  FN DN DN FN BQ DQ BQ FQ B  DN DQ DN DQ DQ DQ DN D  DN D  DQ DQ DN DN BQ BN D  FN D  
+FQ DN DN DQ DN DQ FQ D  FQ DQ FN BN BN FQ DN D  DN BN FN DN D  DQ BN DQ BQ DQ D  D  DQ FQ D  DN DQ DN DN FN DN DN BN BN BN FN DQ DN 
+FQ DQ DN SN DN DN FQ F  FQ FQ DN FN BQ BN DN FN DN DQ DN DQ DQ DN DQ B  DQ DQ BQ B  D  DQ DN DN DQ FQ DQ BN FN FN BN D  BN BN DN DN 
+FQ FQ DN FN DN FN FQ DQ FQ DN BN FN FN DN DQ DN DN BN BN FN D  DN DQ DQ DQ DQ BQ DN DQ DN DQ DQ DQ DN DN DN DN DN BN DN BN BQ BN DN 
+FQ DQ F  DN DN FQ FQ FQ FN BN FN BN DQ FQ FN DN DN D  FN BQ DQ D  DQ BQ DQ DQ DQ DQ DN DQ D  FN SN DN DQ DN DN BN BN BN FN F  D  DN 
+FQ FQ DN DN DN DN FQ DQ DN B  BN DN DN D  DN D  D  DN BN D  D  DQ DQ DQ BQ DQ BQ D  FQ FQ DQ DQ BN DN BN DN DN BN BN DQ BN DN FN DN 
+DQ FQ DN DQ DN SN FQ FN SN BN DQ FN F  FN SN DN DN DN BN BN BN DQ DN DQ BQ DQ DQ DN DQ FN DN FQ DN FN FN DN B  B  BN DN B  DN FN DN 
+IQ F  D  D  DN DN BN DN FN DQ FN D  BN DN BN B  F  FN DN D  D  FN DN DQ B  BQ BQ DQ DQ FQ DQ DN BN F  DN B  BN BN FN BN B  DN BN FN 
+
+mquant map:
+ 14    12  7  5          14  8  6  8     6  8  7  6  8  6  7  8  6  7  8  7  8  6     7  5                    6  5 16  6            
+ 16 14     7  5        7  8 10           8     7 10  7  6  7  8  6  7     6  8  6  7     6        5  6             16 10  7  6      
+ 12  8 14  8  6        7  8 16 14    16 12 14  7  8     7 10  6     7        8  6     8  6                         10 16 10     7  8
+ 14 16  8  7  6     7  6 16    14    16 10  7  8 10  8     7     8    10        8  7  8  6                          8 16 10 16      
+  8 10  8       10  6 14 10 14 18 14  8    10  8 10     7           6  7  6  7        6           7  6        7 16 14 16  8  7  8  7
+ 10        7        8 14 12       10  8 10  7  8 14 18  7  8     7                       6     7  6           7 10 16     8     7   
+ 14    16  8    16 18 16 12 22 16  8 14  8     7  8        7  8  7                                         6  7  6 16    12 10  8  7
+ 10 14    16 18 16     8 10 18 10     8 16 10    14  8  7                                               6        7 14  8  6    12  8
+ 10    14 18 14 16 12 10    12    10  8 14 12 10 14  8     7  8 10  8     7                          6       12  7                 8
+ 12 18  8 14 16       10  8    12  8  7  8 14    12  8  7    12  7  8 12  7                               12 10  7           8      
+ 12 20 14 12 20 16    10  8  7 10  8       16 10  8     7    12  8  7  8  7                            10  7  8 14  7          10  8
+ 12 20 14 16     8 12 10  7     8 10  8 12 18 10  8  7  8    10  8        7                       8     7     8 14  7           8 10
+ 10 22 20 14 10 16 18 12     8    10  8 10  8 10     8 12     8 10    12 10  7                12 14  7       10 14  7        8 14 10
+  8 22 14 22 20 22 14 18 16 10  8     7 10 14 16  7 10  8    12  8        7              8 16  7              8 14 18  7  8 10     7
+  8    10 12 18 14 16 12 22    16  8           7  8 14 10  8  7     8    10     8    14  7                   10     8    10  7      
+  8  7 12 14 18  8          24    10    12 22  7       10 14    16 14 12 10       16  8        7     8  7        8  7 12  8     7   
+  8  7 22 16 10  8        7     8 22 14 10  7             10  8             16 10     8     7                 8    16  8     7      
+  7  8 14  8     7  8  7           8 16 10  7           8             16 18  8    10  8                    7 10 20 10 14  7         
+  7 20 14  8     7  8  7              8 22  8  7 12 10 16 18 12    18 12  8             10    12  8 16       14 20 18 14 10  8 10   
+  8 14 12 10  7  8        7             24 14  7    22  7 16 22 18  8                   12  8  7  8 10 12  8 12 20 10 18 10 14 10 14
+ 12  8 10  8 20  7  8     7             10  8     7    16 14 10  8    10  8             12  8       10  8       16  8 16  8  7  8   
+ 16 10    12 10  8  7  8  7          22  8    12  7    20 12 10  8    10 12 14 12 16 14 12 10  8                14 12 18 20  8      
+ 10    12 10    18  8     7  8  7           8 10  7    24  8                10  8       10 16 12    14 18 16  8 14 12 22    12 14 12
+ 10  8    10 16     7                 8        7        8                            10    14  8          10  8 12  8       10 16 14
+ 14 10       12 16  7                    8           7       12 10 14 16     8 10        8 12  8                14  8       10     8
+ 16  8 10 12    18  7     8     7        8        7 18  7    10    12 24 20 18 22 20 12 14 16 14 10     8 10  8 14 10  8 12  8  7   
+ 10       12    20  7     8  7        8 10        7          14 20 22    20 14 12 18       12 10    12 14 10  8 14 12  7            
+ 16 10    14 12 14  7     8     7        8 10  7             18 20 22 18 16 22    20 18 12 10                    8  7               
+  8    12  8    12  7                    8     7              8 16 22 18       20    18 14 10             12  8  7                  
+ 10 12 10  8 10 12  7     8  7           8       10  7        8 10 20 22 18 20       22 12       10    12  8     7                18
+ 10 12 14 10 12     7    24  8  7           8           7 10  8 12 20    12 16 18       10 14 18 16 10  8     7        8  7     8 16
+ 10 12    10    18  8 24 10  7           8          12  7  8    12 10 22 18 16 18 20 14 12 10 12 10  7                            22
+ 20 10    16 12    10  8  7          14  8  7     8     7     8    10 18 22 20 16 20 12 10    14  7                               14
+ 24 10          12 20  7                                         8 14 18 22 20 16    10  8 10  8  7                                 
+ 22 12 10       14  8  7                 8  7        8  7       10 12 16 22 20 18    10    12  7                                    
+ 10             20  7                                   8  7    18 10 20    22 20 18 14 10  7     8  7                              
+
+Frame 7 (#6 in display order):
+ picture_type=B
+ temporal_reference=1
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+ backward search window: -15...15 / -15...15
+ backward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=63472
+
+vbv_delay=45249 (bitcount=786200, decoding_time=68515.15, bitcnt_EOP=786168)
+
+rate control: end of picture
+ actual number of bits: S=70145
+ average quantization parameter Q=11.2
+ remaining number of bits in GOP: R=56798
+ global complexity measures (I,P,B): Xi=876242, Xp=453181, Xb=392994
+ virtual buffer fullness (I,P,B): d0i=29750, d0p=36282, d0b=47134
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=1
+ average activity: avg_act=19.8
+Y: variance=1166, MSE=5.59 (40.7 dB), SNR=23.2 dB
+U: variance=53.42, MSE=1.69 (45.9 dB), SNR= 15 dB
+V: variance=13.92, MSE=1.28 (47.1 dB), SNR=10.4 dB
+
+picture statistics:
+ # of intra coded macroblocks:    46 (2.9%)
+ # of coded blocks:             1879 (19.8%)
+ # of not coded macroblocks:     845 (53.3%)
+ # of skipped macroblocks:        16 (1.0%)
+ # of forw. pred. macroblocks:   214 (13.5%)
+ # of backw. pred. macroblocks:  482 (30.4%)
+ # of interpolated macroblocks:  842 (53.2%)
+
+macroblock_type map:
+FQ F  BQ DQ FQ FQ DQ BQ I  FQ FQ FQ FQ FQ DN F  FN DN D  BN FN F  FN DN DN DN DN D  DN BQ DN B  D  BN BN BN DN B  B  B  DQ FQ IQ DQ 
+DN BN BQ DQ BQ DQ B  B  D  DQ DN DQ DQ DQ BQ DQ DN DN BN BN DN B  B  DN DN DN D  BQ BN DN BN D  D  D  D  D  BN B  B  B  IQ FQ F  F  
+BQ BN B  DQ IQ DQ D  I  BQ DQ D  D  DQ DN FN DQ DN BN BQ DN BN B  DN BQ DQ BN DQ D  DN BN D  B  B  DN BN BN BQ BQ B  FQ IQ FQ DQ DQ 
+BN BQ DQ FQ B  BQ BQ IQ DQ B  DN D  DQ DN BN DN DQ DN FN BN DN DN BQ SN DN DN DN DN DQ DQ DN B  D  BN FN B  BN B  BQ IQ IQ DQ FQ FQ 
+BQ BQ BQ IQ B  DQ I  FQ DQ D  BQ DN DQ B  DN D  DN DQ DN DN DN DQ DN B  D  D  BN D  DN DN DQ DN BN BN DN FN BQ BQ IQ IQ IQ IQ FQ F  
+BQ IQ BQ IQ DQ DQ D  DQ DN DQ DQ DQ DN DQ D  DN DQ DQ DQ DN DQ BQ BN BN D  BN DN D  B  B  B  DN D  DN BN FQ BN BQ IQ IQ DQ FQ FQ I  
+IQ FQ DQ DQ DQ BQ IQ BQ DN DQ DQ DN DN BQ B  BN D  D  BN DN DN BQ DN DN DN DN BN FN BN DN BN B  BN BN BN BN D  B  B  BN F  DQ F  DQ 
+BQ DQ FQ DQ FQ DQ BQ DQ DQ DQ DN BN DN BQ BN DN DQ DN BN BQ B  D  DN DN BN DN D  DN D  DN BN D  D  BN BN DN BN DN DQ BQ DN BN F  IQ 
+BQ DQ BQ D  FQ DQ BQ BQ DN DQ D  DQ DN FQ DN DN BQ BQ D  B  DN BN BN BN DN DN BN DN DN DN B  B  B  B  BN DN DN D  B  B  BN DN FQ I  
+BQ BQ DQ F  FQ IQ B  DN DN DN BN DN BN BQ DN DN DQ BN DN BQ DN DN FN BN DN D  D  D  DN DN DN B  D  DN D  DN BQ SN BQ FN BN B  FQ FQ 
+BQ DQ DQ FQ IQ DQ BQ DN DQ B  BN DN BN FQ DN DQ BN D  BN B  DN DN DN D  BN D  DN DN F  B  DN B  D  D  DN BN DN BN D  D  DN F  IQ DQ 
+BQ IQ BQ FQ D  FQ FQ BQ DN BN DN DN DN BQ DQ DN BN DN DN DQ B  BN DN DQ B  BN D  D  BN D  DN DN D  F  FN DN BN DN D  BN F  FQ F  D  
+BQ IQ BQ FQ IQ DQ BQ DQ DQ DN BN DN BN DN FQ DN DN BN DN DN BN DN BN BQ DQ BN DQ DN D  DN D  DN DN FN BN BN BN BQ DN BQ FQ F  DQ FN 
+IQ BQ IQ DQ IQ FQ BQ BQ DQ FN DN DN DN DQ DQ B  DQ DN DN DN BN DQ BN DQ DN D  BN DN BN FN DN D  D  D  BN BN DN DN BN F  F  DQ DQ FN 
+IQ B  IQ DQ FQ FQ DN DN FN DN DQ DN DQ DN FQ DN DQ DN DN DN DN DN DN BN DN DN DN B  DN D  DN D  B  B  FN BN FN DN B  FQ FQ DQ FQ FQ 
+IQ BQ IQ IQ FN BQ D  D  D  DN DQ BQ DN D  FQ FQ BN DN B  BN DN BN DN DN DN BN DQ DN DQ DN DN DN B  DN BN DN DN DN F  FQ FQ D  DN BN 
+BQ BQ B  DN DQ D  D  BN DN B  B  FQ DQ BQ BQ BN BN DN B  BQ BN DN DN BN DQ DN DQ DN BN BN DN BN DN DN BQ DN D  F  F  FQ BQ FN BN BN 
+B  DQ FQ DN BQ BN DN BN BN BN FN D  F  FQ DQ B  DQ DQ BQ FQ DN DN D  DN DN DN DN DN DN BN DN DN DN DQ D  DN B  BQ FQ FQ DQ DN FN DN 
+IQ FQ BQ BQ DQ DN BN BN BN DN FN BN B  FN F  BN BQ BQ DQ DN BN DN DN DN DN B  DN D  DN DN DN DN SN DN SN DN BQ F  BQ FQ FQ DN DN FN 
+D  F  DN BQ DQ D  B  BN BN BN DN DN F  DN DN DN B  DN D  DN FQ DN DQ BN BN BN DN BN DN BN BN BN B  FN DN B  BQ FQ IQ DQ F  FN FQ BN 
+IQ FQ DN D  FQ FQ BN FN DN F  DN DN BN DN DN DQ DQ B  DQ DN DQ BQ DN DN BN D  BN BN BN BN BN DN BN DN BQ DN BN FQ FQ FQ FQ DQ F  FN 
+IQ FQ DN BN DN DQ DN BN DN BN BN BN DQ BQ DN DN FN B  DN DQ DQ D  DN DN DN DN BN DN SN DN DN DN DN B  SN DN BN BN FQ FQ FQ FN DQ DQ 
+IQ FQ DN DN DN DN FQ BN B  DN B  D  DN BN SN DN DN BN DQ DQ DQ DQ D  DN DN B  DN DN DN DN DN DN DN DN SN DN BN DQ DN FQ FN DQ DN DN 
+FQ DN BN DN BN DN DN DN DN FN FN DN DN DN DN BQ DN FN B  DQ BN D  DQ DN D  DN DN DQ D  DN BN DN D  DN B  SN BQ DQ DQ BN DN DN DN DQ 
+FQ DN B  DQ DN DN BN BQ DN B  D  DN DN BN DN DN D  B  BN D  DN DQ DQ DN DN DQ DN DQ DN BN BN DN DN DN DN BN BN SN DN DN BN DN DN DN 
+FQ DN DN BN BN DN FN FN BN BN DN DN DQ BN F  DN DN BQ DQ D  DQ BQ DQ DN DN DQ DN BN BQ FQ DN FN DN DN DN DQ BQ B  BQ BN DN DN BN DQ 
+FQ DN SN DN DN DN BN BN FN DN FN DN DQ DQ DN DN DN DN DN DQ BQ B  BN DQ DQ D  DQ DQ SN DQ DN DN DN DN DN DN B  D  BN DN DN BN BN DN 
+FQ D  DN DN D  DQ BN FN FQ DN DN BN FN DN DN FN DN FN BN BN DQ BN BQ DQ DQ SN BQ D  DQ DQ DN DN DQ D  D  SN D  DQ DN DN FN DN DN BN 
+F  BN DN DN B  DQ BQ DN DN DN DN DN BN DN DN DN DN BN DN BN D  BQ BN DQ BQ SN B  DQ D  BN DQ DN D  DN DN DN DN BN DN FN FN BN BN DN 
+FQ DQ DN DN DN DN DQ DN FQ FQ BN BN BN DQ DN DN BN BN DN BN F  BQ BQ DQ BQ BQ DN BN DQ DQ BN BN DN DN DN DQ BN BN BN FN DN DN DN DN 
+FQ DN DN BQ DN DN DQ F  FQ FQ DN BN D  DN DN DN DN BN DN FQ FQ DN BQ BN BQ B  BQ BQ BQ DN DQ DN DN DN DN DN DQ FN FN DN DN BN DN DN 
+FQ FQ DN D  BN DN FQ DQ FQ DN BN BQ D  FN D  D  DN BN DN DN F  DN BQ BQ DN BQ BN DN DQ DN DN DN DQ DN BN DN DN DN DN BN BN DN DN DN 
+IQ F  DQ DN DQ F  FQ F  DN FN FN DN DQ B  FN DN DN BN DN DN F  DN BN BQ DQ BQ BQ BQ DN DQ DN DN FN FN DN DN BN BQ BN DN DN DN DN DN 
+FQ FQ DN BN DN DN DQ BN BN DN FN BN FN DN DN DQ DN DN BN DN DN DN DN BQ BQ BQ BQ DN DN DQ D  DQ DN DN DN DN DN FN F  FN DN DN FN DN 
+IQ DQ DN DQ DN DN FQ FN FN BN DN BN BN DN B  DN BN DN BN BN FN DN DN BN BQ B  DQ DN DQ DN D  DN DN DN DN DN FN DN BN FN SN DN BN BN 
+IQ DQ BN BN DN DQ BN FN FN DN FN BQ BN D  BN B  BN B  DN D  B  BN BQ BQ BQ BQ BQ BQ BQ DQ BN DN BN BN DN FN DQ BN FN FN BN DN BN FN 
+
+mquant map:
+ 18    22 16  8  7  8  7    14  8 10 14  8 10  8 10  8    10     8    14  8 10  8    10  7                    8  7       20  8  7  8
+ 20    16 18 12  7          18    12 14 18 10  8 12  8    10  8       12  7 10  8  7 10  7                    8  7       14  8      
+ 10 12 10 12  8  7       12 18       16 18    10 12 10  8 12  7  8    10  8 10  7    10  7                    8  7    22  8 24 20 18
+ 18 14 12 10     8 10  8 16    18 16 18 10       12       10     8    10    12  8    10  7                    8  7  8 12 18 10  8 10
+  8 14 10 12     8    14 16    20 16  8    14  8 12 20  8                                   7  8     7        8  7 16 20 16 10  8   
+ 16 12 14 18 14  8    18 16 12 18 10     8    10    20  8    10  8                                         7  8    22 18 14 10  8   
+ 18 12 14 16 18 24 22 14 12 22 12    14 10     8 10        8 10  8                                                    16  8 10     8
+ 14  8 16 14 20 18 16 10 12 22 12 10 12 14 16 12    10  8                                                          12  8          10
+ 12 10 16    12 16 20 10    12     8    10    14 18  8       10           8                                  12  8             10   
+ 12 14 12    14 20    14  8 10 14  8       16    14 10  8    16 10    12  8                               14 12  8             14  8
+ 12 14 20 16 18 22 16 12  8    10          16  8             12  8                                     12  8 12 16  8          12 10
+  8 20 12 24    12 18 10  8    10 12 10  8 14 16  8 10          14 10  8                                     12 18  8       10      
+  8 14 10 22 12 24 18 12 14 12  8 12 10 12    20 10    16 14 12 10       12  8                16 12  8       12 14 10  8 10     8 10
+ 14 10  8 24 12 20 24 22 16 22 10  8       10     8 14    12    10 12  8                10 16  8             12 18     8    14  8   
+ 10     8 20 16 20    10 24 28 14 10  8    10  8    14    10  8          10        8 16  8                   10     8 12 14  8 10  8
+ 10 12  8 22 18  8          28    14 10 14 12  8          14    18 16          14 18  8                               16 10     8   
+  8 10    14  8                   10 14 12  8             10           8    20 10     8 10  8                         10 12  8      
+ 12 10 16  8                            12  8    10 12 14 10          20    10        8 10  8 10     8          24 12 18  8         
+ 12 28 18 10  8                         24  8    16 12  8 20 18 16 22 14 10  8 10  8 12 14 12    14 12 16 18 24    14 18 12 10      
+ 12       14  8                         28 16  8    28  8 18 22     8 10        8 10  8 16  8       12 14  8 10 22 10 14    12  8 10
+ 24 10 14 10 14  8                      10    14  8    18 16 12  8 10 12 10  8 10  8 10 18  8    10 16 10  8    18 12 20 22  8    10
+ 22 12           8                   28  8    14  8    28 12 10    12       16 14 20 16 12 10                   18 22 18 24 12 10  8
+ 28 10 14 12 10 18  8                         10  8    22 10  8 10                      12 16 12 10 12 20 18 20 16    20    10    12
+ 16 10 12 14 18 14  8                                     10        8 10  8       10       16 10             18 16  8 10       16   
+ 10       12 14 18  8                         10  8          12 10 14 16 20    18  8 16 12 18 10     8 10  8 12 18 10       12 10  8
+ 14 10 12    10 22  8                               16  8    20 12 10 28 24          20 14    16 10 14 12 10 14    10        8      
+ 10 12    10 12 22  8                18 12    10  8          12    24 28 20    12 22 20 16 14 12 14 12 18 12 16        8            
+ 10    16    10 14  8                      12  8             20    24 22 16 22 24    18 20 10 12                 8                  
+  8 12 14 10  8 14  8                                           12 28 24 20       22       10          12 14  8                     
+ 16 12 16 10    12  8    14 10  8          10        8          12 22 24 18 20 24       14    12    10 14  8                      20
+ 16 12 14 12 14     8    28  8                10  8       12  8 12 14 24 18    24 22 20 12 14 18 24 12  8                         18
+ 22 12       10 20  8 28 10  8                      14  8       14 10 24 22 20    22 14    12 14  8                               24
+ 12    10 18 14    10     8                         10  8       10 12 22 24 22 14 20 10 12    18  8                               16
+ 24 10 12    10 16 22  8                                        10 14 18 24 20 16 20 12 10     8                                    
+ 14 12 10    14 12  8                                           12    18 22    20 18 10        8                                    
+ 14 12       10 24  8                                           22 12 20 22 24 20 24 18 12  8                                       
+
+Frame 8 (#7 in display order):
+ picture_type=B
+ temporal_reference=2
+ frame_pred_frame_dct=1
+ q_scale_type=1
+ intra_vlc_format=0
+ alternate_scan=0
+ forward search window: -15...15 / -15...15
+ forward vector range: -16...15.5 / -16...15.5
+ backward search window: -15...15 / -15...15
+ backward vector range: -16...15.5 / -16...15.5
+
+rate control: start of picture
+ target number of bits: T=56798
+
+vbv_delay=46173 (bitcount=856352, decoding_time=71515.15, bitcnt_EOP=856320)
+
+rate control: end of picture
+ actual number of bits: S=58664
+ average quantization parameter Q=11.7
+ remaining number of bits in GOP: R=-1866
+ global complexity measures (I,P,B): Xi=876242, Xp=453181, Xb=342577
+ virtual buffer fullness (I,P,B): d0i=29750, d0p=36282, d0b=49000
+ remaining number of P pictures in GOP: Np=0
+ remaining number of B pictures in GOP: Nb=0
+ average activity: avg_act=18.8
+Y: variance=1131, MSE=5.64 (40.6 dB), SNR= 23 dB
+U: variance=52.76, MSE=1.67 (45.9 dB), SNR= 15 dB
+V: variance=13.81, MSE=1.26 (47.1 dB), SNR=10.4 dB
+
+picture statistics:
+ # of intra coded macroblocks:    18 (1.1%)
+ # of coded blocks:             1438 (15.1%)
+ # of not coded macroblocks:     918 (58.0%)
+ # of skipped macroblocks:        77 (4.9%)
+ # of forw. pred. macroblocks:   132 (8.3%)
+ # of backw. pred. macroblocks:  790 (49.9%)
+ # of interpolated macroblocks:  644 (40.7%)
+
+macroblock_type map:
+DN BN SN BN BQ BQ BQ BQ B  B  DQ DQ BN DN DN BN BN DN BN DN DN DN DN DN DN BN FN BN DN DQ DN BN DN BN BN BN BN B  B  BN B  BQ IQ B  
+DN BN SN BQ BQ BQ BN BQ B  DQ BQ BQ D  DN BQ BN DN DN BN BN DQ DN DN DN BN DQ DQ BN SN DN B  DN B  D  BN DN B  B  B  BN B  IQ BQ BQ 
+DN BN B  BQ B  BQ BN B  BQ BQ B  B  D  DQ DN BN DN BN DN DN BN DN DN DQ BN DN DN B  DQ BN BN SN DQ BN DN B  BN B  B  BN BQ IQ BQ DQ 
+BN BQ BQ BQ BQ BQ I  D  BQ BQ BN D  FQ DN DN BN BQ BN FN BN DN DQ B  DN DN DN DN DN D  D  D  BN BN BN BN BN B  B  B  BN BQ BQ BQ FQ 
+BQ BQ IQ BQ BQ BQ IQ D  DN BQ BQ DQ DN DN DN DQ B  BQ BQ BN BN D  B  B  BN BN B  D  DN DN D  BN BN BN BN DN B  B  BN B  BQ BQ BQ FQ 
+BQ BQ BQ B  BQ D  BQ BQ DN BN SN DN DN DQ DN BN SN DN DN BN DN BN BN B  DN BN D  B  BN BN DN BN BN BN DN DN B  B  B  B  DQ DQ DQ IQ 
+BQ DQ F  BQ BQ DQ DQ BQ DN DQ BQ DN DN DQ BQ SN DQ DQ BN DN DN DN DN DN FN DN BQ D  DN B  B  B  BN DN DN BN DN B  B  DN BN B  B  IQ 
+DQ FQ DQ BQ DQ DQ BQ BN BQ BN DN DQ DN BQ SN DN DN BN BN SN DQ D  D  DN BN DN B  B  DN BN DN BN B  DN BN B  DN DN DN BN BN BN B  IQ 
+BQ BQ BQ BQ BQ I  BN BN DN BQ BN SN DN BN SN DQ BQ BN DN DQ DN BN DN BN SN BN D  DN BN BN D  D  D  DN BN DN FN DQ BQ B  BN BN FQ IQ 
+I  BQ BQ BQ B  BQ BQ BN SN SN SN SN BN DN DN DN DN BN DN BQ DN DN DN BN DN BN D  DN BN DN D  BN B  DN D  BN DQ BQ B  DN BN BN FQ IQ 
+BQ B  BQ BQ BQ BQ BQ BN BN BN BN DN BN DQ BQ SN BN DQ BN BN FN DN B  SN B  BN DN DN D  BN DN B  BN DN DQ BN D  BN SN BN BN DQ BQ BQ 
+BN BQ BQ IQ BQ BQ DQ BN SN DN BN BN DN BQ BQ BQ DN BN DN DN DN SN SN SN DN BN DN DN BN DN DN DN DQ BN BN BN DN DN BQ BN F  FQ DQ BQ 
+BN B  BQ BQ BQ BQ BQ DQ DN DN BN SN BN DQ DN BN DN DN DN BN D  DN BN BN DN BN BN DQ BN FN DN DN B  BN BN BN BN BN B  BN FQ FQ BN FQ 
+BQ BQ BQ IQ BQ FQ BQ BN FN FN DN DN BN DQ DQ BN D  DN DN DN BN DN BN BN DN DN BN DQ B  FN D  BN B  D  BN BN DN BN BN B  DQ BQ B  FN 
+BQ B  BQ BQ BQ BQ DN DN DN FN DQ DN DN FQ FQ BN DN DN BN BN DQ BN BN SN DN BN DN BN BN B  B  BN B  F  B  BN BN BN SN FQ DQ BQ DQ FN 
+DQ B  BQ BQ DQ DN SN DQ BQ DN DN DQ BN DQ FQ BN FN FN DQ BN BN DN BN DN SN DN DQ DQ BN DN DN BN BQ DN DN B  DN FQ FQ FQ BQ BN FN FQ 
+BQ BQ BQ DN DN FN BN BN FN BQ B  FQ DQ DQ BQ BN BN DN D  BQ BN SN SN BQ D  DN DQ DN BN DN DQ BN DN D  BN BN BN FQ BQ FQ BQ BQ DN DN 
+BQ DQ FN DN DN BN BN DQ BN BN DN B  FQ DQ DQ B  DQ D  D  DQ BN B  DN DN BN D  BN DN BN BN DN DN DN BN DQ DN BN DQ IQ BQ BQ FQ BN DN 
+BQ DQ BQ SN BN BN BQ BN BN BN BN BN B  DN D  FN B  D  D  DN BN DN DN DQ BQ SN DN D  D  DN DN DN SN DN DN BN SN DQ BQ BQ DQ DN BN DN 
+BQ DQ BN DQ DQ BN BN B  BN BN BN BN B  DQ DN BN BQ DN D  DN FQ DN DQ BN SN BN BN BN BN SN SN BN SN DN DN BN SN BN DQ DQ DQ DQ DQ BQ 
+BQ DQ DN DN FN FQ D  DN FN DN BN BN BN DN DN BQ DQ B  DN DN DQ BN BN DN BN BQ BN BN BN BN DN DN DN SN BQ DN BN SN DQ DQ DQ BN BN BN 
+DQ BQ BN BN DN DQ BN BN DN BN BN BN DN BN BN DN FN B  DQ DQ DN DQ BN DN BN DN DN DN DN DN DN F  DN DN BN DN BN BN BQ DQ DQ BQ BQ BN 
+DQ BN BN DN DN DN BN DN BN BN BN DN FN BN DN FN FN BN DQ BQ BN FQ D  BN SN B  DN DN SN BN DN D  SN DN DN SN BQ SN SN BQ B  BN BN BN 
+DQ DN DN DN DN DN BN BN FN FN DN DQ DN DN BN DN BN SN D  DQ DN BQ B  BN BN DN DN BN BN DN BN B  DN DN BN B  BQ BQ BN BQ SN SN SN BN 
+F  DN DQ DN DN DN BN FN BN FN FN FN DN BN DN DN DN BQ BN B  DN DN DN BQ SN BN BN BQ BN DN BN DN DN DN BN BN BN DN DN BN BN DN BQ D  
+FQ DN BN BN DN DN BN BN BQ BQ DN DN DN BN DN DN FN BQ DQ D  BQ BQ B  DN DN BQ BN BN BQ BQ DN SN DN DN DN DN BQ SN SN BN DN DN DN DN 
+F  BN DN DN DN DN DN FN BQ FN BN BN DQ BN DN DN BN DN DN DQ DQ B  BQ DN BQ BQ BQ BQ DQ BQ DQ DN SN DN DN DN BQ BQ DN DN DN FN BN DN 
+DQ D  BN BN DN DQ DN FN FN FN FN BN BQ DN BN DN DN BN BN BN BQ BN SN BQ D  DN DN DQ BQ SN DN DQ BN DN DQ BN BQ SN DN DN FN FN BN BN 
+B  DN BN BN SN FQ FN DN DQ BN BN DN BN DN DN DN DN BN DN BN D  BN BN BQ BN SN BN BQ DQ BQ BN DN BN DQ BN DN DQ DN BN FN FN FN FN DN 
+DQ DN BN DN DN DQ BQ DN FQ BN BN BN BN BQ DN DN BN BN DN D  DQ BN SN SN BQ BQ BN BN BQ BQ SN SN SN SN DN BN DN FN DQ BN DN DN DN DN 
+FQ DN DQ DN DN DN DQ F  FQ BN BN FQ DN DN FN DN DN DN BN FQ FQ DN BN SN BQ DN BN BN BQ DN DQ BN SN BN DN BN DN FN FQ D  D  BN DN DN 
+FQ DQ DQ DN DQ DQ DQ DQ FN BN BN BN DQ D  DN BN DN DN BN FN DQ FN BQ BN SN SN BQ BN DN DQ SN BN DQ FN BN BN BN BN D  FN BN BN DN DN 
+FQ DN DN DN BN FQ FQ DQ FN FN DN BN DQ BQ DN DN BN DN DN FN DQ DN DN BN BQ BQ B  DN DN DQ BQ BN DN DN FN BN DN DQ FN D  BN D  D  DN 
+FQ DQ BN BN DN FQ DQ DN BN FQ B  D  DN FN DN BN BN DN BN DN DQ DN DN BQ BN BQ BQ DQ DQ BQ B  BQ BN DN D  DN DN FN BN FN BN DN FN DN 
+IQ FQ DN BQ DN D  FN FN FN DN DN BN BN FN BN DN DN DN BN BN DN DN DN BN BN BQ DN BN BQ BN BN BN BN FQ DN FN DN BN BN DN DN FN FN BN 
+IQ DQ BN BN BN DQ BN BN FN FN FN FN BN FN DQ BN BN BN BN D  B  SN SN BQ BN BN BQ SN SN SN BN BN BQ BN FN FN DN BN FN BN BN FN BN FN 
+
+mquant map:
+ 22 24       20  8 10  8       20 14    10 12 10        8 10 12 10  8 12 10 12  8 10     8                                  28  8   
+ 22    18 14 16 10  8       24 12 16    20 12  8 12 10  8 10  8    10       12  8    10  8                                  22 12 10
+ 12    10 14     8 10  8 24 20          16 14       10  8 12  8    10  8 10     8    10  8                               16 12 24 18
+ 14  8 22 16 12 10       14 20       14 12 10 12    14 18 10     8    12 10 12 10  8                                     18 14 16 10
+ 12 18 12 16 12 14 12    22 16 22 18 10    16 14    22  8    10  8                                                       18 24 18 10
+ 20 18 16    14    16 20 16       10 12  8    10    22 10    16  8       10  8                                           20 18 10  8
+ 16 12    16 22 28 18 12 14 20 12 10 12 14 10  8 12 10     8 10     8                                        10  8    18  8       10
+ 20 16 10 18 16 18 16 12    20 12 10 12 16 14 18 20 10  8                                                          10  8          10
+ 16 14 12 20 12    20 10       14 10       12 16 18  8 10  8 14 10        8                                  12 10  8          12 10
+ 10 14 12 18    20 18 16 10    14 10  8 10 20 12 18 10  8    14 10    12  8                               14     8             12 10
+  8    16 14 20 24 16 12 10           8 10 14 16 10  8 10    16 10  8 10  8                         12 10  8 10 18 10     8    10 14
+  8    16 18 28 24 22 10  8    10          12 14 10    12 10    12 14 10  8                      10  8       10 20  8       14 16 10
+  8 10 14  8 24 18 20 14 24 10  8 10       18 20 12 10 20 12 10 14 10        8                16  8          12 16  8    10 14 12   
+  8 14 10  8 14 12 22    16 24 10     8 14 10       12 16 10 16 10 12  8    10  8       14  8                10 18     8 14 12     8
+  8    12  8 22 20 14 10 28    14 10  8 12 10  8    10 14 10  8    10          12 10 16  8                   10 12 10    16 10 12 10
+ 10    12 24 14  8 10  8 10 32    16 10 12  8          10 14    18 14 16          18 10     8                10     8 16 12 14  8   
+ 10 12 24 10        8             10 16 12  8             10           8    22 10 12  8                      10     8 12 16  8      
+ 12 10 18 10  8    10  8             10 16  8    14       10       12 20 12 10                       8       12 24 14 18 16  8      
+ 12 28 20 10  8                         28  8             20 16 18 20 12 10             12    18    14    20 16 22 16 14 20 10      
+ 16 10 14     8    10  8                20 16  8    28  8 16 20 12 10                   14  8       16 10    12 22 12 14 20 10  8 10
+ 14 12       20  8                      10    12  8    22 16 10  8 10 14 12  8 10  8 10 12  8 10    16 10       18 16 12 24  8    10
+ 22 10 12 10 12  8                   32  8    10  8    12 16 10    12 14 12 14    20 18 14 12 10 14 10          16    24 22 12 10   
+ 12       14    20  8                         12  8    20 12  8 10                12 10 12 14 10    16 18 20  8 14 18 20    18 14   
+ 12 10 12 16 20 22  8 10  8                10  8          14 10        8 10           8 12 14 10 12 10        8 14 10       12 14 18
+ 10    12    18 24  8                      10     8          12    14    22 28 32 10 18 10 16 10 12 10          16 10    12 16  8   
+ 12 10 14 10    24  8    10  8                      10  8    20 14    28    24    22 20 14 12 16 10 16 14 10    16 10 12  8         
+ 10 12    10 12 24  8                28 12    10  8          14    28    20 18 22 20 22 18 14 12 14    18 14 12 14 12  8            
+ 10    18 12 10 20  8                   10 12  8             22 18 28 24       28 22 18 20 12 10 12 14    12 10  8                  
+ 10 12 14 10    16  8                   12  8 10  8             14 28 24 22    20 22 24 16 10 12    10 12 14  8                     
+ 10 14 12 10 14     8    32 10  8          10        8       10 14 22 28 18 20 24       18 12 14 12 10 12  8                      22
+ 10 14    12 16 18  8    10  8                12  8 12  8 12 10 14 12 28 22 20 24 18       14 18 24 10  8                      10 20
+ 12 10 12    10 18  8 28 10  8             10  8 10 12  8    10 14 12 28 24 20    24 16 14    16  8                               28
+ 14    12 14 12 16 10  8             10  8       10  8       10    14 24 28 24    22 12 14 12 14  8                               18
+ 28 12    10 12 16 14  8                                     10 12 14 20 28 22 14 22 12 10     8                                    
+ 14 18 12    10 12  8                               10  8       14 12 20 22 24 22 20 10     8                                       
+ 10 12          28  8                                           22 14 16 22 28 24 28 16 12  8                                       

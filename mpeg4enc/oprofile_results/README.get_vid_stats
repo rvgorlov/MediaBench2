@@ -1,0 +1,8 @@
+
+To get stats on video files, download MPlayer, and execute it with the following:
+
+	mplayer output_base_4CIF_96bps_15.with_mmx.avi -lavdopts vstats
+
+Then view the resulting vstats_XXXXXX.log file, where XXXXXX is a randomly generated
+number.
+
