@@ -24,5 +24,5 @@ cmp recon2.U new2.U
 cmp recon0.V new0.V
 cmp recon1.V new1.V
 cmp recon2.V new2.V
-#echo Cleaning
-#rm -f new.m2v xyz stat.out new?.? q?.? r?.?
+echo Cleaning
+rm -f new.m2v xyz stat.out new?.? q?.? r?.?

@@ -36,6 +36,7 @@
 #define GLOBAL
 #include "config.h"
 #include "global.h"
+#include "hpctimer.h"
 
 /* private prototypes */
 static int  video_sequence _ANSI_ARGS_((int *framenum));
@@ -62,91 +63,101 @@ int main(argc,argv)
 int argc;
 char *argv[];
 {
-  int ret, code;
+  double t = hpctimer_wtime();
+  int N = 100; 
 
-  Clear_Options();
-
-  /* decode command line arguments */
-  Process_Options(argc,argv);
-
-#ifdef DEBUG
-  Print_Options();
-#endif
-
-  ld = &base; /* select base layer context */
-
-  /* open MPEG base layer bitstream file(s) */
-  /* NOTE: this is either a base layer stream or a spatial enhancement stream */
-  if ((base.Infile=open(Main_Bitstream_Filename,O_RDONLY|O_BINARY))<0)
+  for (int i = 0; i < N; ++i)
   {
-    fprintf(stderr,"Base layer input file %s not found\n", Main_Bitstream_Filename);
-    exit(1);
-  }
+    int ret, code;
+
+    Clear_Options();
+
+    /* decode command line arguments */
+    Process_Options(argc,argv);
+
+  #ifdef DEBUG
+    Print_Options();
+  #endif
+
+    ld = &base; /* select base layer context */
+
+    /* open MPEG base layer bitstream file(s) */
+    /* NOTE: this is either a base layer stream or a spatial enhancement stream */
+    if ((base.Infile=open(Main_Bitstream_Filename,O_RDONLY|O_BINARY))<0)
+    {
+      fprintf(stderr,"Base layer input file %s not found\n", Main_Bitstream_Filename);
+      exit(1);
+    }
 
 
-  if(base.Infile != 0)
-  {
+    if(base.Infile != 0)
+    {
+      Initialize_Buffer(); 
+    
+      if(Show_Bits(8)==0x47)
+      {
+        sprintf(Error_Text,"Decoder currently does not parse transport streams\n");
+        Error(Error_Text);
+      }
+
+      next_start_code();
+      code = Show_Bits(32);
+
+      switch(code)
+      {
+      case SEQUENCE_HEADER_CODE:
+        break;
+      case PACK_START_CODE:
+        System_Stream_Flag = 1;
+      case VIDEO_ELEMENTARY_STREAM:
+        System_Stream_Flag = 1;
+        break;
+      default:
+        sprintf(Error_Text,"Unable to recognize stream type\n");
+        Error(Error_Text);
+        break;
+      }
+
+      lseek(base.Infile, 0l, 0);
+      Initialize_Buffer(); 
+    }
+
+    if(base.Infile!=0)
+    {
+      lseek(base.Infile, 0l, 0);
+    }
+
     Initialize_Buffer(); 
-  
-    if(Show_Bits(8)==0x47)
+
+    if(Two_Streams)
     {
-      sprintf(Error_Text,"Decoder currently does not parse transport streams\n");
-      Error(Error_Text);
+      ld = &enhan; /* select enhancement layer context */
+
+      if ((enhan.Infile = open(Enhancement_Layer_Bitstream_Filename,O_RDONLY|O_BINARY))<0)
+      {
+        sprintf(Error_Text,"enhancment layer bitstream file %s not found\n",
+          Enhancement_Layer_Bitstream_Filename);
+
+        Error(Error_Text);
+      }
+
+      Initialize_Buffer();
+      ld = &base;
     }
 
-    next_start_code();
-    code = Show_Bits(32);
+    Initialize_Decoder();
 
-    switch(code)
-    {
-    case SEQUENCE_HEADER_CODE:
-      break;
-    case PACK_START_CODE:
-      System_Stream_Flag = 1;
-    case VIDEO_ELEMENTARY_STREAM:
-      System_Stream_Flag = 1;
-      break;
-    default:
-      sprintf(Error_Text,"Unable to recognize stream type\n");
-      Error(Error_Text);
-      break;
-    }
+    ret = Decode_Bitstream();
 
-    lseek(base.Infile, 0l, 0);
-    Initialize_Buffer(); 
+    close(base.Infile);
+
+    if (Two_Streams)
+      close(enhan.Infile);
   }
 
-  if(base.Infile!=0)
-  {
-    lseek(base.Infile, 0l, 0);
-  }
+  t = (hpctimer_wtime() - t) / N; 
 
-  Initialize_Buffer(); 
-
-  if(Two_Streams)
-  {
-    ld = &enhan; /* select enhancement layer context */
-
-    if ((enhan.Infile = open(Enhancement_Layer_Bitstream_Filename,O_RDONLY|O_BINARY))<0)
-    {
-      sprintf(Error_Text,"enhancment layer bitstream file %s not found\n",
-        Enhancement_Layer_Bitstream_Filename);
-
-      Error(Error_Text);
-    }
-
-    Initialize_Buffer();
-    ld = &base;
-  }
-
-  Initialize_Decoder();
-
-  ret = Decode_Bitstream();
-
-  close(base.Infile);
-
-  if (Two_Streams)
-    close(enhan.Infile);
+  printf("Mean of %d runs (sec.): %.6f\n", N, t);
 
   return 0;
 }

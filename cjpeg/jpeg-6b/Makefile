@@ -20,7 +20,7 @@ manext = 1
 mandir = $(prefix)/man/man$(manext)
 
 # The name of your C compiler:
-CC= icc
+CC= clang
 
 # You may need to adjust these cc options:
 
@@ -32,7 +32,7 @@ CC= icc
 
 #clang
 # vect
-#CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I$(srcdir)
+CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I$(srcdir)
 # scalar
 #CFLAGS = -O3 -ffast-math -fno-vectorize -I$(srcdir)
 
@@ -41,7 +41,7 @@ CC= icc
 #CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -I$(srcdir)
 
 #scalar
-CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
+#CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
 
 # Generally, we recommend defining any configuration symbols in jconfig.h,
 # NOT via -D switches here.
@@ -342,7 +342,7 @@ diplom:
 	./djpeg -dct int -ppm -outfile output_base_4CIF_96bps.ppm output_base_4CIF_96bps.jpg
 
 hpctimer: hpctimer.o
-	clang -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
+	gcc -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
 
 hpctimer.o: hpctimer.c hpctimer.h
 
