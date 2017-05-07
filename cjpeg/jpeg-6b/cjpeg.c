@@ -460,8 +460,11 @@ parse_switches (j_compress_ptr cinfo, int argc, char **argv,
 int
 main (int argc, char **argv)
 {
+  printf("===============================================================\n");
   int N = 100; 
-  double timesVector[N];
+
+  double t;
+  t = hpctimer_wtime();
   
   for (int i = 0; i < N; ++i)
   {
@@ -581,12 +584,9 @@ main (int argc, char **argv)
     /* Specify data destination for compression */
     jpeg_stdio_dest(&cinfo, output_file);
 
-    double t;
-    t = hpctimer_wtime();
     /* Start compressor */
     jpeg_start_compress(&cinfo, TRUE);
   
-
     /* Process data */
     while (cinfo.next_scanline < cinfo.image_height) {
       num_scanlines = (*src_mgr->get_pixel_rows) (&cinfo, src_mgr);
@@ -598,9 +598,7 @@ main (int argc, char **argv)
     jpeg_finish_compress(&cinfo); 
     jpeg_destroy_compress(&cinfo);
 
-    t = hpctimer_wtime() - t;
-
-    timesVector[i] = t; 
+    //timesVector[i] = t; 
 
     /* Close files, if we opened them */
     if (input_file != stdin)
@@ -613,15 +611,18 @@ main (int argc, char **argv)
 #endif
 
   }
+
+  t = hpctimer_wtime() - t;
   
-  double rezultTime = 0; 
+  /*double rezultTime = 0; 
   for (int i = 0; i < N; ++i)
   {
     rezultTime += timesVector[i];   
   }
-  rezultTime = rezultTime / N;
+  rezultTime = rezultTime / N;*/
 
-  printf("Mean of %d runs (sec.): %.10f\n", N, rezultTime);
+  printf("Time for %d runs (sec.): %.10f\n", N, t);
+  printf("===============================================================\n");
   /* All done. */
   //exit(jerr.num_warnings ? EXIT_WARNING : EXIT_SUCCESS);
   return 0;			/* suppress no-return-value warnings */

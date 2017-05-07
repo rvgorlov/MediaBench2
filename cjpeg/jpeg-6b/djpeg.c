@@ -424,9 +424,12 @@ print_text_marker (j_decompress_ptr cinfo)
 int
 main (int argc, char **argv)
 {
+  printf("===============================================================\n");
+  int N = 100;
 
-  int N = 100; 
-  double timesVector[N];
+  double t;
+  t = hpctimer_wtime();
+  
   for (int i = 0; i < N; ++i)
   { 
 
@@ -579,11 +582,6 @@ main (int argc, char **argv)
     }
     dest_mgr->output_file = output_file;
 
-    double t;
-    //int N = 100;
-    /* Start decompressor */
-    t = hpctimer_wtime();
-
     (void) jpeg_start_decompress(&cinfo);
 
     /* Write output file header */
@@ -610,8 +608,7 @@ main (int argc, char **argv)
     (*dest_mgr->finish_output) (&cinfo, dest_mgr);
     (void) jpeg_finish_decompress(&cinfo);
     jpeg_destroy_decompress(&cinfo);
-    t = hpctimer_wtime() - t;
-    timesVector[i] = t;
+  
     /* Close files, if we opened them */
     if (input_file != stdin)
       fclose(input_file);
@@ -624,14 +621,17 @@ main (int argc, char **argv)
 
   }
 
-  double rezultTime = 0; 
+  /*double rezultTime = 0; 
   for (int i; i < N; ++i)
   {
     rezultTime += timesVector[i];
   }
-  rezultTime = rezultTime / N;
+  rezultTime = rezultTime / N;*/
 
-  printf("Mean of %d runs (sec.): %.10f\n", N, rezultTime);
+  t = hpctimer_wtime() - t;
+
+  printf("Time for %d runs (sec.): %.10f\n", N, t);
+  printf("===============================================================\n");
 
   /* All done. */
   //exit(jerr.num_warnings ? EXIT_WARNING : EXIT_SUCCESS);
