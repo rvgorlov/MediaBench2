@@ -1,0 +1,14 @@
+jdapistd.c:57:13: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        if (cinfo->progress != NULL)
+                   ^
+jdapistd.c:57:13: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdapistd.c:107:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (cinfo->output_scanline < cinfo->output_height) {
+    ^
+jdapistd.c:107:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdapistd.c:107:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jdapistd.c:107:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdapistd.c:266:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (cinfo->input_scan_number <= cinfo->output_scan_number &&
+  ^
+jdapistd.c:266:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

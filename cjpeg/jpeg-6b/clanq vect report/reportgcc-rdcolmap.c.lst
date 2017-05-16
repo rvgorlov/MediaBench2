@@ -1,0 +1,38 @@
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (index = 0; index < ncolors; index++) {
+  ^
+rdcolmap.c:55:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (index = 0; index < ncolors; index++) {
+  ^
+rdcolmap.c:55:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

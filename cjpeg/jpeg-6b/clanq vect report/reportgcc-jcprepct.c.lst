@@ -1,0 +1,33 @@
+jcprepct.c:283:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcprepct.c:283:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcprepct.c:298:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i = 0; i < rgroup_height; i++) {
+    ^
+jcprepct.c:345:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jcprepct.c:345:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcprepct.c:220:4: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+          for (row = 1; row <= cinfo->max_v_samp_factor; row++) {
+          ^
+jcprepct.c:220:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcprepct.c:112:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jcopy_sample_rows(image_data, input_rows-1, image_data, row,
+    ^
+jcprepct.c:111:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = input_rows; row < output_rows; row++) {
+  ^
+jcprepct.c:112:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jcopy_sample_rows(image_data, input_rows-1, image_data, row,
+    ^
+jcprepct.c:111:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = input_rows; row < output_rows; row++) {
+  ^
+jcprepct.c:112:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jcopy_sample_rows(image_data, input_rows-1, image_data, row,
+    ^
+jcprepct.c:111:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = input_rows; row < output_rows; row++) {
+  ^

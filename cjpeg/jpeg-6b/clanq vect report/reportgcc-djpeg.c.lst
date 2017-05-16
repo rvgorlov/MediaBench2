@@ -1,0 +1,20 @@
+djpeg.c:591:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (cinfo.output_scanline < cinfo.output_height) {
+    ^
+djpeg.c:591:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+djpeg.c:361:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*datasrc->fill_input_buffer) (cinfo))
+        ^
+djpeg.c:389:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (--length >= 0) {
+  ^
+djpeg.c:361:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*datasrc->fill_input_buffer) (cinfo))
+        ^
+djpeg.c:389:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (--length >= 0) {
+  ^
+djpeg.c:184:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (argn = 1; argn < argc; argn++) {
+  ^
+djpeg.c:184:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

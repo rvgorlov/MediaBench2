@@ -1,0 +1,127 @@
+wrppm.c:95:3: note: not consecutive access _4 = MEM[(struct ppm_dest_struct *)dinfo_1(D)].buffer_width;
+wrppm.c:95:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:96:1: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:142:3: note: not vectorized: not suitable for gather load _20 = *_19;
+
+wrppm.c:142:3: note: bad data references.
+wrppm.c:142:3: note: not consecutive access ptr_13 = *_12;
+wrppm.c:142:3: note: not consecutive access _8 = cinfo_7(D)->colormap;
+wrppm.c:142:3: note: not consecutive access col_15 = cinfo_7(D)->output_width;
+wrppm.c:142:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:142:3: note: not consecutive access _20 = *_19;
+wrppm.c:142:3: note: not consecutive access _24 = *_23;
+wrppm.c:142:3: note: not consecutive access _29 = *_28;
+wrppm.c:142:3: note: Build SLP failed: unrolling required in basic block SLP
+wrppm.c:142:3: note: not consecutive access _20 = *_19;
+wrppm.c:142:3: note: not consecutive access _24 = *_23;
+wrppm.c:142:3: note: not consecutive access _29 = *_28;
+wrppm.c:142:3: note: Build SLP failed: unrolling required in basic block SLP
+wrppm.c:142:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:148:3: note: not consecutive access _33 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].pub.output_file;
+wrppm.c:148:3: note: not consecutive access _34 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].buffer_width;
+wrppm.c:148:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:149:1: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:164:3: note: not vectorized: not suitable for gather load _19 = *_18;
+
+wrppm.c:164:3: note: bad data references.
+wrppm.c:164:3: note: not consecutive access color_map_9 = *_8;
+wrppm.c:164:3: note: not consecutive access ptr_11 = *_10;
+wrppm.c:164:3: note: not consecutive access _8 = cinfo_7(D)->colormap;
+wrppm.c:164:3: note: not consecutive access col_13 = cinfo_7(D)->output_width;
+wrppm.c:164:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:164:3: note: not consecutive access _19 = *_18;
+wrppm.c:164:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:164:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:167:3: note: not consecutive access _23 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].pub.output_file;
+wrppm.c:167:3: note: not consecutive access _24 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].buffer_width;
+wrppm.c:167:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:168:1: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:115:3: note: versioning for alias required: can't determine dependence between *ptr_26 and *bufferptr_25
+wrppm.c:115:3: note: Unknown misalignment, is_packed = 0
+wrppm.c:115:3: note: Unknown misalignment, is_packed = 0
+wrppm.c:115:3: note: virtual phi. skip.
+wrppm.c:115:3: note: not ssa-name.
+wrppm.c:115:3: note: use not simple.
+wrppm.c:115:3: note: not ssa-name.
+wrppm.c:115:3: note: use not simple.
+wrppm.c:115:3: note: no optab.
+wrppm.c:115:3: note: virtual phi. skip.
+wrppm.c:115:3: note: loop vectorized
+wrppm.c:115:3: note: loop versioned for vectorization because of possible aliasing
+wrppm.c:115:3: note: loop peeled for vectorization to enhance alignment
+wrppm.c:115:3: note: virtual phi. skip.
+wrppm.c:115:3: note: not consecutive access ptr_8 = *_7;
+wrppm.c:115:3: note: not consecutive access col_10 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].samples_per_row;
+wrppm.c:115:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:115:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:115:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:115:49: note: not vectorized: no grouped stores in basic block.
+wrppm.c:115:49: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:115:49: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:115:49: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:116:5: note: not vectorized: no vectype for stmt: vect__13.56_105 = MEM[(JSAMPLE *)vectp_ptr.54_103];
+ scalar_type: vector(32) unsigned char
+wrppm.c:116:5: note: not vectorized: no vectype for stmt: MEM[(char *)vectp_bufferptr.58_108] = vect__14.57_106;
+ scalar_type: vector(32) char
+wrppm.c:116:5: note: not vectorized: no grouped stores in basic block.
+wrppm.c:115:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:115:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:115:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:115:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:118:3: note: not consecutive access _17 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].pub.output_file;
+wrppm.c:118:3: note: not consecutive access _18 = MEM[(struct ppm_dest_struct *)dinfo_5(D)].buffer_width;
+wrppm.c:118:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:119:1: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:181:3: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access _21 = MEM[(struct ppm_dest_struct *)dinfo_1(D)].pub.output_file;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access _9 = MEM[(struct ppm_dest_struct *)dinfo_1(D)].pub.output_file;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+wrppm.c:195:5: note: not consecutive access _12 = _10->error_exit;
+wrppm.c:195:5: note: not consecutive access _10->msg_code = 1025;
+wrppm.c:195:5: note: not consecutive access _10 = cinfo_3(D)->err;
+wrppm.c:195:5: note: not vectorized: no grouped stores in basic block.
+wrppm.c:197:1: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:208:3: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:209:7: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:209:6: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:210:5: note: not consecutive access _12 = _11->error_exit;
+wrppm.c:210:5: note: not consecutive access _11->msg_code = 37;
+wrppm.c:210:5: note: not consecutive access _11 = cinfo_8(D)->err;
+wrppm.c:210:5: note: not vectorized: no grouped stores in basic block.
+wrppm.c:211:1: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:224:8: note: not consecutive access _5 = _4->alloc_small;
+wrppm.c:224:8: note: not consecutive access _4 = cinfo_3(D)->mem;
+wrppm.c:224:8: note: not vectorized: no grouped stores in basic block.
+wrppm.c:231:3: note: not consecutive access dest_7->pub.start_output = start_output_ppm;
+wrppm.c:231:3: note: not consecutive access dest_7->pub.finish_output = finish_output_ppm;
+wrppm.c:231:3: note: not vectorized: no grouped stores in basic block.
+wrppm.c:236:30: note: not consecutive access _19 = _18->alloc_small;
+wrppm.c:236:30: note: not consecutive access dest_7->buffer_width = _16;
+wrppm.c:236:30: note: not consecutive access dest_7->samples_per_row = _14;
+wrppm.c:236:30: note: not consecutive access _18 = cinfo_3(D)->mem;
+wrppm.c:236:30: note: not consecutive access _11 = cinfo_3(D)->output_width;
+wrppm.c:236:30: note: not consecutive access _12 = cinfo_3(D)->out_color_components;
+wrppm.c:236:30: note: not vectorized: no grouped stores in basic block.
+wrppm.c:239:6: note: not consecutive access dest_7->iobuffer = _21;
+wrppm.c:239:6: note: not consecutive access _23 = cinfo_3(D)->quantize_colors;
+wrppm.c:239:6: note: not vectorized: no grouped stores in basic block.
+wrppm.c:245:25: note: not consecutive access _25 = _24->alloc_sarray;
+wrppm.c:245:25: note: not consecutive access _24 = cinfo_3(D)->mem;
+wrppm.c:245:25: note: not consecutive access _26 = cinfo_3(D)->output_width;
+wrppm.c:245:25: note: not consecutive access _27 = cinfo_3(D)->output_components;
+wrppm.c:245:25: note: not vectorized: no grouped stores in basic block.
+wrppm.c:249:8: note: not consecutive access dest_7->pub.buffer = _31;
+wrppm.c:249:8: note: not consecutive access dest_7->pub.buffer_height = 1;
+wrppm.c:249:8: note: not consecutive access _34 = cinfo_3(D)->quantize_colors;
+wrppm.c:249:8: note: not vectorized: no grouped stores in basic block.
+wrppm.c:250:32: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:251:13: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:252:32: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:254:32: note: not vectorized: not enough data-refs in basic block.
+wrppm.c:262:30: note: not consecutive access dest_7->pub.put_pixel_rows = put_pixel_rows;
+wrppm.c:262:30: note: not consecutive access dest_7->pub.buffer = _40;
+wrppm.c:262:30: note: not consecutive access dest_7->pixrow = _21;
+wrppm.c:262:30: note: not consecutive access dest_7->pub.buffer_height = 1;
+wrppm.c:262:30: note: not vectorized: no grouped stores in basic block.
+wrppm.c:265:10: note: not vectorized: not enough data-refs in basic block.

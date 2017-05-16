@@ -1,0 +1,52 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 35.14      0.52     0.52                             encode_mcu_huff
+ 18.24      0.79     0.27                             forward_DCT
+ 16.89      1.04     0.25                             jpeg_fdct_islow
+ 13.51      1.24     0.20                             rgb_ycc_convert
+  4.73      1.31     0.07                             h2v2_downsample
+  3.38      1.36     0.05                             __svml_idiv4_h9
+  1.35      1.38     0.02                             __memmove_sse2_unaligned_erms
+  1.35      1.40     0.02                             __open_nocancel
+  1.35      1.42     0.02                             __read_nocancel
+  1.35      1.44     0.02                             compress_data
+  0.68      1.45     0.01                             __svml_idiv4_mask
+  0.68      1.46     0.01                             __write_nocancel
+  0.68      1.47     0.01                             jpeg_set_defaults
+  0.68      1.48     0.01                             jpeg_write_scanlines
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

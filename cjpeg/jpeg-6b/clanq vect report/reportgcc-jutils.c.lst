@@ -1,0 +1,6 @@
+jutils.c:135:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    FMEMCOPY(outptr, inptr, count);
+    ^
+jutils.c:131:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = num_rows; row > 0; row--) {
+  ^

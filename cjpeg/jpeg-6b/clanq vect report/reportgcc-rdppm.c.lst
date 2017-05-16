@@ -1,0 +1,52 @@
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:419:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (val = 0; val <= (INT32) maxval; val++) {
+    ^
+rdppm.c:419:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:251:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:251:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:192:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:192:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:275:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:275:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:213:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:213:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

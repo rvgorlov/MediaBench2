@@ -1,0 +1,17 @@
+wrtarga.c:191:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(cinfo->colormap[2][i]), outfile);
+        ^
+wrtarga.c:190:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrtarga.c:155:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrtarga.c:155:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrtarga.c:131:3: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrtarga.c:110:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrtarga.c:110:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]

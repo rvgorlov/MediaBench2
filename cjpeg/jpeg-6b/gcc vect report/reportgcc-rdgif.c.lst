@@ -1,0 +1,2 @@
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdgif.c:34:3: note: not vectorized: not enough data-refs in basic block.

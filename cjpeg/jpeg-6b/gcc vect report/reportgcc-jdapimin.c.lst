@@ -1,0 +1,278 @@
+jdapimin.c:36:6: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:37:5: note: not consecutive access _16 = _11->error_exit;
+jdapimin.c:37:5: note: not consecutive access _11 = cinfo_8(D)->err;
+jdapimin.c:37:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:37:5: note: not consecutive access _16 = _11->error_exit;
+jdapimin.c:37:5: note: not consecutive access _11 = cinfo_8(D)->err;
+jdapimin.c:37:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:38:6: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:39:5: note: not consecutive access _24 = _19->error_exit;
+jdapimin.c:39:5: note: not consecutive access _19 = cinfo_8(D)->err;
+jdapimin.c:39:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:39:5: note: not consecutive access _24 = _19->error_exit;
+jdapimin.c:39:5: note: not consecutive access _19 = cinfo_8(D)->err;
+jdapimin.c:39:5: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:58:3: note: not consecutive access cinfo_8(D)->err = err_26;
+jdapimin.c:58:3: note: not consecutive access cinfo_8(D)->client_data = client_data_27;
+jdapimin.c:58:3: note: not consecutive access cinfo_8(D)->is_decompressor = 1;
+jdapimin.c:58:3: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:68:32: note: not consecutive access cinfo_8(D)->progress = 0B;
+jdapimin.c:68:32: note: not consecutive access cinfo_8(D)->src = 0B;
+jdapimin.c:69:32: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:69:32: note: basic block vectorized
+jdapimin.c:76:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:83:1: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:94:1: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:106:1: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:245:6: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:247:5: note: not consecutive access _13 = _10->error_exit;
+jdapimin.c:247:5: note: not consecutive access _10 = cinfo_6(D)->err;
+jdapimin.c:247:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:247:5: note: not consecutive access _13 = _10->error_exit;
+jdapimin.c:247:5: note: not consecutive access _10 = cinfo_6(D)->err;
+jdapimin.c:247:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:247:5: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:292:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:292:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:292:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:295:6: note: not consecutive access _25 = _24->reset_input_controller;
+jdapimin.c:295:6: note: not consecutive access _24 = cinfo_6(D)->inputctl;
+jdapimin.c:295:6: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:297:6: note: not consecutive access _27 = _26->init_source;
+jdapimin.c:297:6: note: not consecutive access _26 = cinfo_6(D)->src;
+jdapimin.c:297:6: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:298:25: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:301:13: note: not consecutive access _29 = _28->consume_input;
+jdapimin.c:301:13: note: not consecutive access _28 = cinfo_6(D)->inputctl;
+jdapimin.c:301:13: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:302:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:119:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:122:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:122:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:126:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:127:31: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:128:15: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:129:7: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:131:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:134:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:137:2: note: not consecutive access _43 = _42->emit_message;
+jdapimin.c:137:2: note: not consecutive access _42 = cinfo_6(D)->err;
+jdapimin.c:137:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:137:2: note: not consecutive access _43 = _42->emit_message;
+jdapimin.c:137:2: note: not consecutive access _42 = cinfo_6(D)->err;
+jdapimin.c:137:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:138:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:147:34: note: not consecutive access _44 = cinfo_6(D)->comp_info;
+jdapimin.c:147:34: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:149:41: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:150:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:152:2: note: not consecutive access _55 = _54->emit_message;
+jdapimin.c:152:2: note: not consecutive access _54 = cinfo_6(D)->err;
+jdapimin.c:152:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:152:2: note: not consecutive access _55 = _54->emit_message;
+jdapimin.c:152:2: note: not consecutive access _54 = cinfo_6(D)->err;
+jdapimin.c:152:2: note: Build SLP failed: different operation in stmt MEM[(int *)_54 + 44B] = cid0_45;
+jdapimin.c:152:2: note: original stmt _54->msg_code = 111;
+jdapimin.c:152:2: note: Build SLP failed: different operation in stmt MEM[(int *)_54 + 48B] = cid1_46;
+jdapimin.c:152:2: note: original stmt _54->msg_code = 111;
+jdapimin.c:152:2: note: Build SLP failed: different operation in stmt MEM[(int *)_54 + 52B] = cid2_47;
+jdapimin.c:152:2: note: original stmt _54->msg_code = 111;
+jdapimin.c:153:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:157:28: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:161:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:162:7: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:164:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:167:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:170:2: note: not consecutive access _60 = _59->emit_message;
+jdapimin.c:170:2: note: not consecutive access _59 = cinfo_6(D)->err;
+jdapimin.c:170:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:170:2: note: not consecutive access _60 = _59->emit_message;
+jdapimin.c:170:2: note: not consecutive access _59 = cinfo_6(D)->err;
+jdapimin.c:170:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:171:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:176:31: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:178:28: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:183:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:183:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->output_gamma = 1.0e+0;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->colormap = 0B;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->global_state = 202;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->dct_method = 0;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->dither_mode = 2;
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->output_gamma = 1.0e+0;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->colormap = 0B;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->global_state = 202;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->dct_method = 0;
+jdapimin.c:306:27: note: not consecutive access cinfo_6(D)->dither_mode = 2;
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:320:13: note: not consecutive access _32 = _31->consume_input;
+jdapimin.c:320:13: note: not consecutive access _31 = cinfo_6(D)->inputctl;
+jdapimin.c:320:13: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:320:13: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:323:5: note: not consecutive access _35 = _34->error_exit;
+jdapimin.c:323:5: note: not consecutive access _34 = cinfo_6(D)->err;
+jdapimin.c:323:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:323:5: note: not consecutive access _35 = _34->error_exit;
+jdapimin.c:323:5: note: not consecutive access _34 = cinfo_6(D)->err;
+jdapimin.c:323:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:323:5: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:256:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:257:7: note: not consecutive access _20 = _18->error_exit;
+jdapimin.c:257:7: note: not consecutive access _18->msg_code = 51;
+jdapimin.c:257:7: note: not consecutive access _18 = cinfo_6(D)->err;
+jdapimin.c:257:7: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:262:5: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:270:10: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:292:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:292:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:292:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:295:6: note: not consecutive access _8 = _7->reset_input_controller;
+jdapimin.c:295:6: note: not consecutive access _7 = cinfo_5(D)->inputctl;
+jdapimin.c:295:6: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:297:6: note: not consecutive access _11 = _10->init_source;
+jdapimin.c:297:6: note: not consecutive access _10 = cinfo_5(D)->src;
+jdapimin.c:297:6: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:298:25: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:301:13: note: not consecutive access _15 = _14->consume_input;
+jdapimin.c:301:13: note: not consecutive access _14 = cinfo_5(D)->inputctl;
+jdapimin.c:301:13: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:302:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:119:3: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:122:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:122:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:126:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:127:31: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:128:15: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:129:7: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:131:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:134:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:137:2: note: not consecutive access _35 = _34->emit_message;
+jdapimin.c:137:2: note: not consecutive access _34 = cinfo_5(D)->err;
+jdapimin.c:137:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:137:2: note: not consecutive access _35 = _34->emit_message;
+jdapimin.c:137:2: note: not consecutive access _34 = cinfo_5(D)->err;
+jdapimin.c:137:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:138:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:147:34: note: not consecutive access _36 = cinfo_5(D)->comp_info;
+jdapimin.c:147:34: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:149:41: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:150:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:152:2: note: not consecutive access _47 = _46->emit_message;
+jdapimin.c:152:2: note: not consecutive access _46 = cinfo_5(D)->err;
+jdapimin.c:152:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:152:2: note: not consecutive access _47 = _46->emit_message;
+jdapimin.c:152:2: note: not consecutive access _46 = cinfo_5(D)->err;
+jdapimin.c:152:2: note: Build SLP failed: different operation in stmt MEM[(int *)_46 + 44B] = cid0_37;
+jdapimin.c:152:2: note: original stmt _46->msg_code = 111;
+jdapimin.c:152:2: note: Build SLP failed: different operation in stmt MEM[(int *)_46 + 48B] = cid1_38;
+jdapimin.c:152:2: note: original stmt _46->msg_code = 111;
+jdapimin.c:152:2: note: Build SLP failed: different operation in stmt MEM[(int *)_46 + 52B] = cid2_39;
+jdapimin.c:152:2: note: original stmt _46->msg_code = 111;
+jdapimin.c:153:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:157:28: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:161:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:162:7: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:164:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:167:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:170:2: note: not consecutive access _52 = _51->emit_message;
+jdapimin.c:170:2: note: not consecutive access _51 = cinfo_5(D)->err;
+jdapimin.c:170:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:170:2: note: not consecutive access _52 = _51->emit_message;
+jdapimin.c:170:2: note: not consecutive access _51 = cinfo_5(D)->err;
+jdapimin.c:170:2: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:171:26: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:176:31: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:178:28: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:183:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:183:28: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->output_gamma = 1.0e+0;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->colormap = 0B;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->global_state = 202;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->dct_method = 0;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->dither_mode = 2;
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->output_gamma = 1.0e+0;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->colormap = 0B;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->global_state = 202;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->dct_method = 0;
+jdapimin.c:306:27: note: not consecutive access cinfo_5(D)->dither_mode = 2;
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:306:27: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:320:13: note: not consecutive access _21 = _20->consume_input;
+jdapimin.c:320:13: note: not consecutive access _20 = cinfo_5(D)->inputctl;
+jdapimin.c:320:13: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:320:13: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:323:5: note: not consecutive access _27 = _24->error_exit;
+jdapimin.c:323:5: note: not consecutive access _24 = cinfo_5(D)->err;
+jdapimin.c:323:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:323:5: note: not consecutive access _27 = _24->error_exit;
+jdapimin.c:323:5: note: not consecutive access _24 = cinfo_5(D)->err;
+jdapimin.c:323:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:325:10: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:337:6: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:339:5: note: not consecutive access _10 = _7->error_exit;
+jdapimin.c:339:5: note: not consecutive access _7 = cinfo_3(D)->err;
+jdapimin.c:339:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:339:5: note: not consecutive access _10 = _7->error_exit;
+jdapimin.c:339:5: note: not consecutive access _7 = cinfo_3(D)->err;
+jdapimin.c:339:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:340:25: note: not consecutive access _13 = _12->eoi_reached;
+jdapimin.c:340:25: note: not consecutive access _12 = cinfo_3(D)->inputctl;
+jdapimin.c:340:25: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:352:6: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:354:5: note: not consecutive access _10 = _7->error_exit;
+jdapimin.c:354:5: note: not consecutive access _7 = cinfo_3(D)->err;
+jdapimin.c:354:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:354:5: note: not consecutive access _10 = _7->error_exit;
+jdapimin.c:354:5: note: not consecutive access _7 = cinfo_3(D)->err;
+jdapimin.c:354:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:355:25: note: not consecutive access _13 = _12->has_multiple_scans;
+jdapimin.c:355:25: note: not consecutive access _12 = cinfo_3(D)->inputctl;
+jdapimin.c:355:25: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:386:17: note: not vectorized: control flow in loop.
+jdapimin.c:386:17: note: bad loop form.
+jdapimin.c:371:6: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:372:46: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:374:8: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:375:7: note: not consecutive access _16 = _13->error_exit;
+jdapimin.c:375:7: note: not consecutive access _13->msg_code = 67;
+jdapimin.c:375:7: note: not consecutive access _13 = cinfo_6(D)->err;
+jdapimin.c:375:7: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:376:6: note: not consecutive access _19 = _18->finish_output_pass;
+jdapimin.c:376:6: note: not consecutive access _18 = cinfo_6(D)->master;
+jdapimin.c:376:6: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:377:25: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:378:13: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:380:25: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:381:13: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:383:5: note: not consecutive access _26 = _23->error_exit;
+jdapimin.c:383:5: note: not consecutive access _23 = cinfo_6(D)->err;
+jdapimin.c:383:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:383:5: note: not consecutive access _26 = _23->error_exit;
+jdapimin.c:383:5: note: not consecutive access _23 = cinfo_6(D)->err;
+jdapimin.c:383:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapimin.c:387:10: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:387:8: note: not vectorized: not enough data-refs in basic block.
+jdapimin.c:386:9: note: not consecutive access _29 = _28->eoi_reached;
+jdapimin.c:386:9: note: not consecutive access _28 = cinfo_6(D)->inputctl;
+jdapimin.c:386:9: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:391:4: note: not consecutive access _34 = _33->term_source;
+jdapimin.c:391:4: note: not consecutive access _33 = cinfo_6(D)->src;
+jdapimin.c:391:4: note: not vectorized: no grouped stores in basic block.
+jdapimin.c:393:3: note: not vectorized: not enough data-refs in basic block.

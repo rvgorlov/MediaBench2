@@ -1,0 +1,79 @@
+jdatasrc.c:53:1: note: not consecutive access src_3->start_of_file = 1;
+jdatasrc.c:53:1: note: not consecutive access src_3 = cinfo_2(D)->src;
+jdatasrc.c:53:1: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:172:1: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access src_6 = cinfo_5(D)->src;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:97:6: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:98:8: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:99:7: note: not consecutive access _12 = _10->error_exit;
+jdatasrc.c:99:7: note: not consecutive access _10->msg_code = 42;
+jdatasrc.c:99:7: note: not consecutive access _10 = cinfo_5(D)->err;
+jdatasrc.c:99:7: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:100:5: note: not consecutive access _16 = _14->emit_message;
+jdatasrc.c:100:5: note: not consecutive access _14->msg_code = 120;
+jdatasrc.c:100:5: note: not consecutive access _14 = cinfo_5(D)->err;
+jdatasrc.c:100:5: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:103:20: note: not consecutive access *_18 = 255;
+jdatasrc.c:103:20: note: not consecutive access MEM[(JOCTET *)_20 + 1B] = 217;
+jdatasrc.c:103:20: note: not consecutive access _18 = src_6->buffer;
+jdatasrc.c:103:20: note: not consecutive access _20 = src_6->buffer;
+jdatasrc.c:103:20: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:111:10: note: not consecutive access _22 = src_6->buffer;
+jdatasrc.c:111:10: note: not consecutive access src_6->pub.next_input_byte = _22;
+jdatasrc.c:111:10: note: not consecutive access src_6->pub.bytes_in_buffer = nbytes_1;
+jdatasrc.c:111:10: note: not consecutive access src_6->start_of_file = 0;
+jdatasrc.c:111:10: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:137:11: note: not vectorized: control flow in loop.
+jdatasrc.c:137:11: note: bad loop form.
+jdatasrc.c:136:6: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:137:11: note: not consecutive access _22 = src_6->pub.bytes_in_buffer;
+jdatasrc.c:137:11: note: not consecutive access src_6 = cinfo_5(D)->src;
+jdatasrc.c:137:11: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:97:6: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:98:8: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:99:7: note: not consecutive access _28 = _27->error_exit;
+jdatasrc.c:99:7: note: not consecutive access _27->msg_code = 42;
+jdatasrc.c:99:7: note: not consecutive access _27 = cinfo_5(D)->err;
+jdatasrc.c:99:7: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:100:5: note: not consecutive access _30 = _29->emit_message;
+jdatasrc.c:100:5: note: not consecutive access _29->msg_code = 120;
+jdatasrc.c:100:5: note: not consecutive access _29 = cinfo_5(D)->err;
+jdatasrc.c:100:5: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:103:20: note: not consecutive access _31 = MEM[(struct my_source_mgr *)prephitmp_12].buffer;
+jdatasrc.c:103:20: note: not consecutive access _32 = MEM[(struct my_source_mgr *)prephitmp_12].buffer;
+jdatasrc.c:103:20: note: not consecutive access *_31 = 255;
+jdatasrc.c:103:20: note: not consecutive access MEM[(JOCTET *)_32 + 1B] = 217;
+jdatasrc.c:103:20: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:137:11: note: not consecutive access _33 = MEM[(struct my_source_mgr *)prephitmp_12].buffer;
+jdatasrc.c:137:11: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_12].pub.next_input_byte = _33;
+jdatasrc.c:137:11: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_12].pub.bytes_in_buffer = nbytes_34;
+jdatasrc.c:137:11: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_12].start_of_file = 0;
+jdatasrc.c:137:11: note: not consecutive access _8 = src_6->pub.bytes_in_buffer;
+jdatasrc.c:137:11: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:137:11: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:145:30: note: not consecutive access _13 = src_6->pub.next_input_byte;
+jdatasrc.c:145:30: note: not consecutive access src_6->pub.next_input_byte = _15;
+jdatasrc.c:145:30: note: not consecutive access src_6->pub.bytes_in_buffer = _17;
+jdatasrc.c:145:30: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:147:1: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:193:6: note: not vectorized: not enough data-refs in basic block.
+jdatasrc.c:195:8: note: not consecutive access _6 = _5->alloc_small;
+jdatasrc.c:195:8: note: not consecutive access _5 = cinfo_3(D)->mem;
+jdatasrc.c:195:8: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:199:8: note: not consecutive access _11 = _10->alloc_small;
+jdatasrc.c:199:8: note: not consecutive access _10 = cinfo_3(D)->mem;
+jdatasrc.c:199:8: note: not consecutive access cinfo_3(D)->src = _8;
+jdatasrc.c:199:8: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:198:17: note: not consecutive access MEM[(struct my_source_mgr *)_8].buffer = _13;
+jdatasrc.c:198:17: note: not consecutive access pretmp_26 = cinfo_3(D)->src;
+jdatasrc.c:198:17: note: not vectorized: no grouped stores in basic block.
+jdatasrc.c:212:1: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_25].pub.next_input_byte = 0B;
+jdatasrc.c:212:1: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_25].pub.bytes_in_buffer = 0;
+jdatasrc.c:212:1: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_25].infile = infile_21(D);
+jdatasrc.c:212:1: note: Build SLP failed: unrolling required in basic block SLP
+jdatasrc.c:212:1: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_25].pub.next_input_byte = 0B;
+jdatasrc.c:212:1: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_25].pub.bytes_in_buffer = 0;
+jdatasrc.c:212:1: note: not consecutive access MEM[(struct my_source_mgr *)prephitmp_25].infile = infile_21(D);
+jdatasrc.c:212:1: note: Build SLP failed: unrolling required in basic block SLP

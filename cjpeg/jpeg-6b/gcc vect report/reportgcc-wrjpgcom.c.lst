@@ -1,0 +1,231 @@
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.15_5 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.16_4 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:379:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:137:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:138:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:139:1: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:111:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:254:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:146:9: note: not vectorized: latch block not empty.
+wrjpgcom.c:146:9: note: bad loop form.
+wrjpgcom.c:190:7: note: not vectorized: multiple nested loops.
+wrjpgcom.c:190:7: note: bad loop form.
+wrjpgcom.c:96:7: note: not vectorized: control flow in loop.
+wrjpgcom.c:96:7: note: bad loop form.
+wrjpgcom.c:96:7: note: not vectorized: control flow in loop.
+wrjpgcom.c:96:7: note: bad loop form.
+wrjpgcom.c:96:7: note: not vectorized: control flow in loop.
+wrjpgcom.c:96:7: note: bad loop form.
+wrjpgcom.c:96:7: note: not vectorized: control flow in loop.
+wrjpgcom.c:96:7: note: bad loop form.
+wrjpgcom.c:195:20: note: not vectorized: control flow in loop.
+wrjpgcom.c:195:20: note: bad loop form.
+wrjpgcom.c:434:9: note: not vectorized: multiple nested loops.
+wrjpgcom.c:434:9: note: bad loop form.
+wrjpgcom.c:458:36: note: not vectorized: control flow in loop.
+wrjpgcom.c:458:36: note: bad loop form.
+wrjpgcom.c:392:20: note: not vectorized: control flow in loop.
+wrjpgcom.c:392:20: note: bad loop form.
+wrjpgcom.c:392:20: note: not vectorized: control flow in loop.
+wrjpgcom.c:392:20: note: bad loop form.
+wrjpgcom.c:392:20: note: not vectorized: control flow in loop.
+wrjpgcom.c:392:20: note: bad loop form.
+wrjpgcom.c:429:6: note: not consecutive access progname = _32;
+wrjpgcom.c:429:6: note: not consecutive access _32 = *argv_31(D);
+wrjpgcom.c:429:6: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:429:24: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:430:14: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:433:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:435:8: note: not consecutive access _186 = *arg_46;
+wrjpgcom.c:435:8: note: not consecutive access arg_46 = MEM[(char * *)argv_31(D) + 8B];
+wrjpgcom.c:435:8: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:435:8: note: not consecutive access arg_42 = *_41;
+wrjpgcom.c:435:8: note: not consecutive access _43 = *arg_42;
+wrjpgcom.c:435:8: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:392:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:393:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:393:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:395:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/ctype.h:217:68: note: not consecutive access iftmp.13_192 = *_191;
+/usr/include/ctype.h:217:68: note: not consecutive access _189 = *_188;
+/usr/include/ctype.h:217:68: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:397:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:392:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:393:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:392:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:392:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:395:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/ctype.h:217:68: note: not consecutive access iftmp.13_226 = *_225;
+/usr/include/ctype.h:217:68: note: not consecutive access _223 = *_222;
+/usr/include/ctype.h:217:68: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:397:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:392:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:402:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:442:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:442:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.1_61 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.0_60 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access _59 = *_453;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:444:2: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:393:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:395:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/ctype.h:217:68: note: not consecutive access iftmp.13_260 = *_259;
+/usr/include/ctype.h:217:68: note: not consecutive access _257 = *_256;
+/usr/include/ctype.h:217:68: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:397:8: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:392:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:402:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:452:10: note: not consecutive access comment_arg_69 = *_68;
+wrjpgcom.c:452:10: note: not consecutive access _70 = *comment_arg_69;
+wrjpgcom.c:452:10: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:454:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:455:4: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:110:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:458:36: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:459:7: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:459:27: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:460:36: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:463:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:464:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:148:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:148:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:469:39: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:469:22: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:433:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:475:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:480:51: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:484:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:485:19: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:485:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access _109 = *_104;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.1_111 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.0_110 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:487:7: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:500:12: note: not consecutive access stdin.3_113 = stdin;
+wrjpgcom.c:500:12: note: not consecutive access infile = stdin.3_113;
+wrjpgcom.c:500:12: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:518:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.1_117 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.0_116 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:520:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:537:6: note: not consecutive access stdout.4_119 = stdout;
+wrjpgcom.c:537:6: note: not consecutive access outfile = stdout.4_119;
+wrjpgcom.c:537:6: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:542:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:543:7: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:545:53: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:545:53: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:545:53: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:547:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:550:2: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:552:37: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:546:11: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:546:11: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:554:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:229:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:296:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:96:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:97:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:96:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:97:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:194:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:194:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:96:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:97:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:203:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:205:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:321:7: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:328:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:137:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:138:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:109:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:110:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:112:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:113:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:114:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:130:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:253:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:257:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:96:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:97:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:124:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:257:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:109:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:110:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:112:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:113:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:114:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:272:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:273:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:276:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:96:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:97:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:276:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:137:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:138:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:109:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:110:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:112:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:113:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:114:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:130:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:253:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:257:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:96:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:97:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:124:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:257:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:566:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:130:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:124:3: note: not consecutive access outfile.31_153 = outfile;
+wrjpgcom.c:124:3: note: not vectorized: no grouped stores in basic block.
+wrjpgcom.c:569:11: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:147:5: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:146:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:146:9: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:581:3: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:441:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:447:10: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:226:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:227:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:228:6: note: not vectorized: not enough data-refs in basic block.
+wrjpgcom.c:402:6: note: not vectorized: not enough data-refs in basic block.

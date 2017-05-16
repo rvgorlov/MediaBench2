@@ -1,0 +1,264 @@
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: virtual phi. skip.
+jccolor.c:97:3: note: op not supported by target.
+jccolor.c:97:3: note: not vectorized: relevant stmt not supported: _14 = i_59 * 19595;
+jccolor.c:97:3: note: bad operation or unsupported loop bound.
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: Unknown misalignment, is_packed = 0
+jccolor.c:97:3: note: virtual phi. skip.
+jccolor.c:97:3: note: virtual phi. skip.
+jccolor.c:97:3: note: loop vectorized
+jccolor.c:97:3: note: loop peeled for vectorization to enhance alignment
+jccolor.c:97:3: note: virtual phi. skip.
+jccolor.c:93:25: note: not consecutive access _7 = _6->alloc_small;
+jccolor.c:93:25: note: not vectorized: no grouped stores in basic block.
+jccolor.c:93:25: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:97:33: note: not consecutive access *_108 = _107;
+jccolor.c:97:33: note: not consecutive access *_103 = _102;
+jccolor.c:97:33: note: not consecutive access *_70 = _68;
+jccolor.c:97:33: note: not consecutive access *_64 = _63;
+jccolor.c:97:33: note: not consecutive access *_57 = _56;
+jccolor.c:97:33: note: not consecutive access *_101 = _98;
+jccolor.c:97:33: note: not consecutive access *_94 = _93;
+jccolor.c:97:33: note: not consecutive access *_89 = _88;
+jccolor.c:97:33: note: not vectorized: no grouped stores in basic block.
+jccolor.c:97:33: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:97:33: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.25_193] = vect__14.24_190;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.28_201] = vect__19.27_197;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.32_211] = vect__25.31_207;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.35_219] = vect__30.34_215;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.38_227] = vect__35.37_223;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.43_239] = vect__42.42_235;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.46_247] = vect__47.45_243;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no vectype for stmt: MEM[(INT32 *)vectp_rgb_ycc_tab.49_255] = vect__52.48_251;
+ scalar_type: vector(2) long int
+jccolor.c:112:29: note: not vectorized: no grouped stores in basic block.
+jccolor.c:112:29: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:97:33: note: not consecutive access *_130 = _131;
+jccolor.c:97:33: note: not consecutive access *_135 = _136;
+jccolor.c:97:33: note: not consecutive access *_140 = _142;
+jccolor.c:97:33: note: not consecutive access *_146 = _147;
+jccolor.c:97:33: note: not consecutive access *_151 = _152;
+jccolor.c:97:33: note: not consecutive access *_156 = _159;
+jccolor.c:97:33: note: not consecutive access *_163 = _164;
+jccolor.c:97:33: note: not consecutive access *_168 = _169;
+jccolor.c:97:33: note: not vectorized: no grouped stores in basic block.
+jccolor.c:114:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:142:9: note: not vectorized: control flow in loop.
+jccolor.c:142:9: note: bad loop form.
+jccolor.c:148:5: note: not vectorized: not suitable for gather load _41 = *_40;
+
+jccolor.c:148:5: note: bad data references.
+jccolor.c:140:14: note: not consecutive access ctab_11 = cconvert_10->rgb_ycc_tab;
+jccolor.c:140:14: note: not consecutive access cconvert_10 = cinfo_9(D)->cconvert;
+jccolor.c:140:14: note: not consecutive access num_cols_12 = cinfo_9(D)->image_width;
+jccolor.c:140:14: note: not vectorized: no grouped stores in basic block.
+jccolor.c:148:5: note: not consecutive access outptr0_24 = *_23;
+jccolor.c:148:5: note: not consecutive access outptr1_27 = *_26;
+jccolor.c:148:5: note: not consecutive access outptr2_30 = *_29;
+jccolor.c:148:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:148:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:142:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:172:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:198:9: note: not vectorized: control flow in loop.
+jccolor.c:198:9: note: bad loop form.
+jccolor.c:202:5: note: not vectorized: not suitable for gather load _35 = *_34;
+
+jccolor.c:202:5: note: bad data references.
+jccolor.c:196:14: note: not consecutive access ctab_11 = cconvert_10->rgb_ycc_tab;
+jccolor.c:196:14: note: not consecutive access cconvert_10 = cinfo_9(D)->cconvert;
+jccolor.c:196:14: note: not consecutive access num_cols_12 = cinfo_9(D)->image_width;
+jccolor.c:196:14: note: not vectorized: no grouped stores in basic block.
+jccolor.c:202:5: note: not consecutive access outptr_24 = *_23;
+jccolor.c:202:5: note: not consecutive access _20 = *output_buf_19(D);
+jccolor.c:202:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:202:5: note: not consecutive access _35 = *_34;
+jccolor.c:202:5: note: not consecutive access _40 = *_39;
+jccolor.c:202:5: note: not consecutive access _46 = *_45;
+jccolor.c:202:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:198:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:213:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:237:9: note: not vectorized: control flow in loop.
+jccolor.c:237:9: note: bad loop form.
+jccolor.c:244:5: note: not vectorized: not suitable for gather load _53 = *_52;
+
+jccolor.c:244:5: note: bad data references.
+jccolor.c:235:14: note: not consecutive access ctab_11 = cconvert_10->rgb_ycc_tab;
+jccolor.c:235:14: note: not consecutive access cconvert_10 = cinfo_9(D)->cconvert;
+jccolor.c:235:14: note: not consecutive access num_cols_12 = cinfo_9(D)->image_width;
+jccolor.c:235:14: note: not vectorized: no grouped stores in basic block.
+jccolor.c:244:5: note: not consecutive access outptr0_24 = *_23;
+jccolor.c:244:5: note: not consecutive access outptr1_27 = *_26;
+jccolor.c:244:5: note: not consecutive access outptr2_30 = *_29;
+jccolor.c:244:5: note: not consecutive access outptr3_33 = *_32;
+jccolor.c:244:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:244:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:237:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:270:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:290:9: note: not vectorized: control flow in loop.
+jccolor.c:290:9: note: bad loop form.
+jccolor.c:294:5: note: versioning for alias required: can't determine dependence between *inptr_34 and *_26
+jccolor.c:294:5: note: versioning not yet supported for non-constant step
+jccolor.c:294:5: note: bad data dependence.
+jccolor.c:294:5: note: versioning for alias required: can't determine dependence between *inptr_34 and *_26
+jccolor.c:294:5: note: versioning not yet supported for non-constant step
+jccolor.c:294:5: note: bad data dependence.
+jccolor.c:288:7: note: not consecutive access num_cols_10 = cinfo_9(D)->image_width;
+jccolor.c:288:7: note: not consecutive access instride_11 = cinfo_9(D)->input_components;
+jccolor.c:288:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:294:5: note: not consecutive access outptr_23 = *_22;
+jccolor.c:294:5: note: not consecutive access _19 = *output_buf_18(D);
+jccolor.c:294:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:294:5: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:294:5: note: not consecutive access _27 = *inptr_34;
+jccolor.c:294:5: note: not vectorized: no grouped stores in basic block.
+jccolor.c:290:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:299:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:320:9: note: not vectorized: multiple nested loops.
+jccolor.c:320:9: note: bad loop form.
+jccolor.c:322:5: note: not vectorized: not suitable for gather load outptr_27 = *_26;
+
+jccolor.c:322:5: note: bad data references.
+jccolor.c:325:7: note: versioning for alias required: can't determine dependence between *_31 and *_29
+jccolor.c:325:7: note: versioning not yet supported for non-constant step
+jccolor.c:325:7: note: bad data dependence.
+jccolor.c:325:7: note: versioning for alias required: can't determine dependence between *_31 and *_29
+jccolor.c:325:7: note: versioning not yet supported for non-constant step
+jccolor.c:325:7: note: bad data dependence.
+jccolor.c:320:9: note: not consecutive access num_cols_13 = cinfo_11(D)->image_width;
+jccolor.c:320:9: note: not consecutive access nc_12 = cinfo_11(D)->num_components;
+jccolor.c:320:9: note: not vectorized: no grouped stores in basic block.
+jccolor.c:324:14: note: not consecutive access outptr_27 = *_26;
+jccolor.c:324:14: note: not consecutive access inptr_18 = *input_buf_51;
+jccolor.c:324:14: note: not vectorized: no grouped stores in basic block.
+jccolor.c:322:5: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:325:7: note: not consecutive access _32 = *_31;
+jccolor.c:325:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:320:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:320:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:320:9: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:333:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:344:1: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:356:12: note: not consecutive access _12 = _11->alloc_small;
+jccolor.c:356:12: note: not consecutive access _11 = cinfo_10(D)->mem;
+jccolor.c:356:12: note: not vectorized: no grouped stores in basic block.
+jccolor.c:364:3: note: not consecutive access cconvert_14->pub.start_pass = null_method;
+jccolor.c:364:3: note: not consecutive access _17 = cinfo_10(D)->in_color_space;
+jccolor.c:364:3: note: not consecutive access cinfo_10(D)->cconvert = cconvert_14;
+jccolor.c:364:3: note: not vectorized: no grouped stores in basic block.
+jccolor.c:366:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:367:7: note: not consecutive access _21 = _19->error_exit;
+jccolor.c:367:7: note: not consecutive access _19->msg_code = 9;
+jccolor.c:367:7: note: not consecutive access _19 = cinfo_10(D)->err;
+jccolor.c:367:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:378:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:379:7: note: not consecutive access _26 = _24->error_exit;
+jccolor.c:379:7: note: not consecutive access _24->msg_code = 9;
+jccolor.c:379:7: note: not consecutive access _24 = cinfo_10(D)->err;
+jccolor.c:379:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:384:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:385:7: note: not consecutive access _31 = _29->error_exit;
+jccolor.c:385:7: note: not consecutive access _29->msg_code = 9;
+jccolor.c:385:7: note: not consecutive access _29 = cinfo_10(D)->err;
+jccolor.c:385:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:389:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:390:7: note: not consecutive access _36 = _34->error_exit;
+jccolor.c:390:7: note: not consecutive access _34->msg_code = 9;
+jccolor.c:390:7: note: not consecutive access _34 = cinfo_10(D)->err;
+jccolor.c:390:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:395:3: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:397:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:398:7: note: not consecutive access _42 = _40->error_exit;
+jccolor.c:398:7: note: not consecutive access _40->msg_code = 10;
+jccolor.c:398:7: note: not consecutive access _40 = cinfo_10(D)->err;
+jccolor.c:398:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:399:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:400:35: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:401:13: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:403:35: note: Build SLP failed: unrolling required in basic block SLP
+jccolor.c:403:35: note: not vectorized: vectorization is not profitable.
+jccolor.c:404:15: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:405:35: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:407:7: note: not consecutive access _49 = _47->error_exit;
+jccolor.c:407:7: note: not consecutive access _47->msg_code = 27;
+jccolor.c:407:7: note: not consecutive access _47 = cinfo_10(D)->err;
+jccolor.c:407:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:411:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:412:7: note: not consecutive access _56 = _54->error_exit;
+jccolor.c:412:7: note: not consecutive access _54->msg_code = 10;
+jccolor.c:412:7: note: not consecutive access _54 = cinfo_10(D)->err;
+jccolor.c:412:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:413:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:414:35: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:416:7: note: not consecutive access _61 = _59->error_exit;
+jccolor.c:416:7: note: not consecutive access _59->msg_code = 27;
+jccolor.c:416:7: note: not consecutive access _59 = cinfo_10(D)->err;
+jccolor.c:416:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:420:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:421:7: note: not consecutive access _67 = _65->error_exit;
+jccolor.c:421:7: note: not consecutive access _65->msg_code = 10;
+jccolor.c:421:7: note: not consecutive access _65 = cinfo_10(D)->err;
+jccolor.c:421:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:422:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:424:35: note: Build SLP failed: unrolling required in basic block SLP
+jccolor.c:424:35: note: not vectorized: vectorization is not profitable.
+jccolor.c:425:15: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:426:35: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:428:7: note: not consecutive access _73 = _71->error_exit;
+jccolor.c:428:7: note: not consecutive access _71->msg_code = 27;
+jccolor.c:428:7: note: not consecutive access _71 = cinfo_10(D)->err;
+jccolor.c:428:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:432:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:433:7: note: not consecutive access _80 = _78->error_exit;
+jccolor.c:433:7: note: not consecutive access _78->msg_code = 10;
+jccolor.c:433:7: note: not consecutive access _78 = cinfo_10(D)->err;
+jccolor.c:433:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:434:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:435:35: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:437:7: note: not consecutive access _85 = _83->error_exit;
+jccolor.c:437:7: note: not consecutive access _83->msg_code = 27;
+jccolor.c:437:7: note: not consecutive access _83 = cinfo_10(D)->err;
+jccolor.c:437:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:441:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:442:7: note: not consecutive access _91 = _89->error_exit;
+jccolor.c:442:7: note: not consecutive access _89->msg_code = 10;
+jccolor.c:442:7: note: not consecutive access _89 = cinfo_10(D)->err;
+jccolor.c:442:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:443:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:445:35: note: Build SLP failed: unrolling required in basic block SLP
+jccolor.c:445:35: note: not vectorized: vectorization is not profitable.
+jccolor.c:446:15: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:447:35: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:449:7: note: not consecutive access _97 = _95->error_exit;
+jccolor.c:449:7: note: not consecutive access _95->msg_code = 27;
+jccolor.c:449:7: note: not consecutive access _95 = cinfo_10(D)->err;
+jccolor.c:449:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:453:8: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:453:58: note: not vectorized: no grouped stores in basic block.
+jccolor.c:455:7: note: not consecutive access _106 = _104->error_exit;
+jccolor.c:455:7: note: not consecutive access _104->msg_code = 27;
+jccolor.c:455:7: note: not consecutive access _104 = cinfo_10(D)->err;
+jccolor.c:455:7: note: not vectorized: no grouped stores in basic block.
+jccolor.c:456:33: note: not vectorized: not enough data-refs in basic block.
+jccolor.c:459:1: note: not vectorized: not enough data-refs in basic block.

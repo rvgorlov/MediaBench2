@@ -1,0 +1,25 @@
+jcdctmgr.c:84:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i = 0; i < DCTSIZE2; i++) {
+      ^
+jcdctmgr.c:84:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:118:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (i = 0; i < DCTSIZE2; i++) {
+        ^
+jcdctmgr.c:118:2: remark: vectorized loop (vectorization width: 2, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:152:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        for (row = 0; row < DCTSIZE; row++) {
+        ^
+jcdctmgr.c:231:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i = 0; i < DCTSIZE2; i++) {
+      ^
+jcdctmgr.c:231:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:202:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+      for (elemr = 0; elemr < DCTSIZE; elemr++) {
+      ^
+jcdctmgr.c:322:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i = 0; i < DCTSIZE2; i++) {
+      ^
+jcdctmgr.c:322:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:292:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+      for (elemr = 0; elemr < DCTSIZE; elemr++) {
+      ^

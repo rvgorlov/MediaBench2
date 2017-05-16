@@ -1,0 +1,170 @@
+jdapistd.c:95:1: note: not vectorized: control flow in loop.
+jdapistd.c:95:1: note: bad loop form.
+jdapistd.c:107:42: note: not vectorized: control flow in loop.
+jdapistd.c:107:42: note: bad loop form.
+jdapistd.c:97:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:99:6: note: not consecutive access _11 = _10->prepare_for_output_pass;
+jdapistd.c:99:6: note: not consecutive access _10 = cinfo_8(D)->master;
+jdapistd.c:99:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:101:25: note: not consecutive access cinfo_8(D)->global_state = 204;
+jdapistd.c:101:25: note: not consecutive access cinfo_8(D)->output_scanline = 0;
+jdapistd.c:101:25: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:104:9: note: not consecutive access _49 = _44->is_dummy_pass;
+jdapistd.c:104:9: note: not consecutive access _44 = cinfo_8(D)->master;
+jdapistd.c:104:9: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:104:9: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:110:10: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:113:3: note: not consecutive access _33 = _26->progress_monitor;
+jdapistd.c:113:3: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:113:3: note: not consecutive access _33 = _26->progress_monitor;
+jdapistd.c:113:3: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:113:3: note: not vectorized: vectorization is not profitable.
+jdapistd.c:113:3: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:117:8: note: not consecutive access _37 = _36->process_data;
+jdapistd.c:117:8: note: not consecutive access _36 = cinfo_8(D)->main;
+jdapistd.c:117:8: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:119:10: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:107:11: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:123:6: note: not consecutive access _20 = _19->finish_output_pass;
+jdapistd.c:123:6: note: not consecutive access _19 = cinfo_8(D)->master;
+jdapistd.c:123:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:124:6: note: not consecutive access _23 = _22->prepare_for_output_pass;
+jdapistd.c:124:6: note: not consecutive access _22 = cinfo_8(D)->master;
+jdapistd.c:124:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:104:9: note: not consecutive access _16 = _15->is_dummy_pass;
+jdapistd.c:104:9: note: not consecutive access _15 = cinfo_8(D)->master;
+jdapistd.c:104:9: note: not consecutive access cinfo_8(D)->output_scanline = 0;
+jdapistd.c:104:9: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:133:61: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:133:23: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:133:23: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:57:5: note: not vectorized: control flow in loop.
+jdapistd.c:57:5: note: bad loop form.
+jdapistd.c:40:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:43:8: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:45:27: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:48:25: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:50:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:52:8: note: not consecutive access _17 = _16->has_multiple_scans;
+jdapistd.c:52:8: note: not consecutive access _16 = cinfo_9(D)->inputctl;
+jdapistd.c:52:8: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:52:8: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:57:5: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:58:5: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:60:10: note: not consecutive access _23 = _22->consume_input;
+jdapistd.c:60:10: note: not consecutive access _22 = cinfo_9(D)->inputctl;
+jdapistd.c:60:10: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:61:5: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:63:5: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:66:5: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:66:30: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:68:7: note: not consecutive access _26->pass_counter = _32;
+jdapistd.c:68:7: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:70:34: note: not consecutive access _26->pass_limit = _37;
+jdapistd.c:70:34: note: not consecutive access _35 = cinfo_9(D)->total_iMCU_rows;
+jdapistd.c:70:34: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:78:31: note: not consecutive access _39 = cinfo_9(D)->input_scan_number;
+jdapistd.c:78:31: note: not consecutive access cinfo_9(D)->output_scan_number = _39;
+jdapistd.c:78:31: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:79:13: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:80:5: note: not consecutive access _44 = _41->error_exit;
+jdapistd.c:80:5: note: not consecutive access _41 = cinfo_9(D)->err;
+jdapistd.c:80:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:80:5: note: not consecutive access _44 = _41->error_exit;
+jdapistd.c:80:5: note: not consecutive access _41 = cinfo_9(D)->err;
+jdapistd.c:80:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:82:10: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:157:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:158:5: note: not consecutive access _11 = _8->error_exit;
+jdapistd.c:158:5: note: not consecutive access _8 = cinfo_6(D)->err;
+jdapistd.c:158:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:158:5: note: not consecutive access _11 = _8->error_exit;
+jdapistd.c:158:5: note: not consecutive access _8 = cinfo_6(D)->err;
+jdapistd.c:158:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:159:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:160:5: note: not consecutive access _17 = _15->emit_message;
+jdapistd.c:160:5: note: not consecutive access _15->msg_code = 123;
+jdapistd.c:160:5: note: not consecutive access _15 = cinfo_6(D)->err;
+jdapistd.c:160:5: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:165:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:168:6: note: not consecutive access _24 = _19->progress_monitor;
+jdapistd.c:168:6: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:168:6: note: not consecutive access _24 = _19->progress_monitor;
+jdapistd.c:168:6: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:168:6: note: not vectorized: vectorization is not profitable.
+jdapistd.c:173:4: note: not consecutive access row_ctr = 0;
+jdapistd.c:173:4: note: not consecutive access _28 = _27->process_data;
+jdapistd.c:173:4: note: not consecutive access _27 = cinfo_6(D)->main;
+jdapistd.c:173:4: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:174:26: note: not consecutive access row_ctr.1_33 = row_ctr;
+jdapistd.c:174:26: note: not consecutive access _32 = cinfo_6(D)->output_scanline;
+jdapistd.c:174:26: note: not consecutive access cinfo_6(D)->output_scanline = _34;
+jdapistd.c:174:26: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:152:1: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:190:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:191:5: note: not consecutive access _12 = _9->error_exit;
+jdapistd.c:191:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jdapistd.c:191:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:191:5: note: not consecutive access _12 = _9->error_exit;
+jdapistd.c:191:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jdapistd.c:191:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:192:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:193:5: note: not consecutive access _18 = _16->emit_message;
+jdapistd.c:193:5: note: not consecutive access _16->msg_code = 123;
+jdapistd.c:193:5: note: not consecutive access _16 = cinfo_7(D)->err;
+jdapistd.c:193:5: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:198:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:201:6: note: not consecutive access _25 = _20->progress_monitor;
+jdapistd.c:201:6: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:201:6: note: not consecutive access _25 = _20->progress_monitor;
+jdapistd.c:201:6: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:201:6: note: not vectorized: vectorization is not profitable.
+jdapistd.c:206:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:207:5: note: not consecutive access _34 = _32->error_exit;
+jdapistd.c:207:5: note: not consecutive access _32->msg_code = 23;
+jdapistd.c:207:5: note: not consecutive access _32 = cinfo_7(D)->err;
+jdapistd.c:207:5: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:210:10: note: not consecutive access _37 = _36->decompress_data;
+jdapistd.c:210:10: note: not consecutive access _36 = cinfo_7(D)->coef;
+jdapistd.c:210:10: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:214:26: note: not consecutive access _41 = cinfo_7(D)->output_scanline;
+jdapistd.c:214:26: note: not consecutive access cinfo_7(D)->output_scanline = _42;
+jdapistd.c:214:26: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:214:26: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:230:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:232:5: note: not consecutive access _13 = _10->error_exit;
+jdapistd.c:232:5: note: not consecutive access _10 = cinfo_5(D)->err;
+jdapistd.c:232:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:232:5: note: not consecutive access _13 = _10->error_exit;
+jdapistd.c:232:5: note: not consecutive access _10 = cinfo_5(D)->err;
+jdapistd.c:232:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:236:6: note: not consecutive access _17 = _16->eoi_reached;
+jdapistd.c:236:6: note: not consecutive access _16 = cinfo_5(D)->inputctl;
+jdapistd.c:236:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:237:26: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:241:10: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:241:10: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:266:15: note: not vectorized: control flow in loop.
+jdapistd.c:266:15: note: bad loop form.
+jdapistd.c:255:6: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:256:46: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:259:6: note: not consecutive access _11 = _10->finish_output_pass;
+jdapistd.c:259:6: note: not consecutive access _10 = cinfo_5(D)->master;
+jdapistd.c:259:6: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:260:25: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:261:13: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:263:5: note: not consecutive access _18 = _15->error_exit;
+jdapistd.c:263:5: note: not consecutive access _15 = cinfo_5(D)->err;
+jdapistd.c:263:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:263:5: note: not consecutive access _18 = _15->error_exit;
+jdapistd.c:263:5: note: not consecutive access _15 = cinfo_5(D)->err;
+jdapistd.c:263:5: note: Build SLP failed: unrolling required in basic block SLP
+jdapistd.c:268:10: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:268:8: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:266:9: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:266:64: note: not consecutive access _23 = _22->eoi_reached;
+jdapistd.c:266:64: note: not consecutive access _22 = cinfo_5(D)->inputctl;
+jdapistd.c:266:64: note: not vectorized: no grouped stores in basic block.
+jdapistd.c:271:23: note: not vectorized: not enough data-refs in basic block.
+jdapistd.c:271:23: note: not vectorized: not enough data-refs in basic block.

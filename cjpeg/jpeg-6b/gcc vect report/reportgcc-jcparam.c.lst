@@ -1,0 +1,920 @@
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: conversion not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: _34 = (long int) _33;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: op not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: temp_39 = _38 / 100;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:37:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:38:5: note: not consecutive access _16 = _12->error_exit;
+jcparam.c:38:5: note: not consecutive access _12 = cinfo_10(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _16 = _12->error_exit;
+jcparam.c:38:5: note: not consecutive access _12 = cinfo_10(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:40:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:41:5: note: not consecutive access _23 = _20->error_exit;
+jcparam.c:41:5: note: not consecutive access _20 = cinfo_10(D)->err;
+jcparam.c:41:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:41:5: note: not consecutive access _23 = _20->error_exit;
+jcparam.c:41:5: note: not consecutive access _20 = cinfo_10(D)->err;
+jcparam.c:41:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:60:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_18
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: conversion not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: _20 = (long int) _19;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_18
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: op not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: temp_24 = _23 / 100;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_47
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: conversion not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: _49 = (long int) _48;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_47
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: op not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: temp_53 = _52 / 100;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:37:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:38:5: note: not consecutive access _38 = _37->error_exit;
+jcparam.c:38:5: note: not consecutive access _37 = cinfo_2(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _38 = _37->error_exit;
+jcparam.c:38:5: note: not consecutive access _37 = cinfo_2(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:37:6: note: not consecutive access prephitmp_35->sent_table = 0;
+jcparam.c:37:6: note: not consecutive access _7 = cinfo_2(D)->global_state;
+jcparam.c:37:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:38:5: note: not consecutive access _9 = _8->error_exit;
+jcparam.c:38:5: note: not consecutive access _8 = cinfo_2(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _9 = _8->error_exit;
+jcparam.c:38:5: note: not consecutive access _8 = cinfo_2(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:102:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:113:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:114:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:127:10: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: control flow in loop.
+jcparam.c:48:3: note: bad loop form.
+jcparam.c:48:3: note: not vectorized: control flow in loop.
+jcparam.c:48:3: note: bad loop form.
+jcparam.c:113:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:114:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:122:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:37:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:38:5: note: not consecutive access _43 = _42->error_exit;
+jcparam.c:38:5: note: not consecutive access _42 = cinfo_4(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _43 = _42->error_exit;
+jcparam.c:38:5: note: not consecutive access _42 = cinfo_4(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:51:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:53:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:53:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:37:6: note: not consecutive access prephitmp_83->sent_table = 0;
+jcparam.c:37:6: note: not consecutive access _12 = cinfo_4(D)->global_state;
+jcparam.c:37:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:38:5: note: not consecutive access _14 = _13->error_exit;
+jcparam.c:38:5: note: not consecutive access _13 = cinfo_4(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _14 = _13->error_exit;
+jcparam.c:38:5: note: not consecutive access _13 = cinfo_4(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:51:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:53:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:53:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:144:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not consecutive access compptr_144->component_id = ci_103;
+jcparam.c:462:5: note: interleaved store with gaps
+jcparam.c:462:5: note: not vectorized: complicated access pattern.
+jcparam.c:462:5: note: bad data access.
+jcparam.c:361:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _14 = _13->error_exit;
+jcparam.c:407:5: note: not consecutive access _13 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _14 = _13->error_exit;
+jcparam.c:407:5: note: not consecutive access _13 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:423:5: note: not consecutive access compptr_15->component_id = 1;
+jcparam.c:423:5: note: not consecutive access compptr_15 = cinfo_2(D)->comp_info;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->num_components = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:423:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:423:5: note: not consecutive access compptr_15->component_id = 1;
+jcparam.c:423:5: note: not consecutive access compptr_15 = cinfo_2(D)->comp_info;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->num_components = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:423:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _37 = _36->error_exit;
+jcparam.c:407:5: note: not consecutive access _36 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _37 = _36->error_exit;
+jcparam.c:407:5: note: not consecutive access _36 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_40->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_40 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_40 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_40 = cinfo_2(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_40->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_40 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_40 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_40 = cinfo_2(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _60 = _59->error_exit;
+jcparam.c:407:5: note: not consecutive access _59 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _60 = _59->error_exit;
+jcparam.c:407:5: note: not consecutive access _59 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_63->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_63 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_63 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_63 = cinfo_2(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_63->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_63 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_63 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_63 = cinfo_2(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _83 = _82->error_exit;
+jcparam.c:407:5: note: not consecutive access _82 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _83 = _82->error_exit;
+jcparam.c:407:5: note: not consecutive access _82 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: not consecutive access compptr_87->component_id = 67;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_87 + 96B].component_id = 77;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_87 + 192B].component_id = 89;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_87 + 288B].component_id = 75;
+jcparam.c:447:5: note: not consecutive access compptr_87 = cinfo_2(D)->comp_info;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->num_components = 4;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 4;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 0;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 1;
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: not consecutive access compptr_87->component_id = 67;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_87 + 96B].component_id = 77;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_87 + 192B].component_id = 89;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_87 + 288B].component_id = 75;
+jcparam.c:447:5: note: not consecutive access compptr_87 = cinfo_2(D)->comp_info;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->num_components = 4;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 4;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 0;
+jcparam.c:447:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 1;
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _106 = _105->error_exit;
+jcparam.c:407:5: note: not consecutive access _105 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _106 = _105->error_exit;
+jcparam.c:407:5: note: not consecutive access _105 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: not consecutive access compptr_111->component_id = 1;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_111 + 96B].component_id = 2;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_111 + 192B].component_id = 3;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_111 + 288B].component_id = 4;
+jcparam.c:455:5: note: not consecutive access compptr_111 = cinfo_2(D)->comp_info;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->num_components = 4;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 5;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 0;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 1;
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: not consecutive access compptr_111->component_id = 1;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_111 + 96B].component_id = 2;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_111 + 192B].component_id = 3;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_111 + 288B].component_id = 4;
+jcparam.c:455:5: note: not consecutive access compptr_111 = cinfo_2(D)->comp_info;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->num_components = 4;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->jpeg_color_space = 5;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->write_JFIF_header = 0;
+jcparam.c:455:5: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 1;
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _129 = _128->error_exit;
+jcparam.c:407:5: note: not consecutive access _128 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _129 = _128->error_exit;
+jcparam.c:407:5: note: not consecutive access _128 = cinfo_2(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:459:8: note: not consecutive access _135 = cinfo_2(D)->input_components;
+jcparam.c:459:8: note: not consecutive access cinfo_2(D)->num_components = _135;
+jcparam.c:459:8: note: not consecutive access cinfo_2(D)->jpeg_color_space = 0;
+jcparam.c:459:8: note: not consecutive access cinfo_2(D)->write_JFIF_header = 0;
+jcparam.c:459:8: note: not consecutive access cinfo_2(D)->write_Adobe_marker = 0;
+jcparam.c:459:8: note: not vectorized: no grouped stores in basic block.
+jcparam.c:460:7: note: not consecutive access _139 = _138->error_exit;
+jcparam.c:460:7: note: not consecutive access _138 = cinfo_2(D)->err;
+jcparam.c:460:7: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:460:7: note: not consecutive access _139 = _138->error_exit;
+jcparam.c:460:7: note: not consecutive access _138 = cinfo_2(D)->err;
+jcparam.c:460:7: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:460:7: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not consecutive access compptr_144->component_id = ci_103;
+jcparam.c:462:5: note: interleaved store with gaps
+jcparam.c:462:5: note: not vectorized: complicated access pattern.
+jcparam.c:462:5: note: not consecutive access compptr_144->v_samp_factor = 1;
+jcparam.c:462:5: note: not consecutive access compptr_144->quant_tbl_no = 0;
+jcparam.c:462:5: note: not consecutive access compptr_144->dc_tbl_no = 0;
+jcparam.c:462:5: note: not consecutive access compptr_144->ac_tbl_no = 0;
+jcparam.c:462:5: note: not vectorized: no grouped stores in basic block.
+jcparam.c:381:5: note: not consecutive access _151 = _150->error_exit;
+jcparam.c:381:5: note: not consecutive access _150->msg_code = 9;
+jcparam.c:381:5: note: not consecutive access _150 = cinfo_2(D)->err;
+jcparam.c:381:5: note: not vectorized: no grouped stores in basic block.
+jcparam.c:383:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not consecutive access compptr_138->component_id = ci_168;
+jcparam.c:462:5: note: interleaved store with gaps
+jcparam.c:462:5: note: not vectorized: complicated access pattern.
+jcparam.c:462:5: note: bad data access.
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _13 = _9->error_exit;
+jcparam.c:407:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _13 = _9->error_exit;
+jcparam.c:407:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:418:3: note: not consecutive access cinfo_7(D)->jpeg_color_space = colorspace_15(D);
+jcparam.c:418:3: note: not consecutive access cinfo_7(D)->write_JFIF_header = 0;
+jcparam.c:418:3: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:418:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:423:5: note: not consecutive access compptr_21->component_id = 1;
+jcparam.c:423:5: note: not consecutive access compptr_21 = cinfo_7(D)->comp_info;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->num_components = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:423:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:423:5: note: not consecutive access compptr_21->component_id = 1;
+jcparam.c:423:5: note: not consecutive access compptr_21 = cinfo_7(D)->comp_info;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->num_components = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:423:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:430:5: note: not consecutive access compptr_30->component_id = 82;
+jcparam.c:430:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_30 + 96B].component_id = 71;
+jcparam.c:430:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_30 + 192B].component_id = 66;
+jcparam.c:430:5: note: not consecutive access compptr_30 = cinfo_7(D)->comp_info;
+jcparam.c:430:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:430:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 1;
+jcparam.c:430:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:430:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:430:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:430:5: note: not consecutive access compptr_30->component_id = 82;
+jcparam.c:430:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_30 + 96B].component_id = 71;
+jcparam.c:430:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_30 + 192B].component_id = 66;
+jcparam.c:430:5: note: not consecutive access compptr_30 = cinfo_7(D)->comp_info;
+jcparam.c:430:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:430:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 1;
+jcparam.c:430:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:430:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:430:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_51->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_51 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_51 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_51 = cinfo_7(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_51->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_51 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_51 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_51 = cinfo_7(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: not consecutive access compptr_72->component_id = 67;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_72 + 96B].component_id = 77;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_72 + 192B].component_id = 89;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_72 + 288B].component_id = 75;
+jcparam.c:447:5: note: not consecutive access compptr_72 = cinfo_7(D)->comp_info;
+jcparam.c:447:5: note: not consecutive access cinfo_7(D)->num_components = 4;
+jcparam.c:447:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 1;
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: not consecutive access compptr_72->component_id = 67;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_72 + 96B].component_id = 77;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_72 + 192B].component_id = 89;
+jcparam.c:447:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_72 + 288B].component_id = 75;
+jcparam.c:447:5: note: not consecutive access compptr_72 = cinfo_7(D)->comp_info;
+jcparam.c:447:5: note: not consecutive access cinfo_7(D)->num_components = 4;
+jcparam.c:447:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 1;
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:447:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: not consecutive access compptr_99->component_id = 1;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_99 + 96B].component_id = 2;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_99 + 192B].component_id = 3;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_99 + 288B].component_id = 4;
+jcparam.c:455:5: note: not consecutive access compptr_99 = cinfo_7(D)->comp_info;
+jcparam.c:455:5: note: not consecutive access cinfo_7(D)->num_components = 4;
+jcparam.c:455:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 1;
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: not consecutive access compptr_99->component_id = 1;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_99 + 96B].component_id = 2;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_99 + 192B].component_id = 3;
+jcparam.c:455:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_99 + 288B].component_id = 4;
+jcparam.c:455:5: note: not consecutive access compptr_99 = cinfo_7(D)->comp_info;
+jcparam.c:455:5: note: not consecutive access cinfo_7(D)->num_components = 4;
+jcparam.c:455:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 1;
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:455:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:459:8: note: not consecutive access _124 = cinfo_7(D)->input_components;
+jcparam.c:459:8: note: not consecutive access cinfo_7(D)->num_components = _124;
+jcparam.c:459:8: note: not vectorized: no grouped stores in basic block.
+jcparam.c:460:7: note: not consecutive access _132 = _128->error_exit;
+jcparam.c:460:7: note: not consecutive access _128 = cinfo_7(D)->err;
+jcparam.c:460:7: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:460:7: note: not consecutive access _132 = _128->error_exit;
+jcparam.c:460:7: note: not consecutive access _128 = cinfo_7(D)->err;
+jcparam.c:460:7: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:460:7: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:462:5: note: not consecutive access compptr_138->component_id = ci_168;
+jcparam.c:462:5: note: interleaved store with gaps
+jcparam.c:462:5: note: not vectorized: complicated access pattern.
+jcparam.c:462:5: note: not consecutive access compptr_138->v_samp_factor = 1;
+jcparam.c:462:5: note: not consecutive access compptr_138->quant_tbl_no = 0;
+jcparam.c:462:5: note: not consecutive access compptr_138->dc_tbl_no = 0;
+jcparam.c:462:5: note: not consecutive access compptr_138->ac_tbl_no = 0;
+jcparam.c:462:5: note: not vectorized: no grouped stores in basic block.
+jcparam.c:467:5: note: not consecutive access _148 = _146->error_exit;
+jcparam.c:467:5: note: not consecutive access _146->msg_code = 10;
+jcparam.c:467:5: note: not consecutive access _146 = cinfo_7(D)->err;
+jcparam.c:467:5: note: not vectorized: no grouped stores in basic block.
+jcparam.c:469:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: misalign = 1 bytes of ref *_114
+jcparam.c:169:3: note: reduc phi. skip.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: loop vectorized
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: misalign = 1 bytes of ref *_136
+jcparam.c:169:3: note: reduc phi. skip.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: loop vectorized
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: misalign = 1 bytes of ref *_158
+jcparam.c:169:3: note: reduc phi. skip.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: loop vectorized
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:169:3: note: step unknown.
+jcparam.c:169:3: note: misalign = 1 bytes of ref *_180
+jcparam.c:169:3: note: reduc phi. skip.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: not ssa-name.
+jcparam.c:169:3: note: use not simple.
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:169:3: note: loop vectorized
+jcparam.c:169:3: note: reduc op not supported by target.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_60
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: conversion not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: _62 = (long int) _61;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_60
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: op not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: temp_66 = _65 / 100;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_89
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: conversion not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: _91 = (long int) _90;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:48:3: note: misalign = 0 bytes of ref *_89
+jcparam.c:48:3: note: Unknown misalignment, is_packed = 0
+jcparam.c:48:3: note: virtual phi. skip.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: not ssa-name.
+jcparam.c:48:3: note: use not simple.
+jcparam.c:48:3: note: op not supported by target.
+jcparam.c:48:3: note: not vectorized: relevant stmt not supported: temp_95 = _94 / 100;
+jcparam.c:48:3: note: bad operation or unsupported loop bound.
+jcparam.c:273:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:274:5: note: not consecutive access _12 = _9->error_exit;
+jcparam.c:274:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jcparam.c:274:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:274:5: note: not consecutive access _12 = _9->error_exit;
+jcparam.c:274:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jcparam.c:274:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:280:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:282:8: note: not consecutive access _16 = _15->alloc_small;
+jcparam.c:282:8: note: not consecutive access _15 = cinfo_7(D)->mem;
+jcparam.c:282:8: note: not vectorized: no grouped stores in basic block.
+jcparam.c:281:22: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:37:6: note: not consecutive access _78 = cinfo_7(D)->global_state;
+jcparam.c:37:6: note: not consecutive access cinfo_7(D)->data_precision = 8;
+jcparam.c:37:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:38:5: note: not consecutive access _80 = _79->error_exit;
+jcparam.c:38:5: note: not consecutive access _79 = cinfo_7(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _80 = _79->error_exit;
+jcparam.c:38:5: note: not consecutive access _79 = cinfo_7(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:37:6: note: not consecutive access prephitmp_204->sent_table = 0;
+jcparam.c:37:6: note: not consecutive access _49 = cinfo_7(D)->global_state;
+jcparam.c:37:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:38:5: note: not consecutive access _51 = _50->error_exit;
+jcparam.c:38:5: note: not consecutive access _50 = cinfo_7(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:38:5: note: not consecutive access _51 = _50->error_exit;
+jcparam.c:38:5: note: not consecutive access _50 = cinfo_7(D)->err;
+jcparam.c:38:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:46:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:48:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:158:6: note: not consecutive access prephitmp_235->sent_table = 0;
+jcparam.c:158:6: note: not consecutive access _173 = MEM[(struct JHUFF_TBL * *)cinfo_7(D) + 128B];
+jcparam.c:158:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:159:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:171:6: note: not vectorized: no vectype for stmt: MEM[(char * {ref-all})prephitmp_214] = MEM[(char * {ref-all})&bits_dc_luminance];
+ scalar_type: const UINT8[17]
+jcparam.c:171:6: note: not vectorized: more than one data ref in stmt: MEM[(char * {ref-all})prephitmp_214] = MEM[(char * {ref-all})&bits_dc_luminance];
+
+jcparam.c:171:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:172:5: note: not consecutive access _189 = _188->error_exit;
+jcparam.c:172:5: note: not consecutive access _188->msg_code = 8;
+jcparam.c:172:5: note: not consecutive access _188 = cinfo_7(D)->err;
+jcparam.c:172:5: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:158:6: note: not consecutive access _194->sent_table = 0;
+jcparam.c:158:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:159:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:171:6: note: not vectorized: no vectype for stmt: MEM[(char * {ref-all})prephitmp_249] = MEM[(char * {ref-all})&bits_ac_luminance];
+ scalar_type: const UINT8[17]
+jcparam.c:171:6: note: not vectorized: more than one data ref in stmt: MEM[(char * {ref-all})prephitmp_249] = MEM[(char * {ref-all})&bits_ac_luminance];
+
+jcparam.c:171:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:172:5: note: not consecutive access _167 = _166->error_exit;
+jcparam.c:172:5: note: not consecutive access _166->msg_code = 8;
+jcparam.c:172:5: note: not consecutive access _166 = cinfo_7(D)->err;
+jcparam.c:172:5: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:158:6: note: not consecutive access _172->sent_table = 0;
+jcparam.c:158:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:159:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:171:6: note: not vectorized: no vectype for stmt: MEM[(char * {ref-all})prephitmp_256] = MEM[(char * {ref-all})&bits_dc_chrominance];
+ scalar_type: const UINT8[17]
+jcparam.c:171:6: note: not vectorized: more than one data ref in stmt: MEM[(char * {ref-all})prephitmp_256] = MEM[(char * {ref-all})&bits_dc_chrominance];
+
+jcparam.c:171:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:172:5: note: not consecutive access _145 = _144->error_exit;
+jcparam.c:172:5: note: not consecutive access _144->msg_code = 8;
+jcparam.c:172:5: note: not consecutive access _144 = cinfo_7(D)->err;
+jcparam.c:172:5: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:158:6: note: not consecutive access _150->sent_table = 0;
+jcparam.c:158:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:159:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:171:6: note: not vectorized: no vectype for stmt: MEM[(char * {ref-all})prephitmp_227] = MEM[(char * {ref-all})&bits_ac_chrominance];
+ scalar_type: const UINT8[17]
+jcparam.c:171:6: note: not vectorized: more than one data ref in stmt: MEM[(char * {ref-all})prephitmp_227] = MEM[(char * {ref-all})&bits_ac_chrominance];
+
+jcparam.c:171:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:172:5: note: not consecutive access _123 = _122->error_exit;
+jcparam.c:172:5: note: not consecutive access _122->msg_code = 8;
+jcparam.c:172:5: note: not consecutive access _122 = cinfo_7(D)->err;
+jcparam.c:172:5: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:295:26: note: not consecutive access _128->sent_table = 0;
+jcparam.c:295:26: note: not consecutive access _128 = MEM[(struct JHUFF_TBL * *)cinfo_7(D) + 168B];
+jcparam.c:295:26: note: not vectorized: no grouped stores in basic block.
+jcparam.c:296:26: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:297:26: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:317:6: note: not consecutive access _31 = cinfo_7(D)->data_precision;
+jcparam.c:317:6: note: not consecutive access cinfo_7(D)->scan_info = 0B;
+jcparam.c:317:6: note: not consecutive access cinfo_7(D)->num_scans = 0;
+jcparam.c:317:6: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:317:6: note: not consecutive access _31 = cinfo_7(D)->data_precision;
+jcparam.c:317:6: note: not consecutive access cinfo_7(D)->scan_info = 0B;
+jcparam.c:317:6: note: not consecutive access cinfo_7(D)->num_scans = 0;
+jcparam.c:317:6: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:318:28: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:361:3: note: not consecutive access _195 = cinfo_7(D)->in_color_space;
+jcparam.c:361:3: note: not consecutive access cinfo_7(D)->restart_in_rows = 0;
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: not consecutive access _195 = cinfo_7(D)->in_color_space;
+jcparam.c:361:3: note: not consecutive access cinfo_7(D)->restart_in_rows = 0;
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:361:3: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _198 = _197->error_exit;
+jcparam.c:407:5: note: not consecutive access _197 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _198 = _197->error_exit;
+jcparam.c:407:5: note: not consecutive access _197 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:423:5: note: not consecutive access compptr_199->component_id = 1;
+jcparam.c:423:5: note: not consecutive access compptr_199 = cinfo_7(D)->comp_info;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->num_components = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->jpeg_color_space = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:423:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:423:5: note: not consecutive access compptr_199->component_id = 1;
+jcparam.c:423:5: note: not consecutive access compptr_199 = cinfo_7(D)->comp_info;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->num_components = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->jpeg_color_space = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:423:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:423:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _221 = _220->error_exit;
+jcparam.c:407:5: note: not consecutive access _220 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _221 = _220->error_exit;
+jcparam.c:407:5: note: not consecutive access _220 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_224->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_224 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_224 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_224 = cinfo_7(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_224->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_224 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_224 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_224 = cinfo_7(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:407:5: note: not consecutive access _244 = _243->error_exit;
+jcparam.c:407:5: note: not consecutive access _243 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:407:5: note: not consecutive access _244 = _243->error_exit;
+jcparam.c:407:5: note: not consecutive access _243 = cinfo_7(D)->err;
+jcparam.c:407:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_247->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_247 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_247 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_247 = cinfo_7(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: not consecutive access compptr_247->component_id = 1;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_247 + 96B].component_id = 2;
+jcparam.c:439:5: note: not consecutive access MEM[(struct jpeg_component_info *)compptr_247 + 192B].component_id = 3;
+jcparam.c:439:5: note: not consecutive access compptr_247 = cinfo_7(D)->comp_info;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->num_components = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->jpeg_color_space = 3;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_JFIF_header = 1;
+jcparam.c:439:5: note: not consecutive access cinfo_7(D)->write_Adobe_marker = 0;
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:439:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:372:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:375:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:378:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:381:5: note: not consecutive access _266 = _265->error_exit;
+jcparam.c:381:5: note: not consecutive access _265->msg_code = 9;
+jcparam.c:381:5: note: not consecutive access _265 = cinfo_7(D)->err;
+jcparam.c:381:5: note: not vectorized: no grouped stores in basic block.
+jcparam.c:351:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:517:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:517:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:517:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: bad data access.
+jcparam.c:517:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:517:5: note: Unknown misalignment, is_packed = 0
+jcparam.c:517:5: note: virtual phi. skip.
+jcparam.c:517:5: note: not vectorized: estimated iteration count too small.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: bad data access.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: bad data access.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: bad data access.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: bad data access.
+jcparam.c:517:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcparam.c:517:5: note: Unknown misalignment, is_packed = 0
+jcparam.c:517:5: note: virtual phi. skip.
+jcparam.c:517:5: note: not vectorized: estimated iteration count too small.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: bad data access.
+jcparam.c:544:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:545:5: note: not consecutive access _14 = _9->error_exit;
+jcparam.c:545:5: note: not consecutive access _9 = cinfo_6(D)->err;
+jcparam.c:545:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:545:5: note: not consecutive access _14 = _9->error_exit;
+jcparam.c:545:5: note: not consecutive access _9 = cinfo_6(D)->err;
+jcparam.c:545:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:548:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:548:19: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:553:8: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:554:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:556:14: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:566:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:566:35: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:569:8: note: not consecutive access _25 = _24->alloc_small;
+jcparam.c:569:8: note: not consecutive access _24 = cinfo_6(D)->mem;
+jcparam.c:569:8: note: not consecutive access cinfo_6(D)->script_space_size = _22;
+jcparam.c:569:8: note: not vectorized: no grouped stores in basic block.
+jcparam.c:568:25: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:576:6: note: not consecutive access cinfo_6(D)->scan_info = prephitmp_297;
+jcparam.c:576:6: note: not consecutive access cinfo_6(D)->num_scans = nscans_1;
+jcparam.c:576:6: note: not vectorized: no grouped stores in basic block.
+jcparam.c:576:19: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: different operation in stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 216B].component_index[ci_11] = ci_11;
+jcparam.c:484:15: note: original stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 180B].Ss = 1;
+jcparam.c:484:15: note: Build SLP failed: different operation in stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 216B].component_index[ci_176] = ci_176;
+jcparam.c:484:15: note: original stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 180B].Ss = 1;
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: different operation in stmt prephitmp_297->component_index[ci_65] = ci_65;
+jcparam.c:484:15: note: original stmt prephitmp_297->comps_in_scan = 3;
+jcparam.c:484:15: note: Build SLP failed: different operation in stmt prephitmp_297->component_index[ci_148] = ci_148;
+jcparam.c:484:15: note: original stmt prephitmp_297->comps_in_scan = 3;
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: different operation in stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 216B].component_index[ci_11] = ci_11;
+jcparam.c:484:15: note: original stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 180B].Ss = 1;
+jcparam.c:484:15: note: Build SLP failed: different operation in stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 216B].component_index[ci_176] = ci_176;
+jcparam.c:484:15: note: original stmt MEM[(struct jpeg_scan_info *)prephitmp_297 + 180B].Ss = 1;
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:484:15: note: basic block vectorized
+jcparam.c:514:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:522:12: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:522:12: note: basic block vectorized
+jcparam.c:517:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:33: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:33: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:496:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_308->component_index[0] = ci_309;
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_308->Se = 0;
+jcparam.c:496:3: note: not consecutive access scanptr_308->Ah = 0;
+jcparam.c:496:3: note: not consecutive access scanptr_308->Al = 1;
+jcparam.c:496:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_143->component_index[0] = ci_188;
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_143->Se = 5;
+jcparam.c:496:3: note: not consecutive access scanptr_143->Ah = 0;
+jcparam.c:496:3: note: not consecutive access scanptr_143->Al = 2;
+jcparam.c:496:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:496:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_45->component_index[0] = ci_191;
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_45->Se = 63;
+jcparam.c:496:3: note: not consecutive access scanptr_45->Ah = 0;
+jcparam.c:496:3: note: not consecutive access scanptr_45->Al = 2;
+jcparam.c:496:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:496:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_26->component_index[0] = ci_186;
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_26->Se = 63;
+jcparam.c:496:3: note: not consecutive access scanptr_26->Ah = 2;
+jcparam.c:496:3: note: not consecutive access scanptr_26->Al = 1;
+jcparam.c:496:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:517:33: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:522:12: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:522:12: note: basic block vectorized
+jcparam.c:496:3: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_310->component_index[0] = ci_311;
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_310->Se = 0;
+jcparam.c:496:3: note: not consecutive access scanptr_310->Ah = 1;
+jcparam.c:496:3: note: not consecutive access scanptr_310->Al = 0;
+jcparam.c:496:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_225->component_index[0] = ci_44;
+jcparam.c:496:3: note: interleaved store with gaps
+jcparam.c:496:3: note: not vectorized: complicated access pattern.
+jcparam.c:496:3: note: not consecutive access scanptr_225->Se = 63;
+jcparam.c:496:3: note: not consecutive access scanptr_225->Ah = 1;
+jcparam.c:496:3: note: not consecutive access scanptr_225->Al = 0;
+jcparam.c:496:3: note: not vectorized: no grouped stores in basic block.
+jcparam.c:608:1: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:516:28: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:517:5: note: Build SLP failed: unrolling required in basic block SLP
+jcparam.c:517:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:517:5: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:514:6: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:516:28: note: not vectorized: not enough data-refs in basic block.
+jcparam.c:514:6: note: not vectorized: not enough data-refs in basic block.

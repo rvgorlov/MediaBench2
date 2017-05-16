@@ -1,0 +1,402 @@
+jdmaster.c:442:6: note: not consecutive access _12 = master_11->pub.is_dummy_pass;
+jdmaster.c:442:6: note: not consecutive access master_11 = cinfo_10(D)->master;
+jdmaster.c:442:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:446:6: note: not consecutive access _15 = _14->start_pass;
+jdmaster.c:446:6: note: not consecutive access master_11->pub.is_dummy_pass = 0;
+jdmaster.c:446:6: note: not consecutive access _14 = cinfo_10(D)->cquantize;
+jdmaster.c:446:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:447:6: note: not consecutive access _18 = _17->start_pass;
+jdmaster.c:447:6: note: not consecutive access _17 = cinfo_10(D)->post;
+jdmaster.c:447:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:448:6: note: not consecutive access _21 = _20->start_pass;
+jdmaster.c:448:6: note: not consecutive access _20 = cinfo_10(D)->main;
+jdmaster.c:448:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:453:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:453:32: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:455:10: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:455:36: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:457:28: note: not consecutive access _27 = master_11->quantizer_2pass;
+jdmaster.c:457:28: note: not consecutive access master_11->pub.is_dummy_pass = 1;
+jdmaster.c:457:28: note: not consecutive access cinfo_10(D)->cquantize = _27;
+jdmaster.c:457:28: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:458:17: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:459:19: note: not consecutive access _31 = master_11->quantizer_1pass;
+jdmaster.c:459:19: note: not consecutive access cinfo_10(D)->cquantize = _31;
+jdmaster.c:459:19: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:461:2: note: not consecutive access _35 = _33->error_exit;
+jdmaster.c:461:2: note: not consecutive access _33->msg_code = 46;
+jdmaster.c:461:2: note: not consecutive access _33 = cinfo_10(D)->err;
+jdmaster.c:461:2: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:464:6: note: not consecutive access _38 = _37->start_pass;
+jdmaster.c:464:6: note: not consecutive access _37 = cinfo_10(D)->idct;
+jdmaster.c:464:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:465:6: note: not consecutive access _41 = _40->start_output_pass;
+jdmaster.c:465:6: note: not consecutive access _40 = cinfo_10(D)->coef;
+jdmaster.c:465:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:466:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:467:10: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:468:3: note: not consecutive access _46 = _45->start_pass;
+jdmaster.c:468:3: note: not consecutive access _45 = cinfo_10(D)->cconvert;
+jdmaster.c:468:3: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:469:8: note: not consecutive access _49 = _48->start_pass;
+jdmaster.c:469:8: note: not consecutive access _48 = cinfo_10(D)->upsample;
+jdmaster.c:469:8: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:470:10: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:471:3: note: not consecutive access _53 = _52->start_pass;
+jdmaster.c:471:3: note: not consecutive access _54 = master_11->pub.is_dummy_pass;
+jdmaster.c:471:3: note: not consecutive access _52 = cinfo_10(D)->cquantize;
+jdmaster.c:471:3: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:472:8: note: not consecutive access _57 = _56->start_pass;
+jdmaster.c:472:8: note: not consecutive access _58 = master_11->pub.is_dummy_pass;
+jdmaster.c:472:8: note: not consecutive access _56 = cinfo_10(D)->post;
+jdmaster.c:472:8: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:474:8: note: not consecutive access _61 = _60->start_pass;
+jdmaster.c:474:8: note: not consecutive access _60 = cinfo_10(D)->main;
+jdmaster.c:474:8: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:479:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:482:40: note: not consecutive access _63->completed_passes = _64;
+jdmaster.c:482:40: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:486:8: note: not consecutive access _63->total_passes = _67;
+jdmaster.c:486:8: note: not consecutive access _69 = cinfo_10(D)->buffered_image;
+jdmaster.c:486:8: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:486:31: note: not consecutive access _71 = _70->eoi_reached;
+jdmaster.c:486:31: note: not consecutive access _70 = cinfo_10(D)->inputctl;
+jdmaster.c:486:31: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:487:71: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:487:37: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:490:1: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:502:6: note: not consecutive access master_4 = cinfo_3(D)->master;
+jdmaster.c:502:6: note: not consecutive access _5 = cinfo_3(D)->quantize_colors;
+jdmaster.c:502:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:503:6: note: not consecutive access _7 = _6->finish_pass;
+jdmaster.c:503:6: note: not consecutive access _6 = cinfo_3(D)->cquantize;
+jdmaster.c:503:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:505:1: note: not consecutive access _9 = master_4->pass_number;
+jdmaster.c:505:1: note: not consecutive access master_4->pass_number = _10;
+jdmaster.c:505:1: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:147:3: note: not vectorized: latch block not empty.
+jdmaster.c:147:3: note: bad loop form.
+jdmaster.c:131:3: note: not vectorized: control flow in loop.
+jdmaster.c:131:3: note: bad loop form.
+jdmaster.c:139:13: note: not vectorized: control flow in loop.
+jdmaster.c:139:13: note: bad loop form.
+jdmaster.c:93:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:94:5: note: not consecutive access _21 = _16->error_exit;
+jdmaster.c:94:5: note: not consecutive access _16 = cinfo_14(D)->err;
+jdmaster.c:94:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:94:5: note: not consecutive access _21 = _16->error_exit;
+jdmaster.c:94:5: note: not consecutive access _16 = cinfo_14(D)->err;
+jdmaster.c:94:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:99:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:102:7: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:104:7: note: not consecutive access _32 = cinfo_14(D)->image_height;
+jdmaster.c:104:7: note: not consecutive access cinfo_14(D)->output_width = _30;
+jdmaster.c:104:7: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:105:32: note: not consecutive access cinfo_14(D)->output_height = _36;
+jdmaster.c:105:32: note: not consecutive access cinfo_14(D)->min_DCT_scaled_size = 1;
+jdmaster.c:105:32: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:106:13: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:109:7: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:111:7: note: not consecutive access _46 = cinfo_14(D)->image_height;
+jdmaster.c:111:7: note: not consecutive access cinfo_14(D)->output_width = _44;
+jdmaster.c:111:7: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:112:32: note: not consecutive access cinfo_14(D)->output_height = _50;
+jdmaster.c:112:32: note: not consecutive access cinfo_14(D)->min_DCT_scaled_size = 2;
+jdmaster.c:112:32: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:113:13: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:116:7: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:118:7: note: not consecutive access _60 = cinfo_14(D)->image_height;
+jdmaster.c:118:7: note: not consecutive access cinfo_14(D)->output_width = _58;
+jdmaster.c:118:7: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:119:32: note: not consecutive access cinfo_14(D)->output_height = _64;
+jdmaster.c:119:32: note: not consecutive access cinfo_14(D)->min_DCT_scaled_size = 4;
+jdmaster.c:119:32: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:124:32: note: not consecutive access cinfo_14(D)->min_DCT_scaled_size = 8;
+jdmaster.c:124:32: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:124:32: note: not consecutive access cinfo_14(D)->min_DCT_scaled_size = 8;
+jdmaster.c:124:32: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:131:3: note: not consecutive access compptr_72 = cinfo_14(D)->comp_info;
+jdmaster.c:131:3: note: not consecutive access _162 = cinfo_14(D)->num_components;
+jdmaster.c:131:3: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:136:31: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:134:11: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:134:28: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:136:61: note: not consecutive access _163 = compptr_152->v_samp_factor;
+jdmaster.c:136:61: note: not consecutive access _175 = cinfo_14(D)->max_v_samp_factor;
+jdmaster.c:136:61: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:134:11: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:134:28: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:136:61: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:131:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:151:7: note: not consecutive access _93 = cinfo_14(D)->image_width;
+jdmaster.c:151:7: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:155:7: note: not consecutive access compptr_128->downsampled_width = _102;
+jdmaster.c:155:7: note: not consecutive access _107 = cinfo_14(D)->image_height;
+jdmaster.c:155:7: note: not consecutive access _104 = cinfo_14(D)->max_v_samp_factor;
+jdmaster.c:155:7: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:147:3: note: not consecutive access compptr_128->downsampled_height = _116;
+jdmaster.c:147:3: note: not consecutive access _89 = cinfo_14(D)->num_components;
+jdmaster.c:147:3: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:147:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:173:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:175:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:183:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:187:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:190:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:193:58: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:48:6: note: not consecutive access _132 = cinfo_14(D)->do_fancy_upsampling;
+jdmaster.c:48:6: note: not consecutive access cinfo_14(D)->output_components = iftmp.0_6;
+jdmaster.c:48:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:48:34: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:51:74: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:52:41: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:56:6: note: not consecutive access _140 = _139->h_samp_factor;
+jdmaster.c:56:6: note: not consecutive access _139 = cinfo_14(D)->comp_info;
+jdmaster.c:56:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:56:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:57:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:58:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:59:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:60:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:64:6: note: not consecutive access _146 = _139->DCT_scaled_size;
+jdmaster.c:64:6: note: not consecutive access _147 = cinfo_14(D)->min_DCT_scaled_size;
+jdmaster.c:64:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:64:73: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:65:73: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:201:1: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:198:37: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:520:6: note: not consecutive access master_5 = cinfo_4(D)->master;
+jdmaster.c:520:6: note: not consecutive access _6 = cinfo_4(D)->global_state;
+jdmaster.c:520:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:521:5: note: not consecutive access _10 = _7->error_exit;
+jdmaster.c:521:5: note: not consecutive access _7 = cinfo_4(D)->err;
+jdmaster.c:521:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:521:5: note: not consecutive access _10 = _7->error_exit;
+jdmaster.c:521:5: note: not consecutive access _7 = cinfo_4(D)->err;
+jdmaster.c:521:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:523:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:523:30: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:523:62: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:528:6: note: not consecutive access _17 = _15->new_color_map;
+jdmaster.c:528:6: note: not consecutive access _15 = master_5->quantizer_2pass;
+jdmaster.c:528:6: note: not consecutive access cinfo_4(D)->cquantize = _15;
+jdmaster.c:528:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:529:31: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:531:5: note: not consecutive access _22 = _20->error_exit;
+jdmaster.c:531:5: note: not consecutive access _20->msg_code = 46;
+jdmaster.c:531:5: note: not consecutive access _20 = cinfo_4(D)->err;
+jdmaster.c:531:5: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:532:1: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: Unknown misalignment, is_packed = 0
+jdmaster.c:262:3: note: virtual phi. skip.
+jdmaster.c:262:3: note: conversion not supported by target.
+jdmaster.c:262:3: note: not vectorized: relevant stmt not supported: _76 = (unsigned char) i_202;
+jdmaster.c:262:3: note: bad operation or unsupported loop bound.
+jdmaster.c:262:3: note: Unknown misalignment, is_packed = 0
+jdmaster.c:262:3: note: virtual phi. skip.
+jdmaster.c:262:3: note: virtual phi. skip.
+jdmaster.c:262:3: note: loop vectorized
+jdmaster.c:262:3: note: loop peeled for vectorization to enhance alignment
+jdmaster.c:262:3: note: virtual phi. skip.
+jdmaster.c:547:10: note: not consecutive access _4 = _3->alloc_small;
+jdmaster.c:547:10: note: not consecutive access _3 = cinfo_2(D)->mem;
+jdmaster.c:547:10: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:296:3: note: not consecutive access master_6->pub.is_dummy_pass = 0;
+jdmaster.c:296:3: note: not consecutive access cinfo_2(D)->master = master_6;
+jdmaster.c:296:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:296:3: note: not consecutive access master_6->pub.is_dummy_pass = 0;
+jdmaster.c:296:3: note: not consecutive access cinfo_2(D)->master = master_6;
+jdmaster.c:296:3: note: not vectorized: vectorization is not profitable.
+jdmaster.c:254:9: note: not consecutive access _69 = _68->alloc_small;
+jdmaster.c:254:9: note: not consecutive access _68 = cinfo_2(D)->mem;
+jdmaster.c:254:9: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.60_233] = vect__76.57_363;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_369] = vect__76.57_377;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_383] = vect__76.57_391;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_397] = vect__76.57_405;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_411] = vect__76.57_419;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_425] = vect__76.57_433;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_439] = vect__76.57_447;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_453] = vect__76.57_461;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_467] = vect__76.57_475;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_481] = vect__76.57_489;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_495] = vect__76.57_503;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_509] = vect__76.57_517;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_523] = vect__76.57_531;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_537] = vect__76.57_545;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_551] = vect__76.57_559;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:263:14: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_table.59_235] = vect__76.57_232;
+ scalar_type: vector(16) unsigned char
+jdmaster.c:263:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:262:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:267:14: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:302:6: note: not consecutive access _13 = cinfo_2(D)->output_width;
+jdmaster.c:302:6: note: not consecutive access _15 = cinfo_2(D)->out_color_components;
+jdmaster.c:302:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:303:5: note: not consecutive access _20 = _19->error_exit;
+jdmaster.c:303:5: note: not consecutive access _19->msg_code = 70;
+jdmaster.c:303:5: note: not consecutive access _19 = cinfo_2(D)->err;
+jdmaster.c:303:5: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:48:6: note: not consecutive access master_6->pass_number = 0;
+jdmaster.c:48:6: note: not consecutive access _88 = cinfo_2(D)->do_fancy_upsampling;
+jdmaster.c:48:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:48:34: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:51:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:51:74: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:52:41: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:56:6: note: not consecutive access _96 = _95->h_samp_factor;
+jdmaster.c:56:6: note: not consecutive access _95 = cinfo_2(D)->comp_info;
+jdmaster.c:56:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:56:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:57:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:58:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:59:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:60:46: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:64:6: note: not consecutive access _102 = _95->DCT_scaled_size;
+jdmaster.c:64:6: note: not consecutive access _103 = cinfo_2(D)->min_DCT_scaled_size;
+jdmaster.c:64:6: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:64:73: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:49:12: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:313:6: note: not consecutive access master_6->using_merged_upsample = _94;
+jdmaster.c:313:6: note: not consecutive access _22 = cinfo_2(D)->quantize_colors;
+jdmaster.c:313:6: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:313:6: note: not consecutive access master_6->using_merged_upsample = _94;
+jdmaster.c:313:6: note: not consecutive access _22 = cinfo_2(D)->quantize_colors;
+jdmaster.c:313:6: note: not vectorized: vectorization is not profitable.
+jdmaster.c:313:32: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:319:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:320:7: note: not consecutive access _26 = _25->error_exit;
+jdmaster.c:320:7: note: not consecutive access _25->msg_code = 47;
+jdmaster.c:320:7: note: not consecutive access _25 = cinfo_2(D)->err;
+jdmaster.c:320:7: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:322:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:326:23: note: not consecutive access cinfo_2(D)->colormap = 0B;
+jdmaster.c:326:23: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:326:23: note: not consecutive access cinfo_2(D)->colormap = 0B;
+jdmaster.c:326:23: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:327:15: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:328:36: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:329:15: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:330:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:332:33: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:335:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:345:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:348:31: note: not consecutive access master_6->quantizer_2pass = _33;
+jdmaster.c:348:31: note: not consecutive access _33 = cinfo_2(D)->cquantize;
+jdmaster.c:348:31: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:359:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:360:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:370:5: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:375:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:376:5: note: not consecutive access _39 = _38->error_exit;
+jdmaster.c:376:5: note: not consecutive access _38->msg_code = 1;
+jdmaster.c:376:5: note: not consecutive access _38 = cinfo_2(D)->err;
+jdmaster.c:376:5: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:378:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:389:54: note: not consecutive access _42 = _41->has_multiple_scans;
+jdmaster.c:389:54: note: not consecutive access _41 = cinfo_2(D)->inputctl;
+jdmaster.c:389:54: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:389:54: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:390:3: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:392:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:396:4: note: not consecutive access _47 = _46->realize_virt_arrays;
+jdmaster.c:396:4: note: not consecutive access _46 = cinfo_2(D)->mem;
+jdmaster.c:396:4: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:399:4: note: not consecutive access _49 = _48->start_input_pass;
+jdmaster.c:399:4: note: not consecutive access _48 = cinfo_2(D)->inputctl;
+jdmaster.c:399:4: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:406:6: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:406:31: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:406:58: note: not consecutive access _53 = _52->has_multiple_scans;
+jdmaster.c:406:58: note: not consecutive access _52 = cinfo_2(D)->inputctl;
+jdmaster.c:406:58: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:410:8: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:412:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:415:14: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:420:68: note: not consecutive access _50->completed_passes = 0;
+jdmaster.c:420:68: note: not consecutive access _64 = cinfo_2(D)->enable_2pass_quant;
+jdmaster.c:420:68: note: not consecutive access _59 = cinfo_2(D)->total_iMCU_rows;
+jdmaster.c:420:68: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:420:68: note: not consecutive access _50->completed_passes = 0;
+jdmaster.c:420:68: note: not consecutive access _64 = cinfo_2(D)->enable_2pass_quant;
+jdmaster.c:420:68: note: not consecutive access _59 = cinfo_2(D)->total_iMCU_rows;
+jdmaster.c:420:68: note: Build SLP failed: different operation in stmt _50->pass_limit = _63;
+jdmaster.c:420:68: note: original stmt _50->pass_counter = 0;
+jdmaster.c:422:24: note: not consecutive access _50->total_passes = iftmp.5_65;
+jdmaster.c:422:24: note: not consecutive access _66 = master_6->pass_number;
+jdmaster.c:422:24: note: not consecutive access master_6->pass_number = _67;
+jdmaster.c:422:24: note: not vectorized: no grouped stores in basic block.
+jdmaster.c:557:1: note: not vectorized: not enough data-refs in basic block.
+jdmaster.c:316:31: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:316:31: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:316:31: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:316:31: note: Build SLP failed: unrolling required in basic block SLP
+jdmaster.c:338:31: note: not consecutive access master_6->quantizer_1pass = _31;
+jdmaster.c:338:31: note: not consecutive access _31 = cinfo_2(D)->cquantize;
+jdmaster.c:338:31: note: not vectorized: no grouped stores in basic block.

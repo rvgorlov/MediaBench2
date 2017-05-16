@@ -1,0 +1,14 @@
+jmemnobs.c:57:10: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:57:10: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:63:3: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:63:3: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:57:10: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:64:1: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:76:10: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:90:3: note: not consecutive access _5 = _3->error_exit;
+jmemnobs.c:90:3: note: not consecutive access _3->msg_code = 49;
+jmemnobs.c:90:3: note: not consecutive access _3 = cinfo_2(D)->err;
+jmemnobs.c:90:3: note: not vectorized: no grouped stores in basic block.
+jmemnobs.c:91:1: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:102:10: note: not vectorized: not enough data-refs in basic block.
+jmemnobs.c:109:1: note: not vectorized: not enough data-refs in basic block.

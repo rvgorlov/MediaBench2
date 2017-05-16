@@ -1,0 +1,817 @@
+jcmaster.c:250:5: note: not vectorized: control flow in loop.
+jcmaster.c:250:5: note: bad loop form.
+jcmaster.c:256:5: note: not vectorized: control flow in loop.
+jcmaster.c:256:5: note: bad loop form.
+jcmaster.c:168:3: note: not vectorized: multiple nested loops.
+jcmaster.c:168:3: note: bad loop form.
+jcmaster.c:210:7: note: not vectorized: multiple nested loops.
+jcmaster.c:210:7: note: bad loop form.
+jcmaster.c:214:2: note: not vectorized: control flow in loop.
+jcmaster.c:214:2: note: bad loop form.
+jcmaster.c:214:2: note: not vectorized: control flow in loop.
+jcmaster.c:214:2: note: bad loop form.
+jcmaster.c:173:5: note: not vectorized: control flow in loop.
+jcmaster.c:173:5: note: bad loop form.
+jcmaster.c:156:5: note: not vectorized: control flow in loop.
+jcmaster.c:156:5: note: bad loop form.
+jcmaster.c:145:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:146:5: note: not consecutive access _45 = _40->error_exit;
+jcmaster.c:146:5: note: not consecutive access _40 = cinfo_38(D)->err;
+jcmaster.c:146:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:146:5: note: not consecutive access _45 = _40->error_exit;
+jcmaster.c:146:5: note: not consecutive access _40 = cinfo_38(D)->err;
+jcmaster.c:146:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:146:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:152:6: note: not consecutive access _48 = scanptr_47->Ss;
+jcmaster.c:152:6: note: not consecutive access scanptr_47 = cinfo_38(D)->scan_info;
+jcmaster.c:152:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:152:24: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:156:5: note: not consecutive access _255 = cinfo_38(D)->num_components;
+jcmaster.c:156:5: note: not consecutive access cinfo_38(D)->progressive_mode = 1;
+jcmaster.c:156:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:156:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:156:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:164:5: note: not consecutive access _256 = cinfo_38(D)->num_components;
+jcmaster.c:164:5: note: not consecutive access cinfo_38(D)->progressive_mode = 0;
+jcmaster.c:164:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:165:26: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:171:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:172:7: note: not consecutive access _72 = _65->error_exit;
+jcmaster.c:172:7: note: not consecutive access _65 = cinfo_38(D)->err;
+jcmaster.c:172:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:172:7: note: not consecutive access _72 = _65->error_exit;
+jcmaster.c:172:7: note: not consecutive access _65 = cinfo_38(D)->err;
+jcmaster.c:172:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:173:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:186:8: note: not consecutive access _97 = cinfo_38(D)->progressive_mode;
+jcmaster.c:186:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:175:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:175:21: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:176:2: note: not consecutive access _81 = _76->error_exit;
+jcmaster.c:176:2: note: not consecutive access _76 = cinfo_38(D)->err;
+jcmaster.c:176:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:176:2: note: not consecutive access _81 = _76->error_exit;
+jcmaster.c:176:2: note: not consecutive access _76 = cinfo_38(D)->err;
+jcmaster.c:176:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:178:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:178:18: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:179:2: note: not consecutive access _90 = _85->error_exit;
+jcmaster.c:179:2: note: not consecutive access _85 = cinfo_38(D)->err;
+jcmaster.c:179:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:179:2: note: not consecutive access _90 = _85->error_exit;
+jcmaster.c:179:2: note: not consecutive access _85 = cinfo_38(D)->err;
+jcmaster.c:179:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:173:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:200:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:200:65: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:201:39: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:202:2: note: not consecutive access _113 = _108->error_exit;
+jcmaster.c:202:2: note: not consecutive access _108 = cinfo_38(D)->err;
+jcmaster.c:202:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:202:2: note: not consecutive access _113 = _108->error_exit;
+jcmaster.c:202:2: note: not consecutive access _108 = cinfo_38(D)->err;
+jcmaster.c:202:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:203:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:205:4: note: not consecutive access _118 = _115->error_exit;
+jcmaster.c:205:4: note: not consecutive access _115 = cinfo_38(D)->err;
+jcmaster.c:205:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:205:4: note: not consecutive access _118 = _115->error_exit;
+jcmaster.c:205:4: note: not consecutive access _115 = cinfo_38(D)->err;
+jcmaster.c:205:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:207:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:207:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:208:4: note: not consecutive access _123 = _120->error_exit;
+jcmaster.c:208:4: note: not consecutive access _120 = cinfo_38(D)->err;
+jcmaster.c:208:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:208:4: note: not consecutive access _123 = _120->error_exit;
+jcmaster.c:208:4: note: not consecutive access _120 = cinfo_38(D)->err;
+jcmaster.c:208:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:210:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:212:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:212:14: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:213:4: note: not consecutive access _131 = _128->error_exit;
+jcmaster.c:213:4: note: not consecutive access _128 = cinfo_38(D)->err;
+jcmaster.c:213:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:213:4: note: not consecutive access _131 = _128->error_exit;
+jcmaster.c:213:4: note: not consecutive access _128 = cinfo_38(D)->err;
+jcmaster.c:213:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:214:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:210:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:210:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:215:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:221:9: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:222:8: note: not consecutive access _33 = _195->error_exit;
+jcmaster.c:222:8: note: not consecutive access _195 = cinfo_38(D)->err;
+jcmaster.c:222:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:222:8: note: not consecutive access _33 = _195->error_exit;
+jcmaster.c:222:8: note: not consecutive access _195 = cinfo_38(D)->err;
+jcmaster.c:222:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:221:39: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:214:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:215:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:218:8: note: not consecutive access _140 = _137->error_exit;
+jcmaster.c:218:8: note: not consecutive access _137 = cinfo_38(D)->err;
+jcmaster.c:218:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:218:8: note: not consecutive access _140 = _137->error_exit;
+jcmaster.c:218:8: note: not consecutive access _137 = cinfo_38(D)->err;
+jcmaster.c:218:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:221:9: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:221:39: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:222:8: note: not consecutive access _146 = _143->error_exit;
+jcmaster.c:222:8: note: not consecutive access _143 = cinfo_38(D)->err;
+jcmaster.c:222:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:222:8: note: not consecutive access _146 = _143->error_exit;
+jcmaster.c:222:8: note: not consecutive access _143 = cinfo_38(D)->err;
+jcmaster.c:222:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:214:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:230:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:230:50: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:231:2: note: not consecutive access _158 = _155->error_exit;
+jcmaster.c:231:2: note: not consecutive access _155 = cinfo_38(D)->err;
+jcmaster.c:231:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:231:2: note: not consecutive access _158 = _155->error_exit;
+jcmaster.c:231:2: note: not consecutive access _155 = cinfo_38(D)->err;
+jcmaster.c:231:2: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:233:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:235:5: note: not consecutive access _18 = component_sent[thisi_78];
+jcmaster.c:235:5: note: not consecutive access thisi_78 = scanptr_293->component_index[0];
+jcmaster.c:235:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:236:4: note: not consecutive access _190 = _23->error_exit;
+jcmaster.c:236:4: note: not consecutive access _23 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:236:4: note: not consecutive access _190 = _23->error_exit;
+jcmaster.c:236:4: note: not consecutive access _23 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:233:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:235:5: note: not consecutive access _198 = component_sent[thisi_197];
+jcmaster.c:235:5: note: not consecutive access thisi_197 = scanptr_293->component_index[1];
+jcmaster.c:235:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:236:4: note: not consecutive access _202 = _199->error_exit;
+jcmaster.c:236:4: note: not consecutive access _199 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:236:4: note: not consecutive access _202 = _199->error_exit;
+jcmaster.c:236:4: note: not consecutive access _199 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:233:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:235:5: note: not consecutive access _210 = component_sent[thisi_209];
+jcmaster.c:235:5: note: not consecutive access thisi_209 = scanptr_293->component_index[2];
+jcmaster.c:235:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:236:4: note: not consecutive access _214 = _211->error_exit;
+jcmaster.c:236:4: note: not consecutive access _211 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:236:4: note: not consecutive access _214 = _211->error_exit;
+jcmaster.c:236:4: note: not consecutive access _211 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:233:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:235:5: note: not consecutive access _222 = component_sent[thisi_221];
+jcmaster.c:235:5: note: not consecutive access thisi_221 = scanptr_293->component_index[3];
+jcmaster.c:235:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:236:4: note: not consecutive access _226 = _223->error_exit;
+jcmaster.c:236:4: note: not consecutive access _223 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:236:4: note: not consecutive access _226 = _223->error_exit;
+jcmaster.c:236:4: note: not consecutive access _223 = cinfo_38(D)->err;
+jcmaster.c:236:4: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:237:24: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:168:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:243:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:243:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:261:1: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:261:1: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _302 = _304->error_exit;
+jcmaster.c:252:2: note: not consecutive access _304->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _304 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _259 = _261->error_exit;
+jcmaster.c:252:2: note: not consecutive access _261->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _261 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _208 = _231->error_exit;
+jcmaster.c:252:2: note: not consecutive access _231->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _231 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _89 = _104->error_exit;
+jcmaster.c:252:2: note: not consecutive access _104->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _104 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _4 = _7->error_exit;
+jcmaster.c:252:2: note: not consecutive access _7->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _7 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _21 = _56->error_exit;
+jcmaster.c:252:2: note: not consecutive access _56->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _56 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _313 = _311->error_exit;
+jcmaster.c:252:2: note: not consecutive access _311->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _311 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _325 = _323->error_exit;
+jcmaster.c:252:2: note: not consecutive access _323->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _323 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _337 = _335->error_exit;
+jcmaster.c:252:2: note: not consecutive access _335->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _335 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:251:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:252:2: note: not consecutive access _176 = _174->error_exit;
+jcmaster.c:252:2: note: not consecutive access _174->msg_code = 45;
+jcmaster.c:252:2: note: not consecutive access _174 = cinfo_38(D)->err;
+jcmaster.c:252:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:252:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:250:48: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _349 = _347->error_exit;
+jcmaster.c:258:2: note: not consecutive access _347->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _347 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _361 = _359->error_exit;
+jcmaster.c:258:2: note: not consecutive access _359->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _359 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _373 = _371->error_exit;
+jcmaster.c:258:2: note: not consecutive access _371->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _371 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _385 = _383->error_exit;
+jcmaster.c:258:2: note: not consecutive access _383->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _383 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _397 = _395->error_exit;
+jcmaster.c:258:2: note: not consecutive access _395->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _395 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _409 = _407->error_exit;
+jcmaster.c:258:2: note: not consecutive access _407->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _407 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _421 = _419->error_exit;
+jcmaster.c:258:2: note: not consecutive access _419->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _419 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _433 = _431->error_exit;
+jcmaster.c:258:2: note: not consecutive access _431->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _431 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _445 = _443->error_exit;
+jcmaster.c:258:2: note: not consecutive access _443->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _443 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:257:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:258:2: note: not consecutive access _183 = _181->error_exit;
+jcmaster.c:258:2: note: not consecutive access _181->msg_code = 45;
+jcmaster.c:258:2: note: not consecutive access _181 = cinfo_38(D)->err;
+jcmaster.c:258:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:258:2: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:256:48: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:168:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:168:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:493:4: note: not consecutive access _3->call_pass_startup = 0;
+jcmaster.c:493:4: note: not consecutive access _6 = _5->write_frame_header;
+jcmaster.c:493:4: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:494:4: note: not consecutive access _9 = _8->write_scan_header;
+jcmaster.c:494:4: note: not consecutive access _8 = cinfo_2(D)->marker;
+jcmaster.c:494:4: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:495:1: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:510:4: note: not consecutive access _7 = _6->finish_pass;
+jcmaster.c:510:4: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:513:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:513:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:519:8: note: not consecutive access master_5->pass_type = 2;
+jcmaster.c:519:8: note: not consecutive access _11 = cinfo_4(D)->optimize_coding;
+jcmaster.c:519:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:520:26: note: not consecutive access _12 = master_5->scan_number;
+jcmaster.c:520:26: note: not consecutive access master_5->scan_number = _13;
+jcmaster.c:520:26: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:524:23: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:528:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:529:25: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:530:24: note: not consecutive access _18 = master_5->scan_number;
+jcmaster.c:530:24: note: not consecutive access master_5->scan_number = _19;
+jcmaster.c:530:24: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:535:1: note: not consecutive access _21 = master_5->pass_number;
+jcmaster.c:535:1: note: not consecutive access master_5->pass_number = _22;
+jcmaster.c:535:1: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:358:5: note: not vectorized: control flow in loop.
+jcmaster.c:358:5: note: bad loop form.
+jcmaster.c:376:13: note: Unknown alignment for access: cinfo_13(D)->MCU_membership[prephitmp_141]
+jcmaster.c:376:13: note: Unknown misalignment, is_packed = 0
+jcmaster.c:376:13: note: virtual phi. skip.
+jcmaster.c:376:13: note: not vectorized: estimated iteration count too small.
+jcmaster.c:376:13: note: Unknown alignment for access: cinfo_13(D)->MCU_membership[prephitmp_141]
+jcmaster.c:376:13: note: Unknown misalignment, is_packed = 0
+jcmaster.c:376:13: note: virtual phi. skip.
+jcmaster.c:376:13: note: not vectorized: estimated iteration count too small.
+jcmaster.c:315:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:334:8: note: not consecutive access _26 = compptr_15->v_samp_factor;
+jcmaster.c:334:8: note: not consecutive access compptr_15 = cinfo_13(D)->cur_comp_info[0];
+jcmaster.c:334:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:334:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:334:8: note: not consecutive access _26 = compptr_15->v_samp_factor;
+jcmaster.c:334:8: note: not consecutive access compptr_15 = cinfo_13(D)->cur_comp_info[0];
+jcmaster.c:334:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:334:8: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:339:30: note: not consecutive access compptr_15->last_row_height = tmp_3;
+jcmaster.c:339:30: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:339:30: note: not consecutive access compptr_15->last_row_height = tmp_3;
+jcmaster.c:339:30: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:344:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:345:7: note: not consecutive access _40 = _36->error_exit;
+jcmaster.c:345:7: note: not consecutive access _36 = cinfo_13(D)->err;
+jcmaster.c:345:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:345:7: note: not consecutive access _40 = _36->error_exit;
+jcmaster.c:345:7: note: not consecutive access _36 = cinfo_13(D)->err;
+jcmaster.c:345:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:350:7: note: not consecutive access _45 = cinfo_13(D)->image_width;
+jcmaster.c:350:7: note: not consecutive access _42 = cinfo_13(D)->max_h_samp_factor;
+jcmaster.c:350:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:353:7: note: not consecutive access _54 = cinfo_13(D)->image_height;
+jcmaster.c:353:7: note: not consecutive access _51 = cinfo_13(D)->max_v_samp_factor;
+jcmaster.c:353:7: note: not consecutive access cinfo_13(D)->MCUs_per_row = _49;
+jcmaster.c:353:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:358:5: note: not consecutive access _117 = cinfo_13(D)->comps_in_scan;
+jcmaster.c:358:5: note: not consecutive access cinfo_13(D)->MCU_rows_in_scan = _58;
+jcmaster.c:358:5: note: not consecutive access cinfo_13(D)->blocks_in_MCU = 0;
+jcmaster.c:358:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:367:10: note: not consecutive access _71 = compptr_62->width_in_blocks;
+jcmaster.c:367:10: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:367:10: note: not consecutive access _71 = compptr_62->width_in_blocks;
+jcmaster.c:367:10: note: Build SLP failed: different operation in stmt _67 = _63 * _65;
+jcmaster.c:367:10: note: original stmt _63 = compptr_62->h_samp_factor;
+jcmaster.c:367:10: note: Build SLP failed: different operation in stmt _69 = _63 * 8;
+jcmaster.c:367:10: note: original stmt _63 = compptr_62->h_samp_factor;
+jcmaster.c:370:10: note: not consecutive access _76 = compptr_62->height_in_blocks;
+jcmaster.c:370:10: note: not consecutive access compptr_62->last_col_width = tmp_4;
+jcmaster.c:370:10: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:374:10: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:375:2: note: not consecutive access _85 = _83->error_exit;
+jcmaster.c:375:2: note: not consecutive access _83->msg_code = 13;
+jcmaster.c:375:2: note: not consecutive access _83 = cinfo_13(D)->err;
+jcmaster.c:375:2: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:358:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not consecutive access pretmp_140 = cinfo_13(D)->blocks_in_MCU;
+jcmaster.c:376:13: note: not consecutive access cinfo_13(D)->MCU_membership[pretmp_140] = ci_113;
+jcmaster.c:376:13: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:13: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:21: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:21: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:376:21: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:385:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:387:31: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:387:31: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:387:29: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:389:1: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:279:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmaster.c:279:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:279:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:279:5: note: virtual phi. skip.
+jcmaster.c:279:5: note: num. args = 4 (not unary/binary/ternary op).
+jcmaster.c:279:5: note: not ssa-name.
+jcmaster.c:279:5: note: use not simple.
+jcmaster.c:279:5: note: not vectorized: estimated iteration count too small.
+jcmaster.c:296:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmaster.c:296:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:296:5: note: virtual phi. skip.
+jcmaster.c:296:5: note: not vectorized: estimated iteration count too small.
+jcmaster.c:279:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmaster.c:279:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:279:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:279:5: note: virtual phi. skip.
+jcmaster.c:279:5: note: num. args = 4 (not unary/binary/ternary op).
+jcmaster.c:279:5: note: not ssa-name.
+jcmaster.c:279:5: note: use not simple.
+jcmaster.c:279:5: note: not vectorized: estimated iteration count too small.
+jcmaster.c:296:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmaster.c:296:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:296:5: note: virtual phi. skip.
+jcmaster.c:296:5: note: not vectorized: estimated iteration count too small.
+jcmaster.c:279:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmaster.c:279:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:279:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:279:5: note: virtual phi. skip.
+jcmaster.c:279:5: note: num. args = 4 (not unary/binary/ternary op).
+jcmaster.c:279:5: note: not ssa-name.
+jcmaster.c:279:5: note: use not simple.
+jcmaster.c:279:5: note: not vectorized: estimated iteration count too small.
+jcmaster.c:296:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmaster.c:296:5: note: Unknown misalignment, is_packed = 0
+jcmaster.c:296:5: note: virtual phi. skip.
+jcmaster.c:296:5: note: not vectorized: estimated iteration count too small.
+jcmaster.c:405:3: note: not consecutive access _11 = master_10->pass_type;
+jcmaster.c:405:3: note: not consecutive access master_10 = cinfo_9(D)->master;
+jcmaster.c:405:3: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:273:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:279:5: note: not consecutive access _93 = scanptr_92->comps_in_scan;
+jcmaster.c:279:5: note: not consecutive access _89 = master_10->scan_number;
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->comps_in_scan = _93;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:286:15: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: basic block vectorized
+jcmaster.c:279:5: note: not consecutive access _235 = scanptr_92->component_index[0];
+jcmaster.c:279:5: note: not consecutive access pretmp_313 = cinfo_9(D)->comp_info;
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[0] = _255;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:5: note: not consecutive access _298 = scanptr_92->component_index[ci_303];
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_303] = _290;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:5: note: not consecutive access _275 = scanptr_92->component_index[ci_277];
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_277] = _264;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:49: note: not consecutive access _96 = scanptr_92->component_index[ci_272];
+jcmaster.c:279:49: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_272] = _99;
+jcmaster.c:279:49: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:292:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:293:7: note: not consecutive access _107 = _106->error_exit;
+jcmaster.c:293:7: note: not consecutive access _106 = cinfo_9(D)->err;
+jcmaster.c:293:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:293:7: note: not consecutive access _107 = _106->error_exit;
+jcmaster.c:293:7: note: not consecutive access _106 = cinfo_9(D)->err;
+jcmaster.c:293:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:293:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:302:15: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:302:15: note: basic block vectorized
+jcmaster.c:296:5: note: not consecutive access pretmp_307 = cinfo_9(D)->comp_info;
+jcmaster.c:296:5: note: not consecutive access cinfo_9(D)->cur_comp_info[0] = _257;
+jcmaster.c:296:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:48: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:411:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:412:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:413:8: note: not consecutive access _16 = _15->start_pass;
+jcmaster.c:413:8: note: not consecutive access _15 = cinfo_9(D)->cconvert;
+jcmaster.c:413:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:414:8: note: not consecutive access _19 = _18->start_pass;
+jcmaster.c:414:8: note: not consecutive access _18 = cinfo_9(D)->downsample;
+jcmaster.c:414:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:415:8: note: not consecutive access _22 = _21->start_pass;
+jcmaster.c:415:8: note: not consecutive access _21 = cinfo_9(D)->prep;
+jcmaster.c:415:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:417:6: note: not consecutive access _25 = _24->start_pass;
+jcmaster.c:417:6: note: not consecutive access _24 = cinfo_9(D)->fdct;
+jcmaster.c:417:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:418:6: note: not consecutive access _28 = _27->start_pass;
+jcmaster.c:418:6: note: not consecutive access _27 = cinfo_9(D)->entropy;
+jcmaster.c:418:6: note: not consecutive access _29 = cinfo_9(D)->optimize_coding;
+jcmaster.c:418:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:419:6: note: not consecutive access _32 = _31->start_pass;
+jcmaster.c:419:6: note: not consecutive access _33 = master_10->total_passes;
+jcmaster.c:419:6: note: not consecutive access _31 = cinfo_9(D)->coef;
+jcmaster.c:419:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:422:6: note: not consecutive access _36 = _35->start_pass;
+jcmaster.c:422:6: note: not consecutive access _35 = cinfo_9(D)->main;
+jcmaster.c:422:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:423:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:425:37: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:428:37: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:273:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:279:5: note: not consecutive access _121 = scanptr_120->comps_in_scan;
+jcmaster.c:279:5: note: not consecutive access _117 = master_10->scan_number;
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->comps_in_scan = _121;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:286:15: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: basic block vectorized
+jcmaster.c:279:5: note: not consecutive access _326 = scanptr_120->component_index[0];
+jcmaster.c:279:5: note: not consecutive access pretmp_299 = cinfo_9(D)->comp_info;
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[0] = _329;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:5: note: not consecutive access _334 = scanptr_120->component_index[ci_332];
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_332] = _337;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:5: note: not consecutive access _342 = scanptr_120->component_index[ci_340];
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_340] = _345;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:49: note: not consecutive access _124 = scanptr_120->component_index[ci_270];
+jcmaster.c:279:49: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_270] = _127;
+jcmaster.c:279:49: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:292:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:293:7: note: not consecutive access _135 = _134->error_exit;
+jcmaster.c:293:7: note: not consecutive access _134 = cinfo_9(D)->err;
+jcmaster.c:293:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:293:7: note: not consecutive access _135 = _134->error_exit;
+jcmaster.c:293:7: note: not consecutive access _134 = cinfo_9(D)->err;
+jcmaster.c:293:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:296:5: note: not consecutive access _136 = cinfo_9(D)->num_components;
+jcmaster.c:296:5: note: not consecutive access cinfo_9(D)->comps_in_scan = _136;
+jcmaster.c:296:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:302:15: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:302:15: note: basic block vectorized
+jcmaster.c:296:5: note: not consecutive access pretmp_293 = cinfo_9(D)->comp_info;
+jcmaster.c:296:5: note: not consecutive access cinfo_9(D)->cur_comp_info[0] = _352;
+jcmaster.c:296:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:48: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:435:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:436:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:436:24: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:436:42: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:437:8: note: not consecutive access _51 = _50->start_pass;
+jcmaster.c:437:8: note: not consecutive access _50 = cinfo_9(D)->entropy;
+jcmaster.c:437:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:438:8: note: not consecutive access _54 = _53->start_pass;
+jcmaster.c:438:8: note: not consecutive access _53 = cinfo_9(D)->coef;
+jcmaster.c:438:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:439:37: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:446:24: note: not consecutive access _47 = master_10->pass_number;
+jcmaster.c:446:24: note: not consecutive access master_10->pass_type = 2;
+jcmaster.c:446:24: note: not consecutive access master_10->pass_number = _48;
+jcmaster.c:446:24: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:452:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:273:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:279:5: note: not consecutive access _149 = scanptr_148->comps_in_scan;
+jcmaster.c:279:5: note: not consecutive access _145 = master_144->scan_number;
+jcmaster.c:279:5: note: not consecutive access master_144 = cinfo_9(D)->master;
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->comps_in_scan = _149;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:286:15: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: not ssa-name.
+jcmaster.c:286:15: note: use not simple.
+jcmaster.c:286:15: note: basic block vectorized
+jcmaster.c:279:5: note: not consecutive access _177 = scanptr_148->component_index[0];
+jcmaster.c:279:5: note: not consecutive access pretmp_287 = cinfo_9(D)->comp_info;
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[0] = _171;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:5: note: not consecutive access _116 = scanptr_148->component_index[ci_138];
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_138] = _88;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:5: note: not consecutive access _311 = scanptr_148->component_index[ci_12];
+jcmaster.c:279:5: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_12] = _301;
+jcmaster.c:279:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:279:49: note: not consecutive access _152 = scanptr_148->component_index[ci_254];
+jcmaster.c:279:49: note: not consecutive access cinfo_9(D)->cur_comp_info[ci_254] = _155;
+jcmaster.c:279:49: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:292:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:293:7: note: not consecutive access _163 = _162->error_exit;
+jcmaster.c:293:7: note: not consecutive access _162 = cinfo_9(D)->err;
+jcmaster.c:293:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:293:7: note: not consecutive access _163 = _162->error_exit;
+jcmaster.c:293:7: note: not consecutive access _162 = cinfo_9(D)->err;
+jcmaster.c:293:7: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:293:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:302:15: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:302:15: note: basic block vectorized
+jcmaster.c:296:5: note: not consecutive access pretmp_281 = cinfo_9(D)->comp_info;
+jcmaster.c:296:5: note: not consecutive access cinfo_9(D)->cur_comp_info[0] = _283;
+jcmaster.c:296:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:296:48: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:454:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:456:6: note: not consecutive access _61 = _60->start_pass;
+jcmaster.c:456:6: note: not consecutive access _60 = cinfo_9(D)->entropy;
+jcmaster.c:456:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:457:6: note: not consecutive access _64 = _63->start_pass;
+jcmaster.c:457:6: note: not consecutive access _63 = cinfo_9(D)->coef;
+jcmaster.c:457:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:459:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:460:8: note: not consecutive access _68 = _67->write_frame_header;
+jcmaster.c:460:8: note: not consecutive access _67 = cinfo_9(D)->marker;
+jcmaster.c:460:8: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:461:6: note: not consecutive access _71 = _70->write_scan_header;
+jcmaster.c:461:6: note: not consecutive access _70 = cinfo_9(D)->marker;
+jcmaster.c:461:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:462:35: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:465:5: note: not consecutive access _76 = _74->error_exit;
+jcmaster.c:465:5: note: not consecutive access _74->msg_code = 48;
+jcmaster.c:465:5: note: not consecutive access _74 = cinfo_9(D)->err;
+jcmaster.c:465:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:471:6: note: not consecutive access master_10->pub.is_last_pass = _82;
+jcmaster.c:471:6: note: not consecutive access _84 = cinfo_9(D)->progress;
+jcmaster.c:471:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:473:35: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:473:35: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:475:1: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:94:3: note: not vectorized: latch block not empty.
+jcmaster.c:94:3: note: bad loop form.
+jcmaster.c:82:3: note: not vectorized: control flow in loop.
+jcmaster.c:82:3: note: bad loop form.
+jcmaster.c:547:10: note: not consecutive access _8 = _7->alloc_small;
+jcmaster.c:547:10: note: not consecutive access _7 = cinfo_6(D)->mem;
+jcmaster.c:547:10: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:55:6: note: not consecutive access master_10->pub.is_last_pass = 0;
+jcmaster.c:55:6: note: not consecutive access _36 = cinfo_6(D)->image_height;
+jcmaster.c:55:6: note: not consecutive access cinfo_6(D)->master = master_10;
+jcmaster.c:55:6: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:55:6: note: not consecutive access master_10->pub.is_last_pass = 0;
+jcmaster.c:55:6: note: not consecutive access _36 = cinfo_6(D)->image_height;
+jcmaster.c:55:6: note: not consecutive access cinfo_6(D)->master = master_10;
+jcmaster.c:55:6: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:55:32: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:56:7: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:56:37: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:57:5: note: not consecutive access _41 = _40->error_exit;
+jcmaster.c:57:5: note: not consecutive access _40->msg_code = 32;
+jcmaster.c:57:5: note: not consecutive access _40 = cinfo_6(D)->err;
+jcmaster.c:57:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:57:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:60:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:60:62: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:62:5: note: not consecutive access _45 = _44->error_exit;
+jcmaster.c:62:5: note: not consecutive access _44 = cinfo_6(D)->err;
+jcmaster.c:62:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:62:5: note: not consecutive access _45 = _44->error_exit;
+jcmaster.c:62:5: note: not consecutive access _44 = cinfo_6(D)->err;
+jcmaster.c:62:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:62:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:67:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:68:5: note: not consecutive access _53 = _52->error_exit;
+jcmaster.c:68:5: note: not consecutive access _52->msg_code = 70;
+jcmaster.c:68:5: note: not consecutive access _52 = cinfo_6(D)->err;
+jcmaster.c:68:5: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:71:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:72:5: note: not consecutive access _56 = _55->error_exit;
+jcmaster.c:72:5: note: not consecutive access _55 = cinfo_6(D)->err;
+jcmaster.c:72:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:72:5: note: not consecutive access _56 = _55->error_exit;
+jcmaster.c:72:5: note: not consecutive access _55 = cinfo_6(D)->err;
+jcmaster.c:72:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:75:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:76:5: note: not consecutive access _59 = _58->error_exit;
+jcmaster.c:76:5: note: not consecutive access _58 = cinfo_6(D)->err;
+jcmaster.c:76:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:76:5: note: not consecutive access _59 = _58->error_exit;
+jcmaster.c:76:5: note: not consecutive access _58 = cinfo_6(D)->err;
+jcmaster.c:76:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:76:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:82:3: note: not consecutive access compptr_60 = cinfo_6(D)->comp_info;
+jcmaster.c:82:3: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:82:3: note: not consecutive access compptr_60 = cinfo_6(D)->comp_info;
+jcmaster.c:82:3: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:84:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:85:28: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:86:7: note: not consecutive access _67 = _66->error_exit;
+jcmaster.c:86:7: note: not consecutive access _66->msg_code = 18;
+jcmaster.c:86:7: note: not consecutive access _66 = cinfo_6(D)->err;
+jcmaster.c:86:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:86:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:82:3: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:82:3: note: Build SLP failed: unrolling required in basic block SLP
+jcmaster.c:94:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:94:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:102:7: note: not consecutive access _86 = compptr_195->h_samp_factor;
+jcmaster.c:102:7: note: not consecutive access compptr_195->component_index = ci_196;
+jcmaster.c:102:7: note: not consecutive access compptr_195->DCT_scaled_size = 8;
+jcmaster.c:102:7: note: not consecutive access _84 = cinfo_6(D)->image_width;
+jcmaster.c:102:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:105:7: note: not consecutive access _96 = compptr_195->v_samp_factor;
+jcmaster.c:105:7: note: not consecutive access compptr_195->width_in_blocks = _90;
+jcmaster.c:105:7: note: not consecutive access _94 = cinfo_6(D)->image_height;
+jcmaster.c:105:7: note: not consecutive access _91 = cinfo_6(D)->max_v_samp_factor;
+jcmaster.c:105:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:109:7: note: not consecutive access _105 = compptr_195->h_samp_factor;
+jcmaster.c:109:7: note: not consecutive access compptr_195->height_in_blocks = _100;
+jcmaster.c:109:7: note: not consecutive access _103 = cinfo_6(D)->image_width;
+jcmaster.c:109:7: note: not consecutive access _101 = cinfo_6(D)->max_h_samp_factor;
+jcmaster.c:109:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:112:7: note: not consecutive access _114 = compptr_195->v_samp_factor;
+jcmaster.c:112:7: note: not consecutive access compptr_195->downsampled_width = _109;
+jcmaster.c:112:7: note: not consecutive access _112 = cinfo_6(D)->image_height;
+jcmaster.c:112:7: note: not consecutive access _110 = cinfo_6(D)->max_v_samp_factor;
+jcmaster.c:112:7: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:94:3: note: not consecutive access compptr_195->downsampled_height = _118;
+jcmaster.c:94:3: note: not consecutive access compptr_195->component_needed = 1;
+jcmaster.c:94:3: note: not consecutive access _121 = cinfo_6(D)->num_components;
+jcmaster.c:94:3: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:94:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:94:3: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:122:5: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:559:6: note: not consecutive access _17 = cinfo_6(D)->scan_info;
+jcmaster.c:559:6: note: not consecutive access cinfo_6(D)->total_iMCU_rows = _128;
+jcmaster.c:559:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:570:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:567:22: note: not consecutive access cinfo_6(D)->num_scans = 1;
+jcmaster.c:567:22: note: not consecutive access cinfo_6(D)->progressive_mode = 0;
+jcmaster.c:567:22: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:574:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:585:23: note: not consecutive access master_10->pass_type = 1;
+jcmaster.c:585:23: note: not consecutive access master_10->pass_number = 0;
+jcmaster.c:585:23: note: not consecutive access master_10->scan_number = 0;
+jcmaster.c:585:23: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:574:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:574:6: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:576:8: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:585:23: note: not consecutive access master_10->pass_type = 2;
+jcmaster.c:585:23: note: not consecutive access master_10->pass_number = 0;
+jcmaster.c:585:23: note: not consecutive access master_10->scan_number = 0;
+jcmaster.c:585:23: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:586:6: note: not consecutive access master_10->pass_type = 0;
+jcmaster.c:586:6: note: not consecutive access master_10->pass_number = 0;
+jcmaster.c:586:6: note: not consecutive access master_10->scan_number = 0;
+jcmaster.c:586:6: note: not vectorized: no grouped stores in basic block.
+jcmaster.c:587:45: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:589:33: note: not vectorized: not enough data-refs in basic block.
+jcmaster.c:590:1: note: not vectorized: not enough data-refs in basic block.

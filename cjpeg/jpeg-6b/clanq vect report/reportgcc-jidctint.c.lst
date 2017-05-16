@@ -1,0 +1,6 @@
+jidctint.c:171:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; ctr--) {
+  ^
+jidctint.c:277:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = 0; ctr < DCTSIZE; ctr++) {
+  ^

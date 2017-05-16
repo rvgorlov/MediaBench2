@@ -1,0 +1,21 @@
+jcomapi.c:34:6: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:41:6: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:45:6: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:50:45: note: not consecutive access MEM[(struct jpeg_decompress_struct *)cinfo_5(D)].marker_list = 0B;
+jcomapi.c:50:45: note: not consecutive access cinfo_5(D)->global_state = 200;
+jcomapi.c:50:45: note: not vectorized: no grouped stores in basic block.
+jcomapi.c:52:25: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:52:25: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:73:6: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:74:6: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:77:1: note: not consecutive access cinfo_3(D)->mem = 0B;
+jcomapi.c:77:1: note: not consecutive access cinfo_3(D)->global_state = 0;
+jcomapi.c:77:1: note: not vectorized: no grouped stores in basic block.
+jcomapi.c:90:7: note: not consecutive access _4 = _3->alloc_small;
+jcomapi.c:90:7: note: not consecutive access _3 = cinfo_2(D)->mem;
+jcomapi.c:90:7: note: not vectorized: no grouped stores in basic block.
+jcomapi.c:93:10: note: not vectorized: not enough data-refs in basic block.
+jcomapi.c:102:7: note: not consecutive access _4 = _3->alloc_small;
+jcomapi.c:102:7: note: not consecutive access _3 = cinfo_2(D)->mem;
+jcomapi.c:102:7: note: not vectorized: no grouped stores in basic block.
+jcomapi.c:105:10: note: not vectorized: not enough data-refs in basic block.

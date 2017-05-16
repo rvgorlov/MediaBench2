@@ -19,29 +19,43 @@ manprefix =
 manext = 1
 mandir = $(prefix)/man/man$(manext)
 
+VECTLOG= >vectlog 
+
 # The name of your C compiler:
-CC= clang
+#CC= clang
+#CC= gcc
+CC= icc
+#CC= cc
+
+#PGOPT= -pg
 
 # You may need to adjust these cc options:
-
 #GCC
 # vect
-#CFLAGS= -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize  -I$(srcdir)
+#CFLAGS= -g -pg -static -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
+#CFLAGS= -O3 -mfpmath=sse -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I$(srcdir)
+
+#CFLAGS= -O3 -march=native -fivopts -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=1
 # scalar
-#CFLAGS = -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize -I$(srcdir)
+#CFLAGS= -g -pg -static -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize -I$(srcdir)
+
+#GCC FOR gprof
+#CFLAGS= -g -pg -static -I$(srcdir)
+
+# -rdynamic
 
 #clang
 # vect
-CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I$(srcdir)
+#CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I$(srcdir)
 # scalar
 #CFLAGS = -O3 -ffast-math -fno-vectorize -I$(srcdir)
 
 #ICC
 #vect
-#CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -I$(srcdir)
+#CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -vec_report -I$(srcdir)
 
 #scalar
-#CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
+CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
 
 # Generally, we recommend defining any configuration symbols in jconfig.h,
 # NOT via -D switches here.
@@ -49,7 +63,7 @@ CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-ve
 ANSI2KNRFLAGS= 
 
 # Link-time cc options:
-LDFLAGS= 
+LDFLAGS=
 
 # To link any special libraries, add the necessary -l commands here.
 LDLIBS= 
@@ -73,7 +87,8 @@ SYSDEPMEM= jmemnobs.$(O)
 # miscellaneous OS-dependent stuff
 SHELL= /bin/sh
 # linker
-LN= $(CC)
+LN= $(CC) -g -pg -static
+#LN= $(CC)
 # file deletion command
 RM= rm -f
 # directory creation command
@@ -152,10 +167,14 @@ DOBJECTS= djpeg.$(O) wrppm.$(O) wrgif.$(O) wrtarga.$(O) wrrle.$(O) \
 TROBJECTS= jpegtran.$(O) rdswitch.$(O) cdjpeg.$(O) transupp.$(O)
 
 
-all:  libjpeg.$(A) cjpeg djpeg jpegtran rdjpgcom wrjpgcom
+all: hpctimer libjpeg.$(A) cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 
 # Special compilation rules to support ansi2knr and libtool.
 .SUFFIXES: .lo .la
+
+#$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
+%.o: %.c 
+	$(CC) $(CFLAGS) -o $@ -c $<
 
 # How to compile with libtool.
 # .c.lo:
@@ -193,7 +212,7 @@ libjpeg.la: $(LIBOBJECTS)
 # sample programs:
 
 cjpeg: hpctimer $(COBJECTS) libjpeg.$(A)
-	$(LN) $(LDFLAGS) -o cjpeg $(COBJECTS) libjpeg.$(A) hpctimer.o $(LDLIBS) 
+	$(LN) $(LDFLAGS) -o cjpeg $(COBJECTS) libjpeg.$(A) hpctimer.o $(LDLIBS)  
 
 djpeg: hpctimer $(DOBJECTS) libjpeg.$(A)
 	$(LN) $(LDFLAGS) -o djpeg $(DOBJECTS) libjpeg.$(A) hpctimer.o $(LDLIBS)
@@ -235,6 +254,8 @@ clean:
 	$(RM) cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 	$(RM) ansi2knr core testout* config.log config.status
 	$(RM) -r knr .libs _libs
+	$(RM) *.optrpt
+	$(RM) *.lst
 
 distclean: clean
 	$(RM) Makefile jconfig.h libtool config.cache
@@ -312,7 +333,7 @@ jquant1.$(O): jquant1.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerr
 jquant2.$(O): jquant2.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h
 jutils.$(O): jutils.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h
 jmemmgr.$(O): jmemmgr.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h jmemsys.h
-jmemansi.$(O): jmemansi.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h jmemsys.h
+jmemansi.$(O): jmemansi.c jinclude.h jconfig.h jpegliofb.h jmorecfg.h jpegint.h jerror.h jmemsys.h
 jmemname.$(O): jmemname.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h jmemsys.h
 jmemnobs.$(O): jmemnobs.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h jmemsys.h
 jmemdos.$(O): jmemdos.c jinclude.h jconfig.h jpeglib.h jmorecfg.h jpegint.h jerror.h jmemsys.h
@@ -342,7 +363,18 @@ diplom:
 	./djpeg -dct int -ppm -outfile output_base_4CIF_96bps.ppm output_base_4CIF_96bps.jpg
 
 hpctimer: hpctimer.o
-	gcc -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
+	#gcc -pg -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o
+	#gcc -pg -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
 
 hpctimer.o: hpctimer.c hpctimer.h
+
+profcjpeg: 
+	./cjpeg -dct int -quality 75 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm
+	gprof ./cjpeg ./gmon.out > ./profiling/cjpeg_profiling.txt
+
+profdjpeg:
+	./djpeg -dct int -ppm -outfile output_base_4CIF_96bps.ppm output_base_4CIF_96bps.jpg
+	gprof ./djpeg ./gmon.out > ./profiling/djpeg_profiling.txt
+
+profiling: profcjpeg profdjpeg 
 

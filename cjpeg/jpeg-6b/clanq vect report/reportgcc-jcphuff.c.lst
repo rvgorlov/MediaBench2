@@ -1,0 +1,96 @@
+jcphuff.c:146:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:162:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT1(cinfo, JERR_NO_HUFF_TABLE, tbl);
+        ^
+jcphuff.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:158:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (gather_statistics) {
+        ^
+jcphuff.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:422:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (temp) {
+    ^
+jcphuff.c:422:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:525:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while ((temp >>= 1))
+    ^
+jcphuff.c:525:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:284:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    entropy->count_ptrs[tbl_no][symbol]++;
+    ^
+jcphuff.c:518:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    while (r > 15) {
+    ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:646:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (k = cinfo->Ss; k <= Se; k++) {
+  ^
+jcphuff.c:646:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:800:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (*htblptr == NULL)
+          ^
+jcphuff.c:786:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:795:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! did[tbl]) {
+        ^
+jcphuff.c:786:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:361:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < entropy->cinfo->comps_in_scan; ci++)
+    ^
+jcphuff.c:361:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:323:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while ((temp >>= 1))
+    ^
+jcphuff.c:323:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^

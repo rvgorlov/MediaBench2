@@ -1,0 +1,26 @@
+jdcolor.c:90:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0, x = -CENTERJSAMPLE; i <= MAXJSAMPLE; i++, x++) {
+  ^
+jdcolor.c:90:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:90:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:90:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:352:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (ci = 1; ci < cinfo->num_components; ci++)
+      ^
+jdcolor.c:352:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:144:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jdcolor.c:144:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcolor.c:228:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jdcolor.c:228:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:183:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (count = num_cols; count > 0; count--) {
+      ^
+jdcolor.c:183:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcolor.c:270:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jdcolor.c:270:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

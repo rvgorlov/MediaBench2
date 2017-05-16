@@ -1,0 +1,12 @@
+jdmerge.c:103:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0, x = -CENTERJSAMPLE; i <= MAXJSAMPLE; i++, x++) {
+  ^
+jdmerge.c:103:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdmerge.c:313:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width >> 1; col > 0; col--) {
+  ^
+jdmerge.c:313:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmerge.c:249:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width >> 1; col > 0; col--) {
+  ^
+jdmerge.c:249:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

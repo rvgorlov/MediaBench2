@@ -1,0 +1,336 @@
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_30 and *_37
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_30 and *_45
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_30 and *_48
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_37 and *_45
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_37 and *_48
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_45 and *_48
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: virtual phi. skip.
+jdcolor.c:90:3: note: op not supported by target.
+jdcolor.c:90:3: note: not vectorized: relevant stmt not supported: _31 = x_61 * 91881;
+jdcolor.c:90:3: note: bad operation or unsupported loop bound.
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_30 and *_37
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_30 and *_45
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_30 and *_48
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_37 and *_45
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_37 and *_48
+jdcolor.c:90:3: note: versioning for alias required: can't determine dependence between *_45 and *_48
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: Unknown misalignment, is_packed = 0
+jdcolor.c:90:3: note: virtual phi. skip.
+jdcolor.c:90:3: note: op not supported by target.
+jdcolor.c:90:3: note: not vectorized: relevant stmt not supported: _33 = _32 >> 16;
+jdcolor.c:90:3: note: bad operation or unsupported loop bound.
+jdcolor.c:78:6: note: not consecutive access _8 = _7->alloc_small;
+jdcolor.c:78:6: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:81:6: note: not consecutive access _13 = _12->alloc_small;
+jdcolor.c:81:6: note: not consecutive access cconvert_6->Cr_r_tab = _10;
+jdcolor.c:81:6: note: not consecutive access _12 = cinfo_5(D)->mem;
+jdcolor.c:81:6: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:84:6: note: not consecutive access _18 = _17->alloc_small;
+jdcolor.c:84:6: note: not consecutive access cconvert_6->Cb_b_tab = _15;
+jdcolor.c:84:6: note: not consecutive access _17 = cinfo_5(D)->mem;
+jdcolor.c:84:6: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:87:6: note: not consecutive access _23 = _22->alloc_small;
+jdcolor.c:87:6: note: not consecutive access cconvert_6->Cr_g_tab = _20;
+jdcolor.c:87:6: note: not consecutive access _22 = cinfo_5(D)->mem;
+jdcolor.c:87:6: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:86:22: note: not consecutive access cconvert_6->Cb_g_tab = _25;
+jdcolor.c:86:22: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:90:3: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:105:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:138:9: note: not vectorized: control flow in loop.
+jdcolor.c:138:9: note: bad loop form.
+jdcolor.c:144:5: note: not vectorized: not suitable for gather load _47 = *_46;
+
+jdcolor.c:144:5: note: bad data references.
+jdcolor.c:135:20: note: not consecutive access num_cols_11 = cinfo_9(D)->output_width;
+jdcolor.c:135:20: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:144:5: note: not consecutive access inptr0_26 = *_25;
+jdcolor.c:144:5: note: not consecutive access inptr1_29 = *_28;
+jdcolor.c:144:5: note: not consecutive access inptr2_32 = *_31;
+jdcolor.c:144:5: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:144:5: note: not consecutive access _59 = *_58;
+jdcolor.c:144:5: note: not consecutive access _56 = *_55;
+jdcolor.c:144:5: note: not consecutive access _47 = *_46;
+jdcolor.c:144:5: note: not consecutive access _70 = *_69;
+jdcolor.c:144:5: note: not consecutive access _51 = *_50;
+jdcolor.c:144:5: note: not consecutive access _66 = *_65;
+jdcolor.c:144:5: note: not consecutive access _74 = *_73;
+jdcolor.c:144:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:144:5: note: not consecutive access _59 = *_58;
+jdcolor.c:144:5: note: not consecutive access _56 = *_55;
+jdcolor.c:144:5: note: not consecutive access _47 = *_46;
+jdcolor.c:144:5: note: not consecutive access _70 = *_69;
+jdcolor.c:144:5: note: not consecutive access _51 = *_50;
+jdcolor.c:144:5: note: not consecutive access _66 = *_65;
+jdcolor.c:144:5: note: not consecutive access _74 = *_73;
+jdcolor.c:144:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:138:9: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:157:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:179:9: note: not vectorized: multiple nested loops.
+jdcolor.c:179:9: note: bad loop form.
+jdcolor.c:180:5: note: not vectorized: not suitable for gather load inptr_27 = *_26;
+
+jdcolor.c:180:5: note: bad data references.
+jdcolor.c:183:7: note: versioning for alias required: can't determine dependence between *inptr_54 and *outptr_55
+jdcolor.c:183:7: note: versioning not yet supported for non-constant step
+jdcolor.c:183:7: note: bad data dependence.
+jdcolor.c:183:7: note: versioning for alias required: can't determine dependence between *inptr_54 and *outptr_55
+jdcolor.c:183:7: note: versioning not yet supported for non-constant step
+jdcolor.c:183:7: note: bad data dependence.
+jdcolor.c:179:9: note: not consecutive access num_components_13 = cinfo_12(D)->num_components;
+jdcolor.c:179:9: note: not consecutive access num_cols_14 = cinfo_12(D)->output_width;
+jdcolor.c:179:9: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:182:14: note: not consecutive access inptr_27 = *_26;
+jdcolor.c:182:14: note: not consecutive access _28 = *output_buf_53;
+jdcolor.c:182:14: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:180:5: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:183:7: note: not consecutive access *outptr_55 = _32;
+jdcolor.c:183:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:179:9: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:179:9: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:179:9: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:191:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:225:9: note: not vectorized: control flow in loop.
+jdcolor.c:225:9: note: bad loop form.
+jdcolor.c:228:5: note: versioning for alias required: can't determine dependence between *_25 and MEM[(JSAMPLE *)outptr_35 + 2B]
+jdcolor.c:228:5: note: versioning for alias required: can't determine dependence between *_25 and MEM[(JSAMPLE *)outptr_35 + 1B]
+jdcolor.c:228:5: note: versioning for alias required: can't determine dependence between *_25 and *outptr_35
+jdcolor.c:228:5: note: Build SLP failed: not grouped load _26 = *_25;
+
+jdcolor.c:228:5: note: Unknown misalignment, is_packed = 0
+jdcolor.c:228:5: note: vector alignment may not be reachable
+jdcolor.c:228:5: note: virtual phi. skip.
+jdcolor.c:228:5: note: not ssa-name.
+jdcolor.c:228:5: note: use not simple.
+jdcolor.c:228:5: note: not ssa-name.
+jdcolor.c:228:5: note: use not simple.
+jdcolor.c:228:5: note: no array mode for V32QI[3]
+permutaion op not supported by target.
+jdcolor.c:228:5: note: not vectorized: relevant stmt not supported: MEM[(JSAMPLE *)outptr_35 + 2B] = _26;
+jdcolor.c:228:5: note: bad operation or unsupported loop bound.
+jdcolor.c:228:5: note: versioning for alias required: can't determine dependence between *_25 and MEM[(JSAMPLE *)outptr_35 + 2B]
+jdcolor.c:228:5: note: versioning for alias required: can't determine dependence between *_25 and MEM[(JSAMPLE *)outptr_35 + 1B]
+jdcolor.c:228:5: note: versioning for alias required: can't determine dependence between *_25 and *outptr_35
+jdcolor.c:228:5: note: Build SLP failed: not grouped load _26 = *_25;
+
+jdcolor.c:228:5: note: Unknown misalignment, is_packed = 0
+jdcolor.c:228:5: note: vector alignment may not be reachable
+jdcolor.c:228:5: note: virtual phi. skip.
+jdcolor.c:228:5: note: not ssa-name.
+jdcolor.c:228:5: note: use not simple.
+jdcolor.c:228:5: note: not ssa-name.
+jdcolor.c:228:5: note: use not simple.
+jdcolor.c:228:5: note: no array mode for V16QI[3]
+jdcolor.c:228:5: note: no array mode for V16QI[3]
+jdcolor.c:228:5: note: no array mode for V16QI[3]
+jdcolor.c:228:5: note: virtual phi. skip.
+jdcolor.c:228:5: note: loop vectorized
+jdcolor.c:228:5: note: loop versioned for vectorization because of possible aliasing
+jdcolor.c:228:5: note: virtual phi. skip.
+jdcolor.c:228:5: note: no array mode for V16QI[3]
+jdcolor.c:228:5: note: no array mode for V16QI[3]
+jdcolor.c:228:5: note: no array mode for V16QI[3]
+jdcolor.c:223:14: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:228:5: note: not consecutive access inptr_21 = *_20;
+jdcolor.c:228:5: note: not consecutive access _16 = *input_buf_15(D);
+jdcolor.c:228:5: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:228:5: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:228:5: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:230:23: note: not vectorized: no vectype for stmt: vect__26.98_85 = MEM[(JSAMPLE *)vectp_inptr.96_83];
+ scalar_type: vector(16) unsigned char
+jdcolor.c:230:23: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.99_86] = vect_shuffle3_high_89;
+ scalar_type: vector(16) unsigned char
+jdcolor.c:230:23: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.99_95] = vect_shuffle3_high_91;
+ scalar_type: vector(16) unsigned char
+jdcolor.c:230:23: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.99_97] = vect_shuffle3_high_93;
+ scalar_type: vector(16) unsigned char
+jdcolor.c:230:23: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:228:38: note: not consecutive access _65 = *_64;
+jdcolor.c:228:38: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:38: note: not consecutive access _65 = *_64;
+jdcolor.c:228:38: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:38: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:228:5: note: not consecutive access _35 = *_36;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _35 = *_36;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _102 = *_101;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _102 = *_101;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _113 = *_112;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _113 = *_112;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _124 = *_123;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _124 = *_123;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _135 = *_134;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _135 = *_134;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _146 = *_145;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _146 = *_145;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _157 = *_156;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _157 = *_156;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _168 = *_167;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _168 = *_167;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _179 = *_178;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _179 = *_178;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _190 = *_189;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _190 = *_189;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _201 = *_200;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _201 = *_200;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _212 = *_211;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _212 = *_211;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _223 = *_222;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _223 = *_222;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _234 = *_233;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: not consecutive access _234 = *_233;
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:225:9: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:234:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:263:9: note: not vectorized: control flow in loop.
+jdcolor.c:263:9: note: bad loop form.
+jdcolor.c:270:5: note: not vectorized: not suitable for gather load _50 = *_49;
+
+jdcolor.c:270:5: note: bad data references.
+jdcolor.c:260:20: note: not consecutive access num_cols_11 = cinfo_9(D)->output_width;
+jdcolor.c:260:20: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:270:5: note: not consecutive access inptr0_26 = *_25;
+jdcolor.c:270:5: note: not consecutive access inptr1_29 = *_28;
+jdcolor.c:270:5: note: not consecutive access inptr2_32 = *_31;
+jdcolor.c:270:5: note: not consecutive access inptr3_35 = *_34;
+jdcolor.c:270:5: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:270:5: note: not consecutive access _63 = *_62;
+jdcolor.c:270:5: note: not consecutive access _60 = *_59;
+jdcolor.c:270:5: note: not consecutive access _50 = *_49;
+jdcolor.c:270:5: note: not consecutive access _75 = *_74;
+jdcolor.c:270:5: note: not consecutive access _55 = *_54;
+jdcolor.c:270:5: note: not consecutive access _71 = *_70;
+jdcolor.c:270:5: note: not consecutive access _80 = *_79;
+jdcolor.c:270:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:270:5: note: not consecutive access _63 = *_62;
+jdcolor.c:270:5: note: not consecutive access _60 = *_59;
+jdcolor.c:270:5: note: not consecutive access _50 = *_49;
+jdcolor.c:270:5: note: not consecutive access _75 = *_74;
+jdcolor.c:270:5: note: not consecutive access _55 = *_54;
+jdcolor.c:270:5: note: not consecutive access _71 = *_70;
+jdcolor.c:270:5: note: not consecutive access _80 = *_79;
+jdcolor.c:270:5: note: Build SLP failed: unrolling required in basic block SLP
+jdcolor.c:263:9: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:285:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:296:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:205:3: note: not consecutive access _3 = cinfo_2(D)->output_width;
+jdcolor.c:205:3: note: not consecutive access _7 = *input_buf_6(D);
+jdcolor.c:205:3: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:207:1: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:352:7: note: not consecutive access _50->component_needed = 0;
+jdcolor.c:352:7: note: virtual phi. skip.
+jdcolor.c:352:7: note: cost model: the vector iteration cost = 16 divided by the scalar iteration cost = 1 is greater or equal to the vectorization factor = 8.
+jdcolor.c:352:7: note: not vectorized: vectorization not profitable.
+jdcolor.c:352:7: note: not vectorized: vector version will never be profitable.
+jdcolor.c:352:7: note: not consecutive access _50->component_needed = 0;
+jdcolor.c:352:7: note: virtual phi. skip.
+jdcolor.c:352:7: note: cost model: the vector iteration cost = 8 divided by the scalar iteration cost = 1 is greater or equal to the vectorization factor = 4.
+jdcolor.c:352:7: note: not vectorized: vectorization not profitable.
+jdcolor.c:352:7: note: not vectorized: vector version will never be profitable.
+jdcolor.c:309:12: note: not consecutive access _9 = _8->alloc_small;
+jdcolor.c:309:12: note: not consecutive access _8 = cinfo_7(D)->mem;
+jdcolor.c:309:12: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:316:3: note: not consecutive access cconvert_11->pub.start_pass = start_pass_dcolor;
+jdcolor.c:316:3: note: not consecutive access _14 = cinfo_7(D)->jpeg_color_space;
+jdcolor.c:316:3: note: not consecutive access cinfo_7(D)->cconvert = cconvert_11;
+jdcolor.c:316:3: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:318:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:319:7: note: not consecutive access _18 = _16->error_exit;
+jdcolor.c:319:7: note: not consecutive access _16->msg_code = 10;
+jdcolor.c:319:7: note: not consecutive access _16 = cinfo_7(D)->err;
+jdcolor.c:319:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:319:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:324:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:325:7: note: not consecutive access _23 = _21->error_exit;
+jdcolor.c:325:7: note: not consecutive access _21->msg_code = 10;
+jdcolor.c:325:7: note: not consecutive access _21 = cinfo_7(D)->err;
+jdcolor.c:325:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:325:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:330:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:331:7: note: not consecutive access _28 = _26->error_exit;
+jdcolor.c:331:7: note: not consecutive access _26->msg_code = 10;
+jdcolor.c:331:7: note: not consecutive access _26 = cinfo_7(D)->err;
+jdcolor.c:331:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:331:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:335:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:336:7: note: not consecutive access _33 = _31->error_exit;
+jdcolor.c:336:7: note: not consecutive access _31->msg_code = 10;
+jdcolor.c:336:7: note: not consecutive access _31 = cinfo_7(D)->err;
+jdcolor.c:336:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:336:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:345:3: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:348:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:352:7: note: not consecutive access cconvert_11->pub.color_convert = grayscale_convert;
+jdcolor.c:352:7: note: not consecutive access _86 = cinfo_7(D)->num_components;
+jdcolor.c:352:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:352:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:352:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:355:7: note: not consecutive access _43 = _41->error_exit;
+jdcolor.c:355:7: note: not consecutive access _41->msg_code = 27;
+jdcolor.c:355:7: note: not consecutive access _41 = cinfo_7(D)->err;
+jdcolor.c:355:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:360:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:362:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:363:15: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:364:35: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:365:15: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:366:35: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:368:7: note: not consecutive access _58 = _56->error_exit;
+jdcolor.c:368:7: note: not consecutive access _56->msg_code = 27;
+jdcolor.c:368:7: note: not consecutive access _56 = cinfo_7(D)->err;
+jdcolor.c:368:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:373:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:375:7: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:376:15: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:377:35: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:379:7: note: not consecutive access _68 = _66->error_exit;
+jdcolor.c:379:7: note: not consecutive access _66->msg_code = 27;
+jdcolor.c:379:7: note: not consecutive access _66 = cinfo_7(D)->err;
+jdcolor.c:379:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:384:8: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:386:35: note: not consecutive access cconvert_11->pub.color_convert = null_convert;
+jdcolor.c:386:35: note: not consecutive access _77 = cinfo_7(D)->num_components;
+jdcolor.c:386:35: note: not consecutive access cinfo_7(D)->out_color_components = _77;
+jdcolor.c:386:35: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:388:7: note: not consecutive access _75 = _73->error_exit;
+jdcolor.c:388:7: note: not consecutive access _73->msg_code = 27;
+jdcolor.c:388:7: note: not consecutive access _73 = cinfo_7(D)->err;
+jdcolor.c:388:7: note: not vectorized: no grouped stores in basic block.
+jdcolor.c:392:6: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:395:37: note: not vectorized: not enough data-refs in basic block.
+jdcolor.c:396:1: note: not vectorized: not enough data-refs in basic block.

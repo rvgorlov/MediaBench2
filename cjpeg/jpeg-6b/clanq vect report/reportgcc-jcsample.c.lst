@@ -1,0 +1,76 @@
+jcsample.c:485:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (compptr->h_samp_factor == cinfo->max_h_samp_factor &&
+        ^
+jcsample.c:483:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcsample.c:123:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcsample.c:123:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:435:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (colctr = output_cols - 2; colctr > 0; colctr--) {
+    ^
+jcsample.c:435:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:232:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (outcol = 0; outcol < output_cols; outcol++) {
+    ^
+jcsample.c:232:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:228:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (outrow = 0; outrow < compptr->v_samp_factor; outrow++) {
+  ^
+jcsample.c:228:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:346:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (colctr = output_cols - 2; colctr > 0; colctr--) {
+    ^
+jcsample.c:346:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:271:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (outcol = 0; outcol < output_cols; outcol++) {
+    ^
+jcsample.c:271:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:266:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (outrow = 0; outrow < compptr->v_samp_factor; outrow++) {
+  ^
+jcsample.c:266:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:169:2: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+        for (h = 0; h < h_expand; h++) {
+        ^
+jcsample.c:164:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (outcol = 0, outcol_h = 0; outcol < output_cols;
+    ^

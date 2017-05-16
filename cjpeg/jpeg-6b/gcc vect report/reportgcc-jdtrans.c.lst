@@ -1,0 +1,61 @@
+jdtrans.c:57:10: note: not vectorized: control flow in loop.
+jdtrans.c:57:10: note: bad loop form.
+jdtrans.c:47:6: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:103:6: note: not consecutive access _47 = cinfo_8(D)->arith_code;
+jdtrans.c:103:6: note: not consecutive access cinfo_8(D)->buffered_image = 1;
+jdtrans.c:103:6: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:104:5: note: not consecutive access _49 = _48->error_exit;
+jdtrans.c:104:5: note: not consecutive access _48->msg_code = 1;
+jdtrans.c:104:5: note: not consecutive access _48 = cinfo_8(D)->err;
+jdtrans.c:104:5: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:106:8: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:120:4: note: not consecutive access _52 = _51->realize_virt_arrays;
+jdtrans.c:120:4: note: not consecutive access _51 = cinfo_8(D)->mem;
+jdtrans.c:120:4: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:123:4: note: not consecutive access _54 = _53->start_input_pass;
+jdtrans.c:123:4: note: not consecutive access _53 = cinfo_8(D)->inputctl;
+jdtrans.c:123:4: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:126:6: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:129:8: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:131:14: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:132:15: note: not consecutive access _61 = _60->has_multiple_scans;
+jdtrans.c:132:15: note: not consecutive access _60 = cinfo_8(D)->inputctl;
+jdtrans.c:132:15: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:134:14: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:141:35: note: not consecutive access _63 = cinfo_8(D)->total_iMCU_rows;
+jdtrans.c:141:35: note: Build SLP failed: unrolling required in basic block SLP
+jdtrans.c:141:35: note: Build SLP failed: unrolling required in basic block SLP
+jdtrans.c:141:35: note: not consecutive access _63 = cinfo_8(D)->total_iMCU_rows;
+jdtrans.c:141:35: note: Build SLP failed: different operation in stmt _55->pass_limit = _67;
+jdtrans.c:141:35: note: original stmt _55->pass_counter = 0;
+jdtrans.c:141:35: note: Build SLP failed: unrolling required in basic block SLP
+jdtrans.c:50:25: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:52:6: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:52:6: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:57:10: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:58:3: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:60:15: note: not consecutive access _18 = _17->consume_input;
+jdtrans.c:60:15: note: not consecutive access _17 = cinfo_8(D)->inputctl;
+jdtrans.c:60:15: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:61:10: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:63:10: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:66:10: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:66:35: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:68:5: note: not consecutive access _21->pass_counter = _27;
+jdtrans.c:68:5: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:70:32: note: not consecutive access _21->pass_limit = _32;
+jdtrans.c:70:32: note: not consecutive access _30 = cinfo_8(D)->total_iMCU_rows;
+jdtrans.c:70:32: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:75:25: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:81:6: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:82:48: note: not vectorized: not enough data-refs in basic block.
+jdtrans.c:83:23: note: not consecutive access _41 = _40->coef_arrays;
+jdtrans.c:83:23: note: not consecutive access _40 = cinfo_8(D)->coef;
+jdtrans.c:83:23: note: not vectorized: no grouped stores in basic block.
+jdtrans.c:86:3: note: not consecutive access _45 = _42->error_exit;
+jdtrans.c:86:3: note: not consecutive access _42 = cinfo_8(D)->err;
+jdtrans.c:86:3: note: Build SLP failed: unrolling required in basic block SLP
+jdtrans.c:86:3: note: not consecutive access _45 = _42->error_exit;
+jdtrans.c:86:3: note: not consecutive access _42 = cinfo_8(D)->err;
+jdtrans.c:86:3: note: Build SLP failed: unrolling required in basic block SLP
+jdtrans.c:86:3: note: not vectorized: not enough data-refs in basic block.

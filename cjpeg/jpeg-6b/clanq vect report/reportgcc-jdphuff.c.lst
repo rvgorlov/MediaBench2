@@ -1,0 +1,110 @@
+jdphuff.c:214:13: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+        ~~~~^
+jdphuff.c:214:28: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                       ~~~~^
+jdphuff.c:214:43: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                      ~~~~^
+jdphuff.c:214:58: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                                     ~~~~^
+jdphuff.c:215:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+     ~~~~^
+jdphuff.c:215:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                    ~~~~^
+jdphuff.c:215:40: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                   ~~~~^
+jdphuff.c:215:55: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                                  ~~~~^
+jdphuff.c:216:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+     ~~~~^
+jdphuff.c:216:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                    ~~~~^
+jdphuff.c:216:41: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                    ~~~~^
+jdphuff.c:216:57: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                                    ~~~~^
+jdphuff.c:217:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+     ~~~~^
+jdphuff.c:217:26: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                     ~~~~^
+jdphuff.c:217:42: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                                     ~~~~^
+jdphuff.c:663:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->num_components; ci++) 
+  ^
+jdphuff.c:663:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:143:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        WARNMS2(cinfo, JWRN_BOGUS_PROGRESSION, cindex, coefi);
+        ^
+jdphuff.c:140:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (coefi = cinfo->Ss; coefi <= cinfo->Se; coefi++) {
+    ^
+jdphuff.c:143:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        WARNMS2(cinfo, JWRN_BOGUS_PROGRESSION, cindex, coefi);
+        ^
+jdphuff.c:140:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (coefi = cinfo->Ss; coefi <= cinfo->Se; coefi++) {
+    ^
+jdphuff.c:161:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jdphuff.c:161:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:167:21: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      if (cinfo->Ah == 0) {     /* DC refinement needs no table */
+                    ^
+jdphuff.c:167:21: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:316:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (blkn = 0; blkn < cinfo->blocks_in_MCU; blkn++) {
+    ^
+jdphuff.c:316:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:394:7: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      for (k = cinfo->Ss; k <= Se; k++) {
+      ^
+jdphuff.c:394:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:466:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (blkn = 0; blkn < cinfo->blocks_in_MCU; blkn++) {
+  ^
+jdphuff.c:466:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:565:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        do {
+        ^
+jdphuff.c:565:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:599:7: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      for (; k <= Se; k++) {
+      ^
+jdphuff.c:599:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:629:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  while (num_newnz > 0)
+  ^
+jdphuff.c:629:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+15 warnings generated.

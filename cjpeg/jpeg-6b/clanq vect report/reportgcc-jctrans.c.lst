@@ -1,0 +1,21 @@
+jctrans.c:125:4: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+          ERREXIT1(dstinfo, JERR_MISMATCHED_QUANT_TABLE, tblno);
+          ^
+jctrans.c:123:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (coefi = 0; coefi < DCTSIZE2; coefi++) {
+      ^
+jctrans.c:292:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jctrans.c:292:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jctrans.c:329:4: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+          for (; xindex < compptr->MCU_width; xindex++) {
+          ^
+jctrans.c:329:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jctrans.c:317:6: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+            for (xindex = 0; xindex < blockcnt; xindex++)
+            ^
+jctrans.c:329:4: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+          for (; xindex < compptr->MCU_width; xindex++) {
+          ^
+jctrans.c:329:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

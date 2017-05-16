@@ -1,0 +1,253 @@
+rdppm.c:435:1: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:192:3: note: not vectorized: not suitable for gather load _27 = *_26;
+
+rdppm.c:192:3: note: bad data references.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access _10 = MEM[(struct ppm_source_struct *)sinfo_6(D)].buffer_width;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access rescale_8 = MEM[(struct ppm_source_struct *)sinfo_6(D)].rescale;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+rdppm.c:188:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:189:5: note: not consecutive access _16 = _14->error_exit;
+rdppm.c:189:5: note: not consecutive access _14->msg_code = 43;
+rdppm.c:189:5: note: not consecutive access _14 = cinfo_13(D)->err;
+rdppm.c:189:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:192:3: note: not consecutive access ptr_19 = *_18;
+rdppm.c:192:3: note: not consecutive access col_21 = cinfo_13(D)->image_width;
+rdppm.c:192:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:195:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:192:3: note: not consecutive access _27 = *_26;
+rdppm.c:192:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:213:3: note: not vectorized: not suitable for gather load _25 = *_24;
+
+rdppm.c:213:3: note: bad data references.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access _10 = MEM[(struct ppm_source_struct *)sinfo_6(D)].buffer_width;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access rescale_8 = MEM[(struct ppm_source_struct *)sinfo_6(D)].rescale;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+rdppm.c:209:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:210:5: note: not consecutive access _16 = _14->error_exit;
+rdppm.c:210:5: note: not consecutive access _14->msg_code = 43;
+rdppm.c:210:5: note: not consecutive access _14 = cinfo_13(D)->err;
+rdppm.c:210:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:213:3: note: not consecutive access ptr_19 = *_18;
+rdppm.c:213:3: note: not consecutive access col_21 = cinfo_13(D)->image_width;
+rdppm.c:213:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:218:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:213:3: note: not consecutive access _25 = *_24;
+rdppm.c:213:3: note: not consecutive access _30 = *_29;
+rdppm.c:213:3: note: not consecutive access _37 = *_36;
+rdppm.c:213:3: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:213:3: note: not consecutive access _25 = *_24;
+rdppm.c:213:3: note: not consecutive access _30 = *_29;
+rdppm.c:213:3: note: not consecutive access _37 = *_36;
+rdppm.c:213:3: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:251:3: note: not vectorized: not suitable for gather load _32 = *_31;
+
+rdppm.c:251:3: note: bad data references.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access _10 = MEM[(struct ppm_source_struct *)sinfo_6(D)].buffer_width;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access rescale_8 = MEM[(struct ppm_source_struct *)sinfo_6(D)].rescale;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+rdppm.c:247:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:248:5: note: not consecutive access _16 = _14->error_exit;
+rdppm.c:248:5: note: not consecutive access _14->msg_code = 43;
+rdppm.c:248:5: note: not consecutive access _14 = cinfo_13(D)->err;
+rdppm.c:248:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:251:3: note: not consecutive access ptr_19 = *_18;
+rdppm.c:251:3: note: not consecutive access col_21 = cinfo_13(D)->image_width;
+rdppm.c:251:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:257:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:251:3: note: not consecutive access _32 = *_31;
+rdppm.c:251:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:275:3: note: not vectorized: not suitable for gather load _30 = *_29;
+
+rdppm.c:275:3: note: bad data references.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access _10 = MEM[(struct ppm_source_struct *)sinfo_6(D)].buffer_width;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access rescale_8 = MEM[(struct ppm_source_struct *)sinfo_6(D)].rescale;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+rdppm.c:271:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:272:5: note: not consecutive access _16 = _14->error_exit;
+rdppm.c:272:5: note: not consecutive access _14->msg_code = 43;
+rdppm.c:272:5: note: not consecutive access _14 = cinfo_13(D)->err;
+rdppm.c:272:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:275:3: note: not consecutive access ptr_19 = *_18;
+rdppm.c:275:3: note: not consecutive access col_21 = cinfo_13(D)->image_width;
+rdppm.c:275:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:287:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:275:3: note: not consecutive access _30 = *_29;
+rdppm.c:275:3: note: not consecutive access _40 = *_39;
+rdppm.c:275:3: note: not consecutive access _52 = *_51;
+rdppm.c:275:3: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:275:3: note: not consecutive access _30 = *_29;
+rdppm.c:275:3: note: not consecutive access _40 = *_39;
+rdppm.c:275:3: note: not consecutive access _52 = *_51;
+rdppm.c:275:3: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access _5 = MEM[(struct ppm_source_struct *)sinfo_1(D)].buffer_width;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+rdppm.c:231:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:232:5: note: not consecutive access _22 = _21->error_exit;
+rdppm.c:232:5: note: not consecutive access _21->msg_code = 43;
+rdppm.c:232:5: note: not consecutive access _21 = cinfo_8(D)->err;
+rdppm.c:232:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:233:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:121:41: note: not vectorized: control flow in loop.
+rdppm.c:121:41: note: bad loop form.
+rdppm.c:94:5: note: not vectorized: number of iterations cannot be computed.
+rdppm.c:94:5: note: bad loop form.
+rdppm.c:115:50: note: not vectorized: control flow in loop.
+rdppm.c:115:50: note: bad loop form.
+rdppm.c:94:5: note: not vectorized: number of iterations cannot be computed.
+rdppm.c:94:5: note: bad loop form.
+rdppm.c:90:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:91:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:94:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:113:8: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:114:7: note: not consecutive access _14 = _11->error_exit;
+rdppm.c:114:7: note: not consecutive access _11->msg_code = 43;
+rdppm.c:114:7: note: not consecutive access _11 = cinfo_10(D)->err;
+rdppm.c:114:7: note: not vectorized: no grouped stores in basic block.
+rdppm.c:115:3: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:115:50: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:117:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:118:5: note: not consecutive access _26 = _24->error_exit;
+rdppm.c:118:5: note: not consecutive access _24->msg_code = 1026;
+rdppm.c:118:5: note: not consecutive access _24 = cinfo_10(D)->err;
+rdppm.c:118:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:120:7: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:123:9: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:90:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:91:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:94:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:121:41: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:125:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:419:5: note: not vectorized: latch block not empty.
+rdppm.c:419:5: note: bad loop form.
+rdppm.c:303:7: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:303:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:304:5: note: not consecutive access _23 = _20->error_exit;
+rdppm.c:304:5: note: not consecutive access _20->msg_code = 1027;
+rdppm.c:304:5: note: not consecutive access _20 = cinfo_19(D)->err;
+rdppm.c:304:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:306:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:306:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:306:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:316:5: note: not consecutive access _31 = _28->error_exit;
+rdppm.c:316:5: note: not consecutive access _28->msg_code = 1027;
+rdppm.c:316:5: note: not consecutive access _28 = cinfo_19(D)->err;
+rdppm.c:316:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:321:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:322:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:323:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:325:24: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:326:5: note: not consecutive access _48 = _45->error_exit;
+rdppm.c:326:5: note: not consecutive access _45->msg_code = 1027;
+rdppm.c:326:5: note: not consecutive access _45 = cinfo_19(D)->err;
+rdppm.c:326:5: note: not vectorized: no grouped stores in basic block.
+rdppm.c:337:3: note: not consecutive access cinfo_19(D)->data_precision = 8;
+rdppm.c:337:3: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:337:3: note: not consecutive access cinfo_19(D)->data_precision = 8;
+rdppm.c:337:3: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:341:5: note: not consecutive access _63 = _55->emit_message;
+rdppm.c:341:5: note: not consecutive access _55 = cinfo_19(D)->err;
+rdppm.c:341:5: note: not consecutive access cinfo_19(D)->input_components = 1;
+rdppm.c:341:5: note: not consecutive access cinfo_19(D)->in_color_space = 1;
+rdppm.c:341:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:341:5: note: not consecutive access _63 = _55->emit_message;
+rdppm.c:341:5: note: not consecutive access _55 = cinfo_19(D)->err;
+rdppm.c:341:5: note: not consecutive access cinfo_19(D)->input_components = 1;
+rdppm.c:341:5: note: not consecutive access cinfo_19(D)->in_color_space = 1;
+rdppm.c:341:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:342:32: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:349:5: note: not consecutive access _74 = _68->emit_message;
+rdppm.c:349:5: note: not consecutive access _68 = cinfo_19(D)->err;
+rdppm.c:349:5: note: not consecutive access cinfo_19(D)->input_components = 3;
+rdppm.c:349:5: note: not consecutive access cinfo_19(D)->in_color_space = 2;
+rdppm.c:349:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:349:5: note: not consecutive access _74 = _68->emit_message;
+rdppm.c:349:5: note: not consecutive access _68 = cinfo_19(D)->err;
+rdppm.c:349:5: note: not consecutive access cinfo_19(D)->input_components = 3;
+rdppm.c:349:5: note: not consecutive access cinfo_19(D)->in_color_space = 2;
+rdppm.c:349:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:350:32: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:357:5: note: not consecutive access _85 = _79->emit_message;
+rdppm.c:357:5: note: not consecutive access _79 = cinfo_19(D)->err;
+rdppm.c:357:5: note: not consecutive access cinfo_19(D)->input_components = 1;
+rdppm.c:357:5: note: not consecutive access cinfo_19(D)->in_color_space = 1;
+rdppm.c:357:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:357:5: note: not consecutive access _85 = _79->emit_message;
+rdppm.c:357:5: note: not consecutive access _79 = cinfo_19(D)->err;
+rdppm.c:357:5: note: not consecutive access cinfo_19(D)->input_components = 1;
+rdppm.c:357:5: note: not consecutive access cinfo_19(D)->in_color_space = 1;
+rdppm.c:357:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:358:8: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:359:34: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:360:15: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:361:34: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:365:34: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:372:5: note: not consecutive access _98 = _92->emit_message;
+rdppm.c:372:5: note: not consecutive access _92 = cinfo_19(D)->err;
+rdppm.c:372:5: note: not consecutive access cinfo_19(D)->input_components = 3;
+rdppm.c:372:5: note: not consecutive access cinfo_19(D)->in_color_space = 2;
+rdppm.c:372:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:372:5: note: not consecutive access _98 = _92->emit_message;
+rdppm.c:372:5: note: not consecutive access _92 = cinfo_19(D)->err;
+rdppm.c:372:5: note: not consecutive access cinfo_19(D)->input_components = 3;
+rdppm.c:372:5: note: not consecutive access cinfo_19(D)->in_color_space = 2;
+rdppm.c:372:5: note: Build SLP failed: unrolling required in basic block SLP
+rdppm.c:373:8: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:374:34: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:375:15: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:380:34: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:390:8: note: not consecutive access _110 = _109->alloc_small;
+rdppm.c:390:8: note: not consecutive access _109 = cinfo_19(D)->mem;
+rdppm.c:390:8: note: not consecutive access MEM[(struct ppm_source_struct *)sinfo_14(D)].buffer_width = _107;
+rdppm.c:390:8: note: not vectorized: no grouped stores in basic block.
+rdppm.c:395:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:401:31: note: not consecutive access MEM[(struct ppm_source_struct *)sinfo_14(D)].pub.buffer = _116;
+rdppm.c:401:31: note: not consecutive access MEM[(struct ppm_source_struct *)sinfo_14(D)].pixrow = _112;
+rdppm.c:401:31: note: not consecutive access MEM[(struct ppm_source_struct *)sinfo_14(D)].pub.buffer_height = 1;
+rdppm.c:401:31: note: not vectorized: no grouped stores in basic block.
+rdppm.c:404:27: note: not consecutive access _120 = _119->alloc_sarray;
+rdppm.c:404:27: note: not consecutive access _119 = cinfo_19(D)->mem;
+rdppm.c:404:27: note: not consecutive access _121 = cinfo_19(D)->input_components;
+rdppm.c:404:27: note: not vectorized: no grouped stores in basic block.
+rdppm.c:407:31: note: not consecutive access MEM[(struct ppm_source_struct *)sinfo_14(D)].pub.buffer = _125;
+rdppm.c:407:31: note: not consecutive access MEM[(struct ppm_source_struct *)sinfo_14(D)].pub.buffer_height = 1;
+rdppm.c:407:31: note: not vectorized: no grouped stores in basic block.
+rdppm.c:411:6: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:424:1: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:416:8: note: not consecutive access _129 = _128->alloc_small;
+rdppm.c:416:8: note: not consecutive access _128 = cinfo_19(D)->mem;
+rdppm.c:416:8: note: not vectorized: no grouped stores in basic block.
+rdppm.c:418:17: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:419:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:419:5: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:388:39: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:387:39: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:387:39: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:169:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+rdppm.c:169:3: note: not consecutive access ptr_9 = *_8;
+rdppm.c:169:3: note: not consecutive access col_11 = cinfo_10(D)->image_width;
+rdppm.c:169:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:174:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:170:22: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:171:22: note: not consecutive access _16 = *_15;
+rdppm.c:171:22: note: not consecutive access *ptr_34 = _16;
+rdppm.c:171:22: note: not vectorized: no grouped stores in basic block.
+rdppm.c:172:22: note: not consecutive access _22 = *_21;
+rdppm.c:172:22: note: not consecutive access MEM[(JSAMPLE *)ptr_34 + 1B] = _22;
+rdppm.c:172:22: note: not vectorized: no grouped stores in basic block.
+rdppm.c:169:3: note: not consecutive access _29 = *_28;
+rdppm.c:169:3: note: not consecutive access MEM[(JSAMPLE *)ptr_34 + 2B] = _29;
+rdppm.c:169:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:151:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+rdppm.c:151:3: note: not consecutive access ptr_9 = *_8;
+rdppm.c:151:3: note: not consecutive access col_11 = cinfo_10(D)->image_width;
+rdppm.c:151:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:154:10: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:152:22: note: not vectorized: not enough data-refs in basic block.
+rdppm.c:151:3: note: not consecutive access _17 = *_16;
+rdppm.c:151:3: note: not vectorized: no grouped stores in basic block.
+rdppm.c:448:10: note: not consecutive access _4 = _3->alloc_small;
+rdppm.c:448:10: note: not consecutive access _3 = cinfo_2(D)->mem;
+rdppm.c:448:10: note: not vectorized: no grouped stores in basic block.
+rdppm.c:455:10: note: not consecutive access source_6->pub.start_input = start_input_ppm;
+rdppm.c:455:10: note: not consecutive access source_6->pub.finish_input = finish_input_ppm;
+rdppm.c:455:10: note: not vectorized: no grouped stores in basic block.

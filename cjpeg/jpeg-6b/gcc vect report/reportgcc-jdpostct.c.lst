@@ -1,0 +1,133 @@
+jdpostct.c:77:3: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:79:8: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:86:10: note: not consecutive access _13 = post_6->buffer;
+jdpostct.c:86:10: note: not consecutive access post_6->pub.post_process_data = post_process_1pass;
+jdpostct.c:86:10: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:87:18: note: not consecutive access _15 = _14->access_virt_sarray;
+jdpostct.c:87:18: note: not consecutive access _17 = post_6->whole_image;
+jdpostct.c:87:18: note: not consecutive access _16 = post_6->strip_height;
+jdpostct.c:87:18: note: not consecutive access _14 = cinfo_5(D)->mem;
+jdpostct.c:87:18: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:87:15: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:95:35: note: not consecutive access _10 = _9->upsample;
+jdpostct.c:95:35: note: not consecutive access post_6->pub.post_process_data = _10;
+jdpostct.c:95:35: note: not consecutive access _9 = cinfo_5(D)->upsample;
+jdpostct.c:95:35: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:101:8: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:102:7: note: not consecutive access _24 = _22->error_exit;
+jdpostct.c:102:7: note: not consecutive access _22->msg_code = 4;
+jdpostct.c:102:7: note: not consecutive access _22 = cinfo_5(D)->err;
+jdpostct.c:102:7: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:103:33: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:107:8: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:108:7: note: not consecutive access _30 = _28->error_exit;
+jdpostct.c:108:7: note: not consecutive access _28->msg_code = 4;
+jdpostct.c:108:7: note: not consecutive access _28 = cinfo_5(D)->err;
+jdpostct.c:108:7: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:109:33: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:113:5: note: not consecutive access _35 = _33->error_exit;
+jdpostct.c:113:5: note: not consecutive access _33->msg_code = 4;
+jdpostct.c:113:5: note: not consecutive access _33 = cinfo_5(D)->err;
+jdpostct.c:113:5: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:117:1: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:117:1: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:141:4: note: not consecutive access num_rows = 0;
+jdpostct.c:141:4: note: not consecutive access _12 = _11->upsample;
+jdpostct.c:141:4: note: not consecutive access _13 = post_4->buffer;
+jdpostct.c:141:4: note: not consecutive access _9 = post_4->strip_height;
+jdpostct.c:141:4: note: not consecutive access _6 = *out_row_ctr_5(D);
+jdpostct.c:141:4: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:145:4: note: not consecutive access num_rows.2_20 = num_rows;
+jdpostct.c:145:4: note: not consecutive access _19 = _18->color_quantize;
+jdpostct.c:145:4: note: not consecutive access _27 = post_4->buffer;
+jdpostct.c:145:4: note: not consecutive access _18 = cinfo_3(D)->cquantize;
+jdpostct.c:145:4: note: not consecutive access _22 = *out_row_ctr_5(D);
+jdpostct.c:145:4: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:148:1: note: not consecutive access num_rows.2_30 = num_rows;
+jdpostct.c:148:1: note: not consecutive access _29 = *out_row_ctr_5(D);
+jdpostct.c:148:1: note: not consecutive access *out_row_ctr_5(D) = _31;
+jdpostct.c:148:1: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:168:6: note: not consecutive access _7 = post_6->next_row;
+jdpostct.c:168:6: note: not consecutive access post_6 = cinfo_5(D)->post;
+jdpostct.c:168:6: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:168:6: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:169:21: note: not consecutive access _9 = _8->access_virt_sarray;
+jdpostct.c:169:21: note: not consecutive access _12 = post_6->whole_image;
+jdpostct.c:169:21: note: not consecutive access _8 = cinfo_5(D)->mem;
+jdpostct.c:169:21: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:169:18: note: not consecutive access pretmp_49 = post_6->next_row;
+jdpostct.c:169:18: note: not consecutive access post_6->buffer = _14;
+jdpostct.c:169:18: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:176:4: note: not consecutive access _18 = _17->upsample;
+jdpostct.c:176:4: note: not consecutive access _19 = post_6->strip_height;
+jdpostct.c:176:4: note: not consecutive access _17 = cinfo_5(D)->upsample;
+jdpostct.c:176:4: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:182:6: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:184:6: note: not consecutive access _29 = _28->color_quantize;
+jdpostct.c:184:6: note: not consecutive access _31 = post_6->buffer;
+jdpostct.c:184:6: note: not consecutive access _28 = cinfo_5(D)->cquantize;
+jdpostct.c:184:6: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:186:18: note: not consecutive access pretmp_48 = post_6->next_row;
+jdpostct.c:186:18: note: not consecutive access _37 = *out_row_ctr_36(D);
+jdpostct.c:186:18: note: not consecutive access *out_row_ctr_36(D) = _38;
+jdpostct.c:186:18: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:190:6: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:192:20: note: not consecutive access _42 = post_6->starting_row;
+jdpostct.c:192:20: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:192:20: note: not consecutive access _42 = post_6->starting_row;
+jdpostct.c:192:20: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:194:1: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:212:6: note: not consecutive access _8 = post_7->next_row;
+jdpostct.c:212:6: note: not consecutive access post_7 = cinfo_6(D)->post;
+jdpostct.c:212:6: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:212:6: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:213:21: note: not consecutive access _10 = _9->access_virt_sarray;
+jdpostct.c:213:21: note: not consecutive access _13 = post_7->whole_image;
+jdpostct.c:213:21: note: not consecutive access _9 = cinfo_6(D)->mem;
+jdpostct.c:213:21: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:213:18: note: not consecutive access pretmp_78 = post_7->next_row;
+jdpostct.c:213:18: note: not consecutive access post_7->buffer = _15;
+jdpostct.c:213:18: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:229:4: note: not consecutive access _28 = _27->color_quantize;
+jdpostct.c:229:4: note: not consecutive access _27 = cinfo_6(D)->cquantize;
+jdpostct.c:229:4: note: not consecutive access _24 = cinfo_6(D)->output_height;
+jdpostct.c:229:4: note: not consecutive access _21 = *out_row_ctr_20(D);
+jdpostct.c:229:4: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:236:6: note: not consecutive access post_7->next_row = _43;
+jdpostct.c:236:6: note: not consecutive access _39 = *out_row_ctr_20(D);
+jdpostct.c:236:6: note: not consecutive access *out_row_ctr_20(D) = _40;
+jdpostct.c:236:6: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:238:20: note: not consecutive access _46 = post_7->starting_row;
+jdpostct.c:238:20: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:238:20: note: not consecutive access _46 = post_7->starting_row;
+jdpostct.c:238:20: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:240:1: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:254:8: note: not consecutive access _5 = _4->alloc_small;
+jdpostct.c:254:8: note: not consecutive access _4 = cinfo_3(D)->mem;
+jdpostct.c:254:8: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:263:6: note: not consecutive access post_7->pub.start_pass = start_pass_dpost;
+jdpostct.c:263:6: note: not consecutive access _12 = cinfo_3(D)->quantize_colors;
+jdpostct.c:263:6: note: not consecutive access cinfo_3(D)->post = post_7;
+jdpostct.c:263:6: note: Build SLP failed: unrolling required in basic block SLP
+jdpostct.c:263:6: note: not consecutive access post_7->pub.start_pass = start_pass_dpost;
+jdpostct.c:263:6: note: not consecutive access _12 = cinfo_3(D)->quantize_colors;
+jdpostct.c:263:6: note: not consecutive access cinfo_3(D)->post = post_7;
+jdpostct.c:263:6: note: not vectorized: vectorization is not profitable.
+jdpostct.c:269:8: note: not consecutive access post_7->strip_height = _14;
+jdpostct.c:269:8: note: not consecutive access _13 = cinfo_3(D)->max_v_samp_factor;
+jdpostct.c:269:8: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:276:16: note: not consecutive access _18 = _17->request_virt_sarray;
+jdpostct.c:276:16: note: not consecutive access _17 = cinfo_3(D)->mem;
+jdpostct.c:276:16: note: not consecutive access _20 = cinfo_3(D)->output_height;
+jdpostct.c:276:16: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:273:28: note: not consecutive access _25 = cinfo_3(D)->output_width;
+jdpostct.c:273:28: note: not consecutive access _26 = cinfo_3(D)->out_color_components;
+jdpostct.c:273:28: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:273:25: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:284:23: note: not consecutive access _33 = _32->alloc_sarray;
+jdpostct.c:284:23: note: not consecutive access _32 = cinfo_3(D)->mem;
+jdpostct.c:284:23: note: not consecutive access _34 = cinfo_3(D)->output_width;
+jdpostct.c:284:23: note: not consecutive access _35 = cinfo_3(D)->out_color_components;
+jdpostct.c:284:23: note: not vectorized: no grouped stores in basic block.
+jdpostct.c:284:20: note: not vectorized: not enough data-refs in basic block.
+jdpostct.c:290:1: note: not vectorized: not enough data-refs in basic block.

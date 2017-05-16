@@ -1,0 +1,74 @@
+jcmainct.c:121:8: note: not vectorized: control flow in loop.
+jcmainct.c:121:8: note: bad loop form.
+jcmainct.c:119:9: note: not consecutive access _43 = main_7->cur_iMCU_row;
+jcmainct.c:119:9: note: not consecutive access main_7 = cinfo_6(D)->main;
+jcmainct.c:119:9: note: not consecutive access _45 = cinfo_6(D)->total_iMCU_rows;
+jcmainct.c:119:9: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:119:9: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:121:8: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:122:8: note: not consecutive access _12 = _11->pre_process_data;
+jcmainct.c:122:8: note: not consecutive access _11 = cinfo_6(D)->prep;
+jcmainct.c:122:8: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:122:8: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:131:8: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:135:12: note: not consecutive access _21 = _20->compress_data;
+jcmainct.c:135:12: note: not consecutive access _20 = cinfo_6(D)->coef;
+jcmainct.c:135:12: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:135:8: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:142:10: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:144:18: note: not consecutive access main_7->suspended = 1;
+jcmainct.c:144:18: note: not consecutive access _35 = *in_row_ctr_16(D);
+jcmainct.c:144:18: note: not consecutive access *in_row_ctr_16(D) = _36;
+jcmainct.c:144:18: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:151:8: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:153:23: note: not consecutive access main_7->suspended = 0;
+jcmainct.c:153:23: note: not consecutive access _26 = *in_row_ctr_16(D);
+jcmainct.c:153:23: note: not consecutive access *in_row_ctr_16(D) = _27;
+jcmainct.c:153:23: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:119:9: note: not consecutive access _31 = main_7->cur_iMCU_row;
+jcmainct.c:119:9: note: not consecutive access _9 = cinfo_6(D)->total_iMCU_rows;
+jcmainct.c:119:9: note: Build SLP failed: unrolling required in basic block SLP
+jcmainct.c:119:9: note: not consecutive access _31 = main_7->cur_iMCU_row;
+jcmainct.c:119:9: note: not consecutive access _9 = cinfo_6(D)->total_iMCU_rows;
+jcmainct.c:119:9: note: Build SLP failed: unrolling required in basic block SLP
+jcmainct.c:119:9: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:74:6: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:82:3: note: not consecutive access main_3->suspended = 0;
+jcmainct.c:82:3: note: not consecutive access main_3->pass_mode = pass_mode_8(D);
+jcmainct.c:82:3: note: not consecutive access main_3 = cinfo_2(D)->main;
+jcmainct.c:82:3: note: Build SLP failed: unrolling required in basic block SLP
+jcmainct.c:82:3: note: not consecutive access main_3->suspended = 0;
+jcmainct.c:82:3: note: not consecutive access main_3->pass_mode = pass_mode_8(D);
+jcmainct.c:82:3: note: not consecutive access main_3 = cinfo_2(D)->main;
+jcmainct.c:82:3: note: Build SLP failed: unrolling required in basic block SLP
+jcmainct.c:88:28: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:100:5: note: not consecutive access _14 = _13->error_exit;
+jcmainct.c:100:5: note: not consecutive access _13->msg_code = 4;
+jcmainct.c:100:5: note: not consecutive access _13 = cinfo_2(D)->err;
+jcmainct.c:100:5: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:100:5: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:285:5: note: not vectorized: number of iterations cannot be computed.
+jcmainct.c:285:5: note: bad loop form.
+jcmainct.c:251:8: note: not consecutive access _8 = _7->alloc_small;
+jcmainct.c:251:8: note: not consecutive access _7 = cinfo_6(D)->mem;
+jcmainct.c:251:8: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:258:6: note: not consecutive access main_10->pub.start_pass = start_pass_main;
+jcmainct.c:258:6: note: not consecutive access _13 = cinfo_6(D)->raw_data_in;
+jcmainct.c:258:6: note: not consecutive access cinfo_6(D)->main = main_10;
+jcmainct.c:258:6: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:264:6: note: not vectorized: not enough data-refs in basic block.
+jcmainct.c:278:5: note: not consecutive access _17 = _15->error_exit;
+jcmainct.c:278:5: note: not consecutive access _15->msg_code = 4;
+jcmainct.c:278:5: note: not consecutive access _15 = cinfo_6(D)->err;
+jcmainct.c:278:5: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:285:5: note: not consecutive access compptr_19 = cinfo_6(D)->comp_info;
+jcmainct.c:285:5: note: not consecutive access _38 = cinfo_6(D)->num_components;
+jcmainct.c:285:5: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:287:27: note: not consecutive access _22 = _21->alloc_sarray;
+jcmainct.c:287:27: note: not consecutive access _23 = compptr_35->v_samp_factor;
+jcmainct.c:287:27: note: not consecutive access _26 = compptr_35->width_in_blocks;
+jcmainct.c:287:27: note: not consecutive access _21 = cinfo_6(D)->mem;
+jcmainct.c:287:27: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:285:5: note: not consecutive access _20 = cinfo_6(D)->num_components;
+jcmainct.c:285:5: note: not vectorized: no grouped stores in basic block.
+jcmainct.c:285:5: note: not vectorized: not enough data-refs in basic block.

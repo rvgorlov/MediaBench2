@@ -1,0 +1,15 @@
+jddctmgr.c:259:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jddctmgr.c:259:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jddctmgr.c:167:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (i = 0; i < DCTSIZE2; i++) {
+        ^
+jddctmgr.c:167:2: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jddctmgr.c:198:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (i = 0; i < DCTSIZE2; i++) {
+        ^
+jddctmgr.c:198:2: remark: vectorized loop (vectorization width: 2, interleaved count: 1) [-Rpass=loop-vectorize]
+jddctmgr.c:223:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        for (row = 0; row < DCTSIZE; row++) {
+        ^

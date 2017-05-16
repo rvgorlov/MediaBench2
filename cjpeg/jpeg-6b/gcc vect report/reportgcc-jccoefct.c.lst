@@ -1,0 +1,584 @@
+jccoefct.c:81:6: note: not consecutive access coef_7->iMCU_row_num = 0;
+jccoefct.c:81:6: note: not consecutive access coef_7 = cinfo_6(D)->coef;
+jccoefct.c:81:6: note: not consecutive access _32 = cinfo_6(D)->comps_in_scan;
+jccoefct.c:81:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:82:33: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:84:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:85:35: note: not consecutive access _36 = _35->v_samp_factor;
+jccoefct.c:85:35: note: not consecutive access coef_7->MCU_rows_per_iMCU_row = _36;
+jccoefct.c:85:35: note: not consecutive access _35 = cinfo_6(D)->cur_comp_info[0];
+jccoefct.c:85:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:87:35: note: not consecutive access _38 = _37->last_row_height;
+jccoefct.c:87:35: note: not consecutive access coef_7->MCU_rows_per_iMCU_row = _38;
+jccoefct.c:87:35: note: not consecutive access _37 = cinfo_6(D)->cur_comp_info[0];
+jccoefct.c:87:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:107:3: note: not consecutive access coef_7->mcu_ctr = 0;
+jccoefct.c:107:3: note: not consecutive access coef_7->MCU_vert_offset = 0;
+jccoefct.c:107:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:109:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:110:7: note: not consecutive access _13 = _11->error_exit;
+jccoefct.c:110:7: note: not consecutive access _11->msg_code = 4;
+jccoefct.c:110:7: note: not consecutive access _11 = cinfo_6(D)->err;
+jccoefct.c:110:7: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:111:29: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:116:7: note: not consecutive access _19 = _17->error_exit;
+jccoefct.c:116:7: note: not consecutive access _17->msg_code = 4;
+jccoefct.c:116:7: note: not consecutive access _17 = cinfo_6(D)->err;
+jccoefct.c:116:7: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:117:29: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:120:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:121:7: note: not consecutive access _25 = _23->error_exit;
+jccoefct.c:121:7: note: not consecutive access _23->msg_code = 4;
+jccoefct.c:121:7: note: not consecutive access _23 = cinfo_6(D)->err;
+jccoefct.c:121:7: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:122:29: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:126:5: note: not consecutive access _30 = _28->error_exit;
+jccoefct.c:126:5: note: not consecutive access _28->msg_code = 4;
+jccoefct.c:126:5: note: not consecutive access _28 = cinfo_6(D)->err;
+jccoefct.c:126:5: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:129:1: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:366:22: note: not vectorized: multiple nested loops.
+jccoefct.c:366:22: note: bad loop form.
+jccoefct.c:370:7: note: not vectorized: multiple nested loops.
+jccoefct.c:370:7: note: bad loop form.
+jccoefct.c:370:7: note: not vectorized: multiple nested loops.
+jccoefct.c:370:7: note: bad loop form.
+jccoefct.c:373:2: note: unsupported phi node definition.
+jccoefct.c:373:2: note: Unknown def-use cycle pattern.
+jccoefct.c:373:2: note: not vectorized: unsupported data-type
+jccoefct.c:373:2: note: can't determine vectorization factor.
+jccoefct.c:373:2: note: unsupported phi node definition.
+jccoefct.c:373:2: note: Unknown def-use cycle pattern.
+jccoefct.c:373:2: note: not vectorized: unsupported data-type
+jccoefct.c:373:2: note: can't determine vectorization factor.
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_104 and coef_21->MCU_buffer[blkn_3]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_3]
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: virtual phi. skip.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: op not supported by target.
+jccoefct.c:373:2: note: not vectorized: relevant stmt not supported: buffer_ptr_148 = _39 + _181;
+jccoefct.c:373:2: note: bad operation or unsupported loop bound.
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_104 and coef_21->MCU_buffer[blkn_3]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_3]
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: virtual phi. skip.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not vectorized: estimated iteration count too small.
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_227 and coef_21->MCU_buffer[blkn_221]
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_227 and coef_21->MCU_buffer[blkn_230]
+jccoefct.c:373:2: note: Build SLP failed: not grouped load _228 = *_227;
+
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_221]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_230]
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: vector alignment may not be reachable
+jccoefct.c:373:2: note: virtual phi. skip.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: op not supported by target.
+jccoefct.c:373:2: note: not vectorized: relevant stmt not supported: buffer_ptr_229 = _228 + _181;
+jccoefct.c:373:2: note: bad operation or unsupported loop bound.
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_227 and coef_21->MCU_buffer[blkn_221]
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_227 and coef_21->MCU_buffer[blkn_230]
+jccoefct.c:373:2: note: Build SLP failed: not grouped load _228 = *_227;
+
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_221]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_230]
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: vector alignment may not be reachable
+jccoefct.c:373:2: note: virtual phi. skip.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: no array mode for V2DI[2]
+jccoefct.c:373:2: note: no array mode for V2DI[2]
+jccoefct.c:373:2: note: cost model: the vector iteration cost = 10 divided by the scalar iteration cost = 5 is greater or equal to the vectorization factor = 2.
+jccoefct.c:373:2: note: not vectorized: vectorization not profitable.
+jccoefct.c:373:2: note: not vectorized: vector version will never be profitable.
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_268 and coef_21->MCU_buffer[blkn_262]
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_268 and coef_21->MCU_buffer[blkn_271]
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_268 and coef_21->MCU_buffer[blkn_274]
+jccoefct.c:373:2: note: Build SLP failed: different operation in stmt buffer_ptr_275 = &MEM[(void *)buffer_ptr_270 + 256B];
+jccoefct.c:373:2: note: original stmt buffer_ptr_270 = _269 + _181;
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_262]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_271]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_274]
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: vector alignment may not be reachable
+jccoefct.c:373:2: note: virtual phi. skip.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: op not supported by target.
+jccoefct.c:373:2: note: not vectorized: relevant stmt not supported: buffer_ptr_270 = _269 + _181;
+jccoefct.c:373:2: note: bad operation or unsupported loop bound.
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_268 and coef_21->MCU_buffer[blkn_262]
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_268 and coef_21->MCU_buffer[blkn_271]
+jccoefct.c:373:2: note: versioning for alias required: can't determine dependence between *_268 and coef_21->MCU_buffer[blkn_274]
+jccoefct.c:373:2: note: Build SLP failed: different operation in stmt buffer_ptr_275 = &MEM[(void *)buffer_ptr_270 + 256B];
+jccoefct.c:373:2: note: original stmt buffer_ptr_270 = _269 + _181;
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_262]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_271]
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_274]
+jccoefct.c:373:2: note: Unknown misalignment, is_packed = 0
+jccoefct.c:373:2: note: vector alignment may not be reachable
+jccoefct.c:373:2: note: virtual phi. skip.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: no array mode for V2DI[3]
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not ssa-name.
+jccoefct.c:373:2: note: use not simple.
+jccoefct.c:373:2: note: not vectorized: relevant stmt not supported: buffer_ptr_275 = &MEM[(void *)buffer_ptr_270 + 256B];
+jccoefct.c:373:2: note: bad operation or unsupported loop bound.
+jccoefct.c:373:2: note: not vectorized: control flow in loop.
+jccoefct.c:373:2: note: bad loop form.
+jccoefct.c:355:3: note: not vectorized: number of iterations cannot be computed.
+jccoefct.c:355:3: note: bad loop form.
+jccoefct.c:355:3: note: not consecutive access coef_21 = cinfo_20(D)->coef;
+jccoefct.c:355:3: note: not consecutive access _125 = cinfo_20(D)->comps_in_scan;
+jccoefct.c:355:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:357:19: note: not consecutive access _25 = _24->access_virt_barray;
+jccoefct.c:357:19: note: not consecutive access _28 = coef_21->iMCU_row_num;
+jccoefct.c:357:19: note: not consecutive access _33 = coef_21->whole_image[_32];
+jccoefct.c:357:19: note: not consecutive access _24 = cinfo_20(D)->mem;
+jccoefct.c:357:19: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:355:3: note: not consecutive access _22 = cinfo_20(D)->comps_in_scan;
+jccoefct.c:355:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:364:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:364:3: note: not consecutive access pretmp_156 = coef_21->mcu_ctr;
+jccoefct.c:364:3: note: not consecutive access pretmp_194 = cinfo_20(D)->MCUs_per_row;
+jccoefct.c:364:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:366:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:366:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not consecutive access _101 = *_192;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_295] = buffer_ptr_193;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _298 = *_297;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_144] = buffer_ptr_299;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _246 = *_245;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_239] = buffer_ptr_247;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _258 = *_257;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_251] = buffer_ptr_50;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _203 = *_202;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_78] = buffer_ptr_204;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _215 = *_214;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_208] = buffer_ptr_216;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _103 = *_109;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_128] = buffer_ptr_102;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _17 = *_30;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_62] = buffer_ptr_16;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:373:2: note: not consecutive access _307 = *_306;
+jccoefct.c:373:2: note: not consecutive access coef_21->MCU_buffer[blkn_12] = buffer_ptr_308;
+jccoefct.c:373:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:376:31: note: not consecutive access _39 = *_104;
+jccoefct.c:376:31: note: not consecutive access coef_21->MCU_buffer[blkn_3] = buffer_ptr_148;
+jccoefct.c:376:31: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:376:31: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:376:31: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not consecutive access _319 = *_318;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _319 = *_318;
+jccoefct.c:373:2: note: Build SLP failed: unvectorizable statement _319 = *_318;
+
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_312]
+jccoefct.c:373:2: note: not vectorized: vectorization is not profitable.
+jccoefct.c:373:2: note: not consecutive access _334 = *_333;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _334 = *_333;
+jccoefct.c:373:2: note: Build SLP failed: unvectorizable statement _334 = *_333;
+
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_327]
+jccoefct.c:373:2: note: not vectorized: vectorization is not profitable.
+jccoefct.c:373:2: note: not consecutive access _349 = *_348;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _349 = *_348;
+jccoefct.c:373:2: note: Build SLP failed: unvectorizable statement _349 = *_348;
+
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_342]
+jccoefct.c:373:2: note: not vectorized: vectorization is not profitable.
+jccoefct.c:373:2: note: not consecutive access _364 = *_363;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _364 = *_363;
+jccoefct.c:373:2: note: Build SLP failed: unvectorizable statement _364 = *_363;
+
+jccoefct.c:373:2: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_357]
+jccoefct.c:373:2: note: not vectorized: vectorization is not profitable.
+jccoefct.c:376:31: note: not consecutive access _228 = *_227;
+jccoefct.c:376:31: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:376:31: note: not consecutive access _228 = *_227;
+jccoefct.c:376:31: note: Build SLP failed: unvectorizable statement _228 = *_227;
+
+jccoefct.c:376:31: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_221]
+jccoefct.c:376:31: note: not vectorized: vectorization is not profitable.
+jccoefct.c:376:31: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:376:31: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not consecutive access _379 = *_378;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _379 = *_378;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _397 = *_396;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _397 = *_396;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _415 = *_414;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:373:2: note: not consecutive access _415 = *_414;
+jccoefct.c:373:2: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:376:31: note: not consecutive access _269 = *_268;
+jccoefct.c:376:31: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:376:31: note: not consecutive access _269 = *_268;
+jccoefct.c:376:31: note: Build SLP failed: unrolling required in basic block SLP
+jccoefct.c:376:31: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:375:4: note: Build SLP failed: different operation in stmt buffer_ptr_106 = &MEM[(void *)buffer_ptr_58 + 256B];
+jccoefct.c:375:4: note: original stmt buffer_ptr_58 = _55 + _181;
+jccoefct.c:375:4: note: Build SLP failed: different operation in stmt buffer_ptr_114 = &MEM[(void *)buffer_ptr_58 + 384B];
+jccoefct.c:375:4: note: original stmt buffer_ptr_58 = _55 + _181;
+jccoefct.c:375:4: note: Build SLP failed: different operation in stmt buffer_ptr_106 = &MEM[(void *)buffer_ptr_58 + 256B];
+jccoefct.c:375:4: note: original stmt buffer_ptr_58 = _55 + _181;
+jccoefct.c:375:4: note: Build SLP failed: different operation in stmt buffer_ptr_114 = &MEM[(void *)buffer_ptr_58 + 384B];
+jccoefct.c:375:4: note: original stmt buffer_ptr_58 = _55 + _181;
+jccoefct.c:375:4: note: Build SLP failed: not grouped load _55 = *_54;
+
+jccoefct.c:375:4: note: not ssa-name.
+jccoefct.c:375:4: note: Build SLP failed: can't analyze def for &MEM[(void *)buffer_ptr_58 + 256B]
+jccoefct.c:375:4: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_119]
+jccoefct.c:375:4: note: Unknown alignment for access: coef_21->MCU_buffer[blkn_105]
+jccoefct.c:375:4: note: not vectorized: vectorization is not profitable.
+jccoefct.c:375:4: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:375:4: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:375:4: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:375:4: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:375:4: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:376:31: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:373:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:370:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:381:14: note: not consecutive access _66 = _65->encode_mcu;
+jccoefct.c:381:14: note: not consecutive access _65 = cinfo_20(D)->entropy;
+jccoefct.c:381:14: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:381:10: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:384:16: note: not consecutive access coef_21->mcu_ctr = MCU_col_num_176;
+jccoefct.c:384:16: note: not consecutive access coef_21->MCU_vert_offset = yoffset_175;
+jccoefct.c:384:16: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:366:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:366:5: note: not consecutive access pretmp_185 = coef_21->MCU_rows_per_iMCU_row;
+jccoefct.c:366:5: note: not consecutive access pretmp_187 = cinfo_20(D)->comps_in_scan;
+jccoefct.c:366:5: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:366:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:370:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:364:3: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:81:6: note: not consecutive access _73 = coef_21->iMCU_row_num;
+jccoefct.c:81:6: note: not consecutive access coef_21->iMCU_row_num = _74;
+jccoefct.c:81:6: note: not consecutive access coef_77 = cinfo_20(D)->coef;
+jccoefct.c:81:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:82:33: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:84:8: note: not consecutive access _79 = coef_77->iMCU_row_num;
+jccoefct.c:84:8: note: not consecutive access _80 = cinfo_20(D)->total_iMCU_rows;
+jccoefct.c:84:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:85:35: note: not consecutive access _83 = _82->v_samp_factor;
+jccoefct.c:85:35: note: not consecutive access coef_77->MCU_rows_per_iMCU_row = _83;
+jccoefct.c:85:35: note: not consecutive access _82 = cinfo_20(D)->cur_comp_info[0];
+jccoefct.c:85:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:87:35: note: not consecutive access _85 = _84->last_row_height;
+jccoefct.c:87:35: note: not consecutive access coef_77->MCU_rows_per_iMCU_row = _85;
+jccoefct.c:87:35: note: not consecutive access _84 = cinfo_20(D)->cur_comp_info[0];
+jccoefct.c:87:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:91:25: note: not consecutive access coef_77->mcu_ctr = 0;
+jccoefct.c:91:25: note: not consecutive access coef_77->MCU_vert_offset = 0;
+jccoefct.c:91:25: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:341:1: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:256:3: note: not vectorized: multiple nested loops.
+jccoefct.c:256:3: note: bad loop form.
+jccoefct.c:304:7: note: not vectorized: multiple nested loops.
+jccoefct.c:304:7: note: bad loop form.
+jccoefct.c:310:2: note: failed: evolution of base is not affine.
+jccoefct.c:310:2: note: bad data references.
+jccoefct.c:312:4: note: not consecutive access *_98[0] = lastDC_95;
+jccoefct.c:312:4: note: virtual phi. skip.
+jccoefct.c:312:4: note: cost model: the vector iteration cost = 32 divided by the scalar iteration cost = 1 is greater or equal to the vectorization factor = 16.
+jccoefct.c:312:4: note: not vectorized: vectorization not profitable.
+jccoefct.c:312:4: note: not vectorized: vector version will never be profitable.
+jccoefct.c:312:4: note: not consecutive access *_98[0] = lastDC_95;
+jccoefct.c:312:4: note: virtual phi. skip.
+jccoefct.c:312:4: note: cost model: the vector iteration cost = 16 divided by the scalar iteration cost = 1 is greater or equal to the vectorization factor = 8.
+jccoefct.c:312:4: note: not vectorized: vectorization not profitable.
+jccoefct.c:312:4: note: not vectorized: vector version will never be profitable.
+jccoefct.c:280:5: note: not vectorized: control flow in loop.
+jccoefct.c:280:5: note: bad loop form.
+jccoefct.c:291:2: note: not consecutive access *_72[0] = lastDC_69;
+jccoefct.c:291:2: note: virtual phi. skip.
+jccoefct.c:291:2: note: cost model: the vector iteration cost = 32 divided by the scalar iteration cost = 1 is greater or equal to the vectorization factor = 16.
+jccoefct.c:291:2: note: not vectorized: vectorization not profitable.
+jccoefct.c:291:2: note: not vectorized: vector version will never be profitable.
+jccoefct.c:291:2: note: not consecutive access *_72[0] = lastDC_69;
+jccoefct.c:291:2: note: virtual phi. skip.
+jccoefct.c:291:2: note: cost model: the vector iteration cost = 16 divided by the scalar iteration cost = 1 is greater or equal to the vectorization factor = 8.
+jccoefct.c:291:2: note: not vectorized: vectorization not profitable.
+jccoefct.c:291:2: note: not vectorized: vector version will never be profitable.
+jccoefct.c:256:3: note: not consecutive access _12 = cinfo_21(D)->num_components;
+jccoefct.c:256:3: note: not consecutive access _23 = cinfo_21(D)->total_iMCU_rows;
+jccoefct.c:256:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:326:10: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:259:12: note: not consecutive access _28 = _27->access_virt_barray;
+jccoefct.c:259:12: note: not consecutive access _31 = coef_22->iMCU_row_num;
+jccoefct.c:259:12: note: not consecutive access _29 = compptr_121->v_samp_factor;
+jccoefct.c:259:12: note: not consecutive access _27 = cinfo_21(D)->mem;
+jccoefct.c:259:12: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:264:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:265:18: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:269:10: note: not consecutive access _39 = compptr_121->v_samp_factor;
+jccoefct.c:269:10: note: not consecutive access _38 = compptr_121->height_in_blocks;
+jccoefct.c:269:10: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:275:8: note: not consecutive access h_samp_factor_44 = compptr_121->h_samp_factor;
+jccoefct.c:275:8: note: not consecutive access blocks_across_43 = compptr_121->width_in_blocks;
+jccoefct.c:275:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:276:14: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:280:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:289:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:282:8: note: not consecutive access _61 = *_159;
+jccoefct.c:282:8: note: not consecutive access _54 = _53->forward_DCT;
+jccoefct.c:282:8: note: not consecutive access _53 = cinfo_21(D)->fdct;
+jccoefct.c:282:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:286:10: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:280:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:289:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:290:9: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:291:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:291:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:301:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:256:3: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:304:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:304:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:308:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:310:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:304:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:304:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:311:11: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:310:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:312:4: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:156:22: note: not vectorized: multiple nested loops.
+jccoefct.c:156:22: note: bad loop form.
+jccoefct.c:168:30: note: not vectorized: multiple nested loops.
+jccoefct.c:168:30: note: bad loop form.
+jccoefct.c:168:7: note: not vectorized: control flow in loop.
+jccoefct.c:168:7: note: bad loop form.
+jccoefct.c:174:2: note: not vectorized: control flow in loop.
+jccoefct.c:174:2: note: bad loop form.
+jccoefct.c:154:3: note: not consecutive access coef_22 = cinfo_21(D)->coef;
+jccoefct.c:154:3: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:154:3: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:156:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:156:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:171:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:171:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:171:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:174:2: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:175:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:175:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:177:7: note: not consecutive access _67 = *_66;
+jccoefct.c:177:7: note: not consecutive access _59 = _58->forward_DCT;
+jccoefct.c:177:7: note: not consecutive access _61 = coef_22->MCU_buffer[blkn_249];
+jccoefct.c:177:7: note: not consecutive access _62 = compptr_33->component_index;
+jccoefct.c:177:7: note: not consecutive access _58 = cinfo_21(D)->fdct;
+jccoefct.c:177:7: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:181:9: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:183:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:185:8: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:185:8: note: not consecutive access *_122[0] = _125;
+jccoefct.c:185:8: note: not consecutive access _125 = *_124[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_132[0] = _135;
+jccoefct.c:185:8: note: not consecutive access _135 = *_134[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_142[0] = _145;
+jccoefct.c:185:8: note: not consecutive access _145 = *_144[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_152[0] = _155;
+jccoefct.c:185:8: note: not consecutive access _155 = *_154[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_162[0] = _165;
+jccoefct.c:185:8: note: not consecutive access _165 = *_164[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_172[0] = _175;
+jccoefct.c:185:8: note: not consecutive access _175 = *_174[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_182[0] = _185;
+jccoefct.c:185:8: note: not consecutive access _185 = *_184[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_192[0] = _195;
+jccoefct.c:185:8: note: not consecutive access _195 = *_194[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:185:8: note: not consecutive access *_202[0] = _205;
+jccoefct.c:185:8: note: not consecutive access _205 = *_204[0];
+jccoefct.c:185:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:186:35: note: not consecutive access *_212[0] = _215;
+jccoefct.c:186:35: note: not consecutive access _215 = *_214[0];
+jccoefct.c:186:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:191:6: note: not consecutive access _48 = coef_22->MCU_buffer[blkn_249];
+jccoefct.c:191:6: note: not consecutive access _45 = compptr_33->MCU_width;
+jccoefct.c:191:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:193:6: note: not consecutive access *_222[0] = _225;
+jccoefct.c:193:6: note: not consecutive access _225 = *_224[0];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _235 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_232[0] = _235;
+jccoefct.c:193:6: note: not consecutive access _232 = coef_22->MCU_buffer[_231];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _245 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_242[0] = _245;
+jccoefct.c:193:6: note: not consecutive access _242 = coef_22->MCU_buffer[_241];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _255 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_252[0] = _255;
+jccoefct.c:193:6: note: not consecutive access _252 = coef_22->MCU_buffer[_251];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _265 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_262[0] = _265;
+jccoefct.c:193:6: note: not consecutive access _262 = coef_22->MCU_buffer[_261];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _275 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_272[0] = _275;
+jccoefct.c:193:6: note: not consecutive access _272 = coef_22->MCU_buffer[_271];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _285 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_282[0] = _285;
+jccoefct.c:193:6: note: not consecutive access _282 = coef_22->MCU_buffer[_281];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _295 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_292[0] = _295;
+jccoefct.c:193:6: note: not consecutive access _292 = coef_22->MCU_buffer[_291];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:193:6: note: not consecutive access _305 = *_224[0];
+jccoefct.c:193:6: note: not consecutive access *_302[0] = _305;
+jccoefct.c:193:6: note: not consecutive access _302 = coef_22->MCU_buffer[_301];
+jccoefct.c:193:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:194:40: note: not consecutive access _315 = *_224[0];
+jccoefct.c:194:40: note: not consecutive access *_312[0] = _315;
+jccoefct.c:194:40: note: not consecutive access _312 = coef_22->MCU_buffer[_311];
+jccoefct.c:194:40: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:174:2: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:168:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:204:14: note: not consecutive access _92 = _91->encode_mcu;
+jccoefct.c:204:14: note: not consecutive access _91 = cinfo_21(D)->entropy;
+jccoefct.c:204:14: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:204:10: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:207:16: note: not consecutive access coef_22->mcu_ctr = MCU_col_num_303;
+jccoefct.c:207:16: note: not consecutive access coef_22->MCU_vert_offset = yoffset_304;
+jccoefct.c:207:16: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:156:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:156:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:168:7: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:154:3: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:154:3: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:81:6: note: not consecutive access _99 = coef_22->iMCU_row_num;
+jccoefct.c:81:6: note: not consecutive access coef_22->iMCU_row_num = _100;
+jccoefct.c:81:6: note: not consecutive access _103 = cinfo_21(D)->comps_in_scan;
+jccoefct.c:81:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:82:33: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:84:8: note: not consecutive access _104 = MEM[(struct my_coef_controller *)prephitmp_55].iMCU_row_num;
+jccoefct.c:84:8: note: not consecutive access _105 = cinfo_21(D)->total_iMCU_rows;
+jccoefct.c:84:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:85:35: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_55].MCU_rows_per_iMCU_row = _108;
+jccoefct.c:85:35: note: not consecutive access _108 = _107->v_samp_factor;
+jccoefct.c:85:35: note: not consecutive access _107 = cinfo_21(D)->cur_comp_info[0];
+jccoefct.c:85:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:87:35: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_55].MCU_rows_per_iMCU_row = _110;
+jccoefct.c:87:35: note: not consecutive access _110 = _109->last_row_height;
+jccoefct.c:87:35: note: not consecutive access _109 = cinfo_21(D)->cur_comp_info[0];
+jccoefct.c:87:35: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:91:25: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_55].mcu_ctr = 0;
+jccoefct.c:91:25: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_55].MCU_vert_offset = 0;
+jccoefct.c:91:25: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:91:25: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:423:5: note: not vectorized: number of iterations cannot be computed.
+jccoefct.c:423:5: note: bad loop form.
+jccoefct.c:444:5: note: Unknown misalignment, is_packed = 0
+jccoefct.c:444:5: note: virtual phi. skip.
+jccoefct.c:444:5: note: conversion not supported by target.
+jccoefct.c:444:5: note: not vectorized: relevant stmt not supported: _44 = (long unsigned int) i_58;
+jccoefct.c:444:5: note: bad operation or unsupported loop bound.
+jccoefct.c:444:5: note: Unknown misalignment, is_packed = 0
+jccoefct.c:444:5: note: virtual phi. skip.
+jccoefct.c:444:5: note: virtual phi. skip.
+jccoefct.c:444:5: note: loop vectorized
+jccoefct.c:444:5: note: loop peeled for vectorization to enhance alignment
+jccoefct.c:444:5: note: virtual phi. skip.
+jccoefct.c:409:8: note: not consecutive access _10 = _9->alloc_small;
+jccoefct.c:409:8: note: not consecutive access _9 = cinfo_8(D)->mem;
+jccoefct.c:409:8: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:416:6: note: not consecutive access coef_12->pub.start_pass = start_pass_coef;
+jccoefct.c:416:6: note: not consecutive access cinfo_8(D)->coef = coef_12;
+jccoefct.c:416:6: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:423:5: note: not consecutive access compptr_16 = cinfo_8(D)->comp_info;
+jccoefct.c:423:5: note: not consecutive access _5 = cinfo_8(D)->num_components;
+jccoefct.c:423:5: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:429:16: note: not consecutive access _19 = _18->request_virt_barray;
+jccoefct.c:429:16: note: not consecutive access _20 = compptr_54->v_samp_factor;
+jccoefct.c:429:16: note: not consecutive access _23 = compptr_54->height_in_blocks;
+jccoefct.c:429:16: note: not consecutive access _18 = cinfo_8(D)->mem;
+jccoefct.c:429:16: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:427:16: note: not consecutive access _28 = compptr_54->h_samp_factor;
+jccoefct.c:427:16: note: not consecutive access _30 = compptr_54->width_in_blocks;
+jccoefct.c:427:16: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:425:32: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:423:5: note: not consecutive access _17 = cinfo_8(D)->num_components;
+jccoefct.c:423:5: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:441:12: note: not consecutive access _41 = _40->alloc_large;
+jccoefct.c:441:12: note: not consecutive access _40 = cinfo_8(D)->mem;
+jccoefct.c:441:12: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:441:12: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:445:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.158_124] = vect__46.156_148;
+ scalar_type: vector(2) long unsigned int
+jccoefct.c:445:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.157_151] = vect__46.156_149;
+ scalar_type: vector(2) long unsigned int
+jccoefct.c:445:27: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:445:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.157_157] = vect__46.156_164;
+ scalar_type: vector(2) long unsigned int
+jccoefct.c:445:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.157_167] = vect__46.156_165;
+ scalar_type: vector(2) long unsigned int
+jccoefct.c:445:27: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:445:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.157_127] = vect__46.156_122;
+ scalar_type: vector(2) long unsigned int
+jccoefct.c:445:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.157_130] = vect__46.156_123;
+ scalar_type: vector(2) long unsigned int
+jccoefct.c:445:27: note: not vectorized: no grouped stores in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:43: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:444:5: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:447:26: note: not vectorized: not enough data-refs in basic block.
+jccoefct.c:449:1: note: not vectorized: not enough data-refs in basic block.

@@ -1,0 +1,256 @@
+jdmerge.c:134:1: note: not consecutive access upsample_3->spare_full = 0;
+jdmerge.c:134:1: note: not consecutive access upsample_3->rows_to_go = _5;
+jdmerge.c:134:1: note: not consecutive access upsample_3 = cinfo_2(D)->upsample;
+jdmerge.c:134:1: note: not consecutive access _5 = cinfo_2(D)->output_height;
+jdmerge.c:134:1: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:203:4: note: not consecutive access _4 = upsample_3->upmethod;
+jdmerge.c:203:4: note: not consecutive access upsample_3 = cinfo_2(D)->upsample;
+jdmerge.c:203:4: note: not consecutive access _12 = *in_row_group_ctr_11(D);
+jdmerge.c:203:4: note: not consecutive access _6 = *out_row_ctr_5(D);
+jdmerge.c:203:4: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:208:1: note: not consecutive access _18 = *in_row_group_ctr_11(D);
+jdmerge.c:208:1: note: not consecutive access *in_row_group_ctr_11(D) = _19;
+jdmerge.c:208:1: note: not consecutive access _15 = *out_row_ctr_5(D);
+jdmerge.c:208:1: note: not consecutive access *out_row_ctr_5(D) = _16;
+jdmerge.c:208:1: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:249:3: note: not vectorized: not suitable for gather load cred_40 = *_39;
+
+jdmerge.c:249:3: note: bad data references.
+jdmerge.c:249:3: note: not consecutive access inptr0_22 = *_21;
+jdmerge.c:249:3: note: not consecutive access inptr1_25 = *_24;
+jdmerge.c:249:3: note: not consecutive access inptr2_28 = *_27;
+jdmerge.c:249:3: note: not consecutive access _31 = cinfo_9(D)->output_width;
+jdmerge.c:249:3: note: not consecutive access outptr_30 = *output_buf_29(D);
+jdmerge.c:249:3: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:249:3: note: not consecutive access _47 = *_46;
+jdmerge.c:249:3: note: not consecutive access _44 = *_43;
+jdmerge.c:249:3: note: not consecutive access cred_40 = *_39;
+jdmerge.c:249:3: note: not consecutive access cblue_53 = *_52;
+jdmerge.c:249:3: note: not consecutive access _59 = *_58;
+jdmerge.c:249:3: note: not consecutive access _64 = *_63;
+jdmerge.c:249:3: note: not consecutive access _69 = *_68;
+jdmerge.c:249:3: note: not consecutive access _77 = *_76;
+jdmerge.c:249:3: note: not consecutive access _82 = *_81;
+jdmerge.c:249:3: note: not consecutive access _87 = *_86;
+jdmerge.c:249:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:249:3: note: not consecutive access _47 = *_46;
+jdmerge.c:249:3: note: not consecutive access _44 = *_43;
+jdmerge.c:249:3: note: not consecutive access cred_40 = *_39;
+jdmerge.c:249:3: note: not consecutive access cblue_53 = *_52;
+jdmerge.c:249:3: note: not consecutive access _59 = *_58;
+jdmerge.c:249:3: note: not consecutive access _64 = *_63;
+jdmerge.c:249:3: note: not consecutive access _69 = *_68;
+jdmerge.c:249:3: note: not consecutive access _77 = *_76;
+jdmerge.c:249:3: note: not consecutive access _82 = *_81;
+jdmerge.c:249:3: note: not consecutive access _87 = *_86;
+jdmerge.c:249:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:249:3: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:269:6: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:278:22: note: not consecutive access _105 = *_104;
+jdmerge.c:278:22: note: not consecutive access _102 = *_101;
+jdmerge.c:278:22: note: not consecutive access cred_98 = *_97;
+jdmerge.c:278:22: note: not consecutive access cblue_111 = *_110;
+jdmerge.c:278:22: note: not consecutive access _117 = *_116;
+jdmerge.c:278:22: note: not consecutive access _122 = *_121;
+jdmerge.c:278:22: note: not consecutive access _127 = *_126;
+jdmerge.c:278:22: note: not consecutive access _112 = *inptr0_137;
+jdmerge.c:278:22: note: not consecutive access _93 = *inptr1_140;
+jdmerge.c:278:22: note: not consecutive access _94 = *inptr2_142;
+jdmerge.c:278:22: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:278:22: note: not consecutive access _105 = *_104;
+jdmerge.c:278:22: note: not consecutive access _102 = *_101;
+jdmerge.c:278:22: note: not consecutive access cred_98 = *_97;
+jdmerge.c:278:22: note: not consecutive access cblue_111 = *_110;
+jdmerge.c:278:22: note: not consecutive access _117 = *_116;
+jdmerge.c:278:22: note: not consecutive access _122 = *_121;
+jdmerge.c:278:22: note: not consecutive access _127 = *_126;
+jdmerge.c:278:22: note: not consecutive access _112 = *inptr0_137;
+jdmerge.c:278:22: note: not consecutive access _93 = *inptr1_140;
+jdmerge.c:278:22: note: not consecutive access _94 = *inptr2_142;
+jdmerge.c:278:22: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:280:1: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:313:3: note: not vectorized: not suitable for gather load cred_51 = *_50;
+
+jdmerge.c:313:3: note: bad data references.
+jdmerge.c:313:3: note: not consecutive access inptr00_25 = *_24;
+jdmerge.c:313:3: note: not consecutive access inptr01_30 = *_29;
+jdmerge.c:313:3: note: not consecutive access inptr1_35 = *_34;
+jdmerge.c:313:3: note: not consecutive access inptr2_38 = *_37;
+jdmerge.c:313:3: note: not consecutive access _42 = cinfo_11(D)->output_width;
+jdmerge.c:313:3: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:313:3: note: not consecutive access _58 = *_57;
+jdmerge.c:313:3: note: not consecutive access _55 = *_54;
+jdmerge.c:313:3: note: not consecutive access cred_51 = *_50;
+jdmerge.c:313:3: note: not consecutive access cblue_64 = *_63;
+jdmerge.c:313:3: note: not consecutive access _70 = *_69;
+jdmerge.c:313:3: note: not consecutive access _75 = *_74;
+jdmerge.c:313:3: note: not consecutive access _80 = *_79;
+jdmerge.c:313:3: note: not consecutive access _88 = *_87;
+jdmerge.c:313:3: note: not consecutive access _93 = *_92;
+jdmerge.c:313:3: note: not consecutive access _98 = *_97;
+jdmerge.c:313:3: note: not consecutive access _106 = *_105;
+jdmerge.c:313:3: note: not consecutive access _111 = *_110;
+jdmerge.c:313:3: note: not consecutive access _116 = *_115;
+jdmerge.c:313:3: note: not consecutive access _124 = *_123;
+jdmerge.c:313:3: note: not consecutive access _129 = *_128;
+jdmerge.c:313:3: note: not consecutive access _134 = *_133;
+jdmerge.c:313:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:313:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:313:3: note: not consecutive access _58 = *_57;
+jdmerge.c:313:3: note: not consecutive access _55 = *_54;
+jdmerge.c:313:3: note: not consecutive access cred_51 = *_50;
+jdmerge.c:313:3: note: not consecutive access cblue_64 = *_63;
+jdmerge.c:313:3: note: not consecutive access _70 = *_69;
+jdmerge.c:313:3: note: not consecutive access _75 = *_74;
+jdmerge.c:313:3: note: not consecutive access _80 = *_79;
+jdmerge.c:313:3: note: not consecutive access _88 = *_87;
+jdmerge.c:313:3: note: not consecutive access _93 = *_92;
+jdmerge.c:313:3: note: not consecutive access _98 = *_97;
+jdmerge.c:313:3: note: not consecutive access _106 = *_105;
+jdmerge.c:313:3: note: not consecutive access _111 = *_110;
+jdmerge.c:313:3: note: not consecutive access _116 = *_115;
+jdmerge.c:313:3: note: not consecutive access _124 = *_123;
+jdmerge.c:313:3: note: not consecutive access _129 = *_128;
+jdmerge.c:313:3: note: not consecutive access _134 = *_133;
+jdmerge.c:313:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:313:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:313:3: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:343:6: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:356:23: note: not consecutive access _152 = *_151;
+jdmerge.c:356:23: note: not consecutive access _149 = *_148;
+jdmerge.c:356:23: note: not consecutive access cred_145 = *_144;
+jdmerge.c:356:23: note: not consecutive access cblue_158 = *_157;
+jdmerge.c:356:23: note: not consecutive access _164 = *_163;
+jdmerge.c:356:23: note: not consecutive access _169 = *_168;
+jdmerge.c:356:23: note: not consecutive access _174 = *_173;
+jdmerge.c:356:23: note: not consecutive access _181 = *_180;
+jdmerge.c:356:23: note: not consecutive access _186 = *_185;
+jdmerge.c:356:23: note: not consecutive access _191 = *_190;
+jdmerge.c:356:23: note: not consecutive access _159 = *inptr00_207;
+jdmerge.c:356:23: note: not consecutive access _176 = *inptr01_205;
+jdmerge.c:356:23: note: not consecutive access _140 = *inptr1_210;
+jdmerge.c:356:23: note: not consecutive access _141 = *inptr2_212;
+jdmerge.c:356:23: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:356:23: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:356:23: note: not consecutive access _152 = *_151;
+jdmerge.c:356:23: note: not consecutive access _149 = *_148;
+jdmerge.c:356:23: note: not consecutive access cred_145 = *_144;
+jdmerge.c:356:23: note: not consecutive access cblue_158 = *_157;
+jdmerge.c:356:23: note: not consecutive access _164 = *_163;
+jdmerge.c:356:23: note: not consecutive access _169 = *_168;
+jdmerge.c:356:23: note: not consecutive access _174 = *_173;
+jdmerge.c:356:23: note: not consecutive access _181 = *_180;
+jdmerge.c:356:23: note: not consecutive access _186 = *_185;
+jdmerge.c:356:23: note: not consecutive access _191 = *_190;
+jdmerge.c:356:23: note: not consecutive access _159 = *inptr00_207;
+jdmerge.c:356:23: note: not consecutive access _176 = *inptr01_205;
+jdmerge.c:356:23: note: not consecutive access _140 = *inptr1_210;
+jdmerge.c:356:23: note: not consecutive access _141 = *inptr2_212;
+jdmerge.c:356:23: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:356:23: note: Build SLP failed: unrolling required in basic block SLP
+jdmerge.c:358:1: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:155:6: note: not consecutive access _10 = upsample_9->spare_full;
+jdmerge.c:155:6: note: not consecutive access upsample_9 = cinfo_8(D)->upsample;
+jdmerge.c:155:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:157:5: note: not consecutive access _11 = upsample_9->out_row_width;
+jdmerge.c:157:5: note: not consecutive access _13 = *out_row_ctr_12(D);
+jdmerge.c:157:5: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:160:26: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:165:8: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:169:8: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:173:8: note: not consecutive access _28 = *_27;
+jdmerge.c:173:8: note: not consecutive access work_ptrs[0] = _28;
+jdmerge.c:173:8: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:174:32: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:177:28: note: not consecutive access _36 = upsample_9->spare_row;
+jdmerge.c:177:28: note: not consecutive access upsample_9->spare_full = 1;
+jdmerge.c:177:28: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:180:6: note: not consecutive access work_ptrs[1] = cstore_71;
+jdmerge.c:180:6: note: not consecutive access _39 = upsample_9->upmethod;
+jdmerge.c:180:6: note: not consecutive access _41 = *in_row_group_ctr_40(D);
+jdmerge.c:180:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:187:6: note: not consecutive access _50 = upsample_9->spare_full;
+jdmerge.c:187:6: note: not consecutive access _47 = upsample_9->rows_to_go;
+jdmerge.c:187:6: note: not consecutive access upsample_9->rows_to_go = _48;
+jdmerge.c:187:6: note: not consecutive access _44 = *out_row_ctr_12(D);
+jdmerge.c:187:6: note: not consecutive access *out_row_ctr_12(D) = _45;
+jdmerge.c:187:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:188:24: note: not consecutive access _51 = *in_row_group_ctr_40(D);
+jdmerge.c:188:24: note: not consecutive access *in_row_group_ctr_40(D) = _52;
+jdmerge.c:188:24: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:189:1: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:172:18: note: not consecutive access _77 = *_76;
+jdmerge.c:172:18: note: not consecutive access work_ptrs[0] = _77;
+jdmerge.c:172:18: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:172:18: note: not consecutive access _35 = *_37;
+jdmerge.c:172:18: note: not consecutive access work_ptrs[0] = _35;
+jdmerge.c:172:18: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:169:8: note: not vectorized: not enough data-refs in basic block.
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_46 and *_53
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_46 and *_60
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_46 and *_62
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_53 and *_60
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_53 and *_62
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_60 and *_62
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: virtual phi. skip.
+jdmerge.c:103:3: note: op not supported by target.
+jdmerge.c:103:3: note: not vectorized: relevant stmt not supported: _48 = x_89 * 91881;
+jdmerge.c:103:3: note: bad operation or unsupported loop bound.
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_46 and *_53
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_46 and *_60
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_46 and *_62
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_53 and *_60
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_53 and *_62
+jdmerge.c:103:3: note: versioning for alias required: can't determine dependence between *_60 and *_62
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: Unknown misalignment, is_packed = 0
+jdmerge.c:103:3: note: virtual phi. skip.
+jdmerge.c:103:3: note: op not supported by target.
+jdmerge.c:103:3: note: not vectorized: relevant stmt not supported: _50 = _49 >> 16;
+jdmerge.c:103:3: note: bad operation or unsupported loop bound.
+jdmerge.c:374:12: note: not consecutive access _5 = _4->alloc_small;
+jdmerge.c:374:12: note: not consecutive access _4 = cinfo_3(D)->mem;
+jdmerge.c:374:12: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:383:6: note: not consecutive access upsample_7->pub.start_pass = start_pass_merged_upsample;
+jdmerge.c:383:6: note: not consecutive access upsample_7->pub.need_context_rows = 0;
+jdmerge.c:383:6: note: not consecutive access upsample_7->out_row_width = _14;
+jdmerge.c:383:6: note: not consecutive access _11 = cinfo_3(D)->output_width;
+jdmerge.c:383:6: note: not consecutive access cinfo_3(D)->upsample = upsample_7;
+jdmerge.c:383:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:388:8: note: not consecutive access _20 = _19->alloc_large;
+jdmerge.c:388:8: note: not consecutive access upsample_7->pub.upsample = merged_2v_upsample;
+jdmerge.c:388:8: note: not consecutive access upsample_7->upmethod = h2v2_merged_upsample;
+jdmerge.c:388:8: note: not consecutive access _19 = cinfo_3(D)->mem;
+jdmerge.c:388:8: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:387:25: note: not consecutive access upsample_7->spare_row = _23;
+jdmerge.c:387:25: note: not consecutive access pretmp_28 = cinfo_3(D)->upsample;
+jdmerge.c:387:25: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:394:25: note: not consecutive access upsample_7->pub.upsample = merged_1v_upsample;
+jdmerge.c:394:25: note: not consecutive access upsample_7->upmethod = h2v1_merged_upsample;
+jdmerge.c:394:25: note: not consecutive access upsample_7->spare_row = 0B;
+jdmerge.c:394:25: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:91:6: note: not consecutive access _31 = _30->alloc_small;
+jdmerge.c:91:6: note: not consecutive access _30 = cinfo_3(D)->mem;
+jdmerge.c:91:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:94:6: note: not consecutive access _34 = _33->alloc_small;
+jdmerge.c:94:6: note: not consecutive access MEM[(struct my_upsampler *)prephitmp_91].Cr_r_tab = _32;
+jdmerge.c:94:6: note: not consecutive access _33 = cinfo_3(D)->mem;
+jdmerge.c:94:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:97:6: note: not consecutive access _37 = _36->alloc_small;
+jdmerge.c:97:6: note: not consecutive access MEM[(struct my_upsampler *)prephitmp_91].Cb_b_tab = _35;
+jdmerge.c:97:6: note: not consecutive access _36 = cinfo_3(D)->mem;
+jdmerge.c:97:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:100:6: note: not consecutive access _40 = _39->alloc_small;
+jdmerge.c:100:6: note: not consecutive access MEM[(struct my_upsampler *)prephitmp_91].Cr_g_tab = _38;
+jdmerge.c:100:6: note: not consecutive access _39 = cinfo_3(D)->mem;
+jdmerge.c:100:6: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:99:22: note: not consecutive access MEM[(struct my_upsampler *)prephitmp_91].Cb_g_tab = _41;
+jdmerge.c:99:22: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:103:3: note: not vectorized: no grouped stores in basic block.
+jdmerge.c:398:1: note: not vectorized: not enough data-refs in basic block.

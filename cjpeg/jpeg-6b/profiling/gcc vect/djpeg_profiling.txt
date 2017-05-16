@@ -1,0 +1,597 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 23.49      0.35     0.35                             __write_nocancel
+ 20.81      0.66     0.31   950400     0.33     0.33  jpeg_idct_islow
+ 18.79      0.94     0.28    57600     4.86     4.86  ycc_rgb_convert
+ 15.44      1.17     0.23    57600     3.99     3.99  h2v2_fancy_upsample
+ 10.07      1.32     0.15   158400     0.95     1.14  decode_mcu
+  2.68      1.36     0.04                             __open_nocancel
+  2.01      1.39     0.03  1199100     0.03     0.03  jpeg_fill_bit_buffer
+  2.01      1.42     0.03                             _IO_file_close
+  1.34      1.44     0.02     3600     5.56   141.67  decompress_onepass
+  1.34      1.46     0.02                             __memset_sse2_unaligned_erms
+  0.67      1.47     0.01                             _IO_file_write
+  0.67      1.48     0.01                             __memmove_sse2_unaligned_erms
+  0.67      1.49     0.01                             jpeg_read_scanlines
+  0.00      1.49     0.00   158400     0.00     0.00  jzero_far
+  0.00      1.49     0.00    86500     0.00     0.00  jpeg_huff_decode
+  0.00      1.49     0.00    57600     0.00    17.71  process_data_context_main
+  0.00      1.49     0.00    57600     0.00     8.85  sep_upsample
+  0.00      1.49     0.00    28800     0.00     0.00  fullsize_upsample
+  0.00      1.49     0.00     9400     0.00     0.00  keymatch
+  0.00      1.49     0.00     4500     0.00     0.00  alloc_small
+  0.00      1.49     0.00     2700     0.00     0.00  jdiv_round_up
+  0.00      1.49     0.00     2600     0.00     0.00  emit_message
+  0.00      1.49     0.00     1000     0.00     0.00  fill_input_buffer
+  0.00      1.49     0.00      900     0.00     0.00  next_marker
+  0.00      1.49     0.00      600     0.00     0.00  jpeg_free_large
+  0.00      1.49     0.00      600     0.00     0.00  jpeg_get_large
+  0.00      1.49     0.00      500     0.00     0.00  alloc_sarray
+  0.00      1.49     0.00      500     0.00     0.00  jpeg_free_small
+  0.00      1.49     0.00      500     0.00     0.00  jpeg_get_small
+  0.00      1.49     0.00      400     0.00     0.00  get_dht
+  0.00      1.49     0.00      400     0.00     0.00  jpeg_alloc_huff_table
+  0.00      1.49     0.00      300     0.00     0.00  free_pool
+  0.00      1.49     0.00      300     0.00     0.00  jpeg_make_d_derived_tbl
+  0.00      1.49     0.00      300     0.00     0.00  jpeg_make_d_derived_tbl.constprop.0
+  0.00      1.49     0.00      200     0.00     0.00  consume_markers
+  0.00      1.49     0.00      200     0.00     0.00  jpeg_alloc_quant_table
+  0.00      1.49     0.00      200     0.00     0.00  jpeg_calc_output_dimensions
+  0.00      1.49     0.00      200     0.00     0.00  jround_up
+  0.00      1.49     0.00      200     0.00     0.00  read_markers
+  0.00      1.49     0.00      100     0.00     0.00  alloc_large
+  0.00      1.49     0.00      100     0.00     0.00  build_ycc_rgb_table
+  0.00      1.49     0.00      100     0.00     0.00  examine_app0
+  0.00      1.49     0.00      100     0.00     0.00  finish_input_pass
+  0.00      1.49     0.00      100     0.00     0.00  finish_output_pass
+  0.00      1.49     0.00      100     0.00     0.00  get_interesting_appn
+  0.00      1.49     0.00      100     0.00     0.00  get_sof
+  0.00      1.49     0.00      100     0.00     0.00  init_source
+  0.00      1.49     0.00      100     0.00     0.00  jinit_color_deconverter
+  0.00      1.49     0.00      100     0.00     0.00  jinit_d_coef_controller
+  0.00      1.49     0.00      100     0.00     0.00  jinit_d_main_controller
+  0.00      1.49     0.00      100     0.00     0.00  jinit_d_post_controller
+  0.00      1.49     0.00      100     0.00     0.00  jinit_huff_decoder
+  0.00      1.49     0.00      100     0.00     0.00  jinit_input_controller
+  0.00      1.49     0.00      100     0.00     0.00  jinit_inverse_dct
+  0.00      1.49     0.00      100     0.00     0.00  jinit_marker_reader
+  0.00      1.49     0.00      100     0.00     0.00  jinit_master_decompress
+  0.00      1.49     0.00      100     0.00     0.00  jinit_memory_mgr
+  0.00      1.49     0.00      100     0.00     0.00  jinit_upsampler
+  0.00      1.49     0.00      100     0.00     0.00  jpeg_abort
+  0.00      1.49     0.00      100     0.00     0.00  jpeg_mem_init
+  0.00      1.49     0.00      100     0.00     0.00  jpeg_mem_term
+  0.00      1.49     0.00      100     0.00     0.00  prepare_for_output_pass
+  0.00      1.49     0.00      100     0.00     0.00  realize_virt_arrays
+  0.00      1.49     0.00      100     0.00     0.00  reset_error_mgr
+  0.00      1.49     0.00      100     0.00     0.00  reset_input_controller
+  0.00      1.49     0.00      100     0.00     0.00  reset_marker_reader
+  0.00      1.49     0.00      100     0.00     0.00  self_destruct
+  0.00      1.49     0.00      100     0.00     0.00  start_input_pass
+  0.00      1.49     0.00      100     0.00     0.00  start_input_pass
+  0.00      1.49     0.00      100     0.00     0.00  start_output_pass
+  0.00      1.49     0.00      100     0.00     0.00  start_pass
+  0.00      1.49     0.00      100     0.00     0.00  start_pass_dcolor
+  0.00      1.49     0.00      100     0.00     0.00  start_pass_dpost
+  0.00      1.49     0.00      100     0.00     0.00  start_pass_huff_decoder
+  0.00      1.49     0.00      100     0.00     0.00  start_pass_main
+  0.00      1.49     0.00      100     0.00     0.00  start_pass_upsample
+  0.00      1.49     0.00      100     0.00     0.00  term_source
+  0.00      1.49     0.00        1     0.00     0.00  hpctimer_tsc_initialize
+  0.00      1.49     0.00        1     0.00     0.00  main
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.67% of 1.49 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     69.1    0.01    1.02                 jpeg_read_scanlines [1]
+                0.00    1.02   57600/57600       process_data_context_main [2]
+-----------------------------------------------
+                0.00    1.02   57600/57600       jpeg_read_scanlines [1]
+[2]     68.5    0.00    1.02   57600         process_data_context_main [2]
+                0.00    0.51   57600/57600       sep_upsample [3]
+                0.02    0.49    3600/3600        decompress_onepass [4]
+-----------------------------------------------
+                0.00    0.51   57600/57600       process_data_context_main [2]
+[3]     34.2    0.00    0.51   57600         sep_upsample [3]
+                0.28    0.00   57600/57600       ycc_rgb_convert [7]
+                0.23    0.00   57600/57600       h2v2_fancy_upsample [8]
+                0.00    0.00   28800/28800       fullsize_upsample [18]
+-----------------------------------------------
+                0.02    0.49    3600/3600        process_data_context_main [2]
+[4]     34.2    0.02    0.49    3600         decompress_onepass [4]
+                0.31    0.00  950400/950400      jpeg_idct_islow [6]
+                0.15    0.03  158400/158400      decode_mcu [9]
+                0.00    0.00  158400/158400      jzero_far [17]
+                0.00    0.00     100/100         finish_input_pass [43]
+-----------------------------------------------
+                                                 <spontaneous>
+[5]     23.5    0.35    0.00                 __write_nocancel [5]
+-----------------------------------------------
+                0.31    0.00  950400/950400      decompress_onepass [4]
+[6]     20.8    0.31    0.00  950400         jpeg_idct_islow [6]
+-----------------------------------------------
+                0.28    0.00   57600/57600       sep_upsample [3]
+[7]     18.8    0.28    0.00   57600         ycc_rgb_convert [7]
+-----------------------------------------------
+                0.23    0.00   57600/57600       sep_upsample [3]
+[8]     15.4    0.23    0.00   57600         h2v2_fancy_upsample [8]
+-----------------------------------------------
+                0.15    0.03  158400/158400      decompress_onepass [4]
+[9]     12.1    0.15    0.03  158400         decode_mcu [9]
+                0.03    0.00 1192900/1199100     jpeg_fill_bit_buffer [11]
+                0.00    0.00   86500/86500       jpeg_huff_decode [16]
+-----------------------------------------------
+                                                 <spontaneous>
+[10]     2.7    0.04    0.00                 __open_nocancel [10]
+-----------------------------------------------
+                0.00    0.00    6200/1199100     jpeg_huff_decode [16]
+                0.03    0.00 1192900/1199100     decode_mcu [9]
+[11]     2.0    0.03    0.00 1199100         jpeg_fill_bit_buffer [11]
+                0.00    0.00     900/1000        fill_input_buffer [23]
+-----------------------------------------------
+                                                 <spontaneous>
+[12]     2.0    0.03    0.00                 _IO_file_close [12]
+-----------------------------------------------
+                                                 <spontaneous>
+[13]     1.3    0.02    0.00                 __memset_sse2_unaligned_erms [13]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     0.7    0.01    0.00                 _IO_file_write [14]
+-----------------------------------------------
+                                                 <spontaneous>
+[15]     0.7    0.01    0.00                 __memmove_sse2_unaligned_erms [15]
+-----------------------------------------------
+                0.00    0.00   86500/86500       decode_mcu [9]
+[16]     0.0    0.00    0.00   86500         jpeg_huff_decode [16]
+                0.00    0.00    6200/1199100     jpeg_fill_bit_buffer [11]
+-----------------------------------------------
+                0.00    0.00  158400/158400      decompress_onepass [4]
+[17]     0.0    0.00    0.00  158400         jzero_far [17]
+-----------------------------------------------
+                0.00    0.00   28800/28800       sep_upsample [3]
+[18]     0.0    0.00    0.00   28800         fullsize_upsample [18]
+-----------------------------------------------
+                0.00    0.00    9400/9400        parse_switches.constprop.0 [364]
+[19]     0.0    0.00    0.00    9400         keymatch [19]
+-----------------------------------------------
+                0.00    0.00     100/4500        jinit_input_controller [53]
+                0.00    0.00     100/4500        get_sof [46]
+                0.00    0.00     100/4500        jinit_marker_reader [55]
+                0.00    0.00     100/4500        jinit_huff_decoder [52]
+                0.00    0.00     100/4500        jinit_d_coef_controller [49]
+                0.00    0.00     100/4500        jinit_d_post_controller [51]
+                0.00    0.00     100/4500        jinit_upsampler [58]
+                0.00    0.00     100/4500        jinit_color_deconverter [48]
+                0.00    0.00     200/4500        jinit_write_ppm [272]
+                0.00    0.00     200/4500        jpeg_stdio_src [299]
+                0.00    0.00     200/4500        jinit_master_decompress [56]
+                0.00    0.00     200/4500        jpeg_make_d_derived_tbl.constprop.0 [34]
+                0.00    0.00     200/4500        jpeg_make_d_derived_tbl [33]
+                0.00    0.00     200/4500        jpeg_alloc_quant_table [36]
+                0.00    0.00     300/4500        start_input_pass [68]
+                0.00    0.00     400/4500        jinit_inverse_dct [54]
+                0.00    0.00     400/4500        build_ycc_rgb_table [41]
+                0.00    0.00     400/4500        jpeg_alloc_huff_table [31]
+                0.00    0.00     500/4500        jinit_d_main_controller [50]
+                0.00    0.00     500/4500        alloc_sarray [27]
+[20]     0.0    0.00    0.00    4500         alloc_small [20]
+                0.00    0.00     400/500         jpeg_get_small [29]
+-----------------------------------------------
+                0.00    0.00     200/2700        start_input_pass [68]
+                0.00    0.00    1200/2700        jpeg_calc_output_dimensions [37]
+                0.00    0.00    1300/2700        consume_markers [35]
+[21]     0.0    0.00    0.00    2700         jdiv_round_up [21]
+-----------------------------------------------
+                0.00    0.00     100/2600        examine_app0 [42]
+                0.00    0.00     400/2600        get_sof [46]
+                0.00    0.00     900/2600        read_markers [39]
+                0.00    0.00    1200/2600        get_dht [30]
+[22]     0.0    0.00    0.00    2600         emit_message [22]
+-----------------------------------------------
+                0.00    0.00     100/1000        read_markers [39]
+                0.00    0.00     900/1000        jpeg_fill_bit_buffer [11]
+[23]     0.0    0.00    0.00    1000         fill_input_buffer [23]
+-----------------------------------------------
+                0.00    0.00     900/900         read_markers [39]
+[24]     0.0    0.00    0.00     900         next_marker [24]
+-----------------------------------------------
+                0.00    0.00     600/600         free_pool [32]
+[25]     0.0    0.00    0.00     600         jpeg_free_large [25]
+-----------------------------------------------
+                0.00    0.00     100/600         alloc_large [40]
+                0.00    0.00     500/600         alloc_sarray [27]
+[26]     0.0    0.00    0.00     600         jpeg_get_large [26]
+-----------------------------------------------
+                0.00    0.00     200/500         jinit_upsampler [58]
+                0.00    0.00     300/500         jinit_d_main_controller [50]
+[27]     0.0    0.00    0.00     500         alloc_sarray [27]
+                0.00    0.00     500/4500        alloc_small [20]
+                0.00    0.00     500/600         jpeg_get_large [26]
+-----------------------------------------------
+                0.00    0.00     100/500         self_destruct [67]
+                0.00    0.00     400/500         free_pool [32]
+[28]     0.0    0.00    0.00     500         jpeg_free_small [28]
+-----------------------------------------------
+                0.00    0.00     100/500         jinit_memory_mgr [57]
+                0.00    0.00     400/500         alloc_small [20]
+[29]     0.0    0.00    0.00     500         jpeg_get_small [29]
+-----------------------------------------------
+                0.00    0.00     400/400         read_markers [39]
+[30]     0.0    0.00    0.00     400         get_dht [30]
+                0.00    0.00    1200/2600        emit_message [22]
+                0.00    0.00     400/400         jpeg_alloc_huff_table [31]
+-----------------------------------------------
+                0.00    0.00     400/400         get_dht [30]
+[31]     0.0    0.00    0.00     400         jpeg_alloc_huff_table [31]
+                0.00    0.00     400/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/300         jpeg_abort [59]
+                0.00    0.00     200/300         self_destruct [67]
+[32]     0.0    0.00    0.00     300         free_pool [32]
+                0.00    0.00     600/600         jpeg_free_large [25]
+                0.00    0.00     400/500         jpeg_free_small [28]
+-----------------------------------------------
+                0.00    0.00     300/300         start_pass_huff_decoder [74]
+[33]     0.0    0.00    0.00     300         jpeg_make_d_derived_tbl [33]
+                0.00    0.00     200/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     300/300         start_pass_huff_decoder [74]
+[34]     0.0    0.00    0.00     300         jpeg_make_d_derived_tbl.constprop.0 [34]
+                0.00    0.00     200/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/200         jpeg_read_header [291]
+                0.00    0.00     100/200         jpeg_finish_decompress [279]
+[35]     0.0    0.00    0.00     200         consume_markers [35]
+                0.00    0.00    1300/2700        jdiv_round_up [21]
+                0.00    0.00     200/200         read_markers [39]
+-----------------------------------------------
+                0.00    0.00     200/200         read_markers [39]
+[36]     0.0    0.00    0.00     200         jpeg_alloc_quant_table [36]
+                0.00    0.00     200/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/200         jinit_write_ppm [272]
+                0.00    0.00     100/200         jinit_master_decompress [56]
+[37]     0.0    0.00    0.00     200         jpeg_calc_output_dimensions [37]
+                0.00    0.00    1200/2700        jdiv_round_up [21]
+-----------------------------------------------
+                0.00    0.00     200/200         jinit_upsampler [58]
+[38]     0.0    0.00    0.00     200         jround_up [38]
+-----------------------------------------------
+                0.00    0.00     200/200         consume_markers [35]
+[39]     0.0    0.00    0.00     200         read_markers [39]
+                0.00    0.00     900/900         next_marker [24]
+                0.00    0.00     900/2600        emit_message [22]
+                0.00    0.00     400/400         get_dht [30]
+                0.00    0.00     200/200         jpeg_alloc_quant_table [36]
+                0.00    0.00     100/1000        fill_input_buffer [23]
+                0.00    0.00     100/100         get_sof [46]
+                0.00    0.00     100/100         get_interesting_appn [45]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_d_coef_controller [49]
+[40]     0.0    0.00    0.00     100         alloc_large [40]
+                0.00    0.00     100/600         jpeg_get_large [26]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_color_deconverter [48]
+[41]     0.0    0.00    0.00     100         build_ycc_rgb_table [41]
+                0.00    0.00     400/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         get_interesting_appn [45]
+[42]     0.0    0.00    0.00     100         examine_app0 [42]
+                0.00    0.00     100/2600        emit_message [22]
+-----------------------------------------------
+                0.00    0.00     100/100         decompress_onepass [4]
+[43]     0.0    0.00    0.00     100         finish_input_pass [43]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_finish_decompress [279]
+[44]     0.0    0.00    0.00     100         finish_output_pass [44]
+-----------------------------------------------
+                0.00    0.00     100/100         read_markers [39]
+[45]     0.0    0.00    0.00     100         get_interesting_appn [45]
+                0.00    0.00     100/100         examine_app0 [42]
+-----------------------------------------------
+                0.00    0.00     100/100         read_markers [39]
+[46]     0.0    0.00    0.00     100         get_sof [46]
+                0.00    0.00     400/2600        emit_message [22]
+                0.00    0.00     100/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_read_header [291]
+[47]     0.0    0.00    0.00     100         init_source [47]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[48]     0.0    0.00    0.00     100         jinit_color_deconverter [48]
+                0.00    0.00     100/4500        alloc_small [20]
+                0.00    0.00     100/100         build_ycc_rgb_table [41]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[49]     0.0    0.00    0.00     100         jinit_d_coef_controller [49]
+                0.00    0.00     100/4500        alloc_small [20]
+                0.00    0.00     100/100         alloc_large [40]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[50]     0.0    0.00    0.00     100         jinit_d_main_controller [50]
+                0.00    0.00     500/4500        alloc_small [20]
+                0.00    0.00     300/500         alloc_sarray [27]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[51]     0.0    0.00    0.00     100         jinit_d_post_controller [51]
+                0.00    0.00     100/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[52]     0.0    0.00    0.00     100         jinit_huff_decoder [52]
+                0.00    0.00     100/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_CreateDecompress [274]
+[53]     0.0    0.00    0.00     100         jinit_input_controller [53]
+                0.00    0.00     100/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[54]     0.0    0.00    0.00     100         jinit_inverse_dct [54]
+                0.00    0.00     400/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_CreateDecompress [274]
+[55]     0.0    0.00    0.00     100         jinit_marker_reader [55]
+                0.00    0.00     100/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_start_decompress [296]
+[56]     0.0    0.00    0.00     100         jinit_master_decompress [56]
+                0.00    0.00     200/4500        alloc_small [20]
+                0.00    0.00     100/200         jpeg_calc_output_dimensions [37]
+                0.00    0.00     100/100         jinit_inverse_dct [54]
+                0.00    0.00     100/100         jinit_d_coef_controller [49]
+                0.00    0.00     100/100         realize_virt_arrays [63]
+                0.00    0.00     100/100         start_input_pass [68]
+                0.00    0.00     100/100         jinit_upsampler [58]
+                0.00    0.00     100/100         jinit_color_deconverter [48]
+                0.00    0.00     100/100         jinit_d_post_controller [51]
+                0.00    0.00     100/100         jinit_huff_decoder [52]
+                0.00    0.00     100/100         jinit_d_main_controller [50]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_CreateDecompress [274]
+[57]     0.0    0.00    0.00     100         jinit_memory_mgr [57]
+                0.00    0.00     100/100         jpeg_mem_init [60]
+                0.00    0.00     100/500         jpeg_get_small [29]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[58]     0.0    0.00    0.00     100         jinit_upsampler [58]
+                0.00    0.00     200/200         jround_up [38]
+                0.00    0.00     200/500         alloc_sarray [27]
+                0.00    0.00     100/4500        alloc_small [20]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_finish_decompress [279]
+[59]     0.0    0.00    0.00     100         jpeg_abort [59]
+                0.00    0.00     100/300         free_pool [32]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_memory_mgr [57]
+[60]     0.0    0.00    0.00     100         jpeg_mem_init [60]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_destroy [277]
+[61]     0.0    0.00    0.00     100         jpeg_mem_term [61]
+-----------------------------------------------
+                0.00    0.00     100/100         output_pass_setup [362]
+[62]     0.0    0.00    0.00     100         prepare_for_output_pass [62]
+                0.00    0.00     100/100         start_pass [71]
+                0.00    0.00     100/100         start_output_pass [70]
+                0.00    0.00     100/100         start_pass_upsample [76]
+                0.00    0.00     100/100         start_pass_dpost [73]
+                0.00    0.00     100/100         start_pass_main [75]
+                0.00    0.00     100/100         start_pass_dcolor [72]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[63]     0.0    0.00    0.00     100         realize_virt_arrays [63]
+-----------------------------------------------
+                0.00    0.00     100/100         reset_input_controller [65]
+[64]     0.0    0.00    0.00     100         reset_error_mgr [64]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_read_header [291]
+[65]     0.0    0.00    0.00     100         reset_input_controller [65]
+                0.00    0.00     100/100         reset_error_mgr [64]
+                0.00    0.00     100/100         reset_marker_reader [66]
+-----------------------------------------------
+                0.00    0.00     100/100         reset_input_controller [65]
+[66]     0.0    0.00    0.00     100         reset_marker_reader [66]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_destroy [277]
+[67]     0.0    0.00    0.00     100         self_destruct [67]
+                0.00    0.00     200/300         free_pool [32]
+                0.00    0.00     100/500         jpeg_free_small [28]
+-----------------------------------------------
+                0.00    0.00     100/100         jinit_master_decompress [56]
+[68]     0.0    0.00    0.00     100         start_input_pass [68]
+                0.00    0.00     300/4500        alloc_small [20]
+                0.00    0.00     200/2700        jdiv_round_up [21]
+                0.00    0.00     100/100         start_input_pass [69]
+                0.00    0.00     100/100         start_pass_huff_decoder [74]
+-----------------------------------------------
+                0.00    0.00     100/100         start_input_pass [68]
+[69]     0.0    0.00    0.00     100         start_input_pass [69]
+-----------------------------------------------
+                0.00    0.00     100/100         prepare_for_output_pass [62]
+[70]     0.0    0.00    0.00     100         start_output_pass [70]
+-----------------------------------------------
+                0.00    0.00     100/100         prepare_for_output_pass [62]
+[71]     0.0    0.00    0.00     100         start_pass [71]
+-----------------------------------------------
+                0.00    0.00     100/100         prepare_for_output_pass [62]
+[72]     0.0    0.00    0.00     100         start_pass_dcolor [72]
+-----------------------------------------------
+                0.00    0.00     100/100         prepare_for_output_pass [62]
+[73]     0.0    0.00    0.00     100         start_pass_dpost [73]
+-----------------------------------------------
+                0.00    0.00     100/100         start_input_pass [68]
+[74]     0.0    0.00    0.00     100         start_pass_huff_decoder [74]
+                0.00    0.00     300/300         jpeg_make_d_derived_tbl [33]
+                0.00    0.00     300/300         jpeg_make_d_derived_tbl.constprop.0 [34]
+-----------------------------------------------
+                0.00    0.00     100/100         prepare_for_output_pass [62]
+[75]     0.0    0.00    0.00     100         start_pass_main [75]
+-----------------------------------------------
+                0.00    0.00     100/100         prepare_for_output_pass [62]
+[76]     0.0    0.00    0.00     100         start_pass_upsample [76]
+-----------------------------------------------
+                0.00    0.00     100/100         jpeg_finish_decompress [279]
+[77]     0.0    0.00    0.00     100         term_source [77]
+-----------------------------------------------
+                0.00    0.00       1/1           hpctimer_wtime [252]
+[78]     0.0    0.00    0.00       1         hpctimer_tsc_initialize [78]
+-----------------------------------------------
+                0.00    0.00       1/1           generic_start_main [218]
+[79]     0.0    0.00    0.00       1         main [79]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [12] _IO_file_close         [48] jinit_color_deconverter [38] jround_up
+  [14] _IO_file_write         [49] jinit_d_coef_controller [17] jzero_far
+  [15] __memmove_sse2_unaligned_erms [50] jinit_d_main_controller [19] keymatch
+  [13] __memset_sse2_unaligned_erms [51] jinit_d_post_controller [79] main
+  [10] __open_nocancel        [52] jinit_huff_decoder     [24] next_marker (jdmarker.c)
+   [5] __write_nocancel       [53] jinit_input_controller [62] prepare_for_output_pass (jdmaster.c)
+  [40] alloc_large (jmemmgr.c) [54] jinit_inverse_dct      [2] process_data_context_main (jdmainct.c)
+  [27] alloc_sarray (jmemmgr.c) [55] jinit_marker_reader  [39] read_markers (jdmarker.c)
+  [20] alloc_small (jmemmgr.c) [56] jinit_master_decompress [63] realize_virt_arrays (jmemmgr.c)
+  [41] build_ycc_rgb_table (jdcolor.c) [57] jinit_memory_mgr [64] reset_error_mgr (jerror.c)
+  [35] consume_markers (jdinput.c) [58] jinit_upsampler   [65] reset_input_controller (jdinput.c)
+   [9] decode_mcu (jdhuff.c)  [59] jpeg_abort             [66] reset_marker_reader (jdmarker.c)
+   [4] decompress_onepass (jdcoefct.c) [31] jpeg_alloc_huff_table [67] self_destruct (jmemmgr.c)
+  [22] emit_message (jerror.c) [36] jpeg_alloc_quant_table [3] sep_upsample (jdsample.c)
+  [42] examine_app0 (jdmarker.c) [37] jpeg_calc_output_dimensions [68] start_input_pass (jdinput.c)
+  [23] fill_input_buffer (jdatasrc.c) [11] jpeg_fill_bit_buffer [69] start_input_pass (jdcoefct.c)
+  [43] finish_input_pass (jdinput.c) [25] jpeg_free_large [70] start_output_pass (jdcoefct.c)
+  [44] finish_output_pass (jdmaster.c) [28] jpeg_free_small [71] start_pass (jddctmgr.c)
+  [32] free_pool (jmemmgr.c)  [26] jpeg_get_large         [72] start_pass_dcolor (jdcolor.c)
+  [18] fullsize_upsample (jdsample.c) [29] jpeg_get_small [73] start_pass_dpost (jdpostct.c)
+  [30] get_dht (jdmarker.c)   [16] jpeg_huff_decode       [74] start_pass_huff_decoder (jdhuff.c)
+  [45] get_interesting_appn (jdmarker.c) [6] jpeg_idct_islow [75] start_pass_main (jdmainct.c)
+  [46] get_sof (jdmarker.c)   [33] jpeg_make_d_derived_tbl [76] start_pass_upsample (jdsample.c)
+   [8] h2v2_fancy_upsample (jdsample.c) [34] jpeg_make_d_derived_tbl.constprop.0 (jdhuff.c) [77] term_source (jdatasrc.c)
+  [78] hpctimer_tsc_initialize (hpctimer.c) [60] jpeg_mem_init [7] ycc_rgb_convert (jdcolor.c)
+  [47] init_source (jdatasrc.c) [61] jpeg_mem_term
+  [21] jdiv_round_up           [1] jpeg_read_scanlines

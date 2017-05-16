@@ -1,0 +1,1348 @@
+jdmarker.c:281:30: note: not vectorized: control flow in loop.
+jdmarker.c:281:30: note: bad loop form.
+jdmarker.c:248:3: note: not consecutive access next_input_byte_48 = datasrc_47->next_input_byte;
+jdmarker.c:248:3: note: not consecutive access bytes_in_buffer_49 = datasrc_47->bytes_in_buffer;
+jdmarker.c:248:3: note: not consecutive access datasrc_47 = cinfo_46(D)->src;
+jdmarker.c:248:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:248:3: note: not consecutive access next_input_byte_48 = datasrc_47->next_input_byte;
+jdmarker.c:248:3: note: not consecutive access bytes_in_buffer_49 = datasrc_47->bytes_in_buffer;
+jdmarker.c:248:3: note: not consecutive access datasrc_47 = cinfo_46(D)->src;
+jdmarker.c:248:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not consecutive access next_input_byte_58 = datasrc_47->next_input_byte;
+jdmarker.c:248:3: note: not consecutive access bytes_in_buffer_59 = datasrc_47->bytes_in_buffer;
+jdmarker.c:248:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not consecutive access next_input_byte_71 = datasrc_47->next_input_byte;
+jdmarker.c:248:3: note: not consecutive access bytes_in_buffer_72 = datasrc_47->bytes_in_buffer;
+jdmarker.c:248:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:250:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:248:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:250:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:250:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:250:3: note: not consecutive access next_input_byte_81 = datasrc_47->next_input_byte;
+jdmarker.c:250:3: note: not consecutive access bytes_in_buffer_82 = datasrc_47->bytes_in_buffer;
+jdmarker.c:250:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:251:3: note: not consecutive access _85 = *next_input_byte_5;
+jdmarker.c:251:3: note: not consecutive access cinfo_46(D)->data_precision = _86;
+jdmarker.c:251:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:250:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:251:3: note: not consecutive access next_input_byte_91 = datasrc_47->next_input_byte;
+jdmarker.c:251:3: note: not consecutive access bytes_in_buffer_92 = datasrc_47->bytes_in_buffer;
+jdmarker.c:251:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:251:3: note: not consecutive access _95 = *next_input_byte_6;
+jdmarker.c:251:3: note: not consecutive access cinfo_46(D)->image_height = _97;
+jdmarker.c:251:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:251:3: note: not consecutive access next_input_byte_102 = datasrc_47->next_input_byte;
+jdmarker.c:251:3: note: not consecutive access bytes_in_buffer_103 = datasrc_47->bytes_in_buffer;
+jdmarker.c:251:3: note: not consecutive access pretmp_307 = cinfo_46(D)->image_height;
+jdmarker.c:251:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:252:3: note: not consecutive access _106 = *next_input_byte_7;
+jdmarker.c:252:3: note: not consecutive access cinfo_46(D)->image_height = _109;
+jdmarker.c:252:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:251:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:252:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:252:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:252:3: note: not consecutive access next_input_byte_114 = datasrc_47->next_input_byte;
+jdmarker.c:252:3: note: not consecutive access bytes_in_buffer_115 = datasrc_47->bytes_in_buffer;
+jdmarker.c:252:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:252:3: note: not consecutive access _118 = *next_input_byte_8;
+jdmarker.c:252:3: note: not consecutive access cinfo_46(D)->image_width = _120;
+jdmarker.c:252:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:252:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:252:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:252:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:252:3: note: not consecutive access next_input_byte_125 = datasrc_47->next_input_byte;
+jdmarker.c:252:3: note: not consecutive access bytes_in_buffer_126 = datasrc_47->bytes_in_buffer;
+jdmarker.c:252:3: note: not consecutive access pretmp_313 = cinfo_46(D)->image_width;
+jdmarker.c:252:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:253:3: note: not consecutive access _129 = *next_input_byte_9;
+jdmarker.c:253:3: note: not consecutive access cinfo_46(D)->image_width = _132;
+jdmarker.c:253:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:252:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:253:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:253:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:253:3: note: not consecutive access next_input_byte_137 = datasrc_47->next_input_byte;
+jdmarker.c:253:3: note: not consecutive access bytes_in_buffer_138 = datasrc_47->bytes_in_buffer;
+jdmarker.c:253:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:257:3: note: not consecutive access _157 = _145->emit_message;
+jdmarker.c:257:3: note: not consecutive access _141 = *next_input_byte_10;
+jdmarker.c:257:3: note: not consecutive access _145 = cinfo_46(D)->err;
+jdmarker.c:257:3: note: not consecutive access cinfo_46(D)->num_components = _142;
+jdmarker.c:257:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:257:3: note: not consecutive access _157 = _145->emit_message;
+jdmarker.c:257:3: note: not consecutive access _141 = *next_input_byte_10;
+jdmarker.c:257:3: note: not consecutive access _145 = cinfo_46(D)->err;
+jdmarker.c:257:3: note: not consecutive access cinfo_46(D)->num_components = _142;
+jdmarker.c:257:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:261:6: note: not consecutive access _160 = _159->saw_SOF;
+jdmarker.c:261:6: note: not consecutive access _159 = cinfo_46(D)->marker;
+jdmarker.c:261:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:262:5: note: not consecutive access _163 = _161->error_exit;
+jdmarker.c:262:5: note: not consecutive access _161->msg_code = 58;
+jdmarker.c:262:5: note: not consecutive access _161 = cinfo_46(D)->err;
+jdmarker.c:262:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:267:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:267:32: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:268:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:269:5: note: not consecutive access _170 = _168->error_exit;
+jdmarker.c:269:5: note: not consecutive access _168->msg_code = 32;
+jdmarker.c:269:5: note: not consecutive access _168 = cinfo_46(D)->err;
+jdmarker.c:269:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:269:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:271:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:272:5: note: not consecutive access _177 = _175->error_exit;
+jdmarker.c:272:5: note: not consecutive access _175->msg_code = 11;
+jdmarker.c:272:5: note: not consecutive access _175 = cinfo_46(D)->err;
+jdmarker.c:272:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:272:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:274:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:275:49: note: not consecutive access _181 = _180->alloc_small;
+jdmarker.c:275:49: note: not consecutive access _180 = cinfo_46(D)->mem;
+jdmarker.c:275:49: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:275:22: note: not consecutive access pretmp_328 = cinfo_46(D)->num_components;
+jdmarker.c:275:22: note: not consecutive access cinfo_46(D)->comp_info = _186;
+jdmarker.c:275:22: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:279:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:282:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:282:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:282:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:282:5: note: not consecutive access next_input_byte_234 = datasrc_47->next_input_byte;
+jdmarker.c:282:5: note: not consecutive access bytes_in_buffer_235 = datasrc_47->bytes_in_buffer;
+jdmarker.c:282:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:283:5: note: not consecutive access compptr_284->component_id = _194;
+jdmarker.c:283:5: note: not consecutive access _193 = *next_input_byte_11;
+jdmarker.c:283:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:282:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:283:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:283:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:283:5: note: not consecutive access next_input_byte_199 = datasrc_47->next_input_byte;
+jdmarker.c:283:5: note: not consecutive access bytes_in_buffer_200 = datasrc_47->bytes_in_buffer;
+jdmarker.c:283:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:286:5: note: interleaved store with gaps
+jdmarker.c:286:5: note: not vectorized: complicated access pattern.
+jdmarker.c:286:5: note: not consecutive access compptr_284->v_samp_factor = _205;
+jdmarker.c:286:5: note: not consecutive access _203 = *next_input_byte_12;
+jdmarker.c:286:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:283:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:286:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:286:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:286:5: note: not consecutive access next_input_byte_210 = datasrc_47->next_input_byte;
+jdmarker.c:286:5: note: not consecutive access bytes_in_buffer_211 = datasrc_47->bytes_in_buffer;
+jdmarker.c:286:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:288:5: note: not consecutive access _227 = _217->emit_message;
+jdmarker.c:288:5: note: not consecutive access compptr_284->quant_tbl_no = _215;
+jdmarker.c:288:5: note: not consecutive access _214 = *next_input_byte_13;
+jdmarker.c:288:5: note: not consecutive access _217 = cinfo_46(D)->err;
+jdmarker.c:288:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:288:5: note: not consecutive access _227 = _217->emit_message;
+jdmarker.c:288:5: note: not consecutive access compptr_284->quant_tbl_no = _215;
+jdmarker.c:288:5: note: not consecutive access _214 = *next_input_byte_13;
+jdmarker.c:288:5: note: not consecutive access _217 = cinfo_46(D)->err;
+jdmarker.c:288:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:279:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:295:3: note: not consecutive access _236->saw_SOF = 1;
+jdmarker.c:295:3: note: not consecutive access datasrc_47->next_input_byte = next_input_byte_254;
+jdmarker.c:295:3: note: not consecutive access datasrc_47->bytes_in_buffer = bytes_in_buffer_245;
+jdmarker.c:295:3: note: not consecutive access _236 = cinfo_46(D)->marker;
+jdmarker.c:295:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:295:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:593:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:593:32: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:594:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:595:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:596:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:597:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:612:8: note: not consecutive access cinfo_15(D)->saw_JFIF_marker = 1;
+jdmarker.c:612:8: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:612:8: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:612:8: note: not consecutive access cinfo_15(D)->saw_JFIF_marker = 1;
+jdmarker.c:612:8: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:612:8: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:613:7: note: not consecutive access _43 = _37->emit_message;
+jdmarker.c:613:7: note: not consecutive access _37 = cinfo_15(D)->err;
+jdmarker.c:613:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:613:7: note: not consecutive access _43 = _37->emit_message;
+jdmarker.c:613:7: note: not consecutive access _37 = cinfo_15(D)->err;
+jdmarker.c:613:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:616:5: note: not consecutive access _62 = _45->emit_message;
+jdmarker.c:616:5: note: not consecutive access _45 = cinfo_15(D)->err;
+jdmarker.c:616:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:616:5: note: not consecutive access _62 = _45->emit_message;
+jdmarker.c:616:5: note: not consecutive access _45 = cinfo_15(D)->err;
+jdmarker.c:616:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:620:8: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:621:7: note: not consecutive access _75 = _67->emit_message;
+jdmarker.c:621:7: note: not consecutive access _67 = cinfo_15(D)->err;
+jdmarker.c:621:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:621:7: note: not consecutive access _75 = _67->emit_message;
+jdmarker.c:621:7: note: not consecutive access _67 = cinfo_15(D)->err;
+jdmarker.c:621:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:621:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:624:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:626:7: note: not consecutive access _88 = _84->emit_message;
+jdmarker.c:626:7: note: not consecutive access _84 = cinfo_15(D)->err;
+jdmarker.c:626:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:626:7: note: not consecutive access _88 = _84->emit_message;
+jdmarker.c:626:7: note: not consecutive access _84 = cinfo_15(D)->err;
+jdmarker.c:626:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:627:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:627:27: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:627:27: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:628:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:629:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:630:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:631:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:637:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:639:7: note: not consecutive access _106 = _102->emit_message;
+jdmarker.c:639:7: note: not consecutive access _102 = cinfo_15(D)->err;
+jdmarker.c:639:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:639:7: note: not consecutive access _106 = _102->emit_message;
+jdmarker.c:639:7: note: not consecutive access _102 = cinfo_15(D)->err;
+jdmarker.c:639:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:642:7: note: not consecutive access _100 = _96->emit_message;
+jdmarker.c:642:7: note: not consecutive access _96 = cinfo_15(D)->err;
+jdmarker.c:642:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:642:7: note: not consecutive access _100 = _96->emit_message;
+jdmarker.c:642:7: note: not consecutive access _96 = cinfo_15(D)->err;
+jdmarker.c:642:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:645:7: note: not consecutive access _121 = _117->emit_message;
+jdmarker.c:645:7: note: not consecutive access _117 = cinfo_15(D)->err;
+jdmarker.c:645:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:645:7: note: not consecutive access _121 = _117->emit_message;
+jdmarker.c:645:7: note: not consecutive access _117 = cinfo_15(D)->err;
+jdmarker.c:645:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:648:7: note: not consecutive access _115 = _108->emit_message;
+jdmarker.c:648:7: note: not consecutive access _108 = cinfo_15(D)->err;
+jdmarker.c:648:7: note: not consecutive access _110 = MEM[(JOCTET *)data_9(D) + 5B];
+jdmarker.c:648:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:648:7: note: not consecutive access _115 = _108->emit_message;
+jdmarker.c:648:7: note: not consecutive access _108 = cinfo_15(D)->err;
+jdmarker.c:648:7: note: not consecutive access _110 = MEM[(JOCTET *)data_9(D) + 5B];
+jdmarker.c:648:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:654:5: note: not consecutive access _127 = _123->emit_message;
+jdmarker.c:654:5: note: not consecutive access _123 = cinfo_15(D)->err;
+jdmarker.c:654:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:654:5: note: not consecutive access _127 = _123->emit_message;
+jdmarker.c:654:5: note: not consecutive access _123 = cinfo_15(D)->err;
+jdmarker.c:654:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:656:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not consecutive access bytes_in_buffer_13 = datasrc_11->bytes_in_buffer;
+jdmarker.c:851:3: note: not consecutive access datasrc_11 = cinfo_10(D)->src;
+jdmarker.c:851:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:849:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not consecutive access next_input_byte_17 = datasrc_11->next_input_byte;
+jdmarker.c:851:3: note: not consecutive access bytes_in_buffer_18 = datasrc_11->bytes_in_buffer;
+jdmarker.c:851:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:851:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:851:3: note: not consecutive access next_input_byte_28 = datasrc_11->next_input_byte;
+jdmarker.c:851:3: note: not consecutive access bytes_in_buffer_29 = datasrc_11->bytes_in_buffer;
+jdmarker.c:851:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:854:3: note: not consecutive access _42 = _36->emit_message;
+jdmarker.c:854:3: note: not consecutive access _32 = *next_input_byte_2;
+jdmarker.c:854:3: note: not consecutive access _36 = cinfo_10(D)->err;
+jdmarker.c:854:3: note: not consecutive access _38 = cinfo_10(D)->unread_marker;
+jdmarker.c:854:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:854:3: note: not consecutive access _42 = _36->emit_message;
+jdmarker.c:854:3: note: not consecutive access _32 = *next_input_byte_2;
+jdmarker.c:854:3: note: not consecutive access _36 = cinfo_10(D)->err;
+jdmarker.c:854:3: note: not consecutive access _38 = cinfo_10(D)->unread_marker;
+jdmarker.c:854:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:857:6: note: not consecutive access datasrc_11->next_input_byte = next_input_byte_31;
+jdmarker.c:857:6: note: not consecutive access datasrc_11->bytes_in_buffer = bytes_in_buffer_30;
+jdmarker.c:857:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:858:6: note: not consecutive access _47 = _46->skip_input_data;
+jdmarker.c:858:6: note: not consecutive access _46 = cinfo_10(D)->src;
+jdmarker.c:858:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:858:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:880:5: note: not vectorized: multiple nested loops.
+jdmarker.c:880:5: note: bad loop form.
+jdmarker.c:897:7: note: not vectorized: control flow in loop.
+jdmarker.c:897:7: note: bad loop form.
+jdmarker.c:887:12: note: not vectorized: control flow in loop.
+jdmarker.c:887:12: note: bad loop form.
+jdmarker.c:877:3: note: not consecutive access next_input_byte_26 = datasrc_25->next_input_byte;
+jdmarker.c:877:3: note: not consecutive access bytes_in_buffer_27 = datasrc_25->bytes_in_buffer;
+jdmarker.c:877:3: note: not consecutive access datasrc_25 = cinfo_24(D)->src;
+jdmarker.c:877:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:880:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:880:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:880:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:880:5: note: not consecutive access next_input_byte_81 = datasrc_25->next_input_byte;
+jdmarker.c:880:5: note: not consecutive access bytes_in_buffer_82 = datasrc_25->bytes_in_buffer;
+jdmarker.c:880:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:886:11: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:889:7: note: not consecutive access _33 = _32->discarded_bytes;
+jdmarker.c:889:7: note: not consecutive access _32->discarded_bytes = _34;
+jdmarker.c:889:7: note: not consecutive access datasrc_25->next_input_byte = next_input_byte_89;
+jdmarker.c:889:7: note: not consecutive access datasrc_25->bytes_in_buffer = bytes_in_buffer_67;
+jdmarker.c:889:7: note: not consecutive access _32 = cinfo_24(D)->marker;
+jdmarker.c:889:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:889:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:889:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:889:7: note: not consecutive access next_input_byte_41 = datasrc_25->next_input_byte;
+jdmarker.c:889:7: note: not consecutive access bytes_in_buffer_42 = datasrc_25->bytes_in_buffer;
+jdmarker.c:889:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:886:11: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:897:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:897:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:897:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:897:7: note: not consecutive access next_input_byte_50 = datasrc_25->next_input_byte;
+jdmarker.c:897:7: note: not consecutive access bytes_in_buffer_51 = datasrc_25->bytes_in_buffer;
+jdmarker.c:897:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:898:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:899:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:905:5: note: not consecutive access _58 = _56->discarded_bytes;
+jdmarker.c:905:5: note: not consecutive access _56->discarded_bytes = _59;
+jdmarker.c:905:5: note: not consecutive access datasrc_25->next_input_byte = next_input_byte_119;
+jdmarker.c:905:5: note: not consecutive access datasrc_25->bytes_in_buffer = bytes_in_buffer_121;
+jdmarker.c:905:5: note: not consecutive access _56 = cinfo_24(D)->marker;
+jdmarker.c:905:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:908:6: note: not consecutive access _64 = _63->discarded_bytes;
+jdmarker.c:908:6: note: not consecutive access _63 = cinfo_24(D)->marker;
+jdmarker.c:908:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:909:5: note: not consecutive access _71 = _65->emit_message;
+jdmarker.c:909:5: note: not consecutive access _65 = cinfo_24(D)->err;
+jdmarker.c:909:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:909:5: note: not consecutive access _71 = _65->emit_message;
+jdmarker.c:909:5: note: not consecutive access _65 = cinfo_24(D)->err;
+jdmarker.c:909:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:910:36: note: not consecutive access _73->discarded_bytes = 0;
+jdmarker.c:910:36: note: not consecutive access _73 = cinfo_24(D)->marker;
+jdmarker.c:910:36: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:915:3: note: not consecutive access datasrc_25->next_input_byte = next_input_byte_118;
+jdmarker.c:915:3: note: not consecutive access datasrc_25->bytes_in_buffer = bytes_in_buffer_120;
+jdmarker.c:915:3: note: not consecutive access cinfo_24(D)->unread_marker = c_116;
+jdmarker.c:915:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:915:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1253:1: note: not consecutive access marker_3->cur_marker = 0B;
+jdmarker.c:1253:1: note: not consecutive access marker_3->pub.discarded_bytes = 0;
+jdmarker.c:1253:1: note: not consecutive access marker_3 = cinfo_2(D)->marker;
+jdmarker.c:1253:1: note: not consecutive access cinfo_2(D)->comp_info = 0B;
+jdmarker.c:1253:1: note: not consecutive access cinfo_2(D)->input_scan_number = 0;
+jdmarker.c:1253:1: note: not consecutive access cinfo_2(D)->unread_marker = 0;
+jdmarker.c:1253:1: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1253:1: note: not consecutive access marker_3->cur_marker = 0B;
+jdmarker.c:1253:1: note: not consecutive access marker_3->pub.discarded_bytes = 0;
+jdmarker.c:1253:1: note: not consecutive access marker_3 = cinfo_2(D)->marker;
+jdmarker.c:1253:1: note: not consecutive access cinfo_2(D)->comp_info = 0B;
+jdmarker.c:1253:1: note: not consecutive access cinfo_2(D)->input_scan_number = 0;
+jdmarker.c:1253:1: note: not consecutive access cinfo_2(D)->unread_marker = 0;
+jdmarker.c:1253:1: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:433:5: note: not vectorized: control flow in loop.
+jdmarker.c:433:5: note: bad loop form.
+jdmarker.c:460:7: note: not vectorized: control flow in loop.
+jdmarker.c:460:7: note: bad loop form.
+jdmarker.c:429:3: note: not consecutive access bytes_in_buffer_41 = datasrc_39->bytes_in_buffer;
+jdmarker.c:429:3: note: not consecutive access datasrc_39 = cinfo_38(D)->src;
+jdmarker.c:429:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:427:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not consecutive access next_input_byte_46 = datasrc_39->next_input_byte;
+jdmarker.c:429:3: note: not consecutive access bytes_in_buffer_47 = datasrc_39->bytes_in_buffer;
+jdmarker.c:429:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:429:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:429:3: note: not consecutive access next_input_byte_57 = datasrc_39->next_input_byte;
+jdmarker.c:429:3: note: not consecutive access bytes_in_buffer_58 = datasrc_39->bytes_in_buffer;
+jdmarker.c:429:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:432:9: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:433:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:433:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:433:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:433:5: note: not consecutive access next_input_byte_184 = datasrc_39->next_input_byte;
+jdmarker.c:433:5: note: not consecutive access bytes_in_buffer_185 = datasrc_39->bytes_in_buffer;
+jdmarker.c:433:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:435:5: note: not consecutive access _74 = _69->emit_message;
+jdmarker.c:435:5: note: not consecutive access _67 = *next_input_byte_9;
+jdmarker.c:435:5: note: not consecutive access _69 = cinfo_38(D)->err;
+jdmarker.c:435:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:435:5: note: not consecutive access _74 = _69->emit_message;
+jdmarker.c:435:5: note: not consecutive access _67 = *next_input_byte_9;
+jdmarker.c:435:5: note: not consecutive access _69 = cinfo_38(D)->err;
+jdmarker.c:435:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:433:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_203 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_204 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_223 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_224 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_243 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_244 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_263 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_264 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_283 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_284 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_303 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_304 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_323 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_324 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_343 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_344 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_363 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_364 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_383 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_384 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_403 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_404 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_423 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_424 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_443 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_444 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_463 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_464 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_483 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_484 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:440:7: note: not consecutive access next_input_byte_503 = datasrc_39->next_input_byte;
+jdmarker.c:440:7: note: not consecutive access bytes_in_buffer_504 = datasrc_39->bytes_in_buffer;
+jdmarker.c:440:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:446:5: note: not consecutive access _117 = _91->emit_message;
+jdmarker.c:446:5: note: not consecutive access _510 = *next_input_byte_505;
+jdmarker.c:446:5: note: not consecutive access _91 = cinfo_38(D)->err;
+jdmarker.c:446:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:446:5: note: not consecutive access _117 = _91->emit_message;
+jdmarker.c:446:5: note: not consecutive access _510 = *next_input_byte_505;
+jdmarker.c:446:5: note: not consecutive access _91 = cinfo_38(D)->err;
+jdmarker.c:446:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:449:5: note: not consecutive access _145 = _119->emit_message;
+jdmarker.c:449:5: note: not consecutive access _119 = cinfo_38(D)->err;
+jdmarker.c:449:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:449:5: note: not consecutive access _145 = _119->emit_message;
+jdmarker.c:449:5: note: not consecutive access _119 = cinfo_38(D)->err;
+jdmarker.c:449:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:456:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:456:21: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:457:7: note: not consecutive access _150 = _148->error_exit;
+jdmarker.c:457:7: note: not consecutive access _148->msg_code = 8;
+jdmarker.c:457:7: note: not consecutive access _148 = cinfo_38(D)->err;
+jdmarker.c:457:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:459:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:460:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:460:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:460:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:460:7: note: not consecutive access next_input_byte_155 = datasrc_39->next_input_byte;
+jdmarker.c:460:7: note: not consecutive access bytes_in_buffer_156 = datasrc_39->bytes_in_buffer;
+jdmarker.c:460:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:459:5: note: not consecutive access _159 = *next_input_byte_12;
+jdmarker.c:459:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:464:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:466:15: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:468:15: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:471:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:472:7: note: not consecutive access _171 = _168->error_exit;
+jdmarker.c:472:7: note: not consecutive access _168 = cinfo_38(D)->err;
+jdmarker.c:472:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:472:7: note: not consecutive access _171 = _168->error_exit;
+jdmarker.c:472:7: note: not consecutive access _168 = cinfo_38(D)->err;
+jdmarker.c:472:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:474:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:475:16: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:432:9: note: not vectorized: no vectype for stmt: MEM[(char * {ref-all})_179 + 17B] = MEM[(char * {ref-all})&huffval];
+ scalar_type: UINT8[256]
+jdmarker.c:432:9: note: not vectorized: more than one data ref in stmt: MEM[(char * {ref-all})_179 + 17B] = MEM[(char * {ref-all})&huffval];
+
+jdmarker.c:432:9: note: not consecutive access _179 = *htblptr_6;
+jdmarker.c:432:9: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:432:9: note: not vectorized: no vectype for stmt: MEM[(char * {ref-all})_179 + 17B] = MEM[(char * {ref-all})&huffval];
+ scalar_type: UINT8[256]
+jdmarker.c:432:9: note: not vectorized: more than one data ref in stmt: MEM[(char * {ref-all})_179 + 17B] = MEM[(char * {ref-all})&huffval];
+
+jdmarker.c:432:9: note: not consecutive access _179 = *htblptr_6;
+jdmarker.c:432:9: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:481:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:482:5: note: not consecutive access _188 = _186->error_exit;
+jdmarker.c:482:5: note: not consecutive access _186->msg_code = 11;
+jdmarker.c:482:5: note: not consecutive access _186 = cinfo_38(D)->err;
+jdmarker.c:482:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:484:3: note: not consecutive access datasrc_39->next_input_byte = next_input_byte_107;
+jdmarker.c:484:3: note: not consecutive access datasrc_39->bytes_in_buffer = bytes_in_buffer_105;
+jdmarker.c:484:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:419:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:326:5: note: not vectorized: control flow in loop.
+jdmarker.c:326:5: note: bad loop form.
+jdmarker.c:330:5: note: not vectorized: control flow in loop.
+jdmarker.c:330:5: note: bad loop form.
+jdmarker.c:958:8: note: not vectorized: multiple nested loops.
+jdmarker.c:958:8: note: bad loop form.
+jdmarker.c:503:5: note: not vectorized: multiple nested loops.
+jdmarker.c:503:5: note: bad loop form.
+jdmarker.c:526:7: note: not vectorized: latch block not empty.
+jdmarker.c:526:7: note: bad loop form.
+jdmarker.c:517:10: note: not vectorized: control flow in loop.
+jdmarker.c:517:10: note: bad loop form.
+jdmarker.c:952:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:958:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:959:10: note: not consecutive access _64 = _63->saw_SOI;
+jdmarker.c:959:10: note: not consecutive access _63 = cinfo_7(D)->marker;
+jdmarker.c:959:10: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:932:3: note: not consecutive access bytes_in_buffer_71 = datasrc_69->bytes_in_buffer;
+jdmarker.c:932:3: note: not consecutive access datasrc_69 = cinfo_7(D)->src;
+jdmarker.c:932:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:930:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:932:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:932:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:932:3: note: not consecutive access next_input_byte_74 = datasrc_69->next_input_byte;
+jdmarker.c:932:3: note: not consecutive access bytes_in_buffer_75 = datasrc_69->bytes_in_buffer;
+jdmarker.c:932:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:933:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:932:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:933:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:933:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:933:3: note: not consecutive access next_input_byte_84 = datasrc_69->next_input_byte;
+jdmarker.c:933:3: note: not consecutive access bytes_in_buffer_85 = datasrc_69->bytes_in_buffer;
+jdmarker.c:933:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:934:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:935:5: note: not consecutive access _96 = _95->error_exit;
+jdmarker.c:935:5: note: not consecutive access _95 = cinfo_7(D)->err;
+jdmarker.c:935:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:935:5: note: not consecutive access _96 = _95->error_exit;
+jdmarker.c:935:5: note: not consecutive access _95 = cinfo_7(D)->err;
+jdmarker.c:935:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:939:3: note: not consecutive access datasrc_69->next_input_byte = next_input_byte_89;
+jdmarker.c:939:3: note: not consecutive access datasrc_69->bytes_in_buffer = bytes_in_buffer_87;
+jdmarker.c:939:3: note: not consecutive access cinfo_7(D)->unread_marker = c2_91;
+jdmarker.c:939:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:963:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:963:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:971:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:202:3: note: not consecutive access _99 = _98->emit_message;
+jdmarker.c:202:3: note: not consecutive access _98->msg_code = 102;
+jdmarker.c:202:3: note: not consecutive access _98 = cinfo_7(D)->err;
+jdmarker.c:202:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:204:6: note: not consecutive access _101 = _100->saw_SOI;
+jdmarker.c:204:6: note: not consecutive access _100 = cinfo_7(D)->marker;
+jdmarker.c:204:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:205:5: note: not consecutive access _103 = _102->error_exit;
+jdmarker.c:205:5: note: not consecutive access _102->msg_code = 61;
+jdmarker.c:205:5: note: not consecutive access _102 = cinfo_7(D)->err;
+jdmarker.c:205:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:205:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:230:26: note: not consecutive access prephitmp_849->saw_SOI = 1;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->jpeg_color_space = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->restart_interval = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->saw_JFIF_marker = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->saw_Adobe_marker = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->CCIR601_sampling = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->Adobe_transform = 0;
+jdmarker.c:230:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:230:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:230:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:230:26: note: not consecutive access prephitmp_849->saw_SOI = 1;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->jpeg_color_space = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->restart_interval = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->saw_JFIF_marker = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->saw_Adobe_marker = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->CCIR601_sampling = 0;
+jdmarker.c:230:26: note: not consecutive access cinfo_7(D)->Adobe_transform = 0;
+jdmarker.c:230:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:230:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:230:26: note: basic block vectorized
+jdmarker.c:979:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:979:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:984:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:984:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:989:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:989:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:994:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:994:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1008:7: note: not consecutive access _23 = _20->error_exit;
+jdmarker.c:1008:7: note: not consecutive access _20 = cinfo_7(D)->err;
+jdmarker.c:1008:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1008:7: note: not consecutive access _23 = _20->error_exit;
+jdmarker.c:1008:7: note: not consecutive access _20 = cinfo_7(D)->err;
+jdmarker.c:1008:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:309:6: note: not consecutive access _112 = _111->saw_SOF;
+jdmarker.c:309:6: note: not consecutive access next_input_byte_109 = datasrc_108->next_input_byte;
+jdmarker.c:309:6: note: not consecutive access bytes_in_buffer_110 = datasrc_108->bytes_in_buffer;
+jdmarker.c:309:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:310:5: note: not consecutive access _114 = _113->error_exit;
+jdmarker.c:310:5: note: not consecutive access _113->msg_code = 62;
+jdmarker.c:310:5: note: not consecutive access _113 = cinfo_7(D)->err;
+jdmarker.c:310:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not consecutive access next_input_byte_117 = datasrc_108->next_input_byte;
+jdmarker.c:312:3: note: not consecutive access bytes_in_buffer_118 = datasrc_108->bytes_in_buffer;
+jdmarker.c:312:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not consecutive access next_input_byte_129 = datasrc_108->next_input_byte;
+jdmarker.c:312:3: note: not consecutive access bytes_in_buffer_130 = datasrc_108->bytes_in_buffer;
+jdmarker.c:312:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:314:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:312:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:314:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:314:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:314:3: note: not consecutive access next_input_byte_140 = datasrc_108->next_input_byte;
+jdmarker.c:314:3: note: not consecutive access bytes_in_buffer_141 = datasrc_108->bytes_in_buffer;
+jdmarker.c:314:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:316:3: note: not consecutive access _149 = _148->emit_message;
+jdmarker.c:316:3: note: not consecutive access _146 = *next_input_byte_144;
+jdmarker.c:316:3: note: not consecutive access _148 = cinfo_7(D)->err;
+jdmarker.c:316:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:316:3: note: not consecutive access _149 = _148->emit_message;
+jdmarker.c:316:3: note: not consecutive access _146 = *next_input_byte_144;
+jdmarker.c:316:3: note: not consecutive access _148 = cinfo_7(D)->err;
+jdmarker.c:316:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:318:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:318:38: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:319:5: note: not consecutive access _156 = _155->error_exit;
+jdmarker.c:319:5: note: not consecutive access _155->msg_code = 11;
+jdmarker.c:319:5: note: not consecutive access _155 = cinfo_7(D)->err;
+jdmarker.c:319:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:325:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:326:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:326:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:326:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:326:5: note: not consecutive access next_input_byte_160 = datasrc_108->next_input_byte;
+jdmarker.c:326:5: note: not consecutive access bytes_in_buffer_161 = datasrc_108->bytes_in_buffer;
+jdmarker.c:326:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:327:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:326:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:327:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:327:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:327:5: note: not consecutive access next_input_byte_170 = datasrc_108->next_input_byte;
+jdmarker.c:327:5: note: not consecutive access bytes_in_buffer_171 = datasrc_108->bytes_in_buffer;
+jdmarker.c:327:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:329:5: note: not consecutive access _176 = *next_input_byte_174;
+jdmarker.c:329:5: note: not consecutive access compptr_177 = cinfo_7(D)->comp_info;
+jdmarker.c:329:5: note: not consecutive access _649 = cinfo_7(D)->num_components;
+jdmarker.c:329:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:329:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:335:5: note: not consecutive access _185 = _184->error_exit;
+jdmarker.c:335:5: note: not consecutive access _184 = cinfo_7(D)->err;
+jdmarker.c:335:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:335:5: note: not consecutive access _185 = _184->error_exit;
+jdmarker.c:335:5: note: not consecutive access _184 = cinfo_7(D)->err;
+jdmarker.c:335:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:343:5: note: not consecutive access _194 = _191->emit_message;
+jdmarker.c:343:5: note: not consecutive access _191 = cinfo_7(D)->err;
+jdmarker.c:343:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:343:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:343:5: note: not consecutive access _194 = _191->emit_message;
+jdmarker.c:343:5: note: not consecutive access _191 = cinfo_7(D)->err;
+jdmarker.c:343:5: note: Build SLP failed: different operation in stmt MEM[(int *)_191 + 44B] = cc_167;
+jdmarker.c:343:5: note: original stmt _191->msg_code = 104;
+jdmarker.c:343:5: note: Build SLP failed: different operation in stmt MEM[(int *)_191 + 48B] = _192;
+jdmarker.c:343:5: note: original stmt _191->msg_code = 104;
+jdmarker.c:343:5: note: Build SLP failed: different operation in stmt MEM[(int *)_191 + 52B] = _193;
+jdmarker.c:343:5: note: original stmt _191->msg_code = 104;
+jdmarker.c:343:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:325:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:348:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:348:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:348:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:348:3: note: not consecutive access next_input_byte_198 = datasrc_108->next_input_byte;
+jdmarker.c:348:3: note: not consecutive access bytes_in_buffer_199 = datasrc_108->bytes_in_buffer;
+jdmarker.c:348:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:350:3: note: not consecutive access _204 = *next_input_byte_202;
+jdmarker.c:350:3: note: not consecutive access cinfo_7(D)->Ss = c_205;
+jdmarker.c:350:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:348:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:350:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:350:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:350:3: note: not consecutive access next_input_byte_208 = datasrc_108->next_input_byte;
+jdmarker.c:350:3: note: not consecutive access bytes_in_buffer_209 = datasrc_108->bytes_in_buffer;
+jdmarker.c:350:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:352:3: note: not consecutive access _214 = *next_input_byte_212;
+jdmarker.c:352:3: note: not consecutive access cinfo_7(D)->Se = c_215;
+jdmarker.c:352:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:350:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:352:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:352:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:352:3: note: not consecutive access next_input_byte_218 = datasrc_108->next_input_byte;
+jdmarker.c:352:3: note: not consecutive access bytes_in_buffer_219 = datasrc_108->bytes_in_buffer;
+jdmarker.c:352:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:356:3: note: not consecutive access _234 = _229->emit_message;
+jdmarker.c:356:3: note: not consecutive access _224 = *next_input_byte_222;
+jdmarker.c:356:3: note: not consecutive access _229 = cinfo_7(D)->err;
+jdmarker.c:356:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:356:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:356:3: note: not consecutive access _234 = _229->emit_message;
+jdmarker.c:356:3: note: not consecutive access _224 = *next_input_byte_222;
+jdmarker.c:356:3: note: not consecutive access _229 = cinfo_7(D)->err;
+jdmarker.c:356:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:356:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1014:28: note: not consecutive access _235->next_restart_num = 0;
+jdmarker.c:1014:28: note: not consecutive access datasrc_108->next_input_byte = next_input_byte_223;
+jdmarker.c:1014:28: note: not consecutive access datasrc_108->bytes_in_buffer = bytes_in_buffer_221;
+jdmarker.c:1014:28: note: not consecutive access _235 = cinfo_7(D)->marker;
+jdmarker.c:1014:28: note: not consecutive access _236 = cinfo_7(D)->input_scan_number;
+jdmarker.c:1014:28: note: not consecutive access cinfo_7(D)->input_scan_number = _237;
+jdmarker.c:1014:28: note: not consecutive access cinfo_7(D)->unread_marker = 0;
+jdmarker.c:1014:28: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1018:7: note: not consecutive access _60 = _58->emit_message;
+jdmarker.c:1018:7: note: not consecutive access _58->msg_code = 85;
+jdmarker.c:1018:7: note: not consecutive access _58 = cinfo_7(D)->err;
+jdmarker.c:1018:7: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1019:28: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1023:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1023:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1028:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1028:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not consecutive access bytes_in_buffer_242 = datasrc_240->bytes_in_buffer;
+jdmarker.c:499:3: note: not consecutive access datasrc_240 = cinfo_7(D)->src;
+jdmarker.c:499:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:497:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not consecutive access next_input_byte_245 = datasrc_240->next_input_byte;
+jdmarker.c:499:3: note: not consecutive access bytes_in_buffer_246 = datasrc_240->bytes_in_buffer;
+jdmarker.c:499:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:499:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:499:3: note: not consecutive access next_input_byte_257 = datasrc_240->next_input_byte;
+jdmarker.c:499:3: note: not consecutive access bytes_in_buffer_258 = datasrc_240->bytes_in_buffer;
+jdmarker.c:499:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:502:9: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:503:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:503:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:503:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:503:5: note: not consecutive access next_input_byte_270 = datasrc_240->next_input_byte;
+jdmarker.c:503:5: note: not consecutive access bytes_in_buffer_271 = datasrc_240->bytes_in_buffer;
+jdmarker.c:503:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:507:5: note: not consecutive access _282 = _281->emit_message;
+jdmarker.c:507:5: note: not consecutive access _276 = *next_input_byte_274;
+jdmarker.c:507:5: note: not consecutive access _281 = cinfo_7(D)->err;
+jdmarker.c:507:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:507:5: note: not consecutive access _282 = _281->emit_message;
+jdmarker.c:507:5: note: not consecutive access _276 = *next_input_byte_274;
+jdmarker.c:507:5: note: not consecutive access _281 = cinfo_7(D)->err;
+jdmarker.c:507:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:509:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:510:7: note: not consecutive access _284 = _283->error_exit;
+jdmarker.c:510:7: note: not consecutive access _283 = cinfo_7(D)->err;
+jdmarker.c:510:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:510:7: note: not consecutive access _284 = _283->error_exit;
+jdmarker.c:510:7: note: not consecutive access _283 = cinfo_7(D)->err;
+jdmarker.c:510:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:512:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:513:32: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:513:32: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:517:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not consecutive access next_input_byte_291 = datasrc_240->next_input_byte;
+jdmarker.c:518:2: note: not consecutive access bytes_in_buffer_292 = datasrc_240->bytes_in_buffer;
+jdmarker.c:518:2: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:518:2: note: not consecutive access next_input_byte_302 = datasrc_240->next_input_byte;
+jdmarker.c:518:2: note: not consecutive access bytes_in_buffer_303 = datasrc_240->bytes_in_buffer;
+jdmarker.c:518:2: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:518:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:520:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:520:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:520:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:520:2: note: not consecutive access next_input_byte_313 = datasrc_240->next_input_byte;
+jdmarker.c:520:2: note: not consecutive access bytes_in_buffer_314 = datasrc_240->bytes_in_buffer;
+jdmarker.c:520:2: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:520:2: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:516:5: note: not consecutive access prephitmp_815->quantval[_322] = _324;
+jdmarker.c:516:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:525:8: note: not consecutive access _327 = _326->trace_level;
+jdmarker.c:525:8: note: not consecutive access _326 = cinfo_7(D)->err;
+jdmarker.c:525:8: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:536:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:535:12: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:527:2: note: not consecutive access _353 = prephitmp_820->emit_message;
+jdmarker.c:527:2: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:527:2: note: not consecutive access _353 = prephitmp_820->emit_message;
+jdmarker.c:527:2: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:526:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:526:7: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:536:22: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:502:9: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:539:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:540:5: note: not consecutive access _359 = _358->error_exit;
+jdmarker.c:540:5: note: not consecutive access _358->msg_code = 11;
+jdmarker.c:540:5: note: not consecutive access _358 = cinfo_7(D)->err;
+jdmarker.c:540:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:542:3: note: not consecutive access datasrc_240->next_input_byte = next_input_byte_745;
+jdmarker.c:542:3: note: not consecutive access datasrc_240->bytes_in_buffer = bytes_in_buffer_751;
+jdmarker.c:542:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:555:3: note: not consecutive access bytes_in_buffer_371 = datasrc_369->bytes_in_buffer;
+jdmarker.c:555:3: note: not consecutive access datasrc_369 = cinfo_7(D)->src;
+jdmarker.c:555:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:553:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not consecutive access next_input_byte_374 = datasrc_369->next_input_byte;
+jdmarker.c:555:3: note: not consecutive access bytes_in_buffer_375 = datasrc_369->bytes_in_buffer;
+jdmarker.c:555:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not consecutive access next_input_byte_386 = datasrc_369->next_input_byte;
+jdmarker.c:555:3: note: not consecutive access bytes_in_buffer_387 = datasrc_369->bytes_in_buffer;
+jdmarker.c:555:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:557:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:558:5: note: not consecutive access _396 = _395->error_exit;
+jdmarker.c:558:5: note: not consecutive access _395->msg_code = 11;
+jdmarker.c:558:5: note: not consecutive access _395 = cinfo_7(D)->err;
+jdmarker.c:558:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:555:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not consecutive access next_input_byte_399 = datasrc_369->next_input_byte;
+jdmarker.c:560:3: note: not consecutive access bytes_in_buffer_400 = datasrc_369->bytes_in_buffer;
+jdmarker.c:560:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:560:3: note: not consecutive access next_input_byte_410 = datasrc_369->next_input_byte;
+jdmarker.c:560:3: note: not consecutive access bytes_in_buffer_411 = datasrc_369->bytes_in_buffer;
+jdmarker.c:560:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:562:3: note: not consecutive access _421 = _419->emit_message;
+jdmarker.c:562:3: note: not consecutive access _416 = *next_input_byte_414;
+jdmarker.c:562:3: note: not consecutive access _419 = cinfo_7(D)->err;
+jdmarker.c:562:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:562:3: note: not consecutive access _421 = _419->emit_message;
+jdmarker.c:562:3: note: not consecutive access _416 = *next_input_byte_414;
+jdmarker.c:562:3: note: not consecutive access _419 = cinfo_7(D)->err;
+jdmarker.c:562:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:566:3: note: not consecutive access datasrc_369->next_input_byte = next_input_byte_415;
+jdmarker.c:566:3: note: not consecutive access datasrc_369->bytes_in_buffer = bytes_in_buffer_413;
+jdmarker.c:566:3: note: not consecutive access cinfo_7(D)->restart_interval = tmp_418;
+jdmarker.c:566:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1058:14: note: not consecutive access _35 = MEM[(struct my_marker_reader *)_33].process_APPn[_34];
+jdmarker.c:1058:14: note: not consecutive access _33 = cinfo_7(D)->marker;
+jdmarker.c:1058:14: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1058:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1064:14: note: not consecutive access _39 = MEM[(struct my_marker_reader *)_38].process_COM;
+jdmarker.c:1064:14: note: not consecutive access _38 = cinfo_7(D)->marker;
+jdmarker.c:1064:14: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1064:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1077:7: note: not consecutive access _45 = _42->emit_message;
+jdmarker.c:1077:7: note: not consecutive access _42 = cinfo_7(D)->err;
+jdmarker.c:1077:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1077:7: note: not consecutive access _45 = _42->emit_message;
+jdmarker.c:1077:7: note: not consecutive access _42 = cinfo_7(D)->err;
+jdmarker.c:1077:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1081:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1081:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1091:7: note: not consecutive access _52 = _49->error_exit;
+jdmarker.c:1091:7: note: not consecutive access _49 = cinfo_7(D)->err;
+jdmarker.c:1091:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1091:7: note: not consecutive access _52 = _49->error_exit;
+jdmarker.c:1091:7: note: not consecutive access _49 = cinfo_7(D)->err;
+jdmarker.c:1091:7: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1095:26: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1095:26: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:680:5: note: not consecutive access _24 = _22->emit_message;
+jdmarker.c:680:5: note: not consecutive access _22 = cinfo_21(D)->err;
+jdmarker.c:680:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:680:5: note: not consecutive access _24 = _22->emit_message;
+jdmarker.c:680:5: note: not consecutive access _22 = cinfo_21(D)->err;
+jdmarker.c:680:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:687:1: note: not consecutive access cinfo_21(D)->saw_Adobe_marker = 1;
+jdmarker.c:687:1: note: not consecutive access cinfo_21(D)->Adobe_transform = _20;
+jdmarker.c:687:1: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:808:13: note: not vectorized: number of iterations cannot be computed.
+jdmarker.c:808:13: note: bad loop form.
+jdmarker.c:789:5: note: not vectorized: control flow in loop.
+jdmarker.c:789:5: note: bad loop form.
+jdmarker.c:794:11: note: not vectorized: number of iterations cannot be computed.
+jdmarker.c:794:11: note: bad loop form.
+jdmarker.c:749:6: note: not consecutive access cur_marker_34 = marker_33->cur_marker;
+jdmarker.c:749:6: note: not consecutive access next_input_byte_37 = datasrc_36->next_input_byte;
+jdmarker.c:749:6: note: not consecutive access bytes_in_buffer_38 = datasrc_36->bytes_in_buffer;
+jdmarker.c:749:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:751:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:751:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:751:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:751:5: note: not consecutive access next_input_byte_43 = datasrc_36->next_input_byte;
+jdmarker.c:751:5: note: not consecutive access bytes_in_buffer_44 = datasrc_36->bytes_in_buffer;
+jdmarker.c:751:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:751:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:751:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:751:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:751:5: note: not consecutive access next_input_byte_55 = datasrc_36->next_input_byte;
+jdmarker.c:751:5: note: not consecutive access bytes_in_buffer_56 = datasrc_36->bytes_in_buffer;
+jdmarker.c:751:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:753:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:756:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:757:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:759:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:763:18: note: not consecutive access _71 = _70->alloc_large;
+jdmarker.c:763:18: note: not consecutive access _70 = cinfo_32(D)->mem;
+jdmarker.c:763:18: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:773:26: note: not consecutive access marker_33->cur_marker = cur_marker_75;
+jdmarker.c:773:26: note: not consecutive access marker_33->bytes_read = 0;
+jdmarker.c:773:26: note: not consecutive access cur_marker_75->next = 0B;
+jdmarker.c:773:26: note: not consecutive access cur_marker_75->data = _83;
+jdmarker.c:773:26: note: not consecutive access cur_marker_75->marker = _78;
+jdmarker.c:773:26: note: not consecutive access _77 = cinfo_32(D)->unread_marker;
+jdmarker.c:773:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:773:26: note: not consecutive access marker_33->cur_marker = cur_marker_75;
+jdmarker.c:773:26: note: not consecutive access marker_33->bytes_read = 0;
+jdmarker.c:773:26: note: not consecutive access cur_marker_75->next = 0B;
+jdmarker.c:773:26: note: not consecutive access cur_marker_75->data = _83;
+jdmarker.c:773:26: note: not consecutive access cur_marker_75->marker = _78;
+jdmarker.c:773:26: note: not consecutive access _77 = cinfo_32(D)->unread_marker;
+jdmarker.c:773:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:785:10: note: not consecutive access bytes_read_88 = marker_33->bytes_read;
+jdmarker.c:785:10: note: not consecutive access _90 = cur_marker_34->data;
+jdmarker.c:785:10: note: not consecutive access data_length_89 = cur_marker_34->data_length;
+jdmarker.c:785:10: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:792:5: note: not consecutive access marker_33->bytes_read = bytes_read_210;
+jdmarker.c:792:5: note: not consecutive access datasrc_36->next_input_byte = next_input_byte_171;
+jdmarker.c:792:5: note: not consecutive access datasrc_36->bytes_in_buffer = bytes_in_buffer_197;
+jdmarker.c:792:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:792:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:792:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:792:5: note: not consecutive access next_input_byte_108 = datasrc_36->next_input_byte;
+jdmarker.c:792:5: note: not consecutive access bytes_in_buffer_109 = datasrc_36->bytes_in_buffer;
+jdmarker.c:792:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:794:11: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:794:11: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:788:9: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:788:9: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:802:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:804:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:805:26: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:808:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:810:18: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:814:12: note: not consecutive access data_116 = cur_marker_65->data;
+jdmarker.c:814:12: note: not consecutive access _117 = cur_marker_65->original_length;
+jdmarker.c:814:12: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:820:3: note: not consecutive access marker_33->cur_marker = 0B;
+jdmarker.c:820:3: note: not consecutive access _121 = cinfo_32(D)->unread_marker;
+jdmarker.c:820:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:822:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:669:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:669:33: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:670:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:671:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:672:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:673:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:739:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:685:5: note: not consecutive access _151 = _147->emit_message;
+jdmarker.c:685:5: note: not consecutive access _147 = cinfo_32(D)->err;
+jdmarker.c:685:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:685:5: note: not consecutive access _151 = _147->emit_message;
+jdmarker.c:685:5: note: not consecutive access _147 = cinfo_32(D)->err;
+jdmarker.c:685:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:828:5: note: not consecutive access _135 = _124->emit_message;
+jdmarker.c:828:5: note: not consecutive access _124 = cinfo_32(D)->err;
+jdmarker.c:828:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:828:5: note: not consecutive access _135 = _124->emit_message;
+jdmarker.c:828:5: note: not consecutive access _124 = cinfo_32(D)->err;
+jdmarker.c:828:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:835:6: note: not consecutive access datasrc_36->next_input_byte = next_input_byte_12;
+jdmarker.c:835:6: note: not consecutive access datasrc_36->bytes_in_buffer = bytes_in_buffer_5;
+jdmarker.c:835:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:836:6: note: not consecutive access _140 = _139->skip_input_data;
+jdmarker.c:836:6: note: not consecutive access _139 = cinfo_32(D)->src;
+jdmarker.c:836:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:836:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1117:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1118:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1118:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1122:6: note: not consecutive access _11 = _10->next_restart_num;
+jdmarker.c:1122:6: note: not consecutive access _10 = cinfo_5(D)->marker;
+jdmarker.c:1122:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1125:5: note: not consecutive access _23 = _19->emit_message;
+jdmarker.c:1125:5: note: not consecutive access _19 = cinfo_5(D)->err;
+jdmarker.c:1125:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1125:5: note: not consecutive access _23 = _19->emit_message;
+jdmarker.c:1125:5: note: not consecutive access _19 = cinfo_5(D)->err;
+jdmarker.c:1125:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1126:26: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1130:12: note: not consecutive access _14 = _13->resync_to_restart;
+jdmarker.c:1130:12: note: not consecutive access _13 = cinfo_5(D)->src;
+jdmarker.c:1130:12: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1130:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1136:35: note: not consecutive access _27 = _26->next_restart_num;
+jdmarker.c:1136:35: note: not consecutive access _26->next_restart_num = _29;
+jdmarker.c:1136:35: note: not consecutive access _26 = cinfo_5(D)->marker;
+jdmarker.c:1136:35: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1136:35: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: control flow in loop.
+jdmarker.c:710:5: note: bad loop form.
+jdmarker.c:699:3: note: not consecutive access bytes_in_buffer_22 = datasrc_20->bytes_in_buffer;
+jdmarker.c:699:3: note: not consecutive access datasrc_20 = cinfo_19(D)->src;
+jdmarker.c:699:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:697:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not consecutive access next_input_byte_26 = datasrc_20->next_input_byte;
+jdmarker.c:699:3: note: not consecutive access bytes_in_buffer_27 = datasrc_20->bytes_in_buffer;
+jdmarker.c:699:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:699:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:699:3: note: not consecutive access next_input_byte_37 = datasrc_20->next_input_byte;
+jdmarker.c:699:3: note: not consecutive access bytes_in_buffer_38 = datasrc_20->bytes_in_buffer;
+jdmarker.c:699:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:703:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:705:11: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:709:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_127 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_126 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[0] = _120;
+jdmarker.c:709:3: note: not consecutive access _120 = *next_input_byte_125;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_86 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_60 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_115] = _138;
+jdmarker.c:709:3: note: not consecutive access _138 = *next_input_byte_15;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_148 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_149 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_141] = _155;
+jdmarker.c:709:3: note: not consecutive access _155 = *next_input_byte_150;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_165 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_166 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_158] = _172;
+jdmarker.c:709:3: note: not consecutive access _172 = *next_input_byte_167;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_182 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_183 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_175] = _189;
+jdmarker.c:709:3: note: not consecutive access _189 = *next_input_byte_184;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_199 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_200 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_192] = _206;
+jdmarker.c:709:3: note: not consecutive access _206 = *next_input_byte_201;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_216 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_217 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_209] = _223;
+jdmarker.c:709:3: note: not consecutive access _223 = *next_input_byte_218;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_233 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_234 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_226] = _240;
+jdmarker.c:709:3: note: not consecutive access _240 = *next_input_byte_235;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_250 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_251 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_243] = _257;
+jdmarker.c:709:3: note: not consecutive access _257 = *next_input_byte_252;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_267 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_268 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_260] = _274;
+jdmarker.c:709:3: note: not consecutive access _274 = *next_input_byte_269;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_284 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_285 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_277] = _291;
+jdmarker.c:709:3: note: not consecutive access _291 = *next_input_byte_286;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_301 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_302 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_294] = _308;
+jdmarker.c:709:3: note: not consecutive access _308 = *next_input_byte_303;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_318 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_319 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:3: note: not consecutive access b[i_311] = _325;
+jdmarker.c:709:3: note: not consecutive access _325 = *next_input_byte_320;
+jdmarker.c:709:3: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:710:5: note: not consecutive access next_input_byte_54 = datasrc_20->next_input_byte;
+jdmarker.c:710:5: note: not consecutive access bytes_in_buffer_55 = datasrc_20->bytes_in_buffer;
+jdmarker.c:710:5: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:709:31: note: not consecutive access b[i_111] = _48;
+jdmarker.c:709:31: note: not consecutive access _48 = *next_input_byte_5;
+jdmarker.c:709:31: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:714:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:716:5: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:669:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:669:33: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:670:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:671:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:672:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:673:34: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:691:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:685:5: note: not consecutive access _81 = _77->emit_message;
+jdmarker.c:685:5: note: not consecutive access _77 = cinfo_19(D)->err;
+jdmarker.c:685:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:685:5: note: not consecutive access _81 = _77->emit_message;
+jdmarker.c:685:5: note: not consecutive access _77 = cinfo_19(D)->err;
+jdmarker.c:685:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:723:5: note: not consecutive access _64 = _61->error_exit;
+jdmarker.c:723:5: note: not consecutive access _61 = cinfo_19(D)->err;
+jdmarker.c:723:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:723:5: note: not consecutive access _64 = _61->error_exit;
+jdmarker.c:723:5: note: not consecutive access _61 = cinfo_19(D)->err;
+jdmarker.c:723:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:729:6: note: not consecutive access datasrc_20->next_input_byte = next_input_byte_98;
+jdmarker.c:729:6: note: not consecutive access datasrc_20->bytes_in_buffer = bytes_in_buffer_100;
+jdmarker.c:729:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:730:6: note: not consecutive access _69 = _68->skip_input_data;
+jdmarker.c:730:6: note: not consecutive access _68 = cinfo_19(D)->src;
+jdmarker.c:730:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:691:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:714:3: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1202:8: note: not vectorized: control flow in loop.
+jdmarker.c:1202:8: note: bad loop form.
+jdmarker.c:1198:3: note: not consecutive access _16 = _9->emit_message;
+jdmarker.c:1198:3: note: not consecutive access _9 = cinfo_7(D)->err;
+jdmarker.c:1198:3: note: not consecutive access marker_8 = cinfo_7(D)->unread_marker;
+jdmarker.c:1198:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1198:3: note: not consecutive access _16 = _9->emit_message;
+jdmarker.c:1198:3: note: not consecutive access _9 = cinfo_7(D)->err;
+jdmarker.c:1198:3: note: not consecutive access marker_8 = cinfo_7(D)->unread_marker;
+jdmarker.c:1198:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1202:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1204:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1207:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1207:56: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1210:15: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1210:61: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1226:14: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1226:14: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1216:5: note: not consecutive access _62 = _58->emit_message;
+jdmarker.c:1216:5: note: not consecutive access _58 = cinfo_7(D)->err;
+jdmarker.c:1216:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1216:5: note: not consecutive access _62 = _58->emit_message;
+jdmarker.c:1216:5: note: not consecutive access _58 = cinfo_7(D)->err;
+jdmarker.c:1216:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1216:5: note: not consecutive access _69 = _65->emit_message;
+jdmarker.c:1216:5: note: not consecutive access _65 = cinfo_7(D)->err;
+jdmarker.c:1216:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1216:5: note: not consecutive access _69 = _65->emit_message;
+jdmarker.c:1216:5: note: not consecutive access _65 = cinfo_7(D)->err;
+jdmarker.c:1216:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1220:28: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1216:5: note: not consecutive access _76 = _72->emit_message;
+jdmarker.c:1216:5: note: not consecutive access _72 = cinfo_7(D)->err;
+jdmarker.c:1216:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1216:5: note: not consecutive access _76 = _72->emit_message;
+jdmarker.c:1216:5: note: not consecutive access _72 = cinfo_7(D)->err;
+jdmarker.c:1216:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1224:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1224:10: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1282:3: note: Unknown misalignment, is_packed = 0
+jdmarker.c:1282:3: note: virtual phi. skip.
+jdmarker.c:1282:3: note: not vectorized: vectorization not profitable.
+jdmarker.c:1282:3: note: Unknown misalignment, is_packed = 0
+jdmarker.c:1282:3: note: virtual phi. skip.
+jdmarker.c:1282:3: note: not vectorized: vectorization not profitable.
+jdmarker.c:1268:10: note: not consecutive access _6 = _5->alloc_small;
+jdmarker.c:1268:10: note: not consecutive access _5 = cinfo_4(D)->mem;
+jdmarker.c:1268:10: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1284:34: note: not consecutive access marker_8->length_limit_COM = 0;
+jdmarker.c:1284:34: note: not consecutive access cinfo_4(D)->marker = marker_8;
+jdmarker.c:1284:34: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1284:34: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1284:34: note: not consecutive access marker_8->length_limit_COM = 0;
+jdmarker.c:1284:34: note: not consecutive access cinfo_4(D)->marker = marker_8;
+jdmarker.c:1284:34: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1284:34: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1290:1: note: not consecutive access marker_8->process_APPn[0] = get_interesting_appn;
+jdmarker.c:1290:1: note: not consecutive access marker_8->process_APPn[14] = get_interesting_appn;
+jdmarker.c:1290:1: note: not consecutive access marker_8->cur_marker = 0B;
+jdmarker.c:1290:1: note: not consecutive access marker_8->pub.discarded_bytes = 0;
+jdmarker.c:1290:1: note: not consecutive access cinfo_4(D)->comp_info = 0B;
+jdmarker.c:1290:1: note: not consecutive access cinfo_4(D)->input_scan_number = 0;
+jdmarker.c:1290:1: note: not consecutive access cinfo_4(D)->unread_marker = 0;
+jdmarker.c:1290:1: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1290:1: note: not consecutive access marker_8->process_APPn[0] = get_interesting_appn;
+jdmarker.c:1290:1: note: not consecutive access marker_8->process_APPn[14] = get_interesting_appn;
+jdmarker.c:1290:1: note: not consecutive access marker_8->cur_marker = 0B;
+jdmarker.c:1290:1: note: not consecutive access marker_8->pub.discarded_bytes = 0;
+jdmarker.c:1290:1: note: not consecutive access cinfo_4(D)->comp_info = 0B;
+jdmarker.c:1290:1: note: not consecutive access cinfo_4(D)->input_scan_number = 0;
+jdmarker.c:1290:1: note: not consecutive access cinfo_4(D)->unread_marker = 0;
+jdmarker.c:1290:1: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1311:6: note: not consecutive access _9 = _8->max_alloc_chunk;
+jdmarker.c:1311:6: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1312:18: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1317:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1320:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1322:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1327:8: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1331:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1333:30: note: not consecutive access marker_7->process_COM = processor_3;
+jdmarker.c:1333:30: note: not consecutive access marker_7->length_limit_COM = length_limit_2;
+jdmarker.c:1333:30: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1334:13: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1336:59: note: not consecutive access marker_7->process_APPn[_30] = processor_56;
+jdmarker.c:1336:59: note: not consecutive access marker_7->length_limit_APPn[_30] = length_limit_55;
+jdmarker.c:1336:59: note: not vectorized: no grouped stores in basic block.
+jdmarker.c:1338:5: note: not consecutive access _36 = _33->error_exit;
+jdmarker.c:1338:5: note: not consecutive access _33 = cinfo_6(D)->err;
+jdmarker.c:1338:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1338:5: note: not consecutive access _36 = _33->error_exit;
+jdmarker.c:1338:5: note: not consecutive access _33 = cinfo_6(D)->err;
+jdmarker.c:1338:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1339:1: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1354:6: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1355:25: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1356:11: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1357:54: note: not vectorized: not enough data-refs in basic block.
+jdmarker.c:1359:5: note: not consecutive access _15 = _12->error_exit;
+jdmarker.c:1359:5: note: not consecutive access _12 = cinfo_3(D)->err;
+jdmarker.c:1359:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1359:5: note: not consecutive access _15 = _12->error_exit;
+jdmarker.c:1359:5: note: not consecutive access _12 = cinfo_3(D)->err;
+jdmarker.c:1359:5: note: Build SLP failed: unrolling required in basic block SLP
+jdmarker.c:1360:1: note: not vectorized: not enough data-refs in basic block.

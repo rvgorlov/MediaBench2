@@ -1,0 +1,381 @@
+jcsample.c:78:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:123:3: note: not vectorized: number of iterations cannot be computed.
+jcsample.c:123:3: note: bad loop form.
+jcsample.c:123:3: note: not consecutive access _35 = cinfo_5(D)->num_components;
+jcsample.c:123:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:129:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:129:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:127:6: note: not consecutive access _21 = compptr_37->v_samp_factor;
+jcsample.c:127:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:123:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:162:3: note: not vectorized: multiple nested loops.
+jcsample.c:162:3: note: bad loop form.
+jcsample.c:164:5: note: not vectorized: multiple nested loops.
+jcsample.c:164:5: note: bad loop form.
+jcsample.c:167:7: note: not vectorized: control flow in loop.
+jcsample.c:167:7: note: bad loop form.
+jcsample.c:169:2: note: step unknown.
+jcsample.c:169:2: note: Unknown misalignment, is_packed = 0
+jcsample.c:169:2: note: reduc phi. skip.
+jcsample.c:169:2: note: not ssa-name.
+jcsample.c:169:2: note: use not simple.
+jcsample.c:169:2: note: not ssa-name.
+jcsample.c:169:2: note: use not simple.
+jcsample.c:169:2: note: conversion not supported by target.
+jcsample.c:169:2: note: not vectorized: relevant stmt not supported: _48 = (long int) _47;
+jcsample.c:169:2: note: bad operation or unsupported loop bound.
+jcsample.c:169:2: note: step unknown.
+jcsample.c:169:2: note: Unknown misalignment, is_packed = 0
+jcsample.c:169:2: note: reduc phi. skip.
+jcsample.c:169:2: note: not ssa-name.
+jcsample.c:169:2: note: use not simple.
+jcsample.c:169:2: note: not ssa-name.
+jcsample.c:169:2: note: use not simple.
+jcsample.c:169:2: note: reduc op not supported by target.
+jcsample.c:169:2: note: reduc phi. skip.
+jcsample.c:169:2: note: loop vectorized
+jcsample.c:169:2: note: loop peeled for vectorization to enhance alignment
+jcsample.c:169:2: note: reduc phi. skip.
+jcsample.c:169:2: note: reduc op not supported by target.
+jcsample.c:97:5: note: not vectorized: control flow in loop.
+jcsample.c:97:5: note: bad loop form.
+jcsample.c:96:6: note: not consecutive access _28 = cinfo_17(D)->image_width;
+jcsample.c:96:6: note: not consecutive access _15 = compptr_14(D)->width_in_blocks;
+jcsample.c:96:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:162:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:177:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:177:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:101:9: note: not consecutive access pixval_73 = MEM[(JSAMPLE *)ptr_72 + -1B];
+jcsample.c:101:9: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:163:12: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:29: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:29: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:29: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:29: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:170:13: note: not vectorized: no vectype for stmt: vect__47.56_71 = MEM[(JSAMPLE *)vectp.54_127];
+ scalar_type: vector(16) unsigned char
+jcsample.c:170:13: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:29: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:29: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:169:2: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:167:7: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:164:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:162:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:167:7: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:167:7: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:228:3: note: not vectorized: number of iterations cannot be computed.
+jcsample.c:228:3: note: bad loop form.
+jcsample.c:232:5: note: reduction used in loop.
+jcsample.c:232:5: note: Unknown def-use cycle pattern.
+jcsample.c:232:5: note: Unsupported pattern.
+jcsample.c:232:5: note: not vectorized: unsupported use in stmt.
+jcsample.c:232:5: note: unexpected pattern.
+jcsample.c:97:5: note: not vectorized: control flow in loop.
+jcsample.c:97:5: note: bad loop form.
+jcsample.c:96:6: note: not consecutive access _14 = cinfo_13(D)->image_width;
+jcsample.c:96:6: note: not consecutive access _10 = compptr_9(D)->width_in_blocks;
+jcsample.c:96:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:228:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:239:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:239:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:101:9: note: not consecutive access pixval_50 = MEM[(JSAMPLE *)ptr_49 + -1B];
+jcsample.c:101:9: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:230:11: note: not vectorized: no grouped stores in basic block.
+jcsample.c:232:5: note: not vectorized: no grouped stores in basic block.
+jcsample.c:228:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:266:3: note: not vectorized: number of iterations cannot be computed.
+jcsample.c:266:3: note: bad loop form.
+jcsample.c:271:5: note: reduction used in loop.
+jcsample.c:271:5: note: Unknown def-use cycle pattern.
+jcsample.c:271:5: note: Unsupported pattern.
+jcsample.c:271:5: note: not vectorized: unsupported use in stmt.
+jcsample.c:271:5: note: unexpected pattern.
+jcsample.c:97:5: note: not vectorized: control flow in loop.
+jcsample.c:97:5: note: bad loop form.
+jcsample.c:96:6: note: not consecutive access _16 = cinfo_15(D)->image_width;
+jcsample.c:96:6: note: not consecutive access _12 = compptr_11(D)->width_in_blocks;
+jcsample.c:96:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:266:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:280:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:280:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:101:9: note: not consecutive access pixval_67 = MEM[(JSAMPLE *)ptr_66 + -1B];
+jcsample.c:101:9: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:269:12: note: not vectorized: no grouped stores in basic block.
+jcsample.c:271:5: note: not vectorized: no grouped stores in basic block.
+jcsample.c:266:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:325:3: note: not vectorized: number of iterations cannot be computed.
+jcsample.c:325:3: note: bad loop form.
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *inptr0_248 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr0_248 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *inptr1_246 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr1_246 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *above_ptr_255 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)above_ptr_255 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *below_ptr_253 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)below_ptr_253 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr0_248 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr0_248 + 2B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr1_246 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr1_246 + 2B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)above_ptr_255 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)above_ptr_255 + 2B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)below_ptr_253 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)below_ptr_253 + 2B] and *outptr_244
+jcsample.c:346:5: note: vector alignment may not be reachable
+jcsample.c:346:5: note: virtual phi. skip.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V32QI[2]
+jcsample.c:346:5: note: extract even/odd not supported by target
+jcsample.c:346:5: note: not vectorized: relevant stmt not supported: _104 = *inptr0_248;
+jcsample.c:346:5: note: bad operation or unsupported loop bound.
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *inptr0_248 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr0_248 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *inptr1_246 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr1_246 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *above_ptr_255 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)above_ptr_255 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between *below_ptr_253 and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)below_ptr_253 + 1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr0_248 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr0_248 + 2B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr1_246 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr1_246 + 2B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)above_ptr_255 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)above_ptr_255 + 2B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)below_ptr_253 + -1B] and *outptr_244
+jcsample.c:346:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)below_ptr_253 + 2B] and *outptr_244
+jcsample.c:346:5: note: vector alignment may not be reachable
+jcsample.c:346:5: note: virtual phi. skip.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: not ssa-name.
+jcsample.c:346:5: note: use not simple.
+jcsample.c:346:5: note: no array mode for V16QI[2]
+jcsample.c:346:5: note: op not supported by target.
+jcsample.c:346:5: note: not vectorized: relevant stmt not supported: _159 = _158 >> 16;
+jcsample.c:346:5: note: bad operation or unsupported loop bound.
+jcsample.c:97:5: note: not vectorized: control flow in loop.
+jcsample.c:97:5: note: bad loop form.
+jcsample.c:96:6: note: not consecutive access _17 = cinfo_16(D)->image_width;
+jcsample.c:96:6: note: not consecutive access _13 = compptr_12(D)->width_in_blocks;
+jcsample.c:96:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:325:3: note: not consecutive access _21 = cinfo_16(D)->smoothing_factor;
+jcsample.c:325:3: note: not consecutive access _242 = compptr_12(D)->v_samp_factor;
+jcsample.c:325:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:101:9: note: not consecutive access pixval_227 = MEM[(JSAMPLE *)ptr_226 + -1B];
+jcsample.c:101:9: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:382:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:382:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:344:57: note: not consecutive access *outptr_33 = _97;
+jcsample.c:344:57: note: not vectorized: no grouped stores in basic block.
+jcsample.c:346:5: note: not vectorized: no grouped stores in basic block.
+jcsample.c:325:3: note: not consecutive access *outptr_251 = _214;
+jcsample.c:325:3: note: not consecutive access _28 = compptr_12(D)->v_samp_factor;
+jcsample.c:325:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:418:3: note: not vectorized: number of iterations cannot be computed.
+jcsample.c:418:3: note: bad loop form.
+jcsample.c:435:5: note: reduction used in loop.
+jcsample.c:435:5: note: Unknown def-use cycle pattern.
+jcsample.c:435:5: note: reduction used in loop.
+jcsample.c:435:5: note: Unknown def-use cycle pattern.
+jcsample.c:435:5: note: Unsupported pattern.
+jcsample.c:435:5: note: not vectorized: unsupported use in stmt.
+jcsample.c:435:5: note: unexpected pattern.
+jcsample.c:97:5: note: not vectorized: control flow in loop.
+jcsample.c:97:5: note: bad loop form.
+jcsample.c:96:6: note: not consecutive access _16 = cinfo_15(D)->image_width;
+jcsample.c:96:6: note: not consecutive access _13 = compptr_12(D)->width_in_blocks;
+jcsample.c:96:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:418:3: note: not consecutive access _20 = cinfo_15(D)->smoothing_factor;
+jcsample.c:418:3: note: not consecutive access _142 = compptr_12(D)->v_samp_factor;
+jcsample.c:418:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:101:9: note: not consecutive access pixval_128 = MEM[(JSAMPLE *)ptr_127 + -1B];
+jcsample.c:101:9: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:453:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:453:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:432:15: note: not consecutive access *outptr_32 = _73;
+jcsample.c:432:15: note: not vectorized: no grouped stores in basic block.
+jcsample.c:435:5: note: not vectorized: no grouped stores in basic block.
+jcsample.c:418:3: note: not consecutive access *outptr_359 = _116;
+jcsample.c:418:3: note: not consecutive access _104 = *inptr_168;
+jcsample.c:418:3: note: not consecutive access _27 = compptr_12(D)->v_samp_factor;
+jcsample.c:418:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: control flow in loop.
+jcsample.c:97:5: note: bad loop form.
+jcsample.c:191:3: note: not consecutive access _3 = cinfo_2(D)->image_width;
+jcsample.c:191:3: note: not consecutive access _4 = cinfo_2(D)->max_v_samp_factor;
+jcsample.c:191:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:96:6: note: not consecutive access _11 = cinfo_2(D)->image_width;
+jcsample.c:96:6: note: not consecutive access _9 = compptr_8(D)->width_in_blocks;
+jcsample.c:96:6: note: not vectorized: no grouped stores in basic block.
+jcsample.c:196:1: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:101:9: note: not consecutive access pixval_22 = MEM[(JSAMPLE *)ptr_21 + -1B];
+jcsample.c:101:9: note: not vectorized: no grouped stores in basic block.
+jcsample.c:97:5: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:483:3: note: not vectorized: control flow in loop.
+jcsample.c:483:3: note: bad loop form.
+jcsample.c:471:14: note: not consecutive access _12 = _11->alloc_small;
+jcsample.c:471:14: note: not consecutive access _11 = cinfo_10(D)->mem;
+jcsample.c:471:14: note: not vectorized: no grouped stores in basic block.
+jcsample.c:479:6: note: not consecutive access downsample_14->pub.need_context_rows = 0;
+jcsample.c:479:6: note: not consecutive access _19 = cinfo_10(D)->CCIR601_sampling;
+jcsample.c:479:6: note: not consecutive access cinfo_10(D)->downsample = downsample_14;
+jcsample.c:479:6: note: Build SLP failed: unrolling required in basic block SLP
+jcsample.c:479:6: note: not consecutive access downsample_14->pub.need_context_rows = 0;
+jcsample.c:479:6: note: not consecutive access _19 = cinfo_10(D)->CCIR601_sampling;
+jcsample.c:479:6: note: not consecutive access cinfo_10(D)->downsample = downsample_14;
+jcsample.c:479:6: note: not vectorized: vectorization is not profitable.
+jcsample.c:480:5: note: not consecutive access _22 = _20->error_exit;
+jcsample.c:480:5: note: not consecutive access _20->msg_code = 25;
+jcsample.c:480:5: note: not consecutive access _20 = cinfo_10(D)->err;
+jcsample.c:480:5: note: not vectorized: no grouped stores in basic block.
+jcsample.c:483:3: note: not consecutive access compptr_24 = cinfo_10(D)->comp_info;
+jcsample.c:483:3: note: not consecutive access _68 = cinfo_10(D)->num_components;
+jcsample.c:483:3: note: not vectorized: no grouped stores in basic block.
+jcsample.c:485:8: note: not consecutive access _26 = BIT_FIELD_REF <*compptr_77, 64, 64>;
+jcsample.c:485:8: note: not consecutive access _27 = BIT_FIELD_REF <*cinfo_10(D), 64, 2496>;
+jcsample.c:485:8: note: not vectorized: no grouped stores in basic block.
+jcsample.c:488:10: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:490:36: note: not consecutive access downsample_14->pub.need_context_rows = 1;
+jcsample.c:490:36: note: not vectorized: no grouped stores in basic block.
+jcsample.c:493:26: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:494:15: note: not consecutive access _32 = compptr_77->h_samp_factor;
+jcsample.c:494:15: note: not consecutive access _34 = cinfo_10(D)->max_h_samp_factor;
+jcsample.c:494:15: note: not vectorized: no grouped stores in basic block.
+jcsample.c:494:71: note: not consecutive access _35 = compptr_77->v_samp_factor;
+jcsample.c:494:71: note: not consecutive access _36 = cinfo_10(D)->max_v_samp_factor;
+jcsample.c:494:71: note: not vectorized: no grouped stores in basic block.
+jcsample.c:497:31: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:498:71: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:501:10: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:503:36: note: not consecutive access downsample_14->pub.need_context_rows = 1;
+jcsample.c:503:36: note: not vectorized: no grouped stores in basic block.
+jcsample.c:506:26: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:507:15: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:507:73: note: not consecutive access _47 = compptr_77->v_samp_factor;
+jcsample.c:507:73: note: not consecutive access _46 = cinfo_10(D)->max_v_samp_factor;
+jcsample.c:507:73: note: not vectorized: no grouped stores in basic block.
+jcsample.c:510:31: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:512:7: note: not consecutive access _52 = _50->error_exit;
+jcsample.c:512:7: note: not consecutive access _50->msg_code = 38;
+jcsample.c:512:7: note: not consecutive access _50 = cinfo_10(D)->err;
+jcsample.c:512:7: note: not vectorized: no grouped stores in basic block.
+jcsample.c:483:3: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:516:31: note: not vectorized: not enough data-refs in basic block.
+jcsample.c:517:5: note: not consecutive access _59 = _57->emit_message;
+jcsample.c:517:5: note: not consecutive access _57->msg_code = 99;
+jcsample.c:517:5: note: not consecutive access _57 = cinfo_10(D)->err;
+jcsample.c:517:5: note: not vectorized: no grouped stores in basic block.
+jcsample.c:519:1: note: not vectorized: not enough data-refs in basic block.

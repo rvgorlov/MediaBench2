@@ -1,0 +1,279 @@
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 2B] and *outptr_34
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 2B] and MEM[(char *)outptr_34 + 1B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 2B] and MEM[(char *)outptr_34 + 2B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between *outptr_34 and MEM[(JSAMPLE *)inptr_33 + 1B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between *outptr_34 and *inptr_33
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 1B] and MEM[(char *)outptr_34 + 1B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 1B] and MEM[(char *)outptr_34 + 2B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(char *)outptr_34 + 1B] and *inptr_33
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between *inptr_33 and MEM[(char *)outptr_34 + 2B]
+wrtarga.c:110:3: note: unsupported vect permute { 2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 17 16 15 20 19 18 23 22 21 26 25 24 29 28 27 32 31 }
+wrtarga.c:110:3: note: Build SLP failed: unsupported load permutation *outptr_34 = _13;
+
+wrtarga.c:110:3: note: vector alignment may not be reachable
+wrtarga.c:110:3: note: virtual phi. skip.
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V32QI[3]
+wrtarga.c:110:3: note: shuffle of 3 loads is not supported by target
+wrtarga.c:110:3: note: not vectorized: relevant stmt not supported: _12 = MEM[(JSAMPLE *)inptr_33 + 2B];
+wrtarga.c:110:3: note: bad operation or unsupported loop bound.
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 2B] and *outptr_34
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 2B] and MEM[(char *)outptr_34 + 1B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 2B] and MEM[(char *)outptr_34 + 2B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between *outptr_34 and MEM[(JSAMPLE *)inptr_33 + 1B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between *outptr_34 and *inptr_33
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 1B] and MEM[(char *)outptr_34 + 1B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_33 + 1B] and MEM[(char *)outptr_34 + 2B]
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between MEM[(char *)outptr_34 + 1B] and *inptr_33
+wrtarga.c:110:3: note: versioning for alias required: can't determine dependence between *inptr_33 and MEM[(char *)outptr_34 + 2B]
+wrtarga.c:110:3: note: permutation requires at least three vectors _12 = MEM[(JSAMPLE *)inptr_33 + 2B];
+
+wrtarga.c:110:3: note: Build SLP failed: unsupported load permutation *outptr_34 = _13;
+
+wrtarga.c:110:3: note: vector alignment may not be reachable
+wrtarga.c:110:3: note: virtual phi. skip.
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: no optab.
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: no optab.
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: not ssa-name.
+wrtarga.c:110:3: note: use not simple.
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: no optab.
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: virtual phi. skip.
+wrtarga.c:110:3: note: loop vectorized
+wrtarga.c:110:3: note: loop versioned for vectorization because of possible aliasing
+wrtarga.c:110:3: note: virtual phi. skip.
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: Data access with gaps requires scalar epilogue loop
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: no array mode for V16QI[3]
+wrtarga.c:110:3: note: not consecutive access inptr_8 = *_7;
+wrtarga.c:110:3: note: not consecutive access col_11 = cinfo_10(D)->output_width;
+wrtarga.c:110:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:110:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:110:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:113:15: note: not vectorized: no vectype for stmt: vect__12.24_97 = MEM[(JSAMPLE *)vectp_inptr.22_95];
+ scalar_type: vector(16) unsigned char
+wrtarga.c:113:15: note: not vectorized: no vectype for stmt: vect__12.25_99 = MEM[(JSAMPLE *)vectp_inptr.22_98];
+ scalar_type: vector(16) unsigned char
+wrtarga.c:113:15: note: not vectorized: no vectype for stmt: vect__12.26_101 = MEM[(JSAMPLE *)vectp_inptr.22_100];
+ scalar_type: vector(16) unsigned char
+wrtarga.c:113:15: note: not vectorized: no vectype for stmt: MEM[(char *)vectp_outptr.30_111] = vect_shuffle3_high_114;
+ scalar_type: vector(16) char
+wrtarga.c:113:15: note: not vectorized: no vectype for stmt: MEM[(char *)vectp_outptr.30_120] = vect_shuffle3_high_116;
+ scalar_type: vector(16) char
+wrtarga.c:113:15: note: not vectorized: no vectype for stmt: MEM[(char *)vectp_outptr.30_122] = vect_shuffle3_high_118;
+ scalar_type: vector(16) char
+wrtarga.c:113:15: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:110:3: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:110:3: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:110:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:110:3: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:110:3: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:110:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:116:3: note: not consecutive access _24 = MEM[(struct tga_dest_struct *)dinfo_5(D)].pub.output_file;
+wrtarga.c:116:3: note: not consecutive access _25 = MEM[(struct tga_dest_struct *)dinfo_5(D)].buffer_width;
+wrtarga.c:116:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:117:1: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:131:3: note: versioning for alias required: can't determine dependence between *inptr_27 and *outptr_28
+wrtarga.c:131:3: note: Unknown misalignment, is_packed = 0
+wrtarga.c:131:3: note: Unknown misalignment, is_packed = 0
+wrtarga.c:131:3: note: virtual phi. skip.
+wrtarga.c:131:3: note: not ssa-name.
+wrtarga.c:131:3: note: use not simple.
+wrtarga.c:131:3: note: not ssa-name.
+wrtarga.c:131:3: note: use not simple.
+wrtarga.c:131:3: note: no optab.
+wrtarga.c:131:3: note: virtual phi. skip.
+wrtarga.c:131:3: note: loop vectorized
+wrtarga.c:131:3: note: loop versioned for vectorization because of possible aliasing
+wrtarga.c:131:3: note: loop peeled for vectorization to enhance alignment
+wrtarga.c:131:3: note: virtual phi. skip.
+wrtarga.c:131:3: note: not consecutive access inptr_8 = *_7;
+wrtarga.c:131:3: note: not consecutive access col_11 = cinfo_10(D)->output_width;
+wrtarga.c:131:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:131:47: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:131:47: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:131:47: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:131:47: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:132:15: note: not vectorized: no vectype for stmt: vect__14.75_107 = MEM[(JSAMPLE *)vectp_inptr.73_105];
+ scalar_type: vector(32) unsigned char
+wrtarga.c:132:15: note: not vectorized: no vectype for stmt: MEM[(char *)vectp_outptr.77_110] = vect__15.76_108;
+ scalar_type: vector(32) char
+wrtarga.c:132:15: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:131:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:131:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:131:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:134:3: note: not consecutive access _18 = MEM[(struct tga_dest_struct *)dinfo_5(D)].pub.output_file;
+wrtarga.c:134:3: note: not consecutive access _19 = MEM[(struct tga_dest_struct *)dinfo_5(D)].buffer_width;
+wrtarga.c:134:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:135:1: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:155:3: note: not vectorized: not suitable for gather load _19 = *_18;
+
+wrtarga.c:155:3: note: bad data references.
+wrtarga.c:155:3: note: not consecutive access color_map0_9 = *_8;
+wrtarga.c:155:3: note: not consecutive access inptr_11 = *_10;
+wrtarga.c:155:3: note: not consecutive access _8 = cinfo_7(D)->colormap;
+wrtarga.c:155:3: note: not consecutive access col_13 = cinfo_7(D)->output_width;
+wrtarga.c:155:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:155:3: note: not consecutive access _19 = *_18;
+wrtarga.c:155:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:155:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:158:3: note: not consecutive access _23 = MEM[(struct tga_dest_struct *)dinfo_5(D)].pub.output_file;
+wrtarga.c:158:3: note: not consecutive access _24 = MEM[(struct tga_dest_struct *)dinfo_5(D)].buffer_width;
+wrtarga.c:158:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:159:1: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:214:3: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:215:7: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:215:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:216:5: note: not consecutive access _12 = _11->error_exit;
+wrtarga.c:216:5: note: not consecutive access _11->msg_code = 37;
+wrtarga.c:216:5: note: not consecutive access _11 = cinfo_8(D)->err;
+wrtarga.c:216:5: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:217:1: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:190:7: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+wrtarga.c:173:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 3;
+wrtarga.c:88:7: note: not consecutive access _32 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 3;
+wrtarga.c:88:7: note: not consecutive access _32 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:88:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:89:5: note: not consecutive access _35 = _34->error_exit;
+wrtarga.c:89:5: note: not consecutive access _34->msg_code = 37;
+wrtarga.c:89:5: note: not consecutive access _34 = cinfo_3(D)->err;
+wrtarga.c:89:5: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:177:8: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:178:32: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:180:32: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:181:13: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:182:8: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:185:10: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:186:2: note: not consecutive access _38 = _37->error_exit;
+wrtarga.c:186:2: note: not consecutive access _37 = cinfo_3(D)->err;
+wrtarga.c:186:2: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:186:2: note: not consecutive access _38 = _37->error_exit;
+wrtarga.c:186:2: note: not consecutive access _37 = cinfo_3(D)->err;
+wrtarga.c:186:2: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:62:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:75:6: note: not consecutive access targaheader[1] = 1;
+wrtarga.c:75:6: note: not consecutive access targaheader[17] = 32;
+wrtarga.c:75:6: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:75:6: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:75:6: note: not consecutive access targaheader[1] = 1;
+wrtarga.c:75:6: note: not consecutive access targaheader[17] = 32;
+wrtarga.c:75:6: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:75:6: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 3;
+wrtarga.c:88:7: note: not consecutive access targaheader[16] = 8;
+wrtarga.c:88:7: note: not consecutive access _71 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:88:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:89:5: note: not consecutive access _74 = _73->error_exit;
+wrtarga.c:89:5: note: not consecutive access _73->msg_code = 37;
+wrtarga.c:89:5: note: not consecutive access _73 = cinfo_3(D)->err;
+wrtarga.c:89:5: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:79:8: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 1;
+wrtarga.c:88:7: note: not consecutive access targaheader[16] = 8;
+wrtarga.c:88:7: note: not consecutive access _98 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:88:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 2;
+wrtarga.c:88:7: note: not consecutive access targaheader[16] = 24;
+wrtarga.c:88:7: note: not consecutive access _165 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:88:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:190:7: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:190:7: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:191:2: note: not consecutive access _46 = *_45;
+wrtarga.c:191:2: note: not consecutive access _42 = MEM[(JSAMPLE * *)_41 + 16B];
+wrtarga.c:191:2: note: not consecutive access _41 = cinfo_3(D)->colormap;
+wrtarga.c:191:2: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:192:2: note: not consecutive access _51 = *_50;
+wrtarga.c:192:2: note: not consecutive access _49 = MEM[(JSAMPLE * *)_48 + 8B];
+wrtarga.c:192:2: note: not consecutive access _48 = cinfo_3(D)->colormap;
+wrtarga.c:192:2: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:193:2: note: not consecutive access _56 = *_55;
+wrtarga.c:193:2: note: not consecutive access _54 = *_53;
+wrtarga.c:193:2: note: not consecutive access _53 = cinfo_3(D)->colormap;
+wrtarga.c:193:2: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:190:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 2;
+wrtarga.c:88:7: note: not consecutive access _87 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:88:7: note: not consecutive access targaheader[2] = 2;
+wrtarga.c:88:7: note: not consecutive access _87 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrtarga.c:88:7: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:88:6: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:89:5: note: not consecutive access _90 = _89->error_exit;
+wrtarga.c:89:5: note: not consecutive access _89->msg_code = 37;
+wrtarga.c:89:5: note: not consecutive access _89 = cinfo_3(D)->err;
+wrtarga.c:89:5: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:198:32: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:201:5: note: not consecutive access _16 = _14->error_exit;
+wrtarga.c:201:5: note: not consecutive access _14->msg_code = 1034;
+wrtarga.c:201:5: note: not consecutive access _14 = cinfo_3(D)->err;
+wrtarga.c:201:5: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:203:1: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:73:19: note: not consecutive access targaheader[17] = 32;
+wrtarga.c:73:19: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:73:19: note: not consecutive access targaheader[17] = 32;
+wrtarga.c:73:19: note: Build SLP failed: unrolling required in basic block SLP
+wrtarga.c:189:15: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:167:1: note: not vectorized: not enough data-refs in basic block.
+wrtarga.c:230:8: note: not consecutive access _4 = _3->alloc_small;
+wrtarga.c:230:8: note: not consecutive access _3 = cinfo_2(D)->mem;
+wrtarga.c:230:8: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:237:3: note: not consecutive access dest_6->pub.start_output = start_output_tga;
+wrtarga.c:237:3: note: not consecutive access dest_6->pub.finish_output = finish_output_tga;
+wrtarga.c:237:3: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:242:6: note: not consecutive access _16 = _15->alloc_small;
+wrtarga.c:242:6: note: not consecutive access dest_6->buffer_width = _13;
+wrtarga.c:242:6: note: not consecutive access _15 = cinfo_2(D)->mem;
+wrtarga.c:242:6: note: not consecutive access _10 = cinfo_2(D)->output_width;
+wrtarga.c:242:6: note: not consecutive access _11 = cinfo_2(D)->output_components;
+wrtarga.c:242:6: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:246:23: note: not consecutive access _22 = _21->alloc_sarray;
+wrtarga.c:246:23: note: not consecutive access _23 = dest_6->buffer_width;
+wrtarga.c:246:23: note: not consecutive access dest_6->iobuffer = _19;
+wrtarga.c:246:23: note: not consecutive access _21 = cinfo_2(D)->mem;
+wrtarga.c:246:23: note: not vectorized: no grouped stores in basic block.
+wrtarga.c:250:10: note: not consecutive access dest_6->pub.buffer = _25;
+wrtarga.c:250:10: note: not consecutive access dest_6->pub.buffer_height = 1;
+wrtarga.c:250:10: note: not vectorized: no grouped stores in basic block.

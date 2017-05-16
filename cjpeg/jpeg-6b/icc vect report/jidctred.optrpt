@@ -1,0 +1,66 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -I. -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -vec_report -o jidctred.o -c
+
+Begin optimization report for: jpeg_idct_4x4(j_decompress_ptr, jpeg_component_info *, JCOEFPTR, JSAMPARRAY, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jidctred.c(138,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15456: masked unaligned unit stride loads: 22 
+   remark #15457: masked unaligned unit stride stores: 8 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 29 
+   remark #15477: vector cost: 622.000 
+   remark #15478: estimated potential speedup: 0.040 
+   remark #15487: type converts: 7 
+   remark #15488: --- end vector cost summary ---
+LOOP END
+
+LOOP BEGIN at jidctred.c(197,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between output_buf[ctr] (198:5) and *(outptr+2) (256:5)
+
+   LOOP BEGIN at jidctred.c(208,7)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 3 
+      remark #15477: vector cost: 1.500 
+      remark #15478: estimated potential speedup: 1.000 
+      remark #15488: --- end vector cost summary ---
+      remark #25436: completely unrolled by 4  
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: jpeg_idct_2x2(j_decompress_ptr, jpeg_component_info *, JCOEFPTR, JSAMPARRAY, JDIMENSION)
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at jidctred.c(290,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15456: masked unaligned unit stride loads: 16 
+   remark #15457: masked unaligned unit stride stores: 4 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 30 
+   remark #15477: vector cost: 370.500 
+   remark #15478: estimated potential speedup: 0.080 
+   remark #15487: type converts: 5 
+   remark #15488: --- end vector cost summary ---
+   remark #25436: completely unrolled by 8  
+LOOP END
+
+LOOP BEGIN at jidctred.c(330,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between output_buf[ctr] (331:5) and *(outptr+1) (364:5)
+   remark #25436: completely unrolled by 2  
+LOOP END
+===========================================================================

@@ -1,0 +1,78 @@
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o hpctimer.o hpctimer.c
+#gcc -pg -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o
+#gcc -pg -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
+echo "123"
+123
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcapimin.o jcapimin.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcapistd.o jcapistd.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jctrans.o jctrans.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcparam.o jcparam.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdatadst.o jdatadst.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcinit.o jcinit.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcmaster.o jcmaster.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcmarker.o jcmarker.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcmainct.o jcmainct.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcprepct.o jcprepct.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jccoefct.o jccoefct.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jccolor.o jccolor.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcsample.o jcsample.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jchuff.o jchuff.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcphuff.o jcphuff.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcdctmgr.o jcdctmgr.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jfdctfst.o jfdctfst.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jfdctflt.o jfdctflt.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jfdctint.o jfdctint.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdapimin.o jdapimin.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdapistd.o jdapistd.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdtrans.o jdtrans.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdatasrc.o jdatasrc.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdmaster.o jdmaster.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdinput.o jdinput.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdmarker.o jdmarker.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdhuff.o jdhuff.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdphuff.o jdphuff.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdmainct.o jdmainct.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdcoefct.o jdcoefct.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdpostct.o jdpostct.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jddctmgr.o jddctmgr.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jidctfst.o jidctfst.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jidctflt.o jidctflt.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jidctint.o jidctint.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jidctred.o jidctred.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdsample.o jdsample.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdcolor.o jdcolor.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jquant1.o jquant1.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jquant2.o jquant2.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jdmerge.o jdmerge.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jcomapi.o jcomapi.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jutils.o jutils.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jerror.o jerror.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jmemmgr.o jmemmgr.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jmemnobs.o jmemnobs.c
+rm -f libjpeg.a
+ar rc libjpeg.a  jcapimin.o jcapistd.o jctrans.o jcparam.o jdatadst.o jcinit.o jcmaster.o jcmarker.o jcmainct.o jcprepct.o jccoefct.o jccolor.o jcsample.o jchuff.o jcphuff.o jcdctmgr.o jfdctfst.o jfdctflt.o jfdctint.o jdapimin.o jdapistd.o jdtrans.o jdatasrc.o jdmaster.o jdinput.o jdmarker.o jdhuff.o jdphuff.o jdmainct.o jdcoefct.o jdpostct.o jddctmgr.o jidctfst.o jidctflt.o jidctint.o jidctred.o jdsample.o jdcolor.o jquant1.o jquant2.o jdmerge.o jcomapi.o jutils.o jerror.o jmemmgr.o jmemnobs.o 
+ranlib libjpeg.a
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o cjpeg.o cjpeg.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdppm.o rdppm.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdgif.o rdgif.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdtarga.o rdtarga.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdrle.o rdrle.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdbmp.o rdbmp.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdswitch.o rdswitch.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o cdjpeg.o cdjpeg.c
+gcc  -o cjpeg cjpeg.o rdppm.o rdgif.o rdtarga.o rdrle.o rdbmp.o rdswitch.o cdjpeg.o libjpeg.a hpctimer.o  
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o djpeg.o djpeg.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o wrppm.o wrppm.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o wrgif.o wrgif.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o wrtarga.o wrtarga.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o wrrle.o wrrle.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o wrbmp.o wrbmp.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdcolmap.o rdcolmap.c
+gcc  -o djpeg djpeg.o wrppm.o wrgif.o wrtarga.o wrrle.o wrbmp.o rdcolmap.o cdjpeg.o libjpeg.a hpctimer.o 
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o jpegtran.o jpegtran.c
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o transupp.o transupp.c
+gcc  -o jpegtran jpegtran.o rdswitch.o cdjpeg.o transupp.o libjpeg.a 
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o rdjpgcom.o rdjpgcom.c
+gcc  -o rdjpgcom rdjpgcom.o 
+gcc -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I.   -c -o wrjpgcom.o wrjpgcom.c
+gcc  -o wrjpgcom wrjpgcom.o 

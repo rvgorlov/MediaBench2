@@ -1,0 +1,50 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 21.43      0.30     0.30                             ycc_rgb_convert
+ 20.71      0.59     0.29                             jpeg_idct_islow
+ 17.86      0.84     0.25                             __write_nocancel
+ 14.29      1.04     0.20                             decode_mcu
+ 14.29      1.24     0.20                             h2v2_fancy_upsample
+  2.86      1.28     0.04                             jpeg_fill_bit_buffer
+  2.14      1.31     0.03                             __memmove_sse2_unaligned_erms
+  2.14      1.34     0.03                             __open_nocancel
+  1.43      1.36     0.02                             _IO_file_close
+  1.43      1.38     0.02                             process_data_context_main
+  0.71      1.39     0.01                             __memset_sse2_unaligned_erms
+  0.71      1.40     0.01                             sep_upsample
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

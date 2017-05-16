@@ -1,0 +1,11 @@
+wrppm.c:115:3: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (col = dest->samples_per_row; col > 0; col--) {
+  ^
+wrppm.c:164:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrppm.c:164:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrppm.c:142:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrppm.c:142:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

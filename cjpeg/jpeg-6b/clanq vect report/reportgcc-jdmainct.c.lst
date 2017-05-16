@@ -1,0 +1,26 @@
+jdmainct.c:176:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmainct.c:176:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:503:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmainct.c:503:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:230:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < rgroup; i++) {
+    ^
+jdmainct.c:230:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:221:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i = 0; i < rgroup * 2; i++) {
+    ^
+jdmainct.c:217:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i = 0; i < rgroup * (M + 2); i++) {
+    ^
+jdmainct.c:295:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < rgroup * 2; i++) {
+    ^
+jdmainct.c:295:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:255:5: remark: loop not vectorized: cannot prove it is safe to reorder memory operations; allow reordering by specifying '#pragma clang loop vectorize(enable)' before the loop. If the arrays will always be independent specify '#pragma clang loop vectorize(assume_safety)' before the loop or provide the '__restrict__' qualifier with the independent array arguments. Erroneous results will occur if these options are incorrectly applied! [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < rgroup; i++) {
+    ^
+jdmainct.c:255:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

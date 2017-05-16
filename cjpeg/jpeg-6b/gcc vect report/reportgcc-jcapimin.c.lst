@@ -1,0 +1,170 @@
+jcapimin.c:36:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:37:5: note: not consecutive access _16 = _11->error_exit;
+jcapimin.c:37:5: note: not consecutive access _11 = cinfo_8(D)->err;
+jcapimin.c:37:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:37:5: note: not consecutive access _16 = _11->error_exit;
+jcapimin.c:37:5: note: not consecutive access _11 = cinfo_8(D)->err;
+jcapimin.c:37:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:38:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:39:5: note: not consecutive access _24 = _19->error_exit;
+jcapimin.c:39:5: note: not consecutive access _19 = cinfo_8(D)->err;
+jcapimin.c:39:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:39:5: note: not consecutive access _24 = _19->error_exit;
+jcapimin.c:39:5: note: not consecutive access _19 = cinfo_8(D)->err;
+jcapimin.c:39:5: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:58:3: note: not consecutive access cinfo_8(D)->err = err_26;
+jcapimin.c:58:3: note: not consecutive access cinfo_8(D)->client_data = client_data_27;
+jcapimin.c:58:3: note: not consecutive access cinfo_8(D)->is_decompressor = 0;
+jcapimin.c:58:3: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:70:32: note: not consecutive access cinfo_8(D)->progress = 0B;
+jcapimin.c:70:32: note: not consecutive access cinfo_8(D)->dest = 0B;
+jcapimin.c:70:32: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:70:32: note: not consecutive access cinfo_8(D)->progress = 0B;
+jcapimin.c:70:32: note: not consecutive access cinfo_8(D)->dest = 0B;
+jcapimin.c:70:32: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:71:32: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:80:1: note: not consecutive access cinfo_8(D)->input_gamma = 1.0e+0;
+jcapimin.c:80:1: note: not consecutive access cinfo_8(D)->script_space = 0B;
+jcapimin.c:80:1: note: not consecutive access cinfo_8(D)->global_state = 100;
+jcapimin.c:80:1: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:91:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:103:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:130:3: note: not vectorized: control flow in loop.
+jcapimin.c:130:3: note: bad loop form.
+jcapimin.c:125:3: note: not vectorized: control flow in loop.
+jcapimin.c:125:3: note: bad loop form.
+jcapimin.c:126:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:127:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:126:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:127:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:126:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:127:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:126:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:127:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:131:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:132:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:133:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:134:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:131:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:132:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:133:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:134:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:131:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:132:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:133:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:134:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:131:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:132:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:133:8: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:134:24: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:136:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:160:9: note: not vectorized: control flow in loop.
+jcapimin.c:160:9: note: bad loop form.
+jcapimin.c:162:5: note: not vectorized: control flow in loop.
+jcapimin.c:162:5: note: bad loop form.
+jcapimin.c:151:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:154:8: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:155:7: note: not consecutive access _22 = _20->error_exit;
+jcapimin.c:155:7: note: not consecutive access _20->msg_code = 67;
+jcapimin.c:155:7: note: not consecutive access _20 = cinfo_8(D)->err;
+jcapimin.c:155:7: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:156:6: note: not consecutive access _25 = _24->finish_pass;
+jcapimin.c:156:6: note: not consecutive access _24 = cinfo_8(D)->master;
+jcapimin.c:156:6: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:157:13: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:158:5: note: not consecutive access _16 = _13->error_exit;
+jcapimin.c:158:5: note: not consecutive access _13 = cinfo_8(D)->err;
+jcapimin.c:158:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:158:5: note: not consecutive access _16 = _13->error_exit;
+jcapimin.c:158:5: note: not consecutive access _13 = cinfo_8(D)->err;
+jcapimin.c:158:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:160:9: note: not consecutive access _60 = _69->is_last_pass;
+jcapimin.c:160:9: note: not consecutive access _69 = cinfo_8(D)->master;
+jcapimin.c:160:9: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:177:4: note: not consecutive access _52 = _51->write_file_trailer;
+jcapimin.c:177:4: note: not consecutive access _51 = cinfo_8(D)->marker;
+jcapimin.c:177:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:178:4: note: not consecutive access _55 = _54->term_destination;
+jcapimin.c:178:4: note: not consecutive access _54 = cinfo_8(D)->dest;
+jcapimin.c:178:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:181:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:161:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:162:5: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:174:6: note: not consecutive access _49 = _48->finish_pass;
+jcapimin.c:174:6: note: not consecutive access _48 = cinfo_8(D)->master;
+jcapimin.c:174:6: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:160:9: note: not consecutive access _28 = _27->is_last_pass;
+jcapimin.c:160:9: note: not consecutive access _27 = cinfo_8(D)->master;
+jcapimin.c:160:9: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:163:10: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:166:3: note: not consecutive access _37 = _32->progress_monitor;
+jcapimin.c:166:3: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:166:3: note: not consecutive access _37 = _32->progress_monitor;
+jcapimin.c:166:3: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:166:3: note: not vectorized: vectorization is not profitable.
+jcapimin.c:171:14: note: not consecutive access _40 = _39->compress_data;
+jcapimin.c:171:14: note: not consecutive access _39 = cinfo_8(D)->coef;
+jcapimin.c:171:14: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:171:10: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:172:2: note: not consecutive access _45 = _43->error_exit;
+jcapimin.c:172:2: note: not consecutive access _43->msg_code = 24;
+jcapimin.c:172:2: note: not consecutive access _43 = cinfo_8(D)->err;
+jcapimin.c:172:2: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:162:5: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:205:9: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jcapimin.c:197:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:197:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:197:33: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:201:5: note: not consecutive access _15 = _11->error_exit;
+jcapimin.c:201:5: note: not consecutive access _11 = cinfo_6(D)->err;
+jcapimin.c:201:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:201:5: note: not consecutive access _15 = _11->error_exit;
+jcapimin.c:201:5: note: not consecutive access _11 = cinfo_6(D)->err;
+jcapimin.c:201:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:203:4: note: not consecutive access _18 = _17->write_marker_header;
+jcapimin.c:203:4: note: not consecutive access _17 = cinfo_6(D)->marker;
+jcapimin.c:203:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:205:9: note: not consecutive access write_marker_byte_23 = _22->write_marker_byte;
+jcapimin.c:205:9: note: not consecutive access _22 = cinfo_6(D)->marker;
+jcapimin.c:205:9: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:209:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:206:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:205:9: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:216:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:216:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:216:33: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:220:5: note: not consecutive access _12 = _8->error_exit;
+jcapimin.c:220:5: note: not consecutive access _8 = cinfo_3(D)->err;
+jcapimin.c:220:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:220:5: note: not consecutive access _12 = _8->error_exit;
+jcapimin.c:220:5: note: not consecutive access _8 = cinfo_3(D)->err;
+jcapimin.c:220:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:222:4: note: not consecutive access _15 = _14->write_marker_header;
+jcapimin.c:222:4: note: not consecutive access _14 = cinfo_3(D)->marker;
+jcapimin.c:222:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:223:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:228:4: note: not consecutive access _4 = _3->write_marker_byte;
+jcapimin.c:228:4: note: not consecutive access _3 = cinfo_2(D)->marker;
+jcapimin.c:228:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:229:1: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:256:6: note: not vectorized: not enough data-refs in basic block.
+jcapimin.c:257:5: note: not consecutive access _8 = _5->error_exit;
+jcapimin.c:257:5: note: not consecutive access _5 = cinfo_3(D)->err;
+jcapimin.c:257:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:257:5: note: not consecutive access _8 = _5->error_exit;
+jcapimin.c:257:5: note: not consecutive access _5 = cinfo_3(D)->err;
+jcapimin.c:257:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapimin.c:260:4: note: not consecutive access _11 = _10->reset_error_mgr;
+jcapimin.c:260:4: note: not consecutive access _10 = cinfo_3(D)->err;
+jcapimin.c:260:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:261:4: note: not consecutive access _14 = _13->init_destination;
+jcapimin.c:261:4: note: not consecutive access _13 = cinfo_3(D)->dest;
+jcapimin.c:261:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:265:4: note: not consecutive access _18 = _17->write_tables_only;
+jcapimin.c:265:4: note: not consecutive access _17 = cinfo_3(D)->marker;
+jcapimin.c:265:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:267:4: note: not consecutive access _21 = _20->term_destination;
+jcapimin.c:267:4: note: not consecutive access _20 = cinfo_3(D)->dest;
+jcapimin.c:267:4: note: not vectorized: no grouped stores in basic block.
+jcapimin.c:280:1: note: not vectorized: not enough data-refs in basic block.

@@ -1,0 +1,94 @@
+jcmaster.c:86:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_SAMPLING);
+      ^
+jcmaster.c:82:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcmaster.c:97:14: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    compptr->component_index = ci;
+             ^
+jcmaster.c:97:14: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmaster.c:236:4: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+          ERREXIT1(cinfo, JERR_BAD_SCAN_SCRIPT, scanno);
+          ^
+jcmaster.c:233:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (ci = 0; ci < ncomps; ci++) {
+      ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:218:8: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:218:8: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:175:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (thisi < 0 || thisi >= cinfo->num_components)
+          ^
+jcmaster.c:173:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0; ci < ncomps; ci++) {
+    ^
+jcmaster.c:252:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_MISSING_DATA);
+        ^
+jcmaster.c:250:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcmaster.c:258:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_MISSING_DATA);
+        ^
+jcmaster.c:256:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcmaster.c:279:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < scanptr->comps_in_scan; ci++) {
+    ^
+jcmaster.c:279:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmaster.c:296:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcmaster.c:296:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmaster.c:376:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      while (mcublks-- > 0) {
+      ^
+jcmaster.c:376:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

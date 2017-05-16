@@ -1,0 +1,124 @@
+jidctred.c:197:3: note: not vectorized: control flow in loop.
+jidctred.c:197:3: note: bad loop form.
+jidctred.c:138:3: note: not vectorized: control flow in loop.
+jidctred.c:138:3: note: bad loop form.
+jidctred.c:136:12: note: not consecutive access _14 = cinfo_13(D)->sample_range_limit;
+jidctred.c:136:12: note: not consecutive access quantptr_19 = compptr_18(D)->dct_table;
+jidctred.c:136:12: note: not vectorized: no grouped stores in basic block.
+jidctred.c:140:8: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:142:8: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:142:31: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:142:31: note: not vectorized: no grouped stores in basic block.
+jidctred.c:142:56: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:142:56: note: not vectorized: no grouped stores in basic block.
+jidctred.c:143:24: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:143:24: note: not vectorized: no grouped stores in basic block.
+jidctred.c:143:49: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:143:49: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:144:24: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:151:24: note: not vectorized: no grouped stores in basic block.
+jidctred.c:151:24: note: not vectorized: no grouped stores in basic block.
+jidctred.c:191:22: note: not vectorized: no grouped stores in basic block.
+jidctred.c:138:3: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:138:3: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:202:8: note: not vectorized: no grouped stores in basic block.
+jidctred.c:202:23: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:202:23: note: not vectorized: no grouped stores in basic block.
+jidctred.c:202:40: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:202:40: note: not vectorized: no grouped stores in basic block.
+jidctred.c:202:57: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:202:57: note: not vectorized: no grouped stores in basic block.
+jidctred.c:203:16: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:203:16: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:203:33: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:213:13: note: not consecutive access dcval_139 = *_138;
+jidctred.c:213:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:213:13: note: not consecutive access dcval_139 = *_138;
+jidctred.c:213:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:213:13: note: not vectorized: no grouped stores in basic block.
+jidctred.c:260:11: note: not consecutive access _185 = *_184;
+jidctred.c:260:11: note: not consecutive access _193 = *_192;
+jidctred.c:260:11: note: not consecutive access _201 = *_200;
+jidctred.c:260:11: note: not consecutive access _209 = *_208;
+jidctred.c:260:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:260:11: note: not consecutive access _185 = *_184;
+jidctred.c:260:11: note: not consecutive access _193 = *_192;
+jidctred.c:260:11: note: not consecutive access _201 = *_200;
+jidctred.c:260:11: note: not consecutive access _209 = *_208;
+jidctred.c:260:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:197:3: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:262:1: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:138:65: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:330:3: note: not vectorized: control flow in loop.
+jidctred.c:330:3: note: bad loop form.
+jidctred.c:290:3: note: not vectorized: control flow in loop.
+jidctred.c:290:3: note: bad loop form.
+jidctred.c:288:12: note: not consecutive access _14 = cinfo_13(D)->sample_range_limit;
+jidctred.c:288:12: note: not consecutive access quantptr_19 = compptr_18(D)->dct_table;
+jidctred.c:288:12: note: not vectorized: no grouped stores in basic block.
+jidctred.c:292:46: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:294:8: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:294:31: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:294:31: note: not vectorized: no grouped stores in basic block.
+jidctred.c:294:56: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:294:56: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:295:24: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:300:24: note: not vectorized: no grouped stores in basic block.
+jidctred.c:300:24: note: not vectorized: no grouped stores in basic block.
+jidctred.c:324:22: note: not vectorized: no grouped stores in basic block.
+jidctred.c:290:3: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:8: note: not consecutive access _229 = MEM[(int *)&workspace + 4B];
+jidctred.c:335:8: note: not consecutive access _231 = *_232;
+jidctred.c:335:8: note: not vectorized: no grouped stores in basic block.
+jidctred.c:335:8: note: not vectorized: no grouped stores in basic block.
+jidctred.c:368:11: note: not consecutive access _188 = *_189;
+jidctred.c:368:11: note: not consecutive access _197 = *_198;
+jidctred.c:368:11: note: not consecutive access _222 = MEM[(int *)&workspace];
+jidctred.c:368:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:368:11: note: not consecutive access _188 = *_189;
+jidctred.c:368:11: note: not consecutive access _197 = *_198;
+jidctred.c:368:11: note: not consecutive access _222 = MEM[(int *)&workspace];
+jidctred.c:368:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:335:23: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:23: note: not vectorized: no grouped stores in basic block.
+jidctred.c:335:40: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:40: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:57: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:343:13: note: not consecutive access dcval_162 = *_163;
+jidctred.c:343:13: note: not consecutive access _171 = MEM[(int *)&workspace];
+jidctred.c:343:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:343:13: note: not consecutive access dcval_162 = *_163;
+jidctred.c:343:13: note: not consecutive access _171 = MEM[(int *)&workspace];
+jidctred.c:343:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:335:8: note: not consecutive access _91 = MEM[(int *)wsptr_157 + 4B];
+jidctred.c:335:8: note: not consecutive access _87 = *_86;
+jidctred.c:335:8: note: not vectorized: no grouped stores in basic block.
+jidctred.c:335:23: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:23: note: not vectorized: no grouped stores in basic block.
+jidctred.c:335:40: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:40: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:335:57: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:343:13: note: not consecutive access dcval_102 = *_101;
+jidctred.c:343:13: note: not consecutive access _95 = *wsptr_157;
+jidctred.c:343:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:343:13: note: not consecutive access dcval_102 = *_101;
+jidctred.c:343:13: note: not consecutive access _95 = *wsptr_157;
+jidctred.c:343:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:343:13: note: not vectorized: no grouped stores in basic block.
+jidctred.c:368:11: note: not consecutive access _130 = *_129;
+jidctred.c:368:11: note: not consecutive access _138 = *_137;
+jidctred.c:368:11: note: not consecutive access _106 = *wsptr_157;
+jidctred.c:368:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:368:11: note: not consecutive access _130 = *_129;
+jidctred.c:368:11: note: not consecutive access _138 = *_137;
+jidctred.c:368:11: note: not consecutive access _106 = *wsptr_157;
+jidctred.c:368:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctred.c:370:1: note: not vectorized: not enough data-refs in basic block.
+jidctred.c:396:1: note: not consecutive access _22 = *_21;
+jidctred.c:396:1: note: not consecutive access *_19 = _22;
+jidctred.c:396:1: note: not consecutive access _9 = *quantptr_5;
+jidctred.c:396:1: note: not consecutive access _3 = cinfo_2(D)->sample_range_limit;
+jidctred.c:396:1: note: not consecutive access quantptr_5 = compptr_4(D)->dct_table;
+jidctred.c:396:1: note: not consecutive access _7 = *coef_block_6(D);
+jidctred.c:396:1: note: not consecutive access _16 = *output_buf_15(D);
+jidctred.c:396:1: note: not vectorized: no grouped stores in basic block.

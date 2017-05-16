@@ -1,0 +1,44 @@
+jidctflt.c:180:3: note: not vectorized: not suitable for gather load _175 = *_174;
+
+jidctflt.c:180:3: note: bad data references.
+jidctflt.c:89:3: note: not vectorized: control flow in loop.
+jidctflt.c:89:3: note: bad loop form.
+jidctflt.c:87:12: note: not consecutive access _15 = cinfo_14(D)->sample_range_limit;
+jidctflt.c:87:12: note: not consecutive access quantptr_20 = compptr_19(D)->dct_table;
+jidctflt.c:87:12: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:99:8: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:99:31: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:99:56: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:99:56: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:100:24: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:100:24: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:100:49: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:100:49: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:101:24: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:101:24: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:101:49: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:117:12: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:117:12: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:173:10: note: not vectorized: no grouped stores in basic block.
+jidctflt.c:89:3: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:89:3: note: not vectorized: not enough data-refs in basic block.
+jidctflt.c:180:3: note: not consecutive access _175 = *_174;
+jidctflt.c:180:3: note: not consecutive access _184 = *_183;
+jidctflt.c:180:3: note: not consecutive access _193 = *_192;
+jidctflt.c:180:3: note: not consecutive access _202 = *_201;
+jidctflt.c:180:3: note: not consecutive access _211 = *_210;
+jidctflt.c:180:3: note: not consecutive access _220 = *_219;
+jidctflt.c:180:3: note: not consecutive access _229 = *_228;
+jidctflt.c:180:3: note: not consecutive access _238 = *_237;
+jidctflt.c:180:3: note: Build SLP failed: unrolling required in basic block SLP
+jidctflt.c:180:3: note: not consecutive access _175 = *_174;
+jidctflt.c:180:3: note: not consecutive access _184 = *_183;
+jidctflt.c:180:3: note: not consecutive access _193 = *_192;
+jidctflt.c:180:3: note: not consecutive access _202 = *_201;
+jidctflt.c:180:3: note: not consecutive access _211 = *_210;
+jidctflt.c:180:3: note: not consecutive access _220 = *_219;
+jidctflt.c:180:3: note: not consecutive access _229 = *_228;
+jidctflt.c:180:3: note: not consecutive access _238 = *_237;
+jidctflt.c:180:3: note: Build SLP failed: unrolling required in basic block SLP
+jidctflt.c:240:1: note: not vectorized: not enough data-refs in basic block.

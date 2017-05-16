@@ -1,0 +1,304 @@
+rdtarga.c:182:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+rdtarga.c:182:3: note: not consecutive access ptr_7 = *_6;
+rdtarga.c:182:3: note: not consecutive access col_9 = cinfo_8(D)->image_width;
+rdtarga.c:182:3: note: not consecutive access _6 = MEM[(struct _tga_source_struct *)sinfo_4(D)].pub.buffer;
+rdtarga.c:182:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:186:10: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:183:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:182:3: note: not consecutive access _13 = MEM[(struct _tga_source_struct *)sinfo_4(D)].tga_pixel[0];
+rdtarga.c:182:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:200:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+rdtarga.c:200:3: note: not consecutive access ptr_8 = *_7;
+rdtarga.c:200:3: note: not consecutive access col_10 = cinfo_9(D)->image_width;
+rdtarga.c:200:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:207:10: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:201:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:200:3: note: not consecutive access _17 = *_16;
+rdtarga.c:200:3: note: not consecutive access _21 = *_20;
+rdtarga.c:200:3: note: not consecutive access _26 = *_25;
+rdtarga.c:200:3: note: not consecutive access _13 = MEM[(struct _tga_source_struct *)sinfo_4(D)].tga_pixel[0];
+rdtarga.c:200:3: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:200:3: note: not consecutive access _17 = *_16;
+rdtarga.c:200:3: note: not consecutive access _21 = *_20;
+rdtarga.c:200:3: note: not consecutive access _26 = *_25;
+rdtarga.c:200:3: note: not consecutive access _13 = MEM[(struct _tga_source_struct *)sinfo_4(D)].tga_pixel[0];
+rdtarga.c:200:3: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:220:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+rdtarga.c:220:3: note: not consecutive access ptr_7 = *_6;
+rdtarga.c:220:3: note: not consecutive access col_9 = cinfo_8(D)->image_width;
+rdtarga.c:220:3: note: not consecutive access _6 = MEM[(struct _tga_source_struct *)sinfo_4(D)].pub.buffer;
+rdtarga.c:220:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:235:10: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:221:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:220:3: note: not consecutive access _19 = c5to8bits[_18];
+rdtarga.c:220:3: note: not consecutive access _23 = c5to8bits[_22];
+rdtarga.c:220:3: note: not consecutive access _27 = c5to8bits[_26];
+rdtarga.c:220:3: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:220:3: note: not consecutive access _19 = c5to8bits[_18];
+rdtarga.c:220:3: note: not consecutive access _23 = c5to8bits[_22];
+rdtarga.c:220:3: note: not consecutive access _27 = c5to8bits[_26];
+rdtarga.c:220:3: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:247:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+rdtarga.c:247:3: note: not consecutive access ptr_7 = *_6;
+rdtarga.c:247:3: note: not consecutive access col_9 = cinfo_8(D)->image_width;
+rdtarga.c:247:3: note: not consecutive access _6 = MEM[(struct _tga_source_struct *)sinfo_4(D)].pub.buffer;
+rdtarga.c:247:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:253:10: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:248:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:247:3: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:247:3: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:284:25: note: not consecutive access _9 = _8->access_virt_sarray;
+rdtarga.c:284:25: note: not consecutive access _8 = cinfo_3(D)->mem;
+rdtarga.c:284:25: note: not consecutive access _4 = cinfo_3(D)->image_height;
+rdtarga.c:284:25: note: not consecutive access _10 = MEM[(struct _tga_source_struct *)sinfo_1(D)].whole_image;
+rdtarga.c:284:25: note: not consecutive access _5 = MEM[(struct _tga_source_struct *)sinfo_1(D)].current_row;
+rdtarga.c:284:25: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:289:10: note: not consecutive access _14 = MEM[(struct _tga_source_struct *)sinfo_1(D)].current_row;
+rdtarga.c:289:10: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_1(D)].pub.buffer = _12;
+rdtarga.c:289:10: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_1(D)].current_row = _15;
+rdtarga.c:289:10: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:307:3: note: not vectorized: number of iterations cannot be computed.
+rdtarga.c:307:3: note: bad loop form.
+rdtarga.c:307:3: note: not vectorized: number of iterations cannot be computed.
+rdtarga.c:307:3: note: bad loop form.
+rdtarga.c:307:3: note: not consecutive access progress_8 = cinfo_7(D)->progress;
+rdtarga.c:307:3: note: not consecutive access _43 = cinfo_7(D)->image_height;
+rdtarga.c:307:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:307:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:313:27: note: not consecutive access _56 = _55->access_virt_sarray;
+rdtarga.c:313:27: note: not consecutive access _55 = cinfo_7(D)->mem;
+rdtarga.c:313:27: note: not consecutive access _57 = MEM[(struct _tga_source_struct *)sinfo_5(D)].whole_image;
+rdtarga.c:313:27: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:315:6: note: not consecutive access _61 = MEM[(struct _tga_source_struct *)sinfo_5(D)].get_pixel_rows;
+rdtarga.c:315:6: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_5(D)].pub.buffer = _59;
+rdtarga.c:315:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:307:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:311:8: note: not consecutive access _14 = progress_8->pub.progress_monitor;
+rdtarga.c:311:8: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:311:8: note: not consecutive access _14 = progress_8->pub.progress_monitor;
+rdtarga.c:311:8: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:311:8: note: not vectorized: vectorization is not profitable.
+rdtarga.c:313:27: note: not consecutive access _17 = _16->access_virt_sarray;
+rdtarga.c:313:27: note: not consecutive access _16 = cinfo_7(D)->mem;
+rdtarga.c:313:27: note: not consecutive access _18 = MEM[(struct _tga_source_struct *)sinfo_5(D)].whole_image;
+rdtarga.c:313:27: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:315:6: note: not consecutive access _22 = MEM[(struct _tga_source_struct *)sinfo_5(D)].get_pixel_rows;
+rdtarga.c:315:6: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_5(D)].pub.buffer = _20;
+rdtarga.c:315:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:307:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:307:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:317:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:318:37: note: not consecutive access _25 = progress_8->completed_extra_passes;
+rdtarga.c:318:37: note: not consecutive access progress_8->completed_extra_passes = _26;
+rdtarga.c:318:37: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:284:25: note: not consecutive access _32 = _31->access_virt_sarray;
+rdtarga.c:284:25: note: not consecutive access _31 = cinfo_7(D)->mem;
+rdtarga.c:284:25: note: not consecutive access _33 = MEM[(struct _tga_source_struct *)sinfo_5(D)].whole_image;
+rdtarga.c:284:25: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_5(D)].pub.get_pixel_rows = get_memory_row;
+rdtarga.c:284:25: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_5(D)].current_row = 0;
+rdtarga.c:284:25: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:324:10: note: not consecutive access _35 = MEM[(struct _tga_source_struct *)sinfo_5(D)].current_row;
+rdtarga.c:324:10: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_5(D)].pub.buffer = _34;
+rdtarga.c:324:10: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_5(D)].current_row = _36;
+rdtarga.c:324:10: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:476:1: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:129:3: note: not vectorized: number of iterations cannot be computed.
+rdtarga.c:129:3: note: bad loop form.
+rdtarga.c:129:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:132:1: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:126:18: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:130:36: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:129:3: note: not consecutive access _6 = sinfo_4(D)->pixel_size;
+rdtarga.c:129:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:160:3: note: not vectorized: number of iterations cannot be computed.
+rdtarga.c:160:3: note: bad loop form.
+rdtarga.c:143:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:144:27: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:149:6: note: not consecutive access infile_7 = sinfo_6(D)->pub.input_file;
+rdtarga.c:149:6: note: not consecutive access _12 = sinfo_6(D)->block_count;
+rdtarga.c:149:6: note: not consecutive access sinfo_6(D)->block_count = _13;
+rdtarga.c:149:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:95:5: note: not consecutive access _33 = _32->err;
+rdtarga.c:95:5: note: not consecutive access _34 = _33->error_exit;
+rdtarga.c:95:5: note: not consecutive access _33->msg_code = 43;
+rdtarga.c:95:5: note: not consecutive access _32 = MEM[(struct jpeg_compress_struct * *)sinfo_6(D) + 48B];
+rdtarga.c:95:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:95:5: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:151:8: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:153:26: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:153:26: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:160:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:155:26: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:161:36: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:160:3: note: not consecutive access _21 = sinfo_6(D)->pixel_size;
+rdtarga.c:160:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:160:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:110:3: note: not vectorized: control flow in loop.
+rdtarga.c:110:3: note: bad loop form.
+rdtarga.c:444:9: note: not vectorized: control flow in loop.
+rdtarga.c:444:9: note: bad loop form.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:344:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:345:5: note: not consecutive access _24 = _21->error_exit;
+rdtarga.c:345:5: note: not consecutive access _21->msg_code = 43;
+rdtarga.c:345:5: note: not consecutive access _21 = cinfo_20(D)->err;
+rdtarga.c:345:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:348:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:348:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:349:21: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:364:30: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].pixel_size = prephitmp_327;
+rdtarga.c:364:30: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:365:39: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:367:5: note: not consecutive access _65 = _63->error_exit;
+rdtarga.c:367:5: note: not consecutive access _63->msg_code = 1033;
+rdtarga.c:367:5: note: not consecutive access _63 = cinfo_20(D)->err;
+rdtarga.c:367:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:369:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:373:13: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:373:13: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:383:3: note: not consecutive access cinfo_20(D)->in_color_space = 2;
+rdtarga.c:383:3: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].read_pixel = cstore_194;
+rdtarga.c:383:3: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:385:33: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:386:30: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:388:7: note: not consecutive access _77 = _75->error_exit;
+rdtarga.c:388:7: note: not consecutive access _75->msg_code = 1033;
+rdtarga.c:388:7: note: not consecutive access _75 = cinfo_20(D)->err;
+rdtarga.c:388:7: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:389:5: note: not consecutive access _85 = _79->emit_message;
+rdtarga.c:389:5: note: not consecutive access _79 = cinfo_20(D)->err;
+rdtarga.c:389:5: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:389:5: note: not consecutive access _85 = _79->emit_message;
+rdtarga.c:389:5: note: not consecutive access _79 = cinfo_20(D)->err;
+rdtarga.c:389:5: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:392:5: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:394:30: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:397:30: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:400:30: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:403:7: note: not consecutive access _93 = _91->error_exit;
+rdtarga.c:403:7: note: not consecutive access _91->msg_code = 1033;
+rdtarga.c:403:7: note: not consecutive access _91 = cinfo_20(D)->err;
+rdtarga.c:403:7: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:406:5: note: not consecutive access _101 = _95->emit_message;
+rdtarga.c:406:5: note: not consecutive access _95 = cinfo_20(D)->err;
+rdtarga.c:406:5: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:406:5: note: not consecutive access _101 = _95->emit_message;
+rdtarga.c:406:5: note: not consecutive access _95 = cinfo_20(D)->err;
+rdtarga.c:406:5: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:411:8: note: not consecutive access cinfo_20(D)->in_color_space = 1;
+rdtarga.c:411:8: note: not consecutive access _104 = MEM[(struct _tga_source_struct *)sinfo_17(D)].pixel_size;
+rdtarga.c:411:8: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:412:30: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:414:7: note: not consecutive access _108 = _106->error_exit;
+rdtarga.c:414:7: note: not consecutive access _106->msg_code = 1033;
+rdtarga.c:414:7: note: not consecutive access _106 = cinfo_20(D)->err;
+rdtarga.c:414:7: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:415:5: note: not consecutive access _116 = _110->emit_message;
+rdtarga.c:415:5: note: not consecutive access _110 = cinfo_20(D)->err;
+rdtarga.c:415:5: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:415:5: note: not consecutive access _116 = _110->emit_message;
+rdtarga.c:415:5: note: not consecutive access _110 = cinfo_20(D)->err;
+rdtarga.c:415:5: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:418:5: note: not consecutive access _120 = _118->error_exit;
+rdtarga.c:418:5: note: not consecutive access _118->msg_code = 1033;
+rdtarga.c:418:5: note: not consecutive access _118 = cinfo_20(D)->err;
+rdtarga.c:418:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:422:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:424:28: note: not consecutive access _134 = _133->request_virt_sarray;
+rdtarga.c:424:28: note: not consecutive access _133 = cinfo_20(D)->mem;
+rdtarga.c:424:28: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:427:8: note: not consecutive access _140 = cinfo_20(D)->progress;
+rdtarga.c:427:8: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].whole_image = _138;
+rdtarga.c:427:8: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:429:35: note: not consecutive access _141 = MEM[(struct cdjpeg_progress_mgr *)_140].total_extra_passes;
+rdtarga.c:429:35: note: not consecutive access MEM[(struct cdjpeg_progress_mgr *)_140].total_extra_passes = _142;
+rdtarga.c:429:35: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:433:32: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].pub.get_pixel_rows = preload_image;
+rdtarga.c:433:32: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].pub.buffer_height = 1;
+rdtarga.c:433:32: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:437:27: note: not consecutive access _124 = _123->alloc_sarray;
+rdtarga.c:437:27: note: not consecutive access _123 = cinfo_20(D)->mem;
+rdtarga.c:437:27: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].whole_image = 0B;
+rdtarga.c:437:27: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:441:32: note: not consecutive access _131 = MEM[(struct _tga_source_struct *)sinfo_17(D)].get_pixel_rows;
+rdtarga.c:441:32: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].pub.get_pixel_rows = _131;
+rdtarga.c:441:32: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].pub.buffer = _128;
+rdtarga.c:441:32: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].pub.buffer_height = 1;
+rdtarga.c:441:32: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:95:5: note: not consecutive access _187 = _186->err;
+rdtarga.c:95:5: note: not consecutive access _188 = _187->error_exit;
+rdtarga.c:95:5: note: not consecutive access _187->msg_code = 43;
+rdtarga.c:95:5: note: not consecutive access _186 = MEM[(struct jpeg_compress_struct * *)sinfo_17(D) + 48B];
+rdtarga.c:95:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:444:9: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:447:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:448:8: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:448:22: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:449:7: note: not consecutive access _155 = _153->error_exit;
+rdtarga.c:449:7: note: not consecutive access _153->msg_code = 1032;
+rdtarga.c:449:7: note: not consecutive access _153 = cinfo_20(D)->err;
+rdtarga.c:449:7: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:451:25: note: not consecutive access _158 = _157->alloc_sarray;
+rdtarga.c:451:25: note: not consecutive access _157 = cinfo_20(D)->mem;
+rdtarga.c:451:25: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:107:6: note: not consecutive access _162 = targaheader[7];
+rdtarga.c:107:6: note: not consecutive access MEM[(struct _tga_source_struct *)sinfo_17(D)].colormap = _160;
+rdtarga.c:107:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:108:5: note: not consecutive access _190 = _189->err;
+rdtarga.c:108:5: note: not consecutive access _191 = _190->error_exit;
+rdtarga.c:108:5: note: not consecutive access _190->msg_code = 1032;
+rdtarga.c:108:5: note: not consecutive access _189 = MEM[(struct _tga_source_struct *)sinfo_17(D)].cinfo;
+rdtarga.c:108:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:108:5: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:94:6: note: not consecutive access _193 = MEM[(JSAMPLE * *)prephitmp_342 + 16B];
+rdtarga.c:94:6: note: not consecutive access _197 = MEM[(struct FILE * *)sinfo_17(D) + 24B];
+rdtarga.c:94:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:95:5: note: not consecutive access _216 = _215->err;
+rdtarga.c:95:5: note: not consecutive access _217 = _216->error_exit;
+rdtarga.c:95:5: note: not consecutive access _216->msg_code = 43;
+rdtarga.c:95:5: note: not consecutive access _215 = MEM[(struct jpeg_compress_struct * *)sinfo_17(D) + 48B];
+rdtarga.c:95:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not consecutive access *_196 = _200;
+rdtarga.c:94:6: note: not consecutive access _202 = MEM[(JSAMPLE * *)_201 + 8B];
+rdtarga.c:94:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:95:5: note: not consecutive access _219 = _218->err;
+rdtarga.c:95:5: note: not consecutive access _220 = _219->error_exit;
+rdtarga.c:95:5: note: not consecutive access _219->msg_code = 43;
+rdtarga.c:95:5: note: not consecutive access _218 = MEM[(struct jpeg_compress_struct * *)sinfo_17(D) + 48B];
+rdtarga.c:95:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not consecutive access *_203 = _206;
+rdtarga.c:94:6: note: not consecutive access _208 = *_207;
+rdtarga.c:94:6: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:94:6: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:95:5: note: not consecutive access _222 = _221->err;
+rdtarga.c:95:5: note: not consecutive access _223 = _222->error_exit;
+rdtarga.c:95:5: note: not consecutive access _222->msg_code = 43;
+rdtarga.c:95:5: note: not consecutive access _221 = MEM[(struct jpeg_compress_struct * *)sinfo_17(D) + 48B];
+rdtarga.c:95:5: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:110:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:110:3: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:456:8: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:457:7: note: not consecutive access _168 = _166->error_exit;
+rdtarga.c:457:7: note: not consecutive access _166->msg_code = 1033;
+rdtarga.c:457:7: note: not consecutive access _166 = cinfo_20(D)->err;
+rdtarga.c:457:7: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:458:22: note: not vectorized: not enough data-refs in basic block.
+rdtarga.c:465:1: note: not consecutive access cinfo_20(D)->input_components = components_3;
+rdtarga.c:465:1: note: not consecutive access cinfo_20(D)->data_precision = 8;
+rdtarga.c:465:1: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:465:1: note: not consecutive access cinfo_20(D)->input_components = components_3;
+rdtarga.c:465:1: note: not consecutive access cinfo_20(D)->data_precision = 8;
+rdtarga.c:465:1: note: Build SLP failed: unrolling required in basic block SLP
+rdtarga.c:489:10: note: not consecutive access _4 = _3->alloc_small;
+rdtarga.c:489:10: note: not consecutive access _3 = cinfo_2(D)->mem;
+rdtarga.c:489:10: note: not vectorized: no grouped stores in basic block.
+rdtarga.c:497:10: note: not consecutive access source_6->pub.start_input = start_input_tga;
+rdtarga.c:497:10: note: not consecutive access source_6->pub.finish_input = finish_input_tga;
+rdtarga.c:497:10: note: not consecutive access source_6->cinfo = cinfo_2(D);
+rdtarga.c:497:10: note: not vectorized: no grouped stores in basic block.

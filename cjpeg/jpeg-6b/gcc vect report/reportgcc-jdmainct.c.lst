@@ -1,0 +1,432 @@
+jdmainct.c:353:6: note: not consecutive access _6 = main_5->buffer_full;
+jdmainct.c:353:6: note: not consecutive access main_5 = cinfo_4(D)->main;
+jdmainct.c:353:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:353:6: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:354:12: note: not consecutive access _8 = _7->decompress_data;
+jdmainct.c:354:12: note: not consecutive access _7 = cinfo_4(D)->coef;
+jdmainct.c:354:12: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:354:8: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:356:23: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:367:4: note: not consecutive access _16 = _15->post_process_data;
+jdmainct.c:367:4: note: not consecutive access _15 = cinfo_4(D)->post;
+jdmainct.c:367:4: note: not consecutive access _13 = cinfo_4(D)->min_DCT_scaled_size;
+jdmainct.c:367:4: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:372:6: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:374:24: note: not consecutive access main_5->buffer_full = 0;
+jdmainct.c:374:24: note: not consecutive access main_5->rowgroup_ctr = 0;
+jdmainct.c:374:24: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:374:24: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:249:3: note: not vectorized: control flow in loop.
+jdmainct.c:249:3: note: bad loop form.
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_128
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_136
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_137
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_136
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_147
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_150
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_137 and *_136
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_137 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_137 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_147
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_150
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_147 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_147 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_144 and *_150
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_144 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_150 and *_149
+jdmainct.c:255:5: note: number of versioning for alias run-time tests exceeds 10 (--param vect-max-version-for-alias-checks)
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_128
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_136
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_134 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_137
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_136
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_147
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_150
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_128 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_137 and *_136
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_137 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_137 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_147
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_150
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_136 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_147 and *_144
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_147 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_144 and *_150
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_144 and *_149
+jdmainct.c:255:5: note: versioning for alias required: can't determine dependence between *_150 and *_149
+jdmainct.c:255:5: note: number of versioning for alias run-time tests exceeds 10 (--param vect-max-version-for-alias-checks)
+jdmainct.c:277:3: note: not vectorized: control flow in loop.
+jdmainct.c:277:3: note: bad loop form.
+jdmainct.c:295:5: note: versioning for alias required: can't determine dependence between *_330 and *_96
+jdmainct.c:295:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:295:5: note: virtual phi. skip.
+jdmainct.c:295:5: note: not ssa-name.
+jdmainct.c:295:5: note: use not simple.
+jdmainct.c:295:5: note: not ssa-name.
+jdmainct.c:295:5: note: use not simple.
+jdmainct.c:295:5: note: virtual phi. skip.
+jdmainct.c:295:5: note: loop vectorized
+jdmainct.c:295:5: note: loop versioned for vectorization because of possible aliasing
+jdmainct.c:295:5: note: loop peeled for vectorization to enhance alignment
+jdmainct.c:295:5: note: virtual phi. skip.
+jdmainct.c:392:6: note: not consecutive access _10 = main_9->buffer_full;
+jdmainct.c:392:6: note: not consecutive access main_9 = cinfo_8(D)->main;
+jdmainct.c:392:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:393:12: note: not consecutive access _12 = _11->decompress_data;
+jdmainct.c:393:12: note: not consecutive access _13 = main_9->whichptr;
+jdmainct.c:393:12: note: not consecutive access _14 = main_9->xbuffer[_13];
+jdmainct.c:393:12: note: not consecutive access _11 = cinfo_8(D)->coef;
+jdmainct.c:393:12: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:393:8: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:397:23: note: not consecutive access _18 = main_9->iMCU_row_ctr;
+jdmainct.c:397:23: note: not consecutive access main_9->buffer_full = 1;
+jdmainct.c:397:23: note: not consecutive access main_9->iMCU_row_ctr = _19;
+jdmainct.c:397:23: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:405:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:405:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:405:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:408:6: note: not consecutive access _23 = _22->post_process_data;
+jdmainct.c:408:6: note: not consecutive access _26 = main_9->whichptr;
+jdmainct.c:408:6: note: not consecutive access _24 = main_9->rowgroups_avail;
+jdmainct.c:408:6: note: not consecutive access _27 = main_9->xbuffer[_26];
+jdmainct.c:408:6: note: not consecutive access _22 = cinfo_8(D)->post;
+jdmainct.c:408:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:411:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:414:8: note: not consecutive access main_9->context_state = 0;
+jdmainct.c:414:8: note: not consecutive access _35 = *out_row_ctr_29(D);
+jdmainct.c:414:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:424:8: note: not consecutive access _41 = main_9->iMCU_row_ctr;
+jdmainct.c:424:8: note: not consecutive access main_9->rowgroup_ctr = 0;
+jdmainct.c:424:8: note: not consecutive access main_9->rowgroups_avail = _39;
+jdmainct.c:424:8: note: not consecutive access _37 = cinfo_8(D)->min_DCT_scaled_size;
+jdmainct.c:424:8: note: not consecutive access _42 = cinfo_8(D)->total_iMCU_rows;
+jdmainct.c:424:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:277:3: note: not consecutive access _180 = cinfo_8(D)->num_components;
+jdmainct.c:277:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:277:3: note: not consecutive access pretmp_309 = main_68->whichptr;
+jdmainct.c:277:3: note: not consecutive access pretmp_311 = main_68->xbuffer[pretmp_309];
+jdmainct.c:277:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:284:8: note: not consecutive access _76 = compptr_181->downsampled_height;
+jdmainct.c:284:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:288:8: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:289:29: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:295:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:277:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:277:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:277:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:296:27: note: not consecutive access *_211 = _210;
+jdmainct.c:296:27: note: not consecutive access _210 = *_330;
+jdmainct.c:296:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:296:27: note: not consecutive access _199 = *_330;
+jdmainct.c:296:27: note: not consecutive access *_200 = _199;
+jdmainct.c:296:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:296:27: note: not consecutive access _287 = *_330;
+jdmainct.c:296:27: note: not consecutive access *_288 = _287;
+jdmainct.c:296:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:296:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:296:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:296:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:296:27: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp.25_220] = vect_cst__225;
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:296:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:295:34: note: not consecutive access *_258 = _257;
+jdmainct.c:295:34: note: not consecutive access _257 = *_330;
+jdmainct.c:295:34: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:295:34: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:295:5: note: not consecutive access *_169 = _279;
+jdmainct.c:295:5: note: not consecutive access _279 = *_330;
+jdmainct.c:295:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:295:5: note: not consecutive access *_95 = _96;
+jdmainct.c:295:5: note: not consecutive access _96 = *_330;
+jdmainct.c:295:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:295:5: note: not consecutive access _322 = *_330;
+jdmainct.c:295:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:295:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:426:25: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:430:6: note: not consecutive access _46 = _45->post_process_data;
+jdmainct.c:430:6: note: not consecutive access _49 = main_9->whichptr;
+jdmainct.c:430:6: note: not consecutive access _50 = main_9->xbuffer[_49];
+jdmainct.c:430:6: note: not consecutive access _45 = cinfo_8(D)->post;
+jdmainct.c:430:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:433:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:436:8: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:436:8: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:249:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:249:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:249:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:255:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:249:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:249:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:255:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:445:25: note: not consecutive access _56 = main_9->whichptr;
+jdmainct.c:445:25: note: not consecutive access main_9->buffer_full = 0;
+jdmainct.c:445:25: note: not consecutive access main_9->rowgroup_ctr = _62;
+jdmainct.c:445:25: note: not consecutive access main_9->rowgroups_avail = _65;
+jdmainct.c:445:25: note: Build SLP failed: unrolling required in basic block SLP
+jdmainct.c:445:25: note: not consecutive access _56 = main_9->whichptr;
+jdmainct.c:445:25: note: not consecutive access main_9->buffer_full = 0;
+jdmainct.c:445:25: note: not consecutive access main_9->rowgroup_ctr = _62;
+jdmainct.c:445:25: note: not consecutive access main_9->rowgroups_avail = _65;
+jdmainct.c:445:25: note: Build SLP failed: unrolling required in basic block SLP
+jdmainct.c:385:1: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:463:4: note: not consecutive access _4 = _3->post_process_data;
+jdmainct.c:463:4: note: not consecutive access _3 = cinfo_2(D)->post;
+jdmainct.c:463:4: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:466:1: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:209:3: note: not vectorized: multiple nested loops.
+jdmainct.c:209:3: note: bad loop form.
+jdmainct.c:230:5: note: versioning for alias required: can't determine dependence between *xbuf0_32 and *_69
+jdmainct.c:230:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:230:5: note: virtual phi. skip.
+jdmainct.c:230:5: note: not ssa-name.
+jdmainct.c:230:5: note: use not simple.
+jdmainct.c:230:5: note: not ssa-name.
+jdmainct.c:230:5: note: use not simple.
+jdmainct.c:230:5: note: virtual phi. skip.
+jdmainct.c:230:5: note: loop vectorized
+jdmainct.c:230:5: note: loop versioned for vectorization because of possible aliasing
+jdmainct.c:230:5: note: loop peeled for vectorization to enhance alignment
+jdmainct.c:230:5: note: virtual phi. skip.
+jdmainct.c:221:5: note: versioning for alias required: can't determine dependence between *_58 and *_53
+jdmainct.c:221:5: note: versioning for alias required: can't determine dependence between *_58 and *_60
+jdmainct.c:221:5: note: versioning for alias required: can't determine dependence between *_53 and *_61
+jdmainct.c:221:5: note: versioning for alias required: can't determine dependence between *_53 and *_60
+jdmainct.c:221:5: note: versioning for alias required: can't determine dependence between *_61 and *_60
+jdmainct.c:221:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:221:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:221:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:221:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:221:5: note: virtual phi. skip.
+jdmainct.c:221:5: note: not ssa-name.
+jdmainct.c:221:5: note: use not simple.
+jdmainct.c:221:5: note: not ssa-name.
+jdmainct.c:221:5: note: use not simple.
+jdmainct.c:221:5: note: not ssa-name.
+jdmainct.c:221:5: note: use not simple.
+jdmainct.c:221:5: note: not ssa-name.
+jdmainct.c:221:5: note: use not simple.
+jdmainct.c:221:5: note: virtual phi. skip.
+jdmainct.c:221:5: note: loop vectorized
+jdmainct.c:221:5: note: loop versioned for vectorization because of possible aliasing
+jdmainct.c:221:5: note: loop peeled for vectorization to enhance alignment
+jdmainct.c:221:5: note: virtual phi. skip.
+jdmainct.c:217:5: note: versioning for alias required: can't determine dependence between *_42 and *_41
+jdmainct.c:217:5: note: versioning for alias required: can't determine dependence between *_42 and *_40
+jdmainct.c:217:5: note: versioning for alias required: can't determine dependence between *_41 and *_40
+jdmainct.c:217:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:217:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:217:5: note: Unknown misalignment, is_packed = 0
+jdmainct.c:217:5: note: virtual phi. skip.
+jdmainct.c:217:5: note: not ssa-name.
+jdmainct.c:217:5: note: use not simple.
+jdmainct.c:217:5: note: not ssa-name.
+jdmainct.c:217:5: note: use not simple.
+jdmainct.c:217:5: note: virtual phi. skip.
+jdmainct.c:217:5: note: loop vectorized
+jdmainct.c:217:5: note: loop versioned for vectorization because of possible aliasing
+jdmainct.c:217:5: note: loop peeled for vectorization to enhance alignment
+jdmainct.c:217:5: note: virtual phi. skip.
+jdmainct.c:311:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:313:8: note: not consecutive access _7 = _6->need_context_rows;
+jdmainct.c:313:8: note: not consecutive access _6 = cinfo_3(D)->upsample;
+jdmainct.c:313:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:209:3: note: not consecutive access main_4->pub.process_data = process_data_context_main;
+jdmainct.c:209:3: note: not consecutive access compptr_21 = cinfo_3(D)->comp_info;
+jdmainct.c:209:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:318:26: note: not consecutive access main_4->iMCU_row_ctr = 0;
+jdmainct.c:318:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmainct.c:318:26: note: not consecutive access main_4->iMCU_row_ctr = 0;
+jdmainct.c:318:26: note: Build SLP failed: unrolling required in basic block SLP
+jdmainct.c:318:26: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:217:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:221:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:221:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:221:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:218:16: note: not consecutive access *_571 = _574;
+jdmainct.c:218:16: note: not consecutive access *_572 = _574;
+jdmainct.c:218:16: note: not consecutive access _574 = *_573;
+jdmainct.c:218:16: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:218:16: note: not consecutive access _587 = *_586;
+jdmainct.c:218:16: note: not consecutive access *_584 = _587;
+jdmainct.c:218:16: note: not consecutive access *_585 = _587;
+jdmainct.c:218:16: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:218:16: note: not consecutive access _425 = *_424;
+jdmainct.c:218:16: note: not consecutive access *_422 = _425;
+jdmainct.c:218:16: note: not consecutive access *_423 = _425;
+jdmainct.c:218:16: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:218:16: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:218:16: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:218:16: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:218:16: note: not vectorized: no vectype for stmt: vect__43.122_469 = MEM[(JSAMPLE * *)vectp_buf.120_467];
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:218:16: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp_xbuf1.123_472] = vect__43.122_469;
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:218:16: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp_xbuf0.125_477] = vect__43.122_469;
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:218:16: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:217:40: note: not consecutive access _450 = *_449;
+jdmainct.c:217:40: note: not consecutive access *_447 = _450;
+jdmainct.c:217:40: note: not consecutive access *_448 = _450;
+jdmainct.c:217:40: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:217:40: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:217:5: note: not consecutive access _551 = *_550;
+jdmainct.c:217:5: note: not consecutive access *_548 = _551;
+jdmainct.c:217:5: note: not consecutive access *_549 = _551;
+jdmainct.c:217:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:217:5: note: not consecutive access _562 = *_561;
+jdmainct.c:217:5: note: not consecutive access *_559 = _562;
+jdmainct.c:217:5: note: not consecutive access *_560 = _562;
+jdmainct.c:217:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:217:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:230:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:230:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:230:5: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:223:27: note: not consecutive access _521 = *_520;
+jdmainct.c:223:27: note: not consecutive access *_512 = _517;
+jdmainct.c:223:27: note: not consecutive access _517 = *_516;
+jdmainct.c:223:27: note: not consecutive access *_519 = _521;
+jdmainct.c:223:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:223:27: note: not consecutive access _540 = *_539;
+jdmainct.c:223:27: note: not consecutive access *_531 = _536;
+jdmainct.c:223:27: note: not consecutive access _536 = *_535;
+jdmainct.c:223:27: note: not consecutive access *_538 = _540;
+jdmainct.c:223:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:223:27: note: not consecutive access _308 = *_307;
+jdmainct.c:223:27: note: not consecutive access *_299 = _304;
+jdmainct.c:223:27: note: not consecutive access _304 = *_303;
+jdmainct.c:223:27: note: not consecutive access *_306 = _308;
+jdmainct.c:223:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:223:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:223:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:223:27: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:223:27: note: not vectorized: no vectype for stmt: vect__59.104_358 = MEM[(JSAMPLE * *)vectp.102_356];
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:223:27: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp.105_362] = vect__59.104_358;
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:223:27: note: not vectorized: no vectype for stmt: vect__62.109_370 = MEM[(JSAMPLE * *)vectp.107_368];
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:223:27: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp.110_374] = vect__62.109_370;
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:223:27: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:221:34: note: not consecutive access _339 = *_338;
+jdmainct.c:221:34: note: not consecutive access *_330 = _335;
+jdmainct.c:221:34: note: not consecutive access _335 = *_334;
+jdmainct.c:221:34: note: not consecutive access *_337 = _339;
+jdmainct.c:221:34: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:221:34: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:221:5: note: not consecutive access _84 = *_113;
+jdmainct.c:221:5: note: not consecutive access *_70 = _315;
+jdmainct.c:221:5: note: not consecutive access _315 = *_410;
+jdmainct.c:221:5: note: not consecutive access *_22 = _84;
+jdmainct.c:221:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:221:5: note: not consecutive access _503 = *_502;
+jdmainct.c:221:5: note: not consecutive access *_494 = _499;
+jdmainct.c:221:5: note: not consecutive access _499 = *_498;
+jdmainct.c:221:5: note: not consecutive access *_501 = _503;
+jdmainct.c:221:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:221:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:209:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:209:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:209:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:231:25: note: not consecutive access *_42 = _43;
+jdmainct.c:231:25: note: not consecutive access _43 = *xbuf0_32;
+jdmainct.c:231:25: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:231:25: note: not consecutive access *_59 = _60;
+jdmainct.c:231:25: note: not consecutive access _60 = *xbuf0_32;
+jdmainct.c:231:25: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:231:25: note: not consecutive access *_74 = _65;
+jdmainct.c:231:25: note: not consecutive access _65 = *xbuf0_32;
+jdmainct.c:231:25: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:231:25: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:231:25: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:231:25: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:231:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp.92_181] = vect_cst__177;
+ scalar_type: vector(4) long unsigned int
+jdmainct.c:231:25: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:230:30: note: not consecutive access *_90 = _47;
+jdmainct.c:230:30: note: not consecutive access _47 = *xbuf0_32;
+jdmainct.c:230:30: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:230:30: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:230:5: note: not consecutive access *_483 = _110;
+jdmainct.c:230:5: note: not consecutive access _110 = *xbuf0_32;
+jdmainct.c:230:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:230:5: note: not consecutive access *_461 = _462;
+jdmainct.c:230:5: note: not consecutive access _462 = *xbuf0_32;
+jdmainct.c:230:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:230:5: note: not consecutive access _116 = *xbuf0_32;
+jdmainct.c:230:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:321:30: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:324:24: note: not consecutive access main_4->buffer_full = 0;
+jdmainct.c:324:24: note: not consecutive access main_4->rowgroup_ctr = 0;
+jdmainct.c:324:24: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:329:28: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:333:5: note: not consecutive access _78 = _77->error_exit;
+jdmainct.c:333:5: note: not consecutive access _77->msg_code = 4;
+jdmainct.c:333:5: note: not consecutive access _77 = cinfo_3(D)->err;
+jdmainct.c:333:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:336:1: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:503:3: note: not vectorized: latch block not empty.
+jdmainct.c:503:3: note: bad loop form.
+jdmainct.c:176:3: note: not vectorized: number of iterations cannot be computed.
+jdmainct.c:176:3: note: bad loop form.
+jdmainct.c:482:8: note: not consecutive access _11 = _10->alloc_small;
+jdmainct.c:482:8: note: not consecutive access _10 = cinfo_9(D)->mem;
+jdmainct.c:482:8: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:488:6: note: not consecutive access main_13->pub.start_pass = start_pass_main;
+jdmainct.c:488:6: note: not consecutive access cinfo_9(D)->main = main_13;
+jdmainct.c:488:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:489:5: note: not consecutive access _19 = _17->error_exit;
+jdmainct.c:489:5: note: not consecutive access _17->msg_code = 4;
+jdmainct.c:489:5: note: not consecutive access _17 = cinfo_9(D)->err;
+jdmainct.c:489:5: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:494:6: note: not consecutive access _22 = _21->need_context_rows;
+jdmainct.c:494:6: note: not consecutive access _21 = cinfo_9(D)->upsample;
+jdmainct.c:494:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:495:8: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:496:7: note: not consecutive access _26 = _24->error_exit;
+jdmainct.c:496:7: note: not consecutive access _24->msg_code = 47;
+jdmainct.c:496:7: note: not consecutive access _24 = cinfo_9(D)->err;
+jdmainct.c:496:7: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:496:7: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:172:6: note: not consecutive access _54 = _53->alloc_small;
+jdmainct.c:172:6: note: not consecutive access _55 = cinfo_9(D)->num_components;
+jdmainct.c:172:6: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:176:3: note: not consecutive access compptr_64 = cinfo_9(D)->comp_info;
+jdmainct.c:176:3: note: not consecutive access _60 = cinfo_9(D)->num_components;
+jdmainct.c:176:3: note: Build SLP failed: unrolling required in basic block SLP
+jdmainct.c:176:3: note: not consecutive access compptr_64 = cinfo_9(D)->comp_info;
+jdmainct.c:176:3: note: not consecutive access _60 = cinfo_9(D)->num_components;
+jdmainct.c:176:3: note: Build SLP failed: different types
+jdmainct.c:176:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:183:10: note: not consecutive access _72 = _71->alloc_small;
+jdmainct.c:183:10: note: not consecutive access _71 = cinfo_9(D)->mem;
+jdmainct.c:183:10: note: not consecutive access _69 = cinfo_9(D)->min_DCT_scaled_size;
+jdmainct.c:183:10: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:176:3: note: not consecutive access *_86 = xbuf_81;
+jdmainct.c:176:3: note: not consecutive access *_91 = xbuf_89;
+jdmainct.c:176:3: note: not consecutive access _94 = cinfo_9(D)->num_components;
+jdmainct.c:176:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:176:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:498:13: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:500:13: note: not consecutive access pretmp_184 = cinfo_9(D)->comp_info;
+jdmainct.c:500:13: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:503:3: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:512:1: note: not vectorized: not enough data-refs in basic block.
+jdmainct.c:507:25: note: not consecutive access _40 = _39->alloc_sarray;
+jdmainct.c:507:25: note: not consecutive access _34 = compptr_106->v_samp_factor;
+jdmainct.c:507:25: note: not consecutive access _43 = compptr_106->width_in_blocks;
+jdmainct.c:507:25: note: not consecutive access _35 = compptr_106->DCT_scaled_size;
+jdmainct.c:507:25: note: not consecutive access _39 = cinfo_9(D)->mem;
+jdmainct.c:507:25: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:503:3: note: not consecutive access _33 = cinfo_9(D)->num_components;
+jdmainct.c:503:3: note: not vectorized: no grouped stores in basic block.
+jdmainct.c:503:3: note: not vectorized: not enough data-refs in basic block.

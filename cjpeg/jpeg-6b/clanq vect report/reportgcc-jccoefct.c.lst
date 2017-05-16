@@ -1,0 +1,45 @@
+jccoefct.c:423:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jccoefct.c:423:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:185:8: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+              for (bi = blockcnt; bi < compptr->MCU_width; bi++) {
+              ^
+jccoefct.c:185:8: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:193:6: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+            for (bi = 0; bi < compptr->MCU_width; bi++) {
+            ^
+jccoefct.c:193:6: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:185:8: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+              for (bi = blockcnt; bi < compptr->MCU_width; bi++) {
+              ^
+jccoefct.c:185:8: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:193:6: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+            for (bi = 0; bi < compptr->MCU_width; bi++) {
+            ^
+jccoefct.c:193:6: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:304:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (block_row = block_rows; block_row < compptr->v_samp_factor;
+      ^
+jccoefct.c:304:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:312:4: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+          for (bi = 0; bi < h_samp_factor; bi++) {
+          ^
+jccoefct.c:312:4: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jccoefct.c:291:2: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (bi = 0; bi < ndummy; bi++) {
+        ^
+jccoefct.c:291:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jccoefct.c:282:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      (*cinfo->fdct->forward_DCT) (cinfo, compptr,
+      ^
+jccoefct.c:280:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (block_row = 0; block_row < block_rows; block_row++) {
+    ^
+jccoefct.c:355:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jccoefct.c:355:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:375:4: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+          for (xindex = 0; xindex < compptr->MCU_width; xindex++) {
+          ^

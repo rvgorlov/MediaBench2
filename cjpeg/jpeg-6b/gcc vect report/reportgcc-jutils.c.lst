@@ -1,0 +1,11 @@
+jutils.c:76:23: note: not vectorized: not enough data-refs in basic block.
+jutils.c:86:12: note: not vectorized: not enough data-refs in basic block.
+jutils.c:131:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jutils.c:131:3: note: not vectorized: not enough data-refs in basic block.
+jutils.c:141:1: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: no grouped stores in basic block.
+jutils.c:131:3: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jutils.c:161:1: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jutils.c:179:1: note: not vectorized: not enough data-refs in basic block.

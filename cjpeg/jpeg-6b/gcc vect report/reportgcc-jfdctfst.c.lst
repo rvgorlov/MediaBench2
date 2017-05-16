@@ -1,0 +1,217 @@
+
+
+
+
+
+
+
+
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: virtual phi. skip.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: op not supported by target.
+jfdctfst.c:176:3: note: not vectorized: relevant stmt not supported: tmp0_80 = _78 + _79;
+jfdctfst.c:176:3: note: bad operation or unsupported loop bound.
+
+
+
+
+
+
+
+
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: Unknown misalignment, is_packed = 0
+jfdctfst.c:176:3: note: virtual phi. skip.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: not ssa-name.
+jfdctfst.c:176:3: note: use not simple.
+jfdctfst.c:176:3: note: op not supported by target.
+jfdctfst.c:176:3: note: not vectorized: relevant stmt not supported: _105 = _104 >> 8;
+jfdctfst.c:176:3: note: bad operation or unsupported loop bound.
+
+
+
+
+
+
+
+
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _70 = z13_67 - z2_56;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _33 = tmp10_27 - tmp11_29;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _42 = tmp13_28 - z1_39;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _74 = z11_66 - z4_61;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: vector alignment may not be reachable
+jfdctfst.c:126:3: note: virtual phi. skip.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: no array mode for V8SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: no array mode for V8SI[8]
+jfdctfst.c:126:3: note: op not supported by target.
+jfdctfst.c:126:3: note: not vectorized: relevant stmt not supported: tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: bad operation or unsupported loop bound.
+
+
+
+
+
+
+
+
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt z5_51 = (DCTELEM) _50;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt tmp7_14 = _9 - _10;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt z5_51 = (DCTELEM) _50;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt tmp7_14 = _9 - _10;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: vector alignment may not be reachable
+jfdctfst.c:126:3: note: virtual phi. skip.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: not ssa-name.
+jfdctfst.c:126:3: note: use not simple.
+jfdctfst.c:126:3: note: Data access with gaps requires scalar epilogue loop
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: no array mode for V4SI[8]
+jfdctfst.c:126:3: note: op not supported by target.
+jfdctfst.c:126:3: note: not vectorized: relevant stmt not supported: _38 = _37 >> 8;
+jfdctfst.c:126:3: note: bad operation or unsupported loop bound.
+jfdctfst.c:114:1: note: not vectorized: not enough data-refs in basic block.
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _70 = z13_67 - z2_56;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _33 = tmp10_27 - tmp11_29;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _42 = tmp13_28 - z1_39;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt _74 = z11_66 - z4_61;
+jfdctfst.c:126:3: note: original stmt _31 = tmp10_27 + tmp11_29;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt z5_51 = (DCTELEM) _50;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt tmp7_14 = _9 - _10;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt z5_51 = (DCTELEM) _50;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:126:3: note: Build SLP failed: different operation in stmt tmp7_14 = _9 - _10;
+jfdctfst.c:126:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctfst.c:176:3: note: not vectorized: no grouped stores in basic block.
+jfdctfst.c:222:1: note: not vectorized: not enough data-refs in basic block.

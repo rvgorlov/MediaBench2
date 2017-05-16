@@ -1,0 +1,39 @@
+wrjpgcom.c:457:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (;;) {
+        ^
+wrjpgcom.c:457:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:392:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  while ((ca = *arg++) != '\0') {
+  ^
+wrjpgcom.c:392:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:392:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:546:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while ((c = getc(src_file)) != EOF) {
+    ^
+wrjpgcom.c:546:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (;;) {
+  ^
+wrjpgcom.c:299:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:96:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  c = NEXTBYTE();
+      ^
+wrjpgcom.c:96:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:194:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (c != 0xFF) {
+  ^
+wrjpgcom.c:194:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:124:3: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+  PUTBYTE(c);
+  ^
+wrjpgcom.c:569:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    while (comment_length > 0) {
+    ^
+wrjpgcom.c:146:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while ((c = NEXTBYTE()) != EOF)
+  ^
+wrjpgcom.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

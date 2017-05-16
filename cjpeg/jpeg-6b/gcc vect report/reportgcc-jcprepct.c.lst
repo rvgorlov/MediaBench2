@@ -1,0 +1,261 @@
+jcprepct.c:82:6: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:83:5: note: not consecutive access _8 = _6->error_exit;
+jcprepct.c:83:5: note: not consecutive access _6->msg_code = 4;
+jcprepct.c:83:5: note: not consecutive access _6 = cinfo_3(D)->err;
+jcprepct.c:83:5: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:97:1: note: not consecutive access prep_4->rows_to_go = _10;
+jcprepct.c:97:1: note: not consecutive access _10 = cinfo_3(D)->image_height;
+jcprepct.c:97:1: note: not consecutive access _14 = cinfo_3(D)->max_v_samp_factor;
+jcprepct.c:97:1: note: Build SLP failed: unrolling required in basic block SLP
+jcprepct.c:97:1: note: not consecutive access prep_4->rows_to_go = _10;
+jcprepct.c:97:1: note: not consecutive access _10 = cinfo_3(D)->image_height;
+jcprepct.c:97:1: note: not consecutive access _14 = cinfo_3(D)->max_v_samp_factor;
+jcprepct.c:97:1: note: Build SLP failed: unrolling required in basic block SLP
+jcprepct.c:174:7: note: not vectorized: control flow in loop.
+jcprepct.c:174:7: note: bad loop form.
+jcprepct.c:111:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jcprepct.c:139:10: note: not vectorized: multiple nested loops.
+jcprepct.c:139:10: note: bad loop form.
+jcprepct.c:155:7: note: not vectorized: control flow in loop.
+jcprepct.c:155:7: note: bad loop form.
+jcprepct.c:111:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jcprepct.c:134:15: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:145:6: note: not consecutive access _28 = _27->color_convert;
+jcprepct.c:145:6: note: not consecutive access _22 = prep_12->next_buf_row;
+jcprepct.c:145:6: note: not consecutive access _27 = cinfo_11(D)->cconvert;
+jcprepct.c:145:6: note: not consecutive access _21 = cinfo_11(D)->max_v_samp_factor;
+jcprepct.c:145:6: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:153:8: note: not consecutive access _43 = prep_12->rows_to_go;
+jcprepct.c:153:8: note: not consecutive access _40 = prep_12->next_buf_row;
+jcprepct.c:153:8: note: not consecutive access prep_12->rows_to_go = _44;
+jcprepct.c:153:8: note: not consecutive access prep_12->next_buf_row = _41;
+jcprepct.c:153:8: note: not consecutive access _37 = *in_row_ctr_13(D);
+jcprepct.c:153:8: note: not consecutive access *in_row_ctr_13(D) = _38;
+jcprepct.c:153:8: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:153:31: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:155:7: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not consecutive access _50 = cinfo_11(D)->image_width;
+jcprepct.c:111:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:112:5: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:155:7: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:155:7: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:159:26: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:163:8: note: not consecutive access _58 = _57->downsample;
+jcprepct.c:163:8: note: not consecutive access _57 = cinfo_11(D)->downsample;
+jcprepct.c:163:8: note: not consecutive access _59 = *out_row_group_ctr_16(D);
+jcprepct.c:163:8: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:172:8: note: not consecutive access _66 = prep_12->rows_to_go;
+jcprepct.c:172:8: note: not consecutive access prep_12->next_buf_row = 0;
+jcprepct.c:172:8: note: not consecutive access _63 = *out_row_group_ctr_16(D);
+jcprepct.c:172:8: note: not consecutive access *out_row_group_ctr_16(D) = _64;
+jcprepct.c:172:8: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:172:31: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:174:7: note: not consecutive access compptr_68 = cinfo_11(D)->comp_info;
+jcprepct.c:174:7: note: not consecutive access _107 = cinfo_11(D)->num_components;
+jcprepct.c:174:7: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:181:26: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not consecutive access _70 = compptr_103->v_samp_factor;
+jcprepct.c:111:3: note: not consecutive access _77 = compptr_103->width_in_blocks;
+jcprepct.c:111:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:112:5: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:174:7: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:174:7: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:139:9: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:139:38: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:185:1: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:162:8: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:162:8: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:162:8: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:195:1: note: not vectorized: multiple nested loops.
+jcprepct.c:195:1: note: bad loop form.
+jcprepct.c:236:2: note: not vectorized: control flow in loop.
+jcprepct.c:236:2: note: bad loop form.
+jcprepct.c:111:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jcprepct.c:206:9: note: not vectorized: multiple nested loops.
+jcprepct.c:206:9: note: bad loop form.
+jcprepct.c:218:2: note: not vectorized: control flow in loop.
+jcprepct.c:218:2: note: bad loop form.
+jcprepct.c:220:4: note: not vectorized: number of iterations cannot be computed.
+jcprepct.c:220:4: note: bad loop form.
+jcprepct.c:203:7: note: not consecutive access prep_14 = cinfo_13(D)->prep;
+jcprepct.c:203:7: note: not consecutive access _15 = cinfo_13(D)->max_v_samp_factor;
+jcprepct.c:203:7: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:207:8: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:212:8: note: not consecutive access _32 = _31->color_convert;
+jcprepct.c:212:8: note: not consecutive access _31 = cinfo_13(D)->cconvert;
+jcprepct.c:212:8: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:217:10: note: not consecutive access _41 = prep_14->rows_to_go;
+jcprepct.c:217:10: note: not consecutive access _42 = cinfo_13(D)->image_height;
+jcprepct.c:217:10: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:218:2: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:218:2: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:221:6: note: not consecutive access _47 = prep_14->color_buf[ci_114];
+jcprepct.c:221:6: note: not consecutive access _45 = cinfo_13(D)->image_width;
+jcprepct.c:221:6: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:220:4: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:220:4: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:218:2: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:220:4: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:229:24: note: not consecutive access _58 = prep_14->rows_to_go;
+jcprepct.c:229:24: note: not consecutive access prep_14->rows_to_go = _59;
+jcprepct.c:229:24: note: not consecutive access prep_14->next_buf_row = _56;
+jcprepct.c:229:24: note: not consecutive access _52 = *in_row_ctr_20(D);
+jcprepct.c:229:24: note: not consecutive access *in_row_ctr_20(D) = _53;
+jcprepct.c:229:24: note: not consecutive access pretmp_152 = *out_row_group_ctr_17(D);
+jcprepct.c:229:24: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:232:10: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:235:10: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:236:2: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not consecutive access _91 = cinfo_13(D)->image_width;
+jcprepct.c:111:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:112:5: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:111:3: note: not consecutive access pretmp_165 = prep_14->next_buf_stop;
+jcprepct.c:111:3: note: not consecutive access pretmp_163 = cinfo_13(D)->num_components;
+jcprepct.c:111:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:236:2: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:236:2: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:240:21: note: not consecutive access prep_14->next_buf_row = prephitmp_167;
+jcprepct.c:240:21: note: not consecutive access pretmp_178 = *out_row_group_ctr_17(D);
+jcprepct.c:240:21: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:244:8: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:245:8: note: not consecutive access _64 = _63->downsample;
+jcprepct.c:245:8: note: not consecutive access _66 = prep_14->this_row_group;
+jcprepct.c:245:8: note: not consecutive access _63 = cinfo_13(D)->downsample;
+jcprepct.c:245:8: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:252:10: note: not consecutive access _74 = prep_14->this_row_group;
+jcprepct.c:252:10: note: not consecutive access _75 = cinfo_13(D)->max_v_samp_factor;
+jcprepct.c:252:10: note: not consecutive access _71 = *out_row_group_ctr_17(D);
+jcprepct.c:252:10: note: not consecutive access *out_row_group_ctr_17(D) = _72;
+jcprepct.c:252:10: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:251:28: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:253:23: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:254:10: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:255:21: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:256:27: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:256:27: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:206:9: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:259:1: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:283:3: note: not vectorized: control flow in loop.
+jcprepct.c:283:3: note: bad loop form.
+jcprepct.c:298:5: note: versioning for alias required: can't determine dependence between *_87 and *_82
+jcprepct.c:298:5: note: versioning for alias required: can't determine dependence between *_87 and *_93
+jcprepct.c:298:5: note: versioning for alias required: can't determine dependence between *_82 and *_94
+jcprepct.c:298:5: note: versioning for alias required: can't determine dependence between *_82 and *_93
+jcprepct.c:298:5: note: versioning for alias required: can't determine dependence between *_94 and *_93
+jcprepct.c:298:5: note: Unknown misalignment, is_packed = 0
+jcprepct.c:298:5: note: Unknown misalignment, is_packed = 0
+jcprepct.c:298:5: note: Unknown misalignment, is_packed = 0
+jcprepct.c:298:5: note: Unknown misalignment, is_packed = 0
+jcprepct.c:298:5: note: virtual phi. skip.
+jcprepct.c:298:5: note: not ssa-name.
+jcprepct.c:298:5: note: use not simple.
+jcprepct.c:298:5: note: not ssa-name.
+jcprepct.c:298:5: note: use not simple.
+jcprepct.c:298:5: note: not ssa-name.
+jcprepct.c:298:5: note: use not simple.
+jcprepct.c:298:5: note: not ssa-name.
+jcprepct.c:298:5: note: use not simple.
+jcprepct.c:298:5: note: virtual phi. skip.
+jcprepct.c:298:5: note: loop vectorized
+jcprepct.c:298:5: note: loop versioned for vectorization because of possible aliasing
+jcprepct.c:298:5: note: loop peeled for vectorization to enhance alignment
+jcprepct.c:298:5: note: virtual phi. skip.
+jcprepct.c:345:5: note: not vectorized: number of iterations cannot be computed.
+jcprepct.c:345:5: note: bad loop form.
+jcprepct.c:321:6: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:322:5: note: not consecutive access _11 = _9->error_exit;
+jcprepct.c:322:5: note: not consecutive access _9->msg_code = 4;
+jcprepct.c:322:5: note: not consecutive access _9 = cinfo_8(D)->err;
+jcprepct.c:322:5: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:324:8: note: not consecutive access _14 = _13->alloc_small;
+jcprepct.c:324:8: note: not consecutive access _13 = cinfo_8(D)->mem;
+jcprepct.c:324:8: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:334:6: note: not consecutive access _20 = _19->need_context_rows;
+jcprepct.c:334:6: note: not consecutive access prep_16->pub.start_pass = start_pass_prep;
+jcprepct.c:334:6: note: not consecutive access _19 = cinfo_8(D)->downsample;
+jcprepct.c:334:6: note: not consecutive access cinfo_8(D)->prep = prep_16;
+jcprepct.c:334:6: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:278:15: note: not consecutive access _48 = _47->alloc_small;
+jcprepct.c:278:15: note: not consecutive access prep_16->pub.pre_process_data = pre_process_context;
+jcprepct.c:278:15: note: not consecutive access _47 = cinfo_8(D)->mem;
+jcprepct.c:278:15: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:283:3: note: not consecutive access compptr_55 = cinfo_8(D)->comp_info;
+jcprepct.c:283:3: note: not consecutive access _118 = cinfo_8(D)->num_components;
+jcprepct.c:283:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:354:1: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:354:1: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:289:17: note: not consecutive access _57 = _56->alloc_sarray;
+jcprepct.c:289:17: note: not consecutive access _67 = compptr_116->h_samp_factor;
+jcprepct.c:289:17: note: not consecutive access _61 = compptr_116->width_in_blocks;
+jcprepct.c:289:17: note: not consecutive access _56 = cinfo_8(D)->mem;
+jcprepct.c:289:17: note: not consecutive access _64 = cinfo_8(D)->max_h_samp_factor;
+jcprepct.c:289:17: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:298:5: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:283:3: note: not consecutive access _104 = cinfo_8(D)->num_components;
+jcprepct.c:283:3: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:283:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:283:3: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:300:42: note: not consecutive access _315 = *_314;
+jcprepct.c:300:42: note: not consecutive access *_320 = _322;
+jcprepct.c:300:42: note: not consecutive access *_310 = _315;
+jcprepct.c:300:42: note: not consecutive access _322 = *_321;
+jcprepct.c:300:42: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:300:42: note: not consecutive access _336 = *_335;
+jcprepct.c:300:42: note: not consecutive access *_341 = _343;
+jcprepct.c:300:42: note: not consecutive access _343 = *_342;
+jcprepct.c:300:42: note: not consecutive access *_331 = _336;
+jcprepct.c:300:42: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:300:42: note: not consecutive access _211 = *_210;
+jcprepct.c:300:42: note: not consecutive access *_216 = _218;
+jcprepct.c:300:42: note: not consecutive access _218 = *_217;
+jcprepct.c:300:42: note: not consecutive access *_206 = _211;
+jcprepct.c:300:42: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:300:42: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:300:42: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:300:42: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:300:42: note: not vectorized: no vectype for stmt: vect__88.105_270 = MEM[(JSAMPLE * *)vectp.103_268];
+ scalar_type: vector(4) long unsigned int
+jcprepct.c:300:42: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp_fake_buffer.106_273] = vect__88.105_270;
+ scalar_type: vector(4) long unsigned int
+jcprepct.c:300:42: note: not vectorized: no vectype for stmt: vect__95.110_280 = MEM[(JSAMPLE * *)vectp_true_buffer.108_278];
+ scalar_type: vector(4) long unsigned int
+jcprepct.c:300:42: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE * *)vectp.111_284] = vect__95.110_280;
+ scalar_type: vector(4) long unsigned int
+jcprepct.c:300:42: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:298:37: note: not consecutive access _244 = *_243;
+jcprepct.c:298:37: note: not consecutive access *_249 = _251;
+jcprepct.c:298:37: note: not consecutive access _251 = *_250;
+jcprepct.c:298:37: note: not consecutive access *_239 = _244;
+jcprepct.c:298:37: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:298:37: note: not vectorized: not enough data-refs in basic block.
+jcprepct.c:298:5: note: not consecutive access _82 = *_81;
+jcprepct.c:298:5: note: not consecutive access *_88 = _91;
+jcprepct.c:298:5: note: not consecutive access _91 = *_90;
+jcprepct.c:298:5: note: not consecutive access *_126 = _82;
+jcprepct.c:298:5: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:298:5: note: not consecutive access _295 = *_294;
+jcprepct.c:298:5: note: not consecutive access *_300 = _302;
+jcprepct.c:298:5: note: not consecutive access _302 = *_301;
+jcprepct.c:298:5: note: not consecutive access *_89 = _295;
+jcprepct.c:298:5: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:298:5: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:345:5: note: not consecutive access prep_16->pub.pre_process_data = pre_process_data;
+jcprepct.c:345:5: note: not consecutive access compptr_24 = cinfo_8(D)->comp_info;
+jcprepct.c:345:5: note: not consecutive access _121 = cinfo_8(D)->num_components;
+jcprepct.c:345:5: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:347:30: note: not consecutive access _27 = _26->alloc_sarray;
+jcprepct.c:347:30: note: not consecutive access _36 = compptr_117->h_samp_factor;
+jcprepct.c:347:30: note: not consecutive access _30 = compptr_117->width_in_blocks;
+jcprepct.c:347:30: note: not consecutive access _26 = cinfo_8(D)->mem;
+jcprepct.c:347:30: note: not vectorized: no grouped stores in basic block.
+jcprepct.c:345:5: note: not consecutive access _25 = cinfo_8(D)->num_components;
+jcprepct.c:345:5: note: not vectorized: no grouped stores in basic block.

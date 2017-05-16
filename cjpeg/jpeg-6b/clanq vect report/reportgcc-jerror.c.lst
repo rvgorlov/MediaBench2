@@ -1,0 +1,4 @@
+jerror.c:184:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while ((ch = *msgptr++) != '\0') {
+  ^
+jerror.c:184:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

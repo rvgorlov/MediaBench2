@@ -1,0 +1,190 @@
+rdcolmap.c:158:41: note: not vectorized: control flow in loop.
+rdcolmap.c:158:41: note: bad loop form.
+rdcolmap.c:131:5: note: not vectorized: number of iterations cannot be computed.
+rdcolmap.c:131:5: note: bad loop form.
+rdcolmap.c:152:50: note: not vectorized: control flow in loop.
+rdcolmap.c:152:50: note: bad loop form.
+rdcolmap.c:131:5: note: not vectorized: number of iterations cannot be computed.
+rdcolmap.c:131:5: note: bad loop form.
+rdcolmap.c:127:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:128:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:131:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:150:8: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:151:7: note: not consecutive access _14 = _11->error_exit;
+rdcolmap.c:151:7: note: not consecutive access _11->msg_code = 1038;
+rdcolmap.c:151:7: note: not consecutive access _11 = cinfo_10(D)->err;
+rdcolmap.c:151:7: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:152:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:152:50: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:154:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:155:5: note: not consecutive access _26 = _24->error_exit;
+rdcolmap.c:155:5: note: not consecutive access _24->msg_code = 1038;
+rdcolmap.c:155:5: note: not consecutive access _24 = cinfo_10(D)->err;
+rdcolmap.c:155:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:157:7: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:160:9: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:127:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:128:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:131:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:158:41: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:162:10: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:103:3: note: not vectorized: control flow in loop.
+rdcolmap.c:103:3: note: bad loop form.
+rdcolmap.c:56:9: note: not vectorized: control flow in loop.
+rdcolmap.c:56:9: note: bad loop form.
+rdcolmap.c:87:3: note: not vectorized: control flow in loop.
+rdcolmap.c:87:3: note: bad loop form.
+rdcolmap.c:194:5: note: not vectorized: multiple nested loops.
+rdcolmap.c:194:5: note: bad loop form.
+rdcolmap.c:195:7: note: not vectorized: control flow in loop.
+rdcolmap.c:195:7: note: bad loop form.
+rdcolmap.c:56:9: note: not vectorized: control flow in loop.
+rdcolmap.c:56:9: note: bad loop form.
+rdcolmap.c:205:5: note: not vectorized: multiple nested loops.
+rdcolmap.c:205:5: note: bad loop form.
+rdcolmap.c:206:7: note: not vectorized: control flow in loop.
+rdcolmap.c:206:7: note: bad loop form.
+rdcolmap.c:56:9: note: not vectorized: control flow in loop.
+rdcolmap.c:56:9: note: bad loop form.
+rdcolmap.c:234:22: note: not consecutive access _5 = _4->alloc_sarray;
+rdcolmap.c:234:22: note: not consecutive access _4 = cinfo_3(D)->mem;
+rdcolmap.c:234:22: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:240:11: note: not consecutive access cinfo_3(D)->colormap = _7;
+rdcolmap.c:240:11: note: not consecutive access cinfo_3(D)->actual_number_of_colors = 0;
+rdcolmap.c:240:11: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:240:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:240:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:88:22: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:88:8: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:89:7: note: not consecutive access _22 = _21->error_exit;
+rdcolmap.c:89:7: note: not consecutive access _21->msg_code = 1038;
+rdcolmap.c:89:7: note: not consecutive access _21 = cinfo_3(D)->err;
+rdcolmap.c:89:7: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:87:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:93:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:93:24: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:94:5: note: not consecutive access _27 = _26->error_exit;
+rdcolmap.c:94:5: note: not consecutive access _26->msg_code = 1038;
+rdcolmap.c:94:5: note: not consecutive access _26 = cinfo_3(D)->err;
+rdcolmap.c:94:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:97:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:98:5: note: not consecutive access _31 = _30->error_exit;
+rdcolmap.c:98:5: note: not consecutive access _30->msg_code = 1038;
+rdcolmap.c:98:5: note: not consecutive access _30 = cinfo_3(D)->err;
+rdcolmap.c:98:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:101:15: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:104:7: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:105:7: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:106:7: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:107:30: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:108:7: note: not consecutive access _41 = _40->error_exit;
+rdcolmap.c:108:7: note: not consecutive access _40->msg_code = 1038;
+rdcolmap.c:108:7: note: not consecutive access _40 = cinfo_3(D)->err;
+rdcolmap.c:108:7: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:55:3: note: not consecutive access _44 = cinfo_3(D)->colormap;
+rdcolmap.c:55:3: note: not consecutive access ncolors_48 = cinfo_3(D)->actual_number_of_colors;
+rdcolmap.c:55:3: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:56:8: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:56:43: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:57:36: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:55:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:63:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:64:5: note: not consecutive access _62 = _61->error_exit;
+rdcolmap.c:64:5: note: not consecutive access _61 = cinfo_3(D)->err;
+rdcolmap.c:64:5: note: Build SLP failed: unrolling required in basic block SLP
+rdcolmap.c:64:5: note: not consecutive access _62 = _61->error_exit;
+rdcolmap.c:64:5: note: not consecutive access _61 = cinfo_3(D)->err;
+rdcolmap.c:64:5: note: Build SLP failed: unrolling required in basic block SLP
+rdcolmap.c:70:33: note: not consecutive access *_64 = _65;
+rdcolmap.c:70:33: note: not consecutive access *_66 = _67;
+rdcolmap.c:70:33: note: not consecutive access *_68 = _69;
+rdcolmap.c:70:33: note: not consecutive access _70 = cinfo_3(D)->actual_number_of_colors;
+rdcolmap.c:70:33: note: not consecutive access cinfo_3(D)->actual_number_of_colors = _71;
+rdcolmap.c:70:33: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:103:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:231:1: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:178:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:181:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:182:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:183:10: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:185:24: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:186:5: note: not consecutive access _80 = _79->error_exit;
+rdcolmap.c:186:5: note: not consecutive access _79->msg_code = 1038;
+rdcolmap.c:186:5: note: not consecutive access _79 = cinfo_3(D)->err;
+rdcolmap.c:186:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:189:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:190:5: note: not consecutive access _82 = _81->error_exit;
+rdcolmap.c:190:5: note: not consecutive access _81->msg_code = 1038;
+rdcolmap.c:190:5: note: not consecutive access _81 = cinfo_3(D)->err;
+rdcolmap.c:190:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:192:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:205:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:205:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:194:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:194:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:196:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:197:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:198:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:55:3: note: not consecutive access _111 = cinfo_3(D)->colormap;
+rdcolmap.c:55:3: note: not consecutive access ncolors_115 = cinfo_3(D)->actual_number_of_colors;
+rdcolmap.c:55:3: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:56:8: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:56:43: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:57:36: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:55:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:63:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:64:5: note: not consecutive access _129 = _128->error_exit;
+rdcolmap.c:64:5: note: not consecutive access _128 = cinfo_3(D)->err;
+rdcolmap.c:64:5: note: Build SLP failed: unrolling required in basic block SLP
+rdcolmap.c:64:5: note: not consecutive access _129 = _128->error_exit;
+rdcolmap.c:64:5: note: not consecutive access _128 = cinfo_3(D)->err;
+rdcolmap.c:64:5: note: Build SLP failed: unrolling required in basic block SLP
+rdcolmap.c:70:33: note: not consecutive access *_131 = _132;
+rdcolmap.c:70:33: note: not consecutive access *_133 = _134;
+rdcolmap.c:70:33: note: not consecutive access *_135 = _136;
+rdcolmap.c:70:33: note: not consecutive access _137 = cinfo_3(D)->actual_number_of_colors;
+rdcolmap.c:70:33: note: not consecutive access cinfo_3(D)->actual_number_of_colors = _138;
+rdcolmap.c:70:33: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:195:7: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:194:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:194:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:207:4: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:208:4: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:209:4: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:210:27: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:211:4: note: not consecutive access _100 = _99->error_exit;
+rdcolmap.c:211:4: note: not consecutive access _99->msg_code = 1038;
+rdcolmap.c:211:4: note: not consecutive access _99 = cinfo_3(D)->err;
+rdcolmap.c:211:4: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:55:3: note: not consecutive access _139 = cinfo_3(D)->colormap;
+rdcolmap.c:55:3: note: not consecutive access ncolors_143 = cinfo_3(D)->actual_number_of_colors;
+rdcolmap.c:55:3: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:56:8: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:56:43: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:57:36: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:55:3: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:63:6: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:64:5: note: not consecutive access _157 = _156->error_exit;
+rdcolmap.c:64:5: note: not consecutive access _156 = cinfo_3(D)->err;
+rdcolmap.c:64:5: note: Build SLP failed: unrolling required in basic block SLP
+rdcolmap.c:64:5: note: not consecutive access _157 = _156->error_exit;
+rdcolmap.c:64:5: note: not consecutive access _156 = cinfo_3(D)->err;
+rdcolmap.c:64:5: note: Build SLP failed: unrolling required in basic block SLP
+rdcolmap.c:70:33: note: not consecutive access *_159 = _160;
+rdcolmap.c:70:33: note: not consecutive access *_161 = _162;
+rdcolmap.c:70:33: note: not consecutive access *_163 = _164;
+rdcolmap.c:70:33: note: not consecutive access _165 = cinfo_3(D)->actual_number_of_colors;
+rdcolmap.c:70:33: note: not consecutive access cinfo_3(D)->actual_number_of_colors = _166;
+rdcolmap.c:70:33: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:206:7: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:205:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:205:5: note: not vectorized: not enough data-refs in basic block.
+rdcolmap.c:218:5: note: not consecutive access _106 = _105->error_exit;
+rdcolmap.c:218:5: note: not consecutive access _105->msg_code = 1038;
+rdcolmap.c:218:5: note: not consecutive access _105 = cinfo_3(D)->err;
+rdcolmap.c:218:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:248:5: note: not consecutive access _17 = _15->error_exit;
+rdcolmap.c:248:5: note: not consecutive access _15->msg_code = 1038;
+rdcolmap.c:248:5: note: not consecutive access _15 = cinfo_3(D)->err;
+rdcolmap.c:248:5: note: not vectorized: no grouped stores in basic block.
+rdcolmap.c:251:1: note: not vectorized: not enough data-refs in basic block.

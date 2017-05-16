@@ -1,0 +1,16 @@
+jdmaster.c:131:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmaster.c:131:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdmaster.c:134:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (ssize < DCTSIZE &&
+    ^
+jdmaster.c:134:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmaster.c:147:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmaster.c:147:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmaster.c:262:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i <= MAXJSAMPLE; i++)
+  ^
+jdmaster.c:262:3: remark: vectorized loop (vectorization width: 16, interleaved count: 1) [-Rpass=loop-vectorize]

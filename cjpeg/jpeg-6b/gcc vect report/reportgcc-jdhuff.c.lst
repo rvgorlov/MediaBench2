@@ -1,0 +1,844 @@
+jdhuff.c:240:3: note: not vectorized: multiple nested loops.
+jdhuff.c:240:3: note: bad loop form.
+jdhuff.c:241:5: note: not vectorized: control flow in loop.
+jdhuff.c:241:5: note: bad loop form.
+jdhuff.c:245:7: note: Unknown alignment for access: prephitmp_139->look_nbits[lookbits_192]
+jdhuff.c:245:7: note: Unknown misalignment, is_packed = 0
+jdhuff.c:245:7: note: virtual phi. skip.
+jdhuff.c:245:7: note: virtual phi. skip.
+jdhuff.c:245:7: note: loop vectorized
+jdhuff.c:245:7: note: loop peeled for vectorization to enhance alignment
+jdhuff.c:245:7: note: virtual phi. skip.
+jdhuff.c:216:3: note: not vectorized: control flow in loop.
+jdhuff.c:216:3: note: bad loop form.
+jdhuff.c:199:9: note: not vectorized: control flow in loop.
+jdhuff.c:199:9: note: bad loop form.
+jdhuff.c:200:11: note: not vectorized: number of iterations cannot be computed.
+jdhuff.c:200:11: note: bad loop form.
+jdhuff.c:183:3: note: not vectorized: control flow in loop.
+jdhuff.c:183:3: note: bad loop form.
+jdhuff.c:165:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:166:5: note: not consecutive access _5 = _4->error_exit;
+jdhuff.c:166:5: note: not consecutive access _4 = cinfo_3(D)->err;
+jdhuff.c:166:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:166:5: note: not consecutive access _5 = _4->error_exit;
+jdhuff.c:166:5: note: not consecutive access _4 = cinfo_3(D)->err;
+jdhuff.c:166:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:169:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:170:5: note: not consecutive access _10 = _9->error_exit;
+jdhuff.c:170:5: note: not consecutive access _9 = cinfo_3(D)->err;
+jdhuff.c:170:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:170:5: note: not consecutive access _10 = _9->error_exit;
+jdhuff.c:170:5: note: not consecutive access _9 = cinfo_3(D)->err;
+jdhuff.c:170:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:173:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:175:8: note: not consecutive access _14 = _13->alloc_small;
+jdhuff.c:175:8: note: not consecutive access _13 = cinfo_3(D)->mem;
+jdhuff.c:175:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:174:12: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:178:13: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:185:15: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:186:7: note: not consecutive access _23 = _22->error_exit;
+jdhuff.c:186:7: note: not consecutive access _22->msg_code = 8;
+jdhuff.c:186:7: note: not consecutive access _22 = cinfo_3(D)->err;
+jdhuff.c:186:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:187:11: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:188:21: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:188:21: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:183:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:199:9: note: not consecutive access _30 = huffsize[0];
+jdhuff.c:199:9: note: not consecutive access huffsize[p_170] = 0;
+jdhuff.c:199:9: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:200:11: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:207:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:208:7: note: not consecutive access _42 = _41->error_exit;
+jdhuff.c:208:7: note: not consecutive access _41->msg_code = 8;
+jdhuff.c:208:7: note: not consecutive access _41 = cinfo_3(D)->err;
+jdhuff.c:208:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:199:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:200:11: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:217:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:223:34: note: not consecutive access _425 = huffcode[0];
+jdhuff.c:223:34: note: not consecutive access _432 = huffcode[_431];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[1] = _427;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _444 = iftmp.1_7->bits[l_438];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[1] = cstore_436;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _453 = huffcode[_452];
+jdhuff.c:223:34: note: not consecutive access _446 = huffcode[p_434];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_438] = _448;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _465 = iftmp.1_7->bits[l_459];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_438] = cstore_457;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _474 = huffcode[_473];
+jdhuff.c:223:34: note: not consecutive access _467 = huffcode[p_455];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_459] = _469;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _486 = iftmp.1_7->bits[l_480];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_459] = cstore_478;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _495 = huffcode[_494];
+jdhuff.c:223:34: note: not consecutive access _488 = huffcode[p_476];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_480] = _490;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _507 = iftmp.1_7->bits[l_501];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_480] = cstore_499;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _516 = huffcode[_515];
+jdhuff.c:223:34: note: not consecutive access _509 = huffcode[p_497];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_501] = _511;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _528 = iftmp.1_7->bits[l_522];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_501] = cstore_520;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _537 = huffcode[_536];
+jdhuff.c:223:34: note: not consecutive access _530 = huffcode[p_518];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_522] = _532;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _549 = iftmp.1_7->bits[l_543];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_522] = cstore_541;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _558 = huffcode[_557];
+jdhuff.c:223:34: note: not consecutive access _551 = huffcode[p_539];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_543] = _553;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _570 = iftmp.1_7->bits[l_564];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_543] = cstore_562;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _579 = huffcode[_578];
+jdhuff.c:223:34: note: not consecutive access _572 = huffcode[p_560];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_564] = _574;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _591 = iftmp.1_7->bits[l_585];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_564] = cstore_583;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _600 = huffcode[_599];
+jdhuff.c:223:34: note: not consecutive access _593 = huffcode[p_581];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_585] = _595;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _612 = iftmp.1_7->bits[l_606];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_585] = cstore_604;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _621 = huffcode[_620];
+jdhuff.c:223:34: note: not consecutive access _614 = huffcode[p_602];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_606] = _616;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _633 = iftmp.1_7->bits[l_627];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_606] = cstore_625;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _642 = huffcode[_641];
+jdhuff.c:223:34: note: not consecutive access _635 = huffcode[p_623];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_627] = _637;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _654 = iftmp.1_7->bits[l_648];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_627] = cstore_646;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _663 = huffcode[_662];
+jdhuff.c:223:34: note: not consecutive access _656 = huffcode[p_644];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_648] = _658;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _675 = iftmp.1_7->bits[l_669];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_648] = cstore_667;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _684 = huffcode[_683];
+jdhuff.c:223:34: note: not consecutive access _677 = huffcode[p_665];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_669] = _679;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _696 = iftmp.1_7->bits[l_690];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_669] = cstore_688;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _705 = huffcode[_704];
+jdhuff.c:223:34: note: not consecutive access _698 = huffcode[p_686];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_690] = _700;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _717 = iftmp.1_7->bits[l_711];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_690] = cstore_709;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _726 = huffcode[_725];
+jdhuff.c:223:34: note: not consecutive access _719 = huffcode[p_707];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_711] = _721;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _48 = iftmp.1_7->bits[l_732];
+jdhuff.c:217:8: note: not consecutive access prephitmp_139->maxcode[l_711] = cstore_730;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _57 = huffcode[_56];
+jdhuff.c:223:34: note: not consecutive access _51 = huffcode[p_728];
+jdhuff.c:223:34: note: not consecutive access prephitmp_139->valoffset[l_732] = _53;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: Build SLP failed: different operation in stmt prephitmp_139->maxcode[17] = 1048575;
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: original stmt prephitmp_139->maxcode[l_732] = cstore_64;
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:244:16: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:244:16: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.31_221] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_264] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_270] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_276] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_282] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_288] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_294] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_300] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_306] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_312] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_318] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_324] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_330] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_336] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_342] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.30_226] = vect_cst__220;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:247:27: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:240:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:266:1: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:260:5: note: not vectorized: control flow in loop.
+jdhuff.c:260:5: note: bad loop form.
+jdhuff.c:240:3: note: not vectorized: multiple nested loops.
+jdhuff.c:240:3: note: bad loop form.
+jdhuff.c:241:5: note: not vectorized: control flow in loop.
+jdhuff.c:241:5: note: bad loop form.
+jdhuff.c:245:7: note: Unknown alignment for access: prephitmp_182->look_nbits[lookbits_191]
+jdhuff.c:245:7: note: Unknown misalignment, is_packed = 0
+jdhuff.c:245:7: note: virtual phi. skip.
+jdhuff.c:245:7: note: virtual phi. skip.
+jdhuff.c:245:7: note: loop vectorized
+jdhuff.c:245:7: note: loop peeled for vectorization to enhance alignment
+jdhuff.c:245:7: note: virtual phi. skip.
+jdhuff.c:216:3: note: not vectorized: control flow in loop.
+jdhuff.c:216:3: note: bad loop form.
+jdhuff.c:199:9: note: not vectorized: control flow in loop.
+jdhuff.c:199:9: note: bad loop form.
+jdhuff.c:200:11: note: not vectorized: number of iterations cannot be computed.
+jdhuff.c:200:11: note: bad loop form.
+jdhuff.c:183:3: note: not vectorized: control flow in loop.
+jdhuff.c:183:3: note: bad loop form.
+jdhuff.c:165:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:166:5: note: not consecutive access _45 = _41->error_exit;
+jdhuff.c:166:5: note: not consecutive access _41 = cinfo_40(D)->err;
+jdhuff.c:166:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:166:5: note: not consecutive access _45 = _41->error_exit;
+jdhuff.c:166:5: note: not consecutive access _41 = cinfo_40(D)->err;
+jdhuff.c:166:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:168:43: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:168:43: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:168:43: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:169:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:170:5: note: not consecutive access _56 = _51->error_exit;
+jdhuff.c:170:5: note: not consecutive access _51 = cinfo_40(D)->err;
+jdhuff.c:170:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:170:5: note: not consecutive access _56 = _51->error_exit;
+jdhuff.c:170:5: note: not consecutive access _51 = cinfo_40(D)->err;
+jdhuff.c:170:5: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:173:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:175:8: note: not consecutive access _61 = _60->alloc_small;
+jdhuff.c:175:8: note: not consecutive access _60 = cinfo_40(D)->mem;
+jdhuff.c:175:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:174:12: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:178:13: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:185:15: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:186:7: note: not consecutive access _73 = _71->error_exit;
+jdhuff.c:186:7: note: not consecutive access _71->msg_code = 8;
+jdhuff.c:186:7: note: not consecutive access _71 = cinfo_40(D)->err;
+jdhuff.c:186:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:187:11: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:188:21: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:188:21: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:183:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:199:9: note: not consecutive access _83 = huffsize[0];
+jdhuff.c:199:9: note: not consecutive access huffsize[p_187] = 0;
+jdhuff.c:199:9: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:200:11: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:207:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:208:7: note: not consecutive access _96 = _93->error_exit;
+jdhuff.c:208:7: note: not consecutive access _93->msg_code = 8;
+jdhuff.c:208:7: note: not consecutive access _93 = cinfo_40(D)->err;
+jdhuff.c:208:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:199:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:200:11: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:217:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:223:34: note: not consecutive access _438 = huffcode[0];
+jdhuff.c:223:34: note: not consecutive access _445 = huffcode[_444];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[1] = _440;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _457 = iftmp.1_20->bits[l_451];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[1] = cstore_449;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _466 = huffcode[_465];
+jdhuff.c:223:34: note: not consecutive access _459 = huffcode[p_447];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_451] = _461;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _478 = iftmp.1_20->bits[l_472];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_451] = cstore_470;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _487 = huffcode[_486];
+jdhuff.c:223:34: note: not consecutive access _480 = huffcode[p_468];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_472] = _482;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _499 = iftmp.1_20->bits[l_493];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_472] = cstore_491;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _508 = huffcode[_507];
+jdhuff.c:223:34: note: not consecutive access _501 = huffcode[p_489];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_493] = _503;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _520 = iftmp.1_20->bits[l_514];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_493] = cstore_512;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _529 = huffcode[_528];
+jdhuff.c:223:34: note: not consecutive access _522 = huffcode[p_510];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_514] = _524;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _541 = iftmp.1_20->bits[l_535];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_514] = cstore_533;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _550 = huffcode[_549];
+jdhuff.c:223:34: note: not consecutive access _543 = huffcode[p_531];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_535] = _545;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _562 = iftmp.1_20->bits[l_556];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_535] = cstore_554;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _571 = huffcode[_570];
+jdhuff.c:223:34: note: not consecutive access _564 = huffcode[p_552];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_556] = _566;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _583 = iftmp.1_20->bits[l_577];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_556] = cstore_575;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _592 = huffcode[_591];
+jdhuff.c:223:34: note: not consecutive access _585 = huffcode[p_573];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_577] = _587;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _604 = iftmp.1_20->bits[l_598];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_577] = cstore_596;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _613 = huffcode[_612];
+jdhuff.c:223:34: note: not consecutive access _606 = huffcode[p_594];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_598] = _608;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _625 = iftmp.1_20->bits[l_619];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_598] = cstore_617;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _634 = huffcode[_633];
+jdhuff.c:223:34: note: not consecutive access _627 = huffcode[p_615];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_619] = _629;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _646 = iftmp.1_20->bits[l_640];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_619] = cstore_638;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _655 = huffcode[_654];
+jdhuff.c:223:34: note: not consecutive access _648 = huffcode[p_636];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_640] = _650;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _667 = iftmp.1_20->bits[l_661];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_640] = cstore_659;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _676 = huffcode[_675];
+jdhuff.c:223:34: note: not consecutive access _669 = huffcode[p_657];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_661] = _671;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _688 = iftmp.1_20->bits[l_682];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_661] = cstore_680;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _697 = huffcode[_696];
+jdhuff.c:223:34: note: not consecutive access _690 = huffcode[p_678];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_682] = _692;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _709 = iftmp.1_20->bits[l_703];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_682] = cstore_701;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _718 = huffcode[_717];
+jdhuff.c:223:34: note: not consecutive access _711 = huffcode[p_699];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_703] = _713;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _730 = iftmp.1_20->bits[l_724];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_703] = cstore_722;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _739 = huffcode[_738];
+jdhuff.c:223:34: note: not consecutive access _732 = huffcode[p_720];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_724] = _734;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:217:8: note: not consecutive access _100 = iftmp.1_20->bits[l_745];
+jdhuff.c:217:8: note: not consecutive access prephitmp_182->maxcode[l_724] = cstore_743;
+jdhuff.c:217:8: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:223:34: note: not consecutive access _110 = huffcode[_109];
+jdhuff.c:223:34: note: not consecutive access _102 = huffcode[p_741];
+jdhuff.c:223:34: note: not consecutive access prephitmp_182->valoffset[l_745] = _104;
+jdhuff.c:223:34: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: Build SLP failed: different operation in stmt prephitmp_182->maxcode[17] = 1048575;
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: original stmt prephitmp_182->maxcode[l_745] = cstore_17;
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:244:16: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:244:16: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.89_235] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_277] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_283] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_289] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_295] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_301] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_307] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_313] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_319] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_325] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_331] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_337] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_343] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_349] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_355] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:246:29: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_prephitmp.88_240] = vect_cst__234;
+ scalar_type: vector(8) int
+jdhuff.c:246:29: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:55: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:245:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:247:27: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:240:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:241:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:259:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:266:1: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:260:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:262:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:263:2: note: not consecutive access _136 = _133->error_exit;
+jdhuff.c:263:2: note: not consecutive access _133->msg_code = 8;
+jdhuff.c:263:2: note: not consecutive access _133 = cinfo_40(D)->err;
+jdhuff.c:263:2: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:260:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:115:3: note: not vectorized: not suitable for gather load compptr_30 = cinfo_8(D)->cur_comp_info[ci_29];
+
+jdhuff.c:115:3: note: bad data references.
+jdhuff.c:100:3: note: not vectorized: number of iterations cannot be computed.
+jdhuff.c:100:3: note: bad loop form.
+jdhuff.c:96:6: note: not consecutive access entropy_9 = cinfo_8(D)->entropy;
+jdhuff.c:96:6: note: not consecutive access _10 = cinfo_8(D)->Ss;
+jdhuff.c:96:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:96:49: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:97:22: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:98:5: note: not consecutive access _16 = _14->emit_message;
+jdhuff.c:98:5: note: not consecutive access _14->msg_code = 122;
+jdhuff.c:98:5: note: not consecutive access _14 = cinfo_8(D)->err;
+jdhuff.c:98:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:100:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:115:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:106:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:108:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:100:3: note: not consecutive access _18 = cinfo_8(D)->comps_in_scan;
+jdhuff.c:100:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:138:1: note: not consecutive access entropy_9->bitstate.get_buffer = 0;
+jdhuff.c:138:1: note: not consecutive access entropy_9->pub.insufficient_data = 0;
+jdhuff.c:138:1: note: not consecutive access entropy_9->bitstate.bits_left = 0;
+jdhuff.c:138:1: note: not consecutive access entropy_9->restarts_to_go = _50;
+jdhuff.c:138:1: note: not consecutive access _50 = cinfo_8(D)->restart_interval;
+jdhuff.c:138:1: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _92 = entropy_9->ac_derived_tbls[_94];
+jdhuff.c:115:3: note: not consecutive access _96 = entropy_9->dc_derived_tbls[_97];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_58] = _96;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_58] = _92;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_58] = cstore_86;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_58] = cstore_85;
+jdhuff.c:115:3: note: not consecutive access compptr_99 = cinfo_8(D)->cur_comp_info[ci_100];
+jdhuff.c:115:3: note: not consecutive access ci_100 = cinfo_8(D)->MCU_membership[blkn_58];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _73 = entropy_9->ac_derived_tbls[_74];
+jdhuff.c:115:3: note: not consecutive access _76 = entropy_9->dc_derived_tbls[_77];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_81] = _76;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_81] = _73;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_81] = cstore_67;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_81] = cstore_66;
+jdhuff.c:115:3: note: not consecutive access compptr_78 = cinfo_8(D)->cur_comp_info[ci_79];
+jdhuff.c:115:3: note: not consecutive access ci_79 = cinfo_8(D)->MCU_membership[blkn_81];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _98 = entropy_9->dc_derived_tbls[_1];
+jdhuff.c:115:3: note: not consecutive access _104 = entropy_9->ac_derived_tbls[_103];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_55] = _98;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_55] = _104;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_55] = cstore_110;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_55] = cstore_111;
+jdhuff.c:115:3: note: not consecutive access compptr_3 = cinfo_8(D)->cur_comp_info[ci_4];
+jdhuff.c:115:3: note: not consecutive access ci_4 = cinfo_8(D)->MCU_membership[blkn_55];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _120 = entropy_9->dc_derived_tbls[_119];
+jdhuff.c:115:3: note: not consecutive access _123 = entropy_9->ac_derived_tbls[_122];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_115] = _120;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_115] = _123;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_115] = cstore_129;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_115] = cstore_130;
+jdhuff.c:115:3: note: not consecutive access compptr_118 = cinfo_8(D)->cur_comp_info[ci_117];
+jdhuff.c:115:3: note: not consecutive access ci_117 = cinfo_8(D)->MCU_membership[blkn_115];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _139 = entropy_9->dc_derived_tbls[_138];
+jdhuff.c:115:3: note: not consecutive access _142 = entropy_9->ac_derived_tbls[_141];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_134] = _139;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_134] = _142;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_134] = cstore_148;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_134] = cstore_149;
+jdhuff.c:115:3: note: not consecutive access compptr_137 = cinfo_8(D)->cur_comp_info[ci_136];
+jdhuff.c:115:3: note: not consecutive access ci_136 = cinfo_8(D)->MCU_membership[blkn_134];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _158 = entropy_9->dc_derived_tbls[_157];
+jdhuff.c:115:3: note: not consecutive access _161 = entropy_9->ac_derived_tbls[_160];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_153] = _158;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_153] = _161;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_153] = cstore_167;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_153] = cstore_168;
+jdhuff.c:115:3: note: not consecutive access compptr_156 = cinfo_8(D)->cur_comp_info[ci_155];
+jdhuff.c:115:3: note: not consecutive access ci_155 = cinfo_8(D)->MCU_membership[blkn_153];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _177 = entropy_9->dc_derived_tbls[_176];
+jdhuff.c:115:3: note: not consecutive access _180 = entropy_9->ac_derived_tbls[_179];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_172] = _177;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_172] = _180;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_172] = cstore_186;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_172] = cstore_187;
+jdhuff.c:115:3: note: not consecutive access compptr_175 = cinfo_8(D)->cur_comp_info[ci_174];
+jdhuff.c:115:3: note: not consecutive access ci_174 = cinfo_8(D)->MCU_membership[blkn_172];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _196 = entropy_9->dc_derived_tbls[_195];
+jdhuff.c:115:3: note: not consecutive access _199 = entropy_9->ac_derived_tbls[_198];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_191] = _196;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_191] = _199;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_191] = cstore_205;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_191] = cstore_206;
+jdhuff.c:115:3: note: not consecutive access compptr_194 = cinfo_8(D)->cur_comp_info[ci_193];
+jdhuff.c:115:3: note: not consecutive access ci_193 = cinfo_8(D)->MCU_membership[blkn_191];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:3: note: not consecutive access _215 = entropy_9->dc_derived_tbls[_214];
+jdhuff.c:115:3: note: not consecutive access _218 = entropy_9->ac_derived_tbls[_217];
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_cur_tbls[blkn_210] = _215;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_cur_tbls[blkn_210] = _218;
+jdhuff.c:115:3: note: not consecutive access entropy_9->dc_needed[blkn_210] = cstore_224;
+jdhuff.c:115:3: note: not consecutive access entropy_9->ac_needed[blkn_210] = cstore_225;
+jdhuff.c:115:3: note: not consecutive access compptr_213 = cinfo_8(D)->cur_comp_info[ci_212];
+jdhuff.c:115:3: note: not consecutive access ci_212 = cinfo_8(D)->MCU_membership[blkn_210];
+jdhuff.c:115:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:115:51: note: not consecutive access _32 = entropy_9->dc_derived_tbls[_31];
+jdhuff.c:115:51: note: not consecutive access _35 = entropy_9->ac_derived_tbls[_34];
+jdhuff.c:115:51: note: not consecutive access entropy_9->dc_cur_tbls[blkn_53] = _32;
+jdhuff.c:115:51: note: not consecutive access entropy_9->ac_cur_tbls[blkn_53] = _35;
+jdhuff.c:115:51: note: not consecutive access entropy_9->dc_needed[blkn_53] = cstore_44;
+jdhuff.c:115:51: note: not consecutive access entropy_9->ac_needed[blkn_53] = cstore_61;
+jdhuff.c:115:51: note: not consecutive access compptr_30 = cinfo_8(D)->cur_comp_info[ci_29];
+jdhuff.c:115:51: note: not consecutive access ci_29 = cinfo_8(D)->MCU_membership[blkn_53];
+jdhuff.c:115:51: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:311:10: note: not vectorized: control flow in loop.
+jdhuff.c:311:10: note: bad loop form.
+jdhuff.c:328:7: note: not vectorized: control flow in loop.
+jdhuff.c:328:7: note: bad loop form.
+jdhuff.c:306:6: note: not consecutive access _37 = cinfo_36->unread_marker;
+jdhuff.c:306:6: note: not consecutive access next_input_byte_34 = state_33(D)->next_input_byte;
+jdhuff.c:306:6: note: not consecutive access bytes_in_buffer_35 = state_33(D)->bytes_in_buffer;
+jdhuff.c:306:6: note: not consecutive access cinfo_36 = state_33(D)->cinfo;
+jdhuff.c:306:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:307:11: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:311:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:312:9: note: not consecutive access _65 = _64->fill_input_buffer;
+jdhuff.c:312:9: note: not consecutive access _64 = cinfo_36->src;
+jdhuff.c:312:9: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:312:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:315:18: note: not consecutive access next_input_byte_69 = _68->next_input_byte;
+jdhuff.c:315:18: note: not consecutive access bytes_in_buffer_71 = _68->bytes_in_buffer;
+jdhuff.c:315:18: note: not consecutive access _68 = cinfo_36->src;
+jdhuff.c:315:18: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:321:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:328:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:329:13: note: not consecutive access _46 = _45->fill_input_buffer;
+jdhuff.c:329:13: note: not consecutive access _45 = cinfo_36->src;
+jdhuff.c:329:13: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:329:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:332:22: note: not consecutive access next_input_byte_50 = _49->next_input_byte;
+jdhuff.c:332:22: note: not consecutive access bytes_in_buffer_52 = _49->bytes_in_buffer;
+jdhuff.c:332:22: note: not consecutive access _49 = cinfo_36->src;
+jdhuff.c:332:22: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:336:2: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:338:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:350:25: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:350:25: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:307:11: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:366:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:372:10: note: not consecutive access _74 = _73->insufficient_data;
+jdhuff.c:372:10: note: not consecutive access _73 = cinfo_36->entropy;
+jdhuff.c:372:10: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:373:2: note: not consecutive access _78 = _75->emit_message;
+jdhuff.c:373:2: note: not consecutive access _75->msg_code = 117;
+jdhuff.c:373:2: note: not consecutive access _75 = cinfo_36->err;
+jdhuff.c:373:2: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:374:36: note: not consecutive access _80->insufficient_data = 1;
+jdhuff.c:374:36: note: not consecutive access _80 = cinfo_36->entropy;
+jdhuff.c:374:36: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:377:18: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:386:20: note: not consecutive access state_33(D)->next_input_byte = next_input_byte_13;
+jdhuff.c:386:20: note: not consecutive access state_33(D)->bytes_in_buffer = bytes_in_buffer_20;
+jdhuff.c:386:20: note: not consecutive access state_33(D)->get_buffer = get_buffer_3;
+jdhuff.c:386:20: note: not consecutive access state_33(D)->bits_left = bits_left_6;
+jdhuff.c:386:20: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:386:20: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:415:10: note: not vectorized: control flow in loop.
+jdhuff.c:415:10: note: bad loop form.
+jdhuff.c:408:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:408:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:408:3: note: not consecutive access get_buffer_21 = state_18(D)->get_buffer;
+jdhuff.c:408:3: note: not consecutive access bits_left_22 = state_18(D)->bits_left;
+jdhuff.c:408:3: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:414:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:416:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:416:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:416:5: note: not consecutive access get_buffer_42 = state_18(D)->get_buffer;
+jdhuff.c:416:5: note: not consecutive access bits_left_43 = state_18(D)->bits_left;
+jdhuff.c:416:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:414:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:427:6: note: not consecutive access state_18(D)->get_buffer = get_buffer_72;
+jdhuff.c:427:6: note: not consecutive access state_18(D)->bits_left = bits_left_74;
+jdhuff.c:427:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:428:5: note: not consecutive access _47 = _46->err;
+jdhuff.c:428:5: note: not consecutive access _49 = _47->emit_message;
+jdhuff.c:428:5: note: not consecutive access _47->msg_code = 118;
+jdhuff.c:428:5: note: not consecutive access _46 = state_18(D)->cinfo;
+jdhuff.c:428:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:432:28: note: not consecutive access _57 = _51->huffval[_56];
+jdhuff.c:432:28: note: not consecutive access _51 = htbl_30(D)->pub;
+jdhuff.c:432:28: note: not consecutive access _53 = htbl_30(D)->valoffset[l_63];
+jdhuff.c:432:28: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:432:28: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:543:33: note: not vectorized: multiple nested loops.
+jdhuff.c:543:33: note: bad loop form.
+jdhuff.c:572:4: note: not vectorized: control flow in loop.
+jdhuff.c:572:4: note: bad loop form.
+jdhuff.c:599:4: note: not vectorized: control flow in loop.
+jdhuff.c:599:4: note: bad loop form.
+jdhuff.c:525:6: note: not consecutive access entropy_79 = cinfo_78(D)->entropy;
+jdhuff.c:525:6: note: not consecutive access _80 = cinfo_78(D)->restart_interval;
+jdhuff.c:525:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:526:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:479:10: note: not consecutive access _228 = _222->read_restart_marker;
+jdhuff.c:479:10: note: not consecutive access _223 = _222->discarded_bytes;
+jdhuff.c:479:10: note: not consecutive access _222->discarded_bytes = _227;
+jdhuff.c:479:10: note: not consecutive access _224 = entropy_79->bitstate.bits_left;
+jdhuff.c:479:10: note: not consecutive access entropy_79->bitstate.bits_left = 0;
+jdhuff.c:479:10: note: not consecutive access _222 = cinfo_78(D)->marker;
+jdhuff.c:479:10: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:479:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:483:3: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:494:6: note: not consecutive access entropy_79->restarts_to_go = _233;
+jdhuff.c:494:6: note: not consecutive access _233 = cinfo_78(D)->restart_interval;
+jdhuff.c:494:6: note: not consecutive access _234 = cinfo_78(D)->unread_marker;
+jdhuff.c:494:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:484:36: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:495:36: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:534:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:542:5: note: not vectorized: more than one data ref in stmt: state = entropy_79->saved;
+
+jdhuff.c:542:5: note: not consecutive access br_state.next_input_byte = _87;
+jdhuff.c:542:5: note: not consecutive access br_state.bytes_in_buffer = _90;
+jdhuff.c:542:5: note: not consecutive access br_state.cinfo = cinfo_78(D);
+jdhuff.c:542:5: note: not consecutive access _87 = _86->next_input_byte;
+jdhuff.c:542:5: note: not consecutive access _90 = _86->bytes_in_buffer;
+jdhuff.c:542:5: note: not consecutive access get_buffer_92 = entropy_79->bitstate.get_buffer;
+jdhuff.c:542:5: note: not consecutive access bits_left_93 = entropy_79->bitstate.bits_left;
+jdhuff.c:542:5: note: not consecutive access _86 = cinfo_78(D)->src;
+jdhuff.c:542:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:551:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:551:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:551:7: note: not consecutive access get_buffer_205 = br_state.get_buffer;
+jdhuff.c:551:7: note: not consecutive access bits_left_206 = br_state.bits_left;
+jdhuff.c:551:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:551:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:551:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:551:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:551:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:551:7: note: not consecutive access get_buffer_115 = br_state.get_buffer;
+jdhuff.c:551:7: note: not consecutive access bits_left_116 = br_state.bits_left;
+jdhuff.c:551:7: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:552:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:553:2: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:553:2: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:553:2: note: not consecutive access get_buffer_120 = br_state.get_buffer;
+jdhuff.c:553:2: note: not consecutive access bits_left_121 = br_state.bits_left;
+jdhuff.c:553:2: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:555:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:555:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:558:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:564:14: note: not consecutive access _133 = state.last_dc_val[ci_132];
+jdhuff.c:564:14: note: not consecutive access state.last_dc_val[ci_132] = s_134;
+jdhuff.c:564:14: note: not consecutive access *block_101[0] = _136;
+jdhuff.c:564:14: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:567:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not consecutive access get_buffer_141 = br_state.get_buffer;
+jdhuff.c:572:4: note: not consecutive access bits_left_142 = br_state.bits_left;
+jdhuff.c:572:4: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:572:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:572:4: note: not consecutive access get_buffer_153 = br_state.get_buffer;
+jdhuff.c:572:4: note: not consecutive access bits_left_154 = br_state.bits_left;
+jdhuff.c:572:4: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:577:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:579:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:579:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:579:6: note: not consecutive access get_buffer_160 = br_state.get_buffer;
+jdhuff.c:579:6: note: not consecutive access bits_left_161 = br_state.bits_left;
+jdhuff.c:579:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:581:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:581:10: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:586:38: note: not consecutive access _171 = jpeg_natural_order[k_157];
+jdhuff.c:586:38: note: not consecutive access *block_101[_171] = _172;
+jdhuff.c:586:38: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:588:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:590:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:571:2: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not consecutive access get_buffer_178 = br_state.get_buffer;
+jdhuff.c:599:4: note: not consecutive access bits_left_179 = br_state.bits_left;
+jdhuff.c:599:4: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:599:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:599:4: note: not consecutive access get_buffer_190 = br_state.get_buffer;
+jdhuff.c:599:4: note: not consecutive access bits_left_191 = br_state.bits_left;
+jdhuff.c:599:4: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:604:7: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:606:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:606:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:606:6: note: not consecutive access get_buffer_197 = br_state.get_buffer;
+jdhuff.c:606:6: note: not consecutive access bits_left_198 = br_state.bits_left;
+jdhuff.c:606:6: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:607:6: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:609:9: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:611:8: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:598:2: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:542:5: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:542:5: note: not consecutive access pretmp_333 = br_state.next_input_byte;
+jdhuff.c:542:5: note: not consecutive access pretmp_335 = br_state.bytes_in_buffer;
+jdhuff.c:542:5: note: not consecutive access pretmp_331 = cinfo_78(D)->src;
+jdhuff.c:542:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:620:5: note: not vectorized: more than one data ref in stmt: entropy_79->saved = state;
+
+jdhuff.c:620:5: note: not consecutive access prephitmp_332->next_input_byte = prephitmp_334;
+jdhuff.c:620:5: note: not consecutive access prephitmp_332->bytes_in_buffer = prephitmp_336;
+jdhuff.c:620:5: note: not consecutive access entropy_79->bitstate.get_buffer = get_buffer_309;
+jdhuff.c:620:5: note: not consecutive access entropy_79->bitstate.bits_left = bits_left_304;
+jdhuff.c:620:5: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:624:26: note: not consecutive access _216 = entropy_79->restarts_to_go;
+jdhuff.c:624:26: note: not consecutive access entropy_79->restarts_to_go = _217;
+jdhuff.c:624:26: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:517:1: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:640:11: note: not consecutive access _6 = _5->alloc_small;
+jdhuff.c:640:11: note: not consecutive access _5 = cinfo_4(D)->mem;
+jdhuff.c:640:11: note: not vectorized: no grouped stores in basic block.
+jdhuff.c:649:63: note: not consecutive access cinfo_4(D)->entropy = entropy_8;
+jdhuff.c:649:63: note: Build SLP failed: unrolling required in basic block SLP
+jdhuff.c:649:63: note: not consecutive access cinfo_4(D)->entropy = entropy_8;
+jdhuff.c:649:63: note: not vectorized: vectorization is not profitable.
+jdhuff.c:649:33: note: not vectorized: not enough data-refs in basic block.
+jdhuff.c:651:1: note: not vectorized: not enough data-refs in basic block.

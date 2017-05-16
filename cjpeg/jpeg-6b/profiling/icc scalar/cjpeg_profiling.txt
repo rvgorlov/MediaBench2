@@ -1,0 +1,47 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 46.19      0.91     0.91                             forward_DCT
+ 16.75      1.24     0.33                             encode_mcu_huff
+ 14.21      1.52     0.28                             rgb_ycc_convert
+ 12.69      1.77     0.25                             jpeg_fdct_islow
+  5.58      1.88     0.11                             h2v2_downsample
+  2.03      1.92     0.04                             __read_nocancel
+  1.52      1.95     0.03                             compress_data
+  0.51      1.96     0.01                             __intel_ssse3_rep_memcpy
+  0.51      1.97     0.01                             __memmove_sse2_unaligned_erms
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

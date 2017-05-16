@@ -1,0 +1,62 @@
+jerror.c:132:6: note: not vectorized: not enough data-refs in basic block.
+jerror.c:137:8: note: not vectorized: not enough data-refs in basic block.
+jerror.c:137:32: note: not vectorized: not enough data-refs in basic block.
+jerror.c:138:8: note: not vectorized: not enough data-refs in basic block.
+jerror.c:138:8: note: not vectorized: not enough data-refs in basic block.
+jerror.c:140:22: note: not vectorized: not enough data-refs in basic block.
+jerror.c:143:8: note: not vectorized: not enough data-refs in basic block.
+jerror.c:144:8: note: not vectorized: not enough data-refs in basic block.
+jerror.c:146:1: note: not vectorized: not enough data-refs in basic block.
+jerror.c:217:1: note: not consecutive access _3->num_warnings = 0;
+jerror.c:217:1: note: not consecutive access _3->msg_code = 0;
+jerror.c:217:1: note: not consecutive access _3 = cinfo_2(D)->err;
+jerror.c:217:1: note: not vectorized: no grouped stores in basic block.
+jerror.c:184:23: note: not vectorized: control flow in loop.
+jerror.c:184:23: note: bad loop form.
+jerror.c:167:6: note: not consecutive access msg_code_10 = err_9->msg_code;
+jerror.c:167:6: note: not consecutive access err_9 = cinfo_8(D)->err;
+jerror.c:167:6: note: not vectorized: no grouped stores in basic block.
+jerror.c:167:20: note: not vectorized: not enough data-refs in basic block.
+jerror.c:168:13: note: not consecutive access msgtext_16 = *_15;
+jerror.c:168:13: note: not consecutive access _12 = err_9->jpeg_message_table;
+jerror.c:168:13: note: not vectorized: no grouped stores in basic block.
+jerror.c:169:13: note: not vectorized: not enough data-refs in basic block.
+jerror.c:169:47: note: not vectorized: not enough data-refs in basic block.
+jerror.c:170:44: note: not vectorized: not enough data-refs in basic block.
+jerror.c:172:13: note: not vectorized: not enough data-refs in basic block.
+jerror.c:176:6: note: not vectorized: not enough data-refs in basic block.
+jerror.c:178:13: note: not consecutive access msgtext_27 = *_26;
+jerror.c:178:13: note: not consecutive access _26 = err_9->jpeg_message_table;
+jerror.c:178:13: note: not consecutive access err_9->msg_parm.i[0] = msg_code_10;
+jerror.c:178:13: note: not vectorized: no grouped stores in basic block.
+jerror.c:178:13: note: not vectorized: not enough data-refs in basic block.
+jerror.c:185:8: note: not vectorized: not enough data-refs in basic block.
+jerror.c:186:10: note: not vectorized: not enough data-refs in basic block.
+jerror.c:184:9: note: not vectorized: not enough data-refs in basic block.
+jerror.c:200:1: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: not vectorized: no grouped stores in basic block.
+jerror.c:103:4: note: not consecutive access _4 = _3->format_message;
+jerror.c:103:4: note: not consecutive access _3 = cinfo_2(D)->err;
+jerror.c:103:4: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+jerror.c:113:1: note: not vectorized: not enough data-refs in basic block.
+jerror.c:73:4: note: not consecutive access _4 = _3->output_message;
+jerror.c:73:4: note: not consecutive access _3 = cinfo_2(D)->err;
+jerror.c:73:4: note: not vectorized: no grouped stores in basic block.
+jerror.c:251:10: note: not consecutive access err_2(D)->num_warnings = 0;
+jerror.c:251:10: note: not consecutive access err_2(D)->jpeg_message_table = &jpeg_std_message_table;
+jerror.c:251:10: note: not consecutive access err_2(D)->addon_message_table = 0B;
+jerror.c:251:10: note: not consecutive access err_2(D)->msg_code = 0;
+jerror.c:251:10: note: not consecutive access err_2(D)->trace_level = 0;
+jerror.c:251:10: note: not consecutive access err_2(D)->last_jpeg_message = 123;
+jerror.c:251:10: note: Build SLP failed: unrolling required in basic block SLP
+jerror.c:251:10: note: Build SLP failed: unrolling required in basic block SLP
+jerror.c:251:10: note: not consecutive access err_2(D)->num_warnings = 0;
+jerror.c:251:10: note: not consecutive access err_2(D)->jpeg_message_table = &jpeg_std_message_table;
+jerror.c:251:10: note: not consecutive access err_2(D)->addon_message_table = 0B;
+jerror.c:251:10: note: not consecutive access err_2(D)->msg_code = 0;
+jerror.c:251:10: note: not consecutive access err_2(D)->trace_level = 0;
+jerror.c:251:10: note: not consecutive access err_2(D)->last_jpeg_message = 123;
+jerror.c:251:10: note: Build SLP failed: unrolling required in basic block SLP
+jerror.c:251:10: note: Build SLP failed: unrolling required in basic block SLP

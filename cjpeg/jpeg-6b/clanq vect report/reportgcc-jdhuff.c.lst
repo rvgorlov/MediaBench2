@@ -1,0 +1,101 @@
+jdhuff.c:454:13: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+        ~~~~^
+jdhuff.c:454:28: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                       ~~~~^
+jdhuff.c:454:43: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                      ~~~~^
+jdhuff.c:454:58: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                                     ~~~~^
+jdhuff.c:455:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+     ~~~~^
+jdhuff.c:455:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                    ~~~~^
+jdhuff.c:455:40: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                   ~~~~^
+jdhuff.c:455:55: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                                  ~~~~^
+jdhuff.c:456:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+     ~~~~^
+jdhuff.c:456:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                    ~~~~^
+jdhuff.c:456:41: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                    ~~~~^
+jdhuff.c:456:57: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                                    ~~~~^
+jdhuff.c:457:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+     ~~~~^
+jdhuff.c:457:26: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                     ~~~~^
+jdhuff.c:457:42: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                                     ~~~~^
+jdhuff.c:186:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+      ^
+jdhuff.c:183:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (l = 1; l <= 16; l++) {
+  ^
+jdhuff.c:200:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (((int) huffsize[p]) == si) {
+    ^
+jdhuff.c:200:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:224:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    } else {
+    ^
+jdhuff.c:216:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (l = 1; l <= 16; l++) {
+  ^
+jdhuff.c:245:7: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+      for (ctr = 1 << (HUFF_LOOKAHEAD-l); ctr > 0; ctr--) {
+      ^
+jdhuff.c:263:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+        ^
+jdhuff.c:260:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < numsymbols; i++) {
+    ^
+jdhuff.c:328:24: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+          if (bytes_in_buffer == 0) {
+                              ^
+jdhuff.c:328:24: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:414:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (code > htbl->maxcode[l]) {
+  ^
+jdhuff.c:414:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:100:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jdhuff.c:100:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:126:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    } else {
+    ^
+jdhuff.c:115:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (blkn = 0; blkn < cinfo->blocks_in_MCU; blkn++) {
+  ^
+jdhuff.c:483:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdhuff.c:483:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:598:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (k = 1; k < DCTSIZE2; k++) {
+        ^
+jdhuff.c:598:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:571:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (k = 1; k < DCTSIZE2; k++) {
+        ^
+jdhuff.c:571:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+15 warnings generated.

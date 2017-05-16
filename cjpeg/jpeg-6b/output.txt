@@ -1,0 +1,2107 @@
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcapimin.o jcapimin.c
+jcapimin.c:167:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      }
+      ^
+jcapimin.c:162:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (iMCU_row = 0; iMCU_row < cinfo->total_iMCU_rows; iMCU_row++) {
+    ^
+jcapimin.c:206:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*write_marker_byte) (cinfo, *dataptr);
+    ^
+jcapimin.c:205:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (datalen--) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcapistd.o jcapistd.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jctrans.o jctrans.c
+jctrans.c:125:4: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+          ERREXIT1(dstinfo, JERR_MISMATCHED_QUANT_TABLE, tblno);
+          ^
+jctrans.c:123:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (coefi = 0; coefi < DCTSIZE2; coefi++) {
+      ^
+jctrans.c:292:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jctrans.c:292:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jctrans.c:329:4: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+          for (; xindex < compptr->MCU_width; xindex++) {
+          ^
+jctrans.c:329:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jctrans.c:317:6: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+            for (xindex = 0; xindex < blockcnt; xindex++)
+            ^
+jctrans.c:329:4: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+          for (; xindex < compptr->MCU_width; xindex++) {
+          ^
+jctrans.c:329:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcparam.o jcparam.c
+jcparam.c:48:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < DCTSIZE2; i++) {
+  ^
+jcparam.c:48:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:48:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:462:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcparam.c:462:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:462:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:462:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < ncomps; ci++) {
+  ^
+jcparam.c:496:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:517:5: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (ci = 0; ci < ncomps; ci++)
+    ^
+jcparam.c:496:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < ncomps; ci++) {
+  ^
+jcparam.c:496:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:496:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:517:5: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (ci = 0; ci < ncomps; ci++)
+    ^
+jcparam.c:496:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < ncomps; ci++) {
+  ^
+jcparam.c:496:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcparam.c:517:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < ncomps; ci++)
+    ^
+jcparam.c:517:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdatadst.o jdatadst.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcinit.o jcinit.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcmaster.o jcmaster.c
+jcmaster.c:86:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_SAMPLING);
+      ^
+jcmaster.c:82:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcmaster.c:97:14: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    compptr->component_index = ci;
+             ^
+jcmaster.c:97:14: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmaster.c:236:4: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+          ERREXIT1(cinfo, JERR_BAD_SCAN_SCRIPT, scanno);
+          ^
+jcmaster.c:233:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (ci = 0; ci < ncomps; ci++) {
+      ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:218:8: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:222:8: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:218:8: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+              ERREXIT1(cinfo, JERR_BAD_PROG_SCRIPT, scanno);
+              ^
+jcmaster.c:214:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (coefi = Ss; coefi <= Se; coefi++) {
+        ^
+jcmaster.c:175:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (thisi < 0 || thisi >= cinfo->num_components)
+          ^
+jcmaster.c:173:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0; ci < ncomps; ci++) {
+    ^
+jcmaster.c:252:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_MISSING_DATA);
+        ^
+jcmaster.c:250:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcmaster.c:258:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_MISSING_DATA);
+        ^
+jcmaster.c:256:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcmaster.c:279:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < scanptr->comps_in_scan; ci++) {
+    ^
+jcmaster.c:279:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmaster.c:296:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < cinfo->num_components; ci++) {
+    ^
+jcmaster.c:296:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmaster.c:376:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      while (mcublks-- > 0) {
+      ^
+jcmaster.c:376:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcmarker.o jcmarker.c
+jcmarker.c:504:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcmarker.c:504:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmarker.c:520:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (compptr->dc_tbl_no > 1 || compptr->ac_tbl_no > 1)
+          ^
+jcmarker.c:518:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jcmarker.c:571:6: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        if (cinfo->Ss == 0) {
+            ^
+jcmarker.c:567:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < cinfo->comps_in_scan; i++) {
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:320:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i < cinfo->comps_in_scan; i++) {
+  ^
+jcmarker.c:156:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < DCTSIZE2; i++) {
+  ^
+jcmarker.c:156:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:168:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < DCTSIZE2; i++) {
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:168:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < DCTSIZE2; i++) {
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:298:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:210:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 1; i <= 16; i++)
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:213:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < length; i++)
+    ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcmainct.o jcmainct.c
+jcmainct.c:285:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jcmainct.c:285:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmainct.c:119:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (main->cur_iMCU_row < cinfo->total_iMCU_rows) {
+  ^
+jcmainct.c:119:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcprepct.o jcprepct.c
+jcprepct.c:283:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcprepct.c:283:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcprepct.c:298:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i = 0; i < rgroup_height; i++) {
+    ^
+jcprepct.c:345:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jcprepct.c:345:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcprepct.c:220:4: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+          for (row = 1; row <= cinfo->max_v_samp_factor; row++) {
+          ^
+jcprepct.c:220:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcprepct.c:112:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jcopy_sample_rows(image_data, input_rows-1, image_data, row,
+    ^
+jcprepct.c:111:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = input_rows; row < output_rows; row++) {
+  ^
+jcprepct.c:112:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jcopy_sample_rows(image_data, input_rows-1, image_data, row,
+    ^
+jcprepct.c:111:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = input_rows; row < output_rows; row++) {
+  ^
+jcprepct.c:112:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jcopy_sample_rows(image_data, input_rows-1, image_data, row,
+    ^
+jcprepct.c:111:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = input_rows; row < output_rows; row++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jccoefct.o jccoefct.c
+jccoefct.c:423:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jccoefct.c:423:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:185:8: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+              for (bi = blockcnt; bi < compptr->MCU_width; bi++) {
+              ^
+jccoefct.c:185:8: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:193:6: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+            for (bi = 0; bi < compptr->MCU_width; bi++) {
+            ^
+jccoefct.c:193:6: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:185:8: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+              for (bi = blockcnt; bi < compptr->MCU_width; bi++) {
+              ^
+jccoefct.c:185:8: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:193:6: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+            for (bi = 0; bi < compptr->MCU_width; bi++) {
+            ^
+jccoefct.c:193:6: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:304:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (block_row = block_rows; block_row < compptr->v_samp_factor;
+      ^
+jccoefct.c:304:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:312:4: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+          for (bi = 0; bi < h_samp_factor; bi++) {
+          ^
+jccoefct.c:312:4: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jccoefct.c:291:2: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (bi = 0; bi < ndummy; bi++) {
+        ^
+jccoefct.c:291:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jccoefct.c:282:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      (*cinfo->fdct->forward_DCT) (cinfo, compptr,
+      ^
+jccoefct.c:280:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (block_row = 0; block_row < block_rows; block_row++) {
+    ^
+jccoefct.c:355:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jccoefct.c:355:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccoefct.c:375:4: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+          for (xindex = 0; xindex < compptr->MCU_width; xindex++) {
+          ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jccolor.o jccolor.c
+jccolor.c:294:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jccolor.c:294:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccolor.c:97:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i <= MAXJSAMPLE; i++) {
+  ^
+jccolor.c:97:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jccolor.c:202:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jccolor.c:202:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccolor.c:325:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (col = 0; col < num_cols; col++) {
+      ^
+jccolor.c:325:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccolor.c:148:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jccolor.c:148:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jccolor.c:244:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jccolor.c:244:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcsample.o jcsample.c
+jcsample.c:485:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (compptr->h_samp_factor == cinfo->max_h_samp_factor &&
+        ^
+jcsample.c:483:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcsample.c:123:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcsample.c:123:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:435:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (colctr = output_cols - 2; colctr > 0; colctr--) {
+    ^
+jcsample.c:435:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:232:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (outcol = 0; outcol < output_cols; outcol++) {
+    ^
+jcsample.c:232:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:228:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (outrow = 0; outrow < compptr->v_samp_factor; outrow++) {
+  ^
+jcsample.c:228:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:346:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (colctr = output_cols - 2; colctr > 0; colctr--) {
+    ^
+jcsample.c:346:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:271:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (outcol = 0; outcol < output_cols; outcol++) {
+    ^
+jcsample.c:271:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcsample.c:266:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (outrow = 0; outrow < compptr->v_samp_factor; outrow++) {
+  ^
+jcsample.c:266:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jcsample.c:101:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        *ptr++ = pixval;
+               ^
+jcsample.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (row = 0; row < num_rows; row++) {
+    ^
+jcsample.c:169:2: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+        for (h = 0; h < h_expand; h++) {
+        ^
+jcsample.c:164:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (outcol = 0, outcol_h = 0; outcol < output_cols;
+    ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jchuff.o jchuff.c
+jchuff.c:214:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+      ^
+jchuff.c:211:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (l = 1; l <= 16; l++) {
+  ^
+jchuff.c:228:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (((int) huffsize[p]) == si) {
+    ^
+jchuff.c:228:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:260:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+      ^
+jchuff.c:257:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (p = 0; p < lastp; p++) {
+  ^
+jchuff.c:772:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (others[c2] >= 0) {
+    ^
+jchuff.c:772:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:763:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (others[c1] >= 0) {
+    ^
+jchuff.c:763:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:746:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i <= 256; i++) {
+    ^
+jchuff.c:746:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:735:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i <= 256; i++) {
+    ^
+jchuff.c:735:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:784:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_HUFF_CLEN_OVERFLOW);
+        ^
+jchuff.c:779:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i <= 256; i++) {
+  ^
+jchuff.c:804:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (bits[j] == 0)
+      ^
+jchuff.c:804:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:815:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (bits[i] == 0)          /* find largest codelength still in use */
+  ^
+jchuff.c:815:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:832:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      }
+      ^
+jchuff.c:828:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (j = 0; j <= 255; j++) {
+    ^
+jchuff.c:124:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jchuff.c:124:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:133:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT1(cinfo, JERR_NO_HUFF_TABLE, dctbl);
+        ^
+jchuff.c:124:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jchuff.c:655:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+      ^
+jchuff.c:655:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:620:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while ((temp >>= 1))
+      ^
+jchuff.c:620:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:587:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (temp) {
+  ^
+jchuff.c:587:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:867:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (*htblptr == NULL)
+          ^
+jchuff.c:861:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jchuff.c:321:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jchuff.c:321:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:462:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < state->cinfo->comps_in_scan; ci++)
+  ^
+jchuff.c:462:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    int c = (int) ((put_buffer >> 16) & 0xFF);
+                               ^
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:417:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while ((temp >>= 1))
+      ^
+jchuff.c:417:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    int c = (int) ((put_buffer >> 16) & 0xFF);
+                               ^
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:373:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (temp) {
+  ^
+jchuff.c:373:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:321:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jchuff.c:321:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcphuff.o jcphuff.c
+jcphuff.c:146:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:162:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT1(cinfo, JERR_NO_HUFF_TABLE, tbl);
+        ^
+jcphuff.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:158:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (gather_statistics) {
+        ^
+jcphuff.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:422:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (temp) {
+    ^
+jcphuff.c:422:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:525:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while ((temp >>= 1))
+    ^
+jcphuff.c:525:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:284:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    entropy->count_ptrs[tbl_no][symbol]++;
+    ^
+jcphuff.c:518:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    while (r > 15) {
+    ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:646:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (k = cinfo->Ss; k <= Se; k++) {
+  ^
+jcphuff.c:646:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:800:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (*htblptr == NULL)
+          ^
+jcphuff.c:786:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:795:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! did[tbl]) {
+        ^
+jcphuff.c:786:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jcphuff.c:361:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < entropy->cinfo->comps_in_scan; ci++)
+    ^
+jcphuff.c:361:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:323:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while ((temp >>= 1))
+    ^
+jcphuff.c:323:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jcphuff.c:210:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (! (*dest->empty_output_buffer) (entropy->cinfo))
+      ^
+jcphuff.c:250:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcdctmgr.o jcdctmgr.c
+jcdctmgr.c:84:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i = 0; i < DCTSIZE2; i++) {
+      ^
+jcdctmgr.c:84:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:118:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (i = 0; i < DCTSIZE2; i++) {
+        ^
+jcdctmgr.c:118:2: remark: vectorized loop (vectorization width: 2, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:152:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        for (row = 0; row < DCTSIZE; row++) {
+        ^
+jcdctmgr.c:231:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i = 0; i < DCTSIZE2; i++) {
+      ^
+jcdctmgr.c:231:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:202:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+      for (elemr = 0; elemr < DCTSIZE; elemr++) {
+      ^
+jcdctmgr.c:322:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i = 0; i < DCTSIZE2; i++) {
+      ^
+jcdctmgr.c:322:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jcdctmgr.c:292:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+      for (elemr = 0; elemr < DCTSIZE; elemr++) {
+      ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jfdctfst.o jfdctfst.c
+jfdctfst.c:126:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE-1; ctr >= 0; ctr--) {
+  ^
+jfdctfst.c:176:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE-1; ctr >= 0; ctr--) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jfdctflt.o jfdctflt.c
+jfdctflt.c:70:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE-1; ctr >= 0; ctr--) {
+  ^
+jfdctflt.c:120:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE-1; ctr >= 0; ctr--) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jfdctint.o jfdctint.c
+jfdctint.c:154:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE-1; ctr >= 0; ctr--) {
+  ^
+jfdctint.c:219:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE-1; ctr >= 0; ctr--) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdapimin.o jdapimin.c
+jdapimin.c:386:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (! cinfo->inputctl->eoi_reached) {
+  ^
+jdapimin.c:386:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdapistd.o jdapistd.c
+jdapistd.c:57:13: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        if (cinfo->progress != NULL)
+                   ^
+jdapistd.c:57:13: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdapistd.c:107:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (cinfo->output_scanline < cinfo->output_height) {
+    ^
+jdapistd.c:107:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdapistd.c:107:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jdapistd.c:107:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdapistd.c:266:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (cinfo->input_scan_number <= cinfo->output_scan_number &&
+  ^
+jdapistd.c:266:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdtrans.o jdtrans.c
+jdtrans.c:57:18: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      if (cinfo->progress != NULL)
+                 ^
+jdtrans.c:57:18: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdatasrc.o jdatasrc.c
+jdatasrc.c:137:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (num_bytes > (long) src->pub.bytes_in_buffer) {
+    ^
+jdatasrc.c:137:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdmaster.o jdmaster.c
+jdmaster.c:131:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmaster.c:131:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdmaster.c:134:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (ssize < DCTSIZE &&
+    ^
+jdmaster.c:134:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmaster.c:147:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmaster.c:147:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmaster.c:262:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i <= MAXJSAMPLE; i++)
+  ^
+jdmaster.c:262:3: remark: vectorized loop (vectorization width: 16, interleaved count: 1) [-Rpass=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdinput.o jdinput.c
+jdinput.c:66:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_SAMPLING);
+      ^
+jdinput.c:62:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdinput.c:80:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdinput.c:80:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdinput.c:189:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      while (mcublks-- > 0) {
+      ^
+jdinput.c:189:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdinput.c:233:20: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (qtblno < 0 || qtblno >= NUM_QUANT_TBLS ||
+                   ^
+jdinput.c:226:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdmarker.o jdmarker.c
+jdmarker.c:1201:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (;;) {
+  ^
+jdmarker.c:1201:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:896:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    do {
+    ^
+jdmarker.c:896:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:886:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (c != 0xFF) {
+    ^
+jdmarker.c:886:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:459:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < count; i++)
+    ^
+jdmarker.c:459:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:439:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 1; i <= 16; i++) {
+    ^
+jdmarker.c:439:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:527:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        TRACEMS8(cinfo, 2, JTRC_QUANTVALS,
+        ^
+jdmarker.c:516:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < DCTSIZE2; i++) {
+    ^
+jdmarker.c:516:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:516:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jdmarker.c:516:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:329:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jdmarker.c:329:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:709:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < numtoread; i++)
+  ^
+jdmarker.c:709:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:794:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    while (bytes_read < data_length && bytes_in_buffer > 0) {
+    ^
+jdmarker.c:808:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (prev->next != NULL)
+      ^
+jdmarker.c:808:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:279:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmarker.c:279:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdhuff.o jdhuff.c
+jdhuff.c:454:13: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+        ~~~~^
+jdhuff.c:454:28: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                       ~~~~^
+jdhuff.c:454:43: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                      ~~~~^
+jdhuff.c:454:58: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                                     ~~~~^
+jdhuff.c:455:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+     ~~~~^
+jdhuff.c:455:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                    ~~~~^
+jdhuff.c:455:40: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                   ~~~~^
+jdhuff.c:455:55: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                                  ~~~~^
+jdhuff.c:456:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+     ~~~~^
+jdhuff.c:456:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                    ~~~~^
+jdhuff.c:456:41: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                    ~~~~^
+jdhuff.c:456:57: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                                    ~~~~^
+jdhuff.c:457:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+     ~~~~^
+jdhuff.c:457:26: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                     ~~~~^
+jdhuff.c:457:42: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                                     ~~~~^
+jdhuff.c:186:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+      ^
+jdhuff.c:183:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (l = 1; l <= 16; l++) {
+  ^
+jdhuff.c:200:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (((int) huffsize[p]) == si) {
+    ^
+jdhuff.c:200:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:224:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    } else {
+    ^
+jdhuff.c:216:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (l = 1; l <= 16; l++) {
+  ^
+jdhuff.c:245:7: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+      for (ctr = 1 << (HUFF_LOOKAHEAD-l); ctr > 0; ctr--) {
+      ^
+jdhuff.c:263:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+        ^
+jdhuff.c:260:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < numsymbols; i++) {
+    ^
+jdhuff.c:328:24: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+          if (bytes_in_buffer == 0) {
+                              ^
+jdhuff.c:328:24: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:414:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (code > htbl->maxcode[l]) {
+  ^
+jdhuff.c:414:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:100:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jdhuff.c:100:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:126:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    } else {
+    ^
+jdhuff.c:115:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (blkn = 0; blkn < cinfo->blocks_in_MCU; blkn++) {
+  ^
+jdhuff.c:483:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdhuff.c:483:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:598:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (k = 1; k < DCTSIZE2; k++) {
+        ^
+jdhuff.c:598:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdhuff.c:571:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (k = 1; k < DCTSIZE2; k++) {
+        ^
+jdhuff.c:571:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+15 warnings generated.
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdphuff.o jdphuff.c
+jdphuff.c:214:13: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+        ~~~~^
+jdphuff.c:214:28: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                       ~~~~^
+jdphuff.c:214:43: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                      ~~~~^
+jdphuff.c:214:58: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  { 0, ((-1)<<1) + 1, ((-1)<<2) + 1, ((-1)<<3) + 1, ((-1)<<4) + 1,
+                                                     ~~~~^
+jdphuff.c:215:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+     ~~~~^
+jdphuff.c:215:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                    ~~~~^
+jdphuff.c:215:40: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                   ~~~~^
+jdphuff.c:215:55: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<5) + 1, ((-1)<<6) + 1, ((-1)<<7) + 1, ((-1)<<8) + 1,
+                                                  ~~~~^
+jdphuff.c:216:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+     ~~~~^
+jdphuff.c:216:25: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                    ~~~~^
+jdphuff.c:216:41: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                    ~~~~^
+jdphuff.c:216:57: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<9) + 1, ((-1)<<10) + 1, ((-1)<<11) + 1, ((-1)<<12) + 1,
+                                                    ~~~~^
+jdphuff.c:217:10: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+     ~~~~^
+jdphuff.c:217:26: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                     ~~~~^
+jdphuff.c:217:42: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    ((-1)<<13) + 1, ((-1)<<14) + 1, ((-1)<<15) + 1 };
+                                     ~~~~^
+jdphuff.c:663:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->num_components; ci++) 
+  ^
+jdphuff.c:663:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:143:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        WARNMS2(cinfo, JWRN_BOGUS_PROGRESSION, cindex, coefi);
+        ^
+jdphuff.c:140:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (coefi = cinfo->Ss; coefi <= cinfo->Se; coefi++) {
+    ^
+jdphuff.c:143:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        WARNMS2(cinfo, JWRN_BOGUS_PROGRESSION, cindex, coefi);
+        ^
+jdphuff.c:140:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (coefi = cinfo->Ss; coefi <= cinfo->Se; coefi++) {
+    ^
+jdphuff.c:161:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jdphuff.c:161:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:167:21: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      if (cinfo->Ah == 0) {     /* DC refinement needs no table */
+                    ^
+jdphuff.c:167:21: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:316:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (blkn = 0; blkn < cinfo->blocks_in_MCU; blkn++) {
+    ^
+jdphuff.c:316:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:394:7: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      for (k = cinfo->Ss; k <= Se; k++) {
+      ^
+jdphuff.c:394:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:466:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (blkn = 0; blkn < cinfo->blocks_in_MCU; blkn++) {
+  ^
+jdphuff.c:466:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:243:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+  ^
+jdphuff.c:243:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:565:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        do {
+        ^
+jdphuff.c:565:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:599:7: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      for (; k <= Se; k++) {
+      ^
+jdphuff.c:599:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdphuff.c:629:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  while (num_newnz > 0)
+  ^
+jdphuff.c:629:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+15 warnings generated.
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdmainct.o jdmainct.c
+jdmainct.c:176:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmainct.c:176:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:503:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmainct.c:503:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:230:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < rgroup; i++) {
+    ^
+jdmainct.c:230:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:221:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i = 0; i < rgroup * 2; i++) {
+    ^
+jdmainct.c:217:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i = 0; i < rgroup * (M + 2); i++) {
+    ^
+jdmainct.c:295:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < rgroup * 2; i++) {
+    ^
+jdmainct.c:295:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmainct.c:255:5: remark: loop not vectorized: cannot prove it is safe to reorder memory operations; allow reordering by specifying '#pragma clang loop vectorize(enable)' before the loop. If the arrays will always be independent specify '#pragma clang loop vectorize(assume_safety)' before the loop or provide the '__restrict__' qualifier with the independent array arguments. Erroneous results will occur if these options are incorrectly applied! [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < rgroup; i++) {
+    ^
+jdmainct.c:255:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdcoefct.o jdcoefct.c
+jdcoefct.c:699:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jdcoefct.c:699:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:426:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdcoefct.c:426:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:255:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jdcoefct.c:255:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:279:4: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+          for (xindex = 0; xindex < compptr->MCU_width; xindex++) {
+          ^
+jdcoefct.c:329:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (cinfo->input_scan_number < cinfo->output_scan_number ||
+  ^
+jdcoefct.c:329:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:361:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (block_num = 0; block_num < compptr->width_in_blocks; block_num++) {
+      ^
+jdcoefct.c:361:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:196:6: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+            for (xindex = 0; xindex < useful_width; xindex++) {
+            ^
+jdcoefct.c:196:6: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:192:2: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+        for (yindex = 0; yindex < compptr->MCU_height; yindex++) {
+        ^
+jdcoefct.c:482:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (cinfo->input_scan_number <= cinfo->output_scan_number &&
+  ^
+jdcoefct.c:482:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcoefct.c:569:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        }
+        ^
+jdcoefct.c:561:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (block_num = 0; block_num <= last_block_column; block_num++) {
+      ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdpostct.o jdpostct.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jddctmgr.o jddctmgr.c
+jddctmgr.c:259:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jddctmgr.c:259:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jddctmgr.c:167:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (i = 0; i < DCTSIZE2; i++) {
+        ^
+jddctmgr.c:167:2: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jddctmgr.c:198:2: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+        for (i = 0; i < DCTSIZE2; i++) {
+        ^
+jddctmgr.c:198:2: remark: vectorized loop (vectorization width: 2, interleaved count: 1) [-Rpass=loop-vectorize]
+jddctmgr.c:223:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        for (row = 0; row < DCTSIZE; row++) {
+        ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jidctfst.o jidctfst.c
+jidctfst.c:190:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; ctr--) {
+  ^
+jidctfst.c:282:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = 0; ctr < DCTSIZE; ctr++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jidctflt.o jidctflt.c
+jidctflt.c:89:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; ctr--) {
+  ^
+jidctflt.c:180:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = 0; ctr < DCTSIZE; ctr++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jidctint.o jidctint.c
+jidctint.c:171:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; ctr--) {
+  ^
+jidctint.c:277:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = 0; ctr < DCTSIZE; ctr++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jidctred.o jidctred.c
+jidctred.c:138:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; inptr++, quantptr++, wsptr++, ctr--) {
+  ^
+jidctred.c:138:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jidctred.c:197:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = 0; ctr < 4; ctr++) {
+  ^
+jidctred.c:290:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; inptr++, quantptr++, wsptr++, ctr--) {
+  ^
+jidctred.c:290:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdsample.o jdsample.c
+jdsample.c:426:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdsample.c:426:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:102:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jdsample.c:102:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:321:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (colctr = compptr->downsampled_width - 2; colctr > 0; colctr--) {
+    ^
+jdsample.c:321:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:246:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    while (outptr < outend) {
+    ^
+jdsample.c:246:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdsample.c:376:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (colctr = compptr->downsampled_width - 2; colctr > 0; colctr--) {
+      ^
+jdsample.c:376:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:376:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+jdsample.c:376:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:275:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    while (outptr < outend) {
+    ^
+jdsample.c:275:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdsample.c:205:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (outrow < cinfo->max_v_samp_factor) {
+  ^
+jdsample.c:205:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:210:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (outptr < outend) {
+    ^
+jdsample.c:210:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdsample.c:212:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (h = h_expand; h > 0; h--) {
+      ^
+jdsample.c:212:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdsample.c:212:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jdsample.c:212:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdsample.c:210:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (outptr < outend) {
+    ^
+jdsample.c:210:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdcolor.o jdcolor.c
+jdcolor.c:90:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0, x = -CENTERJSAMPLE; i <= MAXJSAMPLE; i++, x++) {
+  ^
+jdcolor.c:90:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:90:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:90:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:352:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (ci = 1; ci < cinfo->num_components; ci++)
+      ^
+jdcolor.c:352:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:144:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jdcolor.c:144:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcolor.c:228:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jdcolor.c:228:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdcolor.c:183:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (count = num_cols; count > 0; count--) {
+      ^
+jdcolor.c:183:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdcolor.c:270:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = 0; col < num_cols; col++) {
+    ^
+jdcolor.c:270:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jquant1.o jquant1.c
+jquant1.c:204:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i = 1; i < nc; i++)
+    ^
+jquant1.c:204:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant1.c:215:3: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (i = 0; i < nc; i++) {
+  ^
+jquant1.c:225:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  do {
+  ^
+jquant1.c:225:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:225:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jquant1.c:225:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:313:2: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+        for (k = 0; k < blksize; k++)
+        ^
+jquant1.c:313:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:729:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < cinfo->out_color_components; i++) {
+  ^
+jquant1.c:729:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:729:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+jquant1.c:729:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:783:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < cinfo->out_color_components; i++)
+    ^
+jquant1.c:783:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:412:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (k = 0; k < ODITHER_SIZE; k++) {
+    ^
+jquant1.c:412:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jquant1.c:441:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (j = 0; j < i; j++) {
+    ^
+jquant1.c:441:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:375:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (j > k)             /* advance val if past boundary */
+      ^
+jquant1.c:375:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:382:7: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+      for (j = 1; j <= MAXJSAMPLE; j++) {
+      ^
+jquant1.c:382:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:375:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (j > k)             /* advance val if past boundary */
+      ^
+jquant1.c:375:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:504:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant1.c:504:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:480:17: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      *ptrout++ = (JSAMPLE) pixcode;
+                ^
+jquant1.c:472:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = 0; row < num_rows; row++) {
+  ^
+jquant1.c:477:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (ci = 0; ci < nc; ci++) {
+      ^
+jquant1.c:477:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant1.c:593:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant1.c:593:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:585:28: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    row_index = cquantize->row_index;
+                           ^
+jquant1.c:584:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = 0; row < num_rows; row++) {
+  ^
+jquant1.c:533:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jzero_far((void FAR *) output_buf[row],
+    ^
+jquant1.c:531:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = 0; row < num_rows; row++) {
+  ^
+jquant1.c:543:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (col = width; col > 0; col--) {
+      ^
+jquant1.c:543:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:640:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < nc; ci++) {
+    ^
+jquant1.c:640:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant1.c:663:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (col = width; col > 0; col--) {
+      ^
+jquant1.c:663:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jquant2.o jquant2.c
+jquant2.c:1266:40: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    cquantize->histogram[i] = (hist2d) (*cinfo->mem->alloc_large)
+                                       ^
+jquant2.c:1265:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i < HIST_C0_ELEMS; i++) {
+  ^
+jquant2.c:1217:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      jzero_far((void FAR *) histogram[i],
+      ^
+jquant2.c:1216:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < HIST_C0_ELEMS; i++) {
+    ^
+jquant2.c:1127:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (; in < STEPSIZE*3; in++, out += (in&1) ? 0 : 1) {
+  ^
+jquant2.c:1127:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:1131:3: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+  for (; in <= MAXJSAMPLE; in++) {
+  ^
+jquant2.c:1131:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:237:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant2.c:237:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:302:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (i = 0, boxp = boxlist; i < numboxes; i++, boxp++) {
+  ^
+jquant2.c:302:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:283:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (boxp->colorcount > maxc && boxp->volume > 0) {
+        ^
+jquant2.c:282:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0, boxp = boxlist; i < numboxes; i++, boxp++) {
+  ^
+jquant2.c:522:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (c2 = c2min; c2 <= c2max; c2++) {
+      ^
+jquant2.c:522:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant2.c:1031:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        fill_inverse_cmap(cinfo, cur0>>C0_SHIFT,cur1>>C1_SHIFT,cur2>>C2_SHIFT);
+        ^
+jquant2.c:998:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant2.c:940:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        fill_inverse_cmap(cinfo, c0,c1,c2);
+        ^
+jquant2.c:931:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant2.c:333:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (c2 = c2min; c2 <= c2max; c2++)
+        ^
+jquant2.c:333:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:344:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (c2 = c2min; c2 <= c2max; c2++)
+        ^
+jquant2.c:344:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:355:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (c2 = c2min; c2 <= c2max; c2++)
+        ^
+jquant2.c:355:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:366:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (c2 = c2min; c2 <= c2max; c2++)
+        ^
+jquant2.c:366:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:377:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (c1 = c1min; c1 <= c1max; c1++, histp += HIST_C2_ELEMS)
+        ^
+jquant2.c:377:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:388:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (c1 = c1min; c1 <= c1max; c1++, histp += HIST_C2_ELEMS)
+        ^
+jquant2.c:388:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant2.c:414:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (c2 = c2min; c2 <= c2max; c2++, histp++)
+      ^
+jquant2.c:414:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant2.c:687:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < numcolors; i++) {
+  ^
+jquant2.c:687:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant2.c:768:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      colorlist[ncolors++] = (JSAMPLE) i;
+      ^
+jquant2.c:766:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i < numcolors; i++) {
+  ^
+jquant2.c:798:3: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (i = BOX_C0_ELEMS*BOX_C1_ELEMS*BOX_C2_ELEMS-1; i >= 0; i--)
+  ^
+jquant2.c:831:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+      for (ic1 = BOX_C1_ELEMS-1; ic1 >= 0; ic1--) {
+      ^
+jquant2.c:831:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+jquant2.c:831:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+jquant2.c:831:7: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+jquant2.c:899:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ic0 = 0; ic0 < BOX_C0_ELEMS; ic0++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jdmerge.o jdmerge.c
+jdmerge.c:103:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i = 0, x = -CENTERJSAMPLE; i <= MAXJSAMPLE; i++, x++) {
+  ^
+jdmerge.c:103:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jdmerge.c:313:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width >> 1; col > 0; col--) {
+  ^
+jdmerge.c:313:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmerge.c:249:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width >> 1; col > 0; col--) {
+  ^
+jdmerge.c:249:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jcomapi.o jcomapi.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jutils.o jutils.c
+jutils.c:135:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    FMEMCOPY(outptr, inptr, count);
+    ^
+jutils.c:131:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = num_rows; row > 0; row--) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jerror.o jerror.c
+jerror.c:184:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while ((ch = *msgptr++) != '\0') {
+  ^
+jerror.c:184:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jmemmgr.o jmemmgr.c
+jmemmgr.c:279:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (hdr_ptr != NULL) {
+  ^
+jmemmgr.c:279:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:304:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        out_of_memory(cinfo, 2); /* jpeg_get_small failed */
+        ^
+jmemmgr.c:298:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (;;) {
+    ^
+jmemmgr.c:427:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = rowsperchunk; i > 0; i--) {
+    ^
+jmemmgr.c:427:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:475:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = rowsperchunk; i > 0; i--) {
+    ^
+jmemmgr.c:475:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:604:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    }
+    ^
+jmemmgr.c:598:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (sptr = mem->virt_sarray_list; sptr != NULL; sptr = sptr->next) {
+  ^
+jmemmgr.c:612:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    }
+    ^
+jmemmgr.c:606:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (bptr = mem->virt_barray_list; bptr != NULL; bptr = bptr->next) {
+  ^
+jmemmgr.c:427:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = rowsperchunk; i > 0; i--) {
+    ^
+jmemmgr.c:427:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:475:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = rowsperchunk; i > 0; i--) {
+    ^
+jmemmgr.c:475:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:708:23: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    byte_count = rows * bytesperrow;
+                      ^
+jmemmgr.c:708:23: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:708:23: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jmemmgr.c:708:23: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:824:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        jzero_far((void FAR *) ptr->mem_buffer[undef_row], bytesperrow);
+        ^
+jmemmgr.c:823:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      while (undef_row < end_row) {
+      ^
+jmemmgr.c:741:23: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    byte_count = rows * bytesperrow;
+                      ^
+jmemmgr.c:741:23: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:741:23: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jmemmgr.c:741:23: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:909:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        jzero_far((void FAR *) ptr->mem_buffer[undef_row], bytesperrow);
+        ^
+jmemmgr.c:908:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      while (undef_row < end_row) {
+      ^
+jmemmgr.c:954:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      }
+      ^
+jmemmgr.c:950:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (sptr = mem->virt_sarray_list; sptr != NULL; sptr = sptr->next) {
+    ^
+jmemmgr.c:961:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      }
+      ^
+jmemmgr.c:957:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (bptr = mem->virt_barray_list; bptr != NULL; bptr = bptr->next) {
+    ^
+jmemmgr.c:970:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (lhdr_ptr != NULL) {
+  ^
+jmemmgr.c:970:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jmemmgr.c:984:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (shdr_ptr != NULL) {
+  ^
+jmemmgr.c:984:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jmemnobs.o jmemnobs.c
+rm -f libjpeg.a
+ar rc libjpeg.a  jcapimin.o jcapistd.o jctrans.o jcparam.o jdatadst.o jcinit.o jcmaster.o jcmarker.o jcmainct.o jcprepct.o jccoefct.o jccolor.o jcsample.o jchuff.o jcphuff.o jcdctmgr.o jfdctfst.o jfdctflt.o jfdctint.o jdapimin.o jdapistd.o jdtrans.o jdatasrc.o jdmaster.o jdinput.o jdmarker.o jdhuff.o jdphuff.o jdmainct.o jdcoefct.o jdpostct.o jddctmgr.o jidctfst.o jidctflt.o jidctint.o jidctred.o jdsample.o jdcolor.o jquant1.o jquant2.o jdmerge.o jcomapi.o jutils.o jerror.o jmemmgr.o jmemnobs.o 
+ranlib libjpeg.a
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o hpctimer.o hpctimer.c
+hpctimer.c:167:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < TSC_OVERHEAD_NTESTS; i++) {
+    ^
+hpctimer.c:73:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    for (delay = 1; delay < NTESTS; delay++) {
+    ^
+gcc -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o cjpeg.o cjpeg.c
+cjpeg.c:591:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (cinfo.next_scanline < cinfo.image_height) {
+    ^
+cjpeg.c:591:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+cjpeg.c:618:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (int i = 0; i < N; ++i)
+  ^
+cjpeg.c:618:3: remark: vectorized loop (vectorization width: 2, interleaved count: 1) [-Rpass=loop-vectorize]
+cjpeg.c:235:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (argn = 1; argn < argc; argn++) {
+  ^
+cjpeg.c:235:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdppm.o rdppm.c
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:419:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (val = 0; val <= (INT32) maxval; val++) {
+    ^
+rdppm.c:419:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdppm.c:93:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:251:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:251:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:192:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:192:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:275:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:275:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdppm.c:213:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdppm.c:213:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdgif.o rdgif.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdtarga.o rdtarga.c
+rdtarga.c:95:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdtarga.c:444:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (idlen--)               /* Throw away ID field */
+  ^
+rdtarga.c:95:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdtarga.c:110:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i < cmaplen; i++) {
+  ^
+rdtarga.c:160:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < sinfo->pixel_size; i++) {
+  ^
+rdtarga.c:160:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdtarga.c:129:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < sinfo->pixel_size; i++) {
+  ^
+rdtarga.c:129:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdtarga.c:201:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:200:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:221:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:220:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:248:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:247:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:183:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:182:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:307:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (row = 0; row < cinfo->image_height; row++) {
+  ^
+rdtarga.c:307:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdtarga.c:307:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdtarga.c:307:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdrle.o rdrle.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdbmp.o rdbmp.c
+rdbmp.c:75:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdbmp.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < cmaplen; i++) {
+    ^
+rdbmp.c:75:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdbmp.c:89:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < cmaplen; i++) {
+    ^
+rdbmp.c:75:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdbmp.c:371:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (--bPad >= 0) {
+  ^
+rdbmp.c:380:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  while ((row_width & 3) != 0) row_width++;
+  ^
+rdbmp.c:380:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+rdbmp.c:211:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_INPUT_EOF);
+        ^
+rdbmp.c:208:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = source->row_width; col > 0; col--) {
+    ^
+rdbmp.c:211:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_INPUT_EOF);
+        ^
+rdbmp.c:208:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = source->row_width; col > 0; col--) {
+    ^
+rdbmp.c:138:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdbmp.c:138:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdbmp.c:169:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdbmp.c:169:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdswitch.o rdswitch.c
+rdswitch.c:103:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 1; i < DCTSIZE2; i++) {
+    ^
+rdswitch.c:103:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdswitch.c:30:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(file);
+           ^
+rdswitch.c:30:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdswitch.c:30:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdswitch.c:30:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdswitch.c:197:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    while (termchar == ' ') {
+    ^
+rdswitch.c:139:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (ch != EOF && isspace(ch))
+  ^
+rdswitch.c:139:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdswitch.c:289:7: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      while (*arg && *arg++ != ',') /* advance to next segment of arg string */
+      ^
+rdswitch.c:289:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdswitch.c:323:7: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      while (*arg && *arg++ != ',') /* advance to next segment of arg string */
+      ^
+rdswitch.c:323:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o cdjpeg.o cdjpeg.c
+cdjpeg.c:127:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while ((ca = *arg++) != '\0') {
+  ^
+cdjpeg.c:127:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang  -o cjpeg cjpeg.o rdppm.o rdgif.o rdtarga.o rdrle.o rdbmp.o rdswitch.o cdjpeg.o libjpeg.a hpctimer.o  
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o djpeg.o djpeg.c
+djpeg.c:593:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (cinfo.output_scanline < cinfo.output_height) {
+    ^
+djpeg.c:593:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+djpeg.c:361:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*datasrc->fill_input_buffer) (cinfo))
+        ^
+djpeg.c:389:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (--length >= 0) {
+  ^
+djpeg.c:361:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*datasrc->fill_input_buffer) (cinfo))
+        ^
+djpeg.c:389:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (--length >= 0) {
+  ^
+djpeg.c:184:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (argn = 1; argn < argc; argn++) {
+  ^
+djpeg.c:184:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o wrppm.o wrppm.c
+wrppm.c:115:3: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (col = dest->samples_per_row; col > 0; col--) {
+  ^
+wrppm.c:164:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrppm.c:164:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrppm.c:142:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrppm.c:142:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o wrgif.o wrgif.c
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+wrgif.c:231:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (num_colors > (1 << BitsPerPixel))
+  ^
+wrgif.c:231:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrgif.c:260:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  for (i=0; i < ColorMapSize; i++) {
+  ^
+wrgif.c:260:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrgif.c:260:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+wrgif.c:260:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o wrtarga.o wrtarga.c
+wrtarga.c:191:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(cinfo->colormap[2][i]), outfile);
+        ^
+wrtarga.c:190:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrtarga.c:155:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrtarga.c:155:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrtarga.c:131:3: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrtarga.c:110:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrtarga.c:110:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o wrrle.o wrrle.c
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o wrbmp.o wrbmp.c
+wrbmp.c:420:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  while ((row_width & 3) != 0) row_width++;
+  ^
+wrbmp.c:420:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+wrbmp.c:371:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(GETJSAMPLE(*data_ptr), outfile);
+      ^
+wrbmp.c:370:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = dest->row_width; col > 0; col--) {
+    ^
+wrbmp.c:371:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(GETJSAMPLE(*data_ptr), outfile);
+      ^
+wrbmp.c:370:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = dest->row_width; col > 0; col--) {
+    ^
+wrbmp.c:125:3: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrbmp.c:92:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrbmp.c:92:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+wrbmp.c:313:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[0][i]), outfile);
+        ^
+wrbmp.c:312:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:313:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[0][i]), outfile);
+        ^
+wrbmp.c:312:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:304:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[2][i]), outfile);
+        ^
+wrbmp.c:303:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:304:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[2][i]), outfile);
+        ^
+wrbmp.c:303:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:323:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(i, outfile);
+      ^
+wrbmp.c:322:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < 256; i++) {
+    ^
+wrbmp.c:323:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(i, outfile);
+      ^
+wrbmp.c:322:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < 256; i++) {
+    ^
+wrbmp.c:334:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    putc(0, outfile);
+    ^
+wrbmp.c:333:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (; i < map_colors; i++) {
+  ^
+wrbmp.c:334:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    putc(0, outfile);
+    ^
+wrbmp.c:333:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (; i < map_colors; i++) {
+  ^
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdcolmap.o rdcolmap.c
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (index = 0; index < ncolors; index++) {
+  ^
+rdcolmap.c:55:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(infile);
+           ^
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdcolmap.c:130:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdcolmap.c:55:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (index = 0; index < ncolors; index++) {
+  ^
+rdcolmap.c:55:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang  -o djpeg djpeg.o wrppm.o wrgif.o wrtarga.o wrrle.o wrbmp.o rdcolmap.o cdjpeg.o libjpeg.a hpctimer.o 
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o jpegtran.o jpegtran.c
+jpegtran.c:141:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (argn = 1; argn < argc; argn++) {
+  ^
+jpegtran.c:141:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o transupp.o transupp.c
+transupp.c:599:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < info->num_components; ci++) {
+    ^
+transupp.c:599:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:621:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < info->num_components; ci++) {
+    ^
+transupp.c:621:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:654:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:654:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        for (j = 0; j < i; j++) {
+        ^
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:424:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i += 2) {
+            ^
+transupp.c:407:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i += 2) {
+            ^
+transupp.c:448:6: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE2; i++)
+            ^
+transupp.c:448:6: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+transupp.c:439:6: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE2; i += 2) {
+            ^
+transupp.c:439:6: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:271:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++) {
+              ^
+transupp.c:281:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++)
+              ^
+transupp.c:504:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++) {
+                ^
+transupp.c:520:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++) {
+                ^
+transupp.c:534:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++) {
+                ^
+transupp.c:544:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++)
+                ^
+transupp.c:218:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i++)
+            ^
+transupp.c:165:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i += 2) {
+            ^
+transupp.c:156:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (offset_y = 0; offset_y < compptr->v_samp_factor; offset_y++) {
+      ^
+transupp.c:156:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:87:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (blk_y = 0; blk_y < compptr->height_in_blocks;
+    ^
+transupp.c:87:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:97:4: remark: loop not vectorized: cannot check memory dependencies at runtime [-Rpass-analysis=loop-vectorize]
+          for (k = 0; k < DCTSIZE2; k += 2) {
+          ^
+transupp.c:97:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:335:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++) {
+              ^
+transupp.c:345:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++)
+              ^
+transupp.c:898:30: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        marker->marker == JPEG_APP0 &&
+                                    ^
+transupp.c:896:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (marker = srcinfo->marker_list; marker != NULL; marker = marker->next) {
+  ^
+clang  -o jpegtran jpegtran.o rdswitch.o cdjpeg.o transupp.o libjpeg.a 
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o rdjpgcom.o rdjpgcom.c
+rdjpgcom.c:416:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  while ((ca = *arg++) != '\0') {
+  ^
+rdjpgcom.c:333:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (;;) {
+  ^
+rdjpgcom.c:333:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdjpgcom.c:77:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  c = NEXTBYTE();
+      ^
+rdjpgcom.c:77:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdjpgcom.c:145:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (c != 0xFF) {
+  ^
+rdjpgcom.c:145:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdjpgcom.c:77:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  c = NEXTBYTE();
+      ^
+rdjpgcom.c:77:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdjpgcom.c:145:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (c != 0xFF) {
+  ^
+rdjpgcom.c:145:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdjpgcom.c:207:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (length > 0) {
+  ^
+rdjpgcom.c:207:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdjpgcom.c:234:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (length > 0) {
+  ^
+rdjpgcom.c:234:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang  -o rdjpgcom rdjpgcom.o 
+clang -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I.   -c -o wrjpgcom.o wrjpgcom.c
+wrjpgcom.c:457:2: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+        for (;;) {
+        ^
+wrjpgcom.c:457:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:392:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  while ((ca = *arg++) != '\0') {
+  ^
+wrjpgcom.c:392:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:392:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:546:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while ((c = getc(src_file)) != EOF) {
+    ^
+wrjpgcom.c:546:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (;;) {
+  ^
+wrjpgcom.c:299:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+wrjpgcom.c:299:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:96:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  c = NEXTBYTE();
+      ^
+wrjpgcom.c:96:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:194:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (c != 0xFF) {
+  ^
+wrjpgcom.c:194:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrjpgcom.c:124:3: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+  PUTBYTE(c);
+  ^
+wrjpgcom.c:569:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    while (comment_length > 0) {
+    ^
+wrjpgcom.c:146:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while ((c = NEXTBYTE()) != EOF)
+  ^
+wrjpgcom.c:146:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+clang  -o wrjpgcom wrjpgcom.o 

@@ -1,0 +1,56 @@
+jcmarker.c:504:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcmarker.c:504:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmarker.c:520:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (compptr->dc_tbl_no > 1 || compptr->ac_tbl_no > 1)
+          ^
+jcmarker.c:518:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jcmarker.c:571:6: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        if (cinfo->Ss == 0) {
+            ^
+jcmarker.c:567:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < cinfo->comps_in_scan; i++) {
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:320:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i < cinfo->comps_in_scan; i++) {
+  ^
+jcmarker.c:156:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < DCTSIZE2; i++) {
+  ^
+jcmarker.c:156:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:168:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < DCTSIZE2; i++) {
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:168:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < DCTSIZE2; i++) {
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:298:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:210:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 1; i <= 16; i++)
+    ^
+jcmarker.c:115:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (! (*dest->empty_output_buffer) (cinfo))
+        ^
+jcmarker.c:213:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < length; i++)
+    ^

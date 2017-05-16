@@ -1,0 +1,209 @@
+rdswitch.c:27:6: note: not vectorized: control flow in loop.
+rdswitch.c:27:6: note: bad loop form.
+rdswitch.c:31:5: note: not vectorized: number of iterations cannot be computed.
+rdswitch.c:31:5: note: bad loop form.
+rdswitch.c:27:6: note: not vectorized: control flow in loop.
+rdswitch.c:27:6: note: bad loop form.
+rdswitch.c:31:5: note: not vectorized: number of iterations cannot be computed.
+rdswitch.c:31:5: note: bad loop form.
+rdswitch.c:27:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:28:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:31:5: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:48:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:49:17: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:52:3: note: not consecutive access _15 = *_14;
+rdswitch.c:52:3: note: not consecutive access _11 = *_10;
+rdswitch.c:52:3: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:54:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:55:15: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:59:7: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:61:8: note: not consecutive access _27 = *_26;
+rdswitch.c:61:8: note: not consecutive access _23 = *_69;
+rdswitch.c:61:8: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:64:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:27:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:28:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:31:5: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:60:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:67:13: note: not consecutive access *result_32(D) = val_61;
+rdswitch.c:67:13: note: not consecutive access *termchar_16(D) = ch_47;
+rdswitch.c:67:13: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:67:13: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:139:9: note: not vectorized: multiple nested loops.
+rdswitch.c:139:9: note: bad loop form.
+rdswitch.c:31:5: note: not vectorized: number of iterations cannot be computed.
+rdswitch.c:31:5: note: bad loop form.
+rdswitch.c:139:23: note: not vectorized: control flow in loop.
+rdswitch.c:139:23: note: bad loop form.
+rdswitch.c:138:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:27:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:28:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:31:5: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:139:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:139:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:139:20: note: not consecutive access _11 = *_10;
+rdswitch.c:139:20: note: not consecutive access _7 = *_34;
+rdswitch.c:139:20: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:141:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:142:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:149:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:149:32: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:152:13: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:152:13: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:141:6: note: not consecutive access _57 = *_34;
+rdswitch.c:141:6: note: not consecutive access _61 = MEM[(const short unsigned int *)_57 + -2B];
+rdswitch.c:141:6: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:96:10: note: not vectorized: control flow in loop.
+rdswitch.c:96:10: note: bad loop form.
+rdswitch.c:104:13: note: not vectorized: control flow in loop.
+rdswitch.c:104:13: note: bad loop form.
+rdswitch.c:90:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:97:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:99:7: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:102:14: note: not consecutive access val.1_14 = val;
+rdswitch.c:102:14: note: not consecutive access table[0] = _15;
+rdswitch.c:102:14: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:104:13: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:104:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:106:2: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:103:5: note: not consecutive access val.1_19 = val;
+rdswitch.c:103:5: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:112:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:96:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:96:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:115:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:117:5: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:73:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not vectorized: control flow in loop.
+rdswitch.c:136:9: note: bad loop form.
+rdswitch.c:136:9: note: not vectorized: control flow in loop.
+rdswitch.c:136:9: note: bad loop form.
+rdswitch.c:182:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:190:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:192:7: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:197:11: note: not consecutive access termchar.5_17 = termchar;
+rdswitch.c:197:11: note: not consecutive access val.4_18 = val;
+rdswitch.c:197:11: note: not consecutive access scanptr_3->component_index[0] = _19;
+rdswitch.c:197:11: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:198:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:201:2: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:233:7: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:204:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:197:11: note: not consecutive access termchar.5_21 = termchar;
+rdswitch.c:197:11: note: not consecutive access val.4_24 = val;
+rdswitch.c:197:11: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:210:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:211:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:211:52: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not consecutive access val.4_35 = val;
+rdswitch.c:136:9: note: not consecutive access scanptr_3->Ss = _36;
+rdswitch.c:136:9: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:136:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:214:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:214:52: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not consecutive access val.4_41 = val;
+rdswitch.c:136:9: note: not consecutive access scanptr_3->Se = _42;
+rdswitch.c:136:9: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:136:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:217:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:217:52: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not consecutive access val.4_47 = val;
+rdswitch.c:136:9: note: not consecutive access scanptr_3->Ah = _48;
+rdswitch.c:136:9: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:136:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:220:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:222:19: note: not consecutive access val.4_52 = val;
+rdswitch.c:222:19: note: not consecutive access scanptr_3->Al = _53;
+rdswitch.c:222:19: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:228:19: note: interleaved store with gaps
+rdswitch.c:228:19: note: not vectorized: complicated access pattern.
+rdswitch.c:228:19: note: not consecutive access scanptr_3->Se = 63;
+rdswitch.c:228:19: note: not consecutive access scanptr_3->Ah = 0;
+rdswitch.c:228:19: note: not consecutive access scanptr_3->Al = 0;
+rdswitch.c:228:19: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:230:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:236:22: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:9: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:136:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:239:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:189:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:241:5: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:245:6: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:250:13: note: not consecutive access _74 = _73->alloc_small;
+rdswitch.c:250:13: note: not consecutive access _73 = cinfo_72(D)->mem;
+rdswitch.c:250:13: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:255:22: note: not consecutive access cinfo_72(D)->scan_info = scanptr_78;
+rdswitch.c:255:22: note: not consecutive access cinfo_72(D)->num_scans = scanno_104;
+rdswitch.c:255:22: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:158:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:277:9: note: not vectorized: control flow in loop.
+rdswitch.c:277:9: note: bad loop form.
+rdswitch.c:289:14: note: not vectorized: control flow in loop.
+rdswitch.c:289:14: note: bad loop form.
+rdswitch.c:272:7: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:277:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:279:11: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:279:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:281:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:283:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:288:41: note: not consecutive access _30->quant_tbl_no = val.8_25;
+rdswitch.c:288:41: note: not consecutive access _27 = cinfo_13(D)->comp_info;
+rdswitch.c:288:41: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:289:13: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:289:19: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:293:41: note: not consecutive access _17->quant_tbl_no = val.8_18;
+rdswitch.c:293:41: note: not consecutive access val.8_18 = val;
+rdswitch.c:293:41: note: not consecutive access _14 = cinfo_13(D)->comp_info;
+rdswitch.c:293:41: note: not vectorized: no grouped stores in basic block.
+rdswitch.c:276:3: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:266:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:311:9: note: not vectorized: control flow in loop.
+rdswitch.c:311:9: note: bad loop form.
+rdswitch.c:323:14: note: not vectorized: control flow in loop.
+rdswitch.c:323:14: note: bad loop form.
+rdswitch.c:301:1: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:311:8: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:313:11: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:313:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:315:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:315:38: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:317:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:317:46: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:322:42: note: not consecutive access _32 = cinfo_12(D)->comp_info;
+rdswitch.c:322:42: note: Build SLP failed: unrolling required in basic block SLP
+rdswitch.c:322:42: note: not consecutive access _32 = cinfo_12(D)->comp_info;
+rdswitch.c:322:42: note: Build SLP failed: unrolling required in basic block SLP
+rdswitch.c:323:13: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:323:19: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:328:42: note: not consecutive access _13 = cinfo_12(D)->comp_info;
+rdswitch.c:328:42: note: Build SLP failed: unrolling required in basic block SLP
+rdswitch.c:328:42: note: not consecutive access _13 = cinfo_12(D)->comp_info;
+rdswitch.c:328:42: note: Build SLP failed: unrolling required in basic block SLP
+rdswitch.c:310:3: note: not vectorized: not enough data-refs in basic block.
+rdswitch.c:301:1: note: not vectorized: not enough data-refs in basic block.

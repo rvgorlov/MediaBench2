@@ -1,0 +1,415 @@
+rdbmp.c:138:3: note: not vectorized: not suitable for gather load _26 = *_25;
+
+rdbmp.c:138:3: note: bad data references.
+rdbmp.c:131:13: note: not consecutive access _13 = _12->access_virt_sarray;
+rdbmp.c:131:13: note: not consecutive access _12 = cinfo_11(D)->mem;
+rdbmp.c:131:13: note: not consecutive access _8 = MEM[(struct _bmp_source_struct *)sinfo_5(D)].source_row;
+rdbmp.c:131:13: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_5(D)].source_row = _9;
+rdbmp.c:131:13: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:138:3: note: not consecutive access outptr_19 = *_18;
+rdbmp.c:138:3: note: not consecutive access inptr_17 = *image_ptr_16;
+rdbmp.c:138:3: note: not consecutive access col_20 = cinfo_11(D)->image_width;
+rdbmp.c:138:3: note: not consecutive access _18 = MEM[(struct _bmp_source_struct *)sinfo_5(D)].pub.buffer;
+rdbmp.c:138:3: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:145:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:138:3: note: not consecutive access _26 = *_25;
+rdbmp.c:138:3: note: not consecutive access _30 = *_29;
+rdbmp.c:138:3: note: not consecutive access _35 = *_34;
+rdbmp.c:138:3: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:138:3: note: not consecutive access _26 = *_25;
+rdbmp.c:138:3: note: not consecutive access _30 = *_29;
+rdbmp.c:138:3: note: not consecutive access _35 = *_34;
+rdbmp.c:138:3: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between *inptr_32 and MEM[(JSAMPLE *)outptr_34 + 2B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between *inptr_32 and MEM[(JSAMPLE *)outptr_34 + 1B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between *inptr_32 and *outptr_34
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)outptr_34 + 2B] and MEM[(JSAMPLE *)inptr_32 + 1B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)outptr_34 + 2B] and MEM[(JSAMPLE *)inptr_32 + 2B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_32 + 1B] and MEM[(JSAMPLE *)outptr_34 + 1B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_32 + 1B] and *outptr_34
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)outptr_34 + 1B] and MEM[(JSAMPLE *)inptr_32 + 2B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_32 + 2B] and *outptr_34
+rdbmp.c:169:3: note: unsupported vect permute { 2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 17 16 15 20 19 18 23 22 21 26 25 24 29 28 27 32 31 }
+rdbmp.c:169:3: note: Build SLP failed: unsupported load permutation *outptr_34 = _25;
+
+rdbmp.c:169:3: note: vector alignment may not be reachable
+rdbmp.c:169:3: note: virtual phi. skip.
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V32QI[3]
+rdbmp.c:169:3: note: shuffle of 3 loads is not supported by target
+rdbmp.c:169:3: note: not vectorized: relevant stmt not supported: _20 = *inptr_32;
+rdbmp.c:169:3: note: bad operation or unsupported loop bound.
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between *inptr_32 and MEM[(JSAMPLE *)outptr_34 + 2B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between *inptr_32 and MEM[(JSAMPLE *)outptr_34 + 1B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between *inptr_32 and *outptr_34
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)outptr_34 + 2B] and MEM[(JSAMPLE *)inptr_32 + 1B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)outptr_34 + 2B] and MEM[(JSAMPLE *)inptr_32 + 2B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_32 + 1B] and MEM[(JSAMPLE *)outptr_34 + 1B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_32 + 1B] and *outptr_34
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)outptr_34 + 1B] and MEM[(JSAMPLE *)inptr_32 + 2B]
+rdbmp.c:169:3: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_32 + 2B] and *outptr_34
+rdbmp.c:169:3: note: permutation requires at least three vectors _25 = MEM[(JSAMPLE *)inptr_32 + 2B];
+
+rdbmp.c:169:3: note: Build SLP failed: unsupported load permutation *outptr_34 = _25;
+
+rdbmp.c:169:3: note: vector alignment may not be reachable
+rdbmp.c:169:3: note: virtual phi. skip.
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: not ssa-name.
+rdbmp.c:169:3: note: use not simple.
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: virtual phi. skip.
+rdbmp.c:169:3: note: loop vectorized
+rdbmp.c:169:3: note: loop versioned for vectorization because of possible aliasing
+rdbmp.c:169:3: note: virtual phi. skip.
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: Data access with gaps requires scalar epilogue loop
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:169:3: note: no array mode for V16QI[3]
+rdbmp.c:160:13: note: not consecutive access _12 = _11->access_virt_sarray;
+rdbmp.c:160:13: note: not consecutive access _11 = cinfo_10(D)->mem;
+rdbmp.c:160:13: note: not consecutive access _13 = MEM[(struct _bmp_source_struct *)sinfo_5(D)].whole_image;
+rdbmp.c:160:13: note: not consecutive access _7 = MEM[(struct _bmp_source_struct *)sinfo_5(D)].source_row;
+rdbmp.c:160:13: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_5(D)].source_row = _8;
+rdbmp.c:160:13: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:169:3: note: not consecutive access outptr_18 = *_17;
+rdbmp.c:169:3: note: not consecutive access inptr_16 = *image_ptr_15;
+rdbmp.c:169:3: note: not consecutive access col_19 = cinfo_10(D)->image_width;
+rdbmp.c:169:3: note: not consecutive access _17 = MEM[(struct _bmp_source_struct *)sinfo_5(D)].pub.buffer;
+rdbmp.c:169:3: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:176:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:176:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:176:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:172:15: note: not vectorized: no vectype for stmt: vect__20.44_90 = MEM[(JSAMPLE *)vectp_inptr.42_88];
+ scalar_type: vector(16) unsigned char
+rdbmp.c:172:15: note: not vectorized: no vectype for stmt: vect__20.45_92 = MEM[(JSAMPLE *)vectp_inptr.42_91];
+ scalar_type: vector(16) unsigned char
+rdbmp.c:172:15: note: not vectorized: no vectype for stmt: vect__20.46_94 = MEM[(JSAMPLE *)vectp_inptr.42_93];
+ scalar_type: vector(16) unsigned char
+rdbmp.c:172:15: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.47_101] = vect_shuffle3_high_104;
+ scalar_type: vector(16) unsigned char
+rdbmp.c:172:15: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.47_110] = vect_shuffle3_high_106;
+ scalar_type: vector(16) unsigned char
+rdbmp.c:172:15: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.47_112] = vect_shuffle3_high_108;
+ scalar_type: vector(16) unsigned char
+rdbmp.c:172:15: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:169:3: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:169:3: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:169:3: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:169:3: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:169:3: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:415:1: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:198:3: note: not vectorized: control flow in loop.
+rdbmp.c:198:3: note: bad loop form.
+rdbmp.c:208:5: note: not vectorized: control flow in loop.
+rdbmp.c:208:5: note: bad loop form.
+rdbmp.c:198:3: note: not consecutive access progress_14 = cinfo_13(D)->progress;
+rdbmp.c:198:3: note: not consecutive access _63 = cinfo_13(D)->image_height;
+rdbmp.c:198:3: note: not consecutive access infile_12 = MEM[(struct _bmp_source_struct *)sinfo_10(D)].pub.input_file;
+rdbmp.c:198:3: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:215:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:199:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:202:8: note: not consecutive access _20 = progress_14->pub.progress_monitor;
+rdbmp.c:202:8: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:202:8: note: not consecutive access _20 = progress_14->pub.progress_monitor;
+rdbmp.c:202:8: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:202:8: note: not vectorized: vectorization is not profitable.
+rdbmp.c:204:15: note: not consecutive access _23 = _22->access_virt_sarray;
+rdbmp.c:204:15: note: not consecutive access _22 = cinfo_13(D)->mem;
+rdbmp.c:204:15: note: not consecutive access _24 = MEM[(struct _bmp_source_struct *)sinfo_10(D)].whole_image;
+rdbmp.c:204:15: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:208:5: note: not consecutive access out_ptr_27 = *image_ptr_26;
+rdbmp.c:208:5: note: not consecutive access col_28 = MEM[(struct _bmp_source_struct *)sinfo_10(D)].row_width;
+rdbmp.c:208:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:198:3: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:210:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:210:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:211:2: note: not consecutive access _33 = _31->error_exit;
+rdbmp.c:211:2: note: not consecutive access _31->msg_code = 43;
+rdbmp.c:211:2: note: not consecutive access _31 = cinfo_13(D)->err;
+rdbmp.c:211:2: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:208:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:216:37: note: not consecutive access _40 = progress_14->completed_extra_passes;
+rdbmp.c:216:37: note: not consecutive access progress_14->completed_extra_passes = _41;
+rdbmp.c:216:37: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:219:3: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:221:32: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:224:32: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:227:5: note: not consecutive access _48 = _46->error_exit;
+rdbmp.c:227:5: note: not consecutive access _46->msg_code = 1002;
+rdbmp.c:227:5: note: not consecutive access _46 = cinfo_13(D)->err;
+rdbmp.c:227:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:227:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:232:11: note: not consecutive access _50 = cinfo_13(D)->image_height;
+rdbmp.c:232:11: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_10(D)].source_row = _50;
+rdbmp.c:232:11: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:232:11: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:380:9: note: not vectorized: number of iterations cannot be computed.
+rdbmp.c:380:9: note: bad loop form.
+rdbmp.c:371:9: note: not vectorized: control flow in loop.
+rdbmp.c:371:9: note: bad loop form.
+rdbmp.c:89:5: note: not vectorized: control flow in loop.
+rdbmp.c:89:5: note: bad loop form.
+rdbmp.c:97:5: note: not vectorized: control flow in loop.
+rdbmp.c:97:5: note: bad loop form.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:265:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:266:5: note: not consecutive access _32 = _29->error_exit;
+rdbmp.c:266:5: note: not consecutive access _29->msg_code = 43;
+rdbmp.c:266:5: note: not consecutive access _29 = cinfo_28(D)->err;
+rdbmp.c:266:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:267:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:268:5: note: not consecutive access _43 = _40->error_exit;
+rdbmp.c:268:5: note: not consecutive access _40->msg_code = 1007;
+rdbmp.c:268:5: note: not consecutive access _40 = cinfo_28(D)->err;
+rdbmp.c:268:5: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not consecutive access _59 = MEM[(struct _bmp_source_struct *)sinfo_25(D)].pub.input_file;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:10: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:275:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:276:5: note: not consecutive access _63 = _60->error_exit;
+rdbmp.c:276:5: note: not consecutive access _60->msg_code = 43;
+rdbmp.c:276:5: note: not consecutive access _60 = cinfo_28(D)->err;
+rdbmp.c:276:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:278:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:279:5: note: not consecutive access _84 = _81->error_exit;
+rdbmp.c:279:5: note: not consecutive access _81->msg_code = 1003;
+rdbmp.c:279:5: note: not consecutive access _81 = cinfo_28(D)->err;
+rdbmp.c:279:5: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:290:9: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:280:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:281:5: note: not consecutive access _91 = _89->error_exit;
+rdbmp.c:281:5: note: not consecutive access _89->msg_code = 43;
+rdbmp.c:281:5: note: not consecutive access _89 = cinfo_28(D)->err;
+rdbmp.c:281:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:283:3: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:291:5: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].bits_per_pixel = _120;
+rdbmp.c:291:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:294:7: note: not consecutive access _128 = _122->emit_message;
+rdbmp.c:294:7: note: not consecutive access _122 = cinfo_28(D)->err;
+rdbmp.c:294:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:294:7: note: not consecutive access _128 = _122->emit_message;
+rdbmp.c:294:7: note: not consecutive access _122 = cinfo_28(D)->err;
+rdbmp.c:294:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:303:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:297:7: note: not consecutive access _136 = _130->emit_message;
+rdbmp.c:297:7: note: not consecutive access _130 = cinfo_28(D)->err;
+rdbmp.c:297:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:297:7: note: not consecutive access _136 = _130->emit_message;
+rdbmp.c:297:7: note: not consecutive access _130 = cinfo_28(D)->err;
+rdbmp.c:297:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:300:7: note: not consecutive access _140 = _138->error_exit;
+rdbmp.c:300:7: note: not consecutive access _138->msg_code = 1002;
+rdbmp.c:300:7: note: not consecutive access _138 = cinfo_28(D)->err;
+rdbmp.c:300:7: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:304:7: note: not consecutive access _144 = _142->error_exit;
+rdbmp.c:304:7: note: not consecutive access _142->msg_code = 1004;
+rdbmp.c:304:7: note: not consecutive access _142 = cinfo_28(D)->err;
+rdbmp.c:304:7: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:353:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:353:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:320:5: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].bits_per_pixel = _186;
+rdbmp.c:320:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:323:7: note: not consecutive access _250 = _244->emit_message;
+rdbmp.c:323:7: note: not consecutive access _244 = cinfo_28(D)->err;
+rdbmp.c:323:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:323:7: note: not consecutive access _250 = _244->emit_message;
+rdbmp.c:323:7: note: not consecutive access _244 = cinfo_28(D)->err;
+rdbmp.c:323:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:326:7: note: not consecutive access _258 = _252->emit_message;
+rdbmp.c:326:7: note: not consecutive access _252 = cinfo_28(D)->err;
+rdbmp.c:326:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:326:7: note: not consecutive access _258 = _252->emit_message;
+rdbmp.c:326:7: note: not consecutive access _252 = cinfo_28(D)->err;
+rdbmp.c:326:7: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:329:7: note: not consecutive access _262 = _260->error_exit;
+rdbmp.c:329:7: note: not consecutive access _260->msg_code = 1002;
+rdbmp.c:329:7: note: not consecutive access _260 = cinfo_28(D)->err;
+rdbmp.c:329:7: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:332:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:333:7: note: not consecutive access _266 = _264->error_exit;
+rdbmp.c:333:7: note: not consecutive access _264->msg_code = 1004;
+rdbmp.c:333:7: note: not consecutive access _264 = cinfo_28(D)->err;
+rdbmp.c:333:7: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:334:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:335:7: note: not consecutive access _270 = _268->error_exit;
+rdbmp.c:335:7: note: not consecutive access _268->msg_code = 1006;
+rdbmp.c:335:7: note: not consecutive access _268 = cinfo_28(D)->err;
+rdbmp.c:335:7: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:337:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:341:27: note: not consecutive access cinfo_28(D)->density_unit = 2;
+rdbmp.c:341:27: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:341:27: note: not consecutive access cinfo_28(D)->density_unit = 2;
+rdbmp.c:341:27: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:345:5: note: not consecutive access _284 = _282->error_exit;
+rdbmp.c:345:5: note: not consecutive access _282->msg_code = 1003;
+rdbmp.c:345:5: note: not consecutive access _282 = cinfo_28(D)->err;
+rdbmp.c:345:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:350:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:353:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:353:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:354:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:354:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:356:13: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:356:13: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:357:7: note: not consecutive access _290 = _288->error_exit;
+rdbmp.c:357:7: note: not consecutive access _288->msg_code = 1001;
+rdbmp.c:357:7: note: not consecutive access _288 = cinfo_28(D)->err;
+rdbmp.c:357:7: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:357:7: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:359:25: note: not consecutive access _293 = _292->alloc_sarray;
+rdbmp.c:359:25: note: not consecutive access _292 = cinfo_28(D)->mem;
+rdbmp.c:359:25: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:86:3: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:97:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:89:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:74:6: note: not consecutive access _362 = MEM[(JSAMPLE * *)prephitmp_752 + 16B];
+rdbmp.c:74:6: note: not consecutive access _366 = MEM[(struct FILE * *)sinfo_25(D) + 24B];
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _413 = _412->err;
+rdbmp.c:75:5: note: not consecutive access _414 = _413->error_exit;
+rdbmp.c:75:5: note: not consecutive access _413->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _412 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not consecutive access *_365 = _369;
+rdbmp.c:74:6: note: not consecutive access _371 = MEM[(JSAMPLE * *)_370 + 8B];
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _416 = _415->err;
+rdbmp.c:75:5: note: not consecutive access _417 = _416->error_exit;
+rdbmp.c:75:5: note: not consecutive access _416->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _415 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not consecutive access *_372 = _375;
+rdbmp.c:74:6: note: not consecutive access _377 = *_376;
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _419 = _418->err;
+rdbmp.c:75:5: note: not consecutive access _420 = _419->error_exit;
+rdbmp.c:75:5: note: not consecutive access _419->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _418 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:89:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:89:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:74:6: note: not consecutive access _384 = MEM[(JSAMPLE * *)prephitmp_756 + 16B];
+rdbmp.c:74:6: note: not consecutive access _388 = MEM[(struct FILE * *)sinfo_25(D) + 24B];
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _422 = _421->err;
+rdbmp.c:75:5: note: not consecutive access _423 = _422->error_exit;
+rdbmp.c:75:5: note: not consecutive access _422->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _421 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not consecutive access *_387 = _391;
+rdbmp.c:74:6: note: not consecutive access _393 = MEM[(JSAMPLE * *)_392 + 8B];
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _425 = _424->err;
+rdbmp.c:75:5: note: not consecutive access _426 = _425->error_exit;
+rdbmp.c:75:5: note: not consecutive access _425->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _424 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not consecutive access *_394 = _397;
+rdbmp.c:74:6: note: not consecutive access _399 = *_398;
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _428 = _427->err;
+rdbmp.c:75:5: note: not consecutive access _429 = _428->error_exit;
+rdbmp.c:75:5: note: not consecutive access _428->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _427 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not consecutive access *_400 = _403;
+rdbmp.c:74:6: note: not consecutive access _404 = MEM[(struct FILE * *)sinfo_25(D) + 24B];
+rdbmp.c:74:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _431 = _430->err;
+rdbmp.c:75:5: note: not consecutive access _432 = _431->error_exit;
+rdbmp.c:75:5: note: not consecutive access _431->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _430 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:97:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:97:5: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:105:5: note: not consecutive access _408 = _407->err;
+rdbmp.c:105:5: note: not consecutive access _409 = _408->error_exit;
+rdbmp.c:105:5: note: not consecutive access _408->msg_code = 1001;
+rdbmp.c:105:5: note: not consecutive access _407 = MEM[(struct _bmp_source_struct *)sinfo_25(D)].cinfo;
+rdbmp.c:105:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:365:10: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:369:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:370:5: note: not consecutive access _305 = _303->error_exit;
+rdbmp.c:370:5: note: not consecutive access _303->msg_code = 1003;
+rdbmp.c:370:5: note: not consecutive access _303 = cinfo_28(D)->err;
+rdbmp.c:370:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:74:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:75:5: note: not consecutive access _434 = _433->err;
+rdbmp.c:75:5: note: not consecutive access _435 = _434->error_exit;
+rdbmp.c:75:5: note: not consecutive access _434->msg_code = 43;
+rdbmp.c:75:5: note: not consecutive access _433 = MEM[(struct jpeg_compress_struct * *)sinfo_25(D) + 48B];
+rdbmp.c:75:5: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:371:9: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:376:6: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:380:9: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:380:9: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:384:26: note: not consecutive access _316 = _315->request_virt_sarray;
+rdbmp.c:384:26: note: not consecutive access _315 = cinfo_28(D)->mem;
+rdbmp.c:384:26: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].row_width = row_width_389;
+rdbmp.c:384:26: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:388:6: note: not consecutive access _322 = cinfo_28(D)->progress;
+rdbmp.c:388:6: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].pub.get_pixel_rows = preload_image;
+rdbmp.c:388:6: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].whole_image = _319;
+rdbmp.c:388:6: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:390:33: note: not consecutive access _323 = MEM[(struct cdjpeg_progress_mgr *)_322].total_extra_passes;
+rdbmp.c:390:33: note: not consecutive access MEM[(struct cdjpeg_progress_mgr *)_322].total_extra_passes = _324;
+rdbmp.c:390:33: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:394:25: note: not consecutive access _327 = _326->alloc_sarray;
+rdbmp.c:394:25: note: not consecutive access _326 = cinfo_28(D)->mem;
+rdbmp.c:394:25: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:404:1: note: not consecutive access cinfo_28(D)->input_components = 3;
+rdbmp.c:404:1: note: not consecutive access cinfo_28(D)->in_color_space = 2;
+rdbmp.c:404:1: note: not consecutive access cinfo_28(D)->data_precision = 8;
+rdbmp.c:404:1: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].pub.buffer = _331;
+rdbmp.c:404:1: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].pub.buffer_height = 1;
+rdbmp.c:404:1: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:404:1: note: not consecutive access cinfo_28(D)->input_components = 3;
+rdbmp.c:404:1: note: not consecutive access cinfo_28(D)->in_color_space = 2;
+rdbmp.c:404:1: note: not consecutive access cinfo_28(D)->data_precision = 8;
+rdbmp.c:404:1: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].pub.buffer = _331;
+rdbmp.c:404:1: note: not consecutive access MEM[(struct _bmp_source_struct *)sinfo_25(D)].pub.buffer_height = 1;
+rdbmp.c:404:1: note: Build SLP failed: unrolling required in basic block SLP
+rdbmp.c:350:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:303:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:350:8: note: not vectorized: not enough data-refs in basic block.
+rdbmp.c:428:10: note: not consecutive access _4 = _3->alloc_small;
+rdbmp.c:428:10: note: not consecutive access _3 = cinfo_2(D)->mem;
+rdbmp.c:428:10: note: not vectorized: no grouped stores in basic block.
+rdbmp.c:436:10: note: not consecutive access source_6->pub.start_input = start_input_bmp;
+rdbmp.c:436:10: note: not consecutive access source_6->pub.finish_input = finish_input_bmp;
+rdbmp.c:436:10: note: not consecutive access source_6->cinfo = cinfo_2(D);
+rdbmp.c:436:10: note: not vectorized: no grouped stores in basic block.

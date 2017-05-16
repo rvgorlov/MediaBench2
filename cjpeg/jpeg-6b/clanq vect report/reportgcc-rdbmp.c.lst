@@ -1,0 +1,42 @@
+rdbmp.c:75:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdbmp.c:97:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < cmaplen; i++) {
+    ^
+rdbmp.c:75:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdbmp.c:89:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < cmaplen; i++) {
+    ^
+rdbmp.c:75:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdbmp.c:371:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (--bPad >= 0) {
+  ^
+rdbmp.c:380:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  while ((row_width & 3) != 0) row_width++;
+  ^
+rdbmp.c:380:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+rdbmp.c:211:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_INPUT_EOF);
+        ^
+rdbmp.c:208:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = source->row_width; col > 0; col--) {
+    ^
+rdbmp.c:211:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_INPUT_EOF);
+        ^
+rdbmp.c:208:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = source->row_width; col > 0; col--) {
+    ^
+rdbmp.c:138:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdbmp.c:138:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdbmp.c:169:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdbmp.c:169:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]

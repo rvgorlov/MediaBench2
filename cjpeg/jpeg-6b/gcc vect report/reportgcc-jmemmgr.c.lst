@@ -1,0 +1,630 @@
+jmemmgr.c:300:10: note: not vectorized: control flow in loop.
+jmemmgr.c:300:10: note: bad loop form.
+jmemmgr.c:282:18: note: not vectorized: control flow in loop.
+jmemmgr.c:282:18: note: bad loop form.
+jmemmgr.c:266:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _59 = _58->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _58 = cinfo_12(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _59 = _58->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _58 = cinfo_12(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:271:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:272:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:275:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:276:5: note: not consecutive access _25 = _20->error_exit;
+jmemmgr.c:276:5: note: not consecutive access _20 = cinfo_12(D)->err;
+jmemmgr.c:276:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:276:5: note: not consecutive access _25 = _20->error_exit;
+jmemmgr.c:276:5: note: not consecutive access _20 = cinfo_12(D)->err;
+jmemmgr.c:276:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:279:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:279:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:291:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:293:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:295:16: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:299:15: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:300:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:303:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _61 = _60->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _60 = cinfo_12(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _61 = _60->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _60 = cinfo_12(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:311:8: note: not consecutive access _40 = mem_13->total_space_allocated;
+jmemmgr.c:311:8: note: not consecutive access mem_13->total_space_allocated = _43;
+jmemmgr.c:311:8: note: not consecutive access hdr_ptr_97->hdr.next = 0B;
+jmemmgr.c:311:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:311:8: note: not consecutive access _40 = mem_13->total_space_allocated;
+jmemmgr.c:311:8: note: not consecutive access mem_13->total_space_allocated = _43;
+jmemmgr.c:311:8: note: not consecutive access hdr_ptr_97->hdr.next = 0B;
+jmemmgr.c:311:8: note: Build SLP failed: different operation in stmt hdr_ptr_97->hdr.bytes_left = _47;
+jmemmgr.c:311:8: note: original stmt hdr_ptr_97->hdr.bytes_used = 0;
+jmemmgr.c:312:32: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:314:30: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:323:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:323:10: note: not vectorized: vectorization is not profitable.
+jmemmgr.c:290:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:289:17: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:984:9: note: not vectorized: number of iterations cannot be computed.
+jmemmgr.c:984:9: note: bad loop form.
+jmemmgr.c:970:9: note: not vectorized: number of iterations cannot be computed.
+jmemmgr.c:970:9: note: bad loop form.
+jmemmgr.c:957:5: note: not vectorized: control flow in loop.
+jmemmgr.c:957:5: note: bad loop form.
+jmemmgr.c:950:5: note: not vectorized: control flow in loop.
+jmemmgr.c:950:5: note: bad loop form.
+jmemmgr.c:937:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:938:5: note: not consecutive access _21 = _18->error_exit;
+jmemmgr.c:938:5: note: not consecutive access _18 = cinfo_14(D)->err;
+jmemmgr.c:938:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:938:5: note: not consecutive access _21 = _18->error_exit;
+jmemmgr.c:938:5: note: not consecutive access _18 = cinfo_14(D)->err;
+jmemmgr.c:938:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:946:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:950:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:957:5: note: not consecutive access bptr_31 = mem_15->virt_barray_list;
+jmemmgr.c:957:5: note: not consecutive access mem_15->virt_sarray_list = 0B;
+jmemmgr.c:957:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:951:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:953:3: note: not consecutive access _26 = sptr_74->b_s_info.close_backing_store;
+jmemmgr.c:953:3: note: not consecutive access sptr_74->b_s_open = 0;
+jmemmgr.c:953:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:950:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:963:27: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:958:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:960:3: note: not consecutive access _34 = bptr_77->b_s_info.close_backing_store;
+jmemmgr.c:960:3: note: not consecutive access bptr_77->b_s_open = 0;
+jmemmgr.c:960:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:957:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:970:9: note: not consecutive access lhdr_ptr_39 = mem_15->large_list[pool_id_16(D)];
+jmemmgr.c:970:9: note: not consecutive access mem_15->large_list[pool_id_16(D)] = 0B;
+jmemmgr.c:970:9: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:984:9: note: not consecutive access shdr_ptr_52 = mem_15->small_list[pool_id_16(D)];
+jmemmgr.c:984:9: note: not consecutive access mem_15->small_list[pool_id_16(D)] = 0B;
+jmemmgr.c:984:9: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:975:5: note: not consecutive access next_lhdr_ptr_41 = lhdr_ptr_73->hdr.next;
+jmemmgr.c:975:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:970:9: note: not consecutive access _47 = mem_15->total_space_allocated;
+jmemmgr.c:970:9: note: not consecutive access mem_15->total_space_allocated = _50;
+jmemmgr.c:970:9: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:993:1: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:989:5: note: not consecutive access next_shdr_ptr_54 = shdr_ptr_72->hdr.next;
+jmemmgr.c:989:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:984:9: note: not consecutive access _60 = mem_15->total_space_allocated;
+jmemmgr.c:984:9: note: not consecutive access mem_15->total_space_allocated = _63;
+jmemmgr.c:984:9: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:1011:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1011:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1015:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1018:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1019:1: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:350:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _35 = _34->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _34 = cinfo_6(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _35 = _34->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _34 = cinfo_6(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:355:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:356:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:359:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:360:5: note: not consecutive access _17 = _14->error_exit;
+jmemmgr.c:360:5: note: not consecutive access _14 = cinfo_6(D)->err;
+jmemmgr.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:360:5: note: not consecutive access _17 = _14->error_exit;
+jmemmgr.c:360:5: note: not consecutive access _14 = cinfo_6(D)->err;
+jmemmgr.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:362:11: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:364:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _37 = _36->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _36 = cinfo_6(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _37 = _36->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _36 = cinfo_6(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:377:10: note: not consecutive access _22 = mem_7->total_space_allocated;
+jmemmgr.c:377:10: note: not consecutive access mem_7->total_space_allocated = _26;
+jmemmgr.c:377:10: note: not consecutive access _28 = mem_7->large_list[pool_id_12(D)];
+jmemmgr.c:377:10: note: not consecutive access mem_7->large_list[pool_id_12(D)] = hdr_ptr_21;
+jmemmgr.c:377:10: note: not consecutive access hdr_ptr_21->hdr.next = _28;
+jmemmgr.c:377:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:377:10: note: not consecutive access _22 = mem_7->total_space_allocated;
+jmemmgr.c:377:10: note: not consecutive access mem_7->total_space_allocated = _26;
+jmemmgr.c:377:10: note: not consecutive access _28 = mem_7->large_list[pool_id_12(D)];
+jmemmgr.c:377:10: note: not consecutive access mem_7->large_list[pool_id_12(D)] = hdr_ptr_21;
+jmemmgr.c:377:10: note: not consecutive access hdr_ptr_21->hdr.next = _28;
+jmemmgr.c:377:10: note: Build SLP failed: different operation in stmt hdr_ptr_21->hdr.bytes_left = 0;
+jmemmgr.c:377:10: note: original stmt hdr_ptr_21->hdr.bytes_used = sizeofobject_1;
+jmemmgr.c:908:13: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jmemmgr.c:735:13: note: not vectorized: control flow in loop.
+jmemmgr.c:735:13: note: bad loop form.
+jmemmgr.c:735:13: note: not vectorized: control flow in loop.
+jmemmgr.c:735:13: note: bad loop form.
+jmemmgr.c:852:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:852:36: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:852:65: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:854:5: note: not consecutive access _25 = _23->error_exit;
+jmemmgr.c:854:5: note: not consecutive access _23->msg_code = 22;
+jmemmgr.c:854:5: note: not consecutive access _23 = cinfo_22(D)->err;
+jmemmgr.c:854:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:857:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:857:38: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:857:38: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:859:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:860:7: note: not consecutive access _33 = _31->error_exit;
+jmemmgr.c:860:7: note: not consecutive access _31->msg_code = 69;
+jmemmgr.c:860:7: note: not consecutive access _31 = cinfo_22(D)->err;
+jmemmgr.c:860:7: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:860:7: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:862:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:862:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:731:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:731:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:739:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:739:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:739:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:739:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:743:8: note: not consecutive access _109 = *_108;
+jmemmgr.c:743:8: note: not consecutive access _105 = ptr_18(D)->mem_buffer;
+jmemmgr.c:743:8: note: not consecutive access _104 = ptr_18(D)->b_s_info.write_backing_store;
+jmemmgr.c:743:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:731:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:731:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:864:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:873:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:874:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:882:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:731:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:739:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:739:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:739:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:747:8: note: not consecutive access _162 = *_161;
+jmemmgr.c:747:8: note: not consecutive access _158 = ptr_18(D)->mem_buffer;
+jmemmgr.c:747:8: note: not consecutive access _157 = ptr_18(D)->b_s_info.read_backing_store;
+jmemmgr.c:747:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:731:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:731:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:894:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:895:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:896:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:897:2: note: not consecutive access _51 = _49->error_exit;
+jmemmgr.c:897:2: note: not consecutive access _49->msg_code = 22;
+jmemmgr.c:897:2: note: not consecutive access _49 = cinfo_22(D)->err;
+jmemmgr.c:897:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:897:2: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:902:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:904:8: note: not consecutive access _54 = ptr_18(D)->pre_zero;
+jmemmgr.c:904:8: note: not consecutive access ptr_18(D)->first_undef_row = end_row_16;
+jmemmgr.c:904:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:908:13: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:909:2: note: not consecutive access _65 = *_64;
+jmemmgr.c:909:2: note: not consecutive access _61 = ptr_18(D)->mem_buffer;
+jmemmgr.c:909:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:908:13: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:908:13: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:913:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:913:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:914:2: note: not consecutive access _70 = _68->error_exit;
+jmemmgr.c:914:2: note: not consecutive access _68->msg_code = 22;
+jmemmgr.c:914:2: note: not consecutive access _68 = cinfo_22(D)->err;
+jmemmgr.c:914:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:914:2: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:914:2: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:918:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:919:16: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:921:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:904:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:823:13: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jmemmgr.c:702:13: note: not vectorized: control flow in loop.
+jmemmgr.c:702:13: note: bad loop form.
+jmemmgr.c:702:13: note: not vectorized: control flow in loop.
+jmemmgr.c:702:13: note: bad loop form.
+jmemmgr.c:767:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:767:36: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:767:65: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:769:5: note: not consecutive access _25 = _23->error_exit;
+jmemmgr.c:769:5: note: not consecutive access _23->msg_code = 22;
+jmemmgr.c:769:5: note: not consecutive access _23 = cinfo_22(D)->err;
+jmemmgr.c:769:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:772:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:772:38: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:772:38: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:774:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:775:7: note: not consecutive access _33 = _31->error_exit;
+jmemmgr.c:775:7: note: not consecutive access _31->msg_code = 69;
+jmemmgr.c:775:7: note: not consecutive access _31 = cinfo_22(D)->err;
+jmemmgr.c:775:7: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:775:7: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:777:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:777:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:698:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:698:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:706:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:706:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:706:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:706:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:710:8: note: not consecutive access _106 = *_105;
+jmemmgr.c:710:8: note: not consecutive access _102 = ptr_18(D)->mem_buffer;
+jmemmgr.c:710:8: note: not consecutive access _101 = ptr_18(D)->b_s_info.write_backing_store;
+jmemmgr.c:710:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:698:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:698:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:779:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:788:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:789:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:797:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:698:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:706:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:706:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:706:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:714:8: note: not consecutive access _157 = *_156;
+jmemmgr.c:714:8: note: not consecutive access _153 = ptr_18(D)->mem_buffer;
+jmemmgr.c:714:8: note: not consecutive access _152 = ptr_18(D)->b_s_info.read_backing_store;
+jmemmgr.c:714:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:698:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:698:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:809:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:810:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:811:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:812:2: note: not consecutive access _51 = _49->error_exit;
+jmemmgr.c:812:2: note: not consecutive access _49->msg_code = 22;
+jmemmgr.c:812:2: note: not consecutive access _49 = cinfo_22(D)->err;
+jmemmgr.c:812:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:812:2: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:817:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:819:8: note: not consecutive access _54 = ptr_18(D)->pre_zero;
+jmemmgr.c:819:8: note: not consecutive access ptr_18(D)->first_undef_row = end_row_16;
+jmemmgr.c:819:8: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:823:13: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:824:2: note: not consecutive access _64 = *_63;
+jmemmgr.c:824:2: note: not consecutive access _60 = ptr_18(D)->mem_buffer;
+jmemmgr.c:824:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:823:13: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:823:13: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:828:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:828:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:829:2: note: not consecutive access _69 = _67->error_exit;
+jmemmgr.c:829:2: note: not consecutive access _67->msg_code = 22;
+jmemmgr.c:829:2: note: not consecutive access _67 = cinfo_22(D)->err;
+jmemmgr.c:829:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:829:2: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:829:2: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:833:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:834:16: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:836:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:819:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:422:9: note: not vectorized: control flow in loop.
+jmemmgr.c:422:9: note: bad loop form.
+jmemmgr.c:427:5: note: not vectorized: not suitable for scatter store *_39 = workspace_103;
+
+jmemmgr.c:427:5: note: bad data references.
+jmemmgr.c:408:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:409:5: note: not consecutive access _19 = _17->error_exit;
+jmemmgr.c:409:5: note: not consecutive access _17->msg_code = 70;
+jmemmgr.c:409:5: note: not consecutive access _17 = cinfo_11(D)->err;
+jmemmgr.c:409:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:410:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:411:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:417:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:422:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:433:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:433:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:350:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _45 = _44->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _44 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _45 = _44->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _44 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:355:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:356:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:359:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:360:5: note: not consecutive access _51 = _50->error_exit;
+jmemmgr.c:360:5: note: not consecutive access _50 = cinfo_11(D)->err;
+jmemmgr.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:360:5: note: not consecutive access _51 = _50->error_exit;
+jmemmgr.c:360:5: note: not consecutive access _50 = cinfo_11(D)->err;
+jmemmgr.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:362:11: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:364:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _56 = _55->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _55 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _56 = _55->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _55 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:427:5: note: not consecutive access _57 = mem_43->total_space_allocated;
+jmemmgr.c:427:5: note: not consecutive access mem_43->total_space_allocated = _61;
+jmemmgr.c:427:5: note: not consecutive access _62 = mem_43->large_list[pool_id_27(D)];
+jmemmgr.c:427:5: note: not consecutive access mem_43->large_list[pool_id_27(D)] = hdr_ptr_54;
+jmemmgr.c:427:5: note: not consecutive access hdr_ptr_54->hdr.next = _62;
+jmemmgr.c:427:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:427:5: note: not consecutive access _57 = mem_43->total_space_allocated;
+jmemmgr.c:427:5: note: not consecutive access mem_43->total_space_allocated = _61;
+jmemmgr.c:427:5: note: not consecutive access _62 = mem_43->large_list[pool_id_27(D)];
+jmemmgr.c:427:5: note: not consecutive access mem_43->large_list[pool_id_27(D)] = hdr_ptr_54;
+jmemmgr.c:427:5: note: not consecutive access hdr_ptr_54->hdr.next = _62;
+jmemmgr.c:427:5: note: Build SLP failed: different operation in stmt hdr_ptr_54->hdr.bytes_left = 0;
+jmemmgr.c:427:5: note: original stmt hdr_ptr_54->hdr.bytes_used = sizeofobject_52;
+jmemmgr.c:427:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:427:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:422:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:470:9: note: not vectorized: control flow in loop.
+jmemmgr.c:470:9: note: bad loop form.
+jmemmgr.c:475:5: note: not vectorized: not suitable for scatter store *_41 = workspace_97;
+
+jmemmgr.c:475:5: note: bad data references.
+jmemmgr.c:456:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:457:5: note: not consecutive access _20 = _18->error_exit;
+jmemmgr.c:457:5: note: not consecutive access _18->msg_code = 70;
+jmemmgr.c:457:5: note: not consecutive access _18 = cinfo_11(D)->err;
+jmemmgr.c:457:5: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:458:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:459:18: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:465:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:470:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:481:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:481:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:350:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _47 = _46->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _46 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _47 = _46->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _46 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:359:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:360:5: note: not consecutive access _53 = _52->error_exit;
+jmemmgr.c:360:5: note: not consecutive access _52 = cinfo_11(D)->err;
+jmemmgr.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:360:5: note: not consecutive access _53 = _52->error_exit;
+jmemmgr.c:360:5: note: not consecutive access _52 = cinfo_11(D)->err;
+jmemmgr.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:362:11: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:364:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _58 = _57->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _57 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _58 = _57->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _57 = cinfo_11(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:475:5: note: not consecutive access _59 = mem_45->total_space_allocated;
+jmemmgr.c:475:5: note: not consecutive access mem_45->total_space_allocated = _63;
+jmemmgr.c:475:5: note: not consecutive access _64 = mem_45->large_list[pool_id_28(D)];
+jmemmgr.c:475:5: note: not consecutive access mem_45->large_list[pool_id_28(D)] = hdr_ptr_56;
+jmemmgr.c:475:5: note: not consecutive access hdr_ptr_56->hdr.next = _64;
+jmemmgr.c:475:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:475:5: note: not consecutive access _59 = mem_45->total_space_allocated;
+jmemmgr.c:475:5: note: not consecutive access mem_45->total_space_allocated = _63;
+jmemmgr.c:475:5: note: not consecutive access _64 = mem_45->large_list[pool_id_28(D)];
+jmemmgr.c:475:5: note: not consecutive access mem_45->large_list[pool_id_28(D)] = hdr_ptr_56;
+jmemmgr.c:475:5: note: not consecutive access hdr_ptr_56->hdr.next = _64;
+jmemmgr.c:475:5: note: Build SLP failed: different operation in stmt hdr_ptr_56->hdr.bytes_left = 0;
+jmemmgr.c:475:5: note: original stmt hdr_ptr_56->hdr.bytes_used = _35;
+jmemmgr.c:475:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:475:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:470:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:663:3: note: not vectorized: control flow in loop.
+jmemmgr.c:663:3: note: bad loop form.
+jmemmgr.c:639:3: note: not vectorized: control flow in loop.
+jmemmgr.c:639:3: note: bad loop form.
+jmemmgr.c:606:3: note: not vectorized: number of iterations cannot be computed.
+jmemmgr.c:606:3: note: bad loop form.
+jmemmgr.c:598:3: note: not vectorized: number of iterations cannot be computed.
+jmemmgr.c:598:3: note: bad loop form.
+jmemmgr.c:598:3: note: not consecutive access sptr_24 = mem_23->virt_sarray_list;
+jmemmgr.c:598:3: note: not consecutive access mem_23 = cinfo_22(D)->mem;
+jmemmgr.c:598:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:598:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:606:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:606:3: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:615:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:615:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:619:13: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:626:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:629:20: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:639:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:663:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:640:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:642:10: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:644:20: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:648:2: note: not consecutive access _80 = sptr_147->samplesperrow;
+jmemmgr.c:648:2: note: not consecutive access sptr_147->rows_in_mem = _78;
+jmemmgr.c:648:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:652:17: note: not consecutive access pretmp_156 = sptr_147->rows_in_mem;
+jmemmgr.c:652:17: note: not consecutive access sptr_147->b_s_open = 1;
+jmemmgr.c:652:17: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:654:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:659:19: note: not consecutive access _91 = mem_23->last_rowsperchunk;
+jmemmgr.c:659:19: note: not consecutive access sptr_147->mem_buffer = _89;
+jmemmgr.c:659:19: note: not consecutive access sptr_147->dirty = 0;
+jmemmgr.c:659:19: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:659:19: note: not consecutive access _91 = mem_23->last_rowsperchunk;
+jmemmgr.c:659:19: note: not consecutive access sptr_147->mem_buffer = _89;
+jmemmgr.c:659:19: note: not consecutive access sptr_147->dirty = 0;
+jmemmgr.c:659:19: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:639:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:664:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:666:10: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:668:20: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:672:2: note: not consecutive access _109 = bptr_149->blocksperrow;
+jmemmgr.c:672:2: note: not consecutive access bptr_149->rows_in_mem = _107;
+jmemmgr.c:672:2: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:676:17: note: not consecutive access pretmp_168 = bptr_149->rows_in_mem;
+jmemmgr.c:676:17: note: not consecutive access bptr_149->b_s_open = 1;
+jmemmgr.c:676:17: note: not vectorized: no grouped stores in basic block.
+jmemmgr.c:678:26: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:683:19: note: not consecutive access _121 = mem_23->last_rowsperchunk;
+jmemmgr.c:683:19: note: not consecutive access bptr_149->mem_buffer = _119;
+jmemmgr.c:683:19: note: not consecutive access bptr_149->dirty = 0;
+jmemmgr.c:683:19: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:683:19: note: not consecutive access _121 = mem_23->last_rowsperchunk;
+jmemmgr.c:683:19: note: not consecutive access bptr_149->mem_buffer = _119;
+jmemmgr.c:683:19: note: not consecutive access bptr_149->dirty = 0;
+jmemmgr.c:683:19: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:663:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:606:3: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:300:10: note: not vectorized: control flow in loop.
+jmemmgr.c:300:10: note: bad loop form.
+jmemmgr.c:282:18: note: not vectorized: control flow in loop.
+jmemmgr.c:282:18: note: bad loop form.
+jmemmgr.c:532:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:533:5: note: not consecutive access _9 = _6->error_exit;
+jmemmgr.c:533:5: note: not consecutive access _6 = cinfo_3(D)->err;
+jmemmgr.c:533:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:533:5: note: not consecutive access _9 = _6->error_exit;
+jmemmgr.c:533:5: note: not consecutive access _6 = cinfo_3(D)->err;
+jmemmgr.c:533:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:275:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:276:5: note: not consecutive access _34 = _33->error_exit;
+jmemmgr.c:276:5: note: not consecutive access _33 = cinfo_3(D)->err;
+jmemmgr.c:276:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:276:5: note: not consecutive access _34 = _33->error_exit;
+jmemmgr.c:276:5: note: not consecutive access _33 = cinfo_3(D)->err;
+jmemmgr.c:276:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:279:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:279:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:291:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:293:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:293:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:299:15: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:300:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:303:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _51 = _50->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _50 = cinfo_3(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _51 = _50->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _50 = cinfo_3(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:311:8: note: not consecutive access _52 = mem_109->total_space_allocated;
+jmemmgr.c:311:8: note: not consecutive access mem_109->total_space_allocated = _55;
+jmemmgr.c:311:8: note: not consecutive access hdr_ptr_96->hdr.next = 0B;
+jmemmgr.c:311:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:311:8: note: not consecutive access _52 = mem_109->total_space_allocated;
+jmemmgr.c:311:8: note: not consecutive access mem_109->total_space_allocated = _55;
+jmemmgr.c:311:8: note: not consecutive access hdr_ptr_96->hdr.next = 0B;
+jmemmgr.c:311:8: note: Build SLP failed: different operation in stmt hdr_ptr_96->hdr.bytes_left = _56;
+jmemmgr.c:311:8: note: original stmt hdr_ptr_96->hdr.bytes_used = 0;
+jmemmgr.c:312:32: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:314:30: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].mem_buffer = 0B;
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].next = _23;
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].pre_zero = pre_zero_20(D);
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].b_s_open = 0;
+jmemmgr.c:548:10: note: not consecutive access _23 = mem_4->virt_sarray_list;
+jmemmgr.c:548:10: note: not consecutive access mem_4->virt_sarray_list = data_ptr_60;
+jmemmgr.c:548:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:548:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].mem_buffer = 0B;
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].next = _23;
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].pre_zero = pre_zero_20(D);
+jmemmgr.c:548:10: note: not consecutive access MEM[(struct jvirt_sarray_control *)data_ptr_60].b_s_open = 0;
+jmemmgr.c:548:10: note: not consecutive access _23 = mem_4->virt_sarray_list;
+jmemmgr.c:548:10: note: not consecutive access mem_4->virt_sarray_list = data_ptr_60;
+jmemmgr.c:548:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:548:10: note: Build SLP failed: different types
+jmemmgr.c:290:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:300:10: note: not vectorized: control flow in loop.
+jmemmgr.c:300:10: note: bad loop form.
+jmemmgr.c:282:18: note: not vectorized: control flow in loop.
+jmemmgr.c:282:18: note: bad loop form.
+jmemmgr.c:562:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:563:5: note: not consecutive access _9 = _6->error_exit;
+jmemmgr.c:563:5: note: not consecutive access _6 = cinfo_3(D)->err;
+jmemmgr.c:563:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:563:5: note: not consecutive access _9 = _6->error_exit;
+jmemmgr.c:563:5: note: not consecutive access _6 = cinfo_3(D)->err;
+jmemmgr.c:563:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:275:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:276:5: note: not consecutive access _34 = _33->error_exit;
+jmemmgr.c:276:5: note: not consecutive access _33 = cinfo_3(D)->err;
+jmemmgr.c:276:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:276:5: note: not consecutive access _34 = _33->error_exit;
+jmemmgr.c:276:5: note: not consecutive access _33 = cinfo_3(D)->err;
+jmemmgr.c:276:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:279:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:280:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:279:9: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:291:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:293:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:293:12: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:299:15: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:300:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:303:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:224:3: note: not consecutive access _51 = _50->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _50 = cinfo_3(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:224:3: note: not consecutive access _51 = _50->error_exit;
+jmemmgr.c:224:3: note: not consecutive access _50 = cinfo_3(D)->err;
+jmemmgr.c:224:3: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:311:8: note: not consecutive access _52 = mem_109->total_space_allocated;
+jmemmgr.c:311:8: note: not consecutive access mem_109->total_space_allocated = _55;
+jmemmgr.c:311:8: note: not consecutive access hdr_ptr_96->hdr.next = 0B;
+jmemmgr.c:311:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:311:8: note: not consecutive access _52 = mem_109->total_space_allocated;
+jmemmgr.c:311:8: note: not consecutive access mem_109->total_space_allocated = _55;
+jmemmgr.c:311:8: note: not consecutive access hdr_ptr_96->hdr.next = 0B;
+jmemmgr.c:311:8: note: Build SLP failed: different operation in stmt hdr_ptr_96->hdr.bytes_left = _56;
+jmemmgr.c:311:8: note: original stmt hdr_ptr_96->hdr.bytes_used = 0;
+jmemmgr.c:312:32: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:314:30: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].mem_buffer = 0B;
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].next = _23;
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].pre_zero = pre_zero_20(D);
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].b_s_open = 0;
+jmemmgr.c:578:10: note: not consecutive access _23 = mem_4->virt_barray_list;
+jmemmgr.c:578:10: note: not consecutive access mem_4->virt_barray_list = data_ptr_60;
+jmemmgr.c:578:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:578:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].mem_buffer = 0B;
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].next = _23;
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].pre_zero = pre_zero_20(D);
+jmemmgr.c:578:10: note: not consecutive access MEM[(struct jvirt_barray_control *)data_ptr_60].b_s_open = 0;
+jmemmgr.c:578:10: note: not consecutive access _23 = mem_4->virt_barray_list;
+jmemmgr.c:578:10: note: not consecutive access mem_4->virt_barray_list = data_ptr_60;
+jmemmgr.c:578:10: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:578:10: note: Build SLP failed: different types
+jmemmgr.c:290:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1056:16: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1059:7: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1061:6: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1063:5: note: not consecutive access _19 = _16->error_exit;
+jmemmgr.c:1063:5: note: not consecutive access _16 = cinfo_8(D)->err;
+jmemmgr.c:1063:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:1063:5: note: not consecutive access _19 = _16->error_exit;
+jmemmgr.c:1063:5: note: not consecutive access _16 = cinfo_8(D)->err;
+jmemmgr.c:1063:5: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:1106:8: note: not consecutive access max_to_use.1_33 = max_to_use;
+jmemmgr.c:1106:8: note: not consecutive access mem_14->total_space_allocated = 168;
+jmemmgr.c:1106:8: note: not consecutive access cinfo_8(D)->mem = _41;
+jmemmgr.c:1106:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:1106:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:1106:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:1106:8: note: not consecutive access max_to_use.1_33 = max_to_use;
+jmemmgr.c:1106:8: note: not consecutive access mem_14->total_space_allocated = 168;
+jmemmgr.c:1106:8: note: not consecutive access cinfo_8(D)->mem = _41;
+jmemmgr.c:1106:8: note: Build SLP failed: unrolling required in basic block SLP
+jmemmgr.c:1106:8: note: Build SLP failed: different operation in stmt mem_14->pub.max_alloc_chunk = 1000000000;
+jmemmgr.c:1106:8: note: original stmt mem_14->pub.max_memory_to_use = max_to_use.1_33;
+jmemmgr.c:1106:8: note: not vectorized: vectorization is not profitable.
+jmemmgr.c:1106:8: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1109:11: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1109:10: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1110:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1110:5: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1111:15: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1112:29: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1028:1: note: not vectorized: not enough data-refs in basic block.
+jmemmgr.c:1118:1: note: not vectorized: not enough data-refs in basic block.

@@ -1,0 +1,196 @@
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.8_3 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.7_2 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:86:3: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.19_2 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.18_1 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:103:5: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:142:15: note: not vectorized: control flow in loop.
+jpegtran.c:142:15: note: bad loop form.
+jpegtran.c:141:3: note: not consecutive access outfilename = 0B;
+jpegtran.c:141:3: note: not consecutive access copyoption = 1;
+jpegtran.c:141:3: note: not consecutive access transformoption.transform = 0;
+jpegtran.c:141:3: note: not consecutive access _2->trace_level = 0;
+jpegtran.c:141:3: note: not consecutive access _2 = cinfo_1(D)->err;
+jpegtran.c:141:3: note: Build SLP failed: unrolling required in basic block SLP
+jpegtran.c:141:3: note: not consecutive access outfilename = 0B;
+jpegtran.c:141:3: note: not consecutive access copyoption = 1;
+jpegtran.c:141:3: note: not consecutive access transformoption.transform = 0;
+jpegtran.c:141:3: note: not consecutive access _2->trace_level = 0;
+jpegtran.c:141:3: note: not consecutive access _2 = cinfo_1(D)->err;
+jpegtran.c:141:3: note: Build SLP failed: unrolling required in basic block SLP
+jpegtran.c:143:8: note: not consecutive access arg_8 = *_7;
+jpegtran.c:143:8: note: not consecutive access _9 = *arg_8;
+jpegtran.c:143:8: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:145:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:146:14: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:153:9: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:153:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.10_13 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.9_12 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:160:7: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:163:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:165:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:167:11: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:167:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:168:13: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:169:18: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:169:17: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:170:13: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:171:18: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:171:17: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:172:13: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:176:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:181:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:176:42: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:184:18: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:186:30: note: not consecutive access _31 = _30->trace_level;
+jpegtran.c:186:30: note: not consecutive access _30->trace_level = _32;
+jpegtran.c:186:30: note: not consecutive access _30 = cinfo_1(D)->err;
+jpegtran.c:186:30: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:188:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:190:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:192:11: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:192:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:114:1: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:194:16: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:194:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:199:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:202:39: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:199:46: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:207:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:212:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:214:11: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:214:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:216:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:217:7: note: not consecutive access lval.13_57 = lval;
+jpegtran.c:217:7: note: not consecutive access lval = lval.14_58;
+jpegtran.c:217:7: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:114:1: note: not consecutive access lval.13_60 = lval;
+jpegtran.c:114:1: note: not consecutive access _59->max_memory_to_use = lval.14_61;
+jpegtran.c:114:1: note: not consecutive access _59 = cinfo_1(D)->mem;
+jpegtran.c:114:1: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:220:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:223:30: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:220:45: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:230:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:232:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:234:19: note: not consecutive access _69 = *_68;
+jpegtran.c:234:19: note: not consecutive access outfilename = _69;
+jpegtran.c:234:19: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:236:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:247:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:252:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:254:11: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:254:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:256:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:258:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:259:26: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:262:27: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:114:1: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:266:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:268:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:270:11: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:270:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:272:16: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:272:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:274:16: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:274:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:279:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:282:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:284:16: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:292:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:296:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:97:48: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:99:31: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:300:15: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:302:28: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:141:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:311:6: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:314:8: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:319:8: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:320:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:325:10: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:311:6: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:354:6: note: not consecutive access progname = _11;
+jpegtran.c:354:6: note: not consecutive access _11 = *argv_10(D);
+jpegtran.c:354:6: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:354:24: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:355:14: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:359:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:362:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:401:6: note: not consecutive access _28 = srcinfo.mem;
+jpegtran.c:401:6: note: not consecutive access _29 = dstinfo.mem;
+jpegtran.c:401:6: note: not consecutive access jsrcerr.trace_level = _26;
+jpegtran.c:401:6: note: not consecutive access _26 = jdsterr.trace_level;
+jpegtran.c:401:6: note: not consecutive access _28->max_memory_to_use = _30;
+jpegtran.c:401:6: note: not consecutive access _30 = _29->max_memory_to_use;
+jpegtran.c:401:6: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.1_34 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.0_33 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:403:5: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:408:6: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:409:8: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:409:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access _42 = *_38;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.1_44 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.0_43 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:411:7: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:415:16: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:419:6: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:420:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access stderr.1_53 = stderr;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access progname.0_52 = progname;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not consecutive access outfilename.2_51 = outfilename;
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:97:10: note: not vectorized: no grouped stores in basic block.
+jpegtran.c:422:7: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:426:17: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:434:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:437:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:453:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:467:14: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:470:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:476:3: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:492:6: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:494:6: note: not vectorized: not enough data-refs in basic block.
+jpegtran.c:502:3: note: not consecutive access _81 = jsrcerr.num_warnings;
+jpegtran.c:502:3: note: not consecutive access _82 = jdsterr.num_warnings;
+jpegtran.c:502:3: note: not vectorized: no grouped stores in basic block.

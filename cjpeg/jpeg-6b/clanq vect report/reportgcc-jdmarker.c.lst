@@ -1,0 +1,48 @@
+jdmarker.c:1201:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (;;) {
+  ^
+jdmarker.c:1201:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:896:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    do {
+    ^
+jdmarker.c:896:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:886:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    while (c != 0xFF) {
+    ^
+jdmarker.c:886:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:459:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < count; i++)
+    ^
+jdmarker.c:459:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:439:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 1; i <= 16; i++) {
+    ^
+jdmarker.c:439:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:527:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        TRACEMS8(cinfo, 2, JTRC_QUANTVALS,
+        ^
+jdmarker.c:516:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < DCTSIZE2; i++) {
+    ^
+jdmarker.c:516:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:516:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jdmarker.c:516:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:329:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+    ^
+jdmarker.c:329:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:709:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < numtoread; i++)
+  ^
+jdmarker.c:709:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:794:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    while (bytes_read < data_length && bytes_in_buffer > 0) {
+    ^
+jdmarker.c:808:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (prev->next != NULL)
+      ^
+jdmarker.c:808:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdmarker.c:279:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdmarker.c:279:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

@@ -1,0 +1,351 @@
+wrgif.c:327:3: note: not vectorized: multiple nested loops.
+wrgif.c:327:3: note: bad loop form.
+wrgif.c:112:9: note: not vectorized: control flow in loop.
+wrgif.c:112:9: note: bad loop form.
+wrgif.c:112:9: note: not vectorized: control flow in loop.
+wrgif.c:112:9: note: bad loop form.
+wrgif.c:327:3: note: not consecutive access ptr_7 = *_6;
+wrgif.c:327:3: note: not consecutive access col_9 = cinfo_8(D)->output_width;
+wrgif.c:327:3: note: not consecutive access _6 = MEM[(struct gif_dest_struct *)dinfo_4(D)].pub.buffer;
+wrgif.c:327:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:330:1: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:112:9: note: not consecutive access _21 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum = _25;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_bits = _27;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].bytesinpkt = _29;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].packetbuf[_29] = _31;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:9: note: not consecutive access _40 = MEM[(struct gif_dest_struct *)dinfo_4(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].bytesinpkt = _38;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].packetbuf[0] = _39;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _47 = _46->err;
+wrgif.c:88:7: note: not consecutive access _48 = _47->error_exit;
+wrgif.c:88:7: note: not consecutive access _47->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _46 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:89:23: note: not consecutive access pretmp_152 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum;
+wrgif.c:89:23: note: not consecutive access pretmp_154 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_bits;
+wrgif.c:89:23: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].bytesinpkt = 0;
+wrgif.c:89:23: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum = _33;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_bits = _35;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:172:6: note: not vectorized: no grouped stores in basic block.
+wrgif.c:173:24: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum = _53;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_bits = _55;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].bytesinpkt = _57;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].packetbuf[_57] = _59;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:9: note: not consecutive access _68 = MEM[(struct gif_dest_struct *)dinfo_4(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].bytesinpkt = _66;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].packetbuf[0] = _67;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _75 = _74->err;
+wrgif.c:88:7: note: not consecutive access _76 = _75->error_exit;
+wrgif.c:88:7: note: not consecutive access _75->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _74 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:89:23: note: not consecutive access pretmp_169 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum;
+wrgif.c:89:23: note: not consecutive access pretmp_171 = MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_bits;
+wrgif.c:89:23: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].bytesinpkt = 0;
+wrgif.c:89:23: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_accum = _61;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_4(D)].cur_bits = _63;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:176:25: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:327:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:112:9: note: not vectorized: control flow in loop.
+wrgif.c:112:9: note: bad loop form.
+wrgif.c:260:3: note: not vectorized: control flow in loop.
+wrgif.c:260:3: note: bad loop form.
+wrgif.c:231:9: note: not vectorized: number of iterations cannot be computed.
+wrgif.c:231:9: note: bad loop form.
+wrgif.c:112:9: note: not vectorized: control flow in loop.
+wrgif.c:112:9: note: bad loop form.
+wrgif.c:260:3: note: not vectorized: control flow in loop.
+wrgif.c:260:3: note: bad loop form.
+wrgif.c:231:9: note: not vectorized: iteration count smaller than vectorization factor.
+wrgif.c:231:9: note: not vectorized: value used after loop.
+wrgif.c:231:9: note: bad operation or unsupported loop bound.
+wrgif.c:306:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:227:6: note: not consecutive access _11 = _10->data_precision;
+wrgif.c:227:6: note: not consecutive access _8 = cinfo_4(D)->colormap;
+wrgif.c:227:6: note: not consecutive access _9 = cinfo_4(D)->actual_number_of_colors;
+wrgif.c:227:6: note: not consecutive access _10 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:227:6: note: not vectorized: no grouped stores in basic block.
+wrgif.c:228:5: note: not consecutive access _13 = _10->err;
+wrgif.c:228:5: note: not consecutive access _14 = _13->error_exit;
+wrgif.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:228:5: note: not consecutive access _13 = _10->err;
+wrgif.c:228:5: note: not consecutive access _14 = _13->error_exit;
+wrgif.c:228:5: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:231:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:231:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:234:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:234:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:234:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:242:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:243:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:244:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:245:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:246:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:247:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _25 = _24->output_width;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _28 = _27->output_height;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:254:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:255:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:256:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:260:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:282:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _76 = _75->output_width;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _78 = _77->output_height;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:288:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:290:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = prephitmp_459;
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = prephitmp_459;
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:274:45: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:261:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:262:10: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:263:5: note: not consecutive access _38 = _37->out_color_space;
+wrgif.c:263:5: note: not consecutive access _37 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:263:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:265:4: note: not consecutive access _43 = *_42;
+wrgif.c:265:4: note: not consecutive access _40 = *_8;
+wrgif.c:265:4: note: not consecutive access _39 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:265:4: note: not vectorized: no grouped stores in basic block.
+wrgif.c:266:4: note: not consecutive access _49 = *_48;
+wrgif.c:266:4: note: not consecutive access _47 = MEM[(JSAMPLE * *)_8 + 8B];
+wrgif.c:266:4: note: not consecutive access _46 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:266:4: note: not vectorized: no grouped stores in basic block.
+wrgif.c:267:4: note: not consecutive access _55 = *_54;
+wrgif.c:267:4: note: not consecutive access _53 = MEM[(JSAMPLE * *)_8 + 16B];
+wrgif.c:267:4: note: not consecutive access _52 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:267:4: note: not vectorized: no grouped stores in basic block.
+wrgif.c:212:3: note: not consecutive access _61 = *_60;
+wrgif.c:212:3: note: not consecutive access _58 = *_8;
+wrgif.c:212:3: note: not consecutive access _97 = MEM[(struct FILE * *)dinfo_1(D) + 24B];
+wrgif.c:212:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:213:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:214:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:212:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:213:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:214:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:212:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:213:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:214:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:260:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:310:1: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:113:5: note: not consecutive access _133 = MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _134;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[_134] = _136;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:9: note: not consecutive access _145 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _143;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[0] = _144;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _152 = _151->err;
+wrgif.c:88:7: note: not consecutive access _153 = _152->error_exit;
+wrgif.c:88:7: note: not consecutive access _152->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _151 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:89:23: note: not consecutive access pretmp_476 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum;
+wrgif.c:89:23: note: not consecutive access pretmp_478 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits;
+wrgif.c:89:23: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = 0;
+wrgif.c:89:23: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = _138;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits = _140;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:234:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:234:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:242:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:243:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:244:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:245:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:246:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:247:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _169 = _168->output_width;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _172 = _171->output_height;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:254:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:255:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:256:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:256:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:261:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:212:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:213:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:214:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:212:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:213:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:214:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:260:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:282:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _220 = _219->output_width;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:203:3: note: not consecutive access _222 = _221->output_height;
+wrgif.c:203:3: note: not vectorized: no grouped stores in basic block.
+wrgif.c:204:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:288:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:290:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = prephitmp_415;
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = prephitmp_415;
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:112:9: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:113:5: note: not consecutive access _274 = MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _275;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[_275] = _277;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:9: note: not consecutive access _286 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _284;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[0] = _285;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _293 = _292->err;
+wrgif.c:88:7: note: not consecutive access _294 = _293->error_exit;
+wrgif.c:88:7: note: not consecutive access _293->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _292 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:89:23: note: not consecutive access pretmp_428 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum;
+wrgif.c:89:23: note: not consecutive access pretmp_430 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits;
+wrgif.c:89:23: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = 0;
+wrgif.c:89:23: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = _279;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits = _281;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = 1;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[1] = _192;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = 1;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[1] = _183;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not vectorized: control flow in loop.
+wrgif.c:112:9: note: bad loop form.
+wrgif.c:112:9: note: not consecutive access _22 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = _26;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits = _28;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:112:9: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _30;
+wrgif.c:113:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[_30] = _32;
+wrgif.c:113:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:9: note: not consecutive access _41 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _39;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[0] = _40;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _48 = _47->err;
+wrgif.c:88:7: note: not consecutive access _49 = _48->error_exit;
+wrgif.c:88:7: note: not consecutive access _48->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _47 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:89:23: note: not consecutive access pretmp_113 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum;
+wrgif.c:89:23: note: not consecutive access pretmp_122 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits;
+wrgif.c:89:23: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = 0;
+wrgif.c:89:23: note: not vectorized: no grouped stores in basic block.
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_accum = _34;
+wrgif.c:112:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].cur_bits = _36;
+wrgif.c:112:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:188:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:189:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _19;
+wrgif.c:189:5: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[_19] = _21;
+wrgif.c:189:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:9: note: not consecutive access _53 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _51;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[0] = _52;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _60 = _59->err;
+wrgif.c:88:7: note: not consecutive access _61 = _60->error_exit;
+wrgif.c:88:7: note: not consecutive access _60->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _59 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:89:23: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:84:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:86:9: note: not consecutive access _65 = MEM[(struct gif_dest_struct *)dinfo_1(D)].pub.output_file;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].bytesinpkt = _63;
+wrgif.c:86:9: note: not consecutive access MEM[(struct gif_dest_struct *)dinfo_1(D)].packetbuf[0] = _64;
+wrgif.c:86:9: note: not vectorized: no grouped stores in basic block.
+wrgif.c:86:8: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:88:7: note: not consecutive access _72 = _71->err;
+wrgif.c:88:7: note: not consecutive access _73 = _72->error_exit;
+wrgif.c:88:7: note: not consecutive access _72->msg_code = 37;
+wrgif.c:88:7: note: not consecutive access _71 = MEM[(struct gif_dest_struct *)dinfo_1(D)].cinfo;
+wrgif.c:88:7: note: not vectorized: no grouped stores in basic block.
+wrgif.c:345:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:347:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:349:3: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:350:7: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:350:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:351:5: note: not consecutive access _75 = _74->error_exit;
+wrgif.c:351:5: note: not consecutive access _74->msg_code = 37;
+wrgif.c:351:5: note: not consecutive access _74 = cinfo_14(D)->err;
+wrgif.c:351:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:352:1: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:365:8: note: not consecutive access _7 = _6->alloc_small;
+wrgif.c:365:8: note: not consecutive access _6 = cinfo_5(D)->mem;
+wrgif.c:365:8: note: not vectorized: no grouped stores in basic block.
+wrgif.c:373:6: note: not consecutive access dest_9->cinfo = cinfo_5(D);
+wrgif.c:373:6: note: not consecutive access _14 = cinfo_5(D)->out_color_space;
+wrgif.c:373:6: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:373:6: note: not consecutive access dest_9->cinfo = cinfo_5(D);
+wrgif.c:373:6: note: not consecutive access _14 = cinfo_5(D)->out_color_space;
+wrgif.c:373:6: note: Build SLP failed: unrolling required in basic block SLP
+wrgif.c:375:5: note: not consecutive access _18 = _16->error_exit;
+wrgif.c:375:5: note: not consecutive access _16->msg_code = 1014;
+wrgif.c:375:5: note: not consecutive access _16 = cinfo_5(D)->err;
+wrgif.c:375:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:375:5: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:378:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:378:47: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:381:8: note: not consecutive access _23 = cinfo_5(D)->desired_number_of_colors;
+wrgif.c:381:8: note: not consecutive access cinfo_5(D)->quantize_colors = 1;
+wrgif.c:381:8: note: not vectorized: no grouped stores in basic block.
+wrgif.c:382:39: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:388:6: note: not vectorized: not enough data-refs in basic block.
+wrgif.c:389:5: note: not consecutive access _29 = _27->error_exit;
+wrgif.c:389:5: note: not consecutive access _27->msg_code = 1012;
+wrgif.c:389:5: note: not consecutive access _27 = cinfo_5(D)->err;
+wrgif.c:389:5: note: not vectorized: no grouped stores in basic block.
+wrgif.c:392:23: note: not consecutive access _32 = _31->alloc_sarray;
+wrgif.c:392:23: note: not consecutive access _31 = cinfo_5(D)->mem;
+wrgif.c:392:23: note: not consecutive access _33 = cinfo_5(D)->output_width;
+wrgif.c:392:23: note: not vectorized: no grouped stores in basic block.
+wrgif.c:396:10: note: not consecutive access dest_9->pub.buffer = _35;
+wrgif.c:396:10: note: not consecutive access dest_9->pub.buffer_height = 1;
+wrgif.c:396:10: note: not vectorized: no grouped stores in basic block.

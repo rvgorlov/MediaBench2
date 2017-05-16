@@ -1,0 +1,86 @@
+jcapistd.c:40:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:41:5: note: not consecutive access _10 = _7->error_exit;
+jcapistd.c:41:5: note: not consecutive access _7 = cinfo_5(D)->err;
+jcapistd.c:41:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:41:5: note: not consecutive access _10 = _7->error_exit;
+jcapistd.c:41:5: note: not consecutive access _7 = cinfo_5(D)->err;
+jcapistd.c:41:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:43:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:47:4: note: not consecutive access _15 = _14->reset_error_mgr;
+jcapistd.c:47:4: note: not consecutive access _14 = cinfo_5(D)->err;
+jcapistd.c:47:4: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:48:4: note: not consecutive access _18 = _17->init_destination;
+jcapistd.c:48:4: note: not consecutive access _17 = cinfo_5(D)->dest;
+jcapistd.c:48:4: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:52:4: note: not consecutive access _22 = _21->prepare_for_pass;
+jcapistd.c:52:4: note: not consecutive access _21 = cinfo_5(D)->master;
+jcapistd.c:52:4: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:57:61: note: not consecutive access _25 = cinfo_5(D)->raw_data_in;
+jcapistd.c:57:61: note: not consecutive access cinfo_5(D)->next_scanline = 0;
+jcapistd.c:57:61: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:58:1: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:82:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:83:5: note: not consecutive access _12 = _9->error_exit;
+jcapistd.c:83:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jcapistd.c:83:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:83:5: note: not consecutive access _12 = _9->error_exit;
+jcapistd.c:83:5: note: not consecutive access _9 = cinfo_7(D)->err;
+jcapistd.c:83:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:84:6: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:85:5: note: not consecutive access _18 = _16->emit_message;
+jcapistd.c:85:5: note: not consecutive access _16->msg_code = 123;
+jcapistd.c:85:5: note: not consecutive access _16 = cinfo_7(D)->err;
+jcapistd.c:85:5: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:88:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:91:6: note: not consecutive access _27 = _20->progress_monitor;
+jcapistd.c:91:6: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:91:6: note: not consecutive access _27 = _20->progress_monitor;
+jcapistd.c:91:6: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:91:6: note: not vectorized: vectorization is not profitable.
+jcapistd.c:99:6: note: not consecutive access _30 = _29->call_pass_startup;
+jcapistd.c:99:6: note: not consecutive access _29 = cinfo_7(D)->master;
+jcapistd.c:99:6: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:100:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:108:4: note: not consecutive access row_ctr = 0;
+jcapistd.c:108:4: note: not consecutive access _39 = _38->process_data;
+jcapistd.c:108:4: note: not consecutive access _38 = cinfo_7(D)->main;
+jcapistd.c:108:4: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:110:10: note: not consecutive access row_ctr.1_43 = row_ctr;
+jcapistd.c:110:10: note: not consecutive access _42 = cinfo_7(D)->next_scanline;
+jcapistd.c:110:10: note: not consecutive access cinfo_7(D)->next_scanline = _44;
+jcapistd.c:110:10: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:125:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:126:5: note: not consecutive access _13 = _10->error_exit;
+jcapistd.c:126:5: note: not consecutive access _10 = cinfo_8(D)->err;
+jcapistd.c:126:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:126:5: note: not consecutive access _13 = _10->error_exit;
+jcapistd.c:126:5: note: not consecutive access _10 = cinfo_8(D)->err;
+jcapistd.c:126:5: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:127:6: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:128:5: note: not consecutive access _19 = _17->emit_message;
+jcapistd.c:128:5: note: not consecutive access _17->msg_code = 123;
+jcapistd.c:128:5: note: not consecutive access _17 = cinfo_8(D)->err;
+jcapistd.c:128:5: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:133:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:136:6: note: not consecutive access _26 = _21->progress_monitor;
+jcapistd.c:136:6: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:136:6: note: not consecutive access _26 = _21->progress_monitor;
+jcapistd.c:136:6: note: Build SLP failed: unrolling required in basic block SLP
+jcapistd.c:136:6: note: not vectorized: vectorization is not profitable.
+jcapistd.c:144:6: note: not consecutive access _29 = _28->call_pass_startup;
+jcapistd.c:144:6: note: not consecutive access _28 = cinfo_8(D)->master;
+jcapistd.c:144:6: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:145:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:149:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:150:5: note: not consecutive access _38 = _36->error_exit;
+jcapistd.c:150:5: note: not consecutive access _36->msg_code = 23;
+jcapistd.c:150:5: note: not consecutive access _36 = cinfo_8(D)->err;
+jcapistd.c:150:5: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:153:10: note: not consecutive access _41 = _40->compress_data;
+jcapistd.c:153:10: note: not consecutive access _40 = cinfo_8(D)->coef;
+jcapistd.c:153:10: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:153:6: note: not vectorized: not enough data-refs in basic block.
+jcapistd.c:159:24: note: not consecutive access _45 = cinfo_8(D)->next_scanline;
+jcapistd.c:159:24: note: not consecutive access cinfo_8(D)->next_scanline = _46;
+jcapistd.c:159:24: note: not vectorized: no grouped stores in basic block.
+jcapistd.c:159:24: note: not vectorized: not enough data-refs in basic block.

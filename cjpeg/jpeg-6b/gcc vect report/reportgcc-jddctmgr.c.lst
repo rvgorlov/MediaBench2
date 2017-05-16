@@ -1,0 +1,334 @@
+jddctmgr.c:98:3: note: not vectorized: multiple nested loops.
+jddctmgr.c:98:3: note: bad loop form.
+jddctmgr.c:167:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:167:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:167:2: note: virtual phi. skip.
+jddctmgr.c:167:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:167:2: note: not ssa-name.
+jddctmgr.c:167:2: note: use not simple.
+jddctmgr.c:167:2: note: conversion not supported by target.
+jddctmgr.c:167:2: note: not vectorized: relevant stmt not supported: _48 = (int) _47;
+jddctmgr.c:167:2: note: bad operation or unsupported loop bound.
+jddctmgr.c:167:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:167:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:167:2: note: virtual phi. skip.
+jddctmgr.c:167:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:167:2: note: not ssa-name.
+jddctmgr.c:167:2: note: use not simple.
+jddctmgr.c:167:2: note: virtual phi. skip.
+jddctmgr.c:167:2: note: loop vectorized
+jddctmgr.c:167:2: note: loop peeled for vectorization to enhance alignment
+jddctmgr.c:167:2: note: virtual phi. skip.
+jddctmgr.c:198:2: note: misalign = 0 bytes of ref aanscales[i_137]
+jddctmgr.c:198:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:198:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:198:2: note: virtual phi. skip.
+jddctmgr.c:198:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:198:2: note: not ssa-name.
+jddctmgr.c:198:2: note: use not simple.
+jddctmgr.c:198:2: note: conversion not supported by target.
+jddctmgr.c:198:2: note: not vectorized: relevant stmt not supported: _56 = (long int) _55;
+jddctmgr.c:198:2: note: bad operation or unsupported loop bound.
+jddctmgr.c:198:2: note: misalign = 0 bytes of ref aanscales[i_137]
+jddctmgr.c:198:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:198:2: note: Unknown misalignment, is_packed = 0
+jddctmgr.c:198:2: note: virtual phi. skip.
+jddctmgr.c:198:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:198:2: note: not ssa-name.
+jddctmgr.c:198:2: note: use not simple.
+jddctmgr.c:198:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:198:2: note: not ssa-name.
+jddctmgr.c:198:2: note: use not simple.
+jddctmgr.c:198:2: note: op not supported by target.
+jddctmgr.c:198:2: note: not vectorized: relevant stmt not supported: _61 = _60 >> 12;
+jddctmgr.c:198:2: note: bad operation or unsupported loop bound.
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _3 = _95 * 1.3870398450000001044912778525031171739101409912109375e+0;
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _19 = _95 * 1.306562964999999909565531197586096823215484619140625e+0;
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _10 = _95 * 1.175875602000000075264551924192346632480621337890625e+0;
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _95 = aanscalefactor[row_121];
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _8 = _95 * 7.8569495799999999885443457969813607633113861083984375e-1;
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _6 = _95 * 5.4119609999999995775255001717596314847469329833984375e-1;
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: different operation in stmt _1 = _95 * 2.75899379000000000150549794852850027382373809814453125e-1;
+jddctmgr.c:223:2: note: original stmt _94 = (double) _93;
+jddctmgr.c:223:2: note: Build SLP failed: not grouped load _95 = aanscalefactor[row_121];
+
+jddctmgr.c:223:2: note: not vectorized: iteration count smaller than vectorization factor.
+jddctmgr.c:223:2: note: Build SLP failed: not grouped load _95 = aanscalefactor[row_121];
+
+jddctmgr.c:223:2: note: misalign = 0 bytes of ref aanscalefactor[row_121]
+jddctmgr.c:223:2: note: vector alignment may not be reachable
+jddctmgr.c:223:2: note: virtual phi. skip.
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: num. args = 4 (not unary/binary/ternary op).
+jddctmgr.c:223:2: note: not ssa-name.
+jddctmgr.c:223:2: note: use not simple.
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: loop vectorized
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:223:2: note: no array mode for V8HI[8]
+jddctmgr.c:223:2: note: no array mode for V4SF[8]
+jddctmgr.c:98:3: note: not consecutive access _185 = cinfo_21(D)->num_components;
+jddctmgr.c:98:3: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:239:1: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:101:5: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:101:5: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:89:1: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:117:7: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:117:7: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:89:1: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:137:2: note: not consecutive access _30 = _27->error_exit;
+jddctmgr.c:137:2: note: not consecutive access _27->msg_code = 48;
+jddctmgr.c:137:2: note: not consecutive access _27 = cinfo_21(D)->err;
+jddctmgr.c:137:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:142:7: note: not consecutive access _36 = _32->error_exit;
+jddctmgr.c:142:7: note: not consecutive access _32 = cinfo_21(D)->err;
+jddctmgr.c:142:7: note: Build SLP failed: unrolling required in basic block SLP
+jddctmgr.c:142:7: note: not consecutive access _36 = _32->error_exit;
+jddctmgr.c:142:7: note: not consecutive access _32 = cinfo_21(D)->err;
+jddctmgr.c:142:7: note: Build SLP failed: unrolling required in basic block SLP
+jddctmgr.c:153:8: note: not consecutive access _39 = compptr_201->component_needed;
+jddctmgr.c:153:8: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:153:37: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:156:8: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:159:5: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:166:20: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:168:14: note: not consecutive access *_552 = _554;
+jddctmgr.c:168:14: note: not consecutive access _553 = qtbl_41->quantval[0];
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not consecutive access _566 = qtbl_41->quantval[1];
+jddctmgr.c:168:14: note: not consecutive access *_565 = _567;
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not consecutive access _579 = qtbl_41->quantval[2];
+jddctmgr.c:168:14: note: not consecutive access *_578 = _580;
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not consecutive access _592 = qtbl_41->quantval[3];
+jddctmgr.c:168:14: note: not consecutive access *_591 = _593;
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not consecutive access _605 = qtbl_41->quantval[4];
+jddctmgr.c:168:14: note: not consecutive access *_604 = _606;
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not consecutive access _618 = qtbl_41->quantval[5];
+jddctmgr.c:168:14: note: not consecutive access *_617 = _619;
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not consecutive access _350 = qtbl_41->quantval[6];
+jddctmgr.c:168:14: note: not consecutive access *_351 = _349;
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:168:14: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_190 = MEM[(short unsigned int *)vectp_qtbl.14_306];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.18_272] = vect__48.16_6;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_197] = vect__48.16_194;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_213 = MEM[(short unsigned int *)vectp_qtbl.13_1];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_210] = vect__48.16_79;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_45] = vect__48.16_368;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_196 = MEM[(short unsigned int *)vectp_qtbl.13_339];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_17] = vect__48.16_180;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_132] = vect__48.16_164;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_498 = MEM[(short unsigned int *)vectp_qtbl.13_495];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_496] = vect__48.16_499;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_502] = vect__48.16_500;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_511 = MEM[(short unsigned int *)vectp_qtbl.13_508];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_509] = vect__48.16_512;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_515] = vect__48.16_513;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_524 = MEM[(short unsigned int *)vectp_qtbl.13_521];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_522] = vect__48.16_525;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_528] = vect__48.16_526;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_537 = MEM[(short unsigned int *)vectp_qtbl.13_534];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_535] = vect__48.16_538;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_541] = vect__48.16_539;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: vect__47.15_302 = MEM[(short unsigned int *)vectp_qtbl.13_304];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_270] = vect__48.16_274;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no vectype for stmt: MEM[(ISLOW_MULT_TYPE *)vectp_ismtbl.17_267] = vect__48.16_273;
+ scalar_type: vector(4) int
+jddctmgr.c:168:14: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:29: note: not consecutive access *_324 = _322;
+jddctmgr.c:167:29: note: not consecutive access _323 = qtbl_41->quantval[i_329];
+jddctmgr.c:167:29: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:29: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:167:2: note: not consecutive access *_311 = _313;
+jddctmgr.c:167:2: note: not consecutive access _310 = qtbl_41->quantval[i_317];
+jddctmgr.c:167:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:2: note: not consecutive access *_93 = _95;
+jddctmgr.c:167:2: note: not consecutive access _94 = qtbl_41->quantval[i_338];
+jddctmgr.c:167:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:2: note: not consecutive access *_3 = _115;
+jddctmgr.c:167:2: note: not consecutive access _114 = qtbl_41->quantval[i_106];
+jddctmgr.c:167:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:2: note: not consecutive access *_131 = _138;
+jddctmgr.c:167:2: note: not consecutive access _133 = qtbl_41->quantval[i_124];
+jddctmgr.c:167:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:2: note: not consecutive access *_154 = _156;
+jddctmgr.c:167:2: note: not consecutive access _155 = qtbl_41->quantval[i_142];
+jddctmgr.c:167:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:167:2: note: not consecutive access *_173 = _8;
+jddctmgr.c:167:2: note: not consecutive access _174 = qtbl_41->quantval[i_163];
+jddctmgr.c:167:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:183:20: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:198:2: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.21_261 = MEM[(short unsigned int *)qtbl_41];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.22_259 = MEM[(short unsigned int *)vectp_qtbl.19_260];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.23_257 = MEM[(short unsigned int *)vectp_qtbl.19_258];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.24_255 = MEM[(short unsigned int *)vectp_qtbl.19_256];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.25_253 = MEM[(short unsigned int *)vectp_qtbl.19_254];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.26_251 = MEM[(short unsigned int *)vectp_qtbl.19_252];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.27_249 = MEM[(short unsigned int *)vectp_qtbl.19_250];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__93.28_247 = MEM[(short unsigned int *)vectp_qtbl.19_248];
+ scalar_type: vector(8) short unsigned int
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__95.33_209 = MEM[(double *)&aanscalefactor];
+ scalar_type: const vector(2) double
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__95.34_207 = MEM[(double *)vectp_aanscalefactor.31_208];
+ scalar_type: const vector(2) double
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__95.35_198 = MEM[(double *)vectp_aanscalefactor.31_200];
+ scalar_type: const vector(2) double
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: vect__95.36_192 = MEM[(double *)vectp_aanscalefactor.31_193];
+ scalar_type: const vector(2) double
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)fmtbl_65] = vect_inter_high_424;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_433] = vect_inter_low_425;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_435] = vect_inter_high_426;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_437] = vect_inter_low_427;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_439] = vect_inter_high_428;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_441] = vect_inter_low_429;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_443] = vect_inter_high_430;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_445] = vect_inter_low_431;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_447] = vect_inter_high_464;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_473] = vect_inter_low_465;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_475] = vect_inter_high_466;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_477] = vect_inter_low_467;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_479] = vect_inter_high_468;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_481] = vect_inter_low_469;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_483] = vect_inter_high_470;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not vectorized: no vectype for stmt: MEM[(FLOAT_MULT_TYPE *)vectp_fmtbl.73_485] = vect_inter_low_471;
+ scalar_type: vector(4) float
+jddctmgr.c:225:15: note: not consecutive access fmtbl_65 = compptr_201->dct_table;
+jddctmgr.c:225:15: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:235:7: note: not consecutive access _82 = _80->error_exit;
+jddctmgr.c:235:7: note: not consecutive access _80->msg_code = 48;
+jddctmgr.c:235:7: note: not consecutive access _80 = cinfo_21(D)->err;
+jddctmgr.c:235:7: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:98:3: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:259:3: note: not vectorized: number of iterations cannot be computed.
+jddctmgr.c:259:3: note: bad loop form.
+jddctmgr.c:253:8: note: not consecutive access _7 = _6->alloc_small;
+jddctmgr.c:253:8: note: not consecutive access _6 = cinfo_5(D)->mem;
+jddctmgr.c:253:8: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:259:3: note: not consecutive access idct_9->pub.start_pass = start_pass;
+jddctmgr.c:259:3: note: not consecutive access compptr_12 = cinfo_5(D)->comp_info;
+jddctmgr.c:259:3: note: not consecutive access _27 = cinfo_5(D)->num_components;
+jddctmgr.c:259:3: note: not consecutive access cinfo_5(D)->idct = idct_9;
+jddctmgr.c:259:3: note: not vectorized: no grouped stores in basic block.
+jddctmgr.c:269:1: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:263:8: note: not consecutive access _15 = _14->alloc_small;
+jddctmgr.c:263:8: note: not consecutive access _14 = cinfo_5(D)->mem;
+jddctmgr.c:263:8: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jddctmgr.c:259:3: note: not consecutive access _13 = cinfo_5(D)->num_components;
+jddctmgr.c:259:3: note: not vectorized: no grouped stores in basic block.

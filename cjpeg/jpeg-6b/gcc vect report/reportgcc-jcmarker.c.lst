@@ -1,0 +1,1540 @@
+jcmarker.c:114:6: note: not consecutive access *_6 = _8;
+jcmarker.c:114:6: note: not consecutive access _6 = dest_5->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _9 = dest_5->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_5->next_output_byte = _7;
+jcmarker.c:114:6: note: not consecutive access dest_5->free_in_buffer = _10;
+jcmarker.c:114:6: note: not consecutive access dest_5 = cinfo_2(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _14 = _13->error_exit;
+jcmarker.c:116:7: note: not consecutive access _13->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _13 = cinfo_2(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:454:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_14 = 255;
+jcmarker.c:114:6: note: not consecutive access _14 = dest_13->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _17 = dest_13->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_13->next_output_byte = _15;
+jcmarker.c:114:6: note: not consecutive access dest_13->free_in_buffer = _18;
+jcmarker.c:114:6: note: not consecutive access dest_13 = cinfo_2(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _22 = _21->error_exit;
+jcmarker.c:116:7: note: not consecutive access _21->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _21 = cinfo_2(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_6 = 217;
+jcmarker.c:114:6: note: not consecutive access _6 = dest_5->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _9 = dest_5->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_5->next_output_byte = _7;
+jcmarker.c:114:6: note: not consecutive access dest_5->free_in_buffer = _10;
+jcmarker.c:114:6: note: not consecutive access dest_5 = cinfo_2(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _24 = _23->error_exit;
+jcmarker.c:116:7: note: not consecutive access _23->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _23 = cinfo_2(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:605:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:441:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:442:5: note: not consecutive access _7 = _5->error_exit;
+jcmarker.c:442:5: note: not consecutive access _5->msg_code = 11;
+jcmarker.c:442:5: note: not consecutive access _5 = cinfo_4(D)->err;
+jcmarker.c:442:5: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_27 = 255;
+jcmarker.c:114:6: note: not consecutive access _27 = dest_26->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _30 = dest_26->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_26->next_output_byte = _28;
+jcmarker.c:114:6: note: not consecutive access dest_26->free_in_buffer = _31;
+jcmarker.c:114:6: note: not consecutive access dest_26 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _35 = _34->error_exit;
+jcmarker.c:116:7: note: not consecutive access _34->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _34 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_19 = _21;
+jcmarker.c:114:6: note: not consecutive access _19 = dest_18->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _22 = dest_18->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_18->next_output_byte = _20;
+jcmarker.c:114:6: note: not consecutive access dest_18->free_in_buffer = _23;
+jcmarker.c:114:6: note: not consecutive access dest_18 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _37 = _36->error_exit;
+jcmarker.c:116:7: note: not consecutive access _36->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _36 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_47 = _49;
+jcmarker.c:114:6: note: not consecutive access _47 = dest_46->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _50 = dest_46->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_46->next_output_byte = _48;
+jcmarker.c:114:6: note: not consecutive access dest_46->free_in_buffer = _51;
+jcmarker.c:114:6: note: not consecutive access dest_46 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _55 = _54->error_exit;
+jcmarker.c:116:7: note: not consecutive access _54->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _54 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_39 = _41;
+jcmarker.c:114:6: note: not consecutive access _39 = dest_38->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _42 = dest_38->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_38->next_output_byte = _40;
+jcmarker.c:114:6: note: not consecutive access dest_38->free_in_buffer = _43;
+jcmarker.c:114:6: note: not consecutive access dest_38 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _57 = _56->error_exit;
+jcmarker.c:116:7: note: not consecutive access _56->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _56 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:447:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:298:3: note: not vectorized: control flow in loop.
+jcmarker.c:298:3: note: bad loop form.
+jcmarker.c:114:6: note: not consecutive access *_57 = 255;
+jcmarker.c:114:6: note: not consecutive access _57 = dest_56->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _60 = dest_56->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_56->next_output_byte = _58;
+jcmarker.c:114:6: note: not consecutive access dest_56->free_in_buffer = _61;
+jcmarker.c:114:6: note: not consecutive access dest_56 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _65 = _64->error_exit;
+jcmarker.c:116:7: note: not consecutive access _64->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _64 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_49 = _51;
+jcmarker.c:114:6: note: not consecutive access _49 = dest_48->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _52 = dest_48->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_48->next_output_byte = _50;
+jcmarker.c:114:6: note: not consecutive access dest_48->free_in_buffer = _53;
+jcmarker.c:114:6: note: not consecutive access dest_48 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _67 = _66->error_exit;
+jcmarker.c:116:7: note: not consecutive access _66->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _66 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_77 = _79;
+jcmarker.c:114:6: note: not consecutive access _77 = dest_76->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _80 = dest_76->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_76->next_output_byte = _78;
+jcmarker.c:114:6: note: not consecutive access dest_76->free_in_buffer = _81;
+jcmarker.c:114:6: note: not consecutive access dest_76 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _8 = cinfo_6(D)->num_components;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _85 = _84->error_exit;
+jcmarker.c:116:7: note: not consecutive access _84->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _84 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_69 = _71;
+jcmarker.c:114:6: note: not consecutive access _69 = dest_68->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _72 = dest_68->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_68->next_output_byte = _70;
+jcmarker.c:114:6: note: not consecutive access dest_68->free_in_buffer = _73;
+jcmarker.c:114:6: note: not consecutive access dest_68 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _87 = _86->error_exit;
+jcmarker.c:116:7: note: not consecutive access _86->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _86 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:288:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:288:43: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:290:5: note: not consecutive access _17 = _14->error_exit;
+jcmarker.c:290:5: note: not consecutive access _14 = cinfo_6(D)->err;
+jcmarker.c:290:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:290:5: note: not consecutive access _17 = _14->error_exit;
+jcmarker.c:290:5: note: not consecutive access _14 = cinfo_6(D)->err;
+jcmarker.c:290:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:114:6: note: not consecutive access *_103 = _105;
+jcmarker.c:114:6: note: not consecutive access _103 = dest_102->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _106 = dest_102->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_102->next_output_byte = _104;
+jcmarker.c:114:6: note: not consecutive access dest_102->free_in_buffer = _107;
+jcmarker.c:114:6: note: not consecutive access dest_102 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _19 = cinfo_6(D)->data_precision;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _111 = _110->error_exit;
+jcmarker.c:116:7: note: not consecutive access _110->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _110 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_121 = _123;
+jcmarker.c:114:6: note: not consecutive access _121 = dest_120->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _124 = dest_120->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_120->next_output_byte = _122;
+jcmarker.c:114:6: note: not consecutive access dest_120->free_in_buffer = _125;
+jcmarker.c:114:6: note: not consecutive access dest_120 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _21 = cinfo_6(D)->image_height;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _129 = _128->error_exit;
+jcmarker.c:116:7: note: not consecutive access _128->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _128 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_113 = _115;
+jcmarker.c:114:6: note: not consecutive access _113 = dest_112->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _116 = dest_112->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_112->next_output_byte = _114;
+jcmarker.c:114:6: note: not consecutive access dest_112->free_in_buffer = _117;
+jcmarker.c:114:6: note: not consecutive access dest_112 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _131 = _130->error_exit;
+jcmarker.c:116:7: note: not consecutive access _130->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _130 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_141 = _143;
+jcmarker.c:114:6: note: not consecutive access _141 = dest_140->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _144 = dest_140->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_140->next_output_byte = _142;
+jcmarker.c:114:6: note: not consecutive access dest_140->free_in_buffer = _145;
+jcmarker.c:114:6: note: not consecutive access dest_140 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _24 = cinfo_6(D)->image_width;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _149 = _148->error_exit;
+jcmarker.c:116:7: note: not consecutive access _148->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _148 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_133 = _135;
+jcmarker.c:114:6: note: not consecutive access _133 = dest_132->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _136 = dest_132->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_132->next_output_byte = _134;
+jcmarker.c:114:6: note: not consecutive access dest_132->free_in_buffer = _137;
+jcmarker.c:114:6: note: not consecutive access dest_132 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _151 = _150->error_exit;
+jcmarker.c:116:7: note: not consecutive access _150->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _150 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_89 = _91;
+jcmarker.c:114:6: note: not consecutive access _89 = dest_88->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _92 = dest_88->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_88->next_output_byte = _90;
+jcmarker.c:114:6: note: not consecutive access dest_88->free_in_buffer = _93;
+jcmarker.c:114:6: note: not consecutive access dest_88 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _27 = cinfo_6(D)->num_components;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _153 = _152->error_exit;
+jcmarker.c:116:7: note: not consecutive access _152->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _152 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:298:3: note: not consecutive access compptr_29 = cinfo_6(D)->comp_info;
+jcmarker.c:298:3: note: not consecutive access _100 = cinfo_6(D)->num_components;
+jcmarker.c:298:3: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:304:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_171 = _173;
+jcmarker.c:114:6: note: not consecutive access _31 = compptr_97->component_id;
+jcmarker.c:114:6: note: not consecutive access _171 = dest_170->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _174 = dest_170->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_170->next_output_byte = _172;
+jcmarker.c:114:6: note: not consecutive access dest_170->free_in_buffer = _175;
+jcmarker.c:114:6: note: not consecutive access dest_170 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _179 = _178->error_exit;
+jcmarker.c:116:7: note: not consecutive access _178->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _178 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_163 = _165;
+jcmarker.c:114:6: note: not consecutive access _163 = dest_162->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _166 = dest_162->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_162->next_output_byte = _164;
+jcmarker.c:114:6: note: not consecutive access dest_162->free_in_buffer = _167;
+jcmarker.c:114:6: note: not consecutive access dest_162 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _181 = _180->error_exit;
+jcmarker.c:116:7: note: not consecutive access _180->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _180 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_155 = _157;
+jcmarker.c:114:6: note: not consecutive access _38 = compptr_97->quant_tbl_no;
+jcmarker.c:114:6: note: not consecutive access _155 = dest_154->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _158 = dest_154->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_154->next_output_byte = _156;
+jcmarker.c:114:6: note: not consecutive access dest_154->free_in_buffer = _159;
+jcmarker.c:114:6: note: not consecutive access dest_154 = cinfo_6(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _183 = _182->error_exit;
+jcmarker.c:116:7: note: not consecutive access _182->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _182 = cinfo_6(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:298:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:213:5: note: not vectorized: control flow in loop.
+jcmarker.c:213:5: note: bad loop form.
+jcmarker.c:210:5: note: not vectorized: control flow in loop.
+jcmarker.c:210:5: note: bad loop form.
+jcmarker.c:204:5: note: step unknown.
+jcmarker.c:204:5: note: not vectorized: iteration count smaller than vectorization factor.
+jcmarker.c:204:5: note: step unknown.
+jcmarker.c:204:5: note: Unknown misalignment, is_packed = 0
+jcmarker.c:204:5: note: reduc phi. skip.
+jcmarker.c:204:5: note: num. args = 4 (not unary/binary/ternary op).
+jcmarker.c:204:5: note: not ssa-name.
+jcmarker.c:204:5: note: use not simple.
+jcmarker.c:204:5: note: reduc op not supported by target.
+jcmarker.c:204:5: note: loop vectorized
+jcmarker.c:204:5: note: reduc op not supported by target.
+jcmarker.c:190:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:192:11: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:194:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:197:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:198:5: note: not consecutive access _22 = _18->error_exit;
+jcmarker.c:198:5: note: not consecutive access _18 = cinfo_13(D)->err;
+jcmarker.c:198:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:198:5: note: not consecutive access _22 = _18->error_exit;
+jcmarker.c:198:5: note: not consecutive access _18 = cinfo_13(D)->err;
+jcmarker.c:198:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:200:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_52 = 255;
+jcmarker.c:114:6: note: not consecutive access _52 = dest_51->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _55 = dest_51->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_51->next_output_byte = _53;
+jcmarker.c:114:6: note: not consecutive access dest_51->free_in_buffer = _56;
+jcmarker.c:114:6: note: not consecutive access dest_51 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _60 = _59->error_exit;
+jcmarker.c:116:7: note: not consecutive access _59->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _59 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_44 = 196;
+jcmarker.c:114:6: note: not consecutive access _44 = dest_43->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _47 = dest_43->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_43->next_output_byte = _45;
+jcmarker.c:114:6: note: not consecutive access dest_43->free_in_buffer = _48;
+jcmarker.c:114:6: note: not consecutive access dest_43 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _62 = _61->error_exit;
+jcmarker.c:116:7: note: not consecutive access _61->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _61 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not vectorized: no vectype for stmt: vect__25.42_221 = MEM[(UINT8[17] *)vectp_htbl.41_224];
+ scalar_type: vector(16) unsigned char
+jcmarker.c:114:6: note: not consecutive access *_83 = _85;
+jcmarker.c:114:6: note: not consecutive access _83 = dest_82->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _86 = dest_82->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_82->next_output_byte = _84;
+jcmarker.c:114:6: note: not consecutive access dest_82->free_in_buffer = _87;
+jcmarker.c:114:6: note: not consecutive access dest_82 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _91 = _90->error_exit;
+jcmarker.c:116:7: note: not consecutive access _90->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _90 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_75 = _77;
+jcmarker.c:114:6: note: not consecutive access _75 = dest_74->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _78 = dest_74->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_74->next_output_byte = _76;
+jcmarker.c:114:6: note: not consecutive access dest_74->free_in_buffer = _79;
+jcmarker.c:114:6: note: not consecutive access dest_74 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _93 = _92->error_exit;
+jcmarker.c:116:7: note: not consecutive access _92->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _92 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_64 = _66;
+jcmarker.c:114:6: note: not consecutive access _64 = dest_63->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _67 = dest_63->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_63->next_output_byte = _65;
+jcmarker.c:114:6: note: not consecutive access dest_63->free_in_buffer = _68;
+jcmarker.c:114:6: note: not consecutive access dest_63 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _95 = _94->error_exit;
+jcmarker.c:116:7: note: not consecutive access _94->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _94 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_97 = _32;
+jcmarker.c:114:6: note: not consecutive access _97 = dest_96->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _100 = dest_96->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_96->next_output_byte = _98;
+jcmarker.c:114:6: note: not consecutive access dest_96->free_in_buffer = _101;
+jcmarker.c:114:6: note: not consecutive access dest_96 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _105 = _104->error_exit;
+jcmarker.c:116:7: note: not consecutive access _104->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _104 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:210:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:213:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:216:22: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_107 = _36;
+jcmarker.c:114:6: note: not consecutive access _107 = dest_106->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _110 = dest_106->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_106->next_output_byte = _108;
+jcmarker.c:114:6: note: not consecutive access dest_106->free_in_buffer = _111;
+jcmarker.c:114:6: note: not consecutive access dest_106 = cinfo_13(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _115 = _114->error_exit;
+jcmarker.c:116:7: note: not consecutive access _114->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _114 = cinfo_13(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:213:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:218:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:320:3: note: not vectorized: control flow in loop.
+jcmarker.c:320:3: note: bad loop form.
+jcmarker.c:567:5: note: not vectorized: control flow in loop.
+jcmarker.c:567:5: note: bad loop form.
+jcmarker.c:557:6: note: not consecutive access marker_8 = cinfo_7(D)->marker;
+jcmarker.c:557:6: note: not consecutive access _9 = cinfo_7(D)->arith_code;
+jcmarker.c:557:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:588:6: note: not consecutive access _26 = marker_8->last_restart_interval;
+jcmarker.c:588:6: note: not consecutive access _25 = cinfo_7(D)->restart_interval;
+jcmarker.c:588:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:567:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:569:10: note: not consecutive access _27 = cinfo_7(D)->progressive_mode;
+jcmarker.c:569:10: note: not consecutive access compptr_30 = cinfo_7(D)->cur_comp_info[i_47];
+jcmarker.c:569:10: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:571:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:572:7: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:579:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:567:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:569:10: note: not consecutive access _544 = cinfo_7(D)->progressive_mode;
+jcmarker.c:569:10: note: not consecutive access compptr_543 = cinfo_7(D)->cur_comp_info[i_540];
+jcmarker.c:569:10: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:571:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:572:7: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:579:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:567:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:569:10: note: not consecutive access _565 = cinfo_7(D)->progressive_mode;
+jcmarker.c:569:10: note: not consecutive access compptr_564 = cinfo_7(D)->cur_comp_info[i_561];
+jcmarker.c:569:10: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:571:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:572:7: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:579:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:567:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:569:10: note: not consecutive access _13 = cinfo_7(D)->progressive_mode;
+jcmarker.c:569:10: note: not consecutive access compptr_12 = cinfo_7(D)->cur_comp_info[i_385];
+jcmarker.c:569:10: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:571:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:572:7: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:573:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:575:4: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:579:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:580:2: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:567:44: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_61 = 255;
+jcmarker.c:114:6: note: not consecutive access _61 = dest_60->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _64 = dest_60->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_60->next_output_byte = _62;
+jcmarker.c:114:6: note: not consecutive access dest_60->free_in_buffer = _65;
+jcmarker.c:114:6: note: not consecutive access dest_60 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _69 = _68->error_exit;
+jcmarker.c:116:7: note: not consecutive access _68->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _68 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_53 = 221;
+jcmarker.c:114:6: note: not consecutive access _53 = dest_52->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _56 = dest_52->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_52->next_output_byte = _54;
+jcmarker.c:114:6: note: not consecutive access dest_52->free_in_buffer = _57;
+jcmarker.c:114:6: note: not consecutive access dest_52 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _71 = _70->error_exit;
+jcmarker.c:116:7: note: not consecutive access _70->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _70 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_45 = 0;
+jcmarker.c:114:6: note: not consecutive access _45 = dest_44->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _48 = dest_44->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_44->next_output_byte = _46;
+jcmarker.c:114:6: note: not consecutive access dest_44->free_in_buffer = _49;
+jcmarker.c:114:6: note: not consecutive access dest_44 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _73 = _72->error_exit;
+jcmarker.c:116:7: note: not consecutive access _72->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _72 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_37 = 4;
+jcmarker.c:114:6: note: not consecutive access _37 = dest_36->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _40 = dest_36->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_36->next_output_byte = _38;
+jcmarker.c:114:6: note: not consecutive access dest_36->free_in_buffer = _41;
+jcmarker.c:114:6: note: not consecutive access dest_36 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _75 = _74->error_exit;
+jcmarker.c:116:7: note: not consecutive access _74->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _74 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_85 = _87;
+jcmarker.c:114:6: note: not consecutive access _85 = dest_84->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _88 = dest_84->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_84->next_output_byte = _86;
+jcmarker.c:114:6: note: not consecutive access dest_84->free_in_buffer = _89;
+jcmarker.c:114:6: note: not consecutive access dest_84 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _31 = cinfo_7(D)->restart_interval;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _93 = _92->error_exit;
+jcmarker.c:116:7: note: not consecutive access _92->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _92 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_77 = _79;
+jcmarker.c:114:6: note: not consecutive access _77 = dest_76->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _80 = dest_76->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_76->next_output_byte = _78;
+jcmarker.c:114:6: note: not consecutive access dest_76->free_in_buffer = _81;
+jcmarker.c:114:6: note: not consecutive access dest_76 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _95 = _94->error_exit;
+jcmarker.c:116:7: note: not consecutive access _94->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _94 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:590:35: note: not consecutive access marker_8->last_restart_interval = _28;
+jcmarker.c:590:35: note: not consecutive access _28 = cinfo_7(D)->restart_interval;
+jcmarker.c:590:35: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_141 = 255;
+jcmarker.c:114:6: note: not consecutive access _141 = dest_140->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _144 = dest_140->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_140->next_output_byte = _142;
+jcmarker.c:114:6: note: not consecutive access dest_140->free_in_buffer = _145;
+jcmarker.c:114:6: note: not consecutive access dest_140 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _149 = _148->error_exit;
+jcmarker.c:116:7: note: not consecutive access _148->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _148 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_133 = 218;
+jcmarker.c:114:6: note: not consecutive access _133 = dest_132->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _136 = dest_132->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_132->next_output_byte = _134;
+jcmarker.c:114:6: note: not consecutive access dest_132->free_in_buffer = _137;
+jcmarker.c:114:6: note: not consecutive access dest_132 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _151 = _150->error_exit;
+jcmarker.c:116:7: note: not consecutive access _150->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _150 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_161 = _163;
+jcmarker.c:114:6: note: not consecutive access _161 = dest_160->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _164 = dest_160->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_160->next_output_byte = _162;
+jcmarker.c:114:6: note: not consecutive access dest_160->free_in_buffer = _165;
+jcmarker.c:114:6: note: not consecutive access dest_160 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _96 = cinfo_7(D)->comps_in_scan;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _169 = _168->error_exit;
+jcmarker.c:116:7: note: not consecutive access _168->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _168 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_153 = _155;
+jcmarker.c:114:6: note: not consecutive access _153 = dest_152->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _156 = dest_152->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_152->next_output_byte = _154;
+jcmarker.c:114:6: note: not consecutive access dest_152->free_in_buffer = _157;
+jcmarker.c:114:6: note: not consecutive access dest_152 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _171 = _170->error_exit;
+jcmarker.c:116:7: note: not consecutive access _170->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _170 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_122 = _124;
+jcmarker.c:114:6: note: not consecutive access _122 = dest_121->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _125 = dest_121->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_121->next_output_byte = _123;
+jcmarker.c:114:6: note: not consecutive access dest_121->free_in_buffer = _126;
+jcmarker.c:114:6: note: not consecutive access dest_121 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _99 = cinfo_7(D)->comps_in_scan;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _173 = _172->error_exit;
+jcmarker.c:116:7: note: not consecutive access _172->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _172 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:320:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_211 = _213;
+jcmarker.c:114:6: note: not consecutive access _211 = dest_210->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _214 = dest_210->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_210->next_output_byte = _212;
+jcmarker.c:114:6: note: not consecutive access dest_210->free_in_buffer = _215;
+jcmarker.c:114:6: note: not consecutive access dest_210 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _115 = cinfo_7(D)->Ss;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_508 = _495;
+jcmarker.c:114:6: note: not consecutive access _509 = compptr_4->component_id;
+jcmarker.c:114:6: note: not consecutive access _508 = dest_511->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _493 = dest_511->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_511->next_output_byte = _337;
+jcmarker.c:114:6: note: not consecutive access dest_511->free_in_buffer = _492;
+jcmarker.c:114:6: note: not consecutive access dest_511 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access compptr_4 = cinfo_7(D)->cur_comp_info[i_111];
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _483 = _485->error_exit;
+jcmarker.c:116:7: note: not consecutive access _485->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _485 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:325:8: note: not consecutive access _478 = cinfo_7(D)->progressive_mode;
+jcmarker.c:325:8: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_464 = prephitmp_466;
+jcmarker.c:114:6: note: not consecutive access _464 = dest_465->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _460 = dest_465->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_465->next_output_byte = _463;
+jcmarker.c:114:6: note: not consecutive access dest_465->free_in_buffer = _459;
+jcmarker.c:114:6: note: not consecutive access dest_465 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _452 = _454->error_exit;
+jcmarker.c:116:7: note: not consecutive access _454->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _454 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:320:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_441 = _438;
+jcmarker.c:114:6: note: not consecutive access _443 = compptr_444->component_id;
+jcmarker.c:114:6: note: not consecutive access _441 = dest_442->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _436 = dest_442->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_442->next_output_byte = _440;
+jcmarker.c:114:6: note: not consecutive access dest_442->free_in_buffer = _435;
+jcmarker.c:114:6: note: not consecutive access dest_442 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access compptr_444 = cinfo_7(D)->cur_comp_info[i_446];
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _427 = _429->error_exit;
+jcmarker.c:116:7: note: not consecutive access _429->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _429 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:325:8: note: not consecutive access _422 = cinfo_7(D)->progressive_mode;
+jcmarker.c:325:8: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_408 = prephitmp_410;
+jcmarker.c:114:6: note: not consecutive access _408 = dest_409->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _404 = dest_409->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_409->next_output_byte = _407;
+jcmarker.c:114:6: note: not consecutive access dest_409->free_in_buffer = _403;
+jcmarker.c:114:6: note: not consecutive access dest_409 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _396 = _398->error_exit;
+jcmarker.c:116:7: note: not consecutive access _398->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _398 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:320:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_383 = _378;
+jcmarker.c:114:6: note: not consecutive access _387 = compptr_388->component_id;
+jcmarker.c:114:6: note: not consecutive access _383 = dest_386->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _376 = dest_386->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_386->next_output_byte = _380;
+jcmarker.c:114:6: note: not consecutive access dest_386->free_in_buffer = _375;
+jcmarker.c:114:6: note: not consecutive access dest_386 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access compptr_388 = cinfo_7(D)->cur_comp_info[i_390];
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _367 = _369->error_exit;
+jcmarker.c:116:7: note: not consecutive access _369->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _369 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:325:8: note: not consecutive access _362 = cinfo_7(D)->progressive_mode;
+jcmarker.c:325:8: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_348 = prephitmp_350;
+jcmarker.c:114:6: note: not consecutive access _348 = dest_349->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _344 = dest_349->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_349->next_output_byte = _347;
+jcmarker.c:114:6: note: not consecutive access dest_349->free_in_buffer = _343;
+jcmarker.c:114:6: note: not consecutive access dest_349 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _143 = _338->error_exit;
+jcmarker.c:116:7: note: not consecutive access _338->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _338 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:320:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_175 = _177;
+jcmarker.c:114:6: note: not consecutive access _102 = compptr_101->component_id;
+jcmarker.c:114:6: note: not consecutive access _175 = dest_174->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _178 = dest_174->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_174->next_output_byte = _176;
+jcmarker.c:114:6: note: not consecutive access dest_174->free_in_buffer = _179;
+jcmarker.c:114:6: note: not consecutive access dest_174 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access compptr_101 = cinfo_7(D)->cur_comp_info[i_382];
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _183 = _182->error_exit;
+jcmarker.c:116:7: note: not consecutive access _182->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _182 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:325:8: note: not consecutive access _105 = cinfo_7(D)->progressive_mode;
+jcmarker.c:325:8: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:325:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:331:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:333:21: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_185 = prephitmp_507;
+jcmarker.c:114:6: note: not consecutive access _185 = dest_184->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _188 = dest_184->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_184->next_output_byte = _186;
+jcmarker.c:114:6: note: not consecutive access dest_184->free_in_buffer = _189;
+jcmarker.c:114:6: note: not consecutive access dest_184 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _193 = _192->error_exit;
+jcmarker.c:116:7: note: not consecutive access _192->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _192 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:320:24: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _219 = _218->error_exit;
+jcmarker.c:116:7: note: not consecutive access _218->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _218 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_203 = _205;
+jcmarker.c:114:6: note: not consecutive access _203 = dest_202->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _206 = dest_202->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_202->next_output_byte = _204;
+jcmarker.c:114:6: note: not consecutive access dest_202->free_in_buffer = _207;
+jcmarker.c:114:6: note: not consecutive access dest_202 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _116 = cinfo_7(D)->Se;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _221 = _220->error_exit;
+jcmarker.c:116:7: note: not consecutive access _220->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _220 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_195 = _197;
+jcmarker.c:114:6: note: not consecutive access _195 = dest_194->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _198 = dest_194->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_194->next_output_byte = _196;
+jcmarker.c:114:6: note: not consecutive access dest_194->free_in_buffer = _199;
+jcmarker.c:114:6: note: not consecutive access dest_194 = cinfo_7(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _223 = _222->error_exit;
+jcmarker.c:116:7: note: not consecutive access _222->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _222 = cinfo_7(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:594:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:168:5: note: not vectorized: control flow in loop.
+jcmarker.c:168:5: note: bad loop form.
+jcmarker.c:156:3: note: Unknown def-use cycle pattern.
+jcmarker.c:156:3: note: Unsupported pattern.
+jcmarker.c:156:3: note: Unsupported pattern.
+jcmarker.c:156:3: note: not vectorized: unsupported use in stmt.
+jcmarker.c:156:3: note: unexpected pattern.
+jcmarker.c:152:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:153:5: note: not consecutive access _17 = _14->error_exit;
+jcmarker.c:153:5: note: not consecutive access _14 = cinfo_11(D)->err;
+jcmarker.c:153:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:153:5: note: not consecutive access _17 = _14->error_exit;
+jcmarker.c:153:5: note: not consecutive access _14 = cinfo_11(D)->err;
+jcmarker.c:153:5: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:153:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:156:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:161:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_48 = 255;
+jcmarker.c:114:6: note: not consecutive access _48 = dest_47->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _51 = dest_47->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_47->next_output_byte = _49;
+jcmarker.c:114:6: note: not consecutive access dest_47->free_in_buffer = _52;
+jcmarker.c:114:6: note: not consecutive access dest_47 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _56 = _55->error_exit;
+jcmarker.c:116:7: note: not consecutive access _55->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _55 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_40 = 219;
+jcmarker.c:114:6: note: not consecutive access _40 = dest_39->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _43 = dest_39->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_39->next_output_byte = _41;
+jcmarker.c:114:6: note: not consecutive access dest_39->free_in_buffer = _44;
+jcmarker.c:114:6: note: not consecutive access dest_39 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _58 = _57->error_exit;
+jcmarker.c:116:7: note: not consecutive access _57->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _57 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:164:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_79 = 0;
+jcmarker.c:114:6: note: not consecutive access _79 = dest_78->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _82 = dest_78->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_78->next_output_byte = _80;
+jcmarker.c:114:6: note: not consecutive access dest_78->free_in_buffer = _83;
+jcmarker.c:114:6: note: not consecutive access dest_78 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _87 = _86->error_exit;
+jcmarker.c:116:7: note: not consecutive access _86->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _86 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_71 = prephitmp_207;
+jcmarker.c:114:6: note: not consecutive access _71 = dest_70->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _74 = dest_70->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_70->next_output_byte = _72;
+jcmarker.c:114:6: note: not consecutive access dest_70->free_in_buffer = _75;
+jcmarker.c:114:6: note: not consecutive access dest_70 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _89 = _88->error_exit;
+jcmarker.c:116:7: note: not consecutive access _88->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _88 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_60 = _62;
+jcmarker.c:114:6: note: not consecutive access _60 = dest_59->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _63 = dest_59->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_59->next_output_byte = _61;
+jcmarker.c:114:6: note: not consecutive access dest_59->free_in_buffer = _64;
+jcmarker.c:114:6: note: not consecutive access dest_59 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _91 = _90->error_exit;
+jcmarker.c:116:7: note: not consecutive access _90->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _90 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:171:10: note: not consecutive access _28 = qtbl_13->quantval[_27];
+jcmarker.c:171:10: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_93 = _95;
+jcmarker.c:114:6: note: not consecutive access _93 = dest_92->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _96 = dest_92->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_92->next_output_byte = _94;
+jcmarker.c:114:6: note: not consecutive access dest_92->free_in_buffer = _97;
+jcmarker.c:114:6: note: not consecutive access dest_92 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _101 = _100->error_exit;
+jcmarker.c:116:7: note: not consecutive access _100->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _100 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_103 = _105;
+jcmarker.c:114:6: note: not consecutive access _103 = dest_102->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _106 = dest_102->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_102->next_output_byte = _104;
+jcmarker.c:114:6: note: not consecutive access dest_102->free_in_buffer = _107;
+jcmarker.c:114:6: note: not consecutive access dest_102 = cinfo_11(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _111 = _110->error_exit;
+jcmarker.c:116:7: note: not consecutive access _110->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _110 = cinfo_11(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:168:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:176:22: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:179:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:518:5: note: not vectorized: control flow in loop.
+jcmarker.c:518:5: note: bad loop form.
+jcmarker.c:504:3: note: not vectorized: number of iterations cannot be computed.
+jcmarker.c:504:3: note: bad loop form.
+jcmarker.c:504:3: note: not consecutive access compptr_14 = cinfo_13(D)->comp_info;
+jcmarker.c:504:3: note: not consecutive access _51 = cinfo_13(D)->num_components;
+jcmarker.c:504:3: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:506:13: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:504:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:513:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:532:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:513:25: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:513:52: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:518:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:520:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:520:34: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:518:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:518:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:523:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:526:7: note: not consecutive access _35 = _33->emit_message;
+jcmarker.c:526:7: note: not consecutive access _33->msg_code = 75;
+jcmarker.c:526:7: note: not consecutive access _33 = cinfo_13(D)->err;
+jcmarker.c:526:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:531:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:531:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:534:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:536:13: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:541:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:541:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:628:5: note: not vectorized: control flow in loop.
+jcmarker.c:628:5: note: bad loop form.
+jcmarker.c:622:3: note: not vectorized: control flow in loop.
+jcmarker.c:622:3: note: bad loop form.
+jcmarker.c:114:6: note: not consecutive access *_34 = 255;
+jcmarker.c:114:6: note: not consecutive access _34 = dest_33->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _37 = dest_33->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_33->next_output_byte = _35;
+jcmarker.c:114:6: note: not consecutive access dest_33->free_in_buffer = _38;
+jcmarker.c:114:6: note: not consecutive access dest_33 = cinfo_10(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _42 = _41->error_exit;
+jcmarker.c:116:7: note: not consecutive access _41->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _41 = cinfo_10(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_26 = 216;
+jcmarker.c:114:6: note: not consecutive access _26 = dest_25->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _29 = dest_25->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_25->next_output_byte = _27;
+jcmarker.c:114:6: note: not consecutive access dest_25->free_in_buffer = _30;
+jcmarker.c:114:6: note: not consecutive access dest_25 = cinfo_10(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _44 = _43->error_exit;
+jcmarker.c:116:7: note: not consecutive access _43->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _43 = cinfo_10(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:623:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:622:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:627:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_54 = 255;
+jcmarker.c:114:6: note: not consecutive access _54 = dest_53->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _57 = dest_53->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_53->next_output_byte = _55;
+jcmarker.c:114:6: note: not consecutive access dest_53->free_in_buffer = _58;
+jcmarker.c:114:6: note: not consecutive access dest_53 = cinfo_10(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:629:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:631:10: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:628:5: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _62 = _61->error_exit;
+jcmarker.c:116:7: note: not consecutive access _61->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _61 = cinfo_10(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_46 = 217;
+jcmarker.c:114:6: note: not consecutive access _46 = dest_45->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _49 = dest_45->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_45->next_output_byte = _47;
+jcmarker.c:114:6: note: not consecutive access dest_45->free_in_buffer = _50;
+jcmarker.c:114:6: note: not consecutive access dest_45 = cinfo_10(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _64 = _63->error_exit;
+jcmarker.c:116:7: note: not consecutive access _63->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _63 = cinfo_10(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:637:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_22 = 255;
+jcmarker.c:114:6: note: not consecutive access _22 = dest_21->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _25 = dest_21->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_21->next_output_byte = _23;
+jcmarker.c:114:6: note: not consecutive access dest_21->free_in_buffer = _26;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _30 = _29->error_exit;
+jcmarker.c:116:7: note: not consecutive access _29->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _29 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_14 = 216;
+jcmarker.c:114:6: note: not consecutive access _14 = dest_13->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _17 = dest_13->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_13->next_output_byte = _15;
+jcmarker.c:114:6: note: not consecutive access dest_13->free_in_buffer = _18;
+jcmarker.c:114:6: note: not consecutive access dest_13 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _32 = _31->error_exit;
+jcmarker.c:116:7: note: not consecutive access _31->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _31 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:478:6: note: not consecutive access marker_5->last_restart_interval = 0;
+jcmarker.c:478:6: note: not consecutive access _7 = cinfo_4(D)->write_JFIF_header;
+jcmarker.c:478:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_154 = 255;
+jcmarker.c:114:6: note: not consecutive access _154 = dest_153->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _157 = dest_153->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_153->next_output_byte = _155;
+jcmarker.c:114:6: note: not consecutive access dest_153->free_in_buffer = _158;
+jcmarker.c:114:6: note: not consecutive access dest_153 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _162 = _161->error_exit;
+jcmarker.c:116:7: note: not consecutive access _161->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _161 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_146 = 224;
+jcmarker.c:114:6: note: not consecutive access _146 = dest_145->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _149 = dest_145->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_145->next_output_byte = _147;
+jcmarker.c:114:6: note: not consecutive access dest_145->free_in_buffer = _150;
+jcmarker.c:114:6: note: not consecutive access dest_145 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _164 = _163->error_exit;
+jcmarker.c:116:7: note: not consecutive access _163->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _163 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_138 = 0;
+jcmarker.c:114:6: note: not consecutive access _138 = dest_137->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _141 = dest_137->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_137->next_output_byte = _139;
+jcmarker.c:114:6: note: not consecutive access dest_137->free_in_buffer = _142;
+jcmarker.c:114:6: note: not consecutive access dest_137 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _166 = _165->error_exit;
+jcmarker.c:116:7: note: not consecutive access _165->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _165 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_130 = 16;
+jcmarker.c:114:6: note: not consecutive access _130 = dest_129->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _133 = dest_129->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_129->next_output_byte = _131;
+jcmarker.c:114:6: note: not consecutive access dest_129->free_in_buffer = _134;
+jcmarker.c:114:6: note: not consecutive access dest_129 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _168 = _167->error_exit;
+jcmarker.c:116:7: note: not consecutive access _167->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _167 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_122 = 74;
+jcmarker.c:114:6: note: not consecutive access _122 = dest_121->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _125 = dest_121->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_121->next_output_byte = _123;
+jcmarker.c:114:6: note: not consecutive access dest_121->free_in_buffer = _126;
+jcmarker.c:114:6: note: not consecutive access dest_121 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _170 = _169->error_exit;
+jcmarker.c:116:7: note: not consecutive access _169->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _169 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_114 = 70;
+jcmarker.c:114:6: note: not consecutive access _114 = dest_113->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _117 = dest_113->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_113->next_output_byte = _115;
+jcmarker.c:114:6: note: not consecutive access dest_113->free_in_buffer = _118;
+jcmarker.c:114:6: note: not consecutive access dest_113 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _172 = _171->error_exit;
+jcmarker.c:116:7: note: not consecutive access _171->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _171 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_106 = 73;
+jcmarker.c:114:6: note: not consecutive access _106 = dest_105->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _109 = dest_105->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_105->next_output_byte = _107;
+jcmarker.c:114:6: note: not consecutive access dest_105->free_in_buffer = _110;
+jcmarker.c:114:6: note: not consecutive access dest_105 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _174 = _173->error_exit;
+jcmarker.c:116:7: note: not consecutive access _173->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _173 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_98 = 70;
+jcmarker.c:114:6: note: not consecutive access _98 = dest_97->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _101 = dest_97->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_97->next_output_byte = _99;
+jcmarker.c:114:6: note: not consecutive access dest_97->free_in_buffer = _102;
+jcmarker.c:114:6: note: not consecutive access dest_97 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _176 = _175->error_exit;
+jcmarker.c:116:7: note: not consecutive access _175->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _175 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_90 = 0;
+jcmarker.c:114:6: note: not consecutive access _90 = dest_89->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _93 = dest_89->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_89->next_output_byte = _91;
+jcmarker.c:114:6: note: not consecutive access dest_89->free_in_buffer = _94;
+jcmarker.c:114:6: note: not consecutive access dest_89 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _178 = _177->error_exit;
+jcmarker.c:116:7: note: not consecutive access _177->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _177 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_82 = _33;
+jcmarker.c:114:6: note: not consecutive access _82 = dest_81->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _85 = dest_81->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_81->next_output_byte = _83;
+jcmarker.c:114:6: note: not consecutive access dest_81->free_in_buffer = _86;
+jcmarker.c:114:6: note: not consecutive access dest_81 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _33 = cinfo_4(D)->JFIF_major_version;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _180 = _179->error_exit;
+jcmarker.c:116:7: note: not consecutive access _179->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _179 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_74 = _35;
+jcmarker.c:114:6: note: not consecutive access _74 = dest_73->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _77 = dest_73->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_73->next_output_byte = _75;
+jcmarker.c:114:6: note: not consecutive access dest_73->free_in_buffer = _78;
+jcmarker.c:114:6: note: not consecutive access dest_73 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _35 = cinfo_4(D)->JFIF_minor_version;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _182 = _181->error_exit;
+jcmarker.c:116:7: note: not consecutive access _181->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _181 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_66 = _37;
+jcmarker.c:114:6: note: not consecutive access _66 = dest_65->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _69 = dest_65->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_65->next_output_byte = _67;
+jcmarker.c:114:6: note: not consecutive access dest_65->free_in_buffer = _70;
+jcmarker.c:114:6: note: not consecutive access dest_65 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _37 = cinfo_4(D)->density_unit;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _184 = _183->error_exit;
+jcmarker.c:116:7: note: not consecutive access _183->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _183 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_194 = _196;
+jcmarker.c:114:6: note: not consecutive access _194 = dest_193->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _197 = dest_193->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_193->next_output_byte = _195;
+jcmarker.c:114:6: note: not consecutive access dest_193->free_in_buffer = _198;
+jcmarker.c:114:6: note: not consecutive access dest_193 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _39 = cinfo_4(D)->X_density;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _202 = _201->error_exit;
+jcmarker.c:116:7: note: not consecutive access _201->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _201 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_186 = _188;
+jcmarker.c:114:6: note: not consecutive access _186 = dest_185->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _189 = dest_185->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_185->next_output_byte = _187;
+jcmarker.c:114:6: note: not consecutive access dest_185->free_in_buffer = _190;
+jcmarker.c:114:6: note: not consecutive access dest_185 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _204 = _203->error_exit;
+jcmarker.c:116:7: note: not consecutive access _203->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _203 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_214 = _216;
+jcmarker.c:114:6: note: not consecutive access _214 = dest_213->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _217 = dest_213->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_213->next_output_byte = _215;
+jcmarker.c:114:6: note: not consecutive access dest_213->free_in_buffer = _218;
+jcmarker.c:114:6: note: not consecutive access dest_213 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not consecutive access _41 = cinfo_4(D)->Y_density;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _222 = _221->error_exit;
+jcmarker.c:116:7: note: not consecutive access _221->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _221 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_206 = _208;
+jcmarker.c:114:6: note: not consecutive access _206 = dest_205->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _209 = dest_205->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_205->next_output_byte = _207;
+jcmarker.c:114:6: note: not consecutive access dest_205->free_in_buffer = _210;
+jcmarker.c:114:6: note: not consecutive access dest_205 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _224 = _223->error_exit;
+jcmarker.c:116:7: note: not consecutive access _223->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _223 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_52 = 0;
+jcmarker.c:114:6: note: not consecutive access _52 = dest_51->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _55 = dest_51->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_51->next_output_byte = _53;
+jcmarker.c:114:6: note: not consecutive access dest_51->free_in_buffer = _56;
+jcmarker.c:114:6: note: not consecutive access dest_51 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _226 = _225->error_exit;
+jcmarker.c:116:7: note: not consecutive access _225->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _225 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_44 = 0;
+jcmarker.c:114:6: note: not consecutive access _44 = dest_43->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _47 = dest_43->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_43->next_output_byte = _45;
+jcmarker.c:114:6: note: not consecutive access dest_43->free_in_buffer = _48;
+jcmarker.c:114:6: note: not consecutive access dest_43 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _228 = _227->error_exit;
+jcmarker.c:116:7: note: not consecutive access _227->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _227 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:480:6: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_343 = 255;
+jcmarker.c:114:6: note: not consecutive access _343 = dest_342->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _346 = dest_342->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_342->next_output_byte = _344;
+jcmarker.c:114:6: note: not consecutive access dest_342->free_in_buffer = _347;
+jcmarker.c:114:6: note: not consecutive access dest_342 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _351 = _350->error_exit;
+jcmarker.c:116:7: note: not consecutive access _350->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _350 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_335 = 238;
+jcmarker.c:114:6: note: not consecutive access _335 = dest_334->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _338 = dest_334->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_334->next_output_byte = _336;
+jcmarker.c:114:6: note: not consecutive access dest_334->free_in_buffer = _339;
+jcmarker.c:114:6: note: not consecutive access dest_334 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _353 = _352->error_exit;
+jcmarker.c:116:7: note: not consecutive access _352->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _352 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_327 = 0;
+jcmarker.c:114:6: note: not consecutive access _327 = dest_326->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _330 = dest_326->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_326->next_output_byte = _328;
+jcmarker.c:114:6: note: not consecutive access dest_326->free_in_buffer = _331;
+jcmarker.c:114:6: note: not consecutive access dest_326 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _355 = _354->error_exit;
+jcmarker.c:116:7: note: not consecutive access _354->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _354 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_319 = 14;
+jcmarker.c:114:6: note: not consecutive access _319 = dest_318->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _322 = dest_318->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_318->next_output_byte = _320;
+jcmarker.c:114:6: note: not consecutive access dest_318->free_in_buffer = _323;
+jcmarker.c:114:6: note: not consecutive access dest_318 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _357 = _356->error_exit;
+jcmarker.c:116:7: note: not consecutive access _356->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _356 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_311 = 65;
+jcmarker.c:114:6: note: not consecutive access _311 = dest_310->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _314 = dest_310->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_310->next_output_byte = _312;
+jcmarker.c:114:6: note: not consecutive access dest_310->free_in_buffer = _315;
+jcmarker.c:114:6: note: not consecutive access dest_310 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _359 = _358->error_exit;
+jcmarker.c:116:7: note: not consecutive access _358->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _358 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_303 = 100;
+jcmarker.c:114:6: note: not consecutive access _303 = dest_302->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _306 = dest_302->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_302->next_output_byte = _304;
+jcmarker.c:114:6: note: not consecutive access dest_302->free_in_buffer = _307;
+jcmarker.c:114:6: note: not consecutive access dest_302 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _361 = _360->error_exit;
+jcmarker.c:116:7: note: not consecutive access _360->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _360 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_295 = 111;
+jcmarker.c:114:6: note: not consecutive access _295 = dest_294->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _298 = dest_294->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_294->next_output_byte = _296;
+jcmarker.c:114:6: note: not consecutive access dest_294->free_in_buffer = _299;
+jcmarker.c:114:6: note: not consecutive access dest_294 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _363 = _362->error_exit;
+jcmarker.c:116:7: note: not consecutive access _362->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _362 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_287 = 98;
+jcmarker.c:114:6: note: not consecutive access _287 = dest_286->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _290 = dest_286->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_286->next_output_byte = _288;
+jcmarker.c:114:6: note: not consecutive access dest_286->free_in_buffer = _291;
+jcmarker.c:114:6: note: not consecutive access dest_286 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _365 = _364->error_exit;
+jcmarker.c:116:7: note: not consecutive access _364->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _364 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_279 = 101;
+jcmarker.c:114:6: note: not consecutive access _279 = dest_278->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _282 = dest_278->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_278->next_output_byte = _280;
+jcmarker.c:114:6: note: not consecutive access dest_278->free_in_buffer = _283;
+jcmarker.c:114:6: note: not consecutive access dest_278 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _367 = _366->error_exit;
+jcmarker.c:116:7: note: not consecutive access _366->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _366 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_271 = 0;
+jcmarker.c:114:6: note: not consecutive access _271 = dest_270->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _274 = dest_270->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_270->next_output_byte = _272;
+jcmarker.c:114:6: note: not consecutive access dest_270->free_in_buffer = _275;
+jcmarker.c:114:6: note: not consecutive access dest_270 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _369 = _368->error_exit;
+jcmarker.c:116:7: note: not consecutive access _368->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _368 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_263 = 100;
+jcmarker.c:114:6: note: not consecutive access _263 = dest_262->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _266 = dest_262->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_262->next_output_byte = _264;
+jcmarker.c:114:6: note: not consecutive access dest_262->free_in_buffer = _267;
+jcmarker.c:114:6: note: not consecutive access dest_262 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _371 = _370->error_exit;
+jcmarker.c:116:7: note: not consecutive access _370->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _370 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_255 = 0;
+jcmarker.c:114:6: note: not consecutive access _255 = dest_254->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _258 = dest_254->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_254->next_output_byte = _256;
+jcmarker.c:114:6: note: not consecutive access dest_254->free_in_buffer = _259;
+jcmarker.c:114:6: note: not consecutive access dest_254 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _373 = _372->error_exit;
+jcmarker.c:116:7: note: not consecutive access _372->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _372 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_247 = 0;
+jcmarker.c:114:6: note: not consecutive access _247 = dest_246->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _250 = dest_246->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_246->next_output_byte = _248;
+jcmarker.c:114:6: note: not consecutive access dest_246->free_in_buffer = _251;
+jcmarker.c:114:6: note: not consecutive access dest_246 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _375 = _374->error_exit;
+jcmarker.c:116:7: note: not consecutive access _374->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _374 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_239 = 0;
+jcmarker.c:114:6: note: not consecutive access _239 = dest_238->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _242 = dest_238->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_238->next_output_byte = _240;
+jcmarker.c:114:6: note: not consecutive access dest_238->free_in_buffer = _243;
+jcmarker.c:114:6: note: not consecutive access dest_238 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _377 = _376->error_exit;
+jcmarker.c:116:7: note: not consecutive access _376->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _376 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_231 = 0;
+jcmarker.c:114:6: note: not consecutive access _231 = dest_230->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _234 = dest_230->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_230->next_output_byte = _232;
+jcmarker.c:114:6: note: not consecutive access dest_230->free_in_buffer = _235;
+jcmarker.c:114:6: note: not consecutive access dest_230 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _379 = _378->error_exit;
+jcmarker.c:116:7: note: not consecutive access _378->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _378 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:415:3: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:114:6: note: not consecutive access *_381 = 1;
+jcmarker.c:114:6: note: not consecutive access _381 = dest_380->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _384 = dest_380->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_380->next_output_byte = _382;
+jcmarker.c:114:6: note: not consecutive access dest_380->free_in_buffer = _385;
+jcmarker.c:114:6: note: not consecutive access dest_380 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _389 = _388->error_exit;
+jcmarker.c:116:7: note: not consecutive access _388->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _388 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_391 = 2;
+jcmarker.c:114:6: note: not consecutive access _391 = dest_390->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _394 = dest_390->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_390->next_output_byte = _392;
+jcmarker.c:114:6: note: not consecutive access dest_390->free_in_buffer = _395;
+jcmarker.c:114:6: note: not consecutive access dest_390 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _399 = _398->error_exit;
+jcmarker.c:116:7: note: not consecutive access _398->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _398 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:114:6: note: not consecutive access *_401 = 0;
+jcmarker.c:114:6: note: not consecutive access _401 = dest_400->next_output_byte;
+jcmarker.c:114:6: note: not consecutive access _404 = dest_400->free_in_buffer;
+jcmarker.c:114:6: note: not consecutive access dest_400->next_output_byte = _402;
+jcmarker.c:114:6: note: not consecutive access dest_400->free_in_buffer = _405;
+jcmarker.c:114:6: note: not consecutive access dest_400 = cinfo_4(D)->dest;
+jcmarker.c:114:6: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:115:12: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:115:8: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:116:7: note: not consecutive access _409 = _408->error_exit;
+jcmarker.c:116:7: note: not consecutive access _408->msg_code = 24;
+jcmarker.c:116:7: note: not consecutive access _408 = cinfo_4(D)->err;
+jcmarker.c:116:7: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:482:1: note: not vectorized: not enough data-refs in basic block.
+jcmarker.c:650:10: note: not consecutive access _4 = _3->alloc_small;
+jcmarker.c:650:10: note: not consecutive access _3 = cinfo_2(D)->mem;
+jcmarker.c:650:10: note: not vectorized: no grouped stores in basic block.
+jcmarker.c:664:1: note: not consecutive access marker_6->last_restart_interval = 0;
+jcmarker.c:664:1: note: not consecutive access cinfo_2(D)->marker = marker_6;
+jcmarker.c:664:1: note: Build SLP failed: unrolling required in basic block SLP
+jcmarker.c:664:1: note: not consecutive access marker_6->last_restart_interval = 0;
+jcmarker.c:664:1: note: not consecutive access cinfo_2(D)->marker = marker_6;
+jcmarker.c:664:1: note: Build SLP failed: unrolling required in basic block SLP

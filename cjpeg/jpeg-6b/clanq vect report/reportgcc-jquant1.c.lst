@@ -1,0 +1,89 @@
+jquant1.c:204:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i = 1; i < nc; i++)
+    ^
+jquant1.c:204:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant1.c:215:3: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (i = 0; i < nc; i++) {
+  ^
+jquant1.c:225:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  do {
+  ^
+jquant1.c:225:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:225:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jquant1.c:225:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:313:2: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+        for (k = 0; k < blksize; k++)
+        ^
+jquant1.c:313:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:729:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < cinfo->out_color_components; i++) {
+  ^
+jquant1.c:729:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:729:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+jquant1.c:729:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:783:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i < cinfo->out_color_components; i++)
+    ^
+jquant1.c:783:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:412:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (k = 0; k < ODITHER_SIZE; k++) {
+    ^
+jquant1.c:412:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+jquant1.c:441:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (j = 0; j < i; j++) {
+    ^
+jquant1.c:441:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:375:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (j > k)             /* advance val if past boundary */
+      ^
+jquant1.c:375:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:382:7: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+      for (j = 1; j <= MAXJSAMPLE; j++) {
+      ^
+jquant1.c:382:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:375:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (j > k)             /* advance val if past boundary */
+      ^
+jquant1.c:375:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:504:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant1.c:504:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:480:17: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      *ptrout++ = (JSAMPLE) pixcode;
+                ^
+jquant1.c:472:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = 0; row < num_rows; row++) {
+  ^
+jquant1.c:477:7: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (ci = 0; ci < nc; ci++) {
+      ^
+jquant1.c:477:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant1.c:593:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (col = width; col > 0; col--) {
+    ^
+jquant1.c:593:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:585:28: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    row_index = cquantize->row_index;
+                           ^
+jquant1.c:584:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = 0; row < num_rows; row++) {
+  ^
+jquant1.c:533:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    jzero_far((void FAR *) output_buf[row],
+    ^
+jquant1.c:531:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (row = 0; row < num_rows; row++) {
+  ^
+jquant1.c:543:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (col = width; col > 0; col--) {
+      ^
+jquant1.c:543:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jquant1.c:640:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < nc; ci++) {
+    ^
+jquant1.c:640:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+jquant1.c:663:7: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+      for (col = width; col > 0; col--) {
+      ^
+jquant1.c:663:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

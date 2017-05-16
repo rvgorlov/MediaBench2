@@ -1,0 +1,16 @@
+jcinit.c:36:6: note: not vectorized: not enough data-refs in basic block.
+jcinit.c:44:6: note: not vectorized: not enough data-refs in basic block.
+jcinit.c:45:5: note: not consecutive access _15 = _13->error_exit;
+jcinit.c:45:5: note: not consecutive access _13->msg_code = 1;
+jcinit.c:45:5: note: not consecutive access _13 = cinfo_5(D)->err;
+jcinit.c:45:5: note: not vectorized: no grouped stores in basic block.
+jcinit.c:47:8: note: not vectorized: not enough data-refs in basic block.
+jcinit.c:58:3: note: not vectorized: not enough data-refs in basic block.
+jcinit.c:58:3: note: not vectorized: not enough data-refs in basic block.
+jcinit.c:65:4: note: not consecutive access _26 = _25->realize_virt_arrays;
+jcinit.c:65:4: note: not consecutive access _25 = cinfo_5(D)->mem;
+jcinit.c:65:4: note: not vectorized: no grouped stores in basic block.
+jcinit.c:71:4: note: not consecutive access _29 = _28->write_file_header;
+jcinit.c:71:4: note: not consecutive access _28 = cinfo_5(D)->marker;
+jcinit.c:71:4: note: not vectorized: no grouped stores in basic block.
+jcinit.c:72:1: note: not vectorized: not enough data-refs in basic block.

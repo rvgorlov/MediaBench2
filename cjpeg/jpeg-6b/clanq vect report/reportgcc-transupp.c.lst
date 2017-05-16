@@ -1,0 +1,110 @@
+transupp.c:599:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < info->num_components; ci++) {
+    ^
+transupp.c:599:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:621:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (ci = 0; ci < info->num_components; ci++) {
+    ^
+transupp.c:621:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:690:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:690:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:710:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:710:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:654:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < dstinfo->num_components; ci++) {
+  ^
+transupp.c:654:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+        for (j = 0; j < i; j++) {
+        ^
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:666:2: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+transupp.c:424:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i += 2) {
+            ^
+transupp.c:407:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i += 2) {
+            ^
+transupp.c:448:6: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE2; i++)
+            ^
+transupp.c:448:6: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+transupp.c:439:6: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE2; i += 2) {
+            ^
+transupp.c:439:6: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+transupp.c:271:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++) {
+              ^
+transupp.c:281:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++)
+              ^
+transupp.c:504:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++) {
+                ^
+transupp.c:520:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++) {
+                ^
+transupp.c:534:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++) {
+                ^
+transupp.c:544:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+                for (i = 0; i < DCTSIZE; i++)
+                ^
+transupp.c:218:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i++)
+            ^
+transupp.c:165:6: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+            for (i = 0; i < DCTSIZE; i += 2) {
+            ^
+transupp.c:156:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (offset_y = 0; offset_y < compptr->v_samp_factor; offset_y++) {
+      ^
+transupp.c:156:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:87:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (blk_y = 0; blk_y < compptr->height_in_blocks;
+    ^
+transupp.c:87:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:97:4: remark: loop not vectorized: cannot check memory dependencies at runtime [-Rpass-analysis=loop-vectorize]
+          for (k = 0; k < DCTSIZE2; k += 2) {
+          ^
+transupp.c:97:4: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+transupp.c:335:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++) {
+              ^
+transupp.c:345:8: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+              for (i = 0; i < DCTSIZE; i++)
+              ^
+transupp.c:898:30: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        marker->marker == JPEG_APP0 &&
+                                    ^
+transupp.c:896:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (marker = srcinfo->marker_list; marker != NULL; marker = marker->next) {
+  ^

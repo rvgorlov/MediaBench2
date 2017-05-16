@@ -1,0 +1,61 @@
+jidctint.c:277:3: note: not vectorized: control flow in loop.
+jidctint.c:277:3: note: bad loop form.
+jidctint.c:171:3: note: not vectorized: control flow in loop.
+jidctint.c:171:3: note: bad loop form.
+jidctint.c:169:12: note: not consecutive access _17 = cinfo_16(D)->sample_range_limit;
+jidctint.c:169:12: note: not consecutive access quantptr_22 = compptr_21(D)->dct_table;
+jidctint.c:169:12: note: not vectorized: no grouped stores in basic block.
+jidctint.c:181:8: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:181:31: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:181:31: note: not vectorized: no grouped stores in basic block.
+jidctint.c:181:56: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:181:56: note: not vectorized: no grouped stores in basic block.
+jidctint.c:182:24: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:182:24: note: not vectorized: no grouped stores in basic block.
+jidctint.c:182:49: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:182:49: note: not vectorized: no grouped stores in basic block.
+jidctint.c:183:24: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:183:24: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:183:49: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:199:12: note: not vectorized: no grouped stores in basic block.
+jidctint.c:199:12: note: not vectorized: no grouped stores in basic block.
+jidctint.c:269:10: note: not vectorized: no grouped stores in basic block.
+jidctint.c:171:3: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:171:3: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:288:8: note: not vectorized: no grouped stores in basic block.
+jidctint.c:288:23: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:288:23: note: not vectorized: no grouped stores in basic block.
+jidctint.c:288:40: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:288:40: note: not vectorized: no grouped stores in basic block.
+jidctint.c:288:57: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:288:57: note: not vectorized: no grouped stores in basic block.
+jidctint.c:288:74: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:288:74: note: not vectorized: no grouped stores in basic block.
+jidctint.c:289:16: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:289:16: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:289:33: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:303:13: note: not consecutive access dcval_194 = *_193;
+jidctint.c:303:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctint.c:303:13: note: not consecutive access dcval_194 = *_193;
+jidctint.c:303:13: note: Build SLP failed: unrolling required in basic block SLP
+jidctint.c:303:13: note: not vectorized: no grouped stores in basic block.
+jidctint.c:385:11: note: not consecutive access _264 = *_263;
+jidctint.c:385:11: note: not consecutive access _272 = *_271;
+jidctint.c:385:11: note: not consecutive access _280 = *_279;
+jidctint.c:385:11: note: not consecutive access _288 = *_287;
+jidctint.c:385:11: note: not consecutive access _296 = *_295;
+jidctint.c:385:11: note: not consecutive access _304 = *_303;
+jidctint.c:385:11: note: not consecutive access _312 = *_311;
+jidctint.c:385:11: note: not consecutive access _320 = *_319;
+jidctint.c:385:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctint.c:385:11: note: not consecutive access _264 = *_263;
+jidctint.c:385:11: note: not consecutive access _272 = *_271;
+jidctint.c:385:11: note: not consecutive access _280 = *_279;
+jidctint.c:385:11: note: not consecutive access _288 = *_287;
+jidctint.c:385:11: note: not consecutive access _296 = *_295;
+jidctint.c:385:11: note: not consecutive access _304 = *_303;
+jidctint.c:385:11: note: not consecutive access _312 = *_311;
+jidctint.c:385:11: note: not consecutive access _320 = *_319;
+jidctint.c:385:11: note: Build SLP failed: unrolling required in basic block SLP
+jidctint.c:277:3: note: not vectorized: not enough data-refs in basic block.
+jidctint.c:387:1: note: not vectorized: not enough data-refs in basic block.

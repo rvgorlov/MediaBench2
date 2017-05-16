@@ -1,0 +1,671 @@
+jquant1.c:360:3: note: not vectorized: multiple nested loops.
+jquant1.c:360:3: note: bad loop form.
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *prephitmp_142 and *_62
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *prephitmp_142 and *_67
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *_62 and MEM[(JSAMPLE *)prephitmp_142 + 255B]
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *_62 and *_67
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)prephitmp_142 + 255B] and *_67
+jquant1.c:382:7: note: Unknown misalignment, is_packed = 0
+jquant1.c:382:7: note: Unknown misalignment, is_packed = 0
+jquant1.c:382:7: note: virtual phi. skip.
+jquant1.c:382:7: note: not ssa-name.
+jquant1.c:382:7: note: use not simple.
+jquant1.c:382:7: note: not ssa-name.
+jquant1.c:382:7: note: use not simple.
+jquant1.c:382:7: note: negative step and reversing not supported.
+jquant1.c:382:7: note: not vectorized: relevant stmt not supported: *_62 = _63;
+jquant1.c:382:7: note: bad operation or unsupported loop bound.
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *prephitmp_142 and *_62
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *prephitmp_142 and *_67
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *_62 and MEM[(JSAMPLE *)prephitmp_142 + 255B]
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between *_62 and *_67
+jquant1.c:382:7: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)prephitmp_142 + 255B] and *_67
+jquant1.c:382:7: note: Unknown misalignment, is_packed = 0
+jquant1.c:382:7: note: Unknown misalignment, is_packed = 0
+jquant1.c:382:7: note: virtual phi. skip.
+jquant1.c:382:7: note: not ssa-name.
+jquant1.c:382:7: note: use not simple.
+jquant1.c:382:7: note: not ssa-name.
+jquant1.c:382:7: note: use not simple.
+jquant1.c:382:7: note: not ssa-name.
+jquant1.c:382:7: note: use not simple.
+jquant1.c:382:7: note: not ssa-name.
+jquant1.c:382:7: note: use not simple.
+jquant1.c:382:7: note: virtual phi. skip.
+jquant1.c:382:7: note: loop vectorized
+jquant1.c:382:7: note: loop versioned for vectorization because of possible aliasing
+jquant1.c:382:7: note: loop peeled for vectorization to enhance alignment
+jquant1.c:382:7: note: virtual phi. skip.
+jquant1.c:374:5: note: not vectorized: control flow in loop.
+jquant1.c:374:5: note: bad loop form.
+jquant1.c:375:13: note: not vectorized: number of iterations cannot be computed.
+jquant1.c:375:13: note: bad loop form.
+jquant1.c:344:6: note: not consecutive access cquantize_19 = cinfo_18(D)->cquantize;
+jquant1.c:344:6: note: not consecutive access _20 = cinfo_18(D)->dither_mode;
+jquant1.c:344:6: note: not vectorized: no grouped stores in basic block.
+jquant1.c:352:28: note: not consecutive access _24 = _23->alloc_sarray;
+jquant1.c:352:28: note: not consecutive access cquantize_19->is_padded = cstore_3;
+jquant1.c:352:28: note: not consecutive access _23 = cinfo_18(D)->mem;
+jquant1.c:352:28: note: not consecutive access _25 = cinfo_18(D)->out_color_components;
+jquant1.c:352:28: note: not vectorized: no grouped stores in basic block.
+jquant1.c:360:3: note: not consecutive access blksize_32 = cquantize_19->sv_actual;
+jquant1.c:360:3: note: not consecutive access cquantize_19->colorindex = _30;
+jquant1.c:360:3: note: not consecutive access _5 = cinfo_18(D)->out_color_components;
+jquant1.c:360:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:387:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:366:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:366:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:367:32: note: not consecutive access _43 = *_39;
+jquant1.c:367:32: note: not consecutive access *_39 = _44;
+jquant1.c:367:32: note: not vectorized: no grouped stores in basic block.
+jquant1.c:264:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:375:13: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:374:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:375:13: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:381:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:360:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:360:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:384:25: note: not consecutive access *_516 = _517;
+jquant1.c:384:25: note: not consecutive access *_521 = _522;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_533 = _534;
+jquant1.c:384:25: note: not consecutive access *_538 = _539;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_550 = _551;
+jquant1.c:384:25: note: not consecutive access *_555 = _556;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_567 = _568;
+jquant1.c:384:25: note: not consecutive access *_572 = _573;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_584 = _585;
+jquant1.c:384:25: note: not consecutive access *_589 = _590;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_601 = _602;
+jquant1.c:384:25: note: not consecutive access *_606 = _607;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_618 = _619;
+jquant1.c:384:25: note: not consecutive access *_623 = _624;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_635 = _636;
+jquant1.c:384:25: note: not consecutive access *_640 = _641;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_652 = _653;
+jquant1.c:384:25: note: not consecutive access *_657 = _658;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_669 = _670;
+jquant1.c:384:25: note: not consecutive access *_674 = _675;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_686 = _687;
+jquant1.c:384:25: note: not consecutive access *_691 = _692;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_703 = _704;
+jquant1.c:384:25: note: not consecutive access *_708 = _709;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_720 = _721;
+jquant1.c:384:25: note: not consecutive access *_725 = _726;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_737 = _738;
+jquant1.c:384:25: note: not consecutive access *_742 = _743;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not consecutive access *_121 = _120;
+jquant1.c:384:25: note: not consecutive access *_116 = _115;
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:384:25: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.45_47] = vect__63.46_364;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.51_184] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_371] = vect__63.46_374;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_372] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_381] = vect__63.46_384;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_382] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_391] = vect__63.46_394;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_392] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_401] = vect__63.46_404;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_402] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_411] = vect__63.46_414;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_412] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_421] = vect__63.46_424;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_422] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_431] = vect__63.46_434;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_432] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_441] = vect__63.46_444;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_442] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_451] = vect__63.46_454;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_452] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_461] = vect__63.46_464;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_462] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_471] = vect__63.46_474;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_472] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_481] = vect__63.46_484;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_482] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_491] = vect__63.46_494;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_492] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_501] = vect__63.46_504;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_502] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.44_49] = vect__63.46_56;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_prephitmp.50_186] = vect_cst__183;
+ scalar_type: vector(16) unsigned char
+jquant1.c:384:25: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:37: note: not consecutive access *_16 = _13;
+jquant1.c:382:37: note: not consecutive access *_6 = _4;
+jquant1.c:382:37: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:37: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:382:7: note: not consecutive access *_126 = _174;
+jquant1.c:382:7: note: not consecutive access *_178 = _60;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_68 = _70;
+jquant1.c:382:7: note: not consecutive access *_171 = _96;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_157 = _156;
+jquant1.c:382:7: note: not consecutive access *_152 = _151;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_200 = _201;
+jquant1.c:382:7: note: not consecutive access *_205 = _206;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_215 = _216;
+jquant1.c:382:7: note: not consecutive access *_220 = _221;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_230 = _231;
+jquant1.c:382:7: note: not consecutive access *_235 = _236;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_245 = _246;
+jquant1.c:382:7: note: not consecutive access *_250 = _251;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_260 = _261;
+jquant1.c:382:7: note: not consecutive access *_265 = _266;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_275 = _276;
+jquant1.c:382:7: note: not consecutive access *_280 = _281;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_290 = _291;
+jquant1.c:382:7: note: not consecutive access *_295 = _296;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_305 = _306;
+jquant1.c:382:7: note: not consecutive access *_310 = _311;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_320 = _321;
+jquant1.c:382:7: note: not consecutive access *_325 = _326;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_335 = _336;
+jquant1.c:382:7: note: not consecutive access *_340 = _341;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not consecutive access *_350 = _351;
+jquant1.c:382:7: note: not consecutive access *_355 = _356;
+jquant1.c:382:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:382:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:472:3: note: not vectorized: multiple nested loops.
+jquant1.c:472:3: note: bad loop form.
+jquant1.c:475:5: note: not vectorized: control flow in loop.
+jquant1.c:475:5: note: bad loop form.
+jquant1.c:477:7: note: not vectorized: not suitable for gather load _36 = *_35;
+
+jquant1.c:477:7: note: bad data references.
+jquant1.c:472:3: note: not consecutive access colorindex_13 = cquantize_12->colorindex;
+jquant1.c:472:3: note: not consecutive access cquantize_12 = cinfo_11(D)->cquantize;
+jquant1.c:472:3: note: not consecutive access width_14 = cinfo_11(D)->output_width;
+jquant1.c:472:3: note: not consecutive access nc_15 = cinfo_11(D)->out_color_components;
+jquant1.c:472:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:483:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:483:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:474:12: note: not vectorized: no grouped stores in basic block.
+jquant1.c:477:7: note: not consecutive access _36 = *_35;
+jquant1.c:477:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:477:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:475:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:477:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:472:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:501:3: note: failed: evolution of base is not affine.
+jquant1.c:501:3: note: bad data references.
+jquant1.c:504:5: note: not vectorized: not suitable for gather load _27 = *_26;
+
+jquant1.c:504:5: note: bad data references.
+jquant1.c:501:3: note: not consecutive access _10 = cquantize_9->colorindex;
+jquant1.c:501:3: note: not consecutive access cquantize_9 = cinfo_8(D)->cquantize;
+jquant1.c:501:3: note: not consecutive access width_14 = cinfo_8(D)->output_width;
+jquant1.c:501:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:511:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:511:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:503:12: note: not vectorized: no grouped stores in basic block.
+jquant1.c:501:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:504:5: note: not consecutive access _27 = *_26;
+jquant1.c:504:5: note: not consecutive access _32 = *_31;
+jquant1.c:504:5: note: not consecutive access _39 = *_38;
+jquant1.c:504:5: note: not vectorized: no grouped stores in basic block.
+jquant1.c:584:3: note: not vectorized: control flow in loop.
+jquant1.c:584:3: note: bad loop form.
+jquant1.c:593:5: note: not vectorized: not suitable for gather load _37 = *_36;
+
+jquant1.c:593:5: note: bad data references.
+jquant1.c:584:3: note: not consecutive access _11 = cquantize_10->colorindex;
+jquant1.c:584:3: note: not consecutive access cquantize_10 = cinfo_9(D)->cquantize;
+jquant1.c:584:3: note: not consecutive access width_15 = cinfo_9(D)->output_width;
+jquant1.c:584:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:606:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:606:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:593:5: note: not vectorized: no grouped stores in basic block.
+jquant1.c:584:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:593:5: note: not consecutive access _37 = *_36;
+jquant1.c:593:5: note: not consecutive access _46 = *_45;
+jquant1.c:593:5: note: not consecutive access _57 = *_56;
+jquant1.c:593:5: note: not consecutive access _41 = *_40;
+jquant1.c:593:5: note: not consecutive access _50 = *_49;
+jquant1.c:593:5: note: not consecutive access _61 = *_60;
+jquant1.c:593:5: note: not vectorized: no grouped stores in basic block.
+jquant1.c:801:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:812:3: note: not consecutive access _5 = _3->error_exit;
+jquant1.c:812:3: note: not consecutive access _3->msg_code = 46;
+jquant1.c:812:3: note: not consecutive access _3 = cinfo_2(D)->err;
+jquant1.c:812:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:813:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:438:3: note: not vectorized: control flow in loop.
+jquant1.c:438:3: note: bad loop form.
+jquant1.c:411:3: note: not vectorized: control flow in loop.
+jquant1.c:411:3: note: bad loop form.
+jquant1.c:783:5: note: not vectorized: number of iterations cannot be computed.
+jquant1.c:783:5: note: bad loop form.
+jquant1.c:729:3: note: not vectorized: number of iterations cannot be computed.
+jquant1.c:729:3: note: bad loop form.
+jquant1.c:752:3: note: not consecutive access _10 = cquantize_9->sv_colormap;
+jquant1.c:752:3: note: not consecutive access _12 = cquantize_9->sv_actual;
+jquant1.c:752:3: note: not consecutive access cquantize_9 = cinfo_8(D)->cquantize;
+jquant1.c:752:3: note: not consecutive access _14 = cinfo_8(D)->dither_mode;
+jquant1.c:752:3: note: not consecutive access cinfo_8(D)->colormap = _10;
+jquant1.c:752:3: note: not consecutive access cinfo_8(D)->actual_number_of_colors = _12;
+jquant1.c:752:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:754:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:755:37: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:757:37: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:760:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:769:8: note: not consecutive access _22 = cquantize_9->is_padded;
+jquant1.c:769:8: note: not consecutive access cquantize_9->pub.color_quantize = cstore_72;
+jquant1.c:769:8: note: not consecutive access cquantize_9->row_index = 0;
+jquant1.c:769:8: note: not vectorized: no grouped stores in basic block.
+jquant1.c:772:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:438:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:434:20: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:441:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:442:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:441:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:442:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:441:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:442:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:441:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:442:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:447:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:402:11: note: not consecutive access _67 = _66->alloc_small;
+jquant1.c:402:11: note: not consecutive access _66 = cinfo_8(D)->mem;
+jquant1.c:402:11: note: not vectorized: no grouped stores in basic block.
+jquant1.c:410:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[0] = iftmp.11_114;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[1] = iftmp.11_133;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[2] = iftmp.11_152;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[3] = iftmp.11_171;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[4] = iftmp.11_190;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[5] = iftmp.11_209;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[6] = iftmp.11_228;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[7] = iftmp.11_247;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[8] = iftmp.11_266;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[9] = iftmp.11_285;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[10] = iftmp.11_304;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[11] = iftmp.11_323;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[12] = iftmp.11_342;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[13] = iftmp.11_361;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not consecutive access *_106[14] = iftmp.11_380;
+jquant1.c:418:23: note: not vectorized: no grouped stores in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:418:23: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:411:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:438:3: note: not consecutive access _65 = cinfo_8(D)->out_color_components;
+jquant1.c:438:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:779:8: note: not consecutive access _28 = cquantize_9->fserrors[0];
+jquant1.c:779:8: note: not consecutive access cquantize_9->pub.color_quantize = quantize_fs_dither;
+jquant1.c:779:8: note: not consecutive access cquantize_9->on_odd_row = 0;
+jquant1.c:779:8: note: not vectorized: no grouped stores in basic block.
+jquant1.c:779:8: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:729:3: note: not consecutive access _41 = cinfo_8(D)->output_width;
+jquant1.c:729:3: note: not consecutive access _270 = cinfo_8(D)->out_color_components;
+jquant1.c:729:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:731:8: note: not consecutive access _46 = _45->alloc_large;
+jquant1.c:731:8: note: not consecutive access _45 = cinfo_8(D)->mem;
+jquant1.c:731:8: note: not vectorized: no grouped stores in basic block.
+jquant1.c:729:3: note: not consecutive access _50 = cinfo_8(D)->out_color_components;
+jquant1.c:729:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:783:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:784:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:783:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:787:5: note: not consecutive access _39 = _37->error_exit;
+jquant1.c:787:5: note: not consecutive access _37->msg_code = 48;
+jquant1.c:787:5: note: not consecutive access _37 = cinfo_8(D)->err;
+jquant1.c:787:5: note: not vectorized: no grouped stores in basic block.
+jquant1.c:790:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:636:3: note: not vectorized: multiple nested loops.
+jquant1.c:636:3: note: bad loop form.
+jquant1.c:640:5: note: not vectorized: control flow in loop.
+jquant1.c:640:5: note: bad loop form.
+jquant1.c:663:7: note: not vectorized: not suitable for gather load _73 = *_72;
+
+jquant1.c:663:7: note: bad data references.
+jquant1.c:636:3: note: not consecutive access width_22 = cinfo_19(D)->output_width;
+jquant1.c:636:3: note: not consecutive access nc_21 = cinfo_19(D)->out_color_components;
+jquant1.c:636:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:714:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:649:37: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:638:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:640:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:640:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:640:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:643:10: note: not consecutive access _34 = *_179;
+jquant1.c:643:10: note: not consecutive access output_ptr_37 = *_29;
+jquant1.c:643:10: note: not vectorized: no grouped stores in basic block.
+jquant1.c:649:11: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:654:11: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:663:7: note: not consecutive access colorindex_ci_56 = *_55;
+jquant1.c:663:7: note: not consecutive access colormap_ci_59 = *_58;
+jquant1.c:663:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:663:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:663:7: note: not consecutive access _73 = *_72;
+jquant1.c:663:7: note: not consecutive access _77 = *_76;
+jquant1.c:663:7: note: not consecutive access _83 = *_82;
+jquant1.c:663:7: note: not consecutive access _63 = *_62;
+jquant1.c:663:7: note: not consecutive access *errorptr_124 = _91;
+jquant1.c:663:7: note: not consecutive access _68 = *input_ptr_126;
+jquant1.c:663:7: note: not consecutive access _78 = *output_ptr_127;
+jquant1.c:663:7: note: not consecutive access *output_ptr_127 = _79;
+jquant1.c:663:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:663:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:640:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:636:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:531:3: note: not vectorized: multiple nested loops.
+jquant1.c:531:3: note: bad loop form.
+jquant1.c:536:5: note: not vectorized: not suitable for gather load colorindex_ci_34 = *_33;
+
+jquant1.c:536:5: note: bad data references.
+jquant1.c:543:7: note: not vectorized: not suitable for gather load _44 = *_43;
+
+jquant1.c:543:7: note: bad data references.
+jquant1.c:531:3: note: not consecutive access cquantize_12 = cinfo_11(D)->cquantize;
+jquant1.c:531:3: note: not consecutive access width_14 = cinfo_11(D)->output_width;
+jquant1.c:531:3: note: not consecutive access nc_13 = cinfo_11(D)->out_color_components;
+jquant1.c:531:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:561:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:561:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:533:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:536:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:531:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:531:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:540:34: note: not consecutive access colorindex_ci_34 = *_33;
+jquant1.c:540:34: note: not consecutive access _27 = *_105;
+jquant1.c:540:34: note: not consecutive access output_ptr_30 = *_21;
+jquant1.c:540:34: note: not consecutive access _31 = cquantize_12->colorindex;
+jquant1.c:540:34: note: not vectorized: no grouped stores in basic block.
+jquant1.c:536:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:543:7: note: not consecutive access _44 = *_43;
+jquant1.c:543:7: note: not consecutive access _48 = *_47;
+jquant1.c:543:7: note: not consecutive access _39 = *input_ptr_71;
+jquant1.c:543:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:729:3: note: not vectorized: number of iterations cannot be computed.
+jquant1.c:729:3: note: bad loop form.
+jquant1.c:303:3: note: not vectorized: multiple nested loops.
+jquant1.c:303:3: note: bad loop form.
+jquant1.c:307:5: note: not vectorized: multiple nested loops.
+jquant1.c:307:5: note: bad loop form.
+jquant1.c:311:7: note: not vectorized: number of iterations cannot be computed.
+jquant1.c:311:7: note: bad loop form.
+jquant1.c:313:2: note: not vectorized: not suitable for scatter store *_84 = _247;
+
+jquant1.c:313:2: note: bad data references.
+jquant1.c:226:13: note: not vectorized: multiple nested loops.
+jquant1.c:226:13: note: bad loop form.
+jquant1.c:228:9: note: not vectorized: control flow in loop.
+jquant1.c:228:9: note: bad loop form.
+jquant1.c:228:61: note: not vectorized: control flow in loop.
+jquant1.c:228:61: note: bad loop form.
+jquant1.c:215:3: note: Unknown misalignment, is_packed = 0
+jquant1.c:215:3: note: reduc phi. skip.
+jquant1.c:215:3: note: virtual phi. skip.
+jquant1.c:215:3: note: not vectorized: relevant stmt not supported: total_colors_110 = iroot_262 * total_colors_176;
+jquant1.c:215:3: note: bad operation or unsupported loop bound.
+jquant1.c:215:3: note: Unknown misalignment, is_packed = 0
+jquant1.c:215:3: note: reduc phi. skip.
+jquant1.c:215:3: note: virtual phi. skip.
+jquant1.c:215:3: note: no optab for reduction.
+jquant1.c:215:3: note: reduc phi. skip.
+jquant1.c:215:3: note: virtual phi. skip.
+jquant1.c:215:3: note: loop vectorized
+jquant1.c:215:3: note: loop peeled for vectorization to enhance alignment
+jquant1.c:215:3: note: reduc phi. skip.
+jquant1.c:215:3: note: virtual phi. skip.
+jquant1.c:215:3: note: no optab for reduction.
+jquant1.c:206:3: note: not vectorized: control flow in loop.
+jquant1.c:206:3: note: bad loop form.
+jquant1.c:204:5: note: reduc phi. skip.
+jquant1.c:204:5: note: not vectorized: relevant stmt not supported: temp_98 = temp_96 * temp_198;
+jquant1.c:204:5: note: bad operation or unsupported loop bound.
+jquant1.c:204:5: note: reduc phi. skip.
+jquant1.c:204:5: note: no optab for reduction.
+jquant1.c:204:5: note: reduc phi. skip.
+jquant1.c:204:5: note: loop vectorized
+jquant1.c:204:5: note: reduc phi. skip.
+jquant1.c:204:5: note: no optab for reduction.
+jquant1.c:825:13: note: not consecutive access _7 = _6->alloc_small;
+jquant1.c:825:13: note: not consecutive access _6 = cinfo_5(D)->mem;
+jquant1.c:825:13: note: not vectorized: no grouped stores in basic block.
+jquant1.c:836:6: note: not consecutive access cquantize_9->pub.start_pass = start_pass_1_quant;
+jquant1.c:836:6: note: not consecutive access cquantize_9->odither[0] = 0B;
+jquant1.c:836:6: note: not consecutive access cquantize_9->fserrors[0] = 0B;
+jquant1.c:836:6: note: not consecutive access _16 = cinfo_5(D)->out_color_components;
+jquant1.c:836:6: note: not consecutive access cinfo_5(D)->cquantize = cquantize_9;
+jquant1.c:836:6: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:836:6: note: not consecutive access cquantize_9->pub.start_pass = start_pass_1_quant;
+jquant1.c:836:6: note: not consecutive access cquantize_9->odither[0] = 0B;
+jquant1.c:836:6: note: not consecutive access cquantize_9->fserrors[0] = 0B;
+jquant1.c:836:6: note: not consecutive access _16 = cinfo_5(D)->out_color_components;
+jquant1.c:836:6: note: not consecutive access cinfo_5(D)->cquantize = cquantize_9;
+jquant1.c:836:6: note: not vectorized: vectorization is not profitable.
+jquant1.c:837:5: note: not consecutive access _20 = _17->error_exit;
+jquant1.c:837:5: note: not consecutive access _17 = cinfo_5(D)->err;
+jquant1.c:837:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:837:5: note: not consecutive access _20 = _17->error_exit;
+jquant1.c:837:5: note: not consecutive access _17 = cinfo_5(D)->err;
+jquant1.c:837:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:839:6: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:840:5: note: not consecutive access _26 = _23->error_exit;
+jquant1.c:840:5: note: not consecutive access _23 = cinfo_5(D)->err;
+jquant1.c:840:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:840:5: note: not consecutive access _26 = _23->error_exit;
+jquant1.c:840:5: note: not consecutive access _23 = cinfo_5(D)->err;
+jquant1.c:840:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:840:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:191:7: note: not consecutive access cquantize_45 = cinfo_5(D)->cquantize;
+jquant1.c:191:7: note: not consecutive access nc_92 = cinfo_5(D)->out_color_components;
+jquant1.c:191:7: note: not vectorized: no grouped stores in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:205:12: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:26: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:26: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:204:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:206:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:211:5: note: not consecutive access _104 = _102->error_exit;
+jquant1.c:211:5: note: not consecutive access _102 = cinfo_5(D)->err;
+jquant1.c:211:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:211:5: note: not consecutive access _104 = _102->error_exit;
+jquant1.c:211:5: note: not consecutive access _102 = cinfo_5(D)->err;
+jquant1.c:211:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:215:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:217:18: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_cquantize.251_93] = vect_cst__221;
+ scalar_type: vector(4) int
+jquant1.c:217:18: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:24: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:215:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:227:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:227:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:232:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:227:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:232:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:227:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:232:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:227:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:232:10: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:235:20: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:238:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:284:6: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:285:5: note: not consecutive access _53 = _49->emit_message;
+jquant1.c:285:5: note: not consecutive access _49 = cinfo_5(D)->err;
+jquant1.c:285:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:285:5: note: not consecutive access _53 = _49->emit_message;
+jquant1.c:285:5: note: not consecutive access _49 = cinfo_5(D)->err;
+jquant1.c:285:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:289:5: note: not consecutive access _55 = _54->emit_message;
+jquant1.c:289:5: note: not consecutive access _54 = cinfo_5(D)->err;
+jquant1.c:289:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:289:5: note: not consecutive access _55 = _54->emit_message;
+jquant1.c:289:5: note: not consecutive access _54 = cinfo_5(D)->err;
+jquant1.c:289:5: note: Build SLP failed: unrolling required in basic block SLP
+jquant1.c:295:12: note: not consecutive access _57 = _56->alloc_sarray;
+jquant1.c:295:12: note: not consecutive access _56 = cinfo_5(D)->mem;
+jquant1.c:295:12: note: not consecutive access _58 = cinfo_5(D)->out_color_components;
+jquant1.c:295:12: note: not vectorized: no grouped stores in basic block.
+jquant1.c:303:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:844:3: note: not consecutive access cquantize_45->sv_colormap = colormap_61;
+jquant1.c:844:3: note: not consecutive access cquantize_45->sv_actual = total_colors_128;
+jquant1.c:844:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:852:6: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:307:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:307:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:311:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:313:2: note: not consecutive access _79 = *_246;
+jquant1.c:313:2: note: not consecutive access *_84 = _247;
+jquant1.c:313:2: note: not vectorized: no grouped stores in basic block.
+jquant1.c:311:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:311:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:311:7: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:307:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:307:5: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:303:3: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:854:1: note: not vectorized: not enough data-refs in basic block.
+jquant1.c:729:3: note: not consecutive access cquantize_31 = cinfo_5(D)->cquantize;
+jquant1.c:729:3: note: not consecutive access _32 = cinfo_5(D)->output_width;
+jquant1.c:729:3: note: not consecutive access _165 = cinfo_5(D)->out_color_components;
+jquant1.c:729:3: note: not vectorized: no grouped stores in basic block.
+jquant1.c:731:8: note: not consecutive access _37 = _36->alloc_large;
+jquant1.c:731:8: note: not consecutive access _36 = cinfo_5(D)->mem;
+jquant1.c:731:8: note: not vectorized: no grouped stores in basic block.
+jquant1.c:729:3: note: not consecutive access _41 = cinfo_5(D)->out_color_components;
+jquant1.c:729:3: note: not vectorized: no grouped stores in basic block.

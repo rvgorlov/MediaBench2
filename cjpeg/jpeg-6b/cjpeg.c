@@ -614,8 +614,8 @@ main (int argc, char **argv)
 
   t = hpctimer_wtime() - t;
   
-  /*double rezultTime = 0; 
-  for (int i = 0; i < N; ++i)
+  double rezultTime = 0; 
+  /*for (int i = 0; i < N; ++i)
   {
     rezultTime += timesVector[i];   
   }

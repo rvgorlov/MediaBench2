@@ -1,0 +1,43 @@
+jdatadst.c:49:8: note: not consecutive access _5 = _4->alloc_small;
+jdatadst.c:49:8: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:54:1: note: not consecutive access dest_3->pub.next_output_byte = _7;
+jdatadst.c:54:1: note: not consecutive access dest_3->pub.free_in_buffer = 4096;
+jdatadst.c:54:1: note: not consecutive access dest_3->buffer = _7;
+jdatadst.c:54:1: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:85:7: note: not consecutive access dest_4 = cinfo_3(D)->dest;
+jdatadst.c:85:7: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:85:6: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:87:5: note: not consecutive access _11 = _9->error_exit;
+jdatadst.c:87:5: note: not consecutive access _9->msg_code = 37;
+jdatadst.c:87:5: note: not consecutive access _9 = cinfo_3(D)->err;
+jdatadst.c:87:5: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:92:10: note: not consecutive access _13 = dest_4->buffer;
+jdatadst.c:92:10: note: not consecutive access dest_4->pub.next_output_byte = _13;
+jdatadst.c:92:10: note: not consecutive access dest_4->pub.free_in_buffer = 4096;
+jdatadst.c:92:10: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:112:6: note: not consecutive access _5 = dest_4->pub.free_in_buffer;
+jdatadst.c:112:6: note: not consecutive access dest_4 = cinfo_3(D)->dest;
+jdatadst.c:112:6: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:113:9: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:113:8: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:114:7: note: not consecutive access _14 = _11->error_exit;
+jdatadst.c:114:7: note: not consecutive access _11->msg_code = 37;
+jdatadst.c:114:7: note: not consecutive access _11 = cinfo_3(D)->err;
+jdatadst.c:114:7: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:116:3: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:118:7: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:118:6: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:119:5: note: not consecutive access _23 = _22->error_exit;
+jdatadst.c:119:5: note: not consecutive access _22->msg_code = 37;
+jdatadst.c:119:5: note: not consecutive access _22 = cinfo_3(D)->err;
+jdatadst.c:119:5: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:120:1: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:140:6: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:142:8: note: not consecutive access _6 = _5->alloc_small;
+jdatadst.c:142:8: note: not consecutive access _5 = cinfo_3(D)->mem;
+jdatadst.c:142:8: note: not vectorized: no grouped stores in basic block.
+jdatadst.c:141:17: note: not vectorized: not enough data-refs in basic block.
+jdatadst.c:151:1: note: not consecutive access MEM[(struct my_destination_mgr *)prephitmp_17].outfile = outfile_14(D);
+jdatadst.c:151:1: note: Build SLP failed: unrolling required in basic block SLP
+jdatadst.c:151:1: note: not consecutive access MEM[(struct my_destination_mgr *)prephitmp_17].outfile = outfile_14(D);
+jdatadst.c:151:1: note: Build SLP failed: unrolling required in basic block SLP

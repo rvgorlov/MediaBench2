@@ -1,0 +1,490 @@
+jdsample.c:77:1: note: not consecutive access upsample_3->next_row_out = _4;
+jdsample.c:77:1: note: not consecutive access upsample_3->rows_to_go = _6;
+jdsample.c:77:1: note: not consecutive access upsample_3 = cinfo_2(D)->upsample;
+jdsample.c:77:1: note: not consecutive access _6 = cinfo_2(D)->output_height;
+jdsample.c:77:1: note: not consecutive access _4 = cinfo_2(D)->max_v_samp_factor;
+jdsample.c:77:1: note: not vectorized: no grouped stores in basic block.
+jdsample.c:102:5: note: not vectorized: number of iterations cannot be computed.
+jdsample.c:102:5: note: bad loop form.
+jdsample.c:101:6: note: not consecutive access _11 = upsample_10->next_row_out;
+jdsample.c:101:6: note: not consecutive access upsample_10 = cinfo_9(D)->upsample;
+jdsample.c:101:6: note: not consecutive access _12 = cinfo_9(D)->max_v_samp_factor;
+jdsample.c:101:6: note: not vectorized: no grouped stores in basic block.
+jdsample.c:101:6: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:102:5: note: not consecutive access compptr_13 = cinfo_9(D)->comp_info;
+jdsample.c:102:5: note: not consecutive access _84 = cinfo_9(D)->num_components;
+jdsample.c:102:5: note: not vectorized: no grouped stores in basic block.
+jdsample.c:102:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:102:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:107:8: note: not consecutive access _24 = *in_row_group_ctr_23(D);
+jdsample.c:107:8: note: not vectorized: no grouped stores in basic block.
+jdsample.c:102:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:102:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:111:28: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:128:4: note: not consecutive access _45 = _44->color_convert;
+jdsample.c:128:4: note: not consecutive access _39 = upsample_10->rows_to_go;
+jdsample.c:128:4: note: not consecutive access _44 = cinfo_9(D)->cconvert;
+jdsample.c:128:4: note: not consecutive access _41 = *out_row_ctr_40(D);
+jdsample.c:128:4: note: not vectorized: no grouped stores in basic block.
+jdsample.c:138:6: note: not consecutive access _60 = upsample_10->next_row_out;
+jdsample.c:138:6: note: not consecutive access _57 = upsample_10->rows_to_go;
+jdsample.c:138:6: note: not consecutive access upsample_10->next_row_out = _63;
+jdsample.c:138:6: note: not consecutive access upsample_10->rows_to_go = _58;
+jdsample.c:138:6: note: not consecutive access _65 = cinfo_9(D)->max_v_samp_factor;
+jdsample.c:138:6: note: not consecutive access _54 = *out_row_ctr_40(D);
+jdsample.c:138:6: note: not consecutive access *out_row_ctr_40(D) = _55;
+jdsample.c:138:6: note: not vectorized: no grouped stores in basic block.
+jdsample.c:139:24: note: not consecutive access _66 = *in_row_group_ctr_23(D);
+jdsample.c:139:24: note: not consecutive access *in_row_group_ctr_23(D) = _67;
+jdsample.c:139:24: note: not vectorized: no grouped stores in basic block.
+jdsample.c:140:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:161:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:174:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:242:3: note: not vectorized: control flow in loop.
+jdsample.c:242:3: note: bad loop form.
+jdsample.c:246:11: note: versioning for alias required: can't determine dependence between *inptr_33 and *outptr_34
+jdsample.c:246:11: note: versioning for alias required: can't determine dependence between *inptr_33 and MEM[(JSAMPLE *)outptr_34 + 1B]
+jdsample.c:246:11: note: Build SLP failed: not grouped load invalue_22 = *inptr_33;
+
+jdsample.c:246:11: note: Unknown misalignment, is_packed = 0
+jdsample.c:246:11: note: vector alignment may not be reachable
+jdsample.c:246:11: note: virtual phi. skip.
+jdsample.c:246:11: note: not ssa-name.
+jdsample.c:246:11: note: use not simple.
+jdsample.c:246:11: note: not ssa-name.
+jdsample.c:246:11: note: use not simple.
+jdsample.c:246:11: note: no array mode for V32QI[2]
+permutaion op not supported by target.
+jdsample.c:246:11: note: not vectorized: relevant stmt not supported: *outptr_34 = invalue_22;
+jdsample.c:246:11: note: bad operation or unsupported loop bound.
+jdsample.c:246:11: note: versioning for alias required: can't determine dependence between *inptr_33 and *outptr_34
+jdsample.c:246:11: note: versioning for alias required: can't determine dependence between *inptr_33 and MEM[(JSAMPLE *)outptr_34 + 1B]
+jdsample.c:246:11: note: Build SLP failed: not grouped load invalue_22 = *inptr_33;
+
+jdsample.c:246:11: note: Unknown misalignment, is_packed = 0
+jdsample.c:246:11: note: vector alignment may not be reachable
+jdsample.c:246:11: note: virtual phi. skip.
+jdsample.c:246:11: note: not ssa-name.
+jdsample.c:246:11: note: use not simple.
+jdsample.c:246:11: note: not ssa-name.
+jdsample.c:246:11: note: use not simple.
+jdsample.c:246:11: note: no array mode for V16QI[2]
+jdsample.c:246:11: note: no array mode for V16QI[2]
+jdsample.c:246:11: note: virtual phi. skip.
+jdsample.c:246:11: note: loop vectorized
+jdsample.c:246:11: note: loop versioned for vectorization because of possible aliasing
+jdsample.c:246:11: note: virtual phi. skip.
+jdsample.c:246:11: note: no array mode for V16QI[2]
+jdsample.c:246:11: note: no array mode for V16QI[2]
+jdsample.c:242:3: note: not consecutive access _28 = cinfo_9(D)->max_v_samp_factor;
+jdsample.c:242:3: note: not consecutive access output_data_8 = *output_data_ptr_7(D);
+jdsample.c:242:3: note: not vectorized: no grouped stores in basic block.
+jdsample.c:252:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:246:11: note: not consecutive access _18 = cinfo_9(D)->output_width;
+jdsample.c:246:11: note: not vectorized: no grouped stores in basic block.
+jdsample.c:246:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:246:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:249:17: note: not vectorized: no vectype for stmt: vect_invalue_22.74_91 = MEM[(JSAMPLE *)vectp_inptr.72_89];
+ scalar_type: vector(16) unsigned char
+jdsample.c:249:17: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.75_92] = vect_inter_high_94;
+ scalar_type: vector(16) unsigned char
+jdsample.c:249:17: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.75_97] = vect_inter_low_95;
+ scalar_type: vector(16) unsigned char
+jdsample.c:249:17: note: not vectorized: no grouped stores in basic block.
+jdsample.c:249:17: note: not consecutive access invalue_69 = *inptr_65;
+jdsample.c:249:17: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:249:17: note: not consecutive access invalue_69 = *inptr_65;
+jdsample.c:249:17: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:249:17: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:246:11: note: not consecutive access invalue_34 = *inptr_78;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_34 = *inptr_78;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_101 = *inptr_24;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_101 = *inptr_24;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_109 = *inptr_105;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_109 = *inptr_105;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_117 = *inptr_113;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_117 = *inptr_113;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_125 = *inptr_121;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_125 = *inptr_121;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_133 = *inptr_129;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_133 = *inptr_129;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_141 = *inptr_137;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_141 = *inptr_137;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_149 = *inptr_145;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_149 = *inptr_145;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_157 = *inptr_153;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_157 = *inptr_153;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_165 = *inptr_161;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_165 = *inptr_161;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_173 = *inptr_169;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_173 = *inptr_169;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_181 = *inptr_177;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_181 = *inptr_177;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_189 = *inptr_185;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_189 = *inptr_185;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_197 = *inptr_193;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not consecutive access invalue_197 = *inptr_193;
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:246:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:242:3: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:313:3: note: not vectorized: control flow in loop.
+jdsample.c:313:3: note: bad loop form.
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *inptr_73 and *outptr_71
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *inptr_73 and MEM[(JSAMPLE *)outptr_71 + 1B]
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_35 + -2B] and *outptr_71
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_35 + -2B] and MEM[(JSAMPLE *)outptr_71 + 1B]
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *outptr_71 and *inptr_35
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *inptr_35 and MEM[(JSAMPLE *)outptr_71 + 1B]
+jdsample.c:321:5: note: Build SLP failed: op not supported by target.
+jdsample.c:321:5: note: Unknown misalignment, is_packed = 0
+jdsample.c:321:5: note: Unknown misalignment, is_packed = 0
+jdsample.c:321:5: note: vector alignment may not be reachable
+jdsample.c:321:5: note: virtual phi. skip.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: conversion not supported by target.
+jdsample.c:321:5: note: not vectorized: relevant stmt not supported: _37 = (int) _36;
+jdsample.c:321:5: note: bad operation or unsupported loop bound.
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *inptr_73 and *outptr_71
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *inptr_73 and MEM[(JSAMPLE *)outptr_71 + 1B]
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_35 + -2B] and *outptr_71
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between MEM[(JSAMPLE *)inptr_35 + -2B] and MEM[(JSAMPLE *)outptr_71 + 1B]
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *outptr_71 and *inptr_35
+jdsample.c:321:5: note: versioning for alias required: can't determine dependence between *inptr_35 and MEM[(JSAMPLE *)outptr_71 + 1B]
+jdsample.c:321:5: note: Build SLP failed: not grouped load _36 = *inptr_73;
+
+jdsample.c:321:5: note: Unknown misalignment, is_packed = 0
+jdsample.c:321:5: note: Unknown misalignment, is_packed = 0
+jdsample.c:321:5: note: vector alignment may not be reachable
+jdsample.c:321:5: note: virtual phi. skip.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: no array mode for V16QI[2]
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: not ssa-name.
+jdsample.c:321:5: note: use not simple.
+jdsample.c:321:5: note: no array mode for V16QI[2]
+jdsample.c:321:5: note: virtual phi. skip.
+jdsample.c:321:5: note: loop vectorized
+jdsample.c:321:5: note: loop versioned for vectorization because of possible aliasing
+jdsample.c:321:5: note: virtual phi. skip.
+jdsample.c:321:5: note: no array mode for V16QI[2]
+jdsample.c:321:5: note: no array mode for V16QI[2]
+jdsample.c:313:3: note: not consecutive access _76 = cinfo_10(D)->max_v_samp_factor;
+jdsample.c:313:3: note: not consecutive access output_data_9 = *output_data_ptr_8(D);
+jdsample.c:313:3: note: not vectorized: no grouped stores in basic block.
+jdsample.c:333:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:321:5: note: not consecutive access _33 = compptr_32(D)->downsampled_width;
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: not consecutive access _33 = compptr_32(D)->downsampled_width;
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:321:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:321:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:325:17: note: not vectorized: no vectype for stmt: vect__36.112_175 = MEM[(JSAMPLE *)vectp_inptr.110_173];
+ scalar_type: vector(16) unsigned char
+jdsample.c:325:17: note: not vectorized: no vectype for stmt: vect__39.117_185 = MEM[(JSAMPLE *)vectp_inptr.115_183];
+ scalar_type: vector(16) unsigned char
+jdsample.c:325:17: note: not vectorized: no vectype for stmt: vect__47.127_211 = MEM[(JSAMPLE *)vectp_inptr.125_209];
+ scalar_type: vector(16) unsigned char
+jdsample.c:325:17: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp.135_235] = vect_inter_high_237;
+ scalar_type: vector(16) unsigned char
+jdsample.c:325:17: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp.135_240] = vect_inter_low_238;
+ scalar_type: vector(16) unsigned char
+jdsample.c:325:17: note: not vectorized: no grouped stores in basic block.
+jdsample.c:321:69: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:69: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:69: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:321:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:313:3: note: not consecutive access _11 = cinfo_10(D)->max_v_samp_factor;
+jdsample.c:313:3: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:313:3: note: not consecutive access _11 = cinfo_10(D)->max_v_samp_factor;
+jdsample.c:313:3: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:359:9: note: not vectorized: multiple nested loops.
+jdsample.c:359:9: note: bad loop form.
+jdsample.c:360:5: note: not vectorized: control flow in loop.
+jdsample.c:360:5: note: bad loop form.
+jdsample.c:376:7: note: reduction used in loop.
+jdsample.c:376:7: note: Unknown def-use cycle pattern.
+jdsample.c:376:7: note: intermediate value used outside loop.
+jdsample.c:376:7: note: Unknown def-use cycle pattern.
+jdsample.c:376:7: note: Unsupported pattern.
+jdsample.c:376:7: note: Unsupported pattern.
+jdsample.c:376:7: note: not vectorized: unsupported use in stmt.
+jdsample.c:376:7: note: unexpected pattern.
+jdsample.c:359:9: note: not consecutive access _117 = cinfo_18(D)->max_v_samp_factor;
+jdsample.c:359:9: note: not consecutive access output_data_17 = *output_data_ptr_16(D);
+jdsample.c:359:9: note: not vectorized: no grouped stores in basic block.
+jdsample.c:391:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:366:21: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:363:10: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:364:9: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:366:9: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:376:7: note: not consecutive access _66 = compptr_65(D)->downsampled_width;
+jdsample.c:376:7: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:376:7: note: not consecutive access _66 = compptr_65(D)->downsampled_width;
+jdsample.c:376:7: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:376:7: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:376:7: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:376:7: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:360:5: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:359:9: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:205:9: note: not vectorized: control flow in loop.
+jdsample.c:205:9: note: bad loop form.
+jdsample.c:210:11: note: not vectorized: control flow in loop.
+jdsample.c:210:11: note: bad loop form.
+jdsample.c:205:9: note: not consecutive access upsample_13 = cinfo_12(D)->upsample;
+jdsample.c:205:9: note: not consecutive access _48 = cinfo_12(D)->max_v_samp_factor;
+jdsample.c:205:9: note: not consecutive access _17 = compptr_16(D)->component_index;
+jdsample.c:205:9: note: not consecutive access output_data_15 = *output_data_ptr_14(D);
+jdsample.c:205:9: note: not vectorized: no grouped stores in basic block.
+jdsample.c:224:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:210:11: note: not consecutive access outptr_31 = *_30;
+jdsample.c:210:11: note: not consecutive access _32 = cinfo_12(D)->output_width;
+jdsample.c:210:11: note: not vectorized: no grouped stores in basic block.
+jdsample.c:217:8: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:217:8: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:213:12: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:210:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:218:7: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:205:9: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:271:9: note: not vectorized: control flow in loop.
+jdsample.c:271:9: note: bad loop form.
+jdsample.c:275:11: note: versioning for alias required: can't determine dependence between *inptr_41 and *outptr_42
+jdsample.c:275:11: note: versioning for alias required: can't determine dependence between *inptr_41 and MEM[(JSAMPLE *)outptr_42 + 1B]
+jdsample.c:275:11: note: Build SLP failed: not grouped load invalue_25 = *inptr_41;
+
+jdsample.c:275:11: note: Unknown misalignment, is_packed = 0
+jdsample.c:275:11: note: vector alignment may not be reachable
+jdsample.c:275:11: note: virtual phi. skip.
+jdsample.c:275:11: note: not ssa-name.
+jdsample.c:275:11: note: use not simple.
+jdsample.c:275:11: note: not ssa-name.
+jdsample.c:275:11: note: use not simple.
+jdsample.c:275:11: note: no array mode for V32QI[2]
+permutaion op not supported by target.
+jdsample.c:275:11: note: not vectorized: relevant stmt not supported: *outptr_42 = invalue_25;
+jdsample.c:275:11: note: bad operation or unsupported loop bound.
+jdsample.c:275:11: note: versioning for alias required: can't determine dependence between *inptr_41 and *outptr_42
+jdsample.c:275:11: note: versioning for alias required: can't determine dependence between *inptr_41 and MEM[(JSAMPLE *)outptr_42 + 1B]
+jdsample.c:275:11: note: Build SLP failed: not grouped load invalue_25 = *inptr_41;
+
+jdsample.c:275:11: note: Unknown misalignment, is_packed = 0
+jdsample.c:275:11: note: vector alignment may not be reachable
+jdsample.c:275:11: note: virtual phi. skip.
+jdsample.c:275:11: note: not ssa-name.
+jdsample.c:275:11: note: use not simple.
+jdsample.c:275:11: note: not ssa-name.
+jdsample.c:275:11: note: use not simple.
+jdsample.c:275:11: note: no array mode for V16QI[2]
+jdsample.c:275:11: note: no array mode for V16QI[2]
+jdsample.c:275:11: note: virtual phi. skip.
+jdsample.c:275:11: note: loop vectorized
+jdsample.c:275:11: note: loop versioned for vectorization because of possible aliasing
+jdsample.c:275:11: note: virtual phi. skip.
+jdsample.c:275:11: note: no array mode for V16QI[2]
+jdsample.c:275:11: note: no array mode for V16QI[2]
+jdsample.c:271:9: note: not consecutive access _36 = cinfo_10(D)->max_v_samp_factor;
+jdsample.c:271:9: note: not consecutive access output_data_9 = *output_data_ptr_8(D);
+jdsample.c:271:9: note: not vectorized: no grouped stores in basic block.
+jdsample.c:285:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:275:11: note: not consecutive access _21 = cinfo_10(D)->output_width;
+jdsample.c:275:11: note: not vectorized: no grouped stores in basic block.
+jdsample.c:275:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:275:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:278:17: note: not vectorized: no vectype for stmt: vect_invalue_25.234_97 = MEM[(JSAMPLE *)vectp_inptr.232_95];
+ scalar_type: vector(16) unsigned char
+jdsample.c:278:17: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.235_98] = vect_inter_high_100;
+ scalar_type: vector(16) unsigned char
+jdsample.c:278:17: note: not vectorized: no vectype for stmt: MEM[(JSAMPLE *)vectp_outptr.235_103] = vect_inter_low_101;
+ scalar_type: vector(16) unsigned char
+jdsample.c:278:17: note: not vectorized: no grouped stores in basic block.
+jdsample.c:278:17: note: not consecutive access invalue_75 = *inptr_71;
+jdsample.c:278:17: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:278:17: note: not consecutive access invalue_75 = *inptr_71;
+jdsample.c:278:17: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:278:17: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:275:11: note: not consecutive access invalue_42 = *inptr_84;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_42 = *inptr_84;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_107 = *inptr_27;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_107 = *inptr_27;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_115 = *inptr_111;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_115 = *inptr_111;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_123 = *inptr_119;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_123 = *inptr_119;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_131 = *inptr_127;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_131 = *inptr_127;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_139 = *inptr_135;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_139 = *inptr_135;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_147 = *inptr_143;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_147 = *inptr_143;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_155 = *inptr_151;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_155 = *inptr_151;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_163 = *inptr_159;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_163 = *inptr_159;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_171 = *inptr_167;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_171 = *inptr_167;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_179 = *inptr_175;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_179 = *inptr_175;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_187 = *inptr_183;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_187 = *inptr_183;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_195 = *inptr_191;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_195 = *inptr_191;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_203 = *inptr_199;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not consecutive access invalue_203 = *inptr_199;
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:275:11: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:280:5: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:271:9: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:426:3: note: not vectorized: control flow in loop.
+jdsample.c:426:3: note: bad loop form.
+jdsample.c:407:12: note: not consecutive access _12 = _11->alloc_small;
+jdsample.c:407:12: note: not consecutive access _11 = cinfo_10(D)->mem;
+jdsample.c:407:12: note: not vectorized: no grouped stores in basic block.
+jdsample.c:415:6: note: not consecutive access upsample_14->pub.need_context_rows = 0;
+jdsample.c:415:6: note: not consecutive access _19 = cinfo_10(D)->CCIR601_sampling;
+jdsample.c:415:6: note: not consecutive access cinfo_10(D)->upsample = upsample_14;
+jdsample.c:415:6: note: Build SLP failed: unrolling required in basic block SLP
+jdsample.c:415:6: note: not consecutive access upsample_14->pub.need_context_rows = 0;
+jdsample.c:415:6: note: not consecutive access _19 = cinfo_10(D)->CCIR601_sampling;
+jdsample.c:415:6: note: not consecutive access cinfo_10(D)->upsample = upsample_14;
+jdsample.c:415:6: note: not vectorized: vectorization is not profitable.
+jdsample.c:416:5: note: not consecutive access _22 = _20->error_exit;
+jdsample.c:416:5: note: not consecutive access _20->msg_code = 25;
+jdsample.c:416:5: note: not consecutive access _20 = cinfo_10(D)->err;
+jdsample.c:416:5: note: not vectorized: no grouped stores in basic block.
+jdsample.c:421:41: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:421:41: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:426:3: note: not consecutive access compptr_26 = cinfo_10(D)->comp_info;
+jdsample.c:426:3: note: not consecutive access _6 = cinfo_10(D)->num_components;
+jdsample.c:426:3: note: not vectorized: no grouped stores in basic block.
+jdsample.c:478:1: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:439:8: note: not vectorized: no grouped stores in basic block.
+jdsample.c:441:29: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:443:15: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:445:29: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:447:15: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:447:46: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:450:10: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:450:20: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:451:24: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:453:24: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:454:46: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:457:10: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:457:20: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:459:34: note: not consecutive access upsample_14->pub.need_context_rows = 1;
+jdsample.c:459:34: note: not vectorized: no grouped stores in basic block.
+jdsample.c:461:24: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:462:15: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:462:48: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:467:30: note: not vectorized: no grouped stores in basic block.
+jdsample.c:469:7: note: not consecutive access _65 = _63->error_exit;
+jdsample.c:469:7: note: not consecutive access _63->msg_code = 38;
+jdsample.c:469:7: note: not consecutive access _63 = cinfo_10(D)->err;
+jdsample.c:469:7: note: not vectorized: no grouped stores in basic block.
+jdsample.c:469:7: note: not vectorized: no grouped stores in basic block.
+jdsample.c:426:3: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:473:16: note: not consecutive access _68 = _67->alloc_sarray;
+jdsample.c:473:16: note: not consecutive access _67 = cinfo_10(D)->mem;
+jdsample.c:473:16: note: not consecutive access _73 = cinfo_10(D)->output_width;
+jdsample.c:473:16: note: not vectorized: no grouped stores in basic block.
+jdsample.c:471:34: note: not vectorized: not enough data-refs in basic block.
+jdsample.c:471:31: note: not vectorized: not enough data-refs in basic block.

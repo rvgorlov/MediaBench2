@@ -1,0 +1,4 @@
+jdtrans.c:57:18: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+      if (cinfo->progress != NULL)
+                 ^
+jdtrans.c:57:18: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

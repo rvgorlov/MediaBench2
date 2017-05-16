@@ -1,0 +1,20 @@
+jdinput.c:66:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_SAMPLING);
+      ^
+jdinput.c:62:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdinput.c:80:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ci = 0, compptr = cinfo->comp_info; ci < cinfo->num_components;
+  ^
+jdinput.c:80:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdinput.c:189:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      while (mcublks-- > 0) {
+      ^
+jdinput.c:189:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jdinput.c:233:20: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (qtblno < 0 || qtblno >= NUM_QUANT_TBLS ||
+                   ^
+jdinput.c:226:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^

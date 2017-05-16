@@ -1,0 +1,50 @@
+rdtarga.c:95:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdtarga.c:444:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (idlen--)               /* Throw away ID field */
+  ^
+rdtarga.c:95:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    ERREXIT(sinfo->cinfo, JERR_INPUT_EOF);
+    ^
+rdtarga.c:110:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i < cmaplen; i++) {
+  ^
+rdtarga.c:160:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < sinfo->pixel_size; i++) {
+  ^
+rdtarga.c:160:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdtarga.c:129:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i = 0; i < sinfo->pixel_size; i++) {
+  ^
+rdtarga.c:129:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdtarga.c:201:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:200:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:221:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:220:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:248:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:247:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:183:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    (*source->read_pixel) (source); /* Load next pixel into tga_pixel */
+    ^
+rdtarga.c:182:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (col = cinfo->image_width; col > 0; col--) {
+  ^
+rdtarga.c:307:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (row = 0; row < cinfo->image_height; row++) {
+  ^
+rdtarga.c:307:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+rdtarga.c:307:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+rdtarga.c:307:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

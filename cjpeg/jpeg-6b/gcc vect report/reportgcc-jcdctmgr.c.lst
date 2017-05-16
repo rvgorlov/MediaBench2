@@ -1,0 +1,2257 @@
+jcdctmgr.c:62:3: note: not vectorized: multiple nested loops.
+jcdctmgr.c:62:3: note: bad loop form.
+jcdctmgr.c:84:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:84:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:84:7: note: virtual phi. skip.
+jcdctmgr.c:84:7: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:84:7: note: not ssa-name.
+jcdctmgr.c:84:7: note: use not simple.
+jcdctmgr.c:84:7: note: conversion not supported by target.
+jcdctmgr.c:84:7: note: not vectorized: relevant stmt not supported: _47 = (int) _46;
+jcdctmgr.c:84:7: note: bad operation or unsupported loop bound.
+jcdctmgr.c:84:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:84:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:84:7: note: virtual phi. skip.
+jcdctmgr.c:84:7: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:84:7: note: not ssa-name.
+jcdctmgr.c:84:7: note: use not simple.
+jcdctmgr.c:84:7: note: virtual phi. skip.
+jcdctmgr.c:84:7: note: loop vectorized
+jcdctmgr.c:84:7: note: loop peeled for vectorization to enhance alignment
+jcdctmgr.c:84:7: note: virtual phi. skip.
+jcdctmgr.c:118:2: note: misalign = 0 bytes of ref aanscales[i_168]
+jcdctmgr.c:118:2: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:118:2: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:118:2: note: virtual phi. skip.
+jcdctmgr.c:118:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:118:2: note: not ssa-name.
+jcdctmgr.c:118:2: note: use not simple.
+jcdctmgr.c:118:2: note: conversion not supported by target.
+jcdctmgr.c:118:2: note: not vectorized: relevant stmt not supported: _62 = (long int) _61;
+jcdctmgr.c:118:2: note: bad operation or unsupported loop bound.
+jcdctmgr.c:118:2: note: misalign = 0 bytes of ref aanscales[i_168]
+jcdctmgr.c:118:2: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:118:2: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:118:2: note: virtual phi. skip.
+jcdctmgr.c:118:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:118:2: note: not ssa-name.
+jcdctmgr.c:118:2: note: use not simple.
+jcdctmgr.c:118:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:118:2: note: not ssa-name.
+jcdctmgr.c:118:2: note: use not simple.
+jcdctmgr.c:118:2: note: op not supported by target.
+jcdctmgr.c:118:2: note: not vectorized: relevant stmt not supported: _67 = _66 >> 11;
+jcdctmgr.c:118:2: note: bad operation or unsupported loop bound.
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: different operation in stmt _108 = aanscalefactor[row_151];
+jcdctmgr.c:152:2: note: original stmt _107 = (double) _106;
+jcdctmgr.c:152:2: note: Build SLP failed: not grouped load _108 = aanscalefactor[row_151];
+
+jcdctmgr.c:152:2: note: not vectorized: iteration count smaller than vectorization factor.
+jcdctmgr.c:152:2: note: Build SLP failed: not grouped load _108 = aanscalefactor[row_151];
+
+jcdctmgr.c:152:2: note: misalign = 0 bytes of ref aanscalefactor[row_151]
+jcdctmgr.c:152:2: note: vector alignment may not be reachable
+jcdctmgr.c:152:2: note: virtual phi. skip.
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:152:2: note: not ssa-name.
+jcdctmgr.c:152:2: note: use not simple.
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: loop vectorized
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:152:2: note: no array mode for V8HI[8]
+jcdctmgr.c:152:2: note: no array mode for V4SF[8]
+jcdctmgr.c:62:3: note: not consecutive access _202 = cinfo_20(D)->num_components;
+jcdctmgr.c:62:3: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:168:1: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:66:8: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:66:48: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:68:7: note: not consecutive access _32 = _27->error_exit;
+jcdctmgr.c:68:7: note: not consecutive access _27 = cinfo_20(D)->err;
+jcdctmgr.c:68:7: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:68:7: note: not consecutive access _32 = _27->error_exit;
+jcdctmgr.c:68:7: note: not consecutive access _27 = cinfo_20(D)->err;
+jcdctmgr.c:68:7: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:68:7: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:72:5: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:78:10: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:80:5: note: not consecutive access _38 = _37->alloc_small;
+jcdctmgr.c:80:5: note: not consecutive access _37 = cinfo_20(D)->mem;
+jcdctmgr.c:80:5: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:79:25: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:79:25: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _599 = prephitmp_351->quantval[0];
+jcdctmgr.c:85:10: note: not consecutive access *_598 = _601;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _613 = prephitmp_351->quantval[1];
+jcdctmgr.c:85:10: note: not consecutive access *_612 = _615;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _627 = prephitmp_351->quantval[2];
+jcdctmgr.c:85:10: note: not consecutive access *_626 = _629;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _641 = prephitmp_351->quantval[3];
+jcdctmgr.c:85:10: note: not consecutive access *_640 = _643;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _655 = prephitmp_351->quantval[4];
+jcdctmgr.c:85:10: note: not consecutive access *_654 = _657;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _669 = prephitmp_351->quantval[5];
+jcdctmgr.c:85:10: note: not consecutive access *_668 = _671;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not consecutive access _471 = prephitmp_351->quantval[6];
+jcdctmgr.c:85:10: note: not consecutive access *_472 = _469;
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:85:10: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_217 = MEM[(short unsigned int *)vectp_prephitmp.48_425];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.53_388] = vect__48.51_224;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_228] = vect__48.51_225;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_46 = MEM[(short unsigned int *)vectp_prephitmp.47_43];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_44] = vect__48.51_50;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_498] = vect__48.51_499;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_49 = MEM[(short unsigned int *)vectp_prephitmp.47_148];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_131] = vect__48.51_524;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_527] = vect__48.51_525;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_536 = MEM[(short unsigned int *)vectp_prephitmp.47_533];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_534] = vect__48.51_539;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_542] = vect__48.51_540;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_551 = MEM[(short unsigned int *)vectp_prephitmp.47_548];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_549] = vect__48.51_554;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_557] = vect__48.51_555;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_566 = MEM[(short unsigned int *)vectp_prephitmp.47_563];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_564] = vect__48.51_569;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_572] = vect__48.51_570;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_581 = MEM[(short unsigned int *)vectp_prephitmp.47_578];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_579] = vect__48.51_584;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_587] = vect__48.51_585;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: vect__46.49_421 = MEM[(short unsigned int *)vectp_prephitmp.47_423];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_386] = vect__48.51_390;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no vectype for stmt: MEM[(DCTELEM *)vectp_prephitmp.52_383] = vect__48.51_389;
+ scalar_type: vector(4) int
+jcdctmgr.c:85:10: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:34: note: not consecutive access *_444 = _441;
+jcdctmgr.c:84:34: note: not consecutive access _443 = prephitmp_351->quantval[i_449];
+jcdctmgr.c:84:34: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:34: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:84:7: note: not consecutive access *_430 = _435;
+jcdctmgr.c:84:7: note: not consecutive access _429 = prephitmp_351->quantval[i_436];
+jcdctmgr.c:84:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:7: note: not consecutive access *_107 = _112;
+jcdctmgr.c:84:7: note: not consecutive access _108 = prephitmp_351->quantval[i_519];
+jcdctmgr.c:84:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:7: note: not consecutive access *_129 = _137;
+jcdctmgr.c:84:7: note: not consecutive access _130 = prephitmp_351->quantval[i_121];
+jcdctmgr.c:84:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:7: note: not consecutive access *_154 = _157;
+jcdctmgr.c:84:7: note: not consecutive access _155 = prephitmp_351->quantval[i_141];
+jcdctmgr.c:84:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:7: note: not consecutive access *_174 = _180;
+jcdctmgr.c:84:7: note: not consecutive access _175 = prephitmp_351->quantval[i_164];
+jcdctmgr.c:84:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:84:7: note: not consecutive access *_197 = _205;
+jcdctmgr.c:84:7: note: not consecutive access _198 = prephitmp_351->quantval[i_189];
+jcdctmgr.c:84:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:112:5: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:114:7: note: not consecutive access _53 = _52->alloc_small;
+jcdctmgr.c:114:7: note: not consecutive access _52 = cinfo_20(D)->mem;
+jcdctmgr.c:114:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:113:27: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:113:27: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:118:2: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:145:5: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:147:7: note: not consecutive access _73 = _72->alloc_small;
+jcdctmgr.c:147:7: note: not consecutive access _72 = cinfo_20(D)->mem;
+jcdctmgr.c:147:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:146:33: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.56_377 = MEM[(short unsigned int *)prephitmp_351];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.57_375 = MEM[(short unsigned int *)vectp_prephitmp.54_376];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.58_373 = MEM[(short unsigned int *)vectp_prephitmp.54_374];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.59_371 = MEM[(short unsigned int *)vectp_prephitmp.54_372];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.60_369 = MEM[(short unsigned int *)vectp_prephitmp.54_370];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.61_367 = MEM[(short unsigned int *)vectp_prephitmp.54_368];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.62_365 = MEM[(short unsigned int *)vectp_prephitmp.54_366];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__106.63_363 = MEM[(short unsigned int *)vectp_prephitmp.54_364];
+ scalar_type: vector(8) short unsigned int
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__108.68_327 = MEM[(double *)&aanscalefactor];
+ scalar_type: const vector(2) double
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__108.69_325 = MEM[(double *)vectp_aanscalefactor.66_326];
+ scalar_type: const vector(2) double
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__108.70_323 = MEM[(double *)vectp_aanscalefactor.66_324];
+ scalar_type: const vector(2) double
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: vect__108.71_321 = MEM[(double *)vectp_aanscalefactor.66_322];
+ scalar_type: const vector(2) double
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)prephitmp_392] = vect_inter_high_18;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_1] = vect_inter_low_16;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_494] = vect_inter_high_15;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_482] = vect_inter_low_13;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_480] = vect_inter_high_11;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_477] = vect_inter_low_8;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_418] = vect_inter_high_7;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_416] = vect_inter_low_6;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_414] = vect_inter_high_397;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_502] = vect_inter_low_395;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_504] = vect_inter_high_394;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_506] = vect_inter_low_393;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_508] = vect_inter_high_348;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_510] = vect_inter_low_34;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_512] = vect_inter_high_42;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_prephitmp.110_514] = vect_inter_low_57;
+ scalar_type: vector(4) float
+jcdctmgr.c:154:15: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:164:7: note: not consecutive access _95 = _93->error_exit;
+jcdctmgr.c:164:7: note: not consecutive access _93->msg_code = 48;
+jcdctmgr.c:164:7: note: not consecutive access _93 = cinfo_20(D)->err;
+jcdctmgr.c:164:7: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:62:3: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:195:3: note: not vectorized: control flow in loop.
+jcdctmgr.c:195:3: note: bad loop form.
+jcdctmgr.c:231:7: note: not vectorized: control flow in loop.
+jcdctmgr.c:231:7: note: bad loop form.
+jcdctmgr.c:195:3: note: not consecutive access do_dct_14 = fdct_13->do_dct;
+jcdctmgr.c:195:3: note: not consecutive access divisors_17 = fdct_13->divisors[_16];
+jcdctmgr.c:195:3: note: not consecutive access fdct_13 = cinfo_12(D)->fdct;
+jcdctmgr.c:195:3: note: not consecutive access _16 = compptr_15(D)->quant_tbl_no;
+jcdctmgr.c:195:3: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:195:3: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:251:5: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:254:4: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:254:4: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:254:4: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:258:4: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:258:4: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:231:7: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:195:3: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _147 = *elemptr_146;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _151 = MEM[(JSAMPLE *)elemptr_146 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _155 = MEM[(JSAMPLE *)elemptr_146 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _159 = MEM[(JSAMPLE *)elemptr_146 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _163 = MEM[(JSAMPLE *)elemptr_146 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _167 = MEM[(JSAMPLE *)elemptr_146 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _171 = MEM[(JSAMPLE *)elemptr_146 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _176 = MEM[(JSAMPLE *)elemptr_146 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _191 = *elemptr_190;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _195 = MEM[(JSAMPLE *)elemptr_190 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _199 = MEM[(JSAMPLE *)elemptr_190 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _203 = MEM[(JSAMPLE *)elemptr_190 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _207 = MEM[(JSAMPLE *)elemptr_190 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _211 = MEM[(JSAMPLE *)elemptr_190 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _215 = MEM[(JSAMPLE *)elemptr_190 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _220 = MEM[(JSAMPLE *)elemptr_190 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _235 = *elemptr_234;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _239 = MEM[(JSAMPLE *)elemptr_234 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _243 = MEM[(JSAMPLE *)elemptr_234 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_234 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _251 = MEM[(JSAMPLE *)elemptr_234 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _255 = MEM[(JSAMPLE *)elemptr_234 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _259 = MEM[(JSAMPLE *)elemptr_234 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _264 = MEM[(JSAMPLE *)elemptr_234 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _191 = *elemptr_190;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _195 = MEM[(JSAMPLE *)elemptr_190 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _199 = MEM[(JSAMPLE *)elemptr_190 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _203 = MEM[(JSAMPLE *)elemptr_190 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _207 = MEM[(JSAMPLE *)elemptr_190 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _211 = MEM[(JSAMPLE *)elemptr_190 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _215 = MEM[(JSAMPLE *)elemptr_190 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _220 = MEM[(JSAMPLE *)elemptr_190 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _235 = *elemptr_234;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _239 = MEM[(JSAMPLE *)elemptr_234 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _243 = MEM[(JSAMPLE *)elemptr_234 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_234 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _251 = MEM[(JSAMPLE *)elemptr_234 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _255 = MEM[(JSAMPLE *)elemptr_234 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _259 = MEM[(JSAMPLE *)elemptr_234 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _264 = MEM[(JSAMPLE *)elemptr_234 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _235 = *elemptr_234;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _239 = MEM[(JSAMPLE *)elemptr_234 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _243 = MEM[(JSAMPLE *)elemptr_234 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_234 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _251 = MEM[(JSAMPLE *)elemptr_234 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _255 = MEM[(JSAMPLE *)elemptr_234 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _259 = MEM[(JSAMPLE *)elemptr_234 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _264 = MEM[(JSAMPLE *)elemptr_234 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace] and MEM[(JSAMPLE *)elemptr_102 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 32B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 32B] and MEM[(JSAMPLE *)elemptr_146 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 64B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 64B] and MEM[(JSAMPLE *)elemptr_190 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 96B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 96B] and MEM[(JSAMPLE *)elemptr_234 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 128B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 128B] and MEM[(JSAMPLE *)elemptr_278 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 160B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 160B] and MEM[(JSAMPLE *)elemptr_322 + 1B]
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _147 = *elemptr_146;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _151 = MEM[(JSAMPLE *)elemptr_146 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _155 = MEM[(JSAMPLE *)elemptr_146 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _159 = MEM[(JSAMPLE *)elemptr_146 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _163 = MEM[(JSAMPLE *)elemptr_146 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _167 = MEM[(JSAMPLE *)elemptr_146 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _171 = MEM[(JSAMPLE *)elemptr_146 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _176 = MEM[(JSAMPLE *)elemptr_146 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _191 = *elemptr_190;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _195 = MEM[(JSAMPLE *)elemptr_190 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _199 = MEM[(JSAMPLE *)elemptr_190 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _203 = MEM[(JSAMPLE *)elemptr_190 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _207 = MEM[(JSAMPLE *)elemptr_190 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _211 = MEM[(JSAMPLE *)elemptr_190 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _215 = MEM[(JSAMPLE *)elemptr_190 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _220 = MEM[(JSAMPLE *)elemptr_190 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _235 = *elemptr_234;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _239 = MEM[(JSAMPLE *)elemptr_234 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _243 = MEM[(JSAMPLE *)elemptr_234 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_234 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _251 = MEM[(JSAMPLE *)elemptr_234 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _255 = MEM[(JSAMPLE *)elemptr_234 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _259 = MEM[(JSAMPLE *)elemptr_234 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _264 = MEM[(JSAMPLE *)elemptr_234 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _191 = *elemptr_190;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _195 = MEM[(JSAMPLE *)elemptr_190 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _199 = MEM[(JSAMPLE *)elemptr_190 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _203 = MEM[(JSAMPLE *)elemptr_190 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _207 = MEM[(JSAMPLE *)elemptr_190 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _211 = MEM[(JSAMPLE *)elemptr_190 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _215 = MEM[(JSAMPLE *)elemptr_190 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _220 = MEM[(JSAMPLE *)elemptr_190 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _235 = *elemptr_234;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _239 = MEM[(JSAMPLE *)elemptr_234 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _243 = MEM[(JSAMPLE *)elemptr_234 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_234 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _251 = MEM[(JSAMPLE *)elemptr_234 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _255 = MEM[(JSAMPLE *)elemptr_234 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _259 = MEM[(JSAMPLE *)elemptr_234 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _264 = MEM[(JSAMPLE *)elemptr_234 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _235 = *elemptr_234;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _239 = MEM[(JSAMPLE *)elemptr_234 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _243 = MEM[(JSAMPLE *)elemptr_234 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_234 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _251 = MEM[(JSAMPLE *)elemptr_234 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _255 = MEM[(JSAMPLE *)elemptr_234 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _259 = MEM[(JSAMPLE *)elemptr_234 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _264 = MEM[(JSAMPLE *)elemptr_234 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _279 = *elemptr_278;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_278 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _287 = MEM[(JSAMPLE *)elemptr_278 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _291 = MEM[(JSAMPLE *)elemptr_278 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _295 = MEM[(JSAMPLE *)elemptr_278 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_278 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _303 = MEM[(JSAMPLE *)elemptr_278 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _308 = MEM[(JSAMPLE *)elemptr_278 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _323 = *elemptr_322;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _327 = MEM[(JSAMPLE *)elemptr_322 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _331 = MEM[(JSAMPLE *)elemptr_322 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_322 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _339 = MEM[(JSAMPLE *)elemptr_322 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _343 = MEM[(JSAMPLE *)elemptr_322 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _347 = MEM[(JSAMPLE *)elemptr_322 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _352 = MEM[(JSAMPLE *)elemptr_322 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _371 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _375 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _379 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _383 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _391 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _396 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _411 = *elemptr_410;
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _415 = MEM[(JSAMPLE *)elemptr_410 + 1B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _419 = MEM[(JSAMPLE *)elemptr_410 + 2B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _423 = MEM[(JSAMPLE *)elemptr_410 + 3B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _427 = MEM[(JSAMPLE *)elemptr_410 + 4B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _431 = MEM[(JSAMPLE *)elemptr_410 + 5B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _435 = MEM[(JSAMPLE *)elemptr_410 + 6B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: different interleaving chains in one node _440 = MEM[(JSAMPLE *)elemptr_410 + 7B];
+
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace] and MEM[(JSAMPLE *)elemptr_102 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 32B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 32B] and MEM[(JSAMPLE *)elemptr_146 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 64B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 64B] and MEM[(JSAMPLE *)elemptr_190 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 96B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 96B] and MEM[(JSAMPLE *)elemptr_234 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 128B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 128B] and MEM[(JSAMPLE *)elemptr_278 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 160B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 160B] and MEM[(JSAMPLE *)elemptr_322 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 192B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 192B] and MEM[(JSAMPLE *)elemptr_366 + 1B]
+jcdctmgr.c:224:6: note: misalign = 0 bytes of ref MEM[(DCTELEM *)&workspace + 224B]
+jcdctmgr.c:224:6: note: can't determine dependence between MEM[(DCTELEM *)&workspace + 224B] and MEM[(JSAMPLE *)elemptr_410 + 1B]
+jcdctmgr.c:229:49: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:264:1: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:285:3: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+jcdctmgr.c:322:7: note: misalign = 0 bytes of ref workspace[i_417]
+jcdctmgr.c:322:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:322:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:322:7: note: virtual phi. skip.
+jcdctmgr.c:322:7: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:322:7: note: not ssa-name.
+jcdctmgr.c:322:7: note: use not simple.
+jcdctmgr.c:322:7: note: not ssa-name.
+jcdctmgr.c:322:7: note: use not simple.
+jcdctmgr.c:322:7: note: not ssa-name.
+jcdctmgr.c:322:7: note: use not simple.
+jcdctmgr.c:322:7: note: conversion not supported by target.
+jcdctmgr.c:322:7: note: not vectorized: relevant stmt not supported: _88 = (unsigned short) _87;
+jcdctmgr.c:322:7: note: bad operation or unsupported loop bound.
+jcdctmgr.c:322:7: note: misalign = 0 bytes of ref workspace[i_417]
+jcdctmgr.c:322:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:322:7: note: Unknown misalignment, is_packed = 0
+jcdctmgr.c:322:7: note: virtual phi. skip.
+jcdctmgr.c:322:7: note: num. args = 4 (not unary/binary/ternary op).
+jcdctmgr.c:322:7: note: not ssa-name.
+jcdctmgr.c:322:7: note: use not simple.
+jcdctmgr.c:322:7: note: not ssa-name.
+jcdctmgr.c:322:7: note: use not simple.
+jcdctmgr.c:322:7: note: not ssa-name.
+jcdctmgr.c:322:7: note: use not simple.
+jcdctmgr.c:322:7: note: no optab.
+jcdctmgr.c:322:7: note: loop vectorized
+jcdctmgr.c:285:3: note: not consecutive access do_dct_12 = fdct_11->do_float_dct;
+jcdctmgr.c:285:3: note: not consecutive access divisors_15 = fdct_11->float_divisors[_14];
+jcdctmgr.c:285:3: note: not consecutive access fdct_11 = cinfo_10(D)->fdct;
+jcdctmgr.c:285:3: note: not consecutive access _14 = compptr_13(D)->quant_tbl_no;
+jcdctmgr.c:285:3: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:285:3: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _159 = *elemptr_158;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _164 = MEM[(JSAMPLE *)elemptr_158 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _169 = MEM[(JSAMPLE *)elemptr_158 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _174 = MEM[(JSAMPLE *)elemptr_158 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _179 = MEM[(JSAMPLE *)elemptr_158 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _184 = MEM[(JSAMPLE *)elemptr_158 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _189 = MEM[(JSAMPLE *)elemptr_158 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _195 = MEM[(JSAMPLE *)elemptr_158 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _211 = *elemptr_210;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _216 = MEM[(JSAMPLE *)elemptr_210 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _221 = MEM[(JSAMPLE *)elemptr_210 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _226 = MEM[(JSAMPLE *)elemptr_210 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _231 = MEM[(JSAMPLE *)elemptr_210 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _236 = MEM[(JSAMPLE *)elemptr_210 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _241 = MEM[(JSAMPLE *)elemptr_210 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_210 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _263 = *elemptr_262;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _268 = MEM[(JSAMPLE *)elemptr_262 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _273 = MEM[(JSAMPLE *)elemptr_262 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _278 = MEM[(JSAMPLE *)elemptr_262 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_262 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _288 = MEM[(JSAMPLE *)elemptr_262 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _293 = MEM[(JSAMPLE *)elemptr_262 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_262 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _211 = *elemptr_210;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _216 = MEM[(JSAMPLE *)elemptr_210 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _221 = MEM[(JSAMPLE *)elemptr_210 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _226 = MEM[(JSAMPLE *)elemptr_210 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _231 = MEM[(JSAMPLE *)elemptr_210 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _236 = MEM[(JSAMPLE *)elemptr_210 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _241 = MEM[(JSAMPLE *)elemptr_210 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_210 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _263 = *elemptr_262;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _268 = MEM[(JSAMPLE *)elemptr_262 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _273 = MEM[(JSAMPLE *)elemptr_262 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _278 = MEM[(JSAMPLE *)elemptr_262 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_262 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _288 = MEM[(JSAMPLE *)elemptr_262 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _293 = MEM[(JSAMPLE *)elemptr_262 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_262 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _263 = *elemptr_262;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _268 = MEM[(JSAMPLE *)elemptr_262 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _273 = MEM[(JSAMPLE *)elemptr_262 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _278 = MEM[(JSAMPLE *)elemptr_262 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_262 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _288 = MEM[(JSAMPLE *)elemptr_262 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _293 = MEM[(JSAMPLE *)elemptr_262 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_262 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace] and MEM[(JSAMPLE *)elemptr_106 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 32B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 32B] and MEM[(JSAMPLE *)elemptr_158 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 64B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 64B] and MEM[(JSAMPLE *)elemptr_210 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 96B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 96B] and MEM[(JSAMPLE *)elemptr_262 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 128B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 128B] and MEM[(JSAMPLE *)elemptr_314 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 160B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 160B] and MEM[(JSAMPLE *)elemptr_366 + 1B]
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _159 = *elemptr_158;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _164 = MEM[(JSAMPLE *)elemptr_158 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _169 = MEM[(JSAMPLE *)elemptr_158 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _174 = MEM[(JSAMPLE *)elemptr_158 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _179 = MEM[(JSAMPLE *)elemptr_158 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _184 = MEM[(JSAMPLE *)elemptr_158 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _189 = MEM[(JSAMPLE *)elemptr_158 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _195 = MEM[(JSAMPLE *)elemptr_158 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _211 = *elemptr_210;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _216 = MEM[(JSAMPLE *)elemptr_210 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _221 = MEM[(JSAMPLE *)elemptr_210 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _226 = MEM[(JSAMPLE *)elemptr_210 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _231 = MEM[(JSAMPLE *)elemptr_210 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _236 = MEM[(JSAMPLE *)elemptr_210 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _241 = MEM[(JSAMPLE *)elemptr_210 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_210 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _263 = *elemptr_262;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _268 = MEM[(JSAMPLE *)elemptr_262 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _273 = MEM[(JSAMPLE *)elemptr_262 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _278 = MEM[(JSAMPLE *)elemptr_262 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_262 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _288 = MEM[(JSAMPLE *)elemptr_262 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _293 = MEM[(JSAMPLE *)elemptr_262 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_262 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _211 = *elemptr_210;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _216 = MEM[(JSAMPLE *)elemptr_210 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _221 = MEM[(JSAMPLE *)elemptr_210 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _226 = MEM[(JSAMPLE *)elemptr_210 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _231 = MEM[(JSAMPLE *)elemptr_210 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _236 = MEM[(JSAMPLE *)elemptr_210 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _241 = MEM[(JSAMPLE *)elemptr_210 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _247 = MEM[(JSAMPLE *)elemptr_210 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _263 = *elemptr_262;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _268 = MEM[(JSAMPLE *)elemptr_262 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _273 = MEM[(JSAMPLE *)elemptr_262 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _278 = MEM[(JSAMPLE *)elemptr_262 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_262 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _288 = MEM[(JSAMPLE *)elemptr_262 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _293 = MEM[(JSAMPLE *)elemptr_262 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_262 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _263 = *elemptr_262;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _268 = MEM[(JSAMPLE *)elemptr_262 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _273 = MEM[(JSAMPLE *)elemptr_262 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _278 = MEM[(JSAMPLE *)elemptr_262 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _283 = MEM[(JSAMPLE *)elemptr_262 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _288 = MEM[(JSAMPLE *)elemptr_262 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _293 = MEM[(JSAMPLE *)elemptr_262 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _299 = MEM[(JSAMPLE *)elemptr_262 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _315 = *elemptr_314;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _320 = MEM[(JSAMPLE *)elemptr_314 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _325 = MEM[(JSAMPLE *)elemptr_314 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _330 = MEM[(JSAMPLE *)elemptr_314 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _335 = MEM[(JSAMPLE *)elemptr_314 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _340 = MEM[(JSAMPLE *)elemptr_314 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _345 = MEM[(JSAMPLE *)elemptr_314 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _351 = MEM[(JSAMPLE *)elemptr_314 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _367 = *elemptr_366;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _372 = MEM[(JSAMPLE *)elemptr_366 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _377 = MEM[(JSAMPLE *)elemptr_366 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _382 = MEM[(JSAMPLE *)elemptr_366 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _387 = MEM[(JSAMPLE *)elemptr_366 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _392 = MEM[(JSAMPLE *)elemptr_366 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _397 = MEM[(JSAMPLE *)elemptr_366 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _403 = MEM[(JSAMPLE *)elemptr_366 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _419 = *elemptr_418;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _424 = MEM[(JSAMPLE *)elemptr_418 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _429 = MEM[(JSAMPLE *)elemptr_418 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _434 = MEM[(JSAMPLE *)elemptr_418 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _439 = MEM[(JSAMPLE *)elemptr_418 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _444 = MEM[(JSAMPLE *)elemptr_418 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _449 = MEM[(JSAMPLE *)elemptr_418 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _455 = MEM[(JSAMPLE *)elemptr_418 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _471 = *elemptr_470;
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _476 = MEM[(JSAMPLE *)elemptr_470 + 1B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _481 = MEM[(JSAMPLE *)elemptr_470 + 2B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _486 = MEM[(JSAMPLE *)elemptr_470 + 3B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _491 = MEM[(JSAMPLE *)elemptr_470 + 4B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _496 = MEM[(JSAMPLE *)elemptr_470 + 5B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _501 = MEM[(JSAMPLE *)elemptr_470 + 6B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: different interleaving chains in one node _507 = MEM[(JSAMPLE *)elemptr_470 + 7B];
+
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace] and MEM[(JSAMPLE *)elemptr_106 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 32B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 32B] and MEM[(JSAMPLE *)elemptr_158 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 64B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 64B] and MEM[(JSAMPLE *)elemptr_210 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 96B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 96B] and MEM[(JSAMPLE *)elemptr_262 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 128B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 128B] and MEM[(JSAMPLE *)elemptr_314 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 160B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 160B] and MEM[(JSAMPLE *)elemptr_366 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 192B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 192B] and MEM[(JSAMPLE *)elemptr_418 + 1B]
+jcdctmgr.c:315:6: note: misalign = 0 bytes of ref MEM[(float *)&workspace + 224B]
+jcdctmgr.c:315:6: note: can't determine dependence between MEM[(float *)&workspace + 224B] and MEM[(JSAMPLE *)elemptr_470 + 1B]
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_79 = MEM[(float *)&workspace];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_81 = MEM[(float *)vectp_workspace.153_80];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_82 = MEM[(float *)divisors_15];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_84 = MEM[(float *)vectp_divisors.157_83];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.168_149] = vect__90.166_506;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_62 = MEM[(float *)vectp_workspace.153_71];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_38 = MEM[(float *)vectp_workspace.153_39];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_37 = MEM[(float *)vectp_divisors.157_70];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_34 = MEM[(float *)vectp_divisors.157_35];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_69] = vect__90.166_25;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_59 = MEM[(float *)vectp_workspace.153_20];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_42 = MEM[(float *)vectp_workspace.153_58];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_41 = MEM[(float *)vectp_divisors.157_8];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_103 = MEM[(float *)vectp_divisors.157_40];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_6] = vect__90.166_362;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_413 = MEM[(float *)vectp_workspace.153_414];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_410 = MEM[(float *)vectp_workspace.153_412];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_408 = MEM[(float *)vectp_divisors.157_415];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_360 = MEM[(float *)vectp_divisors.157_361];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_466] = vect__90.166_254;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_100 = MEM[(float *)vectp_workspace.153_205];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_36 = MEM[(float *)vectp_workspace.153_98];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_513 = MEM[(float *)vectp_divisors.157_204];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_515 = MEM[(float *)vectp_divisors.157_514];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_202] = vect__90.166_524;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_535 = MEM[(float *)vectp_workspace.153_526];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_537 = MEM[(float *)vectp_workspace.153_536];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_538 = MEM[(float *)vectp_divisors.157_527];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_540 = MEM[(float *)vectp_divisors.157_539];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_528] = vect__90.166_549;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_560 = MEM[(float *)vectp_workspace.153_551];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_562 = MEM[(float *)vectp_workspace.153_561];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_563 = MEM[(float *)vectp_divisors.157_552];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_565 = MEM[(float *)vectp_divisors.157_564];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_553] = vect__90.166_574;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.155_411 = MEM[(float *)vectp_workspace.153_576];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__78.156_402 = MEM[(float *)vectp_workspace.153_409];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.159_357 = MEM[(float *)vectp_divisors.157_577];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: vect__82.160_305 = MEM[(float *)vectp_divisors.157_307];
+ scalar_type: vector(4) float
+jcdctmgr.c:285:3: note: not vectorized: no vectype for stmt: MEM[(JCOEF *)vectp.167_578] = vect__90.166_151;
+ scalar_type: vector(8) short int
+jcdctmgr.c:285:3: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:335:1: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:350:8: note: not consecutive access _7 = _6->alloc_small;
+jcdctmgr.c:350:8: note: not consecutive access _6 = cinfo_5(D)->mem;
+jcdctmgr.c:350:8: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:356:3: note: not consecutive access fdct_9->pub.start_pass = start_pass_fdctmgr;
+jcdctmgr.c:356:3: note: not consecutive access _12 = cinfo_5(D)->dct_method;
+jcdctmgr.c:356:3: note: not consecutive access cinfo_5(D)->fdct = fdct_9;
+jcdctmgr.c:356:3: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:360:18: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:360:18: note: not vectorized: vectorization is not profitable.
+jcdctmgr.c:366:18: note: Build SLP failed: unrolling required in basic block SLP
+jcdctmgr.c:366:18: note: not vectorized: vectorization is not profitable.
+jcdctmgr.c:382:23: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:384:29: note: not vectorized: not enough data-refs in basic block.
+jcdctmgr.c:372:24: note: not consecutive access fdct_9->pub.forward_DCT = forward_DCT_float;
+jcdctmgr.c:372:24: note: not consecutive access fdct_9->do_float_dct = jpeg_fdct_float;
+jcdctmgr.c:372:24: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:376:5: note: not consecutive access _22 = _19->error_exit;
+jcdctmgr.c:376:5: note: not consecutive access _19->msg_code = 48;
+jcdctmgr.c:376:5: note: not consecutive access _19 = cinfo_5(D)->err;
+jcdctmgr.c:376:5: note: not vectorized: no grouped stores in basic block.
+jcdctmgr.c:387:1: note: not vectorized: not enough data-refs in basic block.

@@ -1,0 +1,206 @@
+
+
+
+
+
+
+
+
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: Unknown misalignment, is_packed = 0
+jfdctflt.c:120:3: note: virtual phi. skip.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: not ssa-name.
+jfdctflt.c:120:3: note: use not simple.
+jfdctflt.c:120:3: note: loop vectorized
+
+
+
+
+
+
+
+
+jfdctflt.c:70:3: note: Build SLP failed: different operation in stmt z5_45 = _44 * 3.826834261417388916015625e-1;
+jfdctflt.c:70:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctflt.c:70:3: note: Build SLP failed: different operation in stmt tmp7_14 = _9 - _10;
+jfdctflt.c:70:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctflt.c:70:3: note: Build SLP failed: different operation in stmt z5_45 = _44 * 3.826834261417388916015625e-1;
+jfdctflt.c:70:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctflt.c:70:3: note: Build SLP failed: different operation in stmt tmp7_14 = _9 - _10;
+jfdctflt.c:70:3: note: original stmt tmp0_11 = _9 + _10;
+jfdctflt.c:70:3: note: vector alignment may not be reachable
+jfdctflt.c:70:3: note: virtual phi. skip.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: not ssa-name.
+jfdctflt.c:70:3: note: use not simple.
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: loop vectorized
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:70:3: note: no array mode for V8SF[8]
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.79_141 = MEM[(float *)data_7(D)];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.80_139 = MEM[(float *)vectp_data.77_140];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.81_137 = MEM[(float *)vectp_data.77_138];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.82_135 = MEM[(float *)vectp_data.77_136];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.83_133 = MEM[(float *)vectp_data.77_134];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.84_122 = MEM[(float *)vectp_data.77_132];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.85_120 = MEM[(float *)vectp_data.77_121];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__9.86_118 = MEM[(float *)vectp_data.77_119];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)data_7(D)] = vect_inter_high_318;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_327] = vect_inter_low_319;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_329] = vect_inter_high_320;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_331] = vect_inter_low_321;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_333] = vect_inter_high_322;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_335] = vect_inter_low_323;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_337] = vect_inter_high_324;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.121_339] = vect_inter_low_325;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__63.5_244 = MEM[(float *)data_7(D)];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__64.8_240 = MEM[(float *)vectp_data.7_243];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__67.13_234 = MEM[(float *)vectp_data.12_237];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__68.16_230 = MEM[(float *)vectp_data.15_233];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__71.21_224 = MEM[(float *)vectp_data.20_227];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__72.24_220 = MEM[(float *)vectp_data.23_223];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__75.29_214 = MEM[(float *)vectp_data.28_217];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: vect__76.32_210 = MEM[(float *)vectp_data.31_213];
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)data_7(D)] = vect__83.39_203;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.44_198] = vect__85.42_199;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.49_190] = vect__89.47_191;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.52_185] = vect__91.50_186;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.67_164] = vect__105.65_165;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.70_159] = vect__107.68_160;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.73_154] = vect__109.71_155;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no vectype for stmt: MEM[(float *)vectp_data.76_149] = vect__111.74_150;
+ scalar_type: vector(8) float
+jfdctflt.c:166:1: note: not vectorized: no grouped stores in basic block.

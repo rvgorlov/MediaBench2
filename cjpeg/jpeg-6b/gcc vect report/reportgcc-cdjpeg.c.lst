@@ -1,0 +1,16 @@
+cdjpeg.c:127:20: note: not vectorized: control flow in loop.
+cdjpeg.c:127:20: note: bad loop form.
+cdjpeg.c:127:9: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:128:8: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:128:8: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:128:8: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:130:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/ctype.h:217:68: note: not consecutive access iftmp.5_38 = *_37;
+/usr/include/ctype.h:217:68: note: not consecutive access _35 = *_34;
+/usr/include/ctype.h:217:68: note: not vectorized: no grouped stores in basic block.
+cdjpeg.c:132:8: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:127:9: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:129:14: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:129:14: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:162:10: note: not vectorized: not enough data-refs in basic block.
+cdjpeg.c:180:10: note: not vectorized: not enough data-refs in basic block.

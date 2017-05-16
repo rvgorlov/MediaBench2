@@ -1,0 +1,116 @@
+jchuff.c:214:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+      ^
+jchuff.c:211:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (l = 1; l <= 16; l++) {
+  ^
+jchuff.c:228:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (((int) huffsize[p]) == si) {
+    ^
+jchuff.c:228:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:260:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      ERREXIT(cinfo, JERR_BAD_HUFF_TABLE);
+      ^
+jchuff.c:257:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (p = 0; p < lastp; p++) {
+  ^
+jchuff.c:772:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (others[c2] >= 0) {
+    ^
+jchuff.c:772:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:763:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    while (others[c1] >= 0) {
+    ^
+jchuff.c:763:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:746:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i <= 256; i++) {
+    ^
+jchuff.c:746:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:735:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i = 0; i <= 256; i++) {
+    ^
+jchuff.c:735:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:784:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT(cinfo, JERR_HUFF_CLEN_OVERFLOW);
+        ^
+jchuff.c:779:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i = 0; i <= 256; i++) {
+  ^
+jchuff.c:804:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while (bits[j] == 0)
+      ^
+jchuff.c:804:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:815:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (bits[i] == 0)          /* find largest codelength still in use */
+  ^
+jchuff.c:815:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:832:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      }
+      ^
+jchuff.c:828:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (j = 0; j <= 255; j++) {
+    ^
+jchuff.c:124:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jchuff.c:124:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:133:2: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        ERREXIT1(cinfo, JERR_NO_HUFF_TABLE, dctbl);
+        ^
+jchuff.c:124:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jchuff.c:655:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (ci = 0; ci < cinfo->comps_in_scan; ci++)
+      ^
+jchuff.c:655:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:620:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while ((temp >>= 1))
+      ^
+jchuff.c:620:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:587:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (temp) {
+  ^
+jchuff.c:587:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:867:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (*htblptr == NULL)
+          ^
+jchuff.c:861:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (ci = 0; ci < cinfo->comps_in_scan; ci++) {
+  ^
+jchuff.c:321:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jchuff.c:321:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:462:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (ci = 0; ci < state->cinfo->comps_in_scan; ci++)
+  ^
+jchuff.c:462:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    int c = (int) ((put_buffer >> 16) & 0xFF);
+                               ^
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:417:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      while ((temp >>= 1))
+      ^
+jchuff.c:417:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    int c = (int) ((put_buffer >> 16) & 0xFF);
+                               ^
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+jchuff.c:322:32: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:373:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (temp) {
+  ^
+jchuff.c:373:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jchuff.c:321:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while (put_bits >= 8) {
+  ^
+jchuff.c:321:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

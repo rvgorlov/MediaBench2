@@ -1,0 +1,334 @@
+jctrans.c:259:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:260:5: note: not consecutive access _8 = _6->error_exit;
+jctrans.c:260:5: note: not consecutive access _6->msg_code = 4;
+jctrans.c:260:5: note: not consecutive access _6 = cinfo_3(D)->err;
+jctrans.c:260:5: note: not vectorized: no grouped stores in basic block.
+jctrans.c:260:5: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:236:6: note: not consecutive access coef_4->iMCU_row_num = 0;
+jctrans.c:236:6: note: not consecutive access _12 = cinfo_3(D)->comps_in_scan;
+jctrans.c:236:6: note: not vectorized: no grouped stores in basic block.
+jctrans.c:237:33: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:239:8: note: not consecutive access _13 = MEM[(struct my_coef_controller *)prephitmp_32].iMCU_row_num;
+jctrans.c:239:8: note: not consecutive access _14 = cinfo_3(D)->total_iMCU_rows;
+jctrans.c:239:8: note: not vectorized: no grouped stores in basic block.
+jctrans.c:240:35: note: not consecutive access _17 = _16->v_samp_factor;
+jctrans.c:240:35: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_32].MCU_rows_per_iMCU_row = _17;
+jctrans.c:240:35: note: not consecutive access _16 = cinfo_3(D)->cur_comp_info[0];
+jctrans.c:240:35: note: not vectorized: no grouped stores in basic block.
+jctrans.c:242:35: note: not consecutive access _19 = _18->last_row_height;
+jctrans.c:242:35: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_32].MCU_rows_per_iMCU_row = _19;
+jctrans.c:242:35: note: not consecutive access _18 = cinfo_3(D)->cur_comp_info[0];
+jctrans.c:242:35: note: not vectorized: no grouped stores in basic block.
+jctrans.c:264:1: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_32].mcu_ctr = 0;
+jctrans.c:264:1: note: not consecutive access MEM[(struct my_coef_controller *)prephitmp_32].MCU_vert_offset = 0;
+jctrans.c:264:1: note: not vectorized: no grouped stores in basic block.
+jctrans.c:303:22: note: not vectorized: multiple nested loops.
+jctrans.c:303:22: note: bad loop form.
+jctrans.c:307:7: note: not vectorized: multiple nested loops.
+jctrans.c:307:7: note: bad loop form.
+jctrans.c:307:7: note: not vectorized: control flow in loop.
+jctrans.c:307:7: note: bad loop form.
+jctrans.c:312:2: note: not vectorized: control flow in loop.
+jctrans.c:312:2: note: bad loop form.
+jctrans.c:292:3: note: not vectorized: number of iterations cannot be computed.
+jctrans.c:292:3: note: bad loop form.
+jctrans.c:292:3: note: not consecutive access coef_25 = cinfo_24(D)->coef;
+jctrans.c:292:3: note: not consecutive access _28 = cinfo_24(D)->total_iMCU_rows;
+jctrans.c:292:3: note: not consecutive access _12 = cinfo_24(D)->comps_in_scan;
+jctrans.c:292:3: note: not consecutive access _26 = cinfo_24(D)->MCUs_per_row;
+jctrans.c:292:3: note: not vectorized: no grouped stores in basic block.
+jctrans.c:294:19: note: not consecutive access _46 = *_45;
+jctrans.c:294:19: note: not consecutive access _34 = _33->access_virt_barray;
+jctrans.c:294:19: note: not consecutive access _41 = coef_25->whole_image;
+jctrans.c:294:19: note: not consecutive access _37 = coef_25->iMCU_row_num;
+jctrans.c:294:19: note: not consecutive access _33 = cinfo_24(D)->mem;
+jctrans.c:294:19: note: not vectorized: no grouped stores in basic block.
+jctrans.c:292:3: note: not consecutive access _31 = cinfo_24(D)->comps_in_scan;
+jctrans.c:292:3: note: not vectorized: no grouped stores in basic block.
+jctrans.c:301:3: note: not vectorized: no grouped stores in basic block.
+jctrans.c:301:3: note: not consecutive access pretmp_333 = coef_25->mcu_ctr;
+jctrans.c:301:3: note: not consecutive access pretmp_374 = cinfo_24(D)->MCUs_per_row;
+jctrans.c:301:3: note: not vectorized: no grouped stores in basic block.
+jctrans.c:303:5: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:311:7: note: not consecutive access _59 = compptr_58->MCU_width;
+jctrans.c:311:7: note: not vectorized: no grouped stores in basic block.
+jctrans.c:311:7: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:312:2: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:316:46: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:313:7: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:313:43: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:329:4: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:329:4: note: not consecutive access _126 = MCU_buffer[_125];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_80] = _123;
+jctrans.c:329:4: note: not consecutive access *_123[0] = _127;
+jctrans.c:329:4: note: not consecutive access _127 = *_126[0];
+jctrans.c:329:4: note: not consecutive access _123 = coef_25->dummy_buffer[blkn_80];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _137 = MCU_buffer[blkn_80];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_129] = _134;
+jctrans.c:329:4: note: not consecutive access *_134[0] = _138;
+jctrans.c:329:4: note: not consecutive access _138 = *_137[0];
+jctrans.c:329:4: note: not consecutive access _134 = coef_25->dummy_buffer[blkn_129];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _148 = MCU_buffer[blkn_129];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_140] = _145;
+jctrans.c:329:4: note: not consecutive access *_145[0] = _149;
+jctrans.c:329:4: note: not consecutive access _149 = *_148[0];
+jctrans.c:329:4: note: not consecutive access _145 = coef_25->dummy_buffer[blkn_140];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _159 = MCU_buffer[blkn_140];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_151] = _156;
+jctrans.c:329:4: note: not consecutive access *_156[0] = _160;
+jctrans.c:329:4: note: not consecutive access _160 = *_159[0];
+jctrans.c:329:4: note: not consecutive access _156 = coef_25->dummy_buffer[blkn_151];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _170 = MCU_buffer[blkn_151];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_162] = _167;
+jctrans.c:329:4: note: not consecutive access *_167[0] = _171;
+jctrans.c:329:4: note: not consecutive access _171 = *_170[0];
+jctrans.c:329:4: note: not consecutive access _167 = coef_25->dummy_buffer[blkn_162];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _181 = MCU_buffer[blkn_162];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_173] = _178;
+jctrans.c:329:4: note: not consecutive access *_178[0] = _182;
+jctrans.c:329:4: note: not consecutive access _182 = *_181[0];
+jctrans.c:329:4: note: not consecutive access _178 = coef_25->dummy_buffer[blkn_173];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _192 = MCU_buffer[blkn_173];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_184] = _189;
+jctrans.c:329:4: note: not consecutive access *_189[0] = _193;
+jctrans.c:329:4: note: not consecutive access _193 = *_192[0];
+jctrans.c:329:4: note: not consecutive access _189 = coef_25->dummy_buffer[blkn_184];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _203 = MCU_buffer[blkn_184];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_195] = _200;
+jctrans.c:329:4: note: not consecutive access *_200[0] = _204;
+jctrans.c:329:4: note: not consecutive access _204 = *_203[0];
+jctrans.c:329:4: note: not consecutive access _200 = coef_25->dummy_buffer[blkn_195];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:329:4: note: not consecutive access _214 = MCU_buffer[blkn_195];
+jctrans.c:329:4: note: not consecutive access MCU_buffer[blkn_206] = _211;
+jctrans.c:329:4: note: not consecutive access *_211[0] = _215;
+jctrans.c:329:4: note: not consecutive access _215 = *_214[0];
+jctrans.c:329:4: note: not consecutive access _211 = coef_25->dummy_buffer[blkn_206];
+jctrans.c:329:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:332:10: note: not consecutive access _225 = MCU_buffer[blkn_206];
+jctrans.c:332:10: note: not consecutive access MCU_buffer[blkn_217] = _222;
+jctrans.c:332:10: note: not consecutive access *_222[0] = _226;
+jctrans.c:332:10: note: not consecutive access _226 = *_225[0];
+jctrans.c:332:10: note: not consecutive access _222 = coef_25->dummy_buffer[blkn_217];
+jctrans.c:332:10: note: not vectorized: no grouped stores in basic block.
+jctrans.c:332:10: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not consecutive access _72 = *_71;
+jctrans.c:317:6: note: not consecutive access _67 = buffer[ci_270];
+jctrans.c:317:6: note: not vectorized: no grouped stores in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:317:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:318:27: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:312:2: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:307:7: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:337:14: note: not consecutive access _93 = _92->encode_mcu;
+jctrans.c:337:14: note: not consecutive access _92 = cinfo_24(D)->entropy;
+jctrans.c:337:14: note: not vectorized: no grouped stores in basic block.
+jctrans.c:337:10: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:340:16: note: not consecutive access coef_25->mcu_ctr = MCU_col_num_349;
+jctrans.c:340:16: note: not consecutive access coef_25->MCU_vert_offset = yoffset_342;
+jctrans.c:340:16: note: not vectorized: no grouped stores in basic block.
+jctrans.c:303:5: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:303:5: note: not consecutive access pretmp_365 = coef_25->MCU_rows_per_iMCU_row;
+jctrans.c:303:5: note: not consecutive access pretmp_367 = cinfo_24(D)->comps_in_scan;
+jctrans.c:303:5: note: not vectorized: no grouped stores in basic block.
+jctrans.c:303:5: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:307:7: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:301:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:236:6: note: not consecutive access _99 = coef_25->iMCU_row_num;
+jctrans.c:236:6: note: not consecutive access coef_25->iMCU_row_num = _100;
+jctrans.c:236:6: note: not consecutive access coef_104 = cinfo_24(D)->coef;
+jctrans.c:236:6: note: not vectorized: no grouped stores in basic block.
+jctrans.c:237:33: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:239:8: note: not consecutive access _106 = coef_104->iMCU_row_num;
+jctrans.c:239:8: note: not consecutive access _107 = cinfo_24(D)->total_iMCU_rows;
+jctrans.c:239:8: note: not vectorized: no grouped stores in basic block.
+jctrans.c:240:35: note: not consecutive access _110 = _109->v_samp_factor;
+jctrans.c:240:35: note: not consecutive access coef_104->MCU_rows_per_iMCU_row = _110;
+jctrans.c:240:35: note: not consecutive access _109 = cinfo_24(D)->cur_comp_info[0];
+jctrans.c:240:35: note: not vectorized: no grouped stores in basic block.
+jctrans.c:242:35: note: not consecutive access _112 = _111->last_row_height;
+jctrans.c:242:35: note: not consecutive access coef_104->MCU_rows_per_iMCU_row = _112;
+jctrans.c:242:35: note: not consecutive access _111 = cinfo_24(D)->cur_comp_info[0];
+jctrans.c:242:35: note: not vectorized: no grouped stores in basic block.
+jctrans.c:246:25: note: not consecutive access coef_104->mcu_ctr = 0;
+jctrans.c:246:25: note: not consecutive access coef_104->MCU_vert_offset = 0;
+jctrans.c:246:25: note: not vectorized: no grouped stores in basic block.
+jctrans.c:278:1: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:3: note: Unknown misalignment, is_packed = 0
+jctrans.c:385:3: note: virtual phi. skip.
+jctrans.c:385:3: note: conversion not supported by target.
+jctrans.c:385:3: note: not vectorized: relevant stmt not supported: _36 = (long unsigned int) i_69;
+jctrans.c:385:3: note: bad operation or unsupported loop bound.
+jctrans.c:385:3: note: Unknown misalignment, is_packed = 0
+jctrans.c:385:3: note: virtual phi. skip.
+jctrans.c:385:3: note: virtual phi. skip.
+jctrans.c:385:3: note: loop vectorized
+jctrans.c:385:3: note: loop peeled for vectorization to enhance alignment
+jctrans.c:385:3: note: virtual phi. skip.
+jctrans.c:40:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:41:5: note: not consecutive access _8 = _5->error_exit;
+jctrans.c:41:5: note: not consecutive access _5 = cinfo_3(D)->err;
+jctrans.c:41:5: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:41:5: note: not consecutive access _8 = _5->error_exit;
+jctrans.c:41:5: note: not consecutive access _5 = cinfo_3(D)->err;
+jctrans.c:41:5: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:45:4: note: not consecutive access _12 = _11->reset_error_mgr;
+jctrans.c:45:4: note: not consecutive access _11 = cinfo_3(D)->err;
+jctrans.c:45:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:46:4: note: not consecutive access _15 = _14->init_destination;
+jctrans.c:46:4: note: not consecutive access _14 = cinfo_3(D)->dest;
+jctrans.c:46:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:166:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:169:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:170:5: note: not consecutive access _23 = _22->error_exit;
+jctrans.c:170:5: note: not consecutive access _22->msg_code = 1;
+jctrans.c:170:5: note: not consecutive access _22 = cinfo_3(D)->err;
+jctrans.c:170:5: note: not vectorized: no grouped stores in basic block.
+jctrans.c:172:8: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:370:8: note: not consecutive access _30 = _29->alloc_small;
+jctrans.c:370:8: note: not consecutive access _29 = cinfo_3(D)->mem;
+jctrans.c:370:8: note: not vectorized: no grouped stores in basic block.
+jctrans.c:381:10: note: not consecutive access _33 = _32->alloc_large;
+jctrans.c:381:10: note: not consecutive access coef_31->whole_image = coef_arrays_17(D);
+jctrans.c:381:10: note: not consecutive access _32 = cinfo_3(D)->mem;
+jctrans.c:381:10: note: not consecutive access cinfo_3(D)->coef = coef_31;
+jctrans.c:381:10: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:381:10: note: not consecutive access _33 = _32->alloc_large;
+jctrans.c:381:10: note: not consecutive access coef_31->whole_image = coef_arrays_17(D);
+jctrans.c:381:10: note: not consecutive access _32 = cinfo_3(D)->mem;
+jctrans.c:381:10: note: not consecutive access cinfo_3(D)->coef = coef_31;
+jctrans.c:381:10: note: not vectorized: vectorization is not profitable.
+jctrans.c:384:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:384:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:386:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.64_129] = vect__38.62_154;
+ scalar_type: vector(2) long unsigned int
+jctrans.c:386:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.63_157] = vect__38.62_155;
+ scalar_type: vector(2) long unsigned int
+jctrans.c:386:27: note: not vectorized: no grouped stores in basic block.
+jctrans.c:386:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.63_163] = vect__38.62_170;
+ scalar_type: vector(2) long unsigned int
+jctrans.c:386:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.63_173] = vect__38.62_171;
+ scalar_type: vector(2) long unsigned int
+jctrans.c:386:27: note: not vectorized: no grouped stores in basic block.
+jctrans.c:386:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.63_132] = vect__38.62_127;
+ scalar_type: vector(2) long unsigned int
+jctrans.c:386:27: note: not vectorized: no vectype for stmt: MEM[(JCOEF[64] * *)vectp_coef.63_135] = vect__38.62_128;
+ scalar_type: vector(2) long unsigned int
+jctrans.c:386:27: note: not vectorized: no grouped stores in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:41: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:385:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:185:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:188:4: note: not consecutive access _26 = _25->realize_virt_arrays;
+jctrans.c:188:4: note: not consecutive access _25 = cinfo_3(D)->mem;
+jctrans.c:188:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:194:4: note: not consecutive access _28 = _27->write_file_header;
+jctrans.c:194:4: note: not consecutive access _27 = cinfo_3(D)->marker;
+jctrans.c:194:4: note: not vectorized: no grouped stores in basic block.
+jctrans.c:52:1: note: not consecutive access cinfo_3(D)->global_state = 103;
+jctrans.c:52:1: note: not consecutive access cinfo_3(D)->next_scanline = 0;
+jctrans.c:52:1: note: not vectorized: no grouped stores in basic block.
+jctrans.c:106:3: note: not vectorized: control flow in loop.
+jctrans.c:106:3: note: bad loop form.
+jctrans.c:123:7: note: not vectorized: control flow in loop.
+jctrans.c:123:7: note: bad loop form.
+jctrans.c:88:3: note: not vectorized: control flow in loop.
+jctrans.c:88:3: note: bad loop form.
+jctrans.c:72:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:73:5: note: not consecutive access _25 = _21->error_exit;
+jctrans.c:73:5: note: not consecutive access _21 = dstinfo_19(D)->err;
+jctrans.c:73:5: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:73:5: note: not consecutive access _25 = _21->error_exit;
+jctrans.c:73:5: note: not consecutive access _21 = dstinfo_19(D)->err;
+jctrans.c:73:5: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:80:3: note: not consecutive access _32 = srcinfo_27(D)->num_components;
+jctrans.c:80:3: note: not consecutive access _34 = srcinfo_27(D)->jpeg_color_space;
+jctrans.c:80:3: note: not consecutive access dstinfo_19(D)->input_components = _32;
+jctrans.c:80:3: note: not consecutive access dstinfo_19(D)->in_color_space = _34;
+jctrans.c:80:3: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:80:3: note: not consecutive access _32 = srcinfo_27(D)->num_components;
+jctrans.c:80:3: note: not consecutive access _34 = srcinfo_27(D)->jpeg_color_space;
+jctrans.c:80:3: note: not consecutive access dstinfo_19(D)->input_components = _32;
+jctrans.c:80:3: note: not consecutive access dstinfo_19(D)->in_color_space = _34;
+jctrans.c:80:3: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:84:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:86:29: note: not consecutive access dstinfo_19(D)->data_precision = _39;
+jctrans.c:86:29: note: not consecutive access dstinfo_19(D)->CCIR601_sampling = _41;
+jctrans.c:86:29: note: not vectorized: no grouped stores in basic block.
+jctrans.c:89:8: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:91:10: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:92:11: note: not vectorized: no grouped stores in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:53:10: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:96:30: note: not consecutive access _52->sent_table = 0;
+jctrans.c:96:30: note: not vectorized: no grouped stores in basic block.
+jctrans.c:88:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:103:6: note: not consecutive access _55 = srcinfo_27(D)->num_components;
+jctrans.c:103:6: note: not consecutive access dstinfo_19(D)->num_components = _55;
+jctrans.c:103:6: note: not vectorized: no grouped stores in basic block.
+jctrans.c:104:5: note: not consecutive access _63 = _59->error_exit;
+jctrans.c:104:5: note: not consecutive access _59 = dstinfo_19(D)->err;
+jctrans.c:104:5: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:104:5: note: not consecutive access _63 = _59->error_exit;
+jctrans.c:104:5: note: not consecutive access _59 = dstinfo_19(D)->err;
+jctrans.c:104:5: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:104:5: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:106:3: note: not consecutive access incomp_65 = srcinfo_27(D)->comp_info;
+jctrans.c:106:3: note: not consecutive access outcomp_66 = dstinfo_19(D)->comp_info;
+jctrans.c:106:3: note: not vectorized: no grouped stores in basic block.
+jctrans.c:140:6: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:117:8: note: not consecutive access outcomp_109->component_id = _68;
+jctrans.c:117:8: note: interleaved store with gaps
+jctrans.c:117:8: note: not vectorized: complicated access pattern.
+jctrans.c:117:8: note: not consecutive access outcomp_109->v_samp_factor = _72;
+jctrans.c:117:8: note: not consecutive access outcomp_109->quant_tbl_no = _74;
+jctrans.c:117:8: note: not vectorized: no grouped stores in basic block.
+jctrans.c:117:46: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:119:7: note: not consecutive access _81 = _78->error_exit;
+jctrans.c:119:7: note: not consecutive access _78 = dstinfo_19(D)->err;
+jctrans.c:119:7: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:119:7: note: not consecutive access _81 = _78->error_exit;
+jctrans.c:119:7: note: not consecutive access _78 = dstinfo_19(D)->err;
+jctrans.c:119:7: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:119:7: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:122:8: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:106:3: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:124:5: note: not vectorized: no grouped stores in basic block.
+jctrans.c:125:4: note: not consecutive access _90 = _87->error_exit;
+jctrans.c:125:4: note: not consecutive access _87 = dstinfo_19(D)->err;
+jctrans.c:125:4: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:125:4: note: not consecutive access _90 = _87->error_exit;
+jctrans.c:125:4: note: not consecutive access _87 = dstinfo_19(D)->err;
+jctrans.c:125:4: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:123:7: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:141:8: note: not vectorized: not enough data-refs in basic block.
+jctrans.c:143:35: note: not consecutive access _99 = srcinfo_27(D)->JFIF_minor_version;
+jctrans.c:143:35: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:143:35: note: not consecutive access _99 = srcinfo_27(D)->JFIF_minor_version;
+jctrans.c:143:35: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:147:24: note: not consecutive access _101 = srcinfo_27(D)->density_unit;
+jctrans.c:147:24: note: not consecutive access dstinfo_19(D)->density_unit = _101;
+jctrans.c:147:24: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:147:24: note: not consecutive access _101 = srcinfo_27(D)->density_unit;
+jctrans.c:147:24: note: not consecutive access dstinfo_19(D)->density_unit = _101;
+jctrans.c:147:24: note: Build SLP failed: unrolling required in basic block SLP
+jctrans.c:149:1: note: not vectorized: not enough data-refs in basic block.

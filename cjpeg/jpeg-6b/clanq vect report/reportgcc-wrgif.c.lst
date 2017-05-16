@@ -1,0 +1,34 @@
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^
+wrgif.c:231:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (num_colors > (1 << BitsPerPixel))
+  ^
+wrgif.c:231:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrgif.c:260:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  for (i=0; i < ColorMapSize; i++) {
+  ^
+wrgif.c:260:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrgif.c:260:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+wrgif.c:260:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+wrgif.c:86:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    if (JFWRITE(dinfo->pub.output_file, dinfo->packetbuf, dinfo->bytesinpkt)
+        ^
+wrgif.c:112:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  while (dinfo->cur_bits >= 8) {
+  ^

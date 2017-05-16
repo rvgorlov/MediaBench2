@@ -1,0 +1,54 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 26.90      0.46     0.46                             forward_DCT
+ 23.39      0.86     0.40                             rgb_ycc_convert
+ 19.30      1.19     0.33                             encode_mcu_huff
+ 17.54      1.49     0.30                             jpeg_fdct_islow
+  3.51      1.55     0.06                             h2v2_downsample
+  1.75      1.58     0.03                             compress_data
+  1.17      1.60     0.02                             _IO_file_close
+  1.17      1.62     0.02                             __memmove_sse2_unaligned_erms
+  1.17      1.64     0.02                             __open_nocancel
+  0.58      1.65     0.01                             _IO_file_xsgetn
+  0.58      1.66     0.01                             _IO_new_file_close_it
+  0.58      1.67     0.01                             __read_nocancel
+  0.58      1.68     0.01                             __write_nocancel
+  0.58      1.69     0.01                             fullsize_downsample
+  0.58      1.70     0.01                             jpeg_make_c_derived_tbl
+  0.58      1.71     0.01                             mempcpy
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

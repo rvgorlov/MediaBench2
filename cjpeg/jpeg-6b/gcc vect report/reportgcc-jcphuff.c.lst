@@ -1,0 +1,1471 @@
+jcphuff.c:146:3: note: not vectorized: control flow in loop.
+jcphuff.c:146:3: note: bad loop form.
+jcphuff.c:121:6: note: not consecutive access entropy_12->cinfo = cinfo_11(D);
+jcphuff.c:121:6: note: not consecutive access entropy_12->gather_statistics = gather_statistics_14(D);
+jcphuff.c:121:6: note: not consecutive access entropy_12 = cinfo_11(D)->entropy;
+jcphuff.c:121:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:122:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:123:31: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:125:31: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:127:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:128:31: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:132:10: note: not consecutive access _24 = entropy_12->bit_buffer;
+jcphuff.c:132:10: note: not consecutive access entropy_12->pub.encode_mcu = encode_mcu_AC_refine;
+jcphuff.c:132:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:134:5: note: not consecutive access _26 = _25->alloc_small;
+jcphuff.c:134:5: note: not consecutive access _25 = cinfo_11(D)->mem;
+jcphuff.c:134:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:133:22: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:138:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:146:3: note: not consecutive access entropy_12->pub.finish_pass = cstore_42;
+jcphuff.c:146:3: note: not consecutive access _74 = cinfo_11(D)->comps_in_scan;
+jcphuff.c:146:3: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:189:1: note: not consecutive access entropy_12->put_buffer = 0;
+jcphuff.c:189:1: note: not consecutive access entropy_12->put_bits = 0;
+jcphuff.c:189:1: note: not consecutive access entropy_12->restarts_to_go = _60;
+jcphuff.c:189:1: note: not consecutive access entropy_12->next_restart_num = 0;
+jcphuff.c:189:1: note: not consecutive access _60 = cinfo_11(D)->restart_interval;
+jcphuff.c:189:1: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:189:1: note: not consecutive access entropy_12->put_buffer = 0;
+jcphuff.c:189:1: note: not consecutive access entropy_12->put_bits = 0;
+jcphuff.c:189:1: note: not consecutive access entropy_12->restarts_to_go = _60;
+jcphuff.c:189:1: note: not consecutive access entropy_12->next_restart_num = 0;
+jcphuff.c:189:1: note: not consecutive access _60 = cinfo_11(D)->restart_interval;
+jcphuff.c:189:1: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:151:8: note: not consecutive access entropy_12->last_dc_val[ci_76] = 0;
+jcphuff.c:151:8: note: not consecutive access compptr_70 = cinfo_11(D)->cur_comp_info[ci_76];
+jcphuff.c:151:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:152:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:154:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:156:26: note: not consecutive access entropy_12->ac_tbl_no = tbl_52;
+jcphuff.c:156:26: note: not consecutive access tbl_52 = compptr_70->ac_tbl_no;
+jcphuff.c:156:26: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:158:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:161:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:165:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:167:5: note: not consecutive access _95 = _94->alloc_small;
+jcphuff.c:167:5: note: not consecutive access _94 = cinfo_11(D)->mem;
+jcphuff.c:167:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:166:27: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:162:9: note: not consecutive access _102 = _99->error_exit;
+jcphuff.c:162:9: note: not consecutive access _99 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:162:9: note: not consecutive access _102 = _99->error_exit;
+jcphuff.c:162:9: note: not consecutive access _99 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:146:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:151:8: note: not consecutive access entropy_12->last_dc_val[ci_107] = 0;
+jcphuff.c:151:8: note: not consecutive access compptr_110 = cinfo_11(D)->cur_comp_info[ci_107];
+jcphuff.c:151:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:152:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:154:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:156:26: note: not consecutive access entropy_12->ac_tbl_no = tbl_114;
+jcphuff.c:156:26: note: not consecutive access tbl_114 = compptr_110->ac_tbl_no;
+jcphuff.c:156:26: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:158:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:161:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:165:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:167:5: note: not consecutive access _132 = _131->alloc_small;
+jcphuff.c:167:5: note: not consecutive access _131 = cinfo_11(D)->mem;
+jcphuff.c:167:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:166:27: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:162:9: note: not consecutive access _139 = _136->error_exit;
+jcphuff.c:162:9: note: not consecutive access _136 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:162:9: note: not consecutive access _139 = _136->error_exit;
+jcphuff.c:162:9: note: not consecutive access _136 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:146:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:151:8: note: not consecutive access entropy_12->last_dc_val[ci_144] = 0;
+jcphuff.c:151:8: note: not consecutive access compptr_147 = cinfo_11(D)->cur_comp_info[ci_144];
+jcphuff.c:151:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:152:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:154:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:156:26: note: not consecutive access entropy_12->ac_tbl_no = tbl_151;
+jcphuff.c:156:26: note: not consecutive access tbl_151 = compptr_147->ac_tbl_no;
+jcphuff.c:156:26: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:158:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:161:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:165:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:167:5: note: not consecutive access _169 = _168->alloc_small;
+jcphuff.c:167:5: note: not consecutive access _168 = cinfo_11(D)->mem;
+jcphuff.c:167:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:166:27: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:162:9: note: not consecutive access _176 = _173->error_exit;
+jcphuff.c:162:9: note: not consecutive access _173 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:162:9: note: not consecutive access _176 = _173->error_exit;
+jcphuff.c:162:9: note: not consecutive access _173 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:146:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:151:8: note: not consecutive access entropy_12->last_dc_val[ci_87] = 0;
+jcphuff.c:151:8: note: not consecutive access compptr_33 = cinfo_11(D)->cur_comp_info[ci_87];
+jcphuff.c:151:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:152:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:154:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:156:26: note: not consecutive access entropy_12->ac_tbl_no = tbl_37;
+jcphuff.c:156:26: note: not consecutive access tbl_37 = compptr_33->ac_tbl_no;
+jcphuff.c:156:26: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:158:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:161:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:162:9: note: not consecutive access _44 = _40->error_exit;
+jcphuff.c:162:9: note: not consecutive access _40 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:162:9: note: not consecutive access _44 = _40->error_exit;
+jcphuff.c:162:9: note: not consecutive access _40 = cinfo_11(D)->err;
+jcphuff.c:162:9: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:165:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:167:5: note: not consecutive access _48 = _47->alloc_small;
+jcphuff.c:167:5: note: not consecutive access _47 = cinfo_11(D)->mem;
+jcphuff.c:167:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:166:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:173:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:146:45: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: control flow in loop.
+jcphuff.c:303:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:323:11: note: not vectorized: number of iterations cannot be computed.
+jcphuff.c:323:11: note: bad loop form.
+jcphuff.c:320:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:323:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:323:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:326:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:326:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:327:7: note: not consecutive access _13 = _12->err;
+jcphuff.c:327:7: note: not consecutive access _16 = _13->error_exit;
+jcphuff.c:327:7: note: not consecutive access _13->msg_code = 40;
+jcphuff.c:327:7: note: not consecutive access _12 = entropy_6(D)->cinfo;
+jcphuff.c:327:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:327:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:283:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:284:40: note: not consecutive access _28 = *_27;
+jcphuff.c:284:40: note: not consecutive access *_27 = _29;
+jcphuff.c:284:40: note: not consecutive access _24 = entropy_6(D)->count_ptrs[_19];
+jcphuff.c:284:40: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:236:6: note: not consecutive access _33 = tbl_30->ehufco[prephitmp_85];
+jcphuff.c:236:6: note: not consecutive access _31 = tbl_30->ehufsi[prephitmp_85];
+jcphuff.c:236:6: note: not consecutive access put_bits_35 = entropy_6(D)->put_bits;
+jcphuff.c:236:6: note: not consecutive access tbl_30 = entropy_6(D)->derived_tbls[_19];
+jcphuff.c:236:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:237:5: note: not consecutive access _37 = _36->err;
+jcphuff.c:237:5: note: not consecutive access _38 = _37->error_exit;
+jcphuff.c:237:5: note: not consecutive access _37->msg_code = 40;
+jcphuff.c:237:5: note: not consecutive access _36 = entropy_6(D)->cinfo;
+jcphuff.c:237:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_52 = _54;
+jcphuff.c:253:5: note: not consecutive access _52 = entropy_6(D)->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _55 = entropy_6(D)->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_6(D)->next_output_byte = _53;
+jcphuff.c:253:5: note: not consecutive access entropy_6(D)->free_in_buffer = _56;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_65 = _64->dest;
+jcphuff.c:210:10: note: not consecutive access _66 = dest_65->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _64 = entropy_6(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _69 = _68->err;
+jcphuff.c:211:5: note: not consecutive access _70 = _69->error_exit;
+jcphuff.c:211:5: note: not consecutive access _69->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _68 = entropy_6(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _71 = dest_65->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _72 = dest_65->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->next_output_byte = _71;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->free_in_buffer = _72;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_57 = 0;
+jcphuff.c:255:7: note: not consecutive access _57 = entropy_6(D)->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _59 = entropy_6(D)->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_6(D)->next_output_byte = _58;
+jcphuff.c:255:7: note: not consecutive access entropy_6(D)->free_in_buffer = _60;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_74 = _73->dest;
+jcphuff.c:210:10: note: not consecutive access _75 = dest_74->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _73 = entropy_6(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _78 = _77->err;
+jcphuff.c:211:5: note: not consecutive access _79 = _78->error_exit;
+jcphuff.c:211:5: note: not consecutive access _78->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _77 = entropy_6(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _80 = dest_74->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _81 = dest_74->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->next_output_byte = _80;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->free_in_buffer = _81;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:330:8: note: not consecutive access entropy_6(D)->put_buffer = put_buffer_20;
+jcphuff.c:330:8: note: not consecutive access entropy_6(D)->put_bits = put_bits_322;
+jcphuff.c:330:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_100 = _102;
+jcphuff.c:253:5: note: not consecutive access _100 = entropy_6(D)->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _103 = entropy_6(D)->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_6(D)->next_output_byte = _101;
+jcphuff.c:253:5: note: not consecutive access entropy_6(D)->free_in_buffer = _104;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_113 = _112->dest;
+jcphuff.c:210:10: note: not consecutive access _114 = dest_113->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _112 = entropy_6(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _117 = _116->err;
+jcphuff.c:211:5: note: not consecutive access _118 = _117->error_exit;
+jcphuff.c:211:5: note: not consecutive access _117->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _116 = entropy_6(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _119 = dest_113->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _120 = dest_113->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->next_output_byte = _119;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->free_in_buffer = _120;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_105 = 0;
+jcphuff.c:255:7: note: not consecutive access _105 = entropy_6(D)->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _107 = entropy_6(D)->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_6(D)->next_output_byte = _106;
+jcphuff.c:255:7: note: not consecutive access entropy_6(D)->free_in_buffer = _108;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_122 = _121->dest;
+jcphuff.c:210:10: note: not consecutive access _123 = dest_122->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _121 = entropy_6(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _126 = _125->err;
+jcphuff.c:211:5: note: not consecutive access _127 = _126->error_exit;
+jcphuff.c:211:5: note: not consecutive access _126->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _125 = entropy_6(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _128 = dest_122->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _129 = dest_122->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->next_output_byte = _128;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->free_in_buffer = _129;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_6(D)->put_buffer = put_buffer_320;
+jcphuff.c:262:21: note: not consecutive access entropy_6(D)->put_bits = put_bits_319;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:300:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:337:17: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:336:5: note: not consecutive access _131 = entropy_6(D)->bit_buffer;
+jcphuff.c:336:5: note: not consecutive access pretmp_352 = entropy_6(D)->put_bits;
+jcphuff.c:336:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not consecutive access _153 = entropy_6(D)->put_buffer;
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not consecutive access *_159 = _161;
+jcphuff.c:253:5: note: not consecutive access _159 = entropy_6(D)->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _162 = entropy_6(D)->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_6(D)->next_output_byte = _160;
+jcphuff.c:253:5: note: not consecutive access entropy_6(D)->free_in_buffer = _163;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_172 = _171->dest;
+jcphuff.c:210:10: note: not consecutive access _173 = dest_172->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _171 = entropy_6(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _176 = _175->err;
+jcphuff.c:211:5: note: not consecutive access _177 = _176->error_exit;
+jcphuff.c:211:5: note: not consecutive access _176->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _175 = entropy_6(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _178 = dest_172->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _179 = dest_172->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->next_output_byte = _178;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->free_in_buffer = _179;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_164 = 0;
+jcphuff.c:255:7: note: not consecutive access _164 = entropy_6(D)->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _166 = entropy_6(D)->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_6(D)->next_output_byte = _165;
+jcphuff.c:255:7: note: not consecutive access entropy_6(D)->free_in_buffer = _167;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_181 = _180->dest;
+jcphuff.c:210:10: note: not consecutive access _182 = dest_181->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _180 = entropy_6(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _185 = _184->err;
+jcphuff.c:211:5: note: not consecutive access _186 = _185->error_exit;
+jcphuff.c:211:5: note: not consecutive access _185->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _184 = entropy_6(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _187 = dest_181->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _188 = dest_181->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->next_output_byte = _187;
+jcphuff.c:214:27: note: not consecutive access entropy_6(D)->free_in_buffer = _188;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_6(D)->put_buffer = put_buffer_316;
+jcphuff.c:262:21: note: not consecutive access entropy_6(D)->put_bits = put_bits_315;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:339:1: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:339:1: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:353:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not consecutive access _52 = entropy_7(D)->put_buffer;
+jcphuff.c:250:9: note: not consecutive access put_bits_41 = entropy_7(D)->put_bits;
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *prephitmp_43 = _60;
+jcphuff.c:253:5: note: not consecutive access _61 = entropy_7(D)->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_7(D)->next_output_byte = _59;
+jcphuff.c:253:5: note: not consecutive access entropy_7(D)->free_in_buffer = _62;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_71 = _70->dest;
+jcphuff.c:210:10: note: not consecutive access _72 = dest_71->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _70 = entropy_7(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _75 = _74->err;
+jcphuff.c:211:5: note: not consecutive access _76 = _75->error_exit;
+jcphuff.c:211:5: note: not consecutive access _75->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _74 = entropy_7(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _77 = dest_71->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _78 = dest_71->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->next_output_byte = _77;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->free_in_buffer = _78;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *prephitmp_145 = 0;
+jcphuff.c:255:7: note: not consecutive access _65 = entropy_7(D)->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_7(D)->next_output_byte = _64;
+jcphuff.c:255:7: note: not consecutive access entropy_7(D)->free_in_buffer = _66;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:255:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_80 = _79->dest;
+jcphuff.c:210:10: note: not consecutive access _81 = dest_80->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _79 = entropy_7(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _84 = _83->err;
+jcphuff.c:211:5: note: not consecutive access _85 = _84->error_exit;
+jcphuff.c:211:5: note: not consecutive access _84->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _83 = entropy_7(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _86 = dest_80->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _87 = dest_80->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->next_output_byte = _86;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->free_in_buffer = _87;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:355:5: note: not consecutive access *prephitmp_151 = 255;
+jcphuff.c:355:5: note: not consecutive access _14 = entropy_7(D)->free_in_buffer;
+jcphuff.c:355:5: note: not consecutive access entropy_7(D)->next_output_byte = _11;
+jcphuff.c:355:5: note: not consecutive access entropy_7(D)->free_in_buffer = _15;
+jcphuff.c:355:5: note: not consecutive access entropy_7(D)->put_buffer = 0;
+jcphuff.c:355:5: note: not consecutive access entropy_7(D)->put_bits = 0;
+jcphuff.c:355:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:355:5: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_89 = _88->dest;
+jcphuff.c:210:10: note: not consecutive access _90 = dest_89->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _88 = entropy_7(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _93 = _92->err;
+jcphuff.c:211:5: note: not consecutive access _94 = _93->error_exit;
+jcphuff.c:211:5: note: not consecutive access _93->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _92 = entropy_7(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _95 = dest_89->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _96 = dest_89->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->next_output_byte = _95;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->free_in_buffer = _96;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:356:5: note: not consecutive access *prephitmp_149 = _24;
+jcphuff.c:356:5: note: not consecutive access _26 = entropy_7(D)->free_in_buffer;
+jcphuff.c:356:5: note: not consecutive access entropy_7(D)->next_output_byte = _20;
+jcphuff.c:356:5: note: not consecutive access entropy_7(D)->free_in_buffer = _27;
+jcphuff.c:356:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_98 = _97->dest;
+jcphuff.c:210:10: note: not consecutive access _99 = dest_98->empty_output_buffer;
+jcphuff.c:210:10: note: not consecutive access _97 = entropy_7(D)->cinfo;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _102 = _101->err;
+jcphuff.c:211:5: note: not consecutive access _103 = _102->error_exit;
+jcphuff.c:211:5: note: not consecutive access _102->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _101 = entropy_7(D)->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access _104 = dest_98->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _105 = dest_98->free_in_buffer;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->next_output_byte = _104;
+jcphuff.c:214:27: note: not consecutive access entropy_7(D)->free_in_buffer = _105;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:359:6: note: not consecutive access _31 = _30->Ss;
+jcphuff.c:359:6: note: not consecutive access _30 = entropy_7(D)->cinfo;
+jcphuff.c:359:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:361:5: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:362:32: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:366:17: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:366:17: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:368:1: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:397:3: note: not vectorized: multiple nested loops.
+jcphuff.c:397:3: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:422:11: note: not vectorized: number of iterations cannot be computed.
+jcphuff.c:422:11: note: bad loop form.
+jcphuff.c:392:6: note: not consecutive access _17 = _16->next_output_byte;
+jcphuff.c:392:6: note: not consecutive access _19 = _16->free_in_buffer;
+jcphuff.c:392:6: note: not consecutive access entropy_14->next_output_byte = _17;
+jcphuff.c:392:6: note: not consecutive access entropy_14->free_in_buffer = _19;
+jcphuff.c:392:6: note: not consecutive access _21 = cinfo_13(D)->restart_interval;
+jcphuff.c:392:6: note: not consecutive access Al_15 = cinfo_13(D)->Al;
+jcphuff.c:392:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:393:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:394:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:397:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:445:6: note: not consecutive access _52->next_output_byte = _53;
+jcphuff.c:445:6: note: not consecutive access _52->free_in_buffer = _55;
+jcphuff.c:445:6: note: not consecutive access _53 = entropy_14->next_output_byte;
+jcphuff.c:445:6: note: not consecutive access _55 = entropy_14->free_in_buffer;
+jcphuff.c:445:6: note: not consecutive access _52 = cinfo_13(D)->dest;
+jcphuff.c:445:6: note: not consecutive access _57 = cinfo_13(D)->restart_interval;
+jcphuff.c:445:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:413:8: note: not consecutive access _36 = entropy_14->last_dc_val[ci_31];
+jcphuff.c:413:8: note: not consecutive access entropy_14->last_dc_val[ci_31] = temp2_35;
+jcphuff.c:413:8: note: not consecutive access _33 = *block_30[0];
+jcphuff.c:413:8: note: not consecutive access compptr_32 = cinfo_13(D)->cur_comp_info[ci_31];
+jcphuff.c:413:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:417:12: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:422:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:422:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:429:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:430:7: note: not consecutive access _45 = _43->error_exit;
+jcphuff.c:430:7: note: not consecutive access _43->msg_code = 6;
+jcphuff.c:430:7: note: not consecutive access _43 = cinfo_13(D)->err;
+jcphuff.c:430:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:283:6: note: not consecutive access _68 = entropy_14->gather_statistics;
+jcphuff.c:283:6: note: not consecutive access _47 = compptr_32->dc_tbl_no;
+jcphuff.c:283:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:284:40: note: not consecutive access _73 = *_72;
+jcphuff.c:284:40: note: not consecutive access *_72 = _74;
+jcphuff.c:284:40: note: not consecutive access _69 = entropy_14->count_ptrs[_47];
+jcphuff.c:284:40: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:236:6: note: not consecutive access put_bits_80 = entropy_14->put_bits;
+jcphuff.c:236:6: note: not consecutive access tbl_75 = entropy_14->derived_tbls[_47];
+jcphuff.c:236:6: note: not consecutive access _78 = tbl_75->ehufco[nbits_229];
+jcphuff.c:236:6: note: not consecutive access _76 = tbl_75->ehufsi[nbits_229];
+jcphuff.c:236:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:237:5: note: not consecutive access _82 = _81->err;
+jcphuff.c:237:5: note: not consecutive access _83 = _82->error_exit;
+jcphuff.c:237:5: note: not consecutive access _82->msg_code = 40;
+jcphuff.c:237:5: note: not consecutive access _81 = entropy_14->cinfo;
+jcphuff.c:237:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_97 = _99;
+jcphuff.c:253:5: note: not consecutive access _97 = entropy_14->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _100 = entropy_14->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_14->next_output_byte = _98;
+jcphuff.c:253:5: note: not consecutive access entropy_14->free_in_buffer = _101;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_110 = _109->dest;
+jcphuff.c:210:10: note: not consecutive access _109 = entropy_14->cinfo;
+jcphuff.c:210:10: note: not consecutive access _111 = dest_110->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _114 = _113->err;
+jcphuff.c:211:5: note: not consecutive access _115 = _114->error_exit;
+jcphuff.c:211:5: note: not consecutive access _114->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _113 = entropy_14->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_14->next_output_byte = _116;
+jcphuff.c:214:27: note: not consecutive access entropy_14->free_in_buffer = _117;
+jcphuff.c:214:27: note: not consecutive access _116 = dest_110->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _117 = dest_110->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_102 = 0;
+jcphuff.c:255:7: note: not consecutive access _102 = entropy_14->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _104 = entropy_14->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_14->next_output_byte = _103;
+jcphuff.c:255:7: note: not consecutive access entropy_14->free_in_buffer = _105;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_119 = _118->dest;
+jcphuff.c:210:10: note: not consecutive access _118 = entropy_14->cinfo;
+jcphuff.c:210:10: note: not consecutive access _120 = dest_119->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _123 = _122->err;
+jcphuff.c:211:5: note: not consecutive access _124 = _123->error_exit;
+jcphuff.c:211:5: note: not consecutive access _123->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _122 = entropy_14->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_14->next_output_byte = _125;
+jcphuff.c:214:27: note: not consecutive access entropy_14->free_in_buffer = _126;
+jcphuff.c:214:27: note: not consecutive access _125 = dest_119->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _126 = dest_119->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:437:8: note: not consecutive access entropy_14->put_buffer = put_buffer_274;
+jcphuff.c:437:8: note: not consecutive access entropy_14->put_bits = put_bits_273;
+jcphuff.c:437:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_145 = _147;
+jcphuff.c:253:5: note: not consecutive access _145 = entropy_14->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _148 = entropy_14->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_14->next_output_byte = _146;
+jcphuff.c:253:5: note: not consecutive access entropy_14->free_in_buffer = _149;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_158 = _157->dest;
+jcphuff.c:210:10: note: not consecutive access _157 = entropy_14->cinfo;
+jcphuff.c:210:10: note: not consecutive access _159 = dest_158->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _162 = _161->err;
+jcphuff.c:211:5: note: not consecutive access _163 = _162->error_exit;
+jcphuff.c:211:5: note: not consecutive access _162->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _161 = entropy_14->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_14->next_output_byte = _164;
+jcphuff.c:214:27: note: not consecutive access entropy_14->free_in_buffer = _165;
+jcphuff.c:214:27: note: not consecutive access _164 = dest_158->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _165 = dest_158->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_150 = 0;
+jcphuff.c:255:7: note: not consecutive access _150 = entropy_14->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _152 = entropy_14->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_14->next_output_byte = _151;
+jcphuff.c:255:7: note: not consecutive access entropy_14->free_in_buffer = _153;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_167 = _166->dest;
+jcphuff.c:210:10: note: not consecutive access _166 = entropy_14->cinfo;
+jcphuff.c:210:10: note: not consecutive access _168 = dest_167->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _171 = _170->err;
+jcphuff.c:211:5: note: not consecutive access _172 = _171->error_exit;
+jcphuff.c:211:5: note: not consecutive access _171->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _170 = entropy_14->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_14->next_output_byte = _173;
+jcphuff.c:214:27: note: not consecutive access entropy_14->free_in_buffer = _174;
+jcphuff.c:214:27: note: not consecutive access _173 = dest_167->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _174 = dest_167->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_14->put_buffer = put_buffer_232;
+jcphuff.c:262:21: note: not consecutive access entropy_14->put_bits = put_bits_267;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:397:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:446:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:449:33: note: not consecutive access _60 = entropy_14->next_restart_num;
+jcphuff.c:449:33: note: not consecutive access entropy_14->restarts_to_go = _57;
+jcphuff.c:449:33: note: not consecutive access entropy_14->next_restart_num = _63;
+jcphuff.c:449:33: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:451:28: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:454:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:454:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:588:3: note: not vectorized: control flow in loop.
+jcphuff.c:588:3: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:583:6: note: not consecutive access _11 = _10->next_output_byte;
+jcphuff.c:583:6: note: not consecutive access _13 = _10->free_in_buffer;
+jcphuff.c:583:6: note: not consecutive access entropy_8->next_output_byte = _11;
+jcphuff.c:583:6: note: not consecutive access entropy_8->free_in_buffer = _13;
+jcphuff.c:583:6: note: not consecutive access _15 = cinfo_7(D)->restart_interval;
+jcphuff.c:583:6: note: not consecutive access Al_9 = cinfo_7(D)->Al;
+jcphuff.c:583:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:584:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:585:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:585:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:588:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:588:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not consecutive access _59 = entropy_8->put_buffer;
+jcphuff.c:250:9: note: not consecutive access _25 = *block_24[0];
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not consecutive access *prephitmp_172 = _67;
+jcphuff.c:253:5: note: not consecutive access _68 = entropy_8->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_8->next_output_byte = _66;
+jcphuff.c:253:5: note: not consecutive access entropy_8->free_in_buffer = _69;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_78 = _77->dest;
+jcphuff.c:210:10: note: not consecutive access _77 = entropy_8->cinfo;
+jcphuff.c:210:10: note: not consecutive access _79 = dest_78->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _82 = _81->err;
+jcphuff.c:211:5: note: not consecutive access _83 = _82->error_exit;
+jcphuff.c:211:5: note: not consecutive access _82->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _81 = entropy_8->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_8->next_output_byte = _84;
+jcphuff.c:214:27: note: not consecutive access entropy_8->free_in_buffer = _85;
+jcphuff.c:214:27: note: not consecutive access _84 = dest_78->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _85 = dest_78->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *prephitmp_174 = 0;
+jcphuff.c:255:7: note: not consecutive access _72 = entropy_8->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_8->next_output_byte = _71;
+jcphuff.c:255:7: note: not consecutive access entropy_8->free_in_buffer = _73;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:255:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_87 = _86->dest;
+jcphuff.c:210:10: note: not consecutive access _86 = entropy_8->cinfo;
+jcphuff.c:210:10: note: not consecutive access _88 = dest_87->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _91 = _90->err;
+jcphuff.c:211:5: note: not consecutive access _92 = _91->error_exit;
+jcphuff.c:211:5: note: not consecutive access _91->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _90 = entropy_8->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_8->next_output_byte = _93;
+jcphuff.c:214:27: note: not consecutive access entropy_8->free_in_buffer = _94;
+jcphuff.c:214:27: note: not consecutive access _93 = dest_87->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _94 = dest_87->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_8->put_buffer = put_buffer_137;
+jcphuff.c:262:21: note: not consecutive access entropy_8->put_bits = put_bits_136;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:588:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:600:6: note: not consecutive access _31->next_output_byte = prephitmp_182;
+jcphuff.c:600:6: note: not consecutive access _31->free_in_buffer = _34;
+jcphuff.c:600:6: note: not consecutive access _34 = entropy_8->free_in_buffer;
+jcphuff.c:600:6: note: not consecutive access _31 = cinfo_7(D)->dest;
+jcphuff.c:600:6: note: not consecutive access _36 = cinfo_7(D)->restart_interval;
+jcphuff.c:600:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:601:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:604:33: note: not consecutive access _39 = entropy_8->next_restart_num;
+jcphuff.c:604:33: note: not consecutive access entropy_8->restarts_to_go = _36;
+jcphuff.c:604:33: note: not consecutive access entropy_8->next_restart_num = _42;
+jcphuff.c:604:33: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:606:28: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:609:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:489:3: note: not vectorized: multiple nested loops.
+jcphuff.c:489:3: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:525:11: note: not vectorized: number of iterations cannot be computed.
+jcphuff.c:525:11: note: bad loop form.
+jcphuff.c:518:11: note: not vectorized: control flow in loop.
+jcphuff.c:518:11: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:478:6: note: not consecutive access _23 = _22->next_output_byte;
+jcphuff.c:478:6: note: not consecutive access _26 = _22->free_in_buffer;
+jcphuff.c:478:6: note: not consecutive access entropy_19->next_output_byte = _23;
+jcphuff.c:478:6: note: not consecutive access entropy_19->free_in_buffer = _26;
+jcphuff.c:478:6: note: not consecutive access _28 = cinfo_18(D)->restart_interval;
+jcphuff.c:478:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:479:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:480:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:489:3: note: not consecutive access k_34 = cinfo_18(D)->Ss;
+jcphuff.c:489:3: note: not consecutive access block_33 = *MCU_data_32(D);
+jcphuff.c:489:3: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:490:8: note: not consecutive access _36 = *block_33[_35];
+jcphuff.c:490:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:491:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:499:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:503:13: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:505:12: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:509:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:510:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:515:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:518:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:283:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:284:40: note: not consecutive access _85 = MEM[(long int *)_84 + 1920B];
+jcphuff.c:284:40: note: not consecutive access MEM[(long int *)_84 + 1920B] = _86;
+jcphuff.c:284:40: note: not consecutive access _84 = entropy_19->count_ptrs[_46];
+jcphuff.c:284:40: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:236:6: note: not consecutive access put_bits_95 = entropy_19->put_bits;
+jcphuff.c:236:6: note: not consecutive access tbl_90 = entropy_19->derived_tbls[_46];
+jcphuff.c:236:6: note: not consecutive access _93 = tbl_90->ehufco[240];
+jcphuff.c:236:6: note: not consecutive access _91 = tbl_90->ehufsi[240];
+jcphuff.c:236:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:237:5: note: not consecutive access _97 = _96->err;
+jcphuff.c:237:5: note: not consecutive access _98 = _97->error_exit;
+jcphuff.c:237:5: note: not consecutive access _97->msg_code = 40;
+jcphuff.c:237:5: note: not consecutive access _96 = entropy_19->cinfo;
+jcphuff.c:237:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_112 = _114;
+jcphuff.c:253:5: note: not consecutive access _112 = entropy_19->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _115 = entropy_19->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_19->next_output_byte = _113;
+jcphuff.c:253:5: note: not consecutive access entropy_19->free_in_buffer = _116;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_125 = _124->dest;
+jcphuff.c:210:10: note: not consecutive access _124 = entropy_19->cinfo;
+jcphuff.c:210:10: note: not consecutive access _126 = dest_125->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _129 = _128->err;
+jcphuff.c:211:5: note: not consecutive access _130 = _129->error_exit;
+jcphuff.c:211:5: note: not consecutive access _129->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _128 = entropy_19->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_19->next_output_byte = _131;
+jcphuff.c:214:27: note: not consecutive access entropy_19->free_in_buffer = _132;
+jcphuff.c:214:27: note: not consecutive access _131 = dest_125->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _132 = dest_125->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_117 = 0;
+jcphuff.c:255:7: note: not consecutive access _117 = entropy_19->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _119 = entropy_19->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_19->next_output_byte = _118;
+jcphuff.c:255:7: note: not consecutive access entropy_19->free_in_buffer = _120;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_134 = _133->dest;
+jcphuff.c:210:10: note: not consecutive access _133 = entropy_19->cinfo;
+jcphuff.c:210:10: note: not consecutive access _135 = dest_134->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _138 = _137->err;
+jcphuff.c:211:5: note: not consecutive access _139 = _138->error_exit;
+jcphuff.c:211:5: note: not consecutive access _138->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _137 = entropy_19->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_19->next_output_byte = _140;
+jcphuff.c:214:27: note: not consecutive access entropy_19->free_in_buffer = _141;
+jcphuff.c:214:27: note: not consecutive access _140 = dest_134->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _141 = dest_134->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_19->put_buffer = put_buffer_415;
+jcphuff.c:262:21: note: not consecutive access entropy_19->put_bits = put_bits_350;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:518:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:518:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:525:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:525:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:528:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:529:7: note: not consecutive access _53 = _50->error_exit;
+jcphuff.c:529:7: note: not consecutive access _50->msg_code = 6;
+jcphuff.c:529:7: note: not consecutive access _50 = cinfo_18(D)->err;
+jcphuff.c:529:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:283:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:284:40: note: not consecutive access _177 = *_176;
+jcphuff.c:284:40: note: not consecutive access *_176 = _178;
+jcphuff.c:284:40: note: not consecutive access pretmp_338 = entropy_19->put_bits;
+jcphuff.c:284:40: note: not consecutive access _173 = entropy_19->count_ptrs[_57];
+jcphuff.c:284:40: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:236:6: note: not consecutive access put_bits_184 = entropy_19->put_bits;
+jcphuff.c:236:6: note: not consecutive access tbl_179 = entropy_19->derived_tbls[_57];
+jcphuff.c:236:6: note: not consecutive access _182 = tbl_179->ehufco[_56];
+jcphuff.c:236:6: note: not consecutive access _180 = tbl_179->ehufsi[_56];
+jcphuff.c:236:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:237:5: note: not consecutive access _186 = _185->err;
+jcphuff.c:237:5: note: not consecutive access _187 = _186->error_exit;
+jcphuff.c:237:5: note: not consecutive access _186->msg_code = 40;
+jcphuff.c:237:5: note: not consecutive access _185 = entropy_19->cinfo;
+jcphuff.c:237:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_201 = _203;
+jcphuff.c:253:5: note: not consecutive access _201 = entropy_19->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _204 = entropy_19->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_19->next_output_byte = _202;
+jcphuff.c:253:5: note: not consecutive access entropy_19->free_in_buffer = _205;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_214 = _213->dest;
+jcphuff.c:210:10: note: not consecutive access _213 = entropy_19->cinfo;
+jcphuff.c:210:10: note: not consecutive access _215 = dest_214->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _218 = _217->err;
+jcphuff.c:211:5: note: not consecutive access _219 = _218->error_exit;
+jcphuff.c:211:5: note: not consecutive access _218->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _217 = entropy_19->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_19->next_output_byte = _220;
+jcphuff.c:214:27: note: not consecutive access entropy_19->free_in_buffer = _221;
+jcphuff.c:214:27: note: not consecutive access _220 = dest_214->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _221 = dest_214->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_206 = 0;
+jcphuff.c:255:7: note: not consecutive access _206 = entropy_19->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _208 = entropy_19->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_19->next_output_byte = _207;
+jcphuff.c:255:7: note: not consecutive access entropy_19->free_in_buffer = _209;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_223 = _222->dest;
+jcphuff.c:210:10: note: not consecutive access _222 = entropy_19->cinfo;
+jcphuff.c:210:10: note: not consecutive access _224 = dest_223->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _227 = _226->err;
+jcphuff.c:211:5: note: not consecutive access _228 = _227->error_exit;
+jcphuff.c:211:5: note: not consecutive access _227->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _226 = entropy_19->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_19->next_output_byte = _229;
+jcphuff.c:214:27: note: not consecutive access entropy_19->free_in_buffer = _230;
+jcphuff.c:214:27: note: not consecutive access _229 = dest_223->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _230 = dest_223->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_19->put_buffer = put_buffer_392;
+jcphuff.c:262:21: note: not consecutive access entropy_19->put_bits = put_bits_370;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_160 = _162;
+jcphuff.c:253:5: note: not consecutive access _160 = entropy_19->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _163 = entropy_19->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_19->next_output_byte = _161;
+jcphuff.c:253:5: note: not consecutive access entropy_19->free_in_buffer = _164;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_232 = _231->dest;
+jcphuff.c:210:10: note: not consecutive access _231 = entropy_19->cinfo;
+jcphuff.c:210:10: note: not consecutive access _233 = dest_232->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _236 = _235->err;
+jcphuff.c:211:5: note: not consecutive access _237 = _236->error_exit;
+jcphuff.c:211:5: note: not consecutive access _236->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _235 = entropy_19->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_19->next_output_byte = _238;
+jcphuff.c:214:27: note: not consecutive access entropy_19->free_in_buffer = _239;
+jcphuff.c:214:27: note: not consecutive access _238 = dest_232->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _239 = dest_232->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_165 = 0;
+jcphuff.c:255:7: note: not consecutive access _165 = entropy_19->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _167 = entropy_19->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_19->next_output_byte = _166;
+jcphuff.c:255:7: note: not consecutive access entropy_19->free_in_buffer = _168;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_241 = _240->dest;
+jcphuff.c:210:10: note: not consecutive access _240 = entropy_19->cinfo;
+jcphuff.c:210:10: note: not consecutive access _242 = dest_241->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _245 = _244->err;
+jcphuff.c:211:5: note: not consecutive access _246 = _245->error_exit;
+jcphuff.c:211:5: note: not consecutive access _245->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _244 = entropy_19->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_19->next_output_byte = _247;
+jcphuff.c:214:27: note: not consecutive access entropy_19->free_in_buffer = _248;
+jcphuff.c:214:27: note: not consecutive access _247 = dest_241->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _248 = dest_241->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_19->put_buffer = put_buffer_412;
+jcphuff.c:262:21: note: not consecutive access entropy_19->put_bits = put_bits_394;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:489:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:541:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:543:8: note: not consecutive access _62 = entropy_19->EOBRUN;
+jcphuff.c:543:8: note: not consecutive access entropy_19->EOBRUN = _63;
+jcphuff.c:543:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:551:6: note: not consecutive access _67->next_output_byte = _68;
+jcphuff.c:551:6: note: not consecutive access _67->free_in_buffer = _70;
+jcphuff.c:551:6: note: not consecutive access _68 = entropy_19->next_output_byte;
+jcphuff.c:551:6: note: not consecutive access _70 = entropy_19->free_in_buffer;
+jcphuff.c:551:6: note: not consecutive access _67 = cinfo_18(D)->dest;
+jcphuff.c:551:6: note: not consecutive access _72 = cinfo_18(D)->restart_interval;
+jcphuff.c:551:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:552:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:555:33: note: not consecutive access _75 = entropy_19->next_restart_num;
+jcphuff.c:555:33: note: not consecutive access entropy_19->restarts_to_go = _72;
+jcphuff.c:555:33: note: not consecutive access entropy_19->next_restart_num = _78;
+jcphuff.c:555:33: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:557:28: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:560:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:666:3: note: not vectorized: multiple nested loops.
+jcphuff.c:666:3: note: bad loop form.
+jcphuff.c:303:9: note: not vectorized: control flow in loop.
+jcphuff.c:303:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:673:11: note: not vectorized: multiple nested loops.
+jcphuff.c:673:11: note: bad loop form.
+jcphuff.c:303:9: note: not vectorized: control flow in loop.
+jcphuff.c:303:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:646:3: note: not vectorized: not suitable for gather load _42 = *block_39[_41];
+
+jcphuff.c:646:3: note: bad data references.
+jcphuff.c:635:6: note: not consecutive access _29 = _28->next_output_byte;
+jcphuff.c:635:6: note: not consecutive access _32 = _28->free_in_buffer;
+jcphuff.c:635:6: note: not consecutive access entropy_25->next_output_byte = _29;
+jcphuff.c:635:6: note: not consecutive access entropy_25->free_in_buffer = _32;
+jcphuff.c:635:6: note: not consecutive access _34 = cinfo_24(D)->restart_interval;
+jcphuff.c:635:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:636:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:637:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:646:3: note: not consecutive access k_40 = cinfo_24(D)->Ss;
+jcphuff.c:646:3: note: not consecutive access block_39 = *MCU_data_38(D);
+jcphuff.c:646:3: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:646:3: note: not consecutive access _42 = *block_39[_41];
+jcphuff.c:646:3: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:667:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:673:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:668:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:675:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:283:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:284:40: note: not consecutive access _110 = MEM[(long int *)_109 + 1920B];
+jcphuff.c:284:40: note: not consecutive access MEM[(long int *)_109 + 1920B] = _111;
+jcphuff.c:284:40: note: not consecutive access _109 = entropy_25->count_ptrs[_59];
+jcphuff.c:284:40: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:236:6: note: not consecutive access put_bits_125 = entropy_25->put_bits;
+jcphuff.c:236:6: note: not consecutive access tbl_120 = entropy_25->derived_tbls[_59];
+jcphuff.c:236:6: note: not consecutive access _123 = tbl_120->ehufco[240];
+jcphuff.c:236:6: note: not consecutive access _121 = tbl_120->ehufsi[240];
+jcphuff.c:236:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:237:5: note: not consecutive access _127 = _126->err;
+jcphuff.c:237:5: note: not consecutive access _128 = _127->error_exit;
+jcphuff.c:237:5: note: not consecutive access _127->msg_code = 40;
+jcphuff.c:237:5: note: not consecutive access _126 = entropy_25->cinfo;
+jcphuff.c:237:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_142 = _144;
+jcphuff.c:253:5: note: not consecutive access _142 = entropy_25->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _145 = entropy_25->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_25->next_output_byte = _143;
+jcphuff.c:253:5: note: not consecutive access entropy_25->free_in_buffer = _146;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_155 = _154->dest;
+jcphuff.c:210:10: note: not consecutive access _154 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _156 = dest_155->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _159 = _158->err;
+jcphuff.c:211:5: note: not consecutive access _160 = _159->error_exit;
+jcphuff.c:211:5: note: not consecutive access _159->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _158 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _161;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _162;
+jcphuff.c:214:27: note: not consecutive access _161 = dest_155->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _162 = dest_155->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_147 = 0;
+jcphuff.c:255:7: note: not consecutive access _147 = entropy_25->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _149 = entropy_25->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_25->next_output_byte = _148;
+jcphuff.c:255:7: note: not consecutive access entropy_25->free_in_buffer = _150;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_164 = _163->dest;
+jcphuff.c:210:10: note: not consecutive access _163 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _165 = dest_164->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _168 = _167->err;
+jcphuff.c:211:5: note: not consecutive access _169 = _168->error_exit;
+jcphuff.c:211:5: note: not consecutive access _168->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _167 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _170;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _171;
+jcphuff.c:214:27: note: not consecutive access _170 = dest_164->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _171 = dest_164->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:300:6: note: not consecutive access entropy_25->put_buffer = put_buffer_603;
+jcphuff.c:300:6: note: not consecutive access entropy_25->put_bits = put_bits_610;
+jcphuff.c:300:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not consecutive access _192 = entropy_25->put_buffer;
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not consecutive access *_198 = _200;
+jcphuff.c:253:5: note: not consecutive access _198 = entropy_25->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _201 = entropy_25->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_25->next_output_byte = _199;
+jcphuff.c:253:5: note: not consecutive access entropy_25->free_in_buffer = _202;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_211 = _210->dest;
+jcphuff.c:210:10: note: not consecutive access _210 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _212 = dest_211->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _215 = _214->err;
+jcphuff.c:211:5: note: not consecutive access _216 = _215->error_exit;
+jcphuff.c:211:5: note: not consecutive access _215->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _214 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _217;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _218;
+jcphuff.c:214:27: note: not consecutive access _217 = dest_211->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _218 = dest_211->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_203 = 0;
+jcphuff.c:255:7: note: not consecutive access _203 = entropy_25->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _205 = entropy_25->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_25->next_output_byte = _204;
+jcphuff.c:255:7: note: not consecutive access entropy_25->free_in_buffer = _206;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_220 = _219->dest;
+jcphuff.c:210:10: note: not consecutive access _219 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _221 = dest_220->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _224 = _223->err;
+jcphuff.c:211:5: note: not consecutive access _225 = _224->error_exit;
+jcphuff.c:211:5: note: not consecutive access _224->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _223 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _226;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _227;
+jcphuff.c:214:27: note: not consecutive access _226 = dest_220->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _227 = dest_220->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_25->put_buffer = put_buffer_607;
+jcphuff.c:262:21: note: not consecutive access entropy_25->put_bits = put_bits_551;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:673:11: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:690:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:692:23: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:283:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:284:40: note: not consecutive access _263 = *_262;
+jcphuff.c:284:40: note: not consecutive access *_262 = _264;
+jcphuff.c:284:40: note: not consecutive access _259 = entropy_25->count_ptrs[_71];
+jcphuff.c:284:40: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:236:6: note: not consecutive access put_bits_270 = entropy_25->put_bits;
+jcphuff.c:236:6: note: not consecutive access tbl_265 = entropy_25->derived_tbls[_71];
+jcphuff.c:236:6: note: not consecutive access _268 = tbl_265->ehufco[_70];
+jcphuff.c:236:6: note: not consecutive access _266 = tbl_265->ehufsi[_70];
+jcphuff.c:236:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:237:5: note: not consecutive access _272 = _271->err;
+jcphuff.c:237:5: note: not consecutive access _273 = _272->error_exit;
+jcphuff.c:237:5: note: not consecutive access _272->msg_code = 40;
+jcphuff.c:237:5: note: not consecutive access _271 = entropy_25->cinfo;
+jcphuff.c:237:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_287 = _289;
+jcphuff.c:253:5: note: not consecutive access _287 = entropy_25->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _290 = entropy_25->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_25->next_output_byte = _288;
+jcphuff.c:253:5: note: not consecutive access entropy_25->free_in_buffer = _291;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_300 = _299->dest;
+jcphuff.c:210:10: note: not consecutive access _299 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _301 = dest_300->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _304 = _303->err;
+jcphuff.c:211:5: note: not consecutive access _305 = _304->error_exit;
+jcphuff.c:211:5: note: not consecutive access _304->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _303 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _306;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _307;
+jcphuff.c:214:27: note: not consecutive access _306 = dest_300->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _307 = dest_300->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_292 = 0;
+jcphuff.c:255:7: note: not consecutive access _292 = entropy_25->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _294 = entropy_25->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_25->next_output_byte = _293;
+jcphuff.c:255:7: note: not consecutive access entropy_25->free_in_buffer = _295;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_309 = _308->dest;
+jcphuff.c:210:10: note: not consecutive access _308 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _310 = dest_309->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _313 = _312->err;
+jcphuff.c:211:5: note: not consecutive access _314 = _313->error_exit;
+jcphuff.c:211:5: note: not consecutive access _313->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _312 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _315;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _316;
+jcphuff.c:214:27: note: not consecutive access _315 = dest_309->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _316 = dest_309->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:239:6: note: not consecutive access entropy_25->put_buffer = put_buffer_600;
+jcphuff.c:239:6: note: not consecutive access entropy_25->put_bits = put_bits_598;
+jcphuff.c:239:6: note: not consecutive access _74 = *block_39[_73];
+jcphuff.c:239:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:708:15: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *_246 = _248;
+jcphuff.c:253:5: note: not consecutive access _246 = entropy_25->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _249 = entropy_25->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_25->next_output_byte = _247;
+jcphuff.c:253:5: note: not consecutive access entropy_25->free_in_buffer = _250;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_318 = _317->dest;
+jcphuff.c:210:10: note: not consecutive access _317 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _319 = dest_318->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _322 = _321->err;
+jcphuff.c:211:5: note: not consecutive access _323 = _322->error_exit;
+jcphuff.c:211:5: note: not consecutive access _322->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _321 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _324;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _325;
+jcphuff.c:214:27: note: not consecutive access _324 = dest_318->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _325 = dest_318->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_251 = 0;
+jcphuff.c:255:7: note: not consecutive access _251 = entropy_25->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _253 = entropy_25->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_25->next_output_byte = _252;
+jcphuff.c:255:7: note: not consecutive access entropy_25->free_in_buffer = _254;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_327 = _326->dest;
+jcphuff.c:210:10: note: not consecutive access _326 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _328 = dest_327->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _331 = _330->err;
+jcphuff.c:211:5: note: not consecutive access _332 = _331->error_exit;
+jcphuff.c:211:5: note: not consecutive access _331->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _330 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _333;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _334;
+jcphuff.c:214:27: note: not consecutive access _333 = dest_327->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _334 = dest_327->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_25->put_buffer = put_buffer_604;
+jcphuff.c:262:21: note: not consecutive access entropy_25->put_bits = put_bits_602;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:300:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not consecutive access _355 = entropy_25->put_buffer;
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not consecutive access *_361 = _363;
+jcphuff.c:253:5: note: not consecutive access _361 = entropy_25->next_output_byte;
+jcphuff.c:253:5: note: not consecutive access _364 = entropy_25->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_25->next_output_byte = _362;
+jcphuff.c:253:5: note: not consecutive access entropy_25->free_in_buffer = _365;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_374 = _373->dest;
+jcphuff.c:210:10: note: not consecutive access _373 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _375 = dest_374->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _378 = _377->err;
+jcphuff.c:211:5: note: not consecutive access _379 = _378->error_exit;
+jcphuff.c:211:5: note: not consecutive access _378->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _377 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _380;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _381;
+jcphuff.c:214:27: note: not consecutive access _380 = dest_374->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _381 = dest_374->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *_366 = 0;
+jcphuff.c:255:7: note: not consecutive access _366 = entropy_25->next_output_byte;
+jcphuff.c:255:7: note: not consecutive access _368 = entropy_25->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_25->next_output_byte = _367;
+jcphuff.c:255:7: note: not consecutive access entropy_25->free_in_buffer = _369;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_383 = _382->dest;
+jcphuff.c:210:10: note: not consecutive access _382 = entropy_25->cinfo;
+jcphuff.c:210:10: note: not consecutive access _384 = dest_383->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _387 = _386->err;
+jcphuff.c:211:5: note: not consecutive access _388 = _387->error_exit;
+jcphuff.c:211:5: note: not consecutive access _387->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _386 = entropy_25->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_25->next_output_byte = _389;
+jcphuff.c:214:27: note: not consecutive access entropy_25->free_in_buffer = _390;
+jcphuff.c:214:27: note: not consecutive access _389 = dest_383->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _390 = dest_383->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:262:21: note: not consecutive access entropy_25->put_buffer = put_buffer_596;
+jcphuff.c:262:21: note: not consecutive access entropy_25->put_bits = put_bits_537;
+jcphuff.c:262:21: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:303:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:666:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:666:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:713:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:720:35: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:720:35: note: Build SLP failed: unrolling required in basic block SLP
+jcphuff.c:728:6: note: not consecutive access _90->next_output_byte = _91;
+jcphuff.c:728:6: note: not consecutive access _90->free_in_buffer = _93;
+jcphuff.c:728:6: note: not consecutive access _91 = entropy_25->next_output_byte;
+jcphuff.c:728:6: note: not consecutive access _93 = entropy_25->free_in_buffer;
+jcphuff.c:728:6: note: not consecutive access _90 = cinfo_24(D)->dest;
+jcphuff.c:728:6: note: not consecutive access _95 = cinfo_24(D)->restart_interval;
+jcphuff.c:728:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:729:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:732:33: note: not consecutive access _98 = entropy_25->next_restart_num;
+jcphuff.c:732:33: note: not consecutive access entropy_25->restarts_to_go = _95;
+jcphuff.c:732:33: note: not consecutive access entropy_25->next_restart_num = _101;
+jcphuff.c:732:33: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:734:28: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:737:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:664:13: note: not consecutive access _9 = entropy_25->bit_buffer;
+jcphuff.c:664:13: note: not consecutive access _2 = entropy_25->BE;
+jcphuff.c:664:13: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:678:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:678:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:250:9: note: not vectorized: control flow in loop.
+jcphuff.c:250:9: note: bad loop form.
+jcphuff.c:754:3: note: not consecutive access _5 = _4->next_output_byte;
+jcphuff.c:754:3: note: not consecutive access _7 = _4->free_in_buffer;
+jcphuff.c:754:3: note: not consecutive access entropy_3->next_output_byte = _5;
+jcphuff.c:754:3: note: not consecutive access entropy_3->free_in_buffer = _7;
+jcphuff.c:754:3: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:239:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:239:6: note: not consecutive access pretmp_22 = entropy_3->next_output_byte;
+jcphuff.c:239:6: note: not consecutive access pretmp_20 = entropy_3->free_in_buffer;
+jcphuff.c:239:6: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not consecutive access _30 = entropy_3->put_buffer;
+jcphuff.c:250:9: note: not consecutive access put_bits_19 = entropy_3->put_bits;
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not consecutive access pretmp_97 = entropy_3->next_output_byte;
+jcphuff.c:250:9: note: not consecutive access pretmp_96 = entropy_3->free_in_buffer;
+jcphuff.c:250:9: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:253:5: note: not consecutive access *prephitmp_25 = _38;
+jcphuff.c:253:5: note: not consecutive access _39 = entropy_3->free_in_buffer;
+jcphuff.c:253:5: note: not consecutive access entropy_3->next_output_byte = _37;
+jcphuff.c:253:5: note: not consecutive access entropy_3->free_in_buffer = _40;
+jcphuff.c:253:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:253:5: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_49 = _48->dest;
+jcphuff.c:210:10: note: not consecutive access _48 = entropy_3->cinfo;
+jcphuff.c:210:10: note: not consecutive access _50 = dest_49->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _53 = _52->err;
+jcphuff.c:211:5: note: not consecutive access _54 = _53->error_exit;
+jcphuff.c:211:5: note: not consecutive access _53->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _52 = entropy_3->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_3->next_output_byte = _55;
+jcphuff.c:214:27: note: not consecutive access entropy_3->free_in_buffer = _56;
+jcphuff.c:214:27: note: not consecutive access _55 = dest_49->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _56 = dest_49->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:254:8: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:255:7: note: not consecutive access *prephitmp_92 = 0;
+jcphuff.c:255:7: note: not consecutive access _43 = entropy_3->free_in_buffer;
+jcphuff.c:255:7: note: not consecutive access entropy_3->next_output_byte = _42;
+jcphuff.c:255:7: note: not consecutive access entropy_3->free_in_buffer = _44;
+jcphuff.c:255:7: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:255:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:210:10: note: not consecutive access dest_58 = _57->dest;
+jcphuff.c:210:10: note: not consecutive access _57 = entropy_3->cinfo;
+jcphuff.c:210:10: note: not consecutive access _59 = dest_58->empty_output_buffer;
+jcphuff.c:210:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:210:6: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:211:5: note: not consecutive access _62 = _61->err;
+jcphuff.c:211:5: note: not consecutive access _63 = _62->error_exit;
+jcphuff.c:211:5: note: not consecutive access _62->msg_code = 24;
+jcphuff.c:211:5: note: not consecutive access _61 = entropy_3->cinfo;
+jcphuff.c:211:5: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:214:27: note: not consecutive access entropy_3->next_output_byte = _64;
+jcphuff.c:214:27: note: not consecutive access entropy_3->free_in_buffer = _65;
+jcphuff.c:214:27: note: not consecutive access _64 = dest_58->next_output_byte;
+jcphuff.c:214:27: note: not consecutive access _65 = dest_58->free_in_buffer;
+jcphuff.c:214:27: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:250:9: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:759:1: note: not consecutive access _10->next_output_byte = prephitmp_93;
+jcphuff.c:759:1: note: not consecutive access _10->free_in_buffer = prephitmp_26;
+jcphuff.c:759:1: note: not consecutive access entropy_3->put_buffer = 0;
+jcphuff.c:759:1: note: not consecutive access entropy_3->put_bits = 0;
+jcphuff.c:759:1: note: not consecutive access _10 = cinfo_2(D)->dest;
+jcphuff.c:759:1: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:786:3: note: not vectorized: control flow in loop.
+jcphuff.c:786:3: note: bad loop form.
+jcphuff.c:786:3: note: not vectorized: control flow in loop.
+jcphuff.c:786:3: note: bad loop form.
+jcphuff.c:777:3: note: not vectorized: not enough data-refs in basic block.
+/usr/include/x86_64-linux-gnu/bits/string3.h:90:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:806:1: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:806:1: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:795:8: note: not consecutive access _3 = did[tbl_20];
+jcphuff.c:795:8: note: not consecutive access tbl_20 = compptr_41->ac_tbl_no;
+jcphuff.c:795:8: note: not consecutive access compptr_41 = cinfo_8(D)->cur_comp_info[ci_66];
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_20] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_6 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:795:8: note: not consecutive access _88 = did[tbl_87];
+jcphuff.c:795:8: note: not consecutive access tbl_87 = compptr_86->ac_tbl_no;
+jcphuff.c:795:8: note: not consecutive access compptr_86 = cinfo_8(D)->cur_comp_info[ci_83];
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_87] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_99 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:795:8: note: not consecutive access _112 = did[tbl_111];
+jcphuff.c:795:8: note: not consecutive access tbl_111 = compptr_110->ac_tbl_no;
+jcphuff.c:795:8: note: not consecutive access compptr_110 = cinfo_8(D)->cur_comp_info[ci_107];
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_111] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_123 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:795:8: note: not consecutive access _58 = did[tbl_12];
+jcphuff.c:795:8: note: not consecutive access tbl_12 = compptr_49->ac_tbl_no;
+jcphuff.c:795:8: note: not consecutive access compptr_49 = cinfo_8(D)->cur_comp_info[ci_51];
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_12] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_72 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:786:45: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:789:10: note: not consecutive access _135 = cinfo_8(D)->Ah;
+jcphuff.c:789:10: note: not consecutive access compptr_134 = cinfo_8(D)->cur_comp_info[ci_131];
+jcphuff.c:789:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:795:8: note: not consecutive access _137 = did[tbl_136];
+jcphuff.c:795:8: note: not consecutive access tbl_136 = compptr_134->dc_tbl_no;
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_136] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_152 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:789:10: note: not consecutive access _160 = cinfo_8(D)->Ah;
+jcphuff.c:789:10: note: not consecutive access compptr_159 = cinfo_8(D)->cur_comp_info[ci_156];
+jcphuff.c:789:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:795:8: note: not consecutive access _162 = did[tbl_161];
+jcphuff.c:795:8: note: not consecutive access tbl_161 = compptr_159->dc_tbl_no;
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_161] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_177 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:789:10: note: not consecutive access _185 = cinfo_8(D)->Ah;
+jcphuff.c:789:10: note: not consecutive access compptr_184 = cinfo_8(D)->cur_comp_info[ci_181];
+jcphuff.c:789:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:795:8: note: not consecutive access _187 = did[tbl_186];
+jcphuff.c:795:8: note: not consecutive access tbl_186 = compptr_184->dc_tbl_no;
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_186] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_202 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:786:3: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:789:10: note: not consecutive access _14 = cinfo_8(D)->Ah;
+jcphuff.c:789:10: note: not consecutive access compptr_13 = cinfo_8(D)->cur_comp_info[ci_37];
+jcphuff.c:789:10: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:795:8: note: not consecutive access _34 = did[tbl_15];
+jcphuff.c:795:8: note: not consecutive access tbl_15 = compptr_13->dc_tbl_no;
+jcphuff.c:795:8: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:800:10: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:801:18: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:802:7: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:803:16: note: not consecutive access did[tbl_15] = 1;
+jcphuff.c:803:16: note: not consecutive access pretmp_55 = cinfo_8(D)->comps_in_scan;
+jcphuff.c:803:16: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:786:45: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:819:11: note: not consecutive access _6 = _5->alloc_small;
+jcphuff.c:819:11: note: not consecutive access _5 = cinfo_4(D)->mem;
+jcphuff.c:819:11: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:827:30: note: not consecutive access entropy_8->pub.start_pass = start_pass_phuff;
+jcphuff.c:827:30: note: not consecutive access cinfo_4(D)->entropy = entropy_8;
+jcphuff.c:827:30: note: not vectorized: no grouped stores in basic block.
+jcphuff.c:828:28: note: not vectorized: not enough data-refs in basic block.
+jcphuff.c:831:1: note: not vectorized: not enough data-refs in basic block.

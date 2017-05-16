@@ -1,0 +1,36 @@
+===============================================================
+
+ Performance counter stats for './cjpeg -dct int -quality 75 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm':
+
+         31,794637      task-clock (msec)         #    0,010 CPUs utilized          
+                 2      context-switches          #    0,063 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                70      page-faults               #    0,002 M/sec                  
+        37 621 980      cycles                    #    1,183 GHz                      (74,89%)
+        15 709 035      stalled-cycles-frontend   #   41,75% frontend cycles idle     (86,87%)
+        10 352 104      stalled-cycles-backend    #   27,52% backend cycles idle      (74,97%)
+        50 476 176      instructions              #    1,34  insn per cycle         
+                                                  #    0,31  stalled cycles per insn  (87,45%)
+         4 687 922      branches                  #  147,444 M/sec                    (87,45%)
+           472 959      branch-misses             #   10,09% of all branches          (79,73%)
+
+       3,032626209 seconds time elapsed
+
+
+
+
+ Performance counter stats for './cjpeg -dct int -quality 75 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm':
+
+       2096,064108      task-clock (msec)         #    0,408 CPUs utilized          
+               110      context-switches          #    0,052 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+                69      page-faults               #    0,033 K/sec                  
+     3 103 376 899      cycles                    #    1,481 GHz                      (83,40%)
+     1 089 362 265      stalled-cycles-frontend   #   35,10% frontend cycles idle     (83,43%)
+       687 073 214      stalled-cycles-backend    #   22,14% backend cycles idle      (66,54%)
+     4 982 616 889      instructions              #    1,61  insn per cycle         
+                                                  #    0,22  stalled cycles per insn  (83,14%)
+       479 741 715      branches                  #  228,877 M/sec                    (83,38%)
+        46 888 034      branch-misses             #    9,77% of all branches          (83,30%)
+
+       5,140624711 seconds time elapsed

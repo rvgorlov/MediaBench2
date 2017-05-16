@@ -1,0 +1,71 @@
+wrbmp.c:420:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  while ((row_width & 3) != 0) row_width++;
+  ^
+wrbmp.c:420:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+wrbmp.c:371:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(GETJSAMPLE(*data_ptr), outfile);
+      ^
+wrbmp.c:370:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = dest->row_width; col > 0; col--) {
+    ^
+wrbmp.c:371:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(GETJSAMPLE(*data_ptr), outfile);
+      ^
+wrbmp.c:370:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (col = dest->row_width; col > 0; col--) {
+    ^
+wrbmp.c:125:3: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrbmp.c:92:3: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (col = cinfo->output_width; col > 0; col--) {
+  ^
+wrbmp.c:92:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+wrbmp.c:313:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[0][i]), outfile);
+        ^
+wrbmp.c:312:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:313:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[0][i]), outfile);
+        ^
+wrbmp.c:312:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:304:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[2][i]), outfile);
+        ^
+wrbmp.c:303:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:304:2: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        putc(GETJSAMPLE(colormap[2][i]), outfile);
+        ^
+wrbmp.c:303:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i = 0; i < num_colors; i++) {
+      ^
+wrbmp.c:323:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(i, outfile);
+      ^
+wrbmp.c:322:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < 256; i++) {
+    ^
+wrbmp.c:323:7: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      putc(i, outfile);
+      ^
+wrbmp.c:322:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i = 0; i < 256; i++) {
+    ^
+wrbmp.c:334:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    putc(0, outfile);
+    ^
+wrbmp.c:333:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (; i < map_colors; i++) {
+  ^
+wrbmp.c:334:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    putc(0, outfile);
+    ^
+wrbmp.c:333:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (; i < map_colors; i++) {
+  ^

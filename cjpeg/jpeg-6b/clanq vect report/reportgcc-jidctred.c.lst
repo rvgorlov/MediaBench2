@@ -1,0 +1,11 @@
+jidctred.c:138:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; inptr++, quantptr++, wsptr++, ctr--) {
+  ^
+jidctred.c:138:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+jidctred.c:197:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (ctr = 0; ctr < 4; ctr++) {
+  ^
+jidctred.c:290:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (ctr = DCTSIZE; ctr > 0; inptr++, quantptr++, wsptr++, ctr--) {
+  ^
+jidctred.c:290:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
