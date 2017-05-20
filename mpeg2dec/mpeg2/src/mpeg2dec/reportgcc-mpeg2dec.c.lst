@@ -1,0 +1,32 @@
+mpeg2dec.c:123:7: warning: implicit declaration of function 'lseek' is invalid in C99 [-Wimplicit-function-declaration]
+      lseek(base.Infile, 0l, 0);
+      ^
+mpeg2dec.c:154:5: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+    close(base.Infile);
+    ^
+mpeg2dec.c:280:18: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  fprintf(stderr,text);
+                 ^~~~
+mpeg2dec.c:280:18: note: treat the string as an argument to avoid this
+  fprintf(stderr,text);
+                 ^
+                 "%s", 
+mpeg2dec.c:696:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while ((Return_Value=Headers()))
+  ^
+mpeg2dec.c:696:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+mpeg2dec.c:178:3: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+  for (i=-384; i<640; i++)
+  ^
+mpeg2dec.c:178:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+mpeg2dec.c:336:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  while(i < argc)
+  ^
+mpeg2dec.c:336:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+mpeg2dec.c:290:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    printf("%d",(code>>(bits-1-i))&1);
+    ^
+mpeg2dec.c:289:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i=0; i<len; i++)
+  ^
+3 warnings generated.

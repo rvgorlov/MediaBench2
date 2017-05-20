@@ -53,25 +53,27 @@
 #
 # GNU gcc
 #
-CC = gcc
-#CFLAGS = -O2
+#CC= icc
+#CC = gcc
+CC= clang
+#CFLAGS = -O3 -w
 # GCC 
 # vect
-CFLAGS= -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize
+#CFLAGS= -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed
 # scalar
-#CFLAGS = -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize -I$(srcdir)
+#CFLAGS = -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize
 
 #clang
 # vect
-#CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -I$(srcdir)
+CFLAGS = -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize
 # scalar
-#CFLAGS = -O3 -ffast-math -fno-vectorize -I$(srcdir)
+#CFLAGS = -O3 -ffast-math -fno-vectorize
 
 #ICC
 #vect
-#CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -I$(srcdir)
+#CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed
 #scalar
-#CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
+#CFLAGS = -O3 -xHost -no-vec 
 
 
 all: mpeg2decode mpeg2encode
@@ -92,8 +94,6 @@ clean:
 	cd src/mpeg2dec; make clean
 	cd src/mpeg2enc; make clean
 
-diplom: test
-
 test:
 	cd verify; ./verify
 
@@ -101,3 +101,11 @@ hpctimer: hpctimer.o
 	gcc -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o 
 
 hpctimer.o: hpctimer.c hpctimer.h
+
+diplom:
+	./src/mpeg2dec/mpeg2decode -b input_base_4CIF_96bps.mpg -o3 output_base_4CIF_96bps_%03d
+
+#$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
+%.o: %.c 
+	$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
+

@@ -1,0 +1,29 @@
+stats.c:86:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<w; i++)
+    ^
+stats.c:86:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+stats.c:86:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+stats.c:86:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+stats.c:86:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+stats.c:86:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+stats.c:124:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      n_skipped++;
+      ^
+stats.c:120:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (k=0; k<nmb; k++)
+  ^
+stats.c:130:5: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<block_count; i++)
+    ^
+stats.c:172:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        putc('S',statfile);
+        ^
+stats.c:167:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<mb_width; i++)
+    ^
+stats.c:212:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      if (i==0 || mbinfo[k].mquant!=mbinfo[k-1].mquant)
+          ^
+stats.c:210:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<mb_width; i++)
+    ^

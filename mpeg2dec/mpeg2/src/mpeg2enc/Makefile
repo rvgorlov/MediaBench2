@@ -35,11 +35,14 @@
 CC = gcc
 CFLAGS = -O2 -Wall
 
-OBJ = mpeg2enc.o conform.o putseq.o putpic.o puthdr.o putmpg.o putvlc.o putbits.o motion.o predict.o readpic.o writepic.o transfrm.o fdctref.o idct.o quantize.o ratectl.o stats.o
+OBJ = mpeg2enc.o conform.o putseq.o putpic.o puthdr.o putmpg.o putvlc.o putbits.o motion.o predict.o readpic.o writepic.o transfrm.o fdctref.o idct.o quantize.o ratectl.o stats.o hpctimer.o
 
 all: mpeg2encode
 
 pc: mpeg2enc.exe
+
+%.o: %.c 
+	$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 
 clean:
 	rm -f *.o *% core mpeg2encode

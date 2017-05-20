@@ -1,0 +1,137 @@
+readpic.c:215:3: warning: implicit declaration of function 'pbm_getint' is invalid in C99 [-Wimplicit-function-declaration]
+  pbm_getint(fd); pbm_getint(fd); pbm_getint(fd); /* width height maxcolors */
+  ^
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(file);
+           ^
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:223:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (j=0; j<horizontal_size; j++)
+    ^
+readpic.c:223:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:134:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<vertical_size; i++)
+  ^
+readpic.c:134:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:139:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<chrom_vsize; i++)
+  ^
+readpic.c:139:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:144:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<chrom_vsize; i++)
+  ^
+readpic.c:144:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:84:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<vertical_size; i++)
+  ^
+readpic.c:84:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:96:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    fread(frame[1]+i*chrom_width,1,chrom_hsize,fd);
+    ^
+readpic.c:95:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i=0; i<chrom_vsize; i++)
+  ^
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:107:5: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+    fread(frame[2]+i*chrom_width,1,chrom_hsize,fd);
+    ^
+readpic.c:106:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i=0; i<chrom_vsize; i++)
+  ^
+readpic.c:268:5: remark: loop not vectorized: unsafe dependent memory operations in loop. Use #pragma loop distribute(enable) to allow loop distribution to attempt to isolate the offending operations into a separate loop [-Rpass-analysis=loop-vectorize]
+    for (i=w1; i<w2; i++)
+    ^
+readpic.c:268:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:277:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for (i=0; i<w2; i++)
+    ^
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      ch = getc(file);
+           ^
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+readpic.c:465:12: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:292:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<width; i+=2)
+      ^
+readpic.c:292:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:323:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<width; i+=2)
+      ^
+readpic.c:323:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:356:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (j=0; j<height; j+=2)
+      ^
+readpic.c:356:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+readpic.c:387:7: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+      for (j=0; j<height; j+=4)
+      ^
+readpic.c:387:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+1 warning generated.

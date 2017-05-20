@@ -1,0 +1,80 @@
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<16; i++)
+    ^
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1598:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+motion.c:1598:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1633:3: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+  for (j=0; j<16; j++)
+  ^
+motion.c:1633:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+motion.c:1294:13: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        if (d<dmin)
+            ^
+motion.c:1288:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (k=0; k<8*l; k++)
+    ^
+motion.c:1319:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (i=ilow; i<=ihigh; i++)
+    ^
+motion.c:1319:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+motion.c:1474:29: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+        v = ((unsigned int)(p1[i]+p1[i+1]+1)>>1) - p2[i];
+                            ^
+motion.c:1472:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i=0; i<16; i++)
+      ^
+motion.c:1502:43: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+        v = ((unsigned int)(p1[i]+p1[i+1]+p1a[i]+p1a[i+1]+2)>>2) - p2[i];
+                                          ^
+motion.c:1500:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i=0; i<16; i++)
+      ^
+motion.c:1485:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<16; i++)
+      ^
+motion.c:1485:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1459:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (j=0; j<h; j++)
+    ^
+motion.c:1459:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+motion.c:1544:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<16; i++)
+    ^
+motion.c:1544:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1390:29: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+        v = ((unsigned int)(p1[i]+p1[i+1]+1)>>1) - p2[i];
+                            ^
+motion.c:1388:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i=0; i<16; i++)
+      ^
+motion.c:1424:43: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+        v = ((unsigned int)(p1[i]+p1[i+1]+p1a[i]+p1a[i+1]+2)>>2) - p2[i];
+                                          ^
+motion.c:1422:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i=0; i<16; i++)
+      ^
+motion.c:1404:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<16; i++)
+      ^
+motion.c:1404:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+motion.c:1360:5: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+    for (j=0; j<h; j++)
+    ^
+motion.c:1360:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

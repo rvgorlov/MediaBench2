@@ -1,0 +1,12 @@
+putmpg.c:60:5: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+    }
+    ^
+putmpg.c:52:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (n=1; n<64; n++)
+  ^
+putmpg.c:93:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      }
+      ^
+putmpg.c:81:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (n=0; n<64; n++)
+  ^

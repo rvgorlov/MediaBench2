@@ -1,0 +1,12 @@
+conform.c:121:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      error("f_code must be between 1 and 9");
+      ^
+conform.c:118:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i=0; i<M; i++)
+  ^
+conform.c:254:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      error("forward horizontal f_code greater than permitted in specified Level");
+      ^
+conform.c:251:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+  for (i=0; i<M; i++)
+  ^

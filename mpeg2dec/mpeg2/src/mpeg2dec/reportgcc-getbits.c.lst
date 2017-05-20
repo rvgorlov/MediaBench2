@@ -1,0 +1,42 @@
+getbits.c:66:18: warning: implicit declaration of function 'read' is invalid in C99 [-Wimplicit-function-declaration]
+  Buffer_Level = read(ld->Infile,ld->Rdbfr,2048);
+                 ^
+getbits.c:100:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while(ld->Rdptr >= ld->Rdbfr+2048)
+  ^
+getbits.c:100:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getbits.c:85:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    while (Buffer_Level < 2048)
+    ^
+getbits.c:85:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getbits.c:81:25: remark: loop not vectorized: value cannot be used outside the loop [-Rpass-analysis=loop-vectorize]
+    while (Buffer_Level & 3)
+                        ^
+getbits.c:81:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    while (Buffer_Level & 3)
+    ^
+getbits.c:164:17: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+        ld->Bfr |= *ld->Rdptr++ << (24 - Incnt);
+                ^
+getbits.c:162:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      do
+      ^
+getbits.c:81:25: remark: loop not vectorized: value cannot be used outside the loop [-Rpass-analysis=loop-vectorize]
+    while (Buffer_Level & 3)
+                        ^
+getbits.c:81:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    while (Buffer_Level & 3)
+    ^
+getbits.c:85:5: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+    while (Buffer_Level < 2048)
+    ^
+getbits.c:85:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getbits.c:100:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while(ld->Rdptr >= ld->Rdbfr+2048)
+  ^
+getbits.c:100:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getbits.c:100:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+getbits.c:100:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getbits.c:100:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+getbits.c:100:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+1 warning generated.

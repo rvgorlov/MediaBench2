@@ -1,0 +1,38 @@
+subspic.c:257:6: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+  if(!(Infile=open(Filename,O_RDONLY|O_BINARY))<0)
+     ^                                         ~
+subspic.c:257:6: note: add parentheses after the '!' to evaluate the comparison first
+  if(!(Infile=open(Filename,O_RDONLY|O_BINARY))<0)
+     ^
+      (                                          )
+subspic.c:257:6: note: add parentheses around left hand side expression to silence this warning
+  if(!(Infile=open(Filename,O_RDONLY|O_BINARY))<0)
+     ^
+     (                                         )
+subspic.c:263:16: warning: implicit declaration of function 'read' is invalid in C99 [-Wimplicit-function-declaration]
+  Bytes_Read = read(Infile, Frame, Size);
+               ^
+subspic.c:271:3: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+  close(Infile); 
+  ^
+subspic.c:257:48: warning: comparison of constant 0 with boolean expression is always false [-Wtautological-constant-out-of-range-compare]
+  if(!(Infile=open(Filename,O_RDONLY|O_BINARY))<0)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+subspic.c:326:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (line=0; line<Coded_Picture_Height; line++)
+  ^
+subspic.c:326:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+subspic.c:332:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (line=0; line<Chroma_Height; line++)
+  ^
+subspic.c:332:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+subspic.c:338:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (line=0; line<Chroma_Height; line++)
+  ^
+subspic.c:338:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+subspic.c:382:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+    for(col=0; col<width; col++)
+    ^
+subspic.c:382:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+subspic.c:382:5: remark: vectorized loop (vectorization width: 16, interleaved count: 2) [-Rpass=loop-vectorize]
+4 warnings generated.

@@ -1,0 +1,529 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o predict.o
+
+Begin optimization report for: predict()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at predict.c(76,3)
+   remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at predict.c(77,5)
+      remark #15523: loop was not vectorized: loop control variable i was found, but loop iteration count cannot be computed before executing the loop
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 2
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: predict_mb()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(163,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(167,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(178,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(182,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(186,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(190,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(151,9)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(427,7) inlined into predict.c(151,9)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at predict.c(429,9) inlined into predict.c(151,9)
+      <Peeled loop for vectorization, Multiversioned v1>
+         remark #25015: Estimate of max trip count of loop=15
+      LOOP END
+
+      LOOP BEGIN at predict.c(429,9) inlined into predict.c(151,9)
+      <Multiversioned v1>
+         remark #25228: Loop multiversioned for Data Dependence
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15450: unmasked unaligned unit stride loads: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 5 
+         remark #15477: vector cost: 0.310 
+         remark #15478: estimated potential speedup: 6.300 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+
+      LOOP BEGIN at predict.c(429,9) inlined into predict.c(151,9)
+      <Remainder loop for vectorization, Multiversioned v1>
+      LOOP END
+
+      LOOP BEGIN at predict.c(429,9) inlined into predict.c(151,9)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at predict.c(429,9) inlined into predict.c(151,9)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at predict.c(444,7) inlined into predict.c(151,9)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at predict.c(446,9) inlined into predict.c(151,9)
+      <Peeled loop for vectorization, Multiversioned v1>
+         remark #25015: Estimate of max trip count of loop=15
+      LOOP END
+
+      LOOP BEGIN at predict.c(446,9) inlined into predict.c(151,9)
+      <Multiversioned v1>
+         remark #25228: Loop multiversioned for Data Dependence
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 9 
+         remark #15477: vector cost: 0.560 
+         remark #15478: estimated potential speedup: 6.410 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+
+      LOOP BEGIN at predict.c(446,9) inlined into predict.c(151,9)
+      <Remainder loop for vectorization, Multiversioned v1>
+      LOOP END
+
+      LOOP BEGIN at predict.c(446,9) inlined into predict.c(151,9)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at predict.c(446,9) inlined into predict.c(151,9)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at predict.c(461,7) inlined into predict.c(151,9)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at predict.c(463,9) inlined into predict.c(151,9)
+      <Peeled loop for vectorization, Multiversioned v1>
+         remark #25015: Estimate of max trip count of loop=15
+      LOOP END
+
+      LOOP BEGIN at predict.c(463,9) inlined into predict.c(151,9)
+      <Multiversioned v1>
+         remark #25228: Loop multiversioned for Data Dependence
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 9 
+         remark #15477: vector cost: 0.560 
+         remark #15478: estimated potential speedup: 6.410 
+         remark #15488: --- end vector cost summary ---
+      LOOP END
+
+      LOOP BEGIN at predict.c(463,9) inlined into predict.c(151,9)
+      <Remainder loop for vectorization, Multiversioned v1>
+      LOOP END
+
+      LOOP BEGIN at predict.c(463,9) inlined into predict.c(151,9)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at predict.c(463,9) inlined into predict.c(151,9)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at predict.c(478,7) inlined into predict.c(151,9)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between d[i] (481:11) and d[i] (481:11)
+
+      LOOP BEGIN at predict.c(480,9) inlined into predict.c(151,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between d[i] (481:11) and s[i] (481:11)
+         remark #25439: unrolled with remainder by 4  
+      LOOP END
+
+      LOOP BEGIN at predict.c(480,9) inlined into predict.c(151,9)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(224,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(235,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(252,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(256,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(216,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(280,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(292,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(296,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(309,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(317,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(361,3) inlined into predict.c(321,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at predict.c(551,3) inlined into predict.c(134,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+   remark #25438: unrolled without remainder by 2  
+
+   LOOP BEGIN at predict.c(553,5) inlined into predict.c(134,5)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 3 
+      remark #15477: vector cost: 0.370 
+      remark #15478: estimated potential speedup: 5.330 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(573,3) inlined into predict.c(134,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(575,5) inlined into predict.c(134,5)
+      remark #25408: memset generated
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at predict.c(575,5) inlined into predict.c(134,5)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 3 
+         remark #15477: vector cost: 0.370 
+         remark #15478: estimated potential speedup: 7.380 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=6
+      LOOP END
+
+      LOOP BEGIN at predict.c(575,5) inlined into predict.c(134,5)
+      <Remainder loop for vectorization>
+         remark #25015: Estimate of max trip count of loop=96
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(583,3) inlined into predict.c(134,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(585,5) inlined into predict.c(134,5)
+      remark #25408: memset generated
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at predict.c(585,5) inlined into predict.c(134,5)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 3 
+         remark #15477: vector cost: 0.370 
+         remark #15478: estimated potential speedup: 7.380 
+         remark #15488: --- end vector cost summary ---
+         remark #25015: Estimate of max trip count of loop=6
+      LOOP END
+
+      LOOP BEGIN at predict.c(585,5) inlined into predict.c(134,5)
+      <Remainder loop for vectorization>
+         remark #25015: Estimate of max trip count of loop=96
+      LOOP END
+   LOOP END
+LOOP END
+
+Fusion of IFs performed in predict_mb at line 378
+===========================================================================
+
+Begin optimization report for: pred_comp()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at predict.c(419,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(421,9)
+   <Peeled loop for vectorization, Multiversioned v1>
+      remark #25015: Estimate of max trip count of loop=15
+   LOOP END
+
+   LOOP BEGIN at predict.c(421,9)
+   <Multiversioned v1>
+      remark #25228: Loop multiversioned for Data Dependence
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 9 
+      remark #15477: vector cost: 0.430 
+      remark #15478: estimated potential speedup: 7.030 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at predict.c(421,9)
+   <Remainder loop for vectorization, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at predict.c(421,9)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at predict.c(421,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(427,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between s[i] (429:9) and d[i] (430:11)
+
+   LOOP BEGIN at predict.c(429,9)
+      remark #25401: memcopy(with guard) generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+      LOOP BEGIN at predict.c(429,9)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at predict.c(429,9)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(436,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(438,9)
+   <Peeled loop for vectorization, Multiversioned v1>
+      remark #25015: Estimate of max trip count of loop=15
+   LOOP END
+
+   LOOP BEGIN at predict.c(438,9)
+   <Multiversioned v1>
+      remark #25228: Loop multiversioned for Data Dependence
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 14 
+      remark #15477: vector cost: 0.680 
+      remark #15478: estimated potential speedup: 7.050 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at predict.c(438,9)
+   <Remainder loop for vectorization, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at predict.c(438,9)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at predict.c(438,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(444,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(446,9)
+   <Peeled loop for vectorization, Multiversioned v1>
+      remark #25015: Estimate of max trip count of loop=15
+   LOOP END
+
+   LOOP BEGIN at predict.c(446,9)
+   <Multiversioned v1>
+      remark #25228: Loop multiversioned for Data Dependence
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 9 
+      remark #15477: vector cost: 0.560 
+      remark #15478: estimated potential speedup: 6.410 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at predict.c(446,9)
+   <Remainder loop for vectorization, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at predict.c(446,9)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at predict.c(446,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(453,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(455,9)
+   <Peeled loop for vectorization, Multiversioned v1>
+      remark #25015: Estimate of max trip count of loop=15
+   LOOP END
+
+   LOOP BEGIN at predict.c(455,9)
+   <Multiversioned v1>
+      remark #25228: Loop multiversioned for Data Dependence
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 14 
+      remark #15477: vector cost: 0.680 
+      remark #15478: estimated potential speedup: 7.050 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at predict.c(455,9)
+   <Remainder loop for vectorization, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at predict.c(455,9)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at predict.c(455,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(461,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at predict.c(463,9)
+   <Peeled loop for vectorization, Multiversioned v1>
+      remark #25015: Estimate of max trip count of loop=15
+   LOOP END
+
+   LOOP BEGIN at predict.c(463,9)
+   <Multiversioned v1>
+      remark #25228: Loop multiversioned for Data Dependence
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 9 
+      remark #15477: vector cost: 0.560 
+      remark #15478: estimated potential speedup: 6.410 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+
+   LOOP BEGIN at predict.c(463,9)
+   <Remainder loop for vectorization, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at predict.c(463,9)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at predict.c(463,9)
+   <Remainder, Multiversioned v2>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(470,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between d[i] (473:11) and d[i] (473:11)
+
+   LOOP BEGIN at predict.c(472,9)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between d[i] (473:11) and s[i] (473:11)
+      remark #25439: unrolled with remainder by 16  
+   LOOP END
+
+   LOOP BEGIN at predict.c(472,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at predict.c(478,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between d[i] (481:11) and d[i] (481:11)
+
+   LOOP BEGIN at predict.c(480,9)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between d[i] (481:11) and s[i] (481:11)
+      remark #25439: unrolled with remainder by 4  
+   LOOP END
+
+   LOOP BEGIN at predict.c(480,9)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================

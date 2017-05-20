@@ -36,7 +36,9 @@
 #define GLOBAL
 #include "config.h"
 #include "global.h"
+
 #include "hpctimer.h"
+
 
 /* private prototypes */
 static int  video_sequence _ANSI_ARGS_((int *framenum));
@@ -155,9 +157,9 @@ char *argv[];
       close(enhan.Infile);
   }
 
-  t = (hpctimer_wtime() - t) / N; 
+  t = hpctimer_wtime() - t; 
 
-  printf("Mean of %d runs (sec.): %.6f\n", N, t);
+  printf("Time for %d runs (sec.): %.6f\n", N, t);
 
   return 0;
 }

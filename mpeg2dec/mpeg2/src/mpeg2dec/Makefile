@@ -63,7 +63,7 @@ VERBOSE = -DVERBOSE
 CC = gcc
 CFLAGS = -O2 $(USE_DISP) $(USE_SHMEM) $(INCLUDEDIR) $(TRACE) $(VERBOSE) $(VERIFY) $(WARNINGS)
 
-OBJ = mpeg2dec.o getpic.o motion.o getvlc.o gethdr.o getblk.o getbits.o store.o recon.o spatscal.o idct.o idctref.o display.o systems.o subspic.o verify.o
+OBJ = mpeg2dec.o getpic.o motion.o getvlc.o gethdr.o getblk.o getbits.o store.o recon.o spatscal.o idct.o idctref.o display.o systems.o subspic.o verify.o hpctimer.o
 
 all: mpeg2decode
 
@@ -71,6 +71,9 @@ pc: mpeg2dec.exe
 
 clean:
 	rm -f *.o *% core mpeg2decode
+
+%.o: %.c 
+	$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 
 mpeg2dec.exe: mpeg2decode
 	coff2exe mpeg2dec

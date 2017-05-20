@@ -1,0 +1,36 @@
+getpic.c:499:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<8; i++)
+    ^
+getpic.c:512:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<8; i++)
+    ^
+getpic.c:674:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<64; i++)
+  ^
+getpic.c:676:11: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+    val = Block_Ptr[i];
+          ^
+getpic.c:659:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<64; i++)
+  ^
+getpic.c:659:3: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+getpic.c:620:9: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+        Decode_MPEG2_Non_Intra_Block(comp);
+        ^
+getpic.c:615:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (comp=0; comp<block_count; comp++)
+    ^
+getpic.c:625:5: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+    for (comp=0; comp<block_count; comp++)
+    ^
+getpic.c:625:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getpic.c:1141:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (comp=0; comp<block_count; comp++)
+  ^
+getpic.c:1141:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getpic.c:1141:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+getpic.c:1141:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getpic.c:864:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (comp=0; comp<block_count; comp++)
+  ^
+getpic.c:864:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

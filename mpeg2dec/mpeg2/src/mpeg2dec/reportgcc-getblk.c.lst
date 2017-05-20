@@ -1,0 +1,23 @@
+getblk.c:269:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+getblk.c:440:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+getblk.c:75:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (i=1; ; i++)
+  ^
+getblk.c:75:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getblk.c:166:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (i=0; ; i++)
+  ^
+getblk.c:166:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getblk.c:298:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (i=1; ; i++)
+  ^
+getblk.c:298:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+getblk.c:455:3: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+  for (i=0; ; i++)
+  ^
+getblk.c:455:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+2 warnings generated.

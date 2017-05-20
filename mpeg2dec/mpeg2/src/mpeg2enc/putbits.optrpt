@@ -1,0 +1,29 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o putbits.o
+
+Begin optimization report for: putbits()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at putbits.c(57,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between outbfr (62:7) and outbfr (59:5)
+LOOP END
+===========================================================================
+
+Begin optimization report for: alignbits()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at putbits.c(57,3) inlined into putbits.c(80,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between outcnt (65:5) and outcnt (70:7)
+LOOP END
+===========================================================================

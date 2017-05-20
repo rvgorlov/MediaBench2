@@ -1,0 +1,69 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o putpic.o
+
+Begin optimization report for: putpict()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at putpic.c(61,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at putpic.c(65,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at putpic.c(106,9)
+         remark #15523: loop was not vectorized: loop control variable comp was found, but loop iteration count cannot be computed before executing the loop
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      LOOP END
+
+      LOOP BEGIN at putpic.c(114,9)
+         remark #15523: loop was not vectorized: loop control variable comp was found, but loop iteration count cannot be computed before executing the loop
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      LOOP END
+
+      LOOP BEGIN at putpic.c(256,7)
+         remark #15523: loop was not vectorized: loop control variable comp was found, but loop iteration count cannot be computed before executing the loop
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+      LOOP END
+
+      LOOP BEGIN at putpic.c(89,9)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 2 
+         remark #15477: vector cost: 2.500 
+         remark #15478: estimated potential speedup: 0.600 
+         remark #15488: --- end vector cost summary ---
+         remark #25436: completely unrolled by 3  
+      LOOP END
+
+      LOOP BEGIN at putpic.c(140,11)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 2 
+         remark #15477: vector cost: 2.500 
+         remark #15478: estimated potential speedup: 0.600 
+         remark #15488: --- end vector cost summary ---
+         remark #25436: completely unrolled by 3  
+      LOOP END
+
+      LOOP BEGIN at putpic.c(273,9)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 2 
+         remark #15477: vector cost: 2.500 
+         remark #15478: estimated potential speedup: 0.600 
+         remark #15488: --- end vector cost summary ---
+         remark #25436: completely unrolled by 3  
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

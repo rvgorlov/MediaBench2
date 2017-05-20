@@ -1,0 +1,24 @@
+putseq.c:308:11: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+          for (j=0;j<block_count;j++)
+          ^
+putseq.c:308:11: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putseq.c:305:26: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+            iquant_intra(blocks[k*block_count+j],blocks[k*block_count+j],
+                         ^
+putseq.c:305:26: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putseq.c:271:11: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+          for (j=0;j<block_count;j++)
+          ^
+putseq.c:271:11: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putseq.c:268:26: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+            iquant_intra(blocks[k*block_count+j],blocks[k*block_count+j],
+                         ^
+putseq.c:268:26: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putseq.c:224:11: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+          for (j=0;j<block_count;j++)
+          ^
+putseq.c:224:11: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putseq.c:221:26: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+            iquant_intra(blocks[k*block_count+j],blocks[k*block_count+j],
+                         ^
+putseq.c:221:26: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

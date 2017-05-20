@@ -1,0 +1,125 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o transfrm.o
+
+Begin optimization report for: transform()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at transfrm.c(51,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at transfrm.c(52,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at transfrm.c(54,7)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at transfrm.c(206,3) inlined into transfrm.c(102,9)
+            remark #15542: loop was not vectorized: inner loop was already vectorized
+
+            LOOP BEGIN at transfrm.c(208,5) inlined into transfrm.c(102,9)
+            <Multiversioned v1>
+               remark #25228: Loop multiversioned for Data Dependence
+               remark #15300: LOOP WAS VECTORIZED
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15451: unmasked unaligned unit stride stores: 1 
+               remark #15475: --- begin vector cost summary ---
+               remark #15476: scalar cost: 8 
+               remark #15477: vector cost: 1.750 
+               remark #15478: estimated potential speedup: 2.780 
+               remark #15488: --- end vector cost summary ---
+            LOOP END
+
+            LOOP BEGIN at transfrm.c(208,5) inlined into transfrm.c(102,9)
+            <Multiversioned v2>
+               remark #15300: LOOP WAS VECTORIZED
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15451: unmasked unaligned unit stride stores: 1 
+               remark #15475: --- begin vector cost summary ---
+               remark #15476: scalar cost: 8 
+               remark #15477: vector cost: 1.750 
+               remark #15478: estimated potential speedup: 2.780 
+               remark #15488: --- end vector cost summary ---
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: itransform()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at transfrm.c(120,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at transfrm.c(121,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at transfrm.c(123,7)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at transfrm.c(188,3) inlined into transfrm.c(173,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between cur[i] (191:7) and cur[i] (191:7)
+
+            LOOP BEGIN at transfrm.c(190,5) inlined into transfrm.c(173,9)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed FLOW dependence between cur[i] (191:7) and clp (191:7)
+               remark #25436: completely unrolled by 8  
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: dct_type_estimation()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at transfrm.c(231,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at transfrm.c(232,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at transfrm.c(256,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 5 
+         remark #15475: --- begin vector cost summary ---
+         remark #15476: scalar cost: 25 
+         remark #15477: vector cost: 5.370 
+         remark #15478: estimated potential speedup: 3.470 
+         remark #15488: --- end vector cost summary ---
+         remark #25456: Number of Array Refs Scalar Replaced In Loop: 6
+         remark #25015: Estimate of max trip count of loop=16
+      LOOP END
+
+      LOOP BEGIN at transfrm.c(243,9)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+         remark #25436: completely unrolled by 8  
+
+         LOOP BEGIN at transfrm.c(246,11)
+            remark #15300: LOOP WAS VECTORIZED
+            remark #15449: unmasked aligned unit stride stores: 2 
+            remark #15450: unmasked unaligned unit stride loads: 4 
+            remark #15475: --- begin vector cost summary ---
+            remark #15476: scalar cost: 16 
+            remark #15477: vector cost: 2.000 
+            remark #15478: estimated potential speedup: 5.810 
+            remark #15488: --- end vector cost summary ---
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

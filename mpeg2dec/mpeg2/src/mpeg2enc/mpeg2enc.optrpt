@@ -1,0 +1,113 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o mpeg2enc.o
+
+Begin optimization report for: main()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at mpeg2enc.c(514,5) inlined into mpeg2enc.c(62,3)
+   remark #25401: memcopy(with guard) generated
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+   remark #25436: completely unrolled by 1  
+
+   LOOP BEGIN at mpeg2enc.c(514,5) inlined into mpeg2enc.c(62,3)
+   <Multiversioned v2>
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 4 
+      remark #15477: vector cost: 0.180 
+      remark #15478: estimated potential speedup: 21.330 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(527,5) inlined into mpeg2enc.c(62,3)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ mpeg2enc.c(161,3) ]
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(542,5) inlined into mpeg2enc.c(62,3)
+   remark #25408: memset generated
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(555,5) inlined into mpeg2enc.c(62,3)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ mpeg2enc.c(161,3) ]
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(112,3) inlined into mpeg2enc.c(71,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between clp[i] (113:5) and clp (113:5)
+   remark #25438: unrolled without remainder by 2  
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(115,3) inlined into mpeg2enc.c(71,3)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ mpeg2enc.c(161,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: readparmfile()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at mpeg2enc.c(253,3)
+   remark #15523: loop was not vectorized: loop control variable i was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(279,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 5 
+   remark #15451: unmasked unaligned unit stride stores: 5 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 104 
+   remark #15477: vector cost: 35.000 
+   remark #15478: estimated potential speedup: 1.520 
+   remark #15488: --- end vector cost summary ---
+   remark #25015: Estimate of max trip count of loop=1
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(279,3)
+<Remainder loop for vectorization>
+   remark #25436: completely unrolled by 1  
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(324,7)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria   [ mpeg2enc.c(342,9) ]
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(389,5)
+   remark #15527: loop was not vectorized: function call to fprintf(FILE *__restrict__, const char *__restrict__, ...) cannot be vectorized   [ mpeg2enc.c(393,11) ]
+   remark #25436: completely unrolled by 3  
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(397,5)
+   remark #15527: loop was not vectorized: function call to fprintf(FILE *__restrict__, const char *__restrict__, ...) cannot be vectorized   [ mpeg2enc.c(401,11) ]
+   remark #25436: completely unrolled by 3  
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(405,5)
+   remark #15527: loop was not vectorized: function call to fprintf(FILE *__restrict__, const char *__restrict__, ...) cannot be vectorized   [ mpeg2enc.c(409,11) ]
+   remark #25436: completely unrolled by 3  
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(444,5)
+   remark #15527: loop was not vectorized: function call to fprintf(FILE *__restrict__, const char *__restrict__, ...) cannot be vectorized   [ mpeg2enc.c(448,11) ]
+   remark #25436: completely unrolled by 3  
+LOOP END
+
+LOOP BEGIN at mpeg2enc.c(461,3)
+   remark #25258: Invariant Condition eliminated(Loop at level 1 peeled) at line 481 
+   remark #25261: Invariant Condition eliminated(Proven True) at line 481
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:fprintf(FILE *__restrict__, const char *__restrict__, ...) (466:9) and call:fprintf(FILE *__restrict__, const char *__restrict__, ...) (495:11)
+LOOP END
+===========================================================================

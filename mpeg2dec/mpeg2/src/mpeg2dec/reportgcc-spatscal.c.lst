@@ -1,0 +1,77 @@
+spatscal.c:91:3: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+  strcat(fname,ext[comp]);
+  ^
+spatscal.c:91:3: note: include the header <string.h> or explicitly provide a declaration for 'strcat'
+spatscal.c:95:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif VERBOSE
+       ^
+       //
+spatscal.c:97:17: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Wimplicit-function-declaration]
+  if (fd==NULL) exit(-1);
+                ^
+spatscal.c:97:17: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+spatscal.c:126:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif VERBOSE
+       ^
+       //
+spatscal.c:140:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif VERBOSE
+       ^
+       //
+spatscal.c:98:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (j=0; j<lh; j++) {
+  ^
+spatscal.c:98:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+spatscal.c:104:27: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+          llframe1[comp][lw*j+i]=getc(fd);
+                                 ^
+spatscal.c:103:2: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+        for (i=0; i<lw; i++)
+        ^
+spatscal.c:100:31: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+       llframe0[comp][lw*j+i]=getc(fd);
+                              ^
+spatscal.c:99:6: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+     for (i=0; i<lw; i++)
+     ^
+spatscal.c:129:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  for (j=0; j<lh; j+=lower_layer_progressive_frame?1:2)
+  ^
+spatscal.c:129:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+spatscal.c:131:30: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      llframe0[comp][lw*j+i]=getc(fd);
+                             ^
+spatscal.c:130:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<lw; i++)
+    ^
+spatscal.c:145:32: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+        llframe1[comp][lw*j+i]=getc(fd);
+                               ^
+spatscal.c:144:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (i=0; i<lw; i++)
+      ^
+spatscal.c:296:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<lx; i++)
+    ^
+spatscal.c:296:5: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+spatscal.c:296:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+spatscal.c:296:5: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+spatscal.c:296:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+spatscal.c:296:5: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+spatscal.c:296:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+spatscal.c:296:5: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+spatscal.c:296:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+spatscal.c:296:5: remark: vectorized loop (vectorization width: 8, interleaved count: 1) [-Rpass=loop-vectorize]
+spatscal.c:320:5: remark: loop not vectorized: value that could not be identified as reduction is used outside the loop [-Rpass-analysis=loop-vectorize]
+    for (j=0; j<ly; j++)
+    ^
+spatscal.c:320:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+spatscal.c:262:7: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<lx; i++)
+      ^
+spatscal.c:262:7: remark: vectorized loop (vectorization width: 16, interleaved count: 1) [-Rpass=loop-vectorize]
+spatscal.c:269:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<lx; i++)
+      ^
+spatscal.c:269:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+5 warnings generated.

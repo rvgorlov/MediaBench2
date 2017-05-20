@@ -1,0 +1,75 @@
+gethdr.c:176:3: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<64; i++)
+  ^
+gethdr.c:176:3: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+gethdr.c:167:58: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      ld->non_intra_quantizer_matrix[scan[ZIG_ZAG][i]] = Get_Bits(8);
+                                                         ^
+gethdr.c:166:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:160:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:160:5: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+gethdr.c:156:54: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      ld->intra_quantizer_matrix[scan[ZIG_ZAG][i]] = Get_Bits(8);
+                                                     ^
+gethdr.c:155:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:131:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (Show_Bits(24)!=0x01L)
+  ^
+gethdr.c:131:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+gethdr.c:951:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (Get_Bits1())
+  ^
+gethdr.c:951:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+gethdr.c:131:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (Show_Bits(24)!=0x01L)
+  ^
+gethdr.c:131:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+gethdr.c:951:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (Get_Bits1())
+  ^
+gethdr.c:951:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+gethdr.c:131:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while (Show_Bits(24)!=0x01L)
+  ^
+gethdr.c:131:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+gethdr.c:398:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while ((code = Show_Bits(32))==EXTENSION_START_CODE || code==USER_DATA_START_CODE)
+  ^
+gethdr.c:398:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+gethdr.c:643:65: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      ld->chroma_non_intra_quantizer_matrix[scan[ZIG_ZAG][i]] = Get_Bits(8);
+                                                                ^
+gethdr.c:642:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:637:61: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      ld->chroma_intra_quantizer_matrix[scan[ZIG_ZAG][i]] = Get_Bits(8);
+                                                            ^
+gethdr.c:636:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:630:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      = Get_Bits(8);
+        ^
+gethdr.c:626:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:620:9: remark: loop not vectorized: call instruction cannot be vectorized [-Rpass-analysis=loop-vectorize]
+      = Get_Bits(8);
+        ^
+gethdr.c:616:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; i<64; i++)
+    ^
+gethdr.c:774:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+  for (i=0; i<number_of_frame_center_offsets; i++)
+  ^
+gethdr.c:398:3: remark: loop not vectorized: could not determine number of loop iterations [-Rpass-analysis=loop-vectorize]
+  while ((code = Show_Bits(32))==EXTENSION_START_CODE || code==USER_DATA_START_CODE)
+  ^
+gethdr.c:398:3: remark: loop not vectorized [-Rpass-missed=loop-vectorize]

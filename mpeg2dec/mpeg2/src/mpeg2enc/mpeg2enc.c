@@ -33,6 +33,7 @@
 #define GLOBAL /* used by global.h */
 #include "config.h"
 #include "global.h"
+#include "hpctimer.h"
 
 /* private prototypes */
 static void init _ANSI_ARGS_((void));
@@ -44,6 +45,9 @@ int main(argc,argv)
 int argc;
 char *argv[];
 {
+  int N = 100;
+  double t = hpctimer_wtime(); 
+
   if (argc!=3)
   {
     printf("\n%s, %s\n",version,author);
@@ -69,6 +73,9 @@ char *argv[];
 
   fclose(outfile);
   fclose(statfile);
+
+  t = hpctimer_wtime() - t;
+  printf("Time for %d runs (sec.): %.6f\n", N, t);
 
   return 0;
 }

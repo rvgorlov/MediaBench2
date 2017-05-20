@@ -1,0 +1,182 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o getpic.o
+
+Begin optimization report for: Decode_Picture()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at getpic.c(701,3) inlined into getpic.c(83,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 4 
+   remark #15451: unmasked unaligned unit stride stores: 5 
+   remark #15475: --- begin vector cost summary ---
+   remark #15476: scalar cost: 45 
+   remark #15477: vector cost: 29.500 
+   remark #15478: estimated potential speedup: 0.990 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector cost summary ---
+   remark #25436: completely unrolled by 3  
+LOOP END
+
+LOOP BEGIN at getpic.c(132,5) inlined into getpic.c(105,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+===========================================================================
+
+Begin optimization report for: slice()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at getpic.c(1141,3) inlined into getpic.c(224,13)
+   remark #15523: loop was not vectorized: loop control variable comp was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at getpic.c(643,3) inlined into getpic.c(224,13)
+      remark #25408: memset generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+   LOOP END
+LOOP END
+
+LOOP BEGIN at getpic.c(864,3) inlined into getpic.c(238,7)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25451: Advice: Loop Interchange, if possible, might help loopnest. Suggested Permutation : ( 1 2 ) --> ( 2 1 ) 
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between *Block_Ptr (644:6) and *Block_Ptr (644:6)
+
+   LOOP BEGIN at getpic.c(643,3) inlined into getpic.c(238,7)
+      remark #25408: memset generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+   LOOP END
+LOOP END
+
+LOOP BEGIN at getpic.c(615,5) inlined into getpic.c(246,7)
+   remark #15523: loop was not vectorized: loop control variable comp was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at getpic.c(643,3) inlined into getpic.c(246,7)
+      remark #25408: memset generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+   LOOP END
+LOOP END
+
+LOOP BEGIN at getpic.c(625,5) inlined into getpic.c(246,7)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25451: Advice: Loop Interchange, if possible, might help loopnest. Suggested Permutation : ( 1 2 ) --> ( 2 1 ) 
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between *Block_Ptr (644:6) and *Block_Ptr (644:6)
+
+   LOOP BEGIN at getpic.c(643,3) inlined into getpic.c(246,7)
+      remark #25408: memset generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+   LOOP END
+LOOP END
+
+LOOP BEGIN at getpic.c(820,3) inlined into getpic.c(249,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at getpic.c(659,3) inlined into getpic.c(249,5)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 8 
+      remark #15477: vector cost: 1.810 
+      remark #15478: estimated potential speedup: 3.680 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=2
+   LOOP END
+
+   LOOP BEGIN at getpic.c(674,3) inlined into getpic.c(249,5)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 14 
+      remark #15477: vector cost: 3.870 
+      remark #15478: estimated potential speedup: 3.110 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=8
+   LOOP END
+
+   LOOP BEGIN at getpic.c(499,5) inlined into getpic.c(249,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between *rfp (503:10) and *rfp (503:10)
+      remark #25436: completely unrolled by 8  
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between *rfp (503:10) and Clip (503:10)
+         remark #25436: completely unrolled by 8  
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(501,7) inlined into getpic.c(249,5)
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at getpic.c(512,5) inlined into getpic.c(249,5)
+      remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+      remark #25452: Original Order found to be proper, but by a close margin
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between *rfp (515:10) and *rfp (515:10)
+      remark #25436: completely unrolled by 8  
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between *rfp (515:10) and Clip (515:10)
+         remark #25436: completely unrolled by 8  
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+
+      LOOP BEGIN at getpic.c(514,7) inlined into getpic.c(249,5)
+      LOOP END
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at getpic.c(264,5)
+   remark #15533: loop was not vectorized: loop exceeds complexity limits. Consider overriding limits (-override-limits) or using simd directive.
+LOOP END
+===========================================================================

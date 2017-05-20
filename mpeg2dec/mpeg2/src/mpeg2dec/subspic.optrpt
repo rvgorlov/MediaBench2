@@ -1,0 +1,88 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o subspic.o
+
+Begin optimization report for: Read_Frame()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at subspic.c(326,3) inlined into subspic.c(169,12)
+   remark #15523: loop was not vectorized: loop control variable line was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at subspic.c(332,3) inlined into subspic.c(169,12)
+   remark #15523: loop was not vectorized: loop control variable line was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at subspic.c(338,3) inlined into subspic.c(169,12)
+   remark #15523: loop was not vectorized: loop control variable line was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at subspic.c(380,3) inlined into subspic.c(196,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between src[s+col] (382:5) and dst[d+col] (384:7)
+
+   LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(196,3)
+      remark #25401: memcopy(with guard) generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+      LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(196,3)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(196,3)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at subspic.c(380,3) inlined into subspic.c(199,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between src[s+col] (382:5) and dst[d+col] (384:7)
+
+   LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(199,3)
+      remark #25401: memcopy(with guard) generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+      LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(199,3)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(199,3)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at subspic.c(380,3) inlined into subspic.c(202,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between src[s+col] (382:5) and dst[d+col] (384:7)
+
+   LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(202,3)
+      remark #25401: memcopy(with guard) generated
+      remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+      LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(202,3)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         remark #25439: unrolled with remainder by 2  
+      LOOP END
+
+      LOOP BEGIN at subspic.c(382,5) inlined into subspic.c(202,3)
+      <Remainder, Multiversioned v2>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

@@ -1,0 +1,253 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o store.o
+
+Begin optimization report for: Write_Frame()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(71,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(71,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(71,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(71,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(71,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(71,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(77,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(77,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(77,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(77,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(77,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(77,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(230,3) inlined into store.c(77,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at store.c(236,5) inlined into store.c(77,5)
+      remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(80,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(80,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(80,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(80,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(168,3) inlined into store.c(80,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+
+   LOOP BEGIN at store.c(171,5) inlined into store.c(80,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: store_ppm_tga..1()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at store.c(337,5)
+   remark #15523: loop was not vectorized: loop control variable i was found, but loop iteration count cannot be computed before executing the loop
+   remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at store.c(347,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between *src (349:5) and call:write(int, const void *, unsigned long long) (386:5)
+
+   LOOP BEGIN at store.c(353,5)
+      remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: conv422to444()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at store.c(407,5)
+   remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at store.c(409,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between dst[i2] (420:9) and Clip (423:9)
+      remark #25439: unrolled with remainder by 10  
+   LOOP END
+
+   LOOP BEGIN at store.c(409,7)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(433,5)
+   remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at store.c(435,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between dst[i2] (447:9) and Clip (454:8)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: conv420to422()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at store.c(480,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between dst[w*j2] (494:9) and dst[w*(j2+1)] (501:9)
+
+   LOOP BEGIN at store.c(482,7)
+      remark #25259: Invariant Condition eliminated(Loop at level 2 peeled last iter) at line 488
+      remark #25261: Invariant Condition eliminated(Proven True) at line 488
+      remark #25259: Invariant Condition eliminated(Loop at level 2 peeled last iter) at line 489
+      remark #25261: Invariant Condition eliminated(Proven True) at line 489
+      remark #25259: Invariant Condition eliminated(Loop at level 2 peeled last iter) at line 490
+      remark #25261: Invariant Condition eliminated(Proven True) at line 490
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between dst[w*j2] (494:9) and Clip (501:9)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at store.c(515,5)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between dst[w*j2] (531:9) and Clip (565:9)
+
+   LOOP BEGIN at store.c(517,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between dst[w*j2] (531:9) and Clip (565:9)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: store_ppm_tga..0()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at store.c(326,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between *optr (382:4) and obfr[0] (386:5)
+   remark #25436: completely unrolled by 12  
+LOOP END
+
+LOOP BEGIN at store.c(347,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between *src (349:5) and call:write(int, const void *, unsigned long long) (386:5)
+
+   LOOP BEGIN at store.c(353,5)
+      remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: store_sif()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at store.c(230,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at store.c(236,5)
+      remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+   LOOP END
+LOOP END
+===========================================================================

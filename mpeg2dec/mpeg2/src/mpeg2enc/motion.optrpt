@@ -1,0 +1,790 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
+
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o motion.o
+
+Begin optimization report for: motion_estimation()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(119,3)
+   remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+
+   LOOP BEGIN at motion.c(121,5)
+      remark #15523: loop was not vectorized: loop control variable i was found, but loop iteration count cannot be computed before executing the loop
+      remark #25456: Number of Array Refs Scalar Replaced In Loop: 1
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: frame_ME()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(1633,3) inlined into motion.c(160,9)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between p (1641:5) and p (1635:10)
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 6 
+      remark #15477: vector cost: 11.000 
+      remark #15478: estimated potential speedup: 0.430 
+      remark #15488: --- end vector cost summary ---
+      remark #25436: completely unrolled by 16  
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(160,9)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(168,13)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(168,13)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(168,13)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(168,13)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(289,14)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(289,14)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(330,14)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(330,14)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(335,19)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(335,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(341,19)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(341,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(355,15)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(355,15)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(365,15)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(365,15)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(368,15)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(368,15)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: fullsearch()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(1284,3)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: dist1()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(1360,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1377,44)
+      remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 11 
+      remark #15477: vector cost: 0.750 
+      remark #15478: estimated potential speedup: 3.590 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1386,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+   remark #25439: unrolled with remainder by 2  
+
+   LOOP BEGIN at motion.c(1388,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 3 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 15 
+      remark #15477: vector cost: 1.000 
+      remark #15478: estimated potential speedup: 4.280 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1386,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at motion.c(1402,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+   remark #25439: unrolled with remainder by 2  
+
+   LOOP BEGIN at motion.c(1404,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 3 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 15 
+      remark #15477: vector cost: 1.000 
+      remark #15478: estimated potential speedup: 4.280 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1402,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at motion.c(1420,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1422,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 5 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 22 
+      remark #15477: vector cost: 5.120 
+      remark #15478: estimated potential speedup: 2.680 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=2
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: dpframe_estimate()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(998,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1000,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at motion.c(1062,9)
+         remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+         remark #25452: Original Order found to be proper, but by a close margin
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at motion.c(1064,11)
+            remark #15542: loop was not vectorized: inner loop was already vectorized
+
+            LOOP BEGIN at motion.c(1596,3) inlined into motion.c(1078,28)
+               remark #25045: Fused Loops: ( 1596 1596 )
+
+               remark #15542: loop was not vectorized: inner loop was already vectorized
+
+               LOOP BEGIN at motion.c(1598,5) inlined into motion.c(1078,28)
+                  remark #15300: LOOP WAS VECTORIZED
+                  remark #15450: unmasked unaligned unit stride loads: 9 
+                  remark #15475: --- begin vector cost summary ---
+                  remark #15476: scalar cost: 36 
+                  remark #15477: vector cost: 14.180 
+                  remark #15478: estimated potential speedup: 1.700 
+                  remark #15488: --- end vector cost summary ---
+               LOOP END
+
+               LOOP BEGIN at motion.c(1598,5) inlined into motion.c(1085,29)
+                  remark #15300: LOOP WAS VECTORIZED
+                  remark #15450: unmasked unaligned unit stride loads: 9 
+                  remark #15475: --- begin vector cost summary ---
+                  remark #15476: scalar cost: 36 
+                  remark #15477: vector cost: 14.180 
+                  remark #15478: estimated potential speedup: 1.700 
+                  remark #15488: --- end vector cost summary ---
+               LOOP END
+            LOOP END
+
+            LOOP BEGIN at motion.c(1596,3) inlined into motion.c(1085,29)
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(1114,16)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(1114,16)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(1121,17)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(1121,17)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: dist2()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(1459,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1461,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 8 
+      remark #15477: vector cost: 3.250 
+      remark #15478: estimated potential speedup: 1.390 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=2
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1470,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1472,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 3 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 13 
+      remark #15477: vector cost: 3.500 
+      remark #15478: estimated potential speedup: 2.100 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=2
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1483,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1485,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 3 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 13 
+      remark #15477: vector cost: 3.500 
+      remark #15478: estimated potential speedup: 2.100 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=2
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1498,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1500,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 5 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 20 
+      remark #15477: vector cost: 6.120 
+      remark #15478: estimated potential speedup: 2.170 
+      remark #15488: --- end vector cost summary ---
+      remark #25015: Estimate of max trip count of loop=2
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: field_ME()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(1633,3) inlined into motion.c(505,9)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between p (1641:5) and p (1635:10)
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 6 
+      remark #15477: vector cost: 11.000 
+      remark #15478: estimated potential speedup: 0.430 
+      remark #15488: --- end vector cost summary ---
+      remark #25436: completely unrolled by 16  
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+
+   LOOP BEGIN at motion.c(1635,5) inlined into motion.c(505,9)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1187,3) inlined into motion.c(538,7)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1189,5) inlined into motion.c(538,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at motion.c(1596,3) inlined into motion.c(538,7)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at motion.c(1598,5) inlined into motion.c(538,7)
+            remark #15300: LOOP WAS VECTORIZED
+            remark #15450: unmasked unaligned unit stride loads: 9 
+            remark #15475: --- begin vector cost summary ---
+            remark #15476: scalar cost: 36 
+            remark #15477: vector cost: 14.180 
+            remark #15478: estimated potential speedup: 1.700 
+            remark #15488: --- end vector cost summary ---
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(538,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(538,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(638,17)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(638,17)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(643,13)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(643,13)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1542,3) inlined into motion.c(648,13)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1544,5) inlined into motion.c(648,13)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 39 
+      remark #15477: vector cost: 13.560 
+      remark #15478: estimated potential speedup: 1.900 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(659,13)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(659,13)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(671,13)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(671,13)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1596,3) inlined into motion.c(676,13)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at motion.c(1598,5) inlined into motion.c(676,13)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 9 
+      remark #15475: --- begin vector cost summary ---
+      remark #15476: scalar cost: 36 
+      remark #15477: vector cost: 14.180 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15488: --- end vector cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: field_estimate()
+
+    Report from: Loop nest & Vector optimizations [loop, vec]
+
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(888,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(888,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(888,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(888,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(896,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(896,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(896,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(896,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(927,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(927,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(927,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(927,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(935,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(935,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(935,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(935,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(953,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(953,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(953,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(953,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1284,3) inlined into motion.c(961,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1292:13) and call:dist1() (1292:13)
+
+   LOOP BEGIN at motion.c(1288,5) inlined into motion.c(961,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at motion.c(1318,3) inlined into motion.c(961,10)
+   remark #25096: Loop Interchange not done due to: Imperfect Loop Nest (Either at Source or due to other Compiler Transformations)
+   remark #25452: Original Order found to be proper, but by a close margin
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:dist1() (1321:11) and call:dist1() (1321:11)
+
+   LOOP BEGIN at motion.c(1319,5) inlined into motion.c(961,10)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================

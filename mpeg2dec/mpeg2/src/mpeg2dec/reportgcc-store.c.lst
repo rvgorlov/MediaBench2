@@ -1,0 +1,62 @@
+store.c:176:5: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+    write(outfile,obfr,optr-obfr);
+    ^
+store.c:178:3: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+  close(outfile);
+  ^
+store.c:217:3: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+  strcat(outname,".SIF");
+  ^
+store.c:217:3: note: include the header <string.h> or explicitly provide a declaration for 'strcat'
+store.c:388:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  }
+  ^
+store.c:236:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (j=0; j<horizontal_size; j+=2)
+    ^
+store.c:388:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  }
+  ^
+store.c:337:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (i=0; header[i]!=0; i++)
+    ^
+store.c:326:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
+    for (i=0; i<12; i++)
+    ^
+store.c:384:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  if (optr == obfr+OBFRSIZE)
+      ^
+store.c:353:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (j=0; j<horizontal_size; j++)
+    ^
+store.c:388:3: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+  }
+  ^
+store.c:171:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (j=0; j<width; j++)
+    ^
+store.c:482:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      for (j=0; j<h; j++)
+      ^
+store.c:482:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+store.c:517:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      for (j=0; j<h; j+=2)
+      ^
+store.c:517:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+store.c:407:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (j=0; j<Coded_Picture_Height; j++)
+    ^
+store.c:407:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+store.c:409:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<w; i++)
+      ^
+store.c:409:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+store.c:433:5: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-analysis=loop-vectorize]
+    for (j=0; j<Coded_Picture_Height; j++)
+    ^
+store.c:433:5: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-analysis=loop-vectorize]
+store.c:435:7: remark: loop not vectorized: cannot identify array bounds [-Rpass-analysis=loop-vectorize]
+      for (i=0; i<w; i++)
+      ^
+store.c:435:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+3 warnings generated.

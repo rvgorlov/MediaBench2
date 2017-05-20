@@ -1,0 +1,18 @@
+putpic.c:256:7: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+      for (comp=0; comp<block_count; comp++)
+      ^
+putpic.c:256:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putpic.c:265:11: remark: loop not vectorized: control flow cannot be substituted for a select [-Rpass-analysis=loop-vectorize]
+          }
+          ^
+putpic.c:256:7: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+      for (comp=0; comp<block_count; comp++)
+      ^
+putpic.c:115:21: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+          cbp = (cbp<<1) | quant_non_intra(blocks[k*block_count+comp],
+                    ^
+putpic.c:115:21: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+putpic.c:107:23: remark: loop not vectorized: loop control flow is not understood by vectorizer [-Rpass-analysis=loop-vectorize]
+          quant_intra(blocks[k*block_count+comp],blocks[k*block_count+comp],
+                      ^
+putpic.c:107:23: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
