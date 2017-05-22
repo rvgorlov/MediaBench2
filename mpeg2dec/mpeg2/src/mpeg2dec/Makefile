@@ -60,10 +60,17 @@ VERBOSE = -DVERBOSE
 #
 # GNU gcc
 #
+
+REPORTS=
+PROF=
 CC = gcc
+LL=
 CFLAGS = -O2 $(USE_DISP) $(USE_SHMEM) $(INCLUDEDIR) $(TRACE) $(VERBOSE) $(VERIFY) $(WARNINGS)
 
 OBJ = mpeg2dec.o getpic.o motion.o getvlc.o gethdr.o getblk.o getbits.o store.o recon.o spatscal.o idct.o idctref.o display.o systems.o subspic.o verify.o hpctimer.o
+
+%.o: %.c 
+	$(CC) $(CFLAGS) -o $@ -c $< $(REPORTS) 
 
 all: mpeg2decode
 
@@ -72,8 +79,8 @@ pc: mpeg2dec.exe
 clean:
 	rm -f *.o *% core mpeg2decode
 
-%.o: %.c 
-	$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
+#%.o: %.c 
+	#$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 
 mpeg2dec.exe: mpeg2decode
 	coff2exe mpeg2dec
@@ -99,3 +106,12 @@ store.o : store.c config.h global.h mpeg2dec.h
 systems.o : systems.c config.h global.h mpeg2dec.h 
 subspic.o : subspic.c config.h global.h mpeg2dec.h 
 verify.o:   verify.c config.h global.h mpeg2dec.h
+
+test:
+	./mpeg2decode -b input_base_4CIF_96bps.mpg -o3 output_base_4CIF_96bps_%03d
+
+profiling:
+	./mpeg2decode -b input_base_4CIF_96bps.mpg -o3 output_base_4CIF_96bps_%03d
+	gprof ./mpeg2decode ./gmon.out > ../../profiling/dec_profiling.txt
+
+

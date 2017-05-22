@@ -628,9 +628,10 @@ main (int argc, char **argv)
   }
   rezultTime = rezultTime / N;*/
 
-  t = hpctimer_wtime() - t;
+  t = (hpctimer_wtime() - t) / 100;
 
-  printf("Time for %d runs (sec.): %.10f\n", N, t);
+  //printf("Time for %d runs (sec.): %.10f\n", N, t);
+  printf("Mean of %d runs (sec.): %.6f\n", N, t);
   printf("===============================================================\n");
 
   /* All done. */

@@ -66,7 +66,7 @@ int argc;
 char *argv[];
 {
   double t = hpctimer_wtime();
-  int N = 100; 
+  int N = 1; 
 
   for (int i = 0; i < N; ++i)
   {
@@ -157,9 +157,10 @@ char *argv[];
       close(enhan.Infile);
   }
 
-  t = hpctimer_wtime() - t; 
+  t = (hpctimer_wtime() - t); 
 
   printf("Time for %d runs (sec.): %.6f\n", N, t);
+  //printf("Mean of %d runs (sec.): %.6f\n", N, t);
 
   return 0;
 }

@@ -1,9 +1,0 @@
-fdctref.c:54:3: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
-  for (i=0; i<8; i++)
-  ^
-fdctref.c:71:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
-    for (j=0; j<8; j++)
-    ^
-fdctref.c:82:5: remark: loop not vectorized: vectorization is not beneficial and is not explicitly forced [-Rpass-analysis=loop-vectorize]
-    for (i=0; i<8; i++)
-    ^

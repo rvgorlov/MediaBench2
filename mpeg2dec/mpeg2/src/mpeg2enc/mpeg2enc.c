@@ -45,37 +45,42 @@ int main(argc,argv)
 int argc;
 char *argv[];
 {
-  int N = 100;
+  int N = 1;
   double t = hpctimer_wtime(); 
 
-  if (argc!=3)
+  for (int i = 0; i < N; ++i)
   {
-    printf("\n%s, %s\n",version,author);
-    printf("Usage: mpeg2encode in.par out.m2v\n");
-    exit(0);
+
+    if (argc!=3)
+    {
+      printf("\n%s, %s\n",version,author);
+      printf("Usage: mpeg2encode in.par out.m2v\n");
+      exit(0);
+    }
+
+    /* read parameter file */
+    readparmfile(argv[1]);
+
+    /* read quantization matrices */
+    readquantmat();
+
+    /* open output file */
+    if (!(outfile=fopen(argv[2],"wb")))
+    {
+      sprintf(errortext,"Couldn't create output file %s",argv[2]);
+      error(errortext);
+    }
+
+    init();
+    putseq();
+
+    fclose(outfile);
+    fclose(statfile);
   }
-
-  /* read parameter file */
-  readparmfile(argv[1]);
-
-  /* read quantization matrices */
-  readquantmat();
-
-  /* open output file */
-  if (!(outfile=fopen(argv[2],"wb")))
-  {
-    sprintf(errortext,"Couldn't create output file %s",argv[2]);
-    error(errortext);
-  }
-
-  init();
-  putseq();
-
-  fclose(outfile);
-  fclose(statfile);
 
   t = hpctimer_wtime() - t;
   printf("Time for %d runs (sec.): %.6f\n", N, t);
+  //printf("Mean of %d runs (sec.): %.6f\n", N, t);
 
   return 0;
 }

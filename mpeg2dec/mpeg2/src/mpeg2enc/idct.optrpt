@@ -4,7 +4,7 @@ See "https://software.intel.com/en-us/intel-advisor-xe" for details.
 
 Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.2.174 Build 20170213
 
-Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -c -o idct.o
+Compiler options: -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -o idct.o -c
 
 Begin optimization report for: idct()
 

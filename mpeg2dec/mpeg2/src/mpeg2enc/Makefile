@@ -35,14 +35,21 @@
 CC = gcc
 CFLAGS = -O2 -Wall
 
+REPORTS=
+PROF=
+LL=
+
 OBJ = mpeg2enc.o conform.o putseq.o putpic.o puthdr.o putmpg.o putvlc.o putbits.o motion.o predict.o readpic.o writepic.o transfrm.o fdctref.o idct.o quantize.o ratectl.o stats.o hpctimer.o
+
+%.o: %.c 
+	$(CC) $(CFLAGS) -o $@ -c $< $(REPORTS) 
 
 all: mpeg2encode
 
 pc: mpeg2enc.exe
 
-%.o: %.c 
-	$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
+#%.o: %.c 
+	#$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 
 clean:
 	rm -f *.o *% core mpeg2encode
@@ -71,3 +78,10 @@ readpic.o : readpic.c config.h global.h mpeg2enc.h
 stats.o : stats.c config.h global.h mpeg2enc.h 
 transfrm.o : transfrm.c config.h global.h mpeg2enc.h 
 writepic.o : writepic.c config.h global.h mpeg2enc.h 
+
+test:
+	./mpeg2encode input_base_4CIF_96bps_15.par output_base_4CIF_96bps_15.mpg
+
+profiling:
+	./mpeg2encode input_base_4CIF_96bps_15.par output_base_4CIF_96bps_15.mpg
+	gprof ./mpeg2encode ./gmon.out > ../../profiling/enc_profiling.txt

@@ -19,25 +19,26 @@ manprefix =
 manext = 1
 mandir = $(prefix)/man/man$(manext)
 
-VECTLOG= >vectlog 
+#VECTLOG= 2>vectlog 
+VECTLOG=
 
 # The name of your C compiler:
 #CC= clang
-#CC= gcc
-CC= icc
-#CC= cc
+CC= gcc
+#CC= icc
 
-#PGOPT= -pg
-
+#PGOPT= -g -pg -static
+PGOPT = 
 # You may need to adjust these cc options:
 #GCC
 # vect
-#CFLAGS= -g -pg -static -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
-#CFLAGS= -O3 -mfpmath=sse -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I$(srcdir)
+#CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
+#CFLAGS= $(PGOPT) -O3 -mfpmath=sse -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I$(srcdir)
+CFLAGS= -O3 -funsafe-math-optimizations -fivopts -march=native -flax-vector-conversions -msse4.2 -I$(srcdir)
 
 #CFLAGS= -O3 -march=native -fivopts -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=1
 # scalar
-#CFLAGS= -g -pg -static -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize -I$(srcdir)
+#CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize -I$(srcdir)
 
 #GCC FOR gprof
 #CFLAGS= -g -pg -static -I$(srcdir)
@@ -55,7 +56,7 @@ CC= icc
 #CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -vec_report -I$(srcdir)
 
 #scalar
-CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
+#CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
 
 # Generally, we recommend defining any configuration symbols in jconfig.h,
 # NOT via -D switches here.
@@ -87,7 +88,7 @@ SYSDEPMEM= jmemnobs.$(O)
 # miscellaneous OS-dependent stuff
 SHELL= /bin/sh
 # linker
-LN= $(CC) -g -pg -static
+LN= $(CC)
 #LN= $(CC)
 # file deletion command
 RM= rm -f
@@ -174,7 +175,7 @@ all: hpctimer libjpeg.$(A) cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 
 #$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 %.o: %.c 
-	$(CC) $(CFLAGS) -o $@ -c $<
+	$(CC) $(CFLAGS) -o $@ -c $< $(VECTLOG)
 
 # How to compile with libtool.
 # .c.lo:
@@ -359,8 +360,8 @@ rdrle.$(O): rdrle.c cdjpeg.h jinclude.h jconfig.h jpeglib.h jmorecfg.h jerror.h 
 wrrle.$(O): wrrle.c cdjpeg.h jinclude.h jconfig.h jpeglib.h jmorecfg.h jerror.h cderror.h
 
 diplom: 
-	./cjpeg -dct int -quality 75 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm
-	./djpeg -dct int -ppm -outfile output_base_4CIF_96bps.ppm output_base_4CIF_96bps.jpg
+	./cjpeg -dct float -quality 75 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm
+	./djpeg -dct float -ppm -outfile output_base_4CIF_96bps.ppm output_base_4CIF_96bps.jpg
 
 hpctimer: hpctimer.o
 	#gcc -pg -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o

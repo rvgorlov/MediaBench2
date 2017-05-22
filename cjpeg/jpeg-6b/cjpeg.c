@@ -612,7 +612,7 @@ main (int argc, char **argv)
 
   }
 
-  t = hpctimer_wtime() - t;
+  t = (hpctimer_wtime() - t) / 100;
   
   double rezultTime = 0; 
   /*for (int i = 0; i < N; ++i)
@@ -621,7 +621,8 @@ main (int argc, char **argv)
   }
   rezultTime = rezultTime / N;*/
 
-  printf("Time for %d runs (sec.): %.10f\n", N, t);
+  //printf("Time for %d runs (sec.): %.10f\n", N, t);
+  printf("Mean of %d runs (sec.): %.6f\n", N, t);
   printf("===============================================================\n");
   /* All done. */
   //exit(jerr.num_warnings ? EXIT_WARNING : EXIT_SUCCESS);
