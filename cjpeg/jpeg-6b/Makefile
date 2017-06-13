@@ -32,9 +32,9 @@ PGOPT =
 # You may need to adjust these cc options:
 #GCC
 # vect
-#CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
+CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
 #CFLAGS= $(PGOPT) -O3 -mfpmath=sse -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I$(srcdir)
-CFLAGS= -O3 -funsafe-math-optimizations -fivopts -march=native -flax-vector-conversions -msse4.2 -I$(srcdir)
+#CFLAGS= -O3 -funsafe-math-optimizations -fivopts -march=native -flax-vector-conversions -msse4.2 -I$(srcdir)
 
 #CFLAGS= -O3 -march=native -fivopts -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=1
 # scalar
@@ -175,7 +175,7 @@ all: hpctimer libjpeg.$(A) cjpeg djpeg jpegtran rdjpgcom wrjpgcom
 
 #$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 %.o: %.c 
-	$(CC) $(CFLAGS) -o $@ -c $< $(VECTLOG)
+	$(CC) $(CFLAGS) -o $@ -c $< $(vectlog)
 
 # How to compile with libtool.
 # .c.lo:

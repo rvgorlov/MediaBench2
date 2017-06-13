@@ -53,14 +53,14 @@
 #REPORTS= 2> ./report-gcc-$<.lst
 #REPORTS= 
 
-PROF= -g -pg -static
-#PROF=
+#PROF= -g -pg -static
+PROF=
 
 #
 # GNU gcc
 #
-CC= icc
-#CC = gcc
+#CC= icc
+CC = gcc
 #CC= clang
 
 REPORTS= 2> ./report-$(CC)--$<.lst
@@ -75,7 +75,7 @@ REPORTS= 2> ./report-$(CC)--$<.lst
 
 #clang
 # vect
-CFLAGS = $(PROF) -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize
+#CFLAGS = $(PROF) -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize
 # scalar
 #CFLAGS = $(PROF) -O3 -ffast-math -fno-vectorize
 
@@ -83,7 +83,7 @@ CFLAGS = $(PROF) -O3 -ffast-math -fvectorize -Rpass=loop-vectorize -Rpass-missed
 #vect
 #CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed
 #scalar
-CFLAGS = $(PROF) -O3 -xHost -no-vec 
+#CFLAGS = $(PROF) -O3 -xHost -no-vec 
 
 LL= $(CC)
 
