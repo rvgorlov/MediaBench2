@@ -110,6 +110,9 @@ verify.o:   verify.c config.h global.h mpeg2dec.h
 test:
 	./mpeg2decode -b input_base_4CIF_96bps.mpg -o3 output_base_4CIF_96bps_%03d
 
+testbig:
+	./mpeg2decode -b testbig.mpg -o3 ./output/output_big_%d
+
 profiling:
 	./mpeg2decode -b input_base_4CIF_96bps.mpg -o3 output_base_4CIF_96bps_%03d
 	gprof ./mpeg2decode ./gmon.out > ../../profiling/dec_profiling.txt

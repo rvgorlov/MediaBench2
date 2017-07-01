@@ -59,8 +59,8 @@ PROF=
 #
 # GNU gcc
 #
-#CC= icc
-CC = gcc
+CC= icc
+#CC = gcc
 #CC= clang
 
 REPORTS= 2> ./report-$(CC)--$<.lst
@@ -81,7 +81,7 @@ REPORTS= 2> ./report-$(CC)--$<.lst
 
 #ICC
 #vect
-#CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed
+CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed
 #scalar
 #CFLAGS = $(PROF) -O3 -xHost -no-vec 
 
@@ -121,8 +121,10 @@ hpctimer.o: hpctimer.c hpctimer.h
 diplom:
 	cd src/mpeg2enc; make test 
 	cd src/mpeg2dec; make test
-	
 
+diplombig:
+	cd src/mpeg2enc; make testbig 
+	cd src/mpeg2dec; make testbig
 
 #$(CC) $(CFLAGS) -o $@ -c $< 2> ./reportgcc-$<.lst 
 %.o: %.c 

@@ -24,19 +24,16 @@ VECTLOG=
 
 # The name of your C compiler:
 #CC= clang
-CC= gcc
-#CC= icc
+#CC= gcc
+CC= icc
 
 #PGOPT= -g -pg -static
 PGOPT = 
 # You may need to adjust these cc options:
 #GCC
 # vect
-CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
-#CFLAGS= $(PGOPT) -O3 -mfpmath=sse -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=2 -I$(srcdir)
-#CFLAGS= -O3 -funsafe-math-optimizations -fivopts -march=native -flax-vector-conversions -msse4.2 -I$(srcdir)
+#CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-info-vec-missed -ftree-vectorizer-verbose=2 -I$(srcdir)
 
-#CFLAGS= -O3 -march=native -fivopts -fopt-info-vec -fopt-info-vec-missed -fno-tree-vectorize -ftree-vectorizer-verbose=1
 # scalar
 #CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fno-tree-vectorize -I$(srcdir)
 
@@ -53,7 +50,7 @@ CFLAGS= $(PGOPT) -O3 -ffast-math -fivopts -march=native -fopt-info-vec -fopt-inf
 
 #ICC
 #vect
-#CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -vec_report -I$(srcdir)
+CFLAGS = -O3 -xHost -qopt-report3 -qopt-report-phase=vec,loop -qopt-report-embed -vec_report -I$(srcdir)
 
 #scalar
 #CFLAGS = -O3 -xHost -no-vec -I$(srcdir) 
@@ -362,6 +359,10 @@ wrrle.$(O): wrrle.c cdjpeg.h jinclude.h jconfig.h jpeglib.h jmorecfg.h jerror.h 
 diplom: 
 	./cjpeg -dct float -quality 75 -outfile output_base_4CIF_96bps.jpg input_base_4CIF.ppm
 	./djpeg -dct float -ppm -outfile output_base_4CIF_96bps.ppm output_base_4CIF_96bps.jpg
+
+diplombig:
+	./cjpeg -dct float -quality 75 -outfile simakov.jpg simakov.ppm
+	./djpeg -dct float -ppm -outfile simakov3.ppm simakov.jpg
 
 hpctimer: hpctimer.o
 	#gcc -pg -O0 -Wall -g -std=c11 -c hpctimer.c -o hpctimer.o

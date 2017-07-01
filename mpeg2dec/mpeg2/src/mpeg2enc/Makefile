@@ -82,6 +82,9 @@ writepic.o : writepic.c config.h global.h mpeg2enc.h
 test:
 	./mpeg2encode input_base_4CIF_96bps_15.par output_base_4CIF_96bps_15.mpg
 
+testbig:
+	./mpeg2encode input_base_BIG_96bps_15.par output_base_BIG_15.mpg
+
 profiling:
 	./mpeg2encode input_base_4CIF_96bps_15.par output_base_4CIF_96bps_15.mpg
 	gprof ./mpeg2encode ./gmon.out > ../../profiling/enc_profiling.txt
